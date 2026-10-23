@@ -1,0 +1,59 @@
+# One search per line. Each runs once per country (AU, JP, GB, NZ, HK, SG, KR, CA).
+# English WOTC and EX era
+pokemon base set holo psa
+pokemon base set holo near mint
+pokemon shadowless holo
+pokemon 1st edition holo psa
+pokemon jungle holo psa
+pokemon fossil holo psa
+pokemon team rocket holo psa
+pokemon gym heroes holo psa
+pokemon gym challenge holo psa
+pokemon neo genesis holo psa
+pokemon neo discovery holo psa
+pokemon neo revelation holo psa
+pokemon neo destiny holo psa
+pokemon legendary collection holo
+# Focus eras: e-Card, EX and Generations
+pokemon expedition holo
+pokemon expedition psa
+pokemon aquapolis holo
+pokemon aquapolis crystal
+pokemon skyridge holo
+pokemon skyridge crystal
+pokemon gold star psa
+pokemon gold star cgc
+pokemon gold star near mint
+pokemon ex holo psa 9
+pokemon ex psa 10
+pokemon crystal guardians psa
+pokemon dragon frontiers psa
+pokemon delta species psa
+pokemon holon phantoms psa
+pokemon unseen forces psa
+pokemon legend maker psa
+pokemon power keepers psa
+pokemon team rocket returns psa
+pokemon deoxys ex psa
+pokemon firered leafgreen ex psa
+pokemon generations radiant collection psa
+pokemon generations charizard ex psa
+pokemon japanese e series 1st edition psa
+pokemon japanese pcg psa
+pokemon wotc holo cgc 9
+pokemon wotc holo bgs 9
+pokemon black star promo psa
+# Japanese
+pokemon japanese old back holo psa
+pokemon japanese no rarity psa
+pokemon japanese neo holo psa
+pokemon japanese gym holo psa
+pokemon japanese rocket gang psa
+pokemon japanese vending psa
+pokemon japanese holo near mint 1996
+pokemon japanese promo psa 10 1998
+# Misspellings
+charzard holo
+blastiose holo
+venasaur holo
+pokeman holo psa
