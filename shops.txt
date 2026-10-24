@@ -1,0 +1,25 @@
+# Shops read by store_scan.py each morning. One per line:
+# domain | name | country | platform (shopify or woo) | collections (comma-separated, or all) | currency (optional)
+trollaustralia.com.au | Troll Australia | AU | shopify | psa-graded-pokemon-cards
+ozziecollectables.com | Ozzie Collectables | AU | shopify | pokemon-graded-cards,pokemon-singles
+clickandcollectables.com.au | Click and Collectables | AU | shopify | pokemon-graded-cards
+mayhemcollectables.com.au | Mayhem Collectables | AU | shopify | pokemon-singles
+gamerscombined.com.au | Gamers Combined | AU | shopify | pokemon-cards
+purplishtcg.com | Purplish TCG | AU | shopify | all
+cherrycollectables.com.au | Cherry Collectables | AU | shopify | graded-pokemon
+mrcollectable.com.au | Mr Collectable | AU | shopify | pokemon-graded-cards
+pwatcg.com | Pokeworld Australia | AU | shopify | graded-cards
+pokebox.com.au | PokeBox Australia | AU | shopify | english-pokemon-tcg-graded-cards
+urbanempirecollectables.com | Urban Empire Collectables | AU | shopify | pokemon-1
+thecardcave.com.au | The Card Cave | AU | shopify | pokemon-singles
+herostash.com.au | Herostash | AU | shopify | pokemon
+monstermart.com.au | Monster Mart | AU | shopify | all
+frenlybricks.store | Frenly Bricks | AU | shopify | pokemon-graded
+lightofcards.com.au | Light of Cards | AU | shopify | all
+thecardhub.co.nz | The Card Hub NZ | NZ | shopify | pokemon-graded
+hollowlogcards.co.nz | Hollowlog Cards | NZ | shopify | graded-cards
+thepocketportfolio.nz | The Pocket Portfolio | NZ | shopify | all
+cardsensei.co.nz | Card Sensei | NZ | shopify | all
+cardnova.co.nz | Cardnova | NZ | shopify | pokemon
+slabd.com.au | Slabd | AU | woo | pokemon
+northernbeachespokemon.com.au | Northern Beaches Pokemon | AU | woo | japanese-vintage
