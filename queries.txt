@@ -59,3 +59,11 @@ charzard holo
 blastiose holo
 venasaur holo
 pokeman holo psa
+# Want list (a "+" keeps modern cards for that search; edit these to match your want list)
++galarian ponyta swsh013
++pokemon celebi holo psa
++pokemon celebi holo near mint
++charizard ex 100/106 flashfire
++pokemon heartgold soulsilver holo psa
++pokemon japanese l1 l2 l3 1st edition holo psa
++pokemon black star promo psa 10

@@ -43,10 +43,10 @@ def search(tok, q, country, offset=0, limit=200):
         return json.load(r)
 
 
-def keep(title):
+def keep(title, modern_ok=False):
     if REPRINT.search(title) or JUNK.search(title):
         return False
-    if MODERN.search(title):
+    if MODERN.search(title) and not modern_ok:
         return False
     return bool(GRADE.search(title))
 
@@ -59,9 +59,12 @@ def main():
     tok = token(cid, secret)
     seen, out, calls = set(), [], 0
     for q in queries:
+        # A "+" at the start marks a want-list search: modern (2018+) cards are kept for it.
+        want = q.startswith("+")
+        sq = q.lstrip("+").strip()
         for c in COUNTRIES:
             try:
-                res = search(tok, q, c)
+                res = search(tok, sq, c)
                 calls += 1
             except Exception as e:  # keep going on one bad query
                 print("query failed:", q, c, e, file=sys.stderr)
@@ -69,7 +72,7 @@ def main():
             for it in res.get("itemSummaries", []) or []:
                 iid = it.get("legacyItemId") or ((it.get("itemId") or "").split("|") + ["", ""])[1] or None
                 title = it.get("title", "")
-                if not iid or iid in seen or not keep(title):
+                if not iid or iid in seen or not keep(title, want):
                     continue
                 seen.add(iid)
                 price = it.get("currentBidPrice") or it.get("price") or {}

@@ -51,12 +51,25 @@ def shopify(shop, coll):
                 continue
             if JUNK.search(p.get("title", "")):
                 continue
+            url = f"https://{shop['domain']}/products/{p.get('handle')}"
+            listed = (p.get("published_at") or p.get("created_at") or "")[:10]
+            named = [v for v in vs if (v.get("title") or "").strip().lower() not in ("", "default title", "default")]
+            if len(vs) > 1 and named:
+                # one row per in-stock option (usually condition: Near Mint, Lightly Played...), so a played copy's price
+                # is never shown as if it were Near Mint
+                for v in named:
+                    price = float(v.get("price") or 0)
+                    if price > 0:
+                        r = item(shop, f"{p['id']}-{v.get('id')}", f"{p.get('title', '')} [{v.get('title')}]", price,
+                                 shop["currency"], True, f"{url}?variant={v.get('id')}", listed)
+                        out.append(r)
+                continue
             price = min(float(v.get("price") or 0) for v in vs)
             if price <= 0:
                 continue
-            url = f"https://{shop['domain']}/products/{p.get('handle')}"
-            out.append(item(shop, p["id"], p.get("title", ""), price, shop["currency"], True, url,
-                            (p.get("published_at") or p.get("created_at") or "")[:10]))
+            vt = (vs[0].get("title") or "").strip()
+            title = p.get("title", "") + (f" [{vt}]" if vt.lower() not in ("", "default title", "default") else "")
+            out.append(item(shop, p["id"], title, price, shop["currency"], True, url, listed))
         time.sleep(PAUSE)
     return out
 
