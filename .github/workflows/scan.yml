@@ -21,10 +21,16 @@ jobs:
       - name: Read shop catalogues
         continue-on-error: true
         run: python store_scan.py
+      - name: Build finder feed
+        continue-on-error: true
+        run: python build_feed.py listings.json feed.js - stores.json
       - name: Save results
         run: |
           git config user.name "ebay-feed-bot"
           git config user.email "ebay-feed-bot@users.noreply.github.com"
-          git add listings.json listings.csv stores.json 2>/dev/null || git add listings.json listings.csv
+          git add listings.json listings.csv stores.json feed.js 2>/dev/null || git add listings.json listings.csv
           git diff --cached --quiet || git commit -m "eBay feed $(date -u +%F)"
           git push
+      - name: Refresh the finder's copy
+        continue-on-error: true
+        run: curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/feed.js" || true
