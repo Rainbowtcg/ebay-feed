@@ -43,6 +43,8 @@ pokemon japanese pcg psa
 pokemon wotc holo cgc 9
 pokemon wotc holo bgs 9
 pokemon black star promo psa
+pokemon prime holo (heartgold,soulsilver,unleashed,undaunted,triumphant,"call of legends") -primeape
+
 # Japanese
 pokemon japanese old back holo psa
 pokemon japanese no rarity psa
