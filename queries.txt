@@ -1,5 +1,112 @@
-# One search per line. Each runs once per country (AU, JP, GB, NZ, HK, SG, KR, CA).
-# English WOTC and EX era
+# Vintage Slab Finder feed searches (rewritten 28 Oct 2026).
+# One search per line; each runs once per country listed in ebay_search.py.
+# Lines starting with "+" are want-list searches: modern (2018+) cards are kept for them.
+# Every result still has to have a grade (PSA/CGC/BGS 9-10) or NM/mint in its title to be kept.
+# eBay returns at most 200 results per search, so busy sets are split by grade.
+# (a,b) means a OR b; -word drops titles with that word.
+
+# ---------- e-Card era (focus) ----------
+pokemon expedition holo psa 9
+pokemon expedition holo psa 10
+pokemon expedition (cgc,bgs) holo
+pokemon expedition holo near mint
+pokemon expedition reverse holo psa
+pokemon aquapolis holo psa
+pokemon aquapolis crystal
+pokemon aquapolis holo near mint
+pokemon skyridge holo psa
+pokemon skyridge crystal
+pokemon skyridge holo near mint
+pokemon legendary collection holo psa
+pokemon legendary collection reverse holo
+pokemon e-series (expedition,aquapolis,skyridge) cgc
+pokemon japanese (e-series,"e series",e-card) 1st edition psa
+pokemon japanese ("split earth","mysterious mountains","wind from the sea","town on no map","base expansion pack") holo
+pokemon japanese crystal holo (psa,cgc) 1st edition
+
+# ---------- EX era (focus) ----------
+pokemon ex ruby sapphire holo psa
+pokemon ex sandstorm holo psa
+pokemon ex dragon holo psa
+pokemon ex (magma,aqua) holo psa
++pokemon "team magma" (psa,cgc,bgs)
++pokemon "team aqua" (psa,cgc,bgs)
+pokemon ex hidden legends psa
+pokemon ex firered leafgreen holo psa
+pokemon ex team rocket returns holo psa
+pokemon team rocket returns dark (psa,cgc)
+pokemon ex deoxys holo psa
+pokemon ex emerald holo psa
+pokemon ex unseen forces holo psa
+pokemon ex delta species holo psa
+pokemon ex legend maker holo psa
+pokemon ex holon phantoms holo psa
+pokemon ex crystal guardians holo psa
+pokemon ex dragon frontiers holo psa
+pokemon ex power keepers holo psa
+pokemon ex holo near mint (2003,2004,2005,2006,2007)
+pokemon ex ultra rare psa 9
+pokemon ex ultra rare psa 10
+pokemon delta species psa 10
+pokemon gold star psa
+pokemon gold star cgc
+pokemon gold star near mint
+pokemon pop series promo psa
+pokemon japanese pcg 1st edition holo psa
+pokemon japanese pcg gold star
+pokemon japanese ("holon research tower","holon phantom","miracle crystal","offense and defense","golden sky","clash of the blue sky","rocket gang strikes back") psa
+pokemon japanese adv 1st edition holo psa
+# Want-list chase cards from these eras
+pokemon dragonite ex dragon frontiers
+pokemon tyranitar ex dragon frontiers
+pokemon charizard delta crystal guardians
+pokemon charizard ex firered leafgreen
+pokemon celebi ex unseen forces
+pokemon mew ex holon phantoms
+
+# ---------- Diamond & Pearl / Platinum (want: Lv.X, GL) ----------
++pokemon lv.x holo psa
++pokemon lv.x holo near mint
++pokemon japanese lv.x 1st edition psa
+pokemon raichu lv.x stormfront
+pokemon gl holo (rising rivals,supreme victors,platinum) psa
+pokemon japanese gl 1st edition psa
+
+# ---------- HeartGold SoulSilver (want: era, Prime) ----------
++pokemon heartgold soulsilver holo psa
+pokemon prime holo psa (heartgold,soulsilver,unleashed,undaunted,triumphant,"call of legends") -primeape
+pokemon prime holo near mint (unleashed,undaunted,triumphant) -primeape
+pokemon prime cgc (unleashed,undaunted,triumphant) -primeape
+pokemon (umbreon,espeon,raichu,scizor,slowking,houndoom) prime undaunted
+pokemon (celebi,absol,mew,gengar) prime triumphant
+pokemon (kingdra,tyranitar,crobat,steelix) prime unleashed
+pokemon (feraligatr,typhlosion,meganium) prime heartgold
+pokemon call of legends shiny holo psa
++pokemon japanese (l1,l2,l3,"heartgold collection","soulsilver collection","reviving legends","clash at the summit") 1st edition holo psa
+
+# ---------- XY Generations (focus) ----------
+pokemon generations radiant collection psa 9
+pokemon generations radiant collection psa 10
+pokemon generations radiant collection near mint
+pokemon generations charizard ex psa
+pokemon generations (m charizard,sylveon,gardevoir,pikachu,flareon) ex psa
+pokemon generations holo ex near mint
+
+# ---------- Other want-list lines ----------
++pokemon celebi holo psa
++pokemon celebi holo near mint
++pokemon celebi (cgc,bgs) holo
++charizard ex 100/106 flashfire
++charizard ex full art flashfire psa
++galarian ponyta swsh013
++pokemon prism star psa
++pokemon prism star near mint
++pokemon best of game promo psa
++pokemon black star promo psa 10
+pokemon wotc black star promo psa
+pokemon japanese promo psa 10 (1998,1999,2000,2001)
+
+# ---------- WOTC classics ----------
 pokemon base set holo psa
 pokemon base set holo near mint
 pokemon shadowless holo
@@ -13,57 +120,26 @@ pokemon neo genesis holo psa
 pokemon neo discovery holo psa
 pokemon neo revelation holo psa
 pokemon neo destiny holo psa
-pokemon legendary collection holo
-# Focus eras: e-Card, EX and Generations
-pokemon expedition holo
-pokemon expedition psa
-pokemon aquapolis holo
-pokemon aquapolis crystal
-pokemon skyridge holo
-pokemon skyridge crystal
-pokemon gold star psa
-pokemon gold star cgc
-pokemon gold star near mint
-pokemon ex holo psa 9
-pokemon ex psa 10
-pokemon crystal guardians psa
-pokemon dragon frontiers psa
-pokemon delta species psa
-pokemon holon phantoms psa
-pokemon unseen forces psa
-pokemon legend maker psa
-pokemon power keepers psa
-pokemon team rocket returns psa
-pokemon deoxys ex psa
-pokemon firered leafgreen ex psa
-pokemon generations radiant collection psa
-pokemon generations charizard ex psa
-pokemon japanese e series 1st edition psa
-pokemon japanese pcg psa
 pokemon wotc holo cgc 9
 pokemon wotc holo bgs 9
-pokemon black star promo psa
-pokemon prime holo (heartgold,soulsilver,unleashed,undaunted,triumphant,"call of legends") -primeape
 
-# Japanese
-pokemon japanese old back holo psa
+# ---------- Japanese vintage ----------
+pokemon japanese old back holo psa 9
+pokemon japanese old back holo psa 10
 pokemon japanese no rarity psa
 pokemon japanese neo holo psa
 pokemon japanese gym holo psa
 pokemon japanese rocket gang psa
 pokemon japanese vending psa
 pokemon japanese holo near mint 1996
-pokemon japanese promo psa 10 1998
-# Misspellings
+
+# ---------- Misspellings (hidden from most buyers) ----------
 charzard holo
+charizzard holo
 blastiose holo
 venasaur holo
 pokeman holo psa
-# Want list (a "+" keeps modern cards for that search; edit these to match your want list)
-+galarian ponyta swsh013
-+pokemon celebi holo psa
-+pokemon celebi holo near mint
-+charizard ex 100/106 flashfire
-+pokemon heartgold soulsilver holo psa
-+pokemon japanese l1 l2 l3 1st edition holo psa
-+pokemon black star promo psa 10
+pokemom holo psa
+pokemon expidition holo
+pokemon aquapolice holo
+pokemon sky ridge holo
