@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 
 API = "https://api.ebay.com"
 CATEGORY = "183454"  # CCG Individual Cards
-COUNTRIES = ["AU", "JP", "GB", "NZ", "HK", "SG", "KR", "CA"]
+COUNTRIES = ["AU", "JP", "NZ", "HK", "SG", "KR"]
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 REPRINT = re.compile(r"celebrations?|classic collection|25th|30th|anniversary|evolutions|\bcp6\b|reprint|proxy|custom|fan ?art|orica|replica|metal card|gold (plated|metal)|digital|tcg ?live|code card|\bonline code", re.I)
