@@ -143,3 +143,29 @@ pokemom holo psa
 pokemon expidition holo
 pokemon aquapolice holo
 pokemon sky ridge holo
+# ---------- Want-list additions, Nov 2026 ----------
++pokemon undaunted reverse holo psa
++pokemon undaunted reverse holo near mint
++pokemon undaunted reverse (cgc,bgs)
++pokemon scyther 36/90
++pokemon scyther undaunted (holo,reverse)
++togetic swsh276
++lapras swsh051
+pokemon pidgeot 10/112
+pokemon pidgeot firered leafgreen
+pokemon japanese pidgeot 064/082
+pokemon pidgeot "flight of legends"
++latias ex 053/051
++latias ex 112/116
+pokemon latias ex plasma freeze full art
++sceptile ex 84/98
+pokemon sceptile ex ancient origins full art
+pokemon dpbp psa
+pokemon dpbp near mint
+pokemon japanese dpbp holo
+pokemon japanese ("space-time creation","secret of the lakes","shining darkness") holo psa
+pokemon japanese ("moonlit pursuit","dawn dash","cry from the mysterious","temple of anger") holo psa
+pokemon japanese "intense fight in the destroyed sky" holo psa
+pokemon japanese (dp1,dp2,dp3,dp4,dp5,dp6) near mint
++pokemon xy evolutions holo psa -prismatic
++pokemon xy evolutions near mint -prismatic
