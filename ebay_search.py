@@ -44,8 +44,11 @@ def search(tok, q, country, offset=0, limit=200):
 
 
 def keep(title, modern_ok=False):
-    if REPRINT.search(title) or JUNK.search(title):
+    # "+" want-list searches may keep XY Evolutions cards; every other reprint is still dropped.
+    check = re.sub(r"\bevolutions\b", "", title, flags=re.I) if modern_ok else title
+    if REPRINT.search(check) or JUNK.search(title):
         return False
+
     if MODERN.search(title) and not modern_ok:
         return False
     return bool(GRADE.search(title))
