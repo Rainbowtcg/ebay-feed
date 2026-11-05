@@ -183,3 +183,32 @@ pokemon "legendary treasures" radiant collection
 pokemon japanese (bw1,bw2,bw3,bw4,bw5,bw6,bw7,bw8,bw9) sr 1st edition psa
 pokemon japanese (xy1,xy2,xy3,xy4,xy5,xy6,xy7,xy8,xy9,xy10,xy11) sr 1st edition psa
 pokemon japanese (vs,web) 1st edition psa
+
+# ---------- Want-list cards, Japan and Australia ----------
++pokemon undaunted reverse holo
++pokemon raichu prime undaunted
++pokemon scizor prime undaunted
++pokemon slowking prime undaunted
++pokemon kingdra prime unleashed
++pokemon absol prime triumphant
++pokemon celebi prime triumphant
++pokemon feraligatr prime heartgold
++pokemon typhlosion prime heartgold
++pokemon japanese (raichu,scizor,slowking,kingdra,absol,celebi,feraligatr,typhlosion) prime
++pokemon expedition dugtrio 10/165
++pokemon expedition venusaur 30/165
++pokemon japanese dugtrio (e-series,"e series",expedition)
++pokemon japanese venusaur (e-series,"e series",expedition)
++pokemon dragonite ex 91/101
++pokemon tyranitar ex 99/101
++pokemon japanese (dragonite,tyranitar) ex "dragon frontiers"
++pokemon charizard 4/100 crystal guardians
++pokemon japanese charizard delta "miracle crystal"
++pokemon raichu lv.x 99/100
++pokemon japanese raichu lv.x stormfront
++pokemon sylveon ex rc21
++pokemon m gardevoir ex rc31
++pokemon charizard rc5
++pokemon charizard ex 11/83
++pokemon sceptile ex ancient origins
++pokemon japanese sceptile ex sr
