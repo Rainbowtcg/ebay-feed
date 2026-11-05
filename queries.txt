@@ -169,3 +169,17 @@ pokemon japanese "intense fight in the destroyed sky" holo psa
 pokemon japanese (dp1,dp2,dp3,dp4,dp5,dp6) near mint
 +pokemon xy evolutions holo psa -prismatic
 +pokemon xy evolutions near mint -prismatic
+
+# ---------- Era additions ----------
+pokemon legend (top,bottom) (unleashed,undaunted,triumphant,"call of legends")
+pokemon shining (neo,revelation,destiny) psa
+pokemon shining (neo,revelation,destiny) near mint
+pokemon "pop series" holo psa
+pokemon ("next destinies","dark explorers","dragons exalted","boundaries crossed") full art
+pokemon ("plasma storm","plasma freeze","plasma blast","legendary treasures") full art
+pokemon ("phantom forces","primal clash","roaring skies",breakthrough,breakpoint) full art
+pokemon "team plasma" holo
+pokemon "legendary treasures" radiant collection
+pokemon japanese (bw1,bw2,bw3,bw4,bw5,bw6,bw7,bw8,bw9) sr 1st edition psa
+pokemon japanese (xy1,xy2,xy3,xy4,xy5,xy6,xy7,xy8,xy9,xy10,xy11) sr 1st edition psa
+pokemon japanese (vs,web) 1st edition psa
