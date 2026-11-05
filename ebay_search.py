@@ -52,7 +52,7 @@ def keep(title, modern_ok=False):
 
     if MODERN.search(title) and not modern_ok:
         return False
-        if modern_ok:  # "+" want-list searches also keep titles with no condition word; played raw copies stay out
+    if modern_ok:  # "+" want-list searches also keep titles with no condition word; played raw copies stay out
         slab = re.search(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\b", title, re.I)
         return bool(slab) or not PLAYED.search(title)
     return bool(GRADE.search(title))
