@@ -23,6 +23,7 @@ REPRINT = re.compile(r"celebrations?|classic collection|25th|30th|anniversary|ev
 MODERN = re.compile(r"\b(20(1[89]|2\d))\b|sword|shield|scarlet|violet|\bsv\d|\bswsh|vmax|vstar|\bv max\b|pokemon 151|obsidian|paldea|paradox|evolving skies|fusion strike|brilliant stars|astral radiance|lost origin|silver tempest|crown zenith|hidden fates|shining fates|team up|unbroken bonds|unified minds|cosmic eclipse|mega evolution|prismatic|surging sparks|stellar crown|temporal forces|twilight masquerade|journey together|destined rivals|white flare|black bolt", re.I)
 JUNK = re.compile(r"\blot\b|bundle|binder|sealed|booster|pack\b|box\b|tin\b|sleeve|playmat|case only|empty|choose|pick your|you pick|mystery|repack|graded card guaranteed", re.I)
 GRADE = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\s*-?\s*(10|9\.5|9)\b|gem ?mint|\bNM\b|near mint|mint", re.I)
+PLAYED = re.compile(r"lightly|moderately|heavily|\bplayed\b|\bLP\b|\bMP\b|\[HP\]|damaged|\bdmg\b|creased", re.I)
 
 
 def token(cid, secret):
@@ -51,7 +52,11 @@ def keep(title, modern_ok=False):
 
     if MODERN.search(title) and not modern_ok:
         return False
+        if modern_ok:  # "+" want-list searches also keep titles with no condition word; played raw copies stay out
+        slab = re.search(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\b", title, re.I)
+        return bool(slab) or not PLAYED.search(title)
     return bool(GRADE.search(title))
+
 
 
 def main():
