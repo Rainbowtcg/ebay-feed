@@ -212,3 +212,17 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon charizard ex 11/83
 +pokemon sceptile ex ancient origins
 +pokemon japanese sceptile ex sr
+
+# ---------- Under-watched cards ----------
++pokemon neo discovery (smeargle,wobbuffet) holo
++pokemon neo discovery (scizor,hitmontop) holo
++pokemon neo discovery unown a holo
++pokemon neo genesis kingdra 8/111
++pokemon jungle (vaporeon,clefable) holo
++pokemon fossil lapras 10/62
++pokemon base set chansey 3/102
++pokemon ex reverse holo psa 9
++pokemon ex reverse holo psa 10
++pokemon (expedition,aquapolis,skyridge) reverse holo psa
++pokemon ex (delta species,holon phantoms,dragon frontiers) reverse holo
++pokemon ex (legend maker,unseen forces,crystal guardians) reverse holo
