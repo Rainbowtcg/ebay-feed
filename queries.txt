@@ -226,3 +226,27 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon (expedition,aquapolis,skyridge) reverse holo psa
 +pokemon ex (delta species,holon phantoms,dragon frontiers) reverse holo
 +pokemon ex (legend maker,unseen forces,crystal guardians) reverse holo
+
+# ---------- Promo codes by era, English and Japanese (want list, 6 Nov 2026) ----------
++pokemon wotc black star promo
++pokemon japanese promo (1997,1998,1999,2000,2001,2002)
++pokemon nintendo black star promo
++pokemon (pcg-p,"pcg/p")
++pokemon (adv-p,"adv/p")
++pokemon diamond pearl black star promo
++pokemon (dp-p,"dp/p")
++pokemon (dpt-p,"dpt/p")
++pokemon hgss black star promo
++pokemon l-p promo
++pokemon black white black star promo
++pokemon (bw-p,"bw/p")
++pokemon xy black star promo
++pokemon (xy-p,"xy/p")
++pokemon sm black star promo
++pokemon (sm-p,"sm/p")
++pokemon swsh black star promo
++pokemon s-p promo
++pokemon svp black star promo
++pokemon (sv-p,"sv/p")
++pokemon mep black star promo
++pokemon m-p promo
