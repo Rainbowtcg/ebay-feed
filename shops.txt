@@ -4,10 +4,10 @@ trollaustralia.com.au | Troll Australia | AU | shopify | psa-graded-pokemon-card
 ozziecollectables.com | Ozzie Collectables | AU | shopify | pokemon-graded-cards,pokemon-singles
 clickandcollectables.com.au | Click and Collectables | AU | shopify | pokemon-graded-cards
 mayhemcollectables.com.au | Mayhem Collectables | AU | shopify | pokemon-singles
-gamerscombined.com.au | Gamers Combined | AU | shopify | pokemon-cards
+gamerscombined.com.au | Gamers Combined | AU | shopify | auto
 purplishtcg.com | Purplish TCG | AU | shopify | all
 cherrycollectables.com.au | Cherry Collectables | AU | shopify | graded-pokemon
-mrcollectable.com.au | Mr Collectable | AU | shopify | pokemon-graded-cards
+mrcollectable.com.au | Mr Collectable | AU | shopify | auto
 pwatcg.com | Pokeworld Australia | AU | shopify | graded-cards
 pokebox.com.au | PokeBox Australia | AU | shopify | english-pokemon-tcg-graded-cards
 urbanempirecollectables.com | Urban Empire Collectables | AU | shopify | pokemon-1
@@ -20,6 +20,26 @@ thecardhub.co.nz | The Card Hub NZ | NZ | shopify | pokemon-graded
 hollowlogcards.co.nz | Hollowlog Cards | NZ | shopify | graded-cards
 thepocketportfolio.nz | The Pocket Portfolio | NZ | shopify | all
 cardsensei.co.nz | Card Sensei | NZ | shopify | all
-cardnova.co.nz | Cardnova | NZ | shopify | pokemon
+cardnova.co.nz | Cardnova | NZ | shopify | auto
 slabd.com.au | Slabd | AU | woo | pokemon
 northernbeachespokemon.com.au | Northern Beaches Pokemon | AU | woo | japanese-vintage
+# Added Nov 2026: the shop finds its own graded Pokemon collections ("auto")
+acecollectibles.com.au | Ace Collectibles | AU | shopify | auto
+darkwolfcollectibles.com.au | Darkwolf Collectibles | AU | shopify | auto
+houseofcardsnco.com.au | House of Cards | AU | shopify | auto
+kollecter.com.au | Kollecter | AU | shopify | auto
+lunacards.com.au | Luna Cards | AU | shopify | auto
+mintcollectables.com.au | Mint Collectables | AU | shopify | auto
+mistyscollectables.com.au | Mistys Collectables | AU | shopify | auto
+pidoofcollectibles.com | Pidoof Collectibles | AU | shopify | auto
+pokemoncardsperth.com.au | Pokemon Cards Perth | AU | shopify | auto
+pokeworld.co.nz | Pokeworld NZ | NZ | shopify | auto
+thecardspot.com.au | The Card Spot | AU | shopify | auto
+thepokemontrainer.com | The Pokemon Trainer | AU | shopify | auto
+# Sealed only: ETB and booster box prices, no singles
+grailborne.com.au | Grailborne | AU | shopify | sealed-only
+pushas.com.au | Pushas | AU | shopify | sealed-only
+gameology.com.au | Gameology | AU | shopify | sealed-only
+dropstore.com.au | Dropstore | AU | shopify | sealed-only
+pokesource.com.au | PokeSource | AU | shopify | sealed-only
+collectiblemadness.com.au | Collectible Madness | AU | shopify | sealed-only

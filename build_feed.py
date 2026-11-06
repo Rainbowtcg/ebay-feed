@@ -36,6 +36,12 @@ for it in items:
   bo=1 if 'BEST_OFFER' in (it.get('options') or []) else 0
   rows.append([it['id'],t,round(p,2),round(post,2),it.get('country') or '',it.get('seller') or '',auc,bo,it.get('bids') or 0,(it.get('ends') or '')[:16]]+([it.get('url') or ''] if it.get('shop') else []))
 out={'generated':d.get('generated'),'count':len(rows),'shops':sum(1 for r in rows if len(r)>10),'items':rows}
+try:
+  out['shopPhotos']={x['shop']:x['photos'] for x in json.load(open(sys.argv[4])).get('shops',[]) if x.get('photos')}
+except Exception as e: print('shop photo labels not used:',e)
+try:
+  out['sealed']=json.load(open('sealed.json',encoding='utf8')).get('items',[])
+except Exception as e: print('sealed.json not used:',e)
 s='window.FEED='+json.dumps(out,ensure_ascii=True,separators=(',',':'))+';'
 open(sys.argv[2],'w').write(s)
 print(len(rows),'items',round(len(s)/1e6,2),'MB')
