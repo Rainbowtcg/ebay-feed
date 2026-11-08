@@ -256,6 +256,7 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon japanese 11th movie (promo,commemoration)
 +pokemon umbreon 115/bw-p
 +pokemon phanpy 009/l-p
++pokemon victini (234/bw-p,"234/bw","mewtwo vs genesect")
 +pokemon zapdos ex (011/play,"11/play","players club","player's club","play promo")
 +pokemon japanese ("players club","player's club","play promo","play promos")
 
