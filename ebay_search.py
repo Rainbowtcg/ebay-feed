@@ -47,7 +47,9 @@ def search(tok, q, country, offset=0, limit=200):
 def keep(title, modern_ok=False):
     # "+" want-list searches may keep XY Evolutions cards; every other reprint is still dropped.
     check = re.sub(r"\bevolutions\b", "", title, flags=re.I) if modern_ok else title
-    if REPRINT.search(check) or JUNK.search(title):
+    # "+" want-list searches keep sealed single promos (still-sealed movie/campaign cards); boosters, boxes and lots stay out.
+    junk_title = re.sub(r"\bsealed\b", "", title, flags=re.I) if modern_ok else title
+    if REPRINT.search(check) or JUNK.search(junk_title):
         return False
 
     if MODERN.search(title) and not modern_ok:

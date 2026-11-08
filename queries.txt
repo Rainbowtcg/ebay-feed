@@ -250,3 +250,9 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon (sv-p,"sv/p")
 +pokemon mep black star promo
 +pokemon m-p promo
+
+# ---------- Want list (added 8 Nov 2026) ----------
++pokemon japanese 10th movie (promo,commemoration)
++pokemon japanese 11th movie (promo,commemoration)
++pokemon umbreon 115/bw-p
++pokemon phanpy 009/l-p
