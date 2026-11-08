@@ -257,6 +257,11 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon umbreon 115/bw-p
 +pokemon phanpy 009/l-p
 +pokemon victini (234/bw-p,"234/bw","mewtwo vs genesect")
++pokemon raichu ("entry pack","lv.37","lv 37","lv37") japanese
++pokemon raichu japanese holo (2007,2008) dp -dpbp
++ライチュウ エントリーパック
++pokemon raikou ("cracked ice","crkd ice",shattered,"let's play","lets play","theme deck") 32/73
++pokemon raikou 32/73 (cracked,"let's play") psa
 +pokemon zapdos ex (011/play,"11/play","players club","player's club","play promo")
 +pokemon japanese ("players club","player's club","play promo","play promos")
 
