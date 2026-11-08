@@ -256,3 +256,17 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon japanese 11th movie (promo,commemoration)
 +pokemon umbreon 115/bw-p
 +pokemon phanpy 009/l-p
++pokemon zapdos ex (011/play,"11/play","players club","player's club","play promo")
++pokemon japanese ("players club","player's club","play promo","play promos")
+
+# ---------- CoroCoro Mew (every spelling) ----------
++pokemon mew (corocoro,"coro coro","coro-coro",korokoro,"koro koro",corocorro,corrocorro,korocoro) -mewtwo
++mew (corocoro,"coro coro",korokoro,"koro koro") promo -mewtwo
++pokemon mew ("corocoro comic","coro coro comic","corocoro ichiban","coro coro ichiban","comic promo","magazine promo") -mewtwo
++ミュウ (コロコロ,コロコロコミック,コロコロイチバン)
++ポケモンカード ミュウ コロコロ
++pokemon mew (old back,"no.151","no. 151") promo japanese -mewtwo
++pokemon mew japanese promo -mewtwo
++pokemon ("lily mew","glossy mew","mew glossy") -mewtwo
++pokemon "shining mew" (corocoro,"coro coro",promo,151,japanese)
++ひかるミュウ
