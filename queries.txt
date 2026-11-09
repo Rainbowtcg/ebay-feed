@@ -280,3 +280,11 @@ pokemon japanese (vs,web) 1st edition psa
 # ---------- Want list (added 9 Nov 2026) ----------
 +pokemon eevee (bw94,"bw 94")
 +pokemon porygon2 085/106
+
+# ---------- Want list (added 10 Nov 2026) ----------
++pokemon charizard ex (xy121,"xy 121")
++pokemon southern islands (holo,promo,psa,cgc)
++pokemon japanese (southern island,southern islands) promo
++pokemon mew (southern island,southern islands,"r.i.","no.151") -mewtwo
++pokemon japanese (r.i.,"rainbow island","tropical island") promo 1999
++南の島 ポケモンカード
