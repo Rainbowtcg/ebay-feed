@@ -276,3 +276,7 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon ("lily mew","glossy mew","mew glossy") -mewtwo
 +pokemon "shining mew" (corocoro,"coro coro",promo,151,japanese)
 +ひかるミュウ
+
+# ---------- Want list (added 9 Nov 2026) ----------
++pokemon eevee (bw94,"bw 94")
++pokemon porygon2 085/106

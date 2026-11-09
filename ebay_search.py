@@ -23,6 +23,10 @@ REPRINT = re.compile(r"celebrations?|classic collection|25th|30th|anniversary|ev
 MODERN = re.compile(r"\b(20(1[89]|2\d))\b|sword|shield|scarlet|violet|\bsv\d|\bswsh|vmax|vstar|\bv max\b|pokemon 151|obsidian|paldea|paradox|evolving skies|fusion strike|brilliant stars|astral radiance|lost origin|silver tempest|crown zenith|hidden fates|shining fates|team up|unbroken bonds|unified minds|cosmic eclipse|mega evolution|prismatic|surging sparks|stellar crown|temporal forces|twilight masquerade|journey together|destined rivals|white flare|black bolt", re.I)
 JUNK = re.compile(r"\blot\b|bundle|binder|sealed|booster|pack\b|box\b|tin\b|sleeve|playmat|case only|empty|choose|pick your|you pick|mystery|repack|graded card guaranteed", re.I)
 GRADE = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\s*-?\s*(10|9\.5|9)\b|gem ?mint|\bNM\b|near mint|mint", re.I)
+# Second pass per search: raw cards the seller marked "Near Mint or Better" in eBay's Card Condition field,
+# so un-graded cards with plain titles (no "NM"/"PSA" words) are found too. Played/damaged copies stay out.
+NM_ASPECT = "categoryId:183454,Card Condition:{Near Mint or Better}"
+NM_PASS = os.environ.get("NM_PASS", "1") != "0"
 PLAYED = re.compile(r"lightly|moderately|heavily|\bplayed\b|\bLP\b|\bMP\b|\[HP\]|damaged|\bdmg\b|creased", re.I)
 
 
@@ -34,9 +38,11 @@ def token(cid, secret):
         return json.load(r)["access_token"]
 
 
-def search(tok, q, country, offset=0, limit=200):
+def search(tok, q, country, offset=0, limit=200, aspect=None):
     params = {"q": q, "category_ids": CATEGORY, "limit": str(limit), "offset": str(offset),
               "filter": f"itemLocationCountry:{country},buyingOptions:{{FIXED_PRICE|AUCTION|BEST_OFFER}}"}
+    if aspect:
+        params["aspect_filter"] = aspect
     req = urllib.request.Request(API + "/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode(params),
                                  headers={"Authorization": "Bearer " + tok, "X-EBAY-C-MARKETPLACE-ID": "EBAY_AU",
                                           "X-EBAY-C-ENDUSERCTX": "contextualLocation=country=AU,zip=2447"})
@@ -60,6 +66,17 @@ def keep(title, modern_ok=False):
     return bool(GRADE.search(title))
 
 
+def keep_nm(title, modern_ok=False):
+    """For listings eBay already filtered to Card Condition: Near Mint or Better. No grade word needed in the title."""
+    check = re.sub(r"\bevolutions\b", "", title, flags=re.I) if modern_ok else title
+    junk_title = re.sub(r"\bsealed\b", "", title, flags=re.I) if modern_ok else title
+    if REPRINT.search(check) or JUNK.search(junk_title) or PLAYED.search(title):
+        return False
+    if MODERN.search(title) and not modern_ok:
+        return False
+    return True
+
+
 
 def main():
     cid, secret = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
@@ -68,22 +85,30 @@ def main():
     queries = [l.strip() for l in open(os.path.join(HERE, "queries.txt"), encoding="utf-8") if l.strip() and not l.startswith("#")]
     tok = token(cid, secret)
     seen, out, calls = set(), [], 0
+    nm_fail, nm_found = 0, 0
     for q in queries:
         # A "+" at the start marks a want-list search: modern (2018+) cards are kept for it.
         want = q.startswith("+")
         sq = q.lstrip("+").strip()
         for c in COUNTRIES:
+          passes = [None] + ([NM_ASPECT] if NM_PASS and nm_fail < 5 else [])
+          for asp in passes:
             try:
-                res = search(tok, sq, c)
+                res = search(tok, sq, c, aspect=asp)
                 calls += 1
             except Exception as e:  # keep going on one bad query
-                print("query failed:", q, c, e, file=sys.stderr)
+                print("query failed:", q, c, "(NM pass)" if asp else "", e, file=sys.stderr)
+                if asp:
+                    nm_fail += 1  # stop the NM pass for the rest of the run if eBay keeps refusing it
                 continue
             for it in res.get("itemSummaries", []) or []:
                 iid = it.get("legacyItemId") or ((it.get("itemId") or "").split("|") + ["", ""])[1] or None
                 title = it.get("title", "")
-                if not iid or iid in seen or not keep(title, want):
+                ok = keep_nm(title, want) if asp else keep(title, want)
+                if not iid or iid in seen or not ok:
                     continue
+                if asp:
+                    nm_found += 1
                 seen.add(iid)
                 price = it.get("currentBidPrice") or it.get("price") or {}
                 ship = (it.get("shippingOptions") or [{}])[0].get("shippingCost") or {}
@@ -94,6 +119,7 @@ def main():
                     "condition": it.get("condition"), "country": (it.get("itemLocation") or {}).get("country"),
                     "seller": (it.get("seller") or {}).get("username"), "feedback": (it.get("seller") or {}).get("feedbackPercentage"),
                     "url": f"https://www.ebay.com.au/itm/{iid}", "query": q,
+                    "nm": 1 if asp else 0,
                 })
             time.sleep(0.2)
     out.sort(key=lambda x: (x["country"] != "AU", x["country"] != "JP", x["title"]))
@@ -104,7 +130,7 @@ def main():
     with open(os.path.join(HERE, "listings.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(out[0].keys()) if out else ["id"])
         w.writeheader(); w.writerows(out)
-    print(f"{len(out)} listings from {calls} searches")
+    print(f"{len(out)} listings from {calls} searches ({nm_found} extra raw Near Mint or Better listings from the NM pass)")
 
 
 if __name__ == "__main__":
