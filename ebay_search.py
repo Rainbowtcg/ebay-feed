@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 
 API = "https://api.ebay.com"
 CATEGORY = "183454"  # CCG Individual Cards
-COUNTRIES = ["AU", "JP", "NZ", "HK", "SG", "KR"]
+COUNTRIES = ["AU", "JP", "CN", "NZ", "HK", "SG", "KR"]
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 REPRINT = re.compile(r"celebrations?|classic collection|25th|30th|anniversary|evolutions|\bcp6\b|reprint|proxy|custom|fan ?art|orica|replica|metal card|gold (plated|metal)|digital|tcg ?live|code card|\bonline code", re.I)
@@ -122,7 +122,7 @@ def main():
                     "nm": 1 if asp else 0,
                 })
             time.sleep(0.2)
-    out.sort(key=lambda x: (x["country"] != "AU", x["country"] != "JP", x["title"]))
+    out.sort(key=lambda x: (x["country"] != "AU", x["country"] != "JP", x["country"] != "CN", x["title"]))
     meta = {"generated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(out), "calls": calls,
             "note": "Pre-filtered by title only. Every listing still needs its item page checked before it goes in the finder."}
     with open(os.path.join(HERE, "listings.json"), "w", encoding="utf-8") as f:
