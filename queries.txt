@@ -294,3 +294,43 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon japanese ("striking back mewtwo",逆襲のミュウツー) (10th,movie,promo)
 +pokemon korean (ditto,metamong) promo
 +메타몽 (프로모,promo) 포켓몬
+
+# ---------- Want list (added 11 Nov 2026) ----------
++pokemon bellossom (3/111,"neo genesis") (psa,cgc,bgs)
++pokemon japanese (bellossom,キレイハナ) neo (psa,cgc,bgs)
++pokemon rainbow energy (rocket,17/82) (psa,cgc,bgs)
++pokemon japanese (rainbow energy,レインボーエネルギー) rocket
++pokemon team rocket's zapdos (070/182,"eb games") (psa,cgc,bgs)
++pokemon japanese mew (dpbp,"shining darkness",182)
+# ---------- Mew want list (added 11 Nov 2026) ----------
++pokemon mew ("black star",wotc) promo (8,9)
++pokemon japanese mew (016/036,017/036,cp5,"dream shine")
++pokemon japanese mew (051/087,"20th anniversary")
++pokemon japanese mew (044/171,"best of xy")
++pokemon japanese mew 027/078
++pokemon "ancient mew"
++pokemon mew (97/102,prime,triumphant)
++pokemon japanese mew (119/128,expedition,"e-card")
++pokemon mew ("gold star",101/101,"dragon frontiers")
++pokemon mew (10/92,"legend maker") -88/92
++pokemon mew (15/132,"secret wonders")
++pokemon mew sm215
++pokemon japanese mew ex (014/025,"25th anniversary")
+# ---------- Mega Cash want list (added 11 Nov 2026) ----------
++pokemon kyogre ex 148/160
++pokemon japanese venusaur ex 004/052
++pokemon terrakion (064/059,"cold flare") -ex
++pokemon cubone (0407/07,cbb3c,"gem pack")
++pokemon gardevoir ex 116/114
++pokemon virizion 103/101
++pokemon lucario ex 107/111
++pokemon gyarados xy109
++pokemon mr. mime (6/64,"06/64",jungle) holo
++pokemon japanese (mr. mime,バリヤード) jungle
++pokemon m lucario ex (55a/111,"055a/111",55a)
++pokemon japanese (m lucario ex,メガルカリオex,メガルカリオ) (176/171,"best of xy")
++pokemon lt. surge's raichu (11/132,"gym challenge")
++pokemon japanese (lt. surge's raichu,マチスのライチュウ)
++pokemon japanese (dragonite ex,カイリューex) (100/096,"rising fist")
++pokemon dragonite ex "furious fists" full art
++pokemon ("pokemon center lady","pokémon center lady") (105/106,flashfire)
