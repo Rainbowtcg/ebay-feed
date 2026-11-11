@@ -43,3 +43,4 @@ gameology.com.au | Gameology | AU | shopify | sealed-only
 dropstore.com.au | Dropstore | AU | shopify | sealed-only
 pokesource.com.au | PokeSource | AU | shopify | sealed-only
 collectiblemadness.com.au | Collectible Madness | AU | shopify | sealed-only
+megacash.com.au | Mega Cash | AU | shopify | auto

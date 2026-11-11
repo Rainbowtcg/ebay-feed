@@ -181,6 +181,9 @@ pokemon ("phantom forces","primal clash","roaring skies",breakthrough,breakpoint
 pokemon "team plasma" holo
 pokemon "legendary treasures" radiant collection
 pokemon japanese (bw1,bw2,bw3,bw4,bw5,bw6,bw7,bw8,bw9) sr 1st edition psa
+pokemon ("black white","emerging powers","noble victories","next destinies","dark explorers","dragons exalted","boundaries crossed") secret rare
+pokemon ("plasma storm","plasma freeze","plasma blast","legendary treasures") secret rare
+pokemon japanese (bw,"black white","black collection","white collection") (ur,"gold secret") psa
 pokemon japanese (xy1,xy2,xy3,xy4,xy5,xy6,xy7,xy8,xy9,xy10,xy11) sr 1st edition psa
 pokemon japanese (vs,web) 1st edition psa
 
@@ -288,3 +291,6 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon mew (southern island,southern islands,"r.i.","no.151") -mewtwo
 +pokemon japanese (r.i.,"rainbow island","tropical island") promo 1999
 +南の島 ポケモンカード
++pokemon japanese ("striking back mewtwo",逆襲のミュウツー) (10th,movie,promo)
++pokemon korean (ditto,metamong) promo
++메타몽 (프로모,promo) 포켓몬
