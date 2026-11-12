@@ -352,3 +352,9 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon japanese (052/051,053/051,054/051,055/051,056/051,057/051,058/051) (bw8,"spiral force","thunder knuckle")
 +pokemon japanese (077/076,078/076,079/076,080/076,081/076,082/076,083/076,084/076,085/076,086/076) (bw9,"megalo cannon")
 +pokemon japanese (bw,"black white") (ur,sr) 1st edition -psa -cgc -bgs
++pokemon ("black white","black & white") (115/114,"secret rare") -"steam siege"
++pokemon "dragon vault" 21/20
++pokemon japanese ("black collection","white collection","red collection",bw1,bw2) (sr,ur)
++pokemon japanese ("psycho drive","hail blizzard","dark rush","dragon blast","dragon blade",bw3,bw4,bw5) (sr,ur)
++pokemon japanese "shiny collection" (021/020,022/020,023/020,024/020)
++pokemon japanese ("ex battle boost","dragon selection") (sr,ur)
