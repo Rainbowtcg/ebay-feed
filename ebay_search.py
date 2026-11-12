@@ -28,11 +28,12 @@ GRADE = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\s*-?\s*(10|9\.5|9)\b|ge
 NM_ASPECT = "categoryId:183454,Card Condition:{Near Mint or Better}"
 NM_PASS = os.environ.get("NM_PASS", "1") != "0"
 PLAYED = re.compile(r"lightly|moderately|heavily|\bplayed\b|\bLP\b|\bMP\b|\[HP\]|\bHP\b(?!\s?\d)|damaged?|\bdmg\b|creas|\bdent|\bbent\b|\bbend|\btear\b|\btorn\b|water ?(damage|mark|stain)|\bstain|scratch|scuff|\bpoor\b|\bas[- ]is\b|heavy wear|\bwear\b|\bink\b|marked|writing|peel|ripped|\bcut\b|miscut", re.I)
-# Raw copies from the plain pass that the seller did NOT mark "Near Mint or Better" are dropped (STRICT_RAW=0 turns this off).
-STRICT_RAW = os.environ.get("STRICT_RAW", "1") != "0"
+# Nothing on a want-list search is deleted for condition. Each listing gets a "flag":
+#   "damage: <word>"  title or item page mentions damage  -> hidden on the finder by default, one tap to show
+#   "unverified"      raw, no condition word, seller didn't mark Near Mint or Better -> shown with a grey tag
 NMWORD = re.compile(r"gem ?mint|\bNM\b|near mint|\bmint\b", re.I)
 # Page check: raw listings priced far under the same card's other listings get their item page read
-# (seller condition notes, Card Condition field, description) and are dropped if damage is mentioned.
+# (seller condition notes, Card Condition field, description) and are tagged "damage" if it is mentioned.
 DEEP_MAX = int(os.environ.get("DEEP_MAX", "300"))   # item-page calls per run, keeps under eBay's 5,000/day
 DEEP_RATIO = float(os.environ.get("DEEP_RATIO", "0.6"))  # "suspiciously cheap" = under 60% of the card's median
 SLAB = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\b", re.I)
@@ -69,13 +70,10 @@ def keep(title, modern_ok=False):
 
     if MODERN.search(title) and not modern_ok:
         return False
+    if modern_ok:  # "+" want-list searches keep everything that isn't junk; condition is tagged, not filtered
+        return True
     if PLAYED.search(title) and not SLAB.search(title):
-        return False
-    if modern_ok:  # "+" want-list searches: slabs, or raw copies that say NM/mint in the title
-        if SLAB.search(title):
-            return True
-        # with STRICT_RAW, a raw copy with no condition word only gets in through the NM pass (seller marked it NM)
-        return bool(NMWORD.search(title)) or not (STRICT_RAW and NM_PASS)
+        return False  # general (non-want) searches still skip played raw copies
     return bool(GRADE.search(title))
 
 
@@ -83,11 +81,24 @@ def keep_nm(title, modern_ok=False):
     """For listings eBay already filtered to Card Condition: Near Mint or Better. No grade word needed in the title."""
     check = re.sub(r"\bevolutions\b", "", title, flags=re.I) if modern_ok else title
     junk_title = re.sub(r"\bsealed\b", "", title, flags=re.I) if modern_ok else title
-    if REPRINT.search(check) or JUNK.search(junk_title) or PLAYED.search(title):
+    if REPRINT.search(check) or JUNK.search(junk_title):
+        return False
+    if PLAYED.search(title) and not modern_ok:
         return False
     if MODERN.search(title) and not modern_ok:
         return False
     return True
+
+
+def flag_for(title, nm_pass):
+    if SLAB.search(title):
+        return ""
+    hit = PLAYED.search(title)
+    if hit:
+        return "damage: " + hit.group(0).lower().strip()
+    if not nm_pass and not NMWORD.search(title):
+        return "unverified"
+    return ""
 
 
 def num(x):
@@ -140,11 +151,11 @@ def deep_check(tok, out):
         med = ps[len(ps) // 2]
         for x in L:
             p = num(x["price"]) + num(x["post"])
-            if 0 < p < DEEP_RATIO * med and med >= 40:
-                cands.append((p / med, x))
-    cands.sort(key=lambda c: c[0])
+            if 0 < p < DEEP_RATIO * med and med >= 40 and not str(x.get("flag", "")).startswith("damage"):
+                cands.append((0 if str(x.get("query", "")).startswith("+") else 1, p / med, x))
+    cands.sort(key=lambda c: (c[0], c[1]))  # want-list cards first, then the cheapest against their peers
     dropped, checked, calls = set(), 0, 0
-    for _, x in cands[:DEEP_MAX]:
+    for _, _, x in cands[:DEEP_MAX]:
         try:
             item = get_item(tok, x["id"])
             calls += 1
@@ -156,13 +167,15 @@ def deep_check(tok, out):
         cc = [v.get("content", "") for d in item.get("conditionDescriptors") or [] for v in d.get("values") or []]
         x["cardCondition"] = ", ".join(c for c in cc if c)
         x["checked"] = 1
-        if PLAYED.search(txt):
-            x["damage"] = PLAYED.search(txt).group(0)
+        hit = PLAYED.search(txt)
+        if hit:
+            x["flag"] = "damage: " + hit.group(0).lower().strip()
             dropped.add(x["id"])
+        elif x.get("flag") == "unverified" and re.search(r"near mint|\bNM\b|mint", " ".join(cc) + " " + txt, re.I):
+            x["flag"] = ""  # the page says NM after all
         time.sleep(0.2)
-    kept = [x for x in out if x["id"] not in dropped]
-    print(f"page check: {checked} cheap raw listings read, {len(dropped)} dropped for damage")
-    return kept, calls, len(dropped)
+    print(f"page check: {checked} cheap raw listings read, {len(dropped)} tagged as damaged")
+    return out, calls, len(dropped)
 
 
 def main():
@@ -208,15 +221,16 @@ def main():
                     "seller": (it.get("seller") or {}).get("username"), "feedback": (it.get("seller") or {}).get("feedbackPercentage"),
                     "url": f"https://www.ebay.com.au/itm/{iid}", "query": q,
                     "nm": 1 if asp else 0,
+                    "flag": flag_for(title, asp),
                 })
             time.sleep(0.2)
-    dropped = 0
     if DEEP_MAX > 0:
-        out, deep_calls, dropped = deep_check(tok, out)
+        out, deep_calls, _ = deep_check(tok, out)
         calls += deep_calls
     out.sort(key=lambda x: (x["country"] != "AU", x["country"] != "JP", x["country"] != "CN", x["title"]))
     meta = {"generated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(out), "calls": calls,
-            "damaged_dropped": dropped,
+            "damaged_flagged": sum(1 for x in out if str(x.get("flag", "")).startswith("damage")),
+            "unverified": sum(1 for x in out if x.get("flag") == "unverified"),
             "note": "Pre-filtered by title and eBay Card Condition. Cheap raw outliers had their item page read (checked=1); others still need a look before buying."}
     with open(os.path.join(HERE, "listings.json"), "w", encoding="utf-8") as f:
         json.dump({**meta, "items": out}, f, ensure_ascii=False, indent=1)

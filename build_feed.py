@@ -17,6 +17,7 @@ if len(sys.argv)>3 and sys.argv[3]!='-':
 def wanted(t):
   tl=t.lower(); return any(all(w in tl for w in ws) for ws in WANT)
 rows=[]
+flags={}  # id -> 'damage: crease' / 'unverified' from ebay_search.py; the finder hides damage by default
 items=list(d['items'])
 if len(sys.argv)>4:
   try:
@@ -34,8 +35,9 @@ for it in items:
   except: post=0
   auc=1 if 'AUCTION' in (it.get('options') or []) else 0
   bo=1 if 'BEST_OFFER' in (it.get('options') or []) else 0
+  if it.get('flag'): flags[str(it['id'])]=it['flag'][:40]
   rows.append([it['id'],t,round(p,2),round(post,2),it.get('country') or '',it.get('seller') or '',auc,bo,it.get('bids') or 0,(it.get('ends') or '')[:16]]+([it.get('url') or ''] if it.get('shop') else []))
-out={'generated':d.get('generated'),'count':len(rows),'shops':sum(1 for r in rows if len(r)>10),'items':rows}
+out={'generated':d.get('generated'),'count':len(rows),'shops':sum(1 for r in rows if len(r)>10),'items':rows,'flags':flags}
 try:
   out['shopPhotos']={x['shop']:x['photos'] for x in json.load(open(sys.argv[4])).get('shops',[]) if x.get('photos')}
 except Exception as e: print('shop photo labels not used:',e)
