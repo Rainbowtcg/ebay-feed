@@ -1,23 +1,23 @@
 # Shops read by store_scan.py each morning. One per line:
 # domain | name | country | platform (shopify or woo) | collections (comma-separated, or all) | currency (optional)
-trollaustralia.com.au | Troll Australia | AU | shopify | psa-graded-pokemon-cards
-ozziecollectables.com | Ozzie Collectables | AU | shopify | pokemon-graded-cards,pokemon-singles
-clickandcollectables.com.au | Click and Collectables | AU | shopify | pokemon-graded-cards
-mayhemcollectables.com.au | Mayhem Collectables | AU | shopify | pokemon-singles
+trollaustralia.com.au | Troll Australia | AU | shopify | psa-graded-pokemon-cards,auto
+ozziecollectables.com | Ozzie Collectables | AU | shopify | pokemon-graded-cards,pokemon-singles,auto
+clickandcollectables.com.au | Click and Collectables | AU | shopify | pokemon-graded-cards,auto
+mayhemcollectables.com.au | Mayhem Collectables | AU | shopify | pokemon-singles,auto
 gamerscombined.com.au | Gamers Combined | AU | shopify | auto
 purplishtcg.com | Purplish TCG | AU | shopify | all
-cherrycollectables.com.au | Cherry Collectables | AU | shopify | graded-pokemon
+cherrycollectables.com.au | Cherry Collectables | AU | shopify | graded-pokemon,auto
 mrcollectable.com.au | Mr Collectable | AU | shopify | auto
-pwatcg.com | Pokeworld Australia | AU | shopify | graded-cards
-pokebox.com.au | PokeBox Australia | AU | shopify | english-pokemon-tcg-graded-cards
-urbanempirecollectables.com | Urban Empire Collectables | AU | shopify | pokemon-1
-thecardcave.com.au | The Card Cave | AU | shopify | pokemon-singles
-herostash.com.au | Herostash | AU | shopify | pokemon
+pwatcg.com | Pokeworld Australia | AU | shopify | graded-cards,auto
+pokebox.com.au | PokeBox Australia | AU | shopify | english-pokemon-tcg-graded-cards,auto
+urbanempirecollectables.com | Urban Empire Collectables | AU | shopify | pokemon-1,auto
+thecardcave.com.au | The Card Cave | AU | shopify | pokemon-singles,auto
+herostash.com.au | Herostash | AU | shopify | pokemon,auto
 monstermart.com.au | Monster Mart | AU | shopify | all
-frenlybricks.store | Frenly Bricks | AU | shopify | pokemon-graded
+frenlybricks.store | Frenly Bricks | AU | shopify | pokemon-graded,auto
 lightofcards.com.au | Light of Cards | AU | shopify | all
-thecardhub.co.nz | The Card Hub NZ | NZ | shopify | pokemon-graded
-hollowlogcards.co.nz | Hollowlog Cards | NZ | shopify | graded-cards
+thecardhub.co.nz | The Card Hub NZ | NZ | shopify | pokemon-graded,auto
+hollowlogcards.co.nz | Hollowlog Cards | NZ | shopify | graded-cards,auto
 thepocketportfolio.nz | The Pocket Portfolio | NZ | shopify | all
 cardsensei.co.nz | Card Sensei | NZ | shopify | all
 cardnova.co.nz | Cardnova | NZ | shopify | auto
@@ -44,3 +44,11 @@ dropstore.com.au | Dropstore | AU | shopify | sealed-only
 pokesource.com.au | PokeSource | AU | shopify | sealed-only
 collectiblemadness.com.au | Collectible Madness | AU | shopify | sealed-only
 megacash.com.au | Mega Cash | AU | shopify | auto
+# Added 13 Nov 2026: general TCG shops that may hold raw older Pokemon singles (auto finds graded + raw singles)
+goodgames.com.au | Good Games | AU | shopify | auto
+gapgames.com.au | Gap Games | AU | shopify | auto
+roningames.com.au | Ronin Games | AU | shopify | auto
+beholdgames.com.au | Behold Games | AU | shopify | auto
+tcg.irresistibleforce.com.au | Irresistible Force | AU | shopify | auto
+gamesportal.com.au | Games Portal | AU | shopify | auto
+otakumart.co.nz | Otaku Mart | NZ | shopify | auto

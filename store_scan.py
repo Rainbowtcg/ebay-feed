@@ -72,14 +72,42 @@ def photo_label(name):
 
 
 def auto_collections(shop):
-    """Finds a Shopify shop's graded Pokemon collections; falls back to its whole catalogue."""
+    """Finds a Shopify shop's graded Pokemon collections plus its raw singles / secret rare collections.
+    Raw collections come back as "raw:<handle>" so their rows can be trimmed to older cards (keep_raw)."""
     cols = get(f"https://{shop['domain']}/collections.json?limit=250").get("collections") or []
     named = [(c.get("handle") or "", c.get("title") or "") for c in cols]
     both = [h for h, t in named if POKE_RX.search(h + " " + t) and AUTO_RX.search(h + " " + t)]
-    if both:
-        return both[:4]
-    poke = [h for h, t in named if POKE_RX.search(h + " " + t) and re.search(r"single|card", h + " " + t, re.I) and not re.search(r"seal|box|pack", h + " " + t, re.I)]
-    return poke[:3] or ["all"]
+    raw = [h for h, t in named if h not in both and (
+             (POKE_RX.search(h + " " + t) and re.search(r"single|card|secret|vintage|japanese|black.?white|plasma", h + " " + t, re.I))
+             or re.search(r"secret.?rare|pokemon.?singles|vintage.?pokemon", h + " " + t, re.I))
+           and not re.search(r"seal|box|pack|bulk|lot|accessor|supplies|magic|mtg|yu-?gi|one.?piece|lorcana", h + " " + t, re.I)]
+    picked = both[:4] + ["raw:" + h for h in raw[:4]]
+    return picked or ["raw:all"]
+
+
+# Raw singles collections are big and mostly modern: keep graded copies, and raw cards from older eras only.
+GRADED_RX = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC|ARK)\s*\d", re.I)
+VINTAGE_RX = re.compile(r"base set|jungle|fossil|team rocket|gym (heroes|challenge)|\bneo\b|expedition|aquapolis|skyridge|"
+    r"legendary collection|e-?card|\bex (ruby|sandstorm|dragon|team|hidden|firered|deoxys|emerald|unseen|delta|legend|holon|crystal|dragon|power)|"
+    r"delta species|gold star|diamond|pearl|platinum|rising rivals|supreme victors|arceus|heartgold|soulsilver|hgss|unleashed|undaunted|triumphant|"
+    r"call of legends|\bprime\b|lv\.?\s?x|black (&|and) white|emerging powers|noble victories|next destinies|dark explorers|dragons exalted|"
+    r"dragon vault|boundaries crossed|plasma (storm|freeze|blast)|legendary treasures|radiant collection|\bxy\b|flashfire|furious fists|"
+    r"phantom forces|primal clash|roaring skies|ancient origins|breakthrough|breakpoint|generations|fates collide|steam siege|evolutions|"
+    r"double crisis|kalos|\bbw\d|\bbw-?p\b|cold flare|freeze bolt|plasma gale|spiral force|thunder knuckle|megalo cannon|dark rush|"
+    r"psycho drive|hail blizzard|dragon blast|dragon blade|shiny collection|battle boost|red collection|1st edition|shining|"
+    r"black star promo|wotc|\b(199[6-9]|200\d|201[0-7])\b", re.I)
+MODERN_RX = re.compile(r"vmax|vstar|\bgx\b|scarlet|violet|sword|shield|\bswsh|\bsv\d|sun (&|and) moon|\bsm\d|mega evolution|"
+    r"\b151\b|paldea|obsidian|paradox|temporal|twilight|shrouded|stellar|surging|prismatic|journey together|destined rivals|"
+    r"black bolt|white flare|evolving skies|brilliant stars|astral|lost origin|silver tempest|crown zenith|celebrations|"
+    r"hidden fates|shining fates|champion.?s path|vivid voltage|cosmic eclipse|unified minds|unbroken bonds|team up|lost thunder|"
+    r"celestial storm|ultra prism|burning shadows|guardians rising|crimson invasion|forbidden light|dragon majesty|"
+    r"\b20(1[89]|2\d)\b|reprint|25th|classic collection", re.I)
+
+
+def keep_raw(title):
+    if GRADED_RX.search(title):
+        return True
+    return bool(VINTAGE_RX.search(title)) and not MODERN_RX.search(title)
 
 
 def sealed_scan(shop):
@@ -221,31 +249,40 @@ def main():
         got, err = 0, ""
         colls = s["collections"]
         if s["platform"] == "shopify" and "sealed-only" not in colls:
-            if colls == ["auto"]:
+            if "auto" in colls:   # "auto" alone, or added after named collections to pick up raw singles too
                 try:
-                    colls = auto_collections(s)
+                    named_c = [c for c in colls if c != "auto"]
+                    colls = named_c + [c for c in auto_collections(s) if c not in named_c and c[4:] not in named_c]
                 except Exception as e:
                     err = f"auto: {type(e).__name__} {str(e)[:100]}"
                     colls = []
         if "sealed-only" in colls:
             colls = []
         for c in colls:
+            raw = c.startswith("raw:")
+            c = c[4:] if raw else c
             try:
                 rows = (shopify if s["platform"] == "shopify" else woo)(s, c)
             except Exception as e:  # one broken shop must not stop the rest
                 err = f"{c}: {type(e).__name__} {str(e)[:120]}"
                 continue
+            if raw:
+                rows = [r for r in rows if keep_raw(r["title"])]
             for r in rows:
                 if r["id"] in seen:
                     continue
                 seen.add(r["id"]); items.append(r); got += 1
         # A listed collection that comes back empty has usually been renamed: look it up once.
-        if got == 0 and s["platform"] == "shopify" and colls and s["collections"] != ["auto"]:
+        if got == 0 and s["platform"] == "shopify" and colls and "auto" not in s["collections"]:
             try:
                 for c in auto_collections(s):
+                    raw = c.startswith("raw:")
+                    c = c[4:] if raw else c
                     if c in colls:
                         continue
                     for r in shopify(s, c):
+                        if raw and not keep_raw(r["title"]):
+                            continue
                         if r["id"] not in seen:
                             seen.add(r["id"]); items.append(r); got += 1
                 if got:
