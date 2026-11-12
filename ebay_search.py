@@ -27,7 +27,16 @@ GRADE = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\s*-?\s*(10|9\.5|9)\b|ge
 # so un-graded cards with plain titles (no "NM"/"PSA" words) are found too. Played/damaged copies stay out.
 NM_ASPECT = "categoryId:183454,Card Condition:{Near Mint or Better}"
 NM_PASS = os.environ.get("NM_PASS", "1") != "0"
-PLAYED = re.compile(r"lightly|moderately|heavily|\bplayed\b|\bLP\b|\bMP\b|\[HP\]|damaged|\bdmg\b|creased", re.I)
+PLAYED = re.compile(r"lightly|moderately|heavily|\bplayed\b|\bLP\b|\bMP\b|\[HP\]|\bHP\b(?!\s?\d)|damaged?|\bdmg\b|creas|\bdent|\bbent\b|\bbend|\btear\b|\btorn\b|water ?(damage|mark|stain)|\bstain|scratch|scuff|\bpoor\b|\bas[- ]is\b|heavy wear|\bwear\b|\bink\b|marked|writing|peel|ripped|\bcut\b|miscut", re.I)
+# Raw copies from the plain pass that the seller did NOT mark "Near Mint or Better" are dropped (STRICT_RAW=0 turns this off).
+STRICT_RAW = os.environ.get("STRICT_RAW", "1") != "0"
+NMWORD = re.compile(r"gem ?mint|\bNM\b|near mint|\bmint\b", re.I)
+# Page check: raw listings priced far under the same card's other listings get their item page read
+# (seller condition notes, Card Condition field, description) and are dropped if damage is mentioned.
+DEEP_MAX = int(os.environ.get("DEEP_MAX", "300"))   # item-page calls per run, keeps under eBay's 5,000/day
+DEEP_RATIO = float(os.environ.get("DEEP_RATIO", "0.6"))  # "suspiciously cheap" = under 60% of the card's median
+SLAB = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\b", re.I)
+STOP = set("pokemon pokémon card cards tcg japanese japan english psa cgc bgs gem mint mt nm near holo rare promo the 1st edition ed graded jp jpn of in game".split())
 
 
 def token(cid, secret):
@@ -60,9 +69,13 @@ def keep(title, modern_ok=False):
 
     if MODERN.search(title) and not modern_ok:
         return False
-    if modern_ok:  # "+" want-list searches also keep titles with no condition word; played raw copies stay out
-        slab = re.search(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\b", title, re.I)
-        return bool(slab) or not PLAYED.search(title)
+    if PLAYED.search(title) and not SLAB.search(title):
+        return False
+    if modern_ok:  # "+" want-list searches: slabs, or raw copies that say NM/mint in the title
+        if SLAB.search(title):
+            return True
+        # with STRICT_RAW, a raw copy with no condition word only gets in through the NM pass (seller marked it NM)
+        return bool(NMWORD.search(title)) or not (STRICT_RAW and NM_PASS)
     return bool(GRADE.search(title))
 
 
@@ -76,6 +89,80 @@ def keep_nm(title, modern_ok=False):
         return False
     return True
 
+
+def num(x):
+    try:
+        return float(x or 0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def card_key(title):
+    """Same card = same card number + same grade + same language + first name word."""
+    n = re.search(r"\b(\d{1,3}a?/\d{2,3}|\d{3}/[A-Z]{1,4}-?P|[A-Z]{2,4}\d{2,3}|SWSH\d+|SM\d+)\b", title, re.I)
+    if not n:
+        return None
+    g = re.search(r"\b(PSA|CGC|BGS|ACE)\s?-?(\d{1,2}(\.5)?)\b", title, re.I)
+    words = [w.lower() for w in re.findall(r"[A-Za-z][A-Za-z'.]+", title) if w.lower() not in STOP and len(w) > 2]
+    return (n.group(1).upper(), (g.group(1).upper() + g.group(2)) if g else "RAW",
+            "JP" if re.search("japan", title, re.I) else "EN", words[0] if words else "")
+
+
+def get_item(tok, iid):
+    req = urllib.request.Request(API + "/buy/browse/v1/item/get_item_by_legacy_id?" + urllib.parse.urlencode({"legacy_item_id": iid}),
+                                 headers={"Authorization": "Bearer " + tok, "X-EBAY-C-MARKETPLACE-ID": "EBAY_AU"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+
+def page_text(item):
+    """Seller condition notes + Card Condition field + short and full description, tags stripped."""
+    parts = [item.get("conditionDescription") or "", item.get("shortDescription") or "", item.get("description") or ""]
+    for d in item.get("conditionDescriptors") or []:
+        parts += [v.get("content", "") for v in d.get("values") or []]
+    txt = re.sub(r"<[^>]+>", " ", " ".join(parts))
+    # sellers' boilerplate like "no damage", "no creases", "free of scratches" is not damage
+    return re.sub(r"\b(no|not|without|free of|zero|never)\s+(any\s+)?\w+(\s+(or|and|/)\s+\w+)*", " ", txt, flags=re.I)
+
+
+def deep_check(tok, out):
+    """Read the item page of raw listings far cheaper than the same card's other listings; drop damaged ones."""
+    groups = {}
+    for x in out:
+        k = card_key(x["title"])
+        if k and k[1] == "RAW":
+            groups.setdefault(k, []).append(x)
+    cands = []
+    for k, L in groups.items():
+        if len(L) < 3:
+            continue
+        ps = sorted(num(x["price"]) + num(x["post"]) for x in L)
+        med = ps[len(ps) // 2]
+        for x in L:
+            p = num(x["price"]) + num(x["post"])
+            if 0 < p < DEEP_RATIO * med and med >= 40:
+                cands.append((p / med, x))
+    cands.sort(key=lambda c: c[0])
+    dropped, checked, calls = set(), 0, 0
+    for _, x in cands[:DEEP_MAX]:
+        try:
+            item = get_item(tok, x["id"])
+            calls += 1
+        except Exception as e:
+            print("page check failed:", x["id"], e, file=sys.stderr)
+            continue
+        checked += 1
+        txt = page_text(item)
+        cc = [v.get("content", "") for d in item.get("conditionDescriptors") or [] for v in d.get("values") or []]
+        x["cardCondition"] = ", ".join(c for c in cc if c)
+        x["checked"] = 1
+        if PLAYED.search(txt):
+            x["damage"] = PLAYED.search(txt).group(0)
+            dropped.add(x["id"])
+        time.sleep(0.2)
+    kept = [x for x in out if x["id"] not in dropped]
+    print(f"page check: {checked} cheap raw listings read, {len(dropped)} dropped for damage")
+    return kept, calls, len(dropped)
 
 
 def main():
@@ -91,7 +178,8 @@ def main():
         want = q.startswith("+")
         sq = q.lstrip("+").strip()
         for c in COUNTRIES:
-          passes = [None] + ([NM_ASPECT] if NM_PASS and nm_fail < 5 else [])
+          # NM pass first, so listings the seller marked "Near Mint or Better" are recorded with nm=1
+          passes = ([NM_ASPECT] if NM_PASS and nm_fail < 5 else []) + [None]
           for asp in passes:
             try:
                 res = search(tok, sq, c, aspect=asp)
@@ -122,9 +210,14 @@ def main():
                     "nm": 1 if asp else 0,
                 })
             time.sleep(0.2)
+    dropped = 0
+    if DEEP_MAX > 0:
+        out, deep_calls, dropped = deep_check(tok, out)
+        calls += deep_calls
     out.sort(key=lambda x: (x["country"] != "AU", x["country"] != "JP", x["country"] != "CN", x["title"]))
     meta = {"generated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(out), "calls": calls,
-            "note": "Pre-filtered by title only. Every listing still needs its item page checked before it goes in the finder."}
+            "damaged_dropped": dropped,
+            "note": "Pre-filtered by title and eBay Card Condition. Cheap raw outliers had their item page read (checked=1); others still need a look before buying."}
     with open(os.path.join(HERE, "listings.json"), "w", encoding="utf-8") as f:
         json.dump({**meta, "items": out}, f, ensure_ascii=False, indent=1)
     with open(os.path.join(HERE, "listings.csv"), "w", newline="", encoding="utf-8") as f:
