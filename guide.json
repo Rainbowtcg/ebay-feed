@@ -1,0 +1,2169 @@
+{
+ "generated": "2026-11-13T15:30+00:00",
+ "usd_aud": 1.4683,
+ "rate_source": "open.er-api.com",
+ "source": "PriceCharting sold-price averages (Ungraded, Grade 7, 8, 9, 9.5, PSA 10)",
+ "cats": {
+  "e-Card era": [
+   {
+    "label": "Expedition Charizard 6/165 holo",
+    "matched": "Charizard #6   Pokemon Expedition",
+    "url": "https://www.pricecharting.com/game/pokemon-expedition/charizard-6",
+    "usd": {
+     "raw": 450.0,
+     "g7": 1810.0,
+     "g8": 2783.06,
+     "g9": 4444.0,
+     "g95": 8918.67,
+     "g10": 25800.0
+    },
+    "aud": {
+     "raw": 661,
+     "g7": 2658,
+     "g8": 4086,
+     "g9": 6525,
+     "g95": 13095,
+     "g10": 37882
+    }
+   },
+   {
+    "label": "Expedition Dugtrio 10/165 holo",
+    "matched": "Dugtrio #10   Pokemon Expedition",
+    "url": "https://www.pricecharting.com/game/pokemon-expedition/dugtrio-10",
+    "usd": {
+     "raw": 62.0,
+     "g7": 105.11,
+     "g8": 289.2,
+     "g9": 624.45,
+     "g95": 3994.73,
+     "g10": 9566.37
+    },
+    "aud": {
+     "raw": 91,
+     "g7": 154,
+     "g8": 425,
+     "g9": 917,
+     "g95": 5865,
+     "g10": 14046
+    }
+   },
+   {
+    "label": "Expedition Venusaur 30/165 holo",
+    "matched": "Venusaur #30   Pokemon Expedition",
+    "url": "https://www.pricecharting.com/game/pokemon-expedition/venusaur-30",
+    "usd": {
+     "raw": 122.13,
+     "g7": 269.99,
+     "g8": 450.0,
+     "g9": 1122.88,
+     "g95": 1235.0,
+     "g10": 8948.46
+    },
+    "aud": {
+     "raw": 179,
+     "g7": 396,
+     "g8": 661,
+     "g9": 1649,
+     "g95": 1813,
+     "g10": 13139
+    }
+   },
+   {
+    "label": "Aquapolis Lugia 149/147 crystal",
+    "matched": "Lugia #149   Pokemon Aquapolis",
+    "url": "https://www.pricecharting.com/game/pokemon-aquapolis/lugia-149",
+    "usd": {
+     "raw": 2333.45,
+     "g7": 11142.09,
+     "g8": 15400.0,
+     "g9": 27217.0,
+     "g95": 29939.0,
+     "g10": 140255.5
+    },
+    "aud": {
+     "raw": 3426,
+     "g7": 16360,
+     "g8": 22612,
+     "g9": 39963,
+     "g95": 43959,
+     "g10": 205937
+    }
+   },
+   {
+    "label": "Skyridge Charizard 146/144 crystal",
+    "matched": "Charizard #146   Pokemon Skyridge",
+    "url": "https://www.pricecharting.com/game/pokemon-skyridge/charizard-146",
+    "usd": {
+     "raw": 6365.47,
+     "g7": 14700.0,
+     "g8": 22417.23,
+     "g9": 39037.5,
+     "g95": 42941.0,
+     "g10": 136950.5
+    },
+    "aud": {
+     "raw": 9346,
+     "g7": 21584,
+     "g8": 32915,
+     "g9": 57319,
+     "g95": 63050,
+     "g10": 201084
+    }
+   },
+   {
+    "label": "Skyridge Gengar H9",
+    "matched": "Gengar #H9   Pokemon Skyridge",
+    "url": "https://www.pricecharting.com/game/pokemon-skyridge/gengar-h9",
+    "usd": {
+     "raw": 3864.54,
+     "g7": 7250.0,
+     "g8": 10585.6,
+     "g9": 14275.0,
+     "g95": 20000.0,
+     "g10": 150000.0
+    },
+    "aud": {
+     "raw": 5674,
+     "g7": 10645,
+     "g8": 15543,
+     "g9": 20960,
+     "g95": 29366,
+     "g10": 220245
+    }
+   },
+   {
+    "label": "Skyridge Umbreon H30",
+    "matched": "Umbreon #H30   Pokemon Skyridge",
+    "url": "https://www.pricecharting.com/game/pokemon-skyridge/umbreon-h30",
+    "usd": {
+     "raw": 2006.81,
+     "g7": 4983.7,
+     "g8": 6063.71,
+     "g9": 12375.0,
+     "g95": 17050.0,
+     "g10": 100100.0
+    },
+    "aud": {
+     "raw": 2947,
+     "g7": 7318,
+     "g8": 8903,
+     "g9": 18170,
+     "g95": 25035,
+     "g10": 146977
+    }
+   }
+  ],
+  "EX era": [
+   {
+    "label": "Deoxys Rayquaza Gold Star 107/107",
+    "matched": "Rayquaza [Gold Star] #107   Pokemon Deoxys",
+    "url": "https://www.pricecharting.com/game/pokemon-deoxys/rayquaza-gold-star-107",
+    "usd": {
+     "raw": 12518.47,
+     "g7": 45150.0,
+     "g8": 52211.17,
+     "g9": 84137.5,
+     "g95": 92551.0,
+     "g10": 365750.0
+    },
+    "aud": {
+     "raw": 18381,
+     "g7": 66294,
+     "g8": 76662,
+     "g9": 123539,
+     "g95": 135893,
+     "g10": 537031
+    }
+   },
+   {
+    "label": "Deoxys Latias Gold Star 105/107",
+    "matched": "Latias [Gold Star] #105   Pokemon Deoxys",
+    "url": "https://www.pricecharting.com/game/pokemon-deoxys/latias-gold-star-105",
+    "usd": {
+     "raw": 1424.76,
+     "g7": 8346.88,
+     "g8": 11544.33,
+     "g9": 12518.75,
+     "g95": 19670.21,
+     "g10": 363431.32
+    },
+    "aud": {
+     "raw": 2092,
+     "g7": 12256,
+     "g8": 16951,
+     "g9": 18381,
+     "g95": 28882,
+     "g10": 533626
+    }
+   },
+   {
+    "label": "POP 5 Umbreon Gold Star 17/17",
+    "matched": "Umbreon [Gold Star] #17   Pokemon POP Series 5",
+    "url": "https://www.pricecharting.com/game/pokemon-pop-series-5/umbreon-gold-star-17",
+    "usd": {
+     "raw": 6656.07,
+     "g7": 13299.38,
+     "g8": 24882.92,
+     "g9": 32400.0,
+     "g95": 48288.0,
+     "g10": 477050.0
+    },
+    "aud": {
+     "raw": 9773,
+     "g7": 19527,
+     "g8": 36536,
+     "g9": 47573,
+     "g95": 70901,
+     "g10": 700453
+    }
+   },
+   {
+    "label": "FireRed LeafGreen Charizard ex 105/112",
+    "matched": "Mega Charizard X ex #125   Pokemon Phantasmal Flames",
+    "url": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/mega-charizard-x-ex-125",
+    "usd": {
+     "raw": 608.68,
+     "g7": 431.0,
+     "g8": 538.15,
+     "g9": 592.0,
+     "g95": 724.28,
+     "g10": 1237.5
+    },
+    "aud": {
+     "raw": 894,
+     "g7": 633,
+     "g8": 790,
+     "g9": 869,
+     "g95": 1063,
+     "g10": 1817
+    }
+   },
+   {
+    "label": "Dragon Frontiers Mew Gold Star 101/101",
+    "matched": "Mew [Gold Star] #101   Pokemon Dragon Frontiers",
+    "url": "https://www.pricecharting.com/game/pokemon-dragon-frontiers/mew-gold-star-101",
+    "usd": {
+     "raw": 3341.07,
+     "g7": 8800.0,
+     "g8": 12300.0,
+     "g9": 26195.73,
+     "g95": 28815.0,
+     "g10": 192000.0
+    },
+    "aud": {
+     "raw": 4906,
+     "g7": 12921,
+     "g8": 18060,
+     "g9": 38463,
+     "g95": 42309,
+     "g10": 281914
+    }
+   }
+  ],
+  "EX era chase cards": [
+   {
+    "label": "Dragon Frontiers Charizard Gold Star 100/101",
+    "matched": "Charizard [Gold Star] #100   Pokemon Dragon Frontiers",
+    "url": "https://www.pricecharting.com/game/pokemon-dragon-frontiers/charizard-gold-star-100",
+    "usd": {
+     "raw": 5875.02,
+     "g7": 14100.0,
+     "g8": 20000.0,
+     "g9": 42877.0,
+     "g95": 47165.0,
+     "g10": 286957.5
+    },
+    "aud": {
+     "raw": 8626,
+     "g7": 20703,
+     "g8": 29366,
+     "g9": 62956,
+     "g95": 69252,
+     "g10": 421340
+    }
+   },
+   {
+    "label": "Crystal Guardians Charizard δ 4/100",
+    "matched": "Charizard #4   Pokemon Crystal Guardians",
+    "url": "https://www.pricecharting.com/game/pokemon-crystal-guardians/charizard-4",
+    "usd": {
+     "raw": 347.39,
+     "g7": 1068.78,
+     "g8": 1999.5,
+     "g9": 3469.76,
+     "g95": 3817.0,
+     "g10": 22700.0
+    },
+    "aud": {
+     "raw": 510,
+     "g7": 1569,
+     "g8": 2936,
+     "g9": 5095,
+     "g95": 5605,
+     "g10": 33330
+    }
+   },
+   {
+    "label": "Dragon Frontiers Dragonite ex δ",
+    "matched": "Dragonite EX #91   Pokemon Dragon Frontiers",
+    "url": "https://www.pricecharting.com/game/pokemon-dragon-frontiers/dragonite-ex-91",
+    "usd": {
+     "raw": 191.6,
+     "g7": 686.0,
+     "g8": 1175.0,
+     "g9": 4318.35,
+     "g95": 4750.0,
+     "g10": 23500.0
+    },
+    "aud": {
+     "raw": 281,
+     "g7": 1007,
+     "g8": 1725,
+     "g9": 6341,
+     "g95": 6974,
+     "g10": 34505
+    }
+   },
+   {
+    "label": "Dragon Frontiers Tyranitar ex δ",
+    "matched": "Tyranitar EX #99   Pokemon Dragon Frontiers",
+    "url": "https://www.pricecharting.com/game/pokemon-dragon-frontiers/tyranitar-ex-99?q=tyranitar+ex+dragon+frontiers",
+    "usd": {
+     "raw": 190.0,
+     "g7": 337.5,
+     "g8": 609.53,
+     "g9": 2208.83,
+     "g95": 2430.0,
+     "g10": 4993.89
+    },
+    "aud": {
+     "raw": 279,
+     "g7": 496,
+     "g8": 895,
+     "g9": 3243,
+     "g95": 3568,
+     "g10": 7333
+    }
+   },
+   {
+    "label": "Unseen Forces Celebi ex",
+    "matched": "Celebi EX #117   Pokemon Unseen Forces",
+    "url": "https://www.pricecharting.com/game/pokemon-unseen-forces/celebi-ex-117?q=celebi+ex+unseen+forces",
+    "usd": {
+     "raw": 710.58,
+     "g7": 1914.51,
+     "g8": 2676.47,
+     "g9": 7077.15,
+     "g95": 7785.0,
+     "g10": 124518.14
+    },
+    "aud": {
+     "raw": 1043,
+     "g7": 2811,
+     "g8": 3930,
+     "g9": 10391,
+     "g95": 11431,
+     "g10": 182830
+    }
+   },
+   {
+    "label": "Holon Phantoms Mew ex",
+    "matched": "Mew EX #100   Pokemon Holon Phantoms",
+    "url": "https://www.pricecharting.com/game/pokemon-holon-phantoms/mew-ex-100?q=mew+ex+holon+phantoms",
+    "usd": {
+     "raw": 300.0,
+     "g7": 2419.43,
+     "g8": 2610.35,
+     "g9": 7614.72,
+     "g95": 8376.0,
+     "g10": 13500.0
+    },
+    "aud": {
+     "raw": 440,
+     "g7": 3552,
+     "g8": 3833,
+     "g9": 11181,
+     "g95": 12298,
+     "g10": 19822
+    }
+   },
+   {
+    "label": "Japanese Charizard ex 012/052 2004 Starter Deck",
+    "matched": "Charizard EX [Holo] #12   Pokemon 2004 Starter Deck",
+    "url": "https://www.pricecharting.com/game/pokemon-2004-starter-deck/charizard-ex-holo-12",
+    "usd": {
+     "raw": 134.2,
+     "g7": 216.02,
+     "g8": 323.62,
+     "g9": 826.15,
+     "g95": 909.0,
+     "g10": 7351.62
+    },
+    "aud": {
+     "raw": 197,
+     "g7": 317,
+     "g8": 475,
+     "g9": 1213,
+     "g95": 1335,
+     "g10": 10794
+    }
+   }
+  ],
+  "DP & Platinum": [
+   {
+    "label": "Stormfront Raichu LV.X 99/100",
+    "matched": "Raichu LV. X #99   Pokemon Stormfront",
+    "url": "https://www.pricecharting.com/game/pokemon-stormfront/raichu-lv-x-99",
+    "usd": {
+     "raw": 87.88,
+     "g7": 221.25,
+     "g8": 597.5,
+     "g9": 2083.93,
+     "g95": 2292.0,
+     "g10": 6950.0
+    },
+    "aud": {
+     "raw": 129,
+     "g7": 325,
+     "g8": 877,
+     "g9": 3060,
+     "g95": 3365,
+     "g10": 10205
+    }
+   },
+   {
+    "label": "Supreme Victors Charizard G LV.X",
+    "matched": "Charizard G LV. X #143   Pokemon Supreme Victors",
+    "url": "https://www.pricecharting.com/game/pokemon-supreme-victors/charizard-g-lv-x-143?q=charizard+g+lv.x+supreme+victors",
+    "usd": {
+     "raw": 289.61,
+     "g7": 865.35,
+     "g8": 1314.0,
+     "g9": 4370.38,
+     "g95": 7888.17,
+     "g10": 64359.04
+    },
+    "aud": {
+     "raw": 425,
+     "g7": 1271,
+     "g8": 1929,
+     "g9": 6417,
+     "g95": 11582,
+     "g10": 94498
+    }
+   },
+   {
+    "label": "Supreme Victors Garchomp C LV.X",
+    "matched": "Garchomp C LV. X #145   Pokemon Supreme Victors",
+    "url": "https://www.pricecharting.com/game/pokemon-supreme-victors/garchomp-c-lv-x-145?q=garchomp+c+lv.x+supreme+victors",
+    "usd": {
+     "raw": 97.83,
+     "g7": 32.0,
+     "g8": 40.47,
+     "g9": 4050.0,
+     "g95": 4455.0,
+     "g10": 15187.5
+    },
+    "aud": {
+     "raw": 144,
+     "g7": 47,
+     "g8": 59,
+     "g9": 5947,
+     "g95": 6541,
+     "g10": 22300
+    }
+   },
+   {
+    "label": "Darkrai LV.X",
+    "matched": "Darkrai LV. X #104   Pokemon Great Encounters",
+    "url": "https://www.pricecharting.com/game/pokemon-great-encounters/darkrai-lv-x-104",
+    "usd": {
+     "raw": 72.5,
+     "g7": 303.21,
+     "g8": 542.6,
+     "g9": 1786.96,
+     "g95": 1966.0,
+     "g10": 18235.71
+    },
+    "aud": {
+     "raw": 106,
+     "g7": 445,
+     "g8": 797,
+     "g9": 2624,
+     "g95": 2887,
+     "g10": 26775
+    }
+   },
+   {
+    "label": "Arceus Gengar LV.X",
+    "matched": "Gengar LV. X #97   Pokemon Arceus",
+    "url": "https://www.pricecharting.com/game/pokemon-arceus/gengar-lv-x-97",
+    "usd": {
+     "raw": 563.43,
+     "g7": 1238.03,
+     "g8": 2160.0,
+     "g9": 6750.0,
+     "g95": 7425.0,
+     "g10": 23319.21
+    },
+    "aud": {
+     "raw": 827,
+     "g7": 1818,
+     "g8": 3172,
+     "g9": 9911,
+     "g95": 10902,
+     "g10": 34240
+    }
+   }
+  ],
+  "HGSS & Prime": [
+   {
+    "label": "Undaunted Raichu Prime 83/90",
+    "matched": "Raichu #83   Pokemon Undaunted",
+    "url": "https://www.pricecharting.com/game/pokemon-undaunted/raichu-83",
+    "usd": {
+     "raw": 152.5,
+     "g7": 293.79,
+     "g8": 723.4,
+     "g9": 1565.84,
+     "g95": 1722.0,
+     "g10": 15173.22
+    },
+    "aud": {
+     "raw": 224,
+     "g7": 431,
+     "g8": 1062,
+     "g9": 2299,
+     "g95": 2528,
+     "g10": 22279
+    }
+   },
+   {
+    "label": "Undaunted Scizor Prime 84/90",
+    "matched": "Scizor #84   Pokemon Undaunted",
+    "url": "https://www.pricecharting.com/game/pokemon-undaunted/scizor-84",
+    "usd": {
+     "raw": 89.99,
+     "g7": 207.75,
+     "g8": 431.0,
+     "g9": 1595.59,
+     "g95": 1755.0,
+     "g10": 5287.51
+    },
+    "aud": {
+     "raw": 132,
+     "g7": 305,
+     "g8": 633,
+     "g9": 2343,
+     "g95": 2577,
+     "g10": 7764
+    }
+   },
+   {
+    "label": "Undaunted Slowking Prime 85/90",
+    "matched": "Slowking #85   Pokemon Undaunted",
+    "url": "https://www.pricecharting.com/game/pokemon-undaunted/slowking-85",
+    "usd": {
+     "raw": 100.03,
+     "g7": 317.14,
+     "g8": 407.56,
+     "g9": 1380.0,
+     "g95": 1518.0,
+     "g10": 8600.0
+    },
+    "aud": {
+     "raw": 147,
+     "g7": 466,
+     "g8": 598,
+     "g9": 2026,
+     "g95": 2229,
+     "g10": 12627
+    }
+   },
+   {
+    "label": "Triumphant Celebi Prime 92/102",
+    "matched": "Celebi #92   Pokemon Triumphant",
+    "url": "https://www.pricecharting.com/game/pokemon-triumphant/celebi-92",
+    "usd": {
+     "raw": 94.52,
+     "g7": 227.25,
+     "g8": 764.37,
+     "g9": 2799.5,
+     "g95": 3079.0,
+     "g10": 10852.83
+    },
+    "aud": {
+     "raw": 139,
+     "g7": 334,
+     "g8": 1122,
+     "g9": 4111,
+     "g95": 4521,
+     "g10": 15935
+    }
+   },
+   {
+    "label": "Triumphant Magnezone Prime 96/102",
+    "matched": "Magnezone #96   Pokemon Triumphant",
+    "url": "https://www.pricecharting.com/game/pokemon-triumphant/magnezone-96",
+    "usd": {
+     "raw": 63.33,
+     "g7": 107.47,
+     "g8": 170.0,
+     "g9": 359.25,
+     "g95": 395.0,
+     "g10": 2916.56
+    },
+    "aud": {
+     "raw": 93,
+     "g7": 158,
+     "g8": 250,
+     "g9": 527,
+     "g95": 580,
+     "g10": 4282
+    }
+   },
+   {
+    "label": "HeartGold SoulSilver Typhlosion Prime 110/123",
+    "matched": "Typhlosion Prime #110   Pokemon HeartGold & SoulSilver",
+    "url": "https://www.pricecharting.com/game/pokemon-heartgold-&-soulsilver/typhlosion-prime-110?q=typhlosion+prime+110",
+    "usd": {
+     "raw": 65.04,
+     "g7": 168.0,
+     "g8": 210.5,
+     "g9": 1100.0,
+     "g95": 1210.0,
+     "g10": 1877.68
+    },
+    "aud": {
+     "raw": 95,
+     "g7": 247,
+     "g8": 309,
+     "g9": 1615,
+     "g95": 1777,
+     "g10": 2757
+    }
+   }
+  ],
+  "XY Generations": [
+   {
+    "label": "Sylveon EX RC21",
+    "matched": "Sylveon EX #RC21   Pokemon Generations",
+    "url": "https://www.pricecharting.com/game/pokemon-generations/sylveon-ex-rc21?q=sylveon+ex+rc21+generations",
+    "usd": {
+     "raw": 59.5,
+     "g7": 78.01,
+     "g8": 120.0,
+     "g9": 256.4,
+     "g95": 282.0,
+     "g10": 4040.0
+    },
+    "aud": {
+     "raw": 87,
+     "g7": 115,
+     "g8": 176,
+     "g9": 376,
+     "g95": 414,
+     "g10": 5932
+    }
+   },
+   {
+    "label": "M Gardevoir EX RC31",
+    "matched": "M Gardevoir EX #RC31   Pokemon Generations",
+    "url": "https://www.pricecharting.com/game/pokemon-generations/m-gardevoir-ex-rc31?q=m+gardevoir+ex+rc31+generations",
+    "usd": {
+     "raw": 78.75,
+     "g7": 94.5,
+     "g8": 115.25,
+     "g9": 270.26,
+     "g95": 297.0,
+     "g10": 4051.01
+    },
+    "aud": {
+     "raw": 116,
+     "g7": 139,
+     "g8": 169,
+     "g9": 397,
+     "g95": 436,
+     "g10": 5948
+    }
+   },
+   {
+    "label": "Charizard RC5",
+    "matched": "Charizard #RC5   Pokemon Generations",
+    "url": "https://www.pricecharting.com/game/pokemon-generations/charizard-rc5?q=charizard+rc5+generations",
+    "usd": {
+     "raw": 27.49,
+     "g7": 46.04,
+     "g8": 72.27,
+     "g9": 146.99,
+     "g95": 377.08,
+     "g10": 2605.91
+    },
+    "aud": {
+     "raw": 40,
+     "g7": 68,
+     "g8": 106,
+     "g9": 216,
+     "g95": 554,
+     "g10": 3826
+    }
+   },
+   {
+    "label": "Charizard EX 11/83",
+    "matched": "Charizard EX #11   Pokemon Generations",
+    "url": "https://www.pricecharting.com/game/pokemon-generations/charizard-ex-11?q=charizard+ex+generations+11",
+    "usd": {
+     "raw": 24.66,
+     "g7": 29.0,
+     "g8": 36.09,
+     "g9": 133.6,
+     "g95": 147.0,
+     "g10": 1754.56
+    },
+    "aud": {
+     "raw": 36,
+     "g7": 43,
+     "g8": 53,
+     "g9": 196,
+     "g95": 216,
+     "g10": 2576
+    }
+   }
+  ],
+  "Celebi / Prism Star / promos": [
+   {
+    "label": "Neo Destiny Shining Celebi 106/105",
+    "matched": "Shining Celebi #106   Pokemon Neo Destiny",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-destiny/shining-celebi-106",
+    "usd": {
+     "raw": 430.77,
+     "g7": 715.0,
+     "g8": 874.36,
+     "g9": 1550.2,
+     "g95": 1799.99,
+     "g10": 6624.44
+    },
+    "aud": {
+     "raw": 632,
+     "g7": 1050,
+     "g8": 1284,
+     "g9": 2276,
+     "g95": 2643,
+     "g10": 9727
+    }
+   },
+   {
+    "label": "Lost Thunder Ditto Prism Star",
+    "matched": "Celebi #19   Pokemon Lost Thunder",
+    "url": "https://www.pricecharting.com/game/pokemon-lost-thunder/celebi-19",
+    "usd": {
+     "raw": 36.25,
+     "g7": 25.09,
+     "g8": 40.0,
+     "g9": 284.44,
+     "g95": 313.0,
+     "g10": 4061.76
+    },
+    "aud": {
+     "raw": 53,
+     "g7": 37,
+     "g8": 59,
+     "g9": 418,
+     "g95": 460,
+     "g10": 5964
+    }
+   },
+   {
+    "label": "Unseen Forces Celebi ex",
+    "matched": "Celebi EX #117   Pokemon Unseen Forces",
+    "url": "https://www.pricecharting.com/game/pokemon-unseen-forces/celebi-ex-117?q=celebi+ex+unseen+forces",
+    "usd": {
+     "raw": 710.58,
+     "g7": 1914.51,
+     "g8": 2676.47,
+     "g9": 7077.15,
+     "g95": 7785.0,
+     "g10": 124518.14
+    },
+    "aud": {
+     "raw": 1043,
+     "g7": 2811,
+     "g8": 3930,
+     "g9": 10391,
+     "g95": 11431,
+     "g10": 182830
+    }
+   }
+  ],
+  "WotC classics": [
+   {
+    "label": "Base Set Charizard 4/102 (unlimited)",
+    "matched": "Charizard #4   Pokemon Base Set",
+    "url": "https://www.pricecharting.com/game/pokemon-base-set/charizard-4",
+    "usd": {
+     "raw": 281.68,
+     "g7": 797.5,
+     "g8": 1274.07,
+     "g9": 3051.1,
+     "g95": 6229.84,
+     "g10": 31970.0
+    },
+    "aud": {
+     "raw": 414,
+     "g7": 1171,
+     "g8": 1871,
+     "g9": 4480,
+     "g95": 9147,
+     "g10": 46942
+    }
+   },
+   {
+    "label": "Neo Discovery Umbreon 13/75",
+    "matched": "Umbreon #13   Pokemon Neo Discovery",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-discovery/umbreon-13",
+    "usd": {
+     "raw": 350.0,
+     "g7": 814.55,
+     "g8": 1341.7,
+     "g9": 2513.1,
+     "g95": 6100.0,
+     "g10": 25116.0
+    },
+    "aud": {
+     "raw": 514,
+     "g7": 1196,
+     "g8": 1970,
+     "g9": 3690,
+     "g95": 8957,
+     "g10": 36878
+    }
+   },
+   {
+    "label": "Neo Genesis Lugia 9/111",
+    "matched": "Lugia #9   Pokemon Neo Genesis",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-genesis/lugia-9",
+    "usd": {
+     "raw": 384.21,
+     "g7": 920.0,
+     "g8": 1516.69,
+     "g9": 2409.5,
+     "g95": 3827.92,
+     "g10": 32100.0
+    },
+    "aud": {
+     "raw": 564,
+     "g7": 1351,
+     "g8": 2227,
+     "g9": 3538,
+     "g95": 5621,
+     "g10": 47132
+    }
+   },
+   {
+    "label": "Fossil Gengar 5/62",
+    "matched": "Gengar #5   Pokemon Fossil",
+    "url": "https://www.pricecharting.com/game/pokemon-fossil/gengar-5",
+    "usd": {
+     "raw": 94.75,
+     "g7": 219.75,
+     "g8": 361.0,
+     "g9": 425.0,
+     "g95": 562.5,
+     "g10": 3235.34
+    },
+    "aud": {
+     "raw": 139,
+     "g7": 323,
+     "g8": 530,
+     "g9": 624,
+     "g95": 826,
+     "g10": 4750
+    }
+   },
+   {
+    "label": "Jungle Vaporeon 12/64",
+    "matched": "Vaporeon #12   Pokemon Jungle",
+    "url": "https://www.pricecharting.com/game/pokemon-jungle/vaporeon-12",
+    "usd": {
+     "raw": 19.99,
+     "g7": 81.5,
+     "g8": 129.99,
+     "g9": 179.91,
+     "g95": 298.01,
+     "g10": 4645.51
+    },
+    "aud": {
+     "raw": 29,
+     "g7": 120,
+     "g8": 191,
+     "g9": 264,
+     "g95": 438,
+     "g10": 6821
+    }
+   }
+  ],
+  "Japanese vintage": [
+   {
+    "label": "Japanese Base Set Charizard No.006",
+    "matched": "Charizard #6   Pokemon Japanese Expansion Pack",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-expansion-pack/charizard-6",
+    "usd": {
+     "raw": 302.5,
+     "g7": 775.0,
+     "g8": 1178.0,
+     "g9": 3169.28,
+     "g95": 6157.94,
+     "g10": 29932.56
+    },
+    "aud": {
+     "raw": 444,
+     "g7": 1138,
+     "g8": 1730,
+     "g9": 4653,
+     "g95": 9042,
+     "g10": 43950
+    }
+   },
+   {
+    "label": "Japanese Neo Destiny Dark Gengar No.094",
+    "matched": "Dark Gengar #6   Pokemon Neo Destiny",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-destiny/dark-gengar-6",
+    "usd": {
+     "raw": 420.0,
+     "g7": 843.7,
+     "g8": 1176.0,
+     "g9": 1994.63,
+     "g95": 2194.0,
+     "g10": 9694.15
+    },
+    "aud": {
+     "raw": 617,
+     "g7": 1239,
+     "g8": 1727,
+     "g9": 2929,
+     "g95": 3221,
+     "g10": 14234
+    }
+   },
+   {
+    "label": "Japanese Neo Discovery Umbreon No.197",
+    "matched": "Umbreon #197   Pokemon Japanese Crossing the Ruins",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-crossing-the-ruins/umbreon-197?q=umbreon+japanese+neo+discovery",
+    "usd": {
+     "raw": 255.77,
+     "g7": 377.5,
+     "g8": 458.08,
+     "g9": 966.2,
+     "g95": 1063.0,
+     "g10": 6300.0
+    },
+    "aud": {
+     "raw": 376,
+     "g7": 554,
+     "g8": 673,
+     "g9": 1419,
+     "g95": 1561,
+     "g10": 9250
+    }
+   },
+   {
+    "label": "Japanese Neo Revelation Lugia No.249",
+    "matched": "Lugia #9   Pokemon Neo Genesis",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-genesis/lugia-9",
+    "usd": {
+     "raw": 384.21,
+     "g7": 920.0,
+     "g8": 1516.69,
+     "g9": 2409.5,
+     "g95": 3827.92,
+     "g10": 32100.0
+    },
+    "aud": {
+     "raw": 564,
+     "g7": 1351,
+     "g8": 2227,
+     "g9": 3538,
+     "g95": 5621,
+     "g10": 47132
+    }
+   }
+  ],
+  "Undaunted reverse & Scyther": [
+   {
+    "label": "Undaunted Scizor 7/90 holo",
+    "matched": "Scizor #7   Pokemon Undaunted",
+    "url": "https://www.pricecharting.com/game/pokemon-undaunted/scizor-7",
+    "usd": {
+     "raw": 52.86,
+     "g7": 84.0,
+     "g8": 226.93,
+     "g9": 549.41,
+     "g95": 604.0,
+     "g10": 659.0
+    },
+    "aud": {
+     "raw": 78,
+     "g7": 123,
+     "g8": 333,
+     "g9": 807,
+     "g95": 887,
+     "g10": 968
+    }
+   },
+   {
+    "label": "Undaunted Scyther 36/90 reverse",
+    "matched": "Scyther [Reverse Holo] #36   Pokemon Undaunted",
+    "url": "https://www.pricecharting.com/game/pokemon-undaunted/scyther-reverse-holo-36?q=scyther+reverse+holo+undaunted+36",
+    "usd": {
+     "raw": 21.0,
+     "g7": 46.0,
+     "g8": 49.99,
+     "g9": 70.93,
+     "g95": 78.0,
+     "g10": 402.84
+    },
+    "aud": {
+     "raw": 31,
+     "g7": 68,
+     "g8": 73,
+     "g9": 104,
+     "g95": 115,
+     "g10": 591
+    }
+   },
+   {
+    "label": "Undaunted Umbreon 10/90 holo",
+    "matched": "Umbreon #10   Pokemon Undaunted",
+    "url": "https://www.pricecharting.com/game/pokemon-undaunted/umbreon-10",
+    "usd": {
+     "raw": 30.85,
+     "g7": 87.04,
+     "g8": 100.65,
+     "g9": 241.5,
+     "g95": 266.0,
+     "g10": 3851.16
+    },
+    "aud": {
+     "raw": 45,
+     "g7": 128,
+     "g8": 148,
+     "g9": 355,
+     "g95": 391,
+     "g10": 5655
+    }
+   }
+  ],
+  "Want list: other": [
+   {
+    "label": "FireRed LeafGreen Pidgeot 10/112",
+    "matched": "M Pidgeot EX #105   Pokemon Evolutions",
+    "url": "https://www.pricecharting.com/game/pokemon-evolutions/m-pidgeot-ex-105",
+    "usd": {
+     "raw": 12.99,
+     "g7": 16.83,
+     "g8": 24.79,
+     "g9": 38.72,
+     "g95": 39.4,
+     "g10": 218.6
+    },
+    "aud": {
+     "raw": 19,
+     "g7": 25,
+     "g8": 36,
+     "g9": 57,
+     "g95": 58,
+     "g10": 321
+    }
+   },
+   {
+    "label": "Plasma Freeze Latias EX 112/116",
+    "matched": "Latias EX #112   Pokemon Plasma Freeze",
+    "url": "https://www.pricecharting.com/game/pokemon-plasma-freeze/latias-ex-112?q=latias+ex+plasma+freeze+112",
+    "usd": {
+     "raw": 200.57,
+     "g7": 310.93,
+     "g8": 430.0,
+     "g9": 1579.92,
+     "g95": 1738.0,
+     "g10": 4250.0
+    },
+    "aud": {
+     "raw": 294,
+     "g7": 457,
+     "g8": 631,
+     "g9": 2320,
+     "g95": 2552,
+     "g10": 6240
+    }
+   },
+   {
+    "label": "Ancient Origins Sceptile EX 84/98",
+    "matched": "Sceptile EX #84   Pokemon Ancient Origins",
+    "url": "https://www.pricecharting.com/game/pokemon-ancient-origins/sceptile-ex-84?q=sceptile+ex+ancient+origins+84",
+    "usd": {
+     "raw": 44.85,
+     "g7": 69.99,
+     "g8": 94.0,
+     "g9": 273.8,
+     "g95": 510.0,
+     "g10": 2712.5
+    },
+    "aud": {
+     "raw": 66,
+     "g7": 103,
+     "g8": 138,
+     "g9": 402,
+     "g95": 749,
+     "g10": 3983
+    }
+   },
+   {
+    "label": "Galarian Ponyta SWSH013",
+    "matched": "Galarian Ponyta #SWSH013   Pokemon Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-promo/galarian-ponyta-swsh013?q=galarian+ponyta+swsh013",
+    "usd": {
+     "raw": 11.92,
+     "g7": 3.25,
+     "g8": 32.98,
+     "g9": 65.9,
+     "g95": 72.0,
+     "g10": 300.0
+    },
+    "aud": {
+     "raw": 18,
+     "g7": 5,
+     "g8": 48,
+     "g9": 97,
+     "g95": 106,
+     "g10": 440
+    }
+   }
+  ],
+  "XY Evolutions": [
+   {
+    "label": "Evolutions Charizard 11/108",
+    "matched": "Charizard #11   Pokemon Evolutions",
+    "url": "https://www.pricecharting.com/game/pokemon-evolutions/charizard-11",
+    "usd": {
+     "raw": 70.06,
+     "g7": 100.0,
+     "g8": 129.99,
+     "g9": 217.71,
+     "g95": 418.11,
+     "g10": 10506.35
+    },
+    "aud": {
+     "raw": 103,
+     "g7": 147,
+     "g8": 191,
+     "g9": 320,
+     "g95": 614,
+     "g10": 15426
+    }
+   },
+   {
+    "label": "Evolutions Blastoise 21/108",
+    "matched": "Blastoise EX #21   Pokemon Evolutions",
+    "url": "https://www.pricecharting.com/game/pokemon-evolutions/blastoise-ex-21",
+    "usd": {
+     "raw": 6.99,
+     "g7": 17.12,
+     "g8": 24.96,
+     "g9": 35.13,
+     "g95": 39.0,
+     "g10": 168.48
+    },
+    "aud": {
+     "raw": 10,
+     "g7": 25,
+     "g8": 37,
+     "g9": 52,
+     "g95": 57,
+     "g10": 247
+    }
+   },
+   {
+    "label": "Evolutions Venusaur 1/108",
+    "error": "page had no prices"
+   }
+  ],
+  "Shining / Legend / POP": [
+   {
+    "label": "Neo Destiny Shining Charizard 107/105",
+    "matched": "Shining Charizard #107   Pokemon Neo Destiny",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-destiny/shining-charizard-107",
+    "usd": {
+     "raw": 1300.0,
+     "g7": 3100.0,
+     "g8": 3850.0,
+     "g9": 6302.69,
+     "g95": 6933.0,
+     "g10": 23999.0
+    },
+    "aud": {
+     "raw": 1909,
+     "g7": 4552,
+     "g8": 5653,
+     "g9": 9254,
+     "g95": 10180,
+     "g10": 35238
+    }
+   },
+   {
+    "label": "Neo Revelation Shining Magikarp 66/64",
+    "matched": "Shining Magikarp #66   Pokemon Neo Revelation",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-revelation/shining-magikarp-66",
+    "usd": {
+     "raw": 400.0,
+     "g7": 752.5,
+     "g8": 960.0,
+     "g9": 1312.5,
+     "g95": 1500.0,
+     "g10": 11360.09
+    },
+    "aud": {
+     "raw": 587,
+     "g7": 1105,
+     "g8": 1410,
+     "g9": 1927,
+     "g95": 2202,
+     "g10": 16680
+    }
+   },
+   {
+    "label": "Neo Revelation Shining Gyarados 65/64",
+    "matched": "Shining Gyarados #65   Pokemon Neo Revelation",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-revelation/shining-gyarados-65",
+    "usd": {
+     "raw": 696.9,
+     "g7": 1515.25,
+     "g8": 2450.0,
+     "g9": 3613.05,
+     "g95": 3974.0,
+     "g10": 17414.91
+    },
+    "aud": {
+     "raw": 1023,
+     "g7": 2225,
+     "g8": 3597,
+     "g9": 5305,
+     "g95": 5835,
+     "g10": 25570
+    }
+   }
+  ],
+  "BW & XY era": [
+   {
+    "label": "Flashfire Charizard EX 100/106 full art",
+    "matched": "Charizard EX #100   Pokemon Flashfire",
+    "url": "https://www.pricecharting.com/game/pokemon-flashfire/charizard-ex-100?q=charizard+ex+flashfire+100",
+    "usd": {
+     "raw": 158.95,
+     "g7": 269.93,
+     "g8": 510.0,
+     "g9": 1539.86,
+     "g95": 1833.05,
+     "g10": 31065.63
+    },
+    "aud": {
+     "raw": 233,
+     "g7": 396,
+     "g8": 749,
+     "g9": 2261,
+     "g95": 2691,
+     "g10": 45614
+    }
+   },
+   {
+    "label": "Roaring Skies M Rayquaza EX 105/108",
+    "matched": "M Rayquaza EX #105   Pokemon Roaring Skies",
+    "url": "https://www.pricecharting.com/game/pokemon-roaring-skies/m-rayquaza-ex-105?q=m+rayquaza+ex+roaring+skies+105",
+    "usd": {
+     "raw": 216.09,
+     "g7": 492.98,
+     "g8": 762.08,
+     "g9": 2176.0,
+     "g95": 2394.0,
+     "g10": 21226.17
+    },
+    "aud": {
+     "raw": 317,
+     "g7": 724,
+     "g8": 1119,
+     "g9": 3195,
+     "g95": 3515,
+     "g10": 31166
+    }
+   },
+   {
+    "label": "BREAKthrough Mewtwo EX 164/162",
+    "matched": "Mewtwo EX #164   Pokemon BREAKthrough",
+    "url": "https://www.pricecharting.com/game/pokemon-breakthrough/mewtwo-ex-164?q=mewtwo+ex+breakthrough+164",
+    "usd": {
+     "raw": 144.58,
+     "g7": 220.0,
+     "g8": 360.0,
+     "g9": 1146.42,
+     "g95": 1261.0,
+     "g10": 8449.01
+    },
+    "aud": {
+     "raw": 212,
+     "g7": 323,
+     "g8": 529,
+     "g9": 1683,
+     "g95": 1852,
+     "g10": 12406
+    }
+   },
+   {
+    "label": "Furious Fists Lucario EX 107/111",
+    "matched": "Lucario EX #107   Pokemon Furious Fists",
+    "url": "https://www.pricecharting.com/game/pokemon-furious-fists/lucario-ex-107?q=lucario+ex+furious+fists+107",
+    "usd": {
+     "raw": 100.79,
+     "g7": 142.76,
+     "g8": 299.5,
+     "g9": 2141.17,
+     "g95": 2355.0,
+     "g10": 3049.91
+    },
+    "aud": {
+     "raw": 148,
+     "g7": 210,
+     "g8": 440,
+     "g9": 3144,
+     "g95": 3458,
+     "g10": 4478
+    }
+   }
+  ],
+  "Primes & chase cards": [
+   {
+    "label": "HeartGold SoulSilver Feraligatr Prime 108/123",
+    "matched": "Feraligatr #108   Pokemon HeartGold & SoulSilver",
+    "url": "https://www.pricecharting.com/game/pokemon-heartgold-&-soulsilver/feraligatr-108?q=feraligatr+108",
+    "usd": {
+     "raw": 90.0,
+     "g7": 229.5,
+     "g8": 412.87,
+     "g9": 1463.25,
+     "g95": 1500.0,
+     "g10": 1531.05
+    },
+    "aud": {
+     "raw": 132,
+     "g7": 337,
+     "g8": 606,
+     "g9": 2148,
+     "g95": 2202,
+     "g10": 2248
+    }
+   },
+   {
+    "label": "Unleashed Kingdra Prime 85/95",
+    "matched": "Kingdra #85   Pokemon Unleashed",
+    "url": "https://www.pricecharting.com/game/pokemon-unleashed/kingdra-85",
+    "usd": {
+     "raw": 76.49,
+     "g7": 248.0,
+     "g8": 309.4,
+     "g9": 827.28,
+     "g95": 910.0,
+     "g10": 6300.0
+    },
+    "aud": {
+     "raw": 112,
+     "g7": 364,
+     "g8": 454,
+     "g9": 1215,
+     "g95": 1336,
+     "g10": 9250
+    }
+   },
+   {
+    "label": "Triumphant Absol Prime 91/102",
+    "matched": "Absol #91   Pokemon Triumphant",
+    "url": "https://www.pricecharting.com/game/pokemon-triumphant/absol-91",
+    "usd": {
+     "raw": 187.05,
+     "g7": 397.74,
+     "g8": 583.05,
+     "g9": 1115.0,
+     "g95": 1200.0,
+     "g10": 13700.0
+    },
+    "aud": {
+     "raw": 275,
+     "g7": 584,
+     "g8": 856,
+     "g9": 1637,
+     "g95": 1762,
+     "g10": 20116
+    }
+   }
+  ],
+  "Under-watched": [
+   {
+    "label": "Neo Discovery Smeargle 11/75",
+    "matched": "Smeargle #11   Pokemon Neo Discovery",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-discovery/smeargle-11",
+    "usd": {
+     "raw": 33.61,
+     "g7": 70.0,
+     "g8": 142.76,
+     "g9": 572.56,
+     "g95": 630.0,
+     "g10": 1995.85
+    },
+    "aud": {
+     "raw": 49,
+     "g7": 103,
+     "g8": 210,
+     "g9": 841,
+     "g95": 925,
+     "g10": 2931
+    }
+   },
+   {
+    "label": "Neo Discovery Wobbuffet 16/75",
+    "matched": "Wobbuffet #16   Pokemon Neo Discovery",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-discovery/wobbuffet-16",
+    "usd": {
+     "raw": 29.99,
+     "g7": 43.25,
+     "g8": 117.47,
+     "g9": 282.56,
+     "g95": 311.0,
+     "g10": 1559.89
+    },
+    "aud": {
+     "raw": 44,
+     "g7": 64,
+     "g8": 172,
+     "g9": 415,
+     "g95": 457,
+     "g10": 2290
+    }
+   },
+   {
+    "label": "Neo Discovery Scizor 10/75",
+    "matched": "Scizor #10   Pokemon Neo Discovery",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-discovery/scizor-10",
+    "usd": {
+     "raw": 52.35,
+     "g7": 97.5,
+     "g8": 119.64,
+     "g9": 325.0,
+     "g95": 358.0,
+     "g10": 762.0
+    },
+    "aud": {
+     "raw": 77,
+     "g7": 143,
+     "g8": 176,
+     "g9": 477,
+     "g95": 526,
+     "g10": 1119
+    }
+   },
+   {
+    "label": "Neo Genesis Kingdra 8/111",
+    "matched": "Kingdra #8   Pokemon Neo Genesis",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-genesis/kingdra-8",
+    "usd": {
+     "raw": 15.91,
+     "g7": 39.0,
+     "g8": 63.67,
+     "g9": 190.62,
+     "g95": 210.0,
+     "g10": 2000.0
+    },
+    "aud": {
+     "raw": 23,
+     "g7": 57,
+     "g8": 93,
+     "g9": 280,
+     "g95": 308,
+     "g10": 2937
+    }
+   },
+   {
+    "label": "Base Set Chansey 3/102",
+    "matched": "Chansey #3   Pokemon Base Set",
+    "url": "https://www.pricecharting.com/game/pokemon-base-set/chansey-3",
+    "usd": {
+     "raw": 19.99,
+     "g7": 44.25,
+     "g8": 94.75,
+     "g9": 303.08,
+     "g95": 333.0,
+     "g10": 7691.1
+    },
+    "aud": {
+     "raw": 29,
+     "g7": 65,
+     "g8": 139,
+     "g9": 445,
+     "g95": 489,
+     "g10": 11293
+    }
+   }
+  ],
+  "Promos: WotC & Japanese vintage": [
+   {
+    "label": "WotC Black Star Mew #8",
+    "matched": "Mew #8   Pokemon Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-promo/mew-8?q=mew+promo+8+black+star",
+    "usd": {
+     "raw": 10.06,
+     "g7": 19.0,
+     "g8": 23.67,
+     "g9": 24.54,
+     "g95": 45.0,
+     "g10": 470.0
+    },
+    "aud": {
+     "raw": 15,
+     "g7": 28,
+     "g8": 35,
+     "g9": 36,
+     "g95": 66,
+     "g10": 690
+    }
+   },
+   {
+    "label": "WotC Black Star Mew #9",
+    "matched": "Mew #9   Pokemon Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-promo/mew-9?q=mew+promo+9+black+star",
+    "usd": {
+     "raw": 112.94,
+     "g7": 148.0,
+     "g8": 220.31,
+     "g9": 711.41,
+     "g95": 783.0,
+     "g10": 11896.0
+    },
+    "aud": {
+     "raw": 166,
+     "g7": 217,
+     "g8": 323,
+     "g9": 1045,
+     "g95": 1150,
+     "g10": 17467
+    }
+   },
+   {
+    "label": "Japanese CoroCoro Shining Mew",
+    "matched": "Shining Mew [CoroCoro] #151   Pokemon Japanese Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-promo/shining-mew-corocoro-151?q=shining+mew+corocoro",
+    "usd": {
+     "raw": 1000.0,
+     "g7": 1470.78,
+     "g8": 2320.65,
+     "g9": 6271.35,
+     "g95": 6898.0,
+     "g10": 43872.12
+    },
+    "aud": {
+     "raw": 1468,
+     "g7": 2160,
+     "g8": 3407,
+     "g9": 9208,
+     "g95": 10128,
+     "g10": 64417
+    }
+   }
+  ],
+  "Promos: EX / DP / HGSS": [
+   {
+    "label": "Nintendo Black Star Rayquaza ex 039",
+    "matched": "Rayquaza ex #39   Pokemon Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-promo/rayquaza-ex-39?q=rayquaza+ex+black+star+promo+39",
+    "usd": {
+     "raw": 384.99,
+     "g7": 1962.5,
+     "g8": 4256.8,
+     "g9": 5875.0,
+     "g95": 6463.0,
+     "g10": 64303.49
+    },
+    "aud": {
+     "raw": 565,
+     "g7": 2882,
+     "g8": 6250,
+     "g9": 8626,
+     "g95": 9490,
+     "g10": 94417
+    }
+   }
+  ],
+  "Promos: BW & XY": [
+   {
+    "label": "Umbreon 115/BW-P",
+    "matched": "Umbreon #115/BW-P   Pokemon Japanese Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-promo/umbreon-115bw-p?q=umbreon+115%2Fbw-p",
+    "usd": {
+     "raw": 51.39,
+     "g7": 73.0,
+     "g8": 90.84,
+     "g9": 205.61,
+     "g95": 480.0,
+     "g10": 839.09
+    },
+    "aud": {
+     "raw": 75,
+     "g7": 107,
+     "g8": 133,
+     "g9": 302,
+     "g95": 705,
+     "g10": 1232
+    }
+   },
+   {
+    "label": "Rayquaza 144/BW-P",
+    "matched": "Rayquaza #144/BW-P   Pokemon Japanese Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-promo/rayquaza-144bw-p?q=rayquaza+144%2Fbw-p",
+    "usd": {
+     "raw": 119.57,
+     "g7": 168.94,
+     "g8": 256.76,
+     "g9": 460.63,
+     "g95": 1030.91,
+     "g10": 1037.5
+    },
+    "aud": {
+     "raw": 176,
+     "g7": 248,
+     "g8": 377,
+     "g9": 676,
+     "g95": 1514,
+     "g10": 1523
+    }
+   },
+   {
+    "label": "Reshiram EX 158/BW-P",
+    "matched": "Reshiram EX #158/BW-P   Pokemon Japanese Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-promo/reshiram-ex-158bw-p?q=reshiram+ex+158%2Fbw-p",
+    "usd": {
+     "raw": 65.0,
+     "g7": 89.0,
+     "g8": 287.0,
+     "g9": 512.21,
+     "g95": 563.0,
+     "g10": 2851.25
+    },
+    "aud": {
+     "raw": 95,
+     "g7": 131,
+     "g8": 421,
+     "g9": 752,
+     "g95": 827,
+     "g10": 4186
+    }
+   },
+   {
+    "label": "Charizard EX XY121",
+    "matched": "Charizard EX #XY121   Pokemon Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-promo/charizard-ex-xy121",
+    "usd": {
+     "raw": 122.47,
+     "g7": 214.42,
+     "g8": 396.49,
+     "g9": 1003.36,
+     "g95": 1104.0,
+     "g10": 11200.0
+    },
+    "aud": {
+     "raw": 180,
+     "g7": 315,
+     "g8": 582,
+     "g9": 1473,
+     "g95": 1621,
+     "g10": 16445
+    }
+   }
+  ],
+  "Promos: SM / SWSH / SV / Mega": [
+   {
+    "label": "Mew SM215",
+    "matched": "Mew #SM215   Pokemon Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-promo/mew-sm215?q=mew+sm215",
+    "usd": {
+     "raw": 29.97,
+     "g7": 37.99,
+     "g8": 59.12,
+     "g9": 316.82,
+     "g95": 349.0,
+     "g10": 2000.0
+    },
+    "aud": {
+     "raw": 44,
+     "g7": 56,
+     "g8": 87,
+     "g9": 465,
+     "g95": 512,
+     "g10": 2937
+    }
+   },
+   {
+    "label": "Pikachu with Grey Felt Hat SVP 085",
+    "matched": "Pikachu with Grey Felt Hat #85   Pokemon Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-promo/pikachu-with-grey-felt-hat-85?q=pikachu+grey+felt+hat+85",
+    "usd": {
+     "raw": 924.99,
+     "g7": 759.75,
+     "g8": 781.25,
+     "g9": 828.11,
+     "g95": 1000.0,
+     "g10": 2380.28
+    },
+    "aud": {
+     "raw": 1358,
+     "g7": 1116,
+     "g8": 1147,
+     "g9": 1216,
+     "g95": 1468,
+     "g10": 3495
+    }
+   }
+  ],
+  "Movie & event promos": [
+   {
+    "label": "Japanese 10th Movie Mewtwo promo",
+    "matched": "Striking Back Mewtwo [Holo]   Pokemon Japanese 10th Movie Commemoration Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-10th-movie-commemoration-promo/striking-back-mewtwo-holo?q=mewtwo+10th+movie+japanese",
+    "usd": {
+     "raw": 77.99,
+     "g7": 94.4,
+     "g8": 131.47,
+     "g9": 235.0,
+     "g95": 350.0,
+     "g10": 629.0
+    },
+    "aud": {
+     "raw": 115,
+     "g7": 139,
+     "g8": 193,
+     "g9": 345,
+     "g95": 514,
+     "g10": 924
+    }
+   },
+   {
+    "label": "Japanese 10th Movie Deoxys promo",
+    "matched": "Visitor Deoxys [Holo]   Pokemon Japanese 10th Movie Commemoration Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-10th-movie-commemoration-promo/visitor-deoxys-holo?q=deoxys+10th+movie+japanese",
+    "usd": {
+     "raw": 35.99,
+     "g7": 39.5,
+     "g8": 77.0,
+     "g9": 139.25,
+     "g95": 153.0,
+     "g10": 354.0
+    },
+    "aud": {
+     "raw": 53,
+     "g7": 58,
+     "g8": 113,
+     "g9": 204,
+     "g95": 225,
+     "g10": 520
+    }
+   }
+  ],
+  "Mew": [
+   {
+    "label": "Japanese Best of XY Mew 044/171",
+    "matched": "Mew #44   Pokemon Japanese Best of XY",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/mew-44",
+    "usd": {
+     "raw": 22.5,
+     "g7": 19.99,
+     "g8": 39.0,
+     "g9": 60.0,
+     "g95": 60.0,
+     "g10": 303.02
+    },
+    "aud": {
+     "raw": 33,
+     "g7": 29,
+     "g8": 57,
+     "g9": 88,
+     "g95": 88,
+     "g10": 445
+    }
+   },
+   {
+    "label": "Legend Maker Mew 10/92",
+    "matched": "Mew #10   Pokemon Legend Maker",
+    "url": "https://www.pricecharting.com/game/pokemon-legend-maker/mew-10",
+    "usd": {
+     "raw": 161.57,
+     "g7": 325.0,
+     "g8": 850.0,
+     "g9": 1668.11,
+     "g95": 1835.0,
+     "g10": 4061.0
+    },
+    "aud": {
+     "raw": 237,
+     "g7": 477,
+     "g8": 1248,
+     "g9": 2449,
+     "g95": 2694,
+     "g10": 5963
+    }
+   },
+   {
+    "label": "Secret Wonders Mew 15/132",
+    "matched": "Mew #15   Pokemon Secret Wonders",
+    "url": "https://www.pricecharting.com/game/pokemon-secret-wonders/mew-15",
+    "usd": {
+     "raw": 131.05,
+     "g7": 374.99,
+     "g8": 835.0,
+     "g9": 4585.27,
+     "g95": 5044.0,
+     "g10": 12068.25
+    },
+    "aud": {
+     "raw": 192,
+     "g7": 551,
+     "g8": 1226,
+     "g9": 6733,
+     "g95": 7406,
+     "g10": 17720
+    }
+   },
+   {
+    "label": "Triumphant Mew Prime 97/102",
+    "matched": "Mew #97   Pokemon Triumphant",
+    "url": "https://www.pricecharting.com/game/pokemon-triumphant/mew-97",
+    "usd": {
+     "raw": 349.99,
+     "g7": 787.5,
+     "g8": 1445.0,
+     "g9": 3160.68,
+     "g95": 3502.99,
+     "g10": 21426.89
+    },
+    "aud": {
+     "raw": 514,
+     "g7": 1156,
+     "g8": 2122,
+     "g9": 4641,
+     "g95": 5143,
+     "g10": 31461
+    }
+   },
+   {
+    "label": "Japanese CP5 Dream Shine Mew 016/036",
+    "matched": "Mew #16   Pokemon Japanese Dream Shine Collection",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-dream-shine-collection/mew-16?q=mew+dream+shine+collection+16",
+    "usd": {
+     "raw": 79.66,
+     "g7": 21.5,
+     "g8": 146.58,
+     "g9": 192.5,
+     "g95": 204.49,
+     "g10": 487.81
+    },
+    "aud": {
+     "raw": 117,
+     "g7": 32,
+     "g8": 215,
+     "g9": 283,
+     "g95": 300,
+     "g10": 716
+    }
+   }
+  ],
+  "Southern Islands": [
+   {
+    "label": "Southern Islands Mew",
+    "matched": "Mew #1   Pokemon Southern Islands",
+    "url": "https://www.pricecharting.com/game/pokemon-southern-islands/mew-1",
+    "usd": {
+     "raw": 447.29,
+     "g7": 1275.0,
+     "g8": 2039.9,
+     "g9": 10212.5,
+     "g95": 11234.0,
+     "g10": 85001.0
+    },
+    "aud": {
+     "raw": 657,
+     "g7": 1872,
+     "g8": 2995,
+     "g9": 14995,
+     "g95": 16495,
+     "g10": 124807
+    }
+   },
+   {
+    "label": "Southern Islands Lugia",
+    "matched": "Mew #1   Pokemon Southern Islands",
+    "url": "https://www.pricecharting.com/game/pokemon-southern-islands/mew-1",
+    "usd": {
+     "raw": 447.29,
+     "g7": 1275.0,
+     "g8": 2039.9,
+     "g9": 10212.5,
+     "g95": 11234.0,
+     "g10": 85001.0
+    },
+    "aud": {
+     "raw": 657,
+     "g7": 1872,
+     "g8": 2995,
+     "g9": 14995,
+     "g95": 16495,
+     "g10": 124807
+    }
+   }
+  ],
+  "Mega Cash list": [
+   {
+    "label": "Primal Clash Kyogre EX 148/160",
+    "matched": "Kyogre EX #148   Pokemon Primal Clash",
+    "url": "https://www.pricecharting.com/game/pokemon-primal-clash/kyogre-ex-148?q=kyogre+ex+primal+clash+148",
+    "usd": {
+     "raw": 87.53,
+     "g7": 254.0,
+     "g8": 300.0,
+     "g9": 4750.0,
+     "g95": 5225.0,
+     "g10": 6505.21
+    },
+    "aud": {
+     "raw": 129,
+     "g7": 373,
+     "g8": 440,
+     "g9": 6974,
+     "g95": 7672,
+     "g10": 9552
+    }
+   },
+   {
+    "label": "Japanese Cold Flare Terrakion 064/059",
+    "matched": "Terrakion [1st Edition] #64   Pokemon Japanese Cold Flare",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-cold-flare/terrakion-1st-edition-64",
+    "usd": {
+     "raw": 43.69,
+     "g7": 139.99,
+     "g8": null,
+     "g9": 325.38,
+     "g95": 358.0,
+     "g10": 786.0
+    },
+    "aud": {
+     "raw": 64,
+     "g7": 206,
+     "g8": null,
+     "g9": 478,
+     "g95": 526,
+     "g10": 1154
+    }
+   },
+   {
+    "label": "Japanese Rising Fist Dragonite EX 100/096",
+    "matched": "Dragonite EX #100   Pokemon Japanese Rising Fist",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-rising-fist/dragonite-ex-100",
+    "usd": {
+     "raw": 89.98,
+     "g7": 39.0,
+     "g8": 84.23,
+     "g9": 160.04,
+     "g95": 176.0,
+     "g10": 1199.99
+    },
+    "aud": {
+     "raw": 132,
+     "g7": 57,
+     "g8": 124,
+     "g9": 235,
+     "g95": 258,
+     "g10": 1762
+    }
+   }
+  ],
+  "Slab play cards": [
+   {
+    "label": "Neo Revelation Shining Gyarados 65/64",
+    "matched": "Shining Gyarados #65   Pokemon Neo Revelation",
+    "url": "https://www.pricecharting.com/game/pokemon-neo-revelation/shining-gyarados-65",
+    "usd": {
+     "raw": 696.9,
+     "g7": 1515.25,
+     "g8": 2450.0,
+     "g9": 3613.05,
+     "g95": 3974.0,
+     "g10": 17414.91
+    },
+    "aud": {
+     "raw": 1023,
+     "g7": 2225,
+     "g8": 3597,
+     "g9": 5305,
+     "g95": 5835,
+     "g10": 25570
+    }
+   },
+   {
+    "label": "Dragon Frontiers Charizard Gold Star 100/101",
+    "matched": "Charizard [Gold Star] #100   Pokemon Dragon Frontiers",
+    "url": "https://www.pricecharting.com/game/pokemon-dragon-frontiers/charizard-gold-star-100",
+    "usd": {
+     "raw": 5875.02,
+     "g7": 14100.0,
+     "g8": 20000.0,
+     "g9": 42877.0,
+     "g95": 47165.0,
+     "g10": 286957.5
+    },
+    "aud": {
+     "raw": 8626,
+     "g7": 20703,
+     "g8": 29366,
+     "g9": 62956,
+     "g95": 69252,
+     "g10": 421340
+    }
+   },
+   {
+    "label": "Deoxys Rayquaza Gold Star 107/107",
+    "matched": "Rayquaza [Gold Star] #107   Pokemon Deoxys",
+    "url": "https://www.pricecharting.com/game/pokemon-deoxys/rayquaza-gold-star-107",
+    "usd": {
+     "raw": 12518.47,
+     "g7": 45150.0,
+     "g8": 52211.17,
+     "g9": 84137.5,
+     "g95": 92551.0,
+     "g10": 365750.0
+    },
+    "aud": {
+     "raw": 18381,
+     "g7": 66294,
+     "g8": 76662,
+     "g9": 123539,
+     "g95": 135893,
+     "g10": 537031
+    }
+   },
+   {
+    "label": "Skyridge Charizard 146/144 crystal",
+    "matched": "Charizard #146   Pokemon Skyridge",
+    "url": "https://www.pricecharting.com/game/pokemon-skyridge/charizard-146",
+    "usd": {
+     "raw": 6365.47,
+     "g7": 14700.0,
+     "g8": 22417.23,
+     "g9": 39037.5,
+     "g95": 42941.0,
+     "g10": 136950.5
+    },
+    "aud": {
+     "raw": 9346,
+     "g7": 21584,
+     "g8": 32915,
+     "g9": 57319,
+     "g95": 63050,
+     "g10": 201084
+    }
+   }
+  ],
+  "BW / Plasma-era secret rares": [
+   {
+    "label": "Plasma Storm Charizard 136/135",
+    "matched": "Charizard #136   Pokemon Plasma Storm",
+    "url": "https://www.pricecharting.com/game/pokemon-plasma-storm/charizard-136",
+    "usd": {
+     "raw": 698.58,
+     "g7": 1561.46,
+     "g8": 2500.55,
+     "g9": 5057.48,
+     "g95": 5563.0,
+     "g10": 78040.27
+    },
+    "aud": {
+     "raw": 1026,
+     "g7": 2293,
+     "g8": 3672,
+     "g9": 7426,
+     "g95": 8168,
+     "g10": 114587
+    }
+   },
+   {
+    "label": "Japanese Plasma Gale Charizard 077/070",
+    "matched": "Charizard #77   Pokemon Japanese Plasma Gale",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-plasma-gale/charizard-77",
+    "usd": {
+     "raw": 554.38,
+     "g7": 592.0,
+     "g8": 604.02,
+     "g9": 2337.5,
+     "g95": 2571.0,
+     "g10": 16235.75
+    },
+    "aud": {
+     "raw": 814,
+     "g7": 869,
+     "g8": 887,
+     "g9": 3432,
+     "g95": 3775,
+     "g10": 23839
+    }
+   }
+  ],
+  "Slab plays": [
+   {
+    "label": "Japanese Charizard ex 012/052 2004 Starter Deck",
+    "matched": "Charizard EX [Holo] #12   Pokemon 2004 Starter Deck",
+    "url": "https://www.pricecharting.com/game/pokemon-2004-starter-deck/charizard-ex-holo-12",
+    "usd": {
+     "raw": 134.2,
+     "g7": 216.02,
+     "g8": 323.62,
+     "g9": 826.15,
+     "g95": 909.0,
+     "g10": 7351.62
+    },
+    "aud": {
+     "raw": 197,
+     "g7": 317,
+     "g8": 475,
+     "g9": 1213,
+     "g95": 1335,
+     "g10": 10794
+    }
+   },
+   {
+    "label": "Crystal Guardians Charizard δ 4/100",
+    "matched": "Charizard #4   Pokemon Crystal Guardians",
+    "url": "https://www.pricecharting.com/game/pokemon-crystal-guardians/charizard-4",
+    "usd": {
+     "raw": 347.39,
+     "g7": 1068.78,
+     "g8": 1999.5,
+     "g9": 3469.76,
+     "g95": 3817.0,
+     "g10": 22700.0
+    },
+    "aud": {
+     "raw": 510,
+     "g7": 1569,
+     "g8": 2936,
+     "g9": 5095,
+     "g95": 5605,
+     "g10": 33330
+    }
+   }
+  ]
+ },
+ "errors": [
+  "XY Evolutions | Evolutions Venusaur 1/108: page had no prices"
+ ]
+}
