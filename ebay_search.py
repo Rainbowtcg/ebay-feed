@@ -226,6 +226,7 @@ def main():
     queries = [l.strip() for l in open(os.path.join(HERE, "queries.txt"), encoding="utf-8") if l.strip() and not l.startswith("#")]
     tok = token(cid, secret)
     seen, out, calls = set(), [], 0
+    stats = {}  # per search: [eBay returned, kept as new, already found by an earlier search, filtered out]
     nm_fail, nm_found = 0, 0
     done, quota_hit, fails_in_row = set(), False, 0
     for q in queries:
@@ -256,8 +257,15 @@ def main():
                 iid = it.get("legacyItemId") or ((it.get("itemId") or "").split("|") + ["", ""])[1] or None
                 title = it.get("title", "")
                 ok = keep_nm(title, want) if asp else keep(title, want)
-                if not iid or iid in seen or not ok:
+                st = stats.setdefault(q, [0, 0, 0, 0])
+                st[0] += 1
+                if iid and iid in seen:
+                    st[2] += 1
                     continue
+                if not iid or not ok:
+                    st[3] += 1
+                    continue
+                st[1] += 1
                 if asp:
                     nm_found += 1
                 seen.add(iid)
@@ -296,6 +304,7 @@ def main():
             "damaged_flagged": sum(1 for x in out if str(x.get("flag", "")).startswith("damage")),
             "unverified": sum(1 for x in out if x.get("flag") == "unverified"),
             "searches_done": f"{len(done)}/{len(queries)}", "carried_over": carried,
+            "query_stats": {q: dict(zip(("returned", "new", "dupes", "filtered"), stats.get(q, [0, 0, 0, 0]))) for q in queries},
             "note": "Pre-filtered by title and eBay Card Condition. Cheap raw outliers had their item page read (checked=1); others still need a look before buying."}
     with open(os.path.join(HERE, "listings.json"), "w", encoding="utf-8") as f:
         json.dump({**meta, "items": out}, f, ensure_ascii=False, indent=1)
