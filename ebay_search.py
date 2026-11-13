@@ -51,9 +51,43 @@ def token(cid, secret):
         return json.load(r)["access_token"]
 
 
-def search(tok, q, country, offset=0, limit=200, aspect=None):
+# Pawn shops: a search line containing "@pawn" is run once per page against these eBay sellers only (AU),
+# so badly titled pawn-shop listings ("Pokemon card holo rare") are still found. The list is pawn_sellers.txt
+# plus any seller whose username looks like a pawn shop / Cash Converters store seen in earlier feeds.
+PAWN_RX = re.compile(r"(?<!res)pawn|cash.?conv|cashies|mega.?cash|cash.?stop|cash.?town|cash.?brok|hock.?shop", re.I)
+PAWN_PAGES = 3
+# Pawn-shop listings are only kept when they fit the hunted eras (pre-2018, WotC to XY), not every modern card they stock.
+PAWN_ERA = re.compile(r"\b(199[6-9]|200\d|201[0-7])\b|wotc|wizards|old back|vintage|base set|jungle|fossil|team rocket|gym (heroes|challenge)|"
+                      r"\bneo\b|e-?series|e-?card|expedition|aquapolis|skyridge|legendary collection|\bex\b.*(ruby|sapphire|sandstorm|dragon|"
+                      r"magma|aqua|hidden legends|firered|leafgreen|rocket returns|deoxys|emerald|unseen forces|delta|legend maker|holon|crystal guardians|"
+                      r"frontiers|power keepers)|gold star|\bstar\b.*holo|☆|shining|crystal|lv\.? ?x|\blegend\b|prime\b|heartgold|soulsilver|hgss|"
+                      r"undaunted|unleashed|triumphant|call of legends|diamond|pearl|platinum|majestic dawn|great encounters|stormfront|"
+                      r"rising rivals|supreme victors|arceus|black star|promo|pcg|generations|evolutions|xy\b|black.?white|\bbw\b|plasma|"
+                      r"boundaries crossed|dragons exalted|legendary treasures|\bpsa\b|\bcgc\b|\bbgs\b", re.I)
+
+
+def pawn_sellers():
+    names = []
+    try:
+        for l in open(os.path.join(HERE, "pawn_sellers.txt"), encoding="utf-8"):
+            l = l.split("#")[0].strip()
+            if l:
+                names.append(l.lower())
+    except FileNotFoundError:
+        pass
+    try:
+        prev = json.load(open(os.path.join(HERE, "listings.json"), encoding="utf-8"))
+        names += [str(n).lower() for n in prev.get("pawn_sellers", [])]
+        names += [str(x.get("seller")).lower() for x in prev.get("items", []) if x.get("seller") and PAWN_RX.search(str(x.get("seller")))]
+    except Exception:
+        pass
+    return sorted(set(n for n in names if n and n != "none"))[:250]
+
+
+def search(tok, q, country, offset=0, limit=200, aspect=None, sellers=None):
     params = {"q": q, "category_ids": CATEGORY, "limit": str(limit), "offset": str(offset),
-              "filter": f"itemLocationCountry:{country},buyingOptions:{{FIXED_PRICE|AUCTION|BEST_OFFER}}"}
+              "filter": f"itemLocationCountry:{country},buyingOptions:{{FIXED_PRICE|AUCTION|BEST_OFFER}}"
+                        + (",sellers:{" + "|".join(sellers) + "}" if sellers else "")}
     if aspect:
         params["aspect_filter"] = aspect
     req = urllib.request.Request(API + "/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode(params),
@@ -233,6 +267,8 @@ def main():
         sys.exit("Set EBAY_CLIENT_ID and EBAY_CLIENT_SECRET (eBay production keys).")
     queries = [l.strip() for l in open(os.path.join(HERE, "queries.txt"), encoding="utf-8") if l.strip() and not l.startswith("#")]
     tok = token(cid, secret)
+    pawns = pawn_sellers()
+    print(f"pawn-shop sellers: {len(pawns)}")
     seen, out, calls = set(), [], 0
     stats = {}  # per search: [eBay returned, kept as new, already found by an earlier search, filtered out]
     nm_fail, nm_found = 0, 0
@@ -242,13 +278,17 @@ def main():
             break
         # A "+" at the start marks a want-list search: modern (2018+) cards are kept for it.
         want = q.startswith("+")
-        sq = q.lstrip("+").strip()
-        for c in COUNTRIES:
+        is_pawn = "@pawn" in q
+        sq = q.lstrip("+").replace("@pawn", "").strip()
+        if is_pawn and not pawns:
+            continue
+        for c in (["AU"] if is_pawn else COUNTRIES):
           # NM pass first, so listings the seller marked "Near Mint or Better" are recorded with nm=1
           passes = ([NM_ASPECT] if NM_PASS and nm_fail < 5 else []) + [None]
-          for asp in passes:
+          pages = [(asp, off) for asp in passes for off in ([o * 200 for o in range(PAWN_PAGES)] if is_pawn else [0])]
+          for asp, off in pages:
             try:
-                res = search(tok, sq, c, aspect=asp)
+                res = search(tok, sq, c, offset=off, aspect=asp, sellers=pawns if is_pawn else None)
                 calls += 1
                 fails_in_row = 0
             except Exception as e:  # keep going on one bad query
@@ -265,6 +305,8 @@ def main():
                 iid = it.get("legacyItemId") or ((it.get("itemId") or "").split("|") + ["", ""])[1] or None
                 title = it.get("title", "")
                 ok = keep_nm(title, want) if asp else keep(title, want)
+                if ok and is_pawn and not PAWN_ERA.search(title):
+                    ok = False  # pawn shops: hunted eras only
                 st = stats.setdefault(q, [0, 0, 0, 0])
                 st[0] += 1
                 if iid and iid in seen:
@@ -312,6 +354,7 @@ def main():
             "damaged_flagged": sum(1 for x in out if str(x.get("flag", "")).startswith("damage")),
             "unverified": sum(1 for x in out if x.get("flag") == "unverified"),
             "searches_done": f"{len(done)}/{len(queries)}", "carried_over": carried,
+            "pawn_sellers": sorted(set(pawns) | {str(x.get("seller")).lower() for x in out if x.get("seller") and PAWN_RX.search(str(x.get("seller")))}),
             "query_stats": {q: dict(zip(("returned", "new", "dupes", "filtered"), stats.get(q, [0, 0, 0, 0]))) for q in queries},
             "note": "Pre-filtered by title and eBay Card Condition. Cheap raw outliers had their item page read (checked=1); others still need a look before buying."}
     with open(os.path.join(HERE, "listings.json"), "w", encoding="utf-8") as f:

@@ -1,0 +1,10 @@
+# eBay usernames of Australian pawnbrokers / second-hand dealers. Every morning the feed searches their Pokemon listings
+# (the "+pokemon @pawn" line in queries.txt), however badly titled, and keeps those from the hunted eras (pre-2018 / graded).
+# Add one username per line (the name after /usr/ or /str/ in their eBay link). Sellers whose names look like
+# pawn shops or Cash Converters stores (pawn, cash converters, cashies, mega cash, cash stop...) are added automatically.
+mega-cash                 # Mega Cash (St Marys NSW eBay store)
+megacashsouthwindsor      # Mega Cash Penrith
+megacashselect            # Mega Cash
+cashstop                  # Cash Stop
+theballaratpawnshop       # The Ballarat Pawn Shop
+longjettypawnbrokers      # Long Jetty Pawnbrokers (Central Coast NSW)

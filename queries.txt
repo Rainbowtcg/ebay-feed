@@ -360,6 +360,9 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon dragonite ex "furious fists" full art
 +pokemon ("pokemon center lady","pokémon center lady") (105/106,flashfire)
 
+# ---------- Pawn shops (Pokemon listings from pawnbroker eBay stores in the hunted eras; sellers in pawn_sellers.txt) ----------
++pokemon @pawn
+
 # ---------- Slab play cards (raw copies in any condition, to grade) ----------
 +pokemon shining gyarados 65/64
 +pokemon charizard (gold star,☆,star) 100/101

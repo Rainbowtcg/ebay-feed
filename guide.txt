@@ -1,0 +1,134 @@
+# Price guide for the finder's Feed tab: the cards worth knowing in each category, priced daily from PriceCharting.
+# One card per line:  Category | Card label | PriceCharting path or search words
+#   - Category must match a "# ---------- Name ----------" heading in queries.txt (text in brackets / after a comma dropped).
+#   - The third field is either a PriceCharting page path (/game/pokemon-expedition/charizard-6) or search words; a path that
+#     doesn't load falls back to searching the label. The page shows which PriceCharting card each line matched, so check it.
+# Values are US$ sold-price averages from PriceCharting (Ungraded, Grade 7, 8, 9, 9.5, PSA 10), converted to A$ at the day's rate.
+
+e-Card era | Expedition Charizard 6/165 holo | /game/pokemon-expedition/charizard-6
+e-Card era | Expedition Dugtrio 10/165 holo | /game/pokemon-expedition/dugtrio-10
+e-Card era | Expedition Venusaur 30/165 holo | /game/pokemon-expedition/venusaur-30
+e-Card era | Aquapolis Lugia 149/147 crystal | /game/pokemon-aquapolis/lugia-149
+e-Card era | Skyridge Charizard 146/144 crystal | /game/pokemon-skyridge/charizard-146
+e-Card era | Skyridge Gengar H9 | /game/pokemon-skyridge/gengar-h9
+e-Card era | Skyridge Umbreon H30 | /game/pokemon-skyridge/umbreon-h30
+
+EX era | Deoxys Rayquaza Gold Star 107/107 | /game/pokemon-deoxys/rayquaza-gold-star-107
+EX era | Deoxys Latias Gold Star 105/107 | /game/pokemon-deoxys/latias-gold-star-105
+EX era | POP 5 Umbreon Gold Star 17/17 | /game/pokemon-pop-series-5/umbreon-gold-star-17
+EX era | FireRed LeafGreen Charizard ex 105/112 | Charizard ex FireRed LeafGreen 105
+EX era | Dragon Frontiers Mew Gold Star 101/101 | /game/pokemon-dragon-frontiers/mew-gold-star-101
+
+EX era chase cards | Dragon Frontiers Charizard Gold Star 100/101 | /game/pokemon-dragon-frontiers/charizard-gold-star-100
+EX era chase cards | Crystal Guardians Charizard δ 4/100 | /game/pokemon-crystal-guardians/charizard-4
+EX era chase cards | Dragon Frontiers Dragonite ex δ | Dragonite ex Dragon Frontiers
+EX era chase cards | Dragon Frontiers Tyranitar ex δ | Tyranitar ex Dragon Frontiers
+EX era chase cards | Unseen Forces Celebi ex | Celebi ex Unseen Forces
+EX era chase cards | Holon Phantoms Mew ex | Mew ex Holon Phantoms
+EX era chase cards | Japanese Charizard ex 012/052 2004 Starter Deck | /game/pokemon-2004-starter-deck/charizard-ex-holo-12
+
+DP & Platinum | Stormfront Raichu LV.X 99/100 | Raichu Lv.X Stormfront
+DP & Platinum | Supreme Victors Charizard G LV.X | Charizard G Lv.X Supreme Victors
+DP & Platinum | Supreme Victors Garchomp C LV.X | Garchomp C Lv.X Supreme Victors
+DP & Platinum | Darkrai LV.X | Darkrai Lv.X
+DP & Platinum | Arceus Gengar LV.X | Gengar Lv.X
+
+HGSS & Prime | Undaunted Raichu Prime 83/90 | /game/pokemon-undaunted/raichu-83
+HGSS & Prime | Undaunted Scizor Prime 84/90 | /game/pokemon-undaunted/scizor-84
+HGSS & Prime | Undaunted Slowking Prime 85/90 | /game/pokemon-undaunted/slowking-85
+HGSS & Prime | Triumphant Celebi Prime 92/102 | /game/pokemon-triumphant/celebi-92
+HGSS & Prime | Triumphant Magnezone Prime 96/102 | /game/pokemon-triumphant/magnezone-96
+HGSS & Prime | HeartGold SoulSilver Typhlosion Prime 110/123 | /game/pokemon-heartgold-soulsilver/typhlosion-110
+
+XY Generations | Sylveon EX RC21 | Sylveon EX RC21 Generations
+XY Generations | M Gardevoir EX RC31 | M Gardevoir EX RC31 Generations
+XY Generations | Charizard RC5 | Charizard RC5 Generations
+XY Generations | Charizard EX 11/83 | Charizard EX Generations 11
+
+Celebi / Prism Star / promos | Neo Destiny Shining Celebi 106/105 | Shining Celebi Neo Destiny
+Celebi / Prism Star / promos | Lost Thunder Ditto Prism Star | Ditto Prism Star Lost Thunder
+Celebi / Prism Star / promos | Unseen Forces Celebi ex | Celebi ex Unseen Forces
+
+WotC classics | Base Set Charizard 4/102 (unlimited) | /game/pokemon-base-set/charizard-4
+WotC classics | Neo Discovery Umbreon 13/75 | /game/pokemon-neo-discovery/umbreon-13
+WotC classics | Neo Genesis Lugia 9/111 | /game/pokemon-neo-genesis/lugia-9
+WotC classics | Fossil Gengar 5/62 | /game/pokemon-fossil/gengar-5
+WotC classics | Jungle Vaporeon 12/64 | /game/pokemon-jungle/vaporeon-12
+
+Japanese vintage | Japanese Base Set Charizard No.006 | Charizard Japanese Base Set
+Japanese vintage | Japanese Neo Destiny Dark Gengar No.094 | Dark Gengar Japanese Neo Destiny
+Japanese vintage | Japanese Neo Discovery Umbreon No.197 | Umbreon Japanese Neo Discovery
+Japanese vintage | Japanese Neo Revelation Lugia No.249 | Lugia Japanese Neo Revelation
+
+Undaunted reverse & Scyther | Undaunted Scizor 7/90 holo | /game/pokemon-undaunted/scizor-7
+Undaunted reverse & Scyther | Undaunted Scyther 36/90 reverse | Scyther Reverse Holo Undaunted 36
+Undaunted reverse & Scyther | Undaunted Umbreon 10/90 holo | /game/pokemon-undaunted/umbreon-10
+
+Want list: other | FireRed LeafGreen Pidgeot 10/112 | Pidgeot FireRed LeafGreen 10
+Want list: other | Plasma Freeze Latias EX 112/116 | Latias EX Plasma Freeze 112
+Want list: other | Ancient Origins Sceptile EX 84/98 | Sceptile EX Ancient Origins 84
+Want list: other | Galarian Ponyta SWSH013 | Galarian Ponyta SWSH013
+
+XY Evolutions | Evolutions Charizard 11/108 | /game/pokemon-evolutions/charizard-11
+XY Evolutions | Evolutions Blastoise 21/108 | /game/pokemon-evolutions/blastoise-21
+XY Evolutions | Evolutions Venusaur 1/108 | /game/pokemon-evolutions/venusaur-1
+
+Shining / Legend / POP | Neo Destiny Shining Charizard 107/105 | Shining Charizard Neo Destiny
+Shining / Legend / POP | Neo Revelation Shining Magikarp 66/64 | Shining Magikarp Neo Revelation
+Shining / Legend / POP | Neo Revelation Shining Gyarados 65/64 | /game/pokemon-neo-revelation/shining-gyarados-65
+
+BW & XY era | Flashfire Charizard EX 100/106 full art | Charizard EX Flashfire 100
+BW & XY era | Roaring Skies M Rayquaza EX 105/108 | M Rayquaza EX Roaring Skies 105
+BW & XY era | BREAKthrough Mewtwo EX 164/162 | Mewtwo EX BREAKthrough 164
+BW & XY era | Furious Fists Lucario EX 107/111 | Lucario EX Furious Fists 107
+
+Primes & chase cards | HeartGold SoulSilver Feraligatr Prime 108/123 | /game/pokemon-heartgold-soulsilver/feraligatr-108
+Primes & chase cards | Unleashed Kingdra Prime 85/95 | /game/pokemon-unleashed/kingdra-85
+Primes & chase cards | Triumphant Absol Prime 91/102 | /game/pokemon-triumphant/absol-91
+
+Under-watched | Neo Discovery Smeargle 11/75 | /game/pokemon-neo-discovery/smeargle-11
+Under-watched | Neo Discovery Wobbuffet 16/75 | /game/pokemon-neo-discovery/wobbuffet-16
+Under-watched | Neo Discovery Scizor 10/75 | /game/pokemon-neo-discovery/scizor-10
+Under-watched | Neo Genesis Kingdra 8/111 | /game/pokemon-neo-genesis/kingdra-8
+Under-watched | Base Set Chansey 3/102 | /game/pokemon-base-set/chansey-3
+
+Promos: WotC & Japanese vintage | WotC Black Star Mew #8 | Mew Promo 8 Black Star
+Promos: WotC & Japanese vintage | WotC Black Star Mew #9 | Mew Promo 9 Black Star
+Promos: WotC & Japanese vintage | Japanese CoroCoro Shining Mew | Shining Mew Corocoro
+
+Promos: EX / DP / HGSS | Nintendo Black Star Rayquaza ex 039 | Rayquaza ex Black Star Promo 39
+
+Promos: BW & XY | Umbreon 115/BW-P | Umbreon 115/BW-P
+Promos: BW & XY | Rayquaza 144/BW-P | Rayquaza 144/BW-P
+Promos: BW & XY | Reshiram EX 158/BW-P | Reshiram EX 158/BW-P
+Promos: BW & XY | Charizard EX XY121 | Charizard EX XY121
+
+Promos: SM / SWSH / SV / Mega | Mew SM215 | Mew SM215
+Promos: SM / SWSH / SV / Mega | Pikachu with Grey Felt Hat SVP 085 | Pikachu Grey Felt Hat 85
+
+Movie & event promos | Japanese 10th Movie Mewtwo promo | Mewtwo 10th Movie Japanese
+Movie & event promos | Japanese 10th Movie Deoxys promo | Deoxys 10th Movie Japanese
+
+Mew | Japanese Best of XY Mew 044/171 | Mew Best of XY 44
+Mew | Legend Maker Mew 10/92 | Mew Legend Maker 10
+Mew | Secret Wonders Mew 15/132 | Mew Secret Wonders 15
+Mew | Triumphant Mew Prime 97/102 | /game/pokemon-triumphant/mew-97
+Mew | Japanese CP5 Dream Shine Mew 016/036 | Mew Dream Shine Collection 16
+
+Southern Islands | Southern Islands Mew | Mew Southern Islands
+Southern Islands | Southern Islands Lugia | Lugia Southern Islands
+
+Mega Cash list | Primal Clash Kyogre EX 148/160 | Kyogre EX Primal Clash 148
+Mega Cash list | Japanese Cold Flare Terrakion 064/059 | Terrakion Cold Flare 64
+Mega Cash list | Japanese Rising Fist Dragonite EX 100/096 | Dragonite EX Rising Fist 100
+
+Slab play cards | Neo Revelation Shining Gyarados 65/64 | /game/pokemon-neo-revelation/shining-gyarados-65
+Slab play cards | Dragon Frontiers Charizard Gold Star 100/101 | /game/pokemon-dragon-frontiers/charizard-gold-star-100
+Slab play cards | Deoxys Rayquaza Gold Star 107/107 | /game/pokemon-deoxys/rayquaza-gold-star-107
+Slab play cards | Skyridge Charizard 146/144 crystal | /game/pokemon-skyridge/charizard-146
+
+BW / Plasma-era secret rares | Plasma Storm Charizard 136/135 | /game/pokemon-plasma-storm/charizard-136
+BW / Plasma-era secret rares | Japanese Plasma Gale Charizard 077/070 | Charizard Plasma Gale 77
+
+Slab plays | Japanese Charizard ex 012/052 2004 Starter Deck | /game/pokemon-2004-starter-deck/charizard-ex-holo-12
+Slab plays | Crystal Guardians Charizard δ 4/100 | /game/pokemon-crystal-guardians/charizard-4

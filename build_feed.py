@@ -53,6 +53,8 @@ try:
   out['cats']=en['cats']; out['day']=en['day']; out['x']=[_x(r[0]) for r in rows]
   print('enrich:',sum(1 for v in out['x'] if v),'rows with extras')
 except Exception as e: print('enrich.json not used:',e)
+try: out['guide']=json.load(open('guide.json',encoding='utf8'))
+except Exception as e: print('guide.json not used:',e)
 try: out['digest']=json.load(open('digest.json',encoding='utf8'))
 except Exception as e: print('digest.json not used:',e)
 try:
