@@ -111,8 +111,16 @@ def num(x):
         return 0.0
 
 
+try:  # better "same card" test (number + set + variant + grade + language + name), shared with enrich.py
+    from feedlib import card_key as _card_key2
+except Exception:
+    _card_key2 = None
+
+
 def card_key(title):
-    """Same card = same card number + same grade + same language + first name word."""
+    """Same card = same card number + same set + same variant + same grade + same language + first name word."""
+    if _card_key2:
+        return _card_key2(title)
     n = re.search(r"\b(\d{1,3}a?/\d{2,3}|\d{3}/[A-Z]{1,4}-?P|[A-Z]{2,4}\d{2,3}|SWSH\d+|SM\d+)\b", title, re.I)
     if not n:  # Japanese vintage cards are numbered "No.094" / "#94" with no set total
         n = re.search(r"(?:#|\bNo\.?\s?)0*(\d{1,3})\b", title, re.I) if re.search("japan|\\bjpn?\\b", title, re.I) else None

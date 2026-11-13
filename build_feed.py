@@ -38,6 +38,23 @@ for it in items:
   if it.get('flag'): flags[str(it['id'])]=it['flag'][:40]
   rows.append([it['id'],t,round(p,2),round(post,2),it.get('country') or '',it.get('seller') or '',auc,bo,it.get('bids') or 0,(it.get('ends') or '')[:16]]+([it.get('url') or ''] if it.get('shop') else []))
 out={'generated':d.get('generated'),'count':len(rows),'shops':sum(1 for r in rows if len(r)>10),'items':rows,'flags':flags}
+# enrich.json (from enrich.py): categories, price history and card values, one entry per row in the same order as items.
+# x[i] = 0 or [category indexes, days since first seen, previous price if it dropped, lowest A$ for this card in 30 days,
+#              live copies of this card, card value A$ at this grade, value label, tags (n new, d dropped, r relisted, l lowest in 30 days)]
+try:
+  import datetime as _dt
+  en=json.load(open('enrich.json',encoding='utf8')); day=_dt.date.fromisoformat(en['day'])
+  def _x(i):
+    v=en['x'].get(str(i))
+    if not v: return 0
+    try: age=(day-_dt.date.fromisoformat(v[1])).days
+    except Exception: age=0
+    return [v[0],age]+v[2:]
+  out['cats']=en['cats']; out['day']=en['day']; out['x']=[_x(r[0]) for r in rows]
+  print('enrich:',sum(1 for v in out['x'] if v),'rows with extras')
+except Exception as e: print('enrich.json not used:',e)
+try: out['digest']=json.load(open('digest.json',encoding='utf8'))
+except Exception as e: print('digest.json not used:',e)
 try:
   out['shopPhotos']={x['shop']:x['photos'] for x in json.load(open(sys.argv[4])).get('shops',[]) if x.get('photos')}
 except Exception as e: print('shop photo labels not used:',e)

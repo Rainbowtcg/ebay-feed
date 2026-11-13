@@ -1,0 +1,9548 @@
+{
+"note": "Card values in A$ by grade. tg: rows come from the Slab Finder's TG benchmarks; others from PriceCharting (US$ x 1.4232). Edit or add entries freely: num = card number as printed (leading zeros dropped, or No.151 for old Japanese), words = name words that must all be in the title, keys = set words (any one must be in the title; empty = number is enough), first = 1st Edition only, rev = reverse/mirror only.",
+"updated": "2026-11-13",
+"cards": [
+{
+"id": "tg:Fossil 1st Edition Hypno 8/62",
+"label": "Fossil 1st Edition Hypno 8/62",
+"lang": "EN",
+"num": "8/62",
+"words": [
+"hypno"
+],
+"keys": [
+"fossil"
+],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 97,
+"PSA 9": 611,
+"PSA 10": 7148
+},
+"src": "Finder benchmark (PriceCharting/pokemon-fossil/hypno-1st-edition-8)"
+},
+{
+"id": "tg:Gym Heroes 1st Edition Blaine's Moltres 1/132",
+"label": "Gym Heroes 1st Edition Blaine's Moltres 1/132",
+"lang": "EN",
+"num": "1/132",
+"words": [
+"blaine's",
+"moltres"
+],
+"keys": [
+"gym heroes"
+],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 449,
+"PSA 9": 1852,
+"PSA 10": 23122
+},
+"src": "Finder benchmark (PriceCharting/pokemon-gym-heroes/blaine's-moltres-1st-edition-1)"
+},
+{
+"id": "tg:Expedition Blastoise 4/165 (reverse holo)",
+"label": "Expedition Blastoise 4/165 (reverse holo)",
+"lang": "EN",
+"num": "4/165",
+"words": [
+"blastoise"
+],
+"keys": [
+"expedition"
+],
+"first": false,
+"sl": false,
+"rev": true,
+"g": {
+"Raw": 290,
+"PSA 9": 1745,
+"PSA 10": 5806
+},
+"src": "Finder benchmark (PriceCharting/pokemon-expedition/blastoise-reverse-holo-4)"
+},
+{
+"id": "tg:EX Team Rocket Returns Dark Octillery 8/109",
+"label": "EX Team Rocket Returns Dark Octillery 8/109",
+"lang": "EN",
+"num": "8/109",
+"words": [
+"dark",
+"octillery"
+],
+"keys": [
+"team rocket returns",
+"trr"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 29,
+"PSA 9": 183,
+"PSA 10": 816
+},
+"src": "Finder benchmark (PriceCharting/pokemon-team-rocket-returns/dark-octillery-8)"
+},
+{
+"id": "tg:Stormfront Raichu LV.X 99/100",
+"label": "Stormfront Raichu LV.X 99/100",
+"lang": "EN",
+"num": "99/100",
+"words": [
+"stormfront",
+"raichu",
+"lv.x"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 138,
+"PSA 9": 1758,
+"PSA 10": 9901
+},
+"src": "Finder benchmark (PriceCharting/pokemon-stormfront/raichu-lv-x-99)"
+},
+{
+"id": "tg:Expedition Dugtrio 10/165",
+"label": "Expedition Dugtrio 10/165",
+"lang": "EN",
+"num": "10/165",
+"words": [
+"dugtrio"
+],
+"keys": [
+"expedition"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 73,
+"PSA 9": 965,
+"PSA 10": 13649
+},
+"src": "Finder benchmark (PriceCharting/pokemon-expedition/dugtrio-10)"
+},
+{
+"id": "tg:Base Set Charizard 4/102",
+"label": "Base Set Charizard 4/102",
+"lang": "EN",
+"num": "4/102",
+"words": [
+"charizard"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 672,
+"PSA 7": 1172,
+"PSA 8": 2144,
+"PSA 9": 4911
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/charizard-4)"
+},
+{
+"id": "tg:Base Set Shadowless Charizard 4/102",
+"label": "Base Set Shadowless Charizard 4/102",
+"lang": "EN",
+"num": "4/102",
+"words": [
+"charizard"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": true,
+"rev": false,
+"g": {
+"PSA 9": 15934
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/charizard-shadowless-4)"
+},
+{
+"id": "tg:Base Set Blastoise 2/102",
+"label": "Base Set Blastoise 2/102",
+"lang": "EN",
+"num": "2/102",
+"words": [
+"blastoise"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 130,
+"PSA 7": 344,
+"PSA 8": 552,
+"PSA 9": 1389
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/blastoise-2)"
+},
+{
+"id": "tg:Base Set Venusaur 15/102",
+"label": "Base Set Venusaur 15/102",
+"lang": "EN",
+"num": "15/102",
+"words": [
+"venusaur"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 107,
+"PSA 7": 265,
+"PSA 8": 406,
+"PSA 9": 887
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/venusaur-15)"
+},
+{
+"id": "tg:Base Set Shadowless Venusaur 15/102",
+"label": "Base Set Shadowless Venusaur 15/102",
+"lang": "EN",
+"num": "15/102",
+"words": [
+"venusaur"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": true,
+"rev": false,
+"g": {
+"Raw": 285,
+"PSA 7": 644,
+"PSA 8": 1111
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/venusaur-shadowless-15)"
+},
+{
+"id": "tg:Base Set Shadowless Ninetales 12/102",
+"label": "Base Set Shadowless Ninetales 12/102",
+"lang": "EN",
+"num": "12/102",
+"words": [
+"ninetales"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": true,
+"rev": false,
+"g": {
+"PSA 7": 201,
+"PSA 8": 336
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/ninetales-shadowless-12)"
+},
+{
+"id": "tg:Base Set Raichu 14/102",
+"label": "Base Set Raichu 14/102",
+"lang": "EN",
+"num": "14/102",
+"words": [
+"raichu"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 8": 184,
+"PSA 9": 527,
+"Raw": 52
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/raichu-14)"
+},
+{
+"id": "tg:Base Set Ninetales 12/102",
+"label": "Base Set Ninetales 12/102",
+"lang": "EN",
+"num": "12/102",
+"words": [
+"ninetales"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 8": 160,
+"PSA 9": 222,
+"Raw": 24
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/ninetales-12)"
+},
+{
+"id": "tg:Base Set Nidoking 11/102",
+"label": "Base Set Nidoking 11/102",
+"lang": "EN",
+"num": "11/102",
+"words": [
+"nidoking"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 9": 271,
+"Raw": 27
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/nidoking-11)"
+},
+{
+"id": "tg:Base Set Shadowless Nidoking 11/102",
+"label": "Base Set Shadowless Nidoking 11/102",
+"lang": "EN",
+"num": "11/102",
+"words": [
+"nidoking"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": true,
+"rev": false,
+"g": {
+"PSA 8": 428
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/nidoking-shadowless-11)"
+},
+{
+"id": "tg:Base Set Chansey 3/102",
+"label": "Base Set Chansey 3/102",
+"lang": "EN",
+"num": "3/102",
+"words": [
+"chansey"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 9": 444,
+"Raw": 26
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/chansey-3)"
+},
+{
+"id": "tg:Base Set Magikarp 35/102",
+"label": "Base Set Magikarp 35/102",
+"lang": "EN",
+"num": "35/102",
+"words": [
+"magikarp"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 10": 567
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/magikarp-35)"
+},
+{
+"id": "tg:Base Set Charmeleon 24/102",
+"label": "Base Set Charmeleon 24/102",
+"lang": "EN",
+"num": "24/102",
+"words": [
+"charmeleon"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 10": 349
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/charmeleon-24)"
+},
+{
+"id": "tg:Base Set Shadowless Charmeleon 24/102",
+"label": "Base Set Shadowless Charmeleon 24/102",
+"lang": "EN",
+"num": "24/102",
+"words": [
+"charmeleon"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": true,
+"rev": false,
+"g": {
+"PSA 10": 703
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/charmeleon-shadowless-24)"
+},
+{
+"id": "tg:Base Set Wartortle 42/102",
+"label": "Base Set Wartortle 42/102",
+"lang": "EN",
+"num": "42/102",
+"words": [
+"wartortle"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 10": 440
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/wartortle-42)"
+},
+{
+"id": "tg:Base Set 1st Edition Raichu 14/102",
+"label": "Base Set 1st Edition Raichu 14/102",
+"lang": "EN",
+"num": "14/102",
+"words": [
+"raichu"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 622
+},
+"src": "Finder benchmark (PriceCharting/pokemon-base-set/raichu-1st-edition-14)"
+},
+{
+"id": "tg:Jungle Vaporeon 12/64 (no symbol)",
+"label": "Jungle Vaporeon 12/64 (no symbol)",
+"lang": "EN",
+"num": "12/64",
+"words": [
+"vaporeon"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 7": 176,
+"PSA 8": 283
+},
+"src": "Finder benchmark (PriceCharting/pokemon-jungle/vaporeon-no-symbol-12)"
+},
+{
+"id": "tg:Jungle 1st Edition Eevee 51/64",
+"label": "Jungle 1st Edition Eevee 51/64",
+"lang": "EN",
+"num": "51/64",
+"words": [
+"eevee"
+],
+"keys": [
+"jungle"
+],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 10": 1243
+},
+"src": "Finder benchmark (PriceCharting/pokemon-jungle/eevee-1st-edition-51)"
+},
+{
+"id": "tg:Team Rocket Dark Charizard 4/82",
+"label": "Team Rocket Dark Charizard 4/82",
+"lang": "EN",
+"num": "4/82",
+"words": [
+"dark",
+"charizard"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 341,
+"PSA 7": 569,
+"PSA 8": 751,
+"PSA 9": 1234
+},
+"src": "Finder benchmark (PriceCharting/pokemon-team-rocket/dark-charizard-4)"
+},
+{
+"id": "tg:Team Rocket 1st Edition Dark Charizard 4/82",
+"label": "Team Rocket 1st Edition Dark Charizard 4/82",
+"lang": "EN",
+"num": "4/82",
+"words": [
+"dark",
+"charizard"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 1102
+},
+"src": "Finder benchmark (PriceCharting/pokemon-team-rocket/dark-charizard-1st-edition-4)"
+},
+{
+"id": "tg:Neo Genesis Lugia 9/111",
+"label": "Neo Genesis Lugia 9/111",
+"lang": "EN",
+"num": "9/111",
+"words": [
+"lugia"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 660,
+"PSA 7": 1245,
+"PSA 8": 1903,
+"PSA 9": 4362
+},
+"src": "Finder benchmark (PriceCharting/pokemon-neo-genesis/lugia-9)"
+},
+{
+"id": "tg:Neo Genesis 1st Edition Lugia 9/111",
+"label": "Neo Genesis 1st Edition Lugia 9/111",
+"lang": "EN",
+"num": "9/111",
+"words": [
+"lugia"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 2416,
+"PSA 7": 5893
+},
+"src": "Finder benchmark (PriceCharting/pokemon-neo-genesis/lugia-1st-edition-9)"
+},
+{
+"id": "tg:Neo Genesis Pikachu 70/111",
+"label": "Neo Genesis Pikachu 70/111",
+"lang": "EN",
+"num": "70/111",
+"words": [
+"pikachu"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 10": 1231
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis 1st Edition Pikachu 70/111",
+"label": "Neo Genesis 1st Edition Pikachu 70/111",
+"lang": "EN",
+"num": "70/111",
+"words": [
+"pikachu"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 10": 2631
+},
+"src": "Finder benchmark (PriceCharting/pokemon-neo-genesis/pikachu-1st-edition-70)"
+},
+{
+"id": "tg:Neo Revelation Suicune 14/64",
+"label": "Neo Revelation Suicune 14/64",
+"lang": "EN",
+"num": "14/64",
+"words": [
+"suicune"
+],
+"keys": [
+"neo revelation",
+"revelation"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 7": 350,
+"PSA 8": 609
+},
+"src": "Finder benchmark (PriceCharting/pokemon-neo-revelation/suicune-14)"
+},
+{
+"id": "tg:Legendary Collection Gengar 11/110 (holo)",
+"label": "Legendary Collection Gengar 11/110 (holo)",
+"lang": "EN",
+"num": "11/110",
+"words": [
+"gengar"
+],
+"keys": [
+"legendary collection"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 8": 801
+},
+"src": "Finder benchmark (PriceCharting/pokemon-legendary-collection/gengar-11)"
+},
+{
+"id": "tg:Legendary Collection Gengar 11/110 (reverse)",
+"label": "Legendary Collection Gengar 11/110 (reverse)",
+"lang": "EN",
+"num": "11/110",
+"words": [
+"gengar"
+],
+"keys": [
+"legendary collection"
+],
+"first": false,
+"sl": false,
+"rev": true,
+"g": {
+"PSA 8": 14637
+},
+"src": "Finder benchmark (PriceCharting/pokemon-legendary-collection/gengar-reverse-holo-11)"
+},
+{
+"id": "tg:Legendary Collection Dark Blastoise 4/110 (holo)",
+"label": "Legendary Collection Dark Blastoise 4/110 (holo)",
+"lang": "EN",
+"num": "4/110",
+"words": [
+"dark",
+"blastoise"
+],
+"keys": [
+"legendary collection"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 8": 391
+},
+"src": "Finder benchmark (PriceCharting/pokemon-legendary-collection/dark-blastoise-holo-4)"
+},
+{
+"id": "tg:Expedition Dragonite 9/165 (reverse)",
+"label": "Expedition Dragonite 9/165 (reverse)",
+"lang": "EN",
+"num": "9/165",
+"words": [
+"dragonite"
+],
+"keys": [
+"expedition"
+],
+"first": false,
+"sl": false,
+"rev": true,
+"g": {
+"PSA 7": 541,
+"PSA 8": 846
+},
+"src": "Finder benchmark (PriceCharting/pokemon-expedition/dragonite-reverse-holo-9)"
+},
+{
+"id": "tg:EX Deoxys Sableye 23/107 (reverse)",
+"label": "EX Deoxys Sableye 23/107 (reverse)",
+"lang": "EN",
+"num": "23/107",
+"words": [
+"sableye"
+],
+"keys": [
+"deoxys"
+],
+"first": false,
+"sl": false,
+"rev": true,
+"g": {
+"PSA 7": 942
+},
+"src": "Finder benchmark (PriceCharting/pokemon-deoxys/sableye-reverse-holo-23)"
+},
+{
+"id": "tg:EX Unseen Forces Ho-Oh 27/115 (reverse)",
+"label": "EX Unseen Forces Ho-Oh 27/115 (reverse)",
+"lang": "EN",
+"num": "27/115",
+"words": [
+"ho-oh"
+],
+"keys": [
+"unseen forces"
+],
+"first": false,
+"sl": false,
+"rev": true,
+"g": {
+"PSA 8": 501
+},
+"src": "Finder benchmark (PriceCharting/pokemon-unseen-forces/ho-oh-reverse-holo-27)"
+},
+{
+"id": "tg:Supreme Victors Charizard G 20/147 (holo)",
+"label": "Supreme Victors Charizard G 20/147 (holo)",
+"lang": "EN",
+"num": "20/147",
+"words": [
+"supreme",
+"victors",
+"charizard"
+],
+"keys": [
+"supreme victors"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 9": 335
+},
+"src": "Finder benchmark (PriceCharting/pokemon-supreme-victors/charizard-g-20)"
+},
+{
+"id": "tg:Plasma Blast Virizion EX 96/101",
+"label": "Plasma Blast Virizion EX 96/101",
+"lang": "EN",
+"num": "96/101",
+"words": [
+"plasma",
+"blast",
+"virizion"
+],
+"keys": [
+"plasma blast"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 9": 391
+},
+"src": "Finder benchmark (PriceCharting/pokemon-plasma-blast/virizion-ex-96)"
+},
+{
+"id": "tg:Flashfire Charizard EX 100/106",
+"label": "Flashfire Charizard EX 100/106",
+"lang": "EN",
+"num": "100/106",
+"words": [
+"charizard"
+],
+"keys": [
+"flashfire"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 249,
+"PSA 9": 1886,
+"PSA 10": 44015
+},
+"src": "Finder benchmark (PriceCharting/pokemon-flashfire/charizard-ex-100)"
+},
+{
+"id": "tg:Evolutions Charizard 11/108",
+"label": "Evolutions Charizard 11/108",
+"lang": "EN",
+"num": "11/108",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 9": 344
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-evolutions)"
+},
+{
+"id": "tg:Evolutions M Charizard EX 101/108",
+"label": "Evolutions M Charizard EX 101/108",
+"lang": "EN",
+"num": "101/108",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 167
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-evolutions)"
+},
+{
+"id": "tg:Ancient Origins Lugia EX 94/98",
+"label": "Ancient Origins Lugia EX 94/98",
+"lang": "EN",
+"num": "94/98",
+"words": [
+"ancient",
+"origins",
+"lugia"
+],
+"keys": [
+"ancient origins"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 277
+},
+"src": "Finder benchmark (PriceCharting/pokemon-ancient-origins/lugia-ex-94)"
+},
+{
+"id": "tg:Ancient Origins Giratina EX 93/98",
+"label": "Ancient Origins Giratina EX 93/98",
+"lang": "EN",
+"num": "93/98",
+"words": [
+"ancient",
+"origins",
+"giratina"
+],
+"keys": [
+"ancient origins"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 154
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-ancient-origins)"
+},
+{
+"id": "tg:Dark Explorers Raikou EX 105/108",
+"label": "Dark Explorers Raikou EX 105/108",
+"lang": "EN",
+"num": "105/108",
+"words": [
+"dark",
+"explorers",
+"raikou"
+],
+"keys": [
+"dark explorers"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 271
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-dark-explorers)"
+},
+{
+"id": "tg:Fates Collide Alakazam EX 125/124",
+"label": "Fates Collide Alakazam EX 125/124",
+"lang": "EN",
+"num": "125/124",
+"words": [
+"fates",
+"collide",
+"alakazam"
+],
+"keys": [
+"fates collide"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"PSA 9": 1032
+},
+"src": "Finder benchmark (PriceCharting/pokemon-fates-collide/alakazam-ex-125)"
+},
+{
+"id": "tg:Japanese Base Set Charizard No.6",
+"label": "Japanese Base Set Charizard No.6",
+"lang": "JP",
+"num": "No.6",
+"words": [
+"charizard"
+],
+"keys": [
+"base",
+"basic",
+"expansion",
+"1996"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 498,
+"PSA 9": 4625,
+"PSA 10": 38421
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-expansion-pack)"
+},
+{
+"id": "tg:Japanese Base Set Blastoise No.9",
+"label": "Japanese Base Set Blastoise No.9",
+"lang": "JP",
+"num": "No.9",
+"words": [
+"blastoise"
+],
+"keys": [
+"base",
+"basic",
+"expansion",
+"1996"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 85,
+"PSA 9": 850,
+"PSA 10": 6490
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-expansion-pack)"
+},
+{
+"id": "tg:Japanese Base Set Venusaur No.3",
+"label": "Japanese Base Set Venusaur No.3",
+"lang": "JP",
+"num": "No.3",
+"words": [
+"venusaur"
+],
+"keys": [
+"base",
+"basic",
+"expansion",
+"1996"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 108,
+"PSA 9": 640,
+"PSA 10": 5407
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-expansion-pack)"
+},
+{
+"id": "tg:Japanese Base Set Mewtwo No.150",
+"label": "Japanese Base Set Mewtwo No.150",
+"lang": "JP",
+"num": "No.150",
+"words": [
+"mewtwo"
+],
+"keys": [
+"base",
+"basic",
+"expansion",
+"1996"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 69,
+"PSA 9": 824,
+"PSA 10": 6837
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-expansion-pack)"
+},
+{
+"id": "tg:Japanese Base Set Pikachu No.25 (No Rarity)",
+"label": "Japanese Base Set Pikachu No.25 (No Rarity)",
+"lang": "JP",
+"num": "No.25",
+"words": [
+"pikachu"
+],
+"keys": [
+"base",
+"basic",
+"expansion",
+"1996"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 356,
+"PSA 9": 5863,
+"PSA 10": 10174
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-expansion-pack)"
+},
+{
+"id": "tg:Japanese Base Set Abra No.63 (No Rarity)",
+"label": "Japanese Base Set Abra No.63 (No Rarity)",
+"lang": "JP",
+"num": "No.63",
+"words": [
+"abra"
+],
+"keys": [
+"base",
+"basic",
+"expansion",
+"1996"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 33,
+"PSA 9": 461,
+"PSA 10": 3812
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-expansion-pack)"
+},
+{
+"id": "tg:Japanese Base Set Ivysaur No.2 (No Rarity)",
+"label": "Japanese Base Set Ivysaur No.2 (No Rarity)",
+"lang": "JP",
+"num": "No.2",
+"words": [
+"ivysaur"
+],
+"keys": [
+"base",
+"basic",
+"expansion",
+"1996"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 81,
+"PSA 9": 519,
+"PSA 10": 3166
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-expansion-pack)"
+},
+{
+"id": "tg:Japanese Base Set Ninetales No.38",
+"label": "Japanese Base Set Ninetales No.38",
+"lang": "JP",
+"num": "No.38",
+"words": [
+"ninetales"
+],
+"keys": [
+"base",
+"basic",
+"expansion",
+"1996"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 28,
+"PSA 9": 249,
+"PSA 10": 1686
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-expansion-pack)"
+},
+{
+"id": "tg:Japanese Fossil Gengar No.94",
+"label": "Japanese Fossil Gengar No.94",
+"lang": "JP",
+"num": "No.94",
+"words": [
+"gengar"
+],
+"keys": [
+"fossil",
+"mystery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 152,
+"PSA 9": 1244,
+"PSA 10": 12807
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-mystery-of-the-fossils)"
+},
+{
+"id": "tg:Japanese Fossil Dragonite No.149",
+"label": "Japanese Fossil Dragonite No.149",
+"lang": "JP",
+"num": "No.149",
+"words": [
+"dragonite"
+],
+"keys": [
+"fossil",
+"mystery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 118,
+"PSA 9": 640,
+"PSA 10": 6903
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-mystery-of-the-fossils)"
+},
+{
+"id": "tg:Japanese Fossil Mew No.151",
+"label": "Japanese Fossil Mew No.151",
+"lang": "JP",
+"num": "No.151",
+"words": [
+"mew"
+],
+"keys": [
+"fossil",
+"mystery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 139,
+"PSA 9": 769,
+"PSA 10": 8979
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-mystery-of-the-fossils)"
+},
+{
+"id": "tg:Japanese Fossil Lapras No.131",
+"label": "Japanese Fossil Lapras No.131",
+"lang": "JP",
+"num": "No.131",
+"words": [
+"lapras"
+],
+"keys": [
+"fossil",
+"mystery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 28,
+"PSA 9": 192,
+"PSA 10": 1839
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-mystery-of-the-fossils)"
+},
+{
+"id": "tg:Japanese Fossil Haunter No.93",
+"label": "Japanese Fossil Haunter No.93",
+"lang": "JP",
+"num": "No.93",
+"words": [
+"haunter"
+],
+"keys": [
+"fossil",
+"mystery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 45,
+"PSA 9": 245,
+"PSA 10": 1992
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-mystery-of-the-fossils)"
+},
+{
+"id": "tg:Japanese Jungle Snorlax No.143",
+"label": "Japanese Jungle Snorlax No.143",
+"lang": "JP",
+"num": "No.143",
+"words": [
+"snorlax"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 72,
+"PSA 9": 589,
+"PSA 10": 5656
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-jungle)"
+},
+{
+"id": "tg:Japanese Jungle Vaporeon No.134",
+"label": "Japanese Jungle Vaporeon No.134",
+"lang": "JP",
+"num": "No.134",
+"words": [
+"vaporeon"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 51,
+"PSA 9": 406,
+"PSA 10": 5670
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-jungle)"
+},
+{
+"id": "tg:Japanese Jungle Scyther No.123",
+"label": "Japanese Jungle Scyther No.123",
+"lang": "JP",
+"num": "No.123",
+"words": [
+"scyther"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 24,
+"PSA 9": 160,
+"PSA 10": 1010
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-jungle)"
+},
+{
+"id": "tg:Japanese Rocket Gang Dark Charizard No.6",
+"label": "Japanese Rocket Gang Dark Charizard No.6",
+"lang": "JP",
+"num": "No.6",
+"words": [
+"dark",
+"charizard"
+],
+"keys": [
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 189,
+"PSA 9": 971,
+"PSA 10": 5783
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-rocket-gang)"
+},
+{
+"id": "tg:Japanese Rocket Gang Dark Dragonite No.149",
+"label": "Japanese Rocket Gang Dark Dragonite No.149",
+"lang": "JP",
+"num": "No.149",
+"words": [
+"dark",
+"dragonite"
+],
+"keys": [
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 112,
+"PSA 9": 577,
+"PSA 10": 4979
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-rocket-gang)"
+},
+{
+"id": "tg:Japanese Rocket Gang Dark Blastoise No.9",
+"label": "Japanese Rocket Gang Dark Blastoise No.9",
+"lang": "JP",
+"num": "No.9",
+"words": [
+"dark",
+"blastoise"
+],
+"keys": [
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 78,
+"PSA 9": 462,
+"PSA 10": 3488
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-rocket-gang)"
+},
+{
+"id": "tg:Japanese Rocket Gang Dark Gyarados No.130",
+"label": "Japanese Rocket Gang Dark Gyarados No.130",
+"lang": "JP",
+"num": "No.130",
+"words": [
+"dark",
+"gyarados"
+],
+"keys": [
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 33,
+"PSA 9": 235,
+"PSA 10": 2363
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-rocket-gang)"
+},
+{
+"id": "tg:Japanese Gym Challenge Blaine's Charizard No.6",
+"label": "Japanese Gym Challenge Blaine's Charizard No.6",
+"lang": "JP",
+"num": "No.6",
+"words": [
+"blaine's",
+"charizard"
+],
+"keys": [
+"gym",
+"challenge",
+"darkness"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 231,
+"PSA 9": 782,
+"PSA 10": 4703
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)"
+},
+{
+"id": "tg:Japanese Gym Challenge Sabrina's Gengar No.94",
+"label": "Japanese Gym Challenge Sabrina's Gengar No.94",
+"lang": "JP",
+"num": "No.94",
+"words": [
+"sabrina's",
+"gengar"
+],
+"keys": [
+"gym",
+"challenge",
+"darkness"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 769,
+"PSA 9": 2870,
+"PSA 10": 11952
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)"
+},
+{
+"id": "tg:Japanese Gym Challenge Rocket's Mewtwo No.150",
+"label": "Japanese Gym Challenge Rocket's Mewtwo No.150",
+"lang": "JP",
+"num": "No.150",
+"words": [
+"rocket's",
+"mewtwo"
+],
+"keys": [
+"gym",
+"challenge",
+"darkness"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 135,
+"PSA 9": 498,
+"PSA 10": 3471
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)"
+},
+{
+"id": "tg:Japanese Gym Challenge Blaine's Arcanine No.59",
+"label": "Japanese Gym Challenge Blaine's Arcanine No.59",
+"lang": "JP",
+"num": "No.59",
+"words": [
+"blaine's",
+"arcanine"
+],
+"keys": [
+"gym",
+"challenge",
+"darkness"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 62,
+"PSA 9": 271,
+"PSA 10": 1313
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)"
+},
+{
+"id": "tg:Japanese Gym Challenge Rocket's Zapdos No.145",
+"label": "Japanese Gym Challenge Rocket's Zapdos No.145",
+"lang": "JP",
+"num": "No.145",
+"words": [
+"rocket's",
+"zapdos"
+],
+"keys": [
+"gym",
+"challenge",
+"darkness"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 54,
+"PSA 9": 188,
+"PSA 10": 857
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)"
+},
+{
+"id": "tg:Japanese Gym Challenge Rocket's Snorlax No.143",
+"label": "Japanese Gym Challenge Rocket's Snorlax No.143",
+"lang": "JP",
+"num": "No.143",
+"words": [
+"rocket's",
+"snorlax"
+],
+"keys": [
+"gym",
+"challenge",
+"darkness"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 46,
+"PSA 9": 294,
+"PSA 10": 2713
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)"
+},
+{
+"id": "tg:Japanese Leaders' Stadium Misty's Gyarados No.130",
+"label": "Japanese Leaders' Stadium Misty's Gyarados No.130",
+"lang": "JP",
+"num": "No.130",
+"words": [
+"misty's",
+"gyarados"
+],
+"keys": [
+"gym",
+"leaders"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 53,
+"PSA 9": 302,
+"PSA 10": 2263
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-leaders'-stadium)"
+},
+{
+"id": "tg:Japanese Leaders' Stadium Rocket's Moltres No.146",
+"label": "Japanese Leaders' Stadium Rocket's Moltres No.146",
+"lang": "JP",
+"num": "No.146",
+"words": [
+"rocket's",
+"moltres"
+],
+"keys": [
+"gym",
+"leaders"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 39,
+"PSA 9": 211,
+"PSA 10": 1164
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-leaders'-stadium)"
+},
+{
+"id": "tg:Japanese Neo Genesis Lugia No.249",
+"label": "Japanese Neo Genesis Lugia No.249",
+"lang": "JP",
+"num": "No.249",
+"words": [
+"lugia"
+],
+"keys": [
+"neo",
+"genesis",
+"neo 1",
+"gold, silver",
+"gold silver",
+"new world"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 248,
+"PSA 9": 1303,
+"PSA 10": 9961
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-gold-silver-new-world)"
+},
+{
+"id": "tg:Japanese Neo Genesis Typhlosion No.157",
+"label": "Japanese Neo Genesis Typhlosion No.157",
+"lang": "JP",
+"num": "No.157",
+"words": [
+"typhlosion"
+],
+"keys": [
+"neo",
+"genesis",
+"neo 1",
+"gold, silver",
+"gold silver",
+"new world"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 53,
+"PSA 9": 317,
+"PSA 10": 1779
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-gold-silver-new-world)"
+},
+{
+"id": "tg:Japanese Neo Genesis Pichu No.172",
+"label": "Japanese Neo Genesis Pichu No.172",
+"lang": "JP",
+"num": "No.172",
+"words": [
+"pichu"
+],
+"keys": [
+"neo",
+"genesis",
+"neo 1",
+"gold, silver",
+"gold silver",
+"new world"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 63,
+"PSA 9": 281,
+"PSA 10": 2916
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-gold-silver-new-world)"
+},
+{
+"id": "tg:Japanese Neo Discovery Umbreon No.197",
+"label": "Japanese Neo Discovery Umbreon No.197",
+"lang": "JP",
+"num": "No.197",
+"words": [
+"umbreon"
+],
+"keys": [
+"neo",
+"discovery",
+"neo 2",
+"ruins"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 459,
+"PSA 9": 1423,
+"PSA 10": 9668
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-crossing-the-ruins)"
+},
+{
+"id": "tg:Japanese Neo Discovery Espeon No.196",
+"label": "Japanese Neo Discovery Espeon No.196",
+"lang": "JP",
+"num": "No.196",
+"words": [
+"espeon"
+],
+"keys": [
+"neo",
+"discovery",
+"neo 2",
+"ruins"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 179,
+"PSA 9": 527,
+"PSA 10": 3131
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-crossing-the-ruins)"
+},
+{
+"id": "tg:Japanese Neo Revelation Ho-Oh No.250",
+"label": "Japanese Neo Revelation Ho-Oh No.250",
+"lang": "JP",
+"num": "No.250",
+"words": [
+"ho-oh"
+],
+"keys": [
+"neo",
+"revelation",
+"neo 3",
+"awakening"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 184,
+"PSA 9": 712,
+"PSA 10": 2846
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-awakening-legends)"
+},
+{
+"id": "tg:Japanese Neo Revelation Houndoom No.229",
+"label": "Japanese Neo Revelation Houndoom No.229",
+"lang": "JP",
+"num": "No.229",
+"words": [
+"houndoom"
+],
+"keys": [
+"neo",
+"revelation",
+"neo 3",
+"awakening"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 177,
+"PSA 9": 593,
+"PSA 10": 2831
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-awakening-legends)"
+},
+{
+"id": "tg:Japanese Neo Revelation Celebi No.251",
+"label": "Japanese Neo Revelation Celebi No.251",
+"lang": "JP",
+"num": "No.251",
+"words": [
+"celebi"
+],
+"keys": [
+"neo",
+"revelation",
+"neo 3",
+"awakening"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 101,
+"PSA 9": 280,
+"PSA 10": 2001
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-awakening-legends)"
+},
+{
+"id": "tg:Japanese Neo Destiny Dark Gengar No.94",
+"label": "Japanese Neo Destiny Dark Gengar No.94",
+"lang": "JP",
+"num": "No.94",
+"words": [
+"dark",
+"gengar"
+],
+"keys": [
+"neo",
+"destiny",
+"neo 4",
+"darkness and to light"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 340,
+"PSA 9": 1318,
+"PSA 10": 6475
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-darkness-and-to-light)"
+},
+{
+"id": "tg:Japanese Neo Destiny Shining Charizard No.6",
+"label": "Japanese Neo Destiny Shining Charizard No.6",
+"lang": "JP",
+"num": "No.6",
+"words": [
+"shining",
+"charizard"
+],
+"keys": [
+"neo",
+"destiny",
+"neo 4",
+"darkness and to light"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 3867,
+"PSA 9": 18077,
+"PSA 10": 99118
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-darkness-and-to-light)"
+},
+{
+"id": "tg:Base Set Alakazam 1/102",
+"label": "Base Set Alakazam 1/102",
+"lang": "EN",
+"num": "1/102",
+"words": [
+"alakazam"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 47,
+"PSA 9": 487
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-base-set)"
+},
+{
+"id": "tg:Base Set Clefairy 5/102",
+"label": "Base Set Clefairy 5/102",
+"lang": "EN",
+"num": "5/102",
+"words": [
+"clefairy"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 28,
+"PSA 9": 269
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-base-set)"
+},
+{
+"id": "tg:Base Set Gyarados 6/102",
+"label": "Base Set Gyarados 6/102",
+"lang": "EN",
+"num": "6/102",
+"words": [
+"gyarados"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 24,
+"PSA 9": 388
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-base-set)"
+},
+{
+"id": "tg:Base Set Hitmonchan 7/102",
+"label": "Base Set Hitmonchan 7/102",
+"lang": "EN",
+"num": "7/102",
+"words": [
+"hitmonchan"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 17,
+"PSA 9": 252
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-base-set)"
+},
+{
+"id": "tg:Base Set Machamp 8/102",
+"label": "Base Set Machamp 8/102",
+"lang": "EN",
+"num": "8/102",
+"words": [
+"machamp"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 23,
+"PSA 9": 425
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-base-set)"
+},
+{
+"id": "tg:Base Set Magneton 9/102",
+"label": "Base Set Magneton 9/102",
+"lang": "EN",
+"num": "9/102",
+"words": [
+"magneton"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 25,
+"PSA 9": 248
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-base-set)"
+},
+{
+"id": "tg:Base Set Mewtwo 10/102",
+"label": "Base Set Mewtwo 10/102",
+"lang": "EN",
+"num": "10/102",
+"words": [
+"mewtwo"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 42,
+"PSA 9": 662
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-base-set)"
+},
+{
+"id": "tg:Base Set Poliwrath 13/102",
+"label": "Base Set Poliwrath 13/102",
+"lang": "EN",
+"num": "13/102",
+"words": [
+"poliwrath"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 21,
+"PSA 9": 213
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-base-set)"
+},
+{
+"id": "tg:Base Set Zapdos 16/102",
+"label": "Base Set Zapdos 16/102",
+"lang": "EN",
+"num": "16/102",
+"words": [
+"zapdos"
+],
+"keys": [
+"base set",
+"base",
+"pokemon game",
+"1999 game"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 33,
+"PSA 9": 295
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-base-set)"
+},
+{
+"id": "tg:Jungle Clefable 1/64",
+"label": "Jungle Clefable 1/64",
+"lang": "EN",
+"num": "1/64",
+"words": [
+"clefable"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 24,
+"PSA 9": 211
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Electrode 2/64",
+"label": "Jungle Electrode 2/64",
+"lang": "EN",
+"num": "2/64",
+"words": [
+"electrode"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 23,
+"PSA 9": 193
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Flareon 3/64",
+"label": "Jungle Flareon 3/64",
+"lang": "EN",
+"num": "3/64",
+"words": [
+"flareon"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 69,
+"PSA 9": 485
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Jolteon 4/64",
+"label": "Jungle Jolteon 4/64",
+"lang": "EN",
+"num": "4/64",
+"words": [
+"jolteon"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 69,
+"PSA 9": 670
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Kangaskhan 5/64",
+"label": "Jungle Kangaskhan 5/64",
+"lang": "EN",
+"num": "5/64",
+"words": [
+"kangaskhan"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 12,
+"PSA 9": 164
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Mr. Mime 6/64",
+"label": "Jungle Mr. Mime 6/64",
+"lang": "EN",
+"num": "6/64",
+"words": [
+"mr.",
+"mime"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 36,
+"PSA 9": 203
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Nidoqueen 7/64",
+"label": "Jungle Nidoqueen 7/64",
+"lang": "EN",
+"num": "7/64",
+"words": [
+"nidoqueen"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 32,
+"PSA 9": 186
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Pidgeot 8/64",
+"label": "Jungle Pidgeot 8/64",
+"lang": "EN",
+"num": "8/64",
+"words": [
+"pidgeot"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 38,
+"PSA 9": 229
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Pinsir 9/64",
+"label": "Jungle Pinsir 9/64",
+"lang": "EN",
+"num": "9/64",
+"words": [
+"pinsir"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 31,
+"PSA 9": 219
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Scyther 10/64",
+"label": "Jungle Scyther 10/64",
+"lang": "EN",
+"num": "10/64",
+"words": [
+"scyther"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 47,
+"PSA 9": 214
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Snorlax 11/64",
+"label": "Jungle Snorlax 11/64",
+"lang": "EN",
+"num": "11/64",
+"words": [
+"snorlax"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 86,
+"PSA 9": 1029
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Vaporeon 12/64",
+"label": "Jungle Vaporeon 12/64",
+"lang": "EN",
+"num": "12/64",
+"words": [
+"vaporeon"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 27,
+"PSA 9": 407
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Venomoth 13/64",
+"label": "Jungle Venomoth 13/64",
+"lang": "EN",
+"num": "13/64",
+"words": [
+"venomoth"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 27,
+"PSA 9": 157
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Victreebel 14/64",
+"label": "Jungle Victreebel 14/64",
+"lang": "EN",
+"num": "14/64",
+"words": [
+"victreebel"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 27,
+"PSA 9": 227
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Vileplume 15/64",
+"label": "Jungle Vileplume 15/64",
+"lang": "EN",
+"num": "15/64",
+"words": [
+"vileplume"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 28,
+"PSA 9": 190
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Jungle Wigglytuff 16/64",
+"label": "Jungle Wigglytuff 16/64",
+"lang": "EN",
+"num": "16/64",
+"words": [
+"wigglytuff"
+],
+"keys": [
+"jungle"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 30,
+"PSA 9": 233
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-jungle)"
+},
+{
+"id": "tg:Fossil Aerodactyl 1/62",
+"label": "Fossil Aerodactyl 1/62",
+"lang": "EN",
+"num": "1/62",
+"words": [
+"aerodactyl"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 34,
+"PSA 9": 171
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Articuno 2/62",
+"label": "Fossil Articuno 2/62",
+"lang": "EN",
+"num": "2/62",
+"words": [
+"articuno"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 45,
+"PSA 9": 403
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Ditto 3/62",
+"label": "Fossil Ditto 3/62",
+"lang": "EN",
+"num": "3/62",
+"words": [
+"ditto"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 37,
+"PSA 9": 207
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Dragonite 4/62",
+"label": "Fossil Dragonite 4/62",
+"lang": "EN",
+"num": "4/62",
+"words": [
+"dragonite"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 121,
+"PSA 9": 924
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Gengar 5/62",
+"label": "Fossil Gengar 5/62",
+"lang": "EN",
+"num": "5/62",
+"words": [
+"gengar"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 171,
+"PSA 9": 1343
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Haunter 6/62",
+"label": "Fossil Haunter 6/62",
+"lang": "EN",
+"num": "6/62",
+"words": [
+"haunter"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 34,
+"PSA 9": 178
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Hitmonlee 7/62",
+"label": "Fossil Hitmonlee 7/62",
+"lang": "EN",
+"num": "7/62",
+"words": [
+"hitmonlee"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 28,
+"PSA 9": 238
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Hypno 8/62",
+"label": "Fossil Hypno 8/62",
+"lang": "EN",
+"num": "8/62",
+"words": [
+"hypno"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 24,
+"PSA 9": 143
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Kabutops 9/62",
+"label": "Fossil Kabutops 9/62",
+"lang": "EN",
+"num": "9/62",
+"words": [
+"kabutops"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 34,
+"PSA 9": 205
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Lapras 10/62",
+"label": "Fossil Lapras 10/62",
+"lang": "EN",
+"num": "10/62",
+"words": [
+"lapras"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 20,
+"PSA 9": 246
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Magneton 11/62",
+"label": "Fossil Magneton 11/62",
+"lang": "EN",
+"num": "11/62",
+"words": [
+"magneton"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 22,
+"PSA 9": 134
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Moltres 12/62",
+"label": "Fossil Moltres 12/62",
+"lang": "EN",
+"num": "12/62",
+"words": [
+"moltres"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 57,
+"PSA 9": 272
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Muk 13/62",
+"label": "Fossil Muk 13/62",
+"lang": "EN",
+"num": "13/62",
+"words": [
+"muk"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 10,
+"PSA 9": 90
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Raichu 14/62",
+"label": "Fossil Raichu 14/62",
+"lang": "EN",
+"num": "14/62",
+"words": [
+"raichu"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 34,
+"PSA 9": 280
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Fossil Zapdos 15/62",
+"label": "Fossil Zapdos 15/62",
+"lang": "EN",
+"num": "15/62",
+"words": [
+"zapdos"
+],
+"keys": [
+"fossil"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 28,
+"PSA 9": 283
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-fossil)"
+},
+{
+"id": "tg:Team Rocket Dark Alakazam 1/82",
+"label": "Team Rocket Dark Alakazam 1/82",
+"lang": "EN",
+"num": "1/82",
+"words": [
+"dark",
+"alakazam"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 80,
+"PSA 9": 287
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Arbok 2/82",
+"label": "Team Rocket Dark Arbok 2/82",
+"lang": "EN",
+"num": "2/82",
+"words": [
+"dark",
+"arbok"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 15,
+"PSA 9": 176
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Blastoise 3/82",
+"label": "Team Rocket Dark Blastoise 3/82",
+"lang": "EN",
+"num": "3/82",
+"words": [
+"dark",
+"blastoise"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 189,
+"PSA 9": 1008
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Dragonite 5/82",
+"label": "Team Rocket Dark Dragonite 5/82",
+"lang": "EN",
+"num": "5/82",
+"words": [
+"dark",
+"dragonite"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 161,
+"PSA 9": 891
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Dugtrio 6/82",
+"label": "Team Rocket Dark Dugtrio 6/82",
+"lang": "EN",
+"num": "6/82",
+"words": [
+"dark",
+"dugtrio"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 43,
+"PSA 9": 186
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Golbat 7/82",
+"label": "Team Rocket Dark Golbat 7/82",
+"lang": "EN",
+"num": "7/82",
+"words": [
+"dark",
+"golbat"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 38,
+"PSA 9": 134
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Gyarados 8/82",
+"label": "Team Rocket Dark Gyarados 8/82",
+"lang": "EN",
+"num": "8/82",
+"words": [
+"dark",
+"gyarados"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 46,
+"PSA 9": 213
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Hypno 9/82",
+"label": "Team Rocket Dark Hypno 9/82",
+"lang": "EN",
+"num": "9/82",
+"words": [
+"dark",
+"hypno"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 45,
+"PSA 9": 182
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Machamp 10/82",
+"label": "Team Rocket Dark Machamp 10/82",
+"lang": "EN",
+"num": "10/82",
+"words": [
+"dark",
+"machamp"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 60,
+"PSA 9": 238
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Magneton 11/82",
+"label": "Team Rocket Dark Magneton 11/82",
+"lang": "EN",
+"num": "11/82",
+"words": [
+"dark",
+"magneton"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 48,
+"PSA 9": 342
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Slowbro 12/82",
+"label": "Team Rocket Dark Slowbro 12/82",
+"lang": "EN",
+"num": "12/82",
+"words": [
+"dark",
+"slowbro"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 49,
+"PSA 9": 265
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Vileplume 13/82",
+"label": "Team Rocket Dark Vileplume 13/82",
+"lang": "EN",
+"num": "13/82",
+"words": [
+"dark",
+"vileplume"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 43,
+"PSA 9": 155
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Weezing 14/82",
+"label": "Team Rocket Dark Weezing 14/82",
+"lang": "EN",
+"num": "14/82",
+"words": [
+"dark",
+"weezing"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 14,
+"PSA 9": 121
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Team Rocket Dark Raichu 83/82",
+"label": "Team Rocket Dark Raichu 83/82",
+"lang": "EN",
+"num": "83/82",
+"words": [
+"dark",
+"raichu"
+],
+"keys": [
+"team rocket",
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 113,
+"PSA 9": 471
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-team-rocket)"
+},
+{
+"id": "tg:Gym Heroes Blaine's Moltres 1/132",
+"label": "Gym Heroes Blaine's Moltres 1/132",
+"lang": "EN",
+"num": "1/132",
+"words": [
+"blaine's",
+"moltres"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 114,
+"PSA 9": 684
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Brock's Rhydon 2/132",
+"label": "Gym Heroes Brock's Rhydon 2/132",
+"lang": "EN",
+"num": "2/132",
+"words": [
+"brock's",
+"rhydon"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 37,
+"PSA 9": 197
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Erika's Clefable 3/132",
+"label": "Gym Heroes Erika's Clefable 3/132",
+"lang": "EN",
+"num": "3/132",
+"words": [
+"erika's",
+"clefable"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 50,
+"PSA 9": 217
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Erika's Dragonair 4/132",
+"label": "Gym Heroes Erika's Dragonair 4/132",
+"lang": "EN",
+"num": "4/132",
+"words": [
+"erika's",
+"dragonair"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 136,
+"PSA 9": 349
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Erika's Vileplume 5/132",
+"label": "Gym Heroes Erika's Vileplume 5/132",
+"lang": "EN",
+"num": "5/132",
+"words": [
+"erika's",
+"vileplume"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 30,
+"PSA 9": 173
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Lt. Surge's Electabuzz 6/132",
+"label": "Gym Heroes Lt. Surge's Electabuzz 6/132",
+"lang": "EN",
+"num": "6/132",
+"words": [
+"lt.",
+"surge's",
+"electabuzz"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 52,
+"PSA 9": 184
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Lt. Surge's Fearow 7/132",
+"label": "Gym Heroes Lt. Surge's Fearow 7/132",
+"lang": "EN",
+"num": "7/132",
+"words": [
+"lt.",
+"surge's",
+"fearow"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 41,
+"PSA 9": 214
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Lt. Surge's Magneton 8/132",
+"label": "Gym Heroes Lt. Surge's Magneton 8/132",
+"lang": "EN",
+"num": "8/132",
+"words": [
+"lt.",
+"surge's",
+"magneton"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 29,
+"PSA 9": 142
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Misty's Seadra 9/132",
+"label": "Gym Heroes Misty's Seadra 9/132",
+"lang": "EN",
+"num": "9/132",
+"words": [
+"misty's",
+"seadra"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 33,
+"PSA 9": 205
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Misty's Tentacruel 10/132",
+"label": "Gym Heroes Misty's Tentacruel 10/132",
+"lang": "EN",
+"num": "10/132",
+"words": [
+"misty's",
+"tentacruel"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 27,
+"PSA 9": 159
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Rocket's Hitmonchan 11/132",
+"label": "Gym Heroes Rocket's Hitmonchan 11/132",
+"lang": "EN",
+"num": "11/132",
+"words": [
+"rocket's",
+"hitmonchan"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 62,
+"PSA 9": 254
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Rocket's Moltres 12/132",
+"label": "Gym Heroes Rocket's Moltres 12/132",
+"lang": "EN",
+"num": "12/132",
+"words": [
+"rocket's",
+"moltres"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 90,
+"PSA 9": 318
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Rocket's Scyther 13/132",
+"label": "Gym Heroes Rocket's Scyther 13/132",
+"lang": "EN",
+"num": "13/132",
+"words": [
+"rocket's",
+"scyther"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 92,
+"PSA 9": 455
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Sabrina's Gengar 14/132",
+"label": "Gym Heroes Sabrina's Gengar 14/132",
+"lang": "EN",
+"num": "14/132",
+"words": [
+"sabrina's",
+"gengar"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 455,
+"PSA 9": 2081
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Heroes Brock 15/132",
+"label": "Gym Heroes Brock 15/132",
+"lang": "EN",
+"num": "15/132",
+"words": [
+"brock"
+],
+"keys": [
+"gym heroes"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 45,
+"PSA 9": 142
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-heroes)"
+},
+{
+"id": "tg:Gym Challenge Blaine's Arcanine 1/132",
+"label": "Gym Challenge Blaine's Arcanine 1/132",
+"lang": "EN",
+"num": "1/132",
+"words": [
+"blaine's",
+"arcanine"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 103,
+"PSA 9": 579
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Blaine's Charizard 2/132",
+"label": "Gym Challenge Blaine's Charizard 2/132",
+"lang": "EN",
+"num": "2/132",
+"words": [
+"blaine's",
+"charizard"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 559,
+"PSA 9": 2034
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Brock's Ninetales 3/132",
+"label": "Gym Challenge Brock's Ninetales 3/132",
+"lang": "EN",
+"num": "3/132",
+"words": [
+"brock's",
+"ninetales"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 95,
+"PSA 9": 278
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Erika's Venusaur 4/132",
+"label": "Gym Challenge Erika's Venusaur 4/132",
+"lang": "EN",
+"num": "4/132",
+"words": [
+"erika's",
+"venusaur"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 193,
+"PSA 9": 710
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Giovanni's Gyarados 5/132",
+"label": "Gym Challenge Giovanni's Gyarados 5/132",
+"lang": "EN",
+"num": "5/132",
+"words": [
+"giovanni's",
+"gyarados"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 139,
+"PSA 9": 593
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Giovanni's Machamp 6/132",
+"label": "Gym Challenge Giovanni's Machamp 6/132",
+"lang": "EN",
+"num": "6/132",
+"words": [
+"giovanni's",
+"machamp"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 76,
+"PSA 9": 273
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Giovanni's Nidoking 7/132",
+"label": "Gym Challenge Giovanni's Nidoking 7/132",
+"lang": "EN",
+"num": "7/132",
+"words": [
+"giovanni's",
+"nidoking"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 100,
+"PSA 9": 294
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Giovanni's Persian 8/132",
+"label": "Gym Challenge Giovanni's Persian 8/132",
+"lang": "EN",
+"num": "8/132",
+"words": [
+"giovanni's",
+"persian"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 51,
+"PSA 9": 238
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Koga's Beedrill 9/132",
+"label": "Gym Challenge Koga's Beedrill 9/132",
+"lang": "EN",
+"num": "9/132",
+"words": [
+"koga's",
+"beedrill"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 33,
+"PSA 9": 253
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Koga's Ditto 10/132",
+"label": "Gym Challenge Koga's Ditto 10/132",
+"lang": "EN",
+"num": "10/132",
+"words": [
+"koga's",
+"ditto"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 68,
+"PSA 9": 317
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Lt. Surge's Raichu 11/132",
+"label": "Gym Challenge Lt. Surge's Raichu 11/132",
+"lang": "EN",
+"num": "11/132",
+"words": [
+"lt.",
+"surge's",
+"raichu"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 100,
+"PSA 9": 285
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Misty's Golduck 12/132",
+"label": "Gym Challenge Misty's Golduck 12/132",
+"lang": "EN",
+"num": "12/132",
+"words": [
+"misty's",
+"golduck"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 80,
+"PSA 9": 391
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Misty's Gyarados 13/132",
+"label": "Gym Challenge Misty's Gyarados 13/132",
+"lang": "EN",
+"num": "13/132",
+"words": [
+"misty's",
+"gyarados"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 144,
+"PSA 9": 585
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Rocket's Mewtwo 14/132",
+"label": "Gym Challenge Rocket's Mewtwo 14/132",
+"lang": "EN",
+"num": "14/132",
+"words": [
+"rocket's",
+"mewtwo"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 256,
+"PSA 9": 992
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Rocket's Zapdos 15/132",
+"label": "Gym Challenge Rocket's Zapdos 15/132",
+"lang": "EN",
+"num": "15/132",
+"words": [
+"rocket's",
+"zapdos"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 107,
+"PSA 9": 409
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Gym Challenge Sabrina's Alakazam 16/132",
+"label": "Gym Challenge Sabrina's Alakazam 16/132",
+"lang": "EN",
+"num": "16/132",
+"words": [
+"sabrina's",
+"alakazam"
+],
+"keys": [
+"gym challenge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 84,
+"PSA 9": 398
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-gym-challenge)"
+},
+{
+"id": "tg:Neo Genesis Ampharos 1/111",
+"label": "Neo Genesis Ampharos 1/111",
+"lang": "EN",
+"num": "1/111",
+"words": [
+"ampharos"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 39,
+"PSA 9": 264
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Azumarill 2/111",
+"label": "Neo Genesis Azumarill 2/111",
+"lang": "EN",
+"num": "2/111",
+"words": [
+"azumarill"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 39,
+"PSA 9": 231
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Bellossom 3/111",
+"label": "Neo Genesis Bellossom 3/111",
+"lang": "EN",
+"num": "3/111",
+"words": [
+"bellossom"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 34,
+"PSA 9": 170
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Feraligatr 4/111",
+"label": "Neo Genesis Feraligatr 4/111",
+"lang": "EN",
+"num": "4/111",
+"words": [
+"feraligatr"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 91,
+"PSA 9": 504
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Heracross 6/111",
+"label": "Neo Genesis Heracross 6/111",
+"lang": "EN",
+"num": "6/111",
+"words": [
+"heracross"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 50,
+"PSA 9": 377
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Jumpluff 7/111",
+"label": "Neo Genesis Jumpluff 7/111",
+"lang": "EN",
+"num": "7/111",
+"words": [
+"jumpluff"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 13,
+"PSA 9": 79
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Kingdra 8/111",
+"label": "Neo Genesis Kingdra 8/111",
+"lang": "EN",
+"num": "8/111",
+"words": [
+"kingdra"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 20,
+"PSA 9": 273
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Meganium 10/111",
+"label": "Neo Genesis Meganium 10/111",
+"lang": "EN",
+"num": "10/111",
+"words": [
+"meganium"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 83,
+"PSA 9": 360
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Pichu 12/111",
+"label": "Neo Genesis Pichu 12/111",
+"lang": "EN",
+"num": "12/111",
+"words": [
+"pichu"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 120,
+"PSA 9": 1061
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Skarmory 13/111",
+"label": "Neo Genesis Skarmory 13/111",
+"lang": "EN",
+"num": "13/111",
+"words": [
+"skarmory"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 33,
+"PSA 9": 184
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Slowking 14/111",
+"label": "Neo Genesis Slowking 14/111",
+"lang": "EN",
+"num": "14/111",
+"words": [
+"slowking"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 84,
+"PSA 9": 521
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Steelix 15/111",
+"label": "Neo Genesis Steelix 15/111",
+"lang": "EN",
+"num": "15/111",
+"words": [
+"steelix"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 60,
+"PSA 9": 232
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Togetic 16/111",
+"label": "Neo Genesis Togetic 16/111",
+"lang": "EN",
+"num": "16/111",
+"words": [
+"togetic"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 50,
+"PSA 9": 283
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Genesis Typhlosion 17/111",
+"label": "Neo Genesis Typhlosion 17/111",
+"lang": "EN",
+"num": "17/111",
+"words": [
+"typhlosion"
+],
+"keys": [
+"neo genesis",
+"genesis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 191,
+"PSA 9": 1593
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-genesis)"
+},
+{
+"id": "tg:Neo Discovery Espeon 1/75",
+"label": "Neo Discovery Espeon 1/75",
+"lang": "EN",
+"num": "1/75",
+"words": [
+"espeon"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 313,
+"PSA 9": 1209
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Forretress 2/75",
+"label": "Neo Discovery Forretress 2/75",
+"lang": "EN",
+"num": "2/75",
+"words": [
+"forretress"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 33,
+"PSA 9": 133
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Hitmontop 3/75",
+"label": "Neo Discovery Hitmontop 3/75",
+"lang": "EN",
+"num": "3/75",
+"words": [
+"hitmontop"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 20,
+"PSA 9": 199
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Houndoom 4/75",
+"label": "Neo Discovery Houndoom 4/75",
+"lang": "EN",
+"num": "4/75",
+"words": [
+"houndoom"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 85,
+"PSA 9": 427
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Houndour 5/75",
+"label": "Neo Discovery Houndour 5/75",
+"lang": "EN",
+"num": "5/75",
+"words": [
+"houndour"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 104,
+"PSA 9": 530
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Kabutops 6/75",
+"label": "Neo Discovery Kabutops 6/75",
+"lang": "EN",
+"num": "6/75",
+"words": [
+"kabutops"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 97,
+"PSA 9": 593
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Magnemite 7/75",
+"label": "Neo Discovery Magnemite 7/75",
+"lang": "EN",
+"num": "7/75",
+"words": [
+"magnemite"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 28,
+"PSA 9": 141
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Politoed 8/75",
+"label": "Neo Discovery Politoed 8/75",
+"lang": "EN",
+"num": "8/75",
+"words": [
+"politoed"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 82,
+"PSA 9": 456
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Poliwrath 9/75",
+"label": "Neo Discovery Poliwrath 9/75",
+"lang": "EN",
+"num": "9/75",
+"words": [
+"poliwrath"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 33,
+"PSA 9": 224
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Scizor 10/75",
+"label": "Neo Discovery Scizor 10/75",
+"lang": "EN",
+"num": "10/75",
+"words": [
+"scizor"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 55,
+"PSA 9": 536
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Smeargle 11/75",
+"label": "Neo Discovery Smeargle 11/75",
+"lang": "EN",
+"num": "11/75",
+"words": [
+"smeargle"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 53,
+"PSA 9": 927
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Tyranitar 12/75",
+"label": "Neo Discovery Tyranitar 12/75",
+"lang": "EN",
+"num": "12/75",
+"words": [
+"tyranitar"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 176,
+"PSA 9": 823
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Umbreon 13/75",
+"label": "Neo Discovery Umbreon 13/75",
+"lang": "EN",
+"num": "13/75",
+"words": [
+"umbreon"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 583,
+"PSA 9": 3759
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Unown A 14/75",
+"label": "Neo Discovery Unown A 14/75",
+"lang": "EN",
+"num": "14/75",
+"words": [
+"unown"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 16,
+"PSA 9": 162
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Ursaring 15/75",
+"label": "Neo Discovery Ursaring 15/75",
+"lang": "EN",
+"num": "15/75",
+"words": [
+"ursaring"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 43,
+"PSA 9": 202
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Wobbuffet 16/75",
+"label": "Neo Discovery Wobbuffet 16/75",
+"lang": "EN",
+"num": "16/75",
+"words": [
+"wobbuffet"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 42,
+"PSA 9": 502
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Neo Discovery Yanma 17/75",
+"label": "Neo Discovery Yanma 17/75",
+"lang": "EN",
+"num": "17/75",
+"words": [
+"yanma"
+],
+"keys": [
+"neo discovery",
+"discovery"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 30,
+"PSA 9": 233
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-neo-discovery)"
+},
+{
+"id": "tg:Japanese Rocket Gang Dark Vaporeon No.134",
+"label": "Japanese Rocket Gang Dark Vaporeon No.134",
+"lang": "JP",
+"num": "No.134",
+"words": [
+"dark",
+"vaporeon"
+],
+"keys": [
+"rocket"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 8,
+"PSA 9": 93,
+"PSA 10": 1010
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-rocket-gang/dark-vaporeon-134)"
+},
+{
+"id": "tg:Japanese Neo Destiny Dark Tyranitar No.248",
+"label": "Japanese Neo Destiny Dark Tyranitar No.248",
+"lang": "JP",
+"num": "No.248",
+"words": [
+"dark",
+"tyranitar"
+],
+"keys": [
+"neo",
+"destiny",
+"neo 4",
+"darkness and to light"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 71,
+"PSA 9": 288,
+"PSA 10": 1757
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-darkness-and-to-light/dark-tyranitar-248)"
+},
+{
+"id": "tg:Japanese Neo Destiny Light Dragonite No.149",
+"label": "Japanese Neo Destiny Light Dragonite No.149",
+"lang": "JP",
+"num": "No.149",
+"words": [
+"light",
+"dragonite"
+],
+"keys": [
+"neo",
+"destiny",
+"neo 4",
+"darkness and to light"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 161,
+"PSA 9": 456,
+"PSA 10": 2621
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-darkness-and-to-light/light-dragonite-149)"
+},
+{
+"id": "tg:Japanese Neo Destiny Light Togetic No.176",
+"label": "Japanese Neo Destiny Light Togetic No.176",
+"lang": "JP",
+"num": "No.176",
+"words": [
+"light",
+"togetic"
+],
+"keys": [
+"neo",
+"destiny",
+"neo 4",
+"darkness and to light"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 47,
+"PSA 9": 194,
+"PSA 10": 1494
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-darkness-and-to-light/light-togetic)"
+},
+{
+"id": "tg:Japanese Neo Revelation Starmie No.121",
+"label": "Japanese Neo Revelation Starmie No.121",
+"lang": "JP",
+"num": "No.121",
+"words": [
+"starmie"
+],
+"keys": [
+"neo",
+"revelation",
+"neo 3",
+"awakening"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 44,
+"PSA 9": 166,
+"PSA 10": 729
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-awakening-legends/starmie-121)"
+},
+{
+"id": "tg:Japanese Neo Genesis Feraligatr No.160",
+"label": "Japanese Neo Genesis Feraligatr No.160",
+"lang": "JP",
+"num": "No.160",
+"words": [
+"feraligatr"
+],
+"keys": [
+"neo",
+"genesis",
+"neo 1",
+"gold, silver",
+"gold silver",
+"new world"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 30,
+"PSA 9": 154,
+"PSA 10": 609
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-gold-silver-new-world/feraligatr-160)"
+},
+{
+"id": "tg:Japanese Neo Revelation Suicune No.245",
+"label": "Japanese Neo Revelation Suicune No.245",
+"lang": "JP",
+"num": "No.245",
+"words": [
+"suicune"
+],
+"keys": [
+"neo",
+"revelation",
+"neo 3",
+"awakening"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 99,
+"PSA 9": 343,
+"PSA 10": 2407
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-awakening-legends/suicune-245)"
+},
+{
+"id": "tg:Japanese Neo Revelation Raikou No.243",
+"label": "Japanese Neo Revelation Raikou No.243",
+"lang": "JP",
+"num": "No.243",
+"words": [
+"raikou"
+],
+"keys": [
+"neo",
+"revelation",
+"neo 3",
+"awakening"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 85,
+"PSA 9": 280,
+"PSA 10": 1267
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-awakening-legends/raikou-243)"
+},
+{
+"id": "tg:Japanese Neo Premium File 2 Umbreon No.197",
+"label": "Japanese Neo Premium File 2 Umbreon No.197",
+"lang": "JP",
+"num": "No.197",
+"words": [
+"umbreon"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 95,
+"PSA 9": 292,
+"PSA 10": 1493
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-neo-premium-file/umbreon-197)"
+},
+{
+"id": "tg:Japanese Southern Islands Mew No.151",
+"label": "Japanese Southern Islands Mew No.151",
+"lang": "JP",
+"num": "No.151",
+"words": [
+"mew"
+],
+"keys": [
+"southern"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 221,
+"PSA 9": 1992,
+"PSA 10": 18631
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-southern-islands/mew-151)"
+},
+{
+"id": "tg:Japanese Neo Destiny Light Arcanine No.059",
+"label": "Japanese Neo Destiny Light Arcanine No.059",
+"lang": "JP",
+"num": "No.59",
+"words": [
+"light",
+"arcanine"
+],
+"keys": [
+"neo",
+"destiny",
+"neo 4",
+"darkness and to light"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 200,
+"PSA 9": 514,
+"PSA 10": 2396
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-darkness-and-to-light/light-arcanine-59)"
+},
+{
+"id": "tg:Japanese Neo Genesis Slowking No.199",
+"label": "Japanese Neo Genesis Slowking No.199",
+"lang": "JP",
+"num": "No.199",
+"words": [
+"slowking"
+],
+"keys": [
+"neo",
+"genesis",
+"neo 1",
+"gold, silver",
+"gold silver",
+"new world"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 50,
+"PSA 9": 257,
+"PSA 10": 1992
+},
+"src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/game/pokemon-japanese-gold-silver-new-world/slowking-199)"
+},
+{
+"id": "tg:Skyridge Charizard 146/144 (crystal)",
+"label": "Skyridge Charizard 146/144 (crystal)",
+"lang": "EN",
+"num": "146/144",
+"words": [
+"charizard"
+],
+"keys": [
+"skyridge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 8597,
+"PSA 9": 59544,
+"PSA 10": 170784
+},
+"src": "Finder benchmark (PriceCharting/pokemon-skyridge/charizard-146)"
+},
+{
+"id": "tg:Skyridge Celebi 145/144 (crystal)",
+"label": "Skyridge Celebi 145/144 (crystal)",
+"lang": "EN",
+"num": "145/144",
+"words": [
+"celebi"
+],
+"keys": [
+"skyridge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 1566,
+"PSA 9": 10318,
+"PSA 10": 47108
+},
+"src": "Finder benchmark (PriceCharting/pokemon-skyridge/celebi-145)"
+},
+{
+"id": "tg:Skyridge Ho-Oh 149/144 (crystal)",
+"label": "Skyridge Ho-Oh 149/144 (crystal)",
+"lang": "EN",
+"num": "149/144",
+"words": [
+"ho-oh"
+],
+"keys": [
+"skyridge"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 2727,
+"PSA 9": 13849,
+"PSA 10": 45163
+},
+"src": "Finder benchmark (PriceCharting/pokemon-skyridge/ho-oh-149)"
+},
+{
+"id": "tg:Aquapolis Lugia 149/147 (crystal)",
+"label": "Aquapolis Lugia 149/147 (crystal)",
+"lang": "EN",
+"num": "149/147",
+"words": [
+"lugia"
+],
+"keys": [
+"aquapolis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 5738,
+"PSA 9": 47056,
+"PSA 10": 170814
+},
+"src": "Finder benchmark (PriceCharting/pokemon-aquapolis/lugia-149)"
+},
+{
+"id": "tg:Aquapolis Kingdra 148/147 (crystal)",
+"label": "Aquapolis Kingdra 148/147 (crystal)",
+"lang": "EN",
+"num": "148/147",
+"words": [
+"kingdra"
+],
+"keys": [
+"aquapolis"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 603,
+"PSA 9": 4270,
+"PSA 10": 15045
+},
+"src": "Finder benchmark (PriceCharting/pokemon-aquapolis/kingdra-148)"
+},
+{
+"id": "tg:Expedition Charizard 6/165",
+"label": "Expedition Charizard 6/165",
+"lang": "EN",
+"num": "6/165",
+"words": [
+"charizard"
+],
+"keys": [
+"expedition"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 768,
+"PSA 9": 9869,
+"PSA 10": 71302
+},
+"src": "Finder benchmark (PriceCharting/pokemon-expedition/charizard-6)"
+},
+{
+"id": "tg:Expedition Charizard 40/165 (non-holo)",
+"label": "Expedition Charizard 40/165 (non-holo)",
+"lang": "EN",
+"num": "40/165",
+"words": [
+"charizard"
+],
+"keys": [
+"expedition"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 128,
+"PSA 9": 554,
+"PSA 10": 3558
+},
+"src": "Finder benchmark (PriceCharting/pokemon-expedition/charizard-40)"
+},
+{
+"id": "tg:Expedition Blastoise 4/165",
+"label": "Expedition Blastoise 4/165",
+"lang": "EN",
+"num": "4/165",
+"words": [
+"blastoise"
+],
+"keys": [
+"expedition"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 423,
+"PSA 9": 7116,
+"PSA 10": 20017
+},
+"src": "Finder benchmark (PriceCharting/pokemon-expedition/blastoise-4)"
+},
+{
+"id": "tg:Expedition Venusaur 30/165",
+"label": "Expedition Venusaur 30/165",
+"lang": "EN",
+"num": "30/165",
+"words": [
+"venusaur"
+],
+"keys": [
+"expedition"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 153,
+"PSA 9": 1672,
+"PSA 10": 10023
+},
+"src": "Finder benchmark (PriceCharting/pokemon-expedition/venusaur-30)"
+},
+{
+"id": "tg:EX Dragon Frontiers Charizard Gold Star 100/101",
+"label": "EX Dragon Frontiers Charizard Gold Star 100/101",
+"lang": "EN",
+"num": "100/101",
+"words": [
+"charizard"
+],
+"keys": [
+"dragon frontiers"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 8548,
+"PSA 9": 60897,
+"PSA 10": 218673
+},
+"src": "Finder benchmark (PriceCharting/pokemon-dragon-frontiers/charizard-gold-star-100)"
+},
+{
+"id": "tg:EX Deoxys Rayquaza Gold Star 107/107",
+"label": "EX Deoxys Rayquaza Gold Star 107/107",
+"lang": "EN",
+"num": "107/107",
+"words": [
+"rayquaza"
+],
+"keys": [
+"deoxys"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 11863,
+"PSA 9": 119744,
+"PSA 10": 520535
+},
+"src": "Finder benchmark (PriceCharting/pokemon-deoxys/rayquaza-gold-star-107)"
+},
+{
+"id": "tg:EX Dragon Frontiers Mew Gold Star 101/101",
+"label": "EX Dragon Frontiers Mew Gold Star 101/101",
+"lang": "EN",
+"num": "101/101",
+"words": [
+"mew"
+],
+"keys": [
+"dragon frontiers"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 4664,
+"PSA 9": 28054,
+"PSA 10": 76065
+},
+"src": "Finder benchmark (PriceCharting/pokemon-dragon-frontiers/mew-gold-star-101)"
+},
+{
+"id": "tg:EX Holon Phantoms Mew 111/110 (secret holo, not a Gold Star)",
+"label": "EX Holon Phantoms Mew 111/110 (secret holo, not a Gold Star)",
+"lang": "EN",
+"num": "111/110",
+"words": [
+"mew"
+],
+"keys": [
+"holon phantoms"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 384,
+"PSA 9": 3391,
+"PSA 10": 4286
+},
+"src": "Finder benchmark (PriceCharting/pokemon-holon-phantoms/mew-holo-111)"
+},
+{
+"id": "tg:EX Crystal Guardians Alakazam Gold Star 99/100",
+"label": "EX Crystal Guardians Alakazam Gold Star 99/100",
+"lang": "EN",
+"num": "99/100",
+"words": [
+"alakazam"
+],
+"keys": [
+"crystal guardians"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 1994,
+"PSA 9": 8167,
+"PSA 10": 19851
+},
+"src": "Finder benchmark (PriceCharting/pokemon-crystal-guardians/alakazam-gold-star-99)"
+},
+{
+"id": "tg:EX Dragon Frontiers Dragonite ex 91/101",
+"label": "EX Dragon Frontiers Dragonite ex 91/101",
+"lang": "EN",
+"num": "91/101",
+"words": [
+"dragonite"
+],
+"keys": [
+"dragon frontiers"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 254,
+"PSA 9": 3521,
+"PSA 10": 33445
+},
+"src": "Finder benchmark (PriceCharting/pokemon-dragon-frontiers/dragonite-ex-91)"
+},
+{
+"id": "tg:EX Dragon Frontiers Tyranitar ex 99/101",
+"label": "EX Dragon Frontiers Tyranitar ex 99/101",
+"lang": "EN",
+"num": "99/101",
+"words": [
+"tyranitar"
+],
+"keys": [
+"dragon frontiers"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 245,
+"PSA 9": 2064,
+"PSA 10": 5954
+},
+"src": "Finder benchmark (PriceCharting/pokemon-dragon-frontiers/tyranitar-ex-99)"
+},
+{
+"id": "tg:EX Crystal Guardians Charizard 4/100 (delta)",
+"label": "EX Crystal Guardians Charizard 4/100 (delta)",
+"lang": "EN",
+"num": "4/100",
+"words": [
+"charizard"
+],
+"keys": [
+"crystal guardians"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 515,
+"PSA 9": 4853,
+"PSA 10": 20994
+},
+"src": "Finder benchmark (PriceCharting/pokemon-crystal-guardians/charizard-4)"
+},
+{
+"id": "tg:EX Team Rocket Returns Rocket's Mewtwo ex 99/109",
+"label": "EX Team Rocket Returns Rocket's Mewtwo ex 99/109",
+"lang": "EN",
+"num": "99/109",
+"words": [
+"rocket's",
+"mewtwo"
+],
+"keys": [
+"team rocket returns",
+"trr"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 890,
+"PSA 10": 32933
+},
+"src": "Finder benchmark (PriceCharting/pokemon-team-rocket-returns/rocket's-mewtwo-ex-99)"
+},
+{
+"id": "tg:EX FireRed & LeafGreen Charizard ex 105/112",
+"label": "EX FireRed & LeafGreen Charizard ex 105/112",
+"lang": "EN",
+"num": "105/112",
+"words": [
+"charizard"
+],
+"keys": [
+"firered",
+"fire red"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 719,
+"PSA 9": 12626,
+"PSA 10": 60553
+},
+"src": "Finder benchmark (PriceCharting/pokemon-fire-red-&-leaf-green/charizard-ex-105)"
+},
+{
+"id": "tg:Generations Charizard EX 11/83",
+"label": "Generations Charizard EX 11/83",
+"lang": "EN",
+"num": "11/83",
+"words": [
+"charizard"
+],
+"keys": [
+"generations"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 33,
+"PSA 9": 178,
+"PSA 10": 2299
+},
+"src": "Finder benchmark (PriceCharting/pokemon-generations/charizard-ex-11)"
+},
+{
+"id": "tg:Generations M Charizard EX 12/83",
+"label": "Generations M Charizard EX 12/83",
+"lang": "EN",
+"num": "12/83",
+"words": [
+"charizard"
+],
+"keys": [
+"generations"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 153,
+"PSA 9": 408,
+"PSA 10": 4376
+},
+"src": "Finder benchmark (PriceCharting/pokemon-generations/m-charizard-ex-12)"
+},
+{
+"id": "tg:Neo Revelation Celebi 3/64",
+"label": "Neo Revelation Celebi 3/64",
+"lang": "EN",
+"num": "3/64",
+"words": [
+"celebi"
+],
+"keys": [
+"neo revelation",
+"revelation"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 140,
+"PSA 9": 942,
+"PSA 10": 4060
+},
+"src": "Finder benchmark (PriceCharting/pokemon-neo-revelation/celebi-3)"
+},
+{
+"id": "tg:EX Unseen Forces Celebi ex 117/115",
+"label": "EX Unseen Forces Celebi ex 117/115",
+"lang": "EN",
+"num": "117/115",
+"words": [
+"celebi"
+],
+"keys": [
+"unseen forces"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 1200,
+"PSA 9": 9689,
+"PSA 10": 11628
+},
+"src": "Finder benchmark (PriceCharting/pokemon-unseen-forces/celebi-ex-117)"
+},
+{
+"id": "tg:Japanese XY Promo Celebi 142/XY-P (Bandit Ring)",
+"label": "Japanese XY Promo Celebi 142/XY-P (Bandit Ring)",
+"lang": "JP",
+"num": "142/XY-P",
+"words": [
+"xy",
+"celebi"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 102,
+"PSA 9": 105
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-promo/celebi-142xy-p)"
+},
+{
+"id": "tg:Japanese Expedition 1st Edition Tyranitar 095/128",
+"label": "Japanese Expedition 1st Edition Tyranitar 095/128",
+"lang": "JP",
+"num": "95/128",
+"words": [
+"tyranitar"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 54,
+"PSA 9": 356
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-expedition-expansion-pack/tyranitar-1st-edition-95)"
+},
+{
+"id": "tg:Japanese Expedition 1st Edition Magikarp 012/128",
+"label": "Japanese Expedition 1st Edition Magikarp 012/128",
+"lang": "JP",
+"num": "12/128",
+"words": [
+"magikarp"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 40,
+"PSA 9": 200
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-expedition-expansion-pack/magikarp-1st-edition-12)"
+},
+{
+"id": "tg:Japanese Mysterious Mountains Snorlax 062/088",
+"label": "Japanese Mysterious Mountains Snorlax 062/088",
+"lang": "JP",
+"num": "62/088",
+"words": [
+"snorlax"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 351,
+"PSA 9": 910
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-mysterious-mountains/snorlax-62)"
+},
+{
+"id": "tg:Japanese Wind from the Sea 1st Edition Octillery 040/087",
+"label": "Japanese Wind from the Sea 1st Edition Octillery 040/087",
+"lang": "JP",
+"num": "40/087",
+"words": [
+"octillery"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 37,
+"PSA 9": 145
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-wind-from-the-sea/octillery-40)"
+},
+{
+"id": "tg:Japanese Mysterious Mountains 1st Edition Moltres 019/088",
+"label": "Japanese Mysterious Mountains 1st Edition Moltres 019/088",
+"lang": "JP",
+"num": "19/088",
+"words": [
+"moltres"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 221,
+"PSA 9": 747
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-mysterious-mountains/moltres-19)"
+},
+{
+"id": "tg:Japanese Expedition 1st Edition Mew 087/128",
+"label": "Japanese Expedition 1st Edition Mew 087/128",
+"lang": "JP",
+"num": "87/128",
+"words": [
+"mew"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 140,
+"PSA 9": 446
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-expedition-expansion-pack/mew-1st-edition-87)"
+},
+{
+"id": "tg:Japanese Expedition 1st Edition Mareep 017/128",
+"label": "Japanese Expedition 1st Edition Mareep 017/128",
+"lang": "JP",
+"num": "17/128",
+"words": [
+"mareep"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 9,
+"PSA 9": 50
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-expedition-expansion-pack/mareep-1st-edition-17)"
+},
+{
+"id": "tg:Legendary Collection Rapidash Reverse Holo 60/110",
+"label": "Legendary Collection Rapidash Reverse Holo 60/110",
+"lang": "EN",
+"num": "60/110",
+"words": [
+"rapidash"
+],
+"keys": [
+"legendary collection"
+],
+"first": false,
+"sl": false,
+"rev": true,
+"g": {
+"Raw": 219,
+"PSA 10": 5446
+},
+"src": "Finder benchmark (PriceCharting/pokemon-legendary-collection/rapidash-reverse-holo-60)"
+},
+{
+"id": "tg:Legendary Collection Fearow Reverse Holo 42/110",
+"label": "Legendary Collection Fearow Reverse Holo 42/110",
+"lang": "EN",
+"num": "42/110",
+"words": [
+"fearow"
+],
+"keys": [
+"legendary collection"
+],
+"first": false,
+"sl": false,
+"rev": true,
+"g": {
+"Raw": 146,
+"PSA 9": 1392
+},
+"src": "Finder benchmark (PriceCharting/pokemon-legendary-collection/fearow-reverse-holo-42)"
+},
+{
+"id": "tg:Japanese Mysterious Mountains 1st Edition Crystal Charizard 089/088",
+"label": "Japanese Mysterious Mountains 1st Edition Crystal Charizard 089/088",
+"lang": "JP",
+"num": "89/088",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 3567,
+"PSA 9": 71492
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-mysterious-mountains/charizard-1st-edition-89)"
+},
+{
+"id": "tg:Japanese Split Earth 1st Edition Crobat 009/088",
+"label": "Japanese Split Earth 1st Edition Crobat 009/088",
+"lang": "JP",
+"num": "9/088",
+"words": [
+"crobat"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 120
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-split-earth/crobat-9)"
+},
+{
+"id": "tg:Japanese Split Earth Crobat 009/088",
+"label": "Japanese Split Earth Crobat 009/088",
+"lang": "JP",
+"num": "9/088",
+"words": [
+"crobat"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 120,
+"PSA 9": 356
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-split-earth/crobat-9)"
+},
+{
+"id": "tg:Japanese PCG Offense and Defense of the Furthest Ends Mew Gold Star 015/068",
+"label": "Japanese PCG Offense and Defense of the Furthest Ends Mew Gold Star 015/068",
+"lang": "JP",
+"num": "15/068",
+"words": [
+"offense",
+"defense",
+"furthest",
+"ends",
+"mew"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 1000,
+"PSA 10": 20188
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-offense-and-defense-of-the-furthest-ends/mew-gold-star-15)"
+},
+{
+"id": "tg:EX Ruby & Sapphire Sneasel ex 103/109",
+"label": "EX Ruby & Sapphire Sneasel ex 103/109",
+"lang": "EN",
+"num": "103/109",
+"words": [
+"sneasel"
+],
+"keys": [
+"ruby",
+"sapphire"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 95,
+"PSA 10": 6559
+},
+"src": "Finder benchmark (PriceCharting/pokemon-ruby-&-sapphire/sneasel-ex-103)"
+},
+{
+"id": "tg:EX Legend Maker Walrein ex 89/92",
+"label": "EX Legend Maker Walrein ex 89/92",
+"lang": "EN",
+"num": "89/92",
+"words": [
+"walrein"
+],
+"keys": [
+"legend maker"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 90,
+"PSA 10": 4131
+},
+"src": "Finder benchmark (PriceCharting/pokemon-legend-maker/walrein-ex-89)"
+},
+{
+"id": "tg:EX Dragon Frontiers Feraligatr δ 2/101",
+"label": "EX Dragon Frontiers Feraligatr δ 2/101",
+"lang": "EN",
+"num": "2/101",
+"words": [
+"feraligatr"
+],
+"keys": [
+"dragon frontiers"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 49,
+"PSA 10": 6903
+},
+"src": "Finder benchmark (PriceCharting/pokemon-dragon-frontiers/feraligatr-2)"
+},
+{
+"id": "tg:Japanese PCG Team Magma vs Team Aqua (Two Ambitions) Umbreon 062/080 1st Edition",
+"label": "Japanese PCG Team Magma vs Team Aqua (Two Ambitions) Umbreon 062/080 1st Edition",
+"lang": "JP",
+"num": "62/080",
+"words": [
+"magma",
+"vs",
+"aqua",
+"umbreon"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 130,
+"PSA 9": 825
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-magma-vs-aqua-two-ambitions/umbreon-62)"
+},
+{
+"id": "tg:Japanese PCG Holon Research Tower Rayquaza δ 043/086 1st Edition",
+"label": "Japanese PCG Holon Research Tower Rayquaza δ 043/086 1st Edition",
+"lang": "JP",
+"num": "43/086",
+"words": [
+"research",
+"tower",
+"rayquaza"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 100,
+"PSA 9": 1120
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-holon-research/rayquaza-1st-edition-43)"
+},
+{
+"id": "tg:Japanese PCG Holon Research Tower Metagross δ 040/086 1st Edition",
+"label": "Japanese PCG Holon Research Tower Metagross δ 040/086 1st Edition",
+"lang": "JP",
+"num": "40/086",
+"words": [
+"research",
+"tower",
+"metagross"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 38,
+"PSA 9": 101
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-holon-research/metagross-1st-edition-40)"
+},
+{
+"id": "tg:Japanese PCG Holon Research Tower Mewtwo δ 019/086 1st Edition",
+"label": "Japanese PCG Holon Research Tower Mewtwo δ 019/086 1st Edition",
+"lang": "JP",
+"num": "19/086",
+"words": [
+"research",
+"tower",
+"mewtwo"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 118,
+"PSA 10": 6600
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-holon-research/mewtwo-1st-edition-19)"
+},
+{
+"id": "tg:Japanese PCG-era PokéPark Forest Pokepark's Munchlax 008/009",
+"label": "Japanese PCG-era PokéPark Forest Pokepark's Munchlax 008/009",
+"lang": "JP",
+"num": "8/009",
+"words": [
+"pcg-era",
+"forest",
+"pokepark's",
+"munchlax"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 213,
+"PSA 9": 890
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-pokepark-forest/pokepark%27s-munchlax-8)"
+},
+{
+"id": "tg:Japanese Neo Revelation Entei No.244",
+"label": "Japanese Neo Revelation Entei No.244",
+"lang": "JP",
+"num": "No.244",
+"words": [
+"entei"
+],
+"keys": [
+"neo",
+"revelation",
+"neo 3",
+"awakening"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 90
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-awakening-legends/entei-244)"
+},
+{
+"id": "tg:Japanese Neo Discovery Hitmontop No.237",
+"label": "Japanese Neo Discovery Hitmontop No.237",
+"lang": "JP",
+"num": "No.237",
+"words": [
+"hitmontop"
+],
+"keys": [
+"neo",
+"discovery",
+"neo 2",
+"ruins"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 25,
+"PSA 9": 103
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-crossing-the-ruins/hitmontop-237)"
+},
+{
+"id": "tg:Japanese Game Boy Promo Dragonite No.149 (old back)",
+"label": "Japanese Game Boy Promo Dragonite No.149 (old back)",
+"lang": "JP",
+"num": "No.149",
+"words": [
+"game",
+"boy",
+"dragonite"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 245,
+"PSA 9": 1021
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-promo/dragonite-149)"
+},
+{
+"id": "tg:Japanese Neo Premium File 3 Celebi No.251 promo (old back)",
+"label": "Japanese Neo Premium File 3 Celebi No.251 promo (old back)",
+"lang": "JP",
+"num": "No.251",
+"words": [
+"celebi"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 156,
+"PSA 9": 407
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-neo-premium-file/celebi-251)"
+},
+{
+"id": "tg:Japanese Neo Discovery Beedrill No.015",
+"label": "Japanese Neo Discovery Beedrill No.015",
+"lang": "JP",
+"num": "No.15",
+"words": [
+"beedrill"
+],
+"keys": [
+"neo",
+"discovery",
+"neo 2",
+"ruins"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 64,
+"PSA 10": 643
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-crossing-the-ruins/beedrill-15)"
+},
+{
+"id": "tg:Triumphant Gengar Prime 94/102",
+"label": "Triumphant Gengar Prime 94/102",
+"lang": "EN",
+"num": "94/102",
+"words": [
+"triumphant",
+"gengar",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 889,
+"PSA 9": 7552,
+"PSA 10": 37268
+},
+"src": "Finder benchmark (PriceCharting/pokemon-triumphant/gengar-94)"
+},
+{
+"id": "tg:Undaunted Umbreon Prime 86/90",
+"label": "Undaunted Umbreon Prime 86/90",
+"lang": "EN",
+"num": "86/90",
+"words": [
+"undaunted",
+"umbreon",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 569,
+"PSA 9": 8113,
+"PSA 10": 93641
+},
+"src": "Finder benchmark (PriceCharting/pokemon-undaunted/umbreon-86)"
+},
+{
+"id": "tg:Triumphant Mew Prime 97/102",
+"label": "Triumphant Mew Prime 97/102",
+"lang": "EN",
+"num": "97/102",
+"words": [
+"triumphant",
+"mew",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 463,
+"PSA 9": 4273,
+"PSA 10": 30617
+},
+"src": "Finder benchmark (PriceCharting/pokemon-triumphant/mew-97)"
+},
+{
+"id": "tg:Undaunted Espeon Prime 81/90",
+"label": "Undaunted Espeon Prime 81/90",
+"lang": "EN",
+"num": "81/90",
+"words": [
+"undaunted",
+"espeon",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 384,
+"PSA 9": 4767,
+"PSA 10": 22050
+},
+"src": "Finder benchmark (PriceCharting/pokemon-undaunted/espeon-81)"
+},
+{
+"id": "tg:Unleashed Tyranitar Prime 88/95",
+"label": "Unleashed Tyranitar Prime 88/95",
+"lang": "EN",
+"num": "88/95",
+"words": [
+"unleashed",
+"tyranitar",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 312,
+"PSA 9": 2811,
+"PSA 10": 6841
+},
+"src": "Finder benchmark (PriceCharting/pokemon-unleashed/tyranitar-88)"
+},
+{
+"id": "tg:Undaunted Houndoom Prime 82/90",
+"label": "Undaunted Houndoom Prime 82/90",
+"lang": "EN",
+"num": "82/90",
+"words": [
+"undaunted",
+"houndoom",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 287,
+"PSA 9": 2864,
+"PSA 10": 3436
+},
+"src": "Finder benchmark (PriceCharting/pokemon-undaunted/houndoom-82)"
+},
+{
+"id": "tg:Undaunted Raichu Prime 83/90",
+"label": "Undaunted Raichu Prime 83/90",
+"lang": "EN",
+"num": "83/90",
+"words": [
+"undaunted",
+"raichu",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 179,
+"PSA 9": 1681,
+"PSA 10": 23240
+},
+"src": "Finder benchmark (PriceCharting/pokemon-undaunted/raichu-83)"
+},
+{
+"id": "tg:Triumphant Absol Prime 91/102",
+"label": "Triumphant Absol Prime 91/102",
+"lang": "EN",
+"num": "91/102",
+"words": [
+"triumphant",
+"absol",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 163,
+"PSA 9": 1853,
+"PSA 10": 16659
+},
+"src": "Finder benchmark (PriceCharting/pokemon-triumphant/absol-91)"
+},
+{
+"id": "tg:Triumphant Celebi Prime 92/102",
+"label": "Triumphant Celebi Prime 92/102",
+"lang": "EN",
+"num": "92/102",
+"words": [
+"triumphant",
+"celebi",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 141,
+"PSA 9": 3878,
+"PSA 10": 14699
+},
+"src": "Finder benchmark (PriceCharting/pokemon-triumphant/celebi-92)"
+},
+{
+"id": "tg:Undaunted Slowking Prime 85/90",
+"label": "Undaunted Slowking Prime 85/90",
+"lang": "EN",
+"num": "85/90",
+"words": [
+"undaunted",
+"slowking",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 157,
+"PSA 9": 1951,
+"PSA 10": 12258
+},
+"src": "Finder benchmark (PriceCharting/pokemon-undaunted/slowking-85)"
+},
+{
+"id": "tg:HeartGold SoulSilver Feraligatr Prime 108/123",
+"label": "HeartGold SoulSilver Feraligatr Prime 108/123",
+"lang": "EN",
+"num": "108/123",
+"words": [
+"heartgold",
+"soulsilver",
+"feraligatr",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 118,
+"PSA 9": 1854,
+"PSA 10": 2029
+},
+"src": "Finder benchmark (PriceCharting/pokemon-heartgold-&-soulsilver/feraligatr-108)"
+},
+{
+"id": "tg:Unleashed Steelix Prime 87/95",
+"label": "Unleashed Steelix Prime 87/95",
+"lang": "EN",
+"num": "87/95",
+"words": [
+"unleashed",
+"steelix",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 112,
+"PSA 9": 1106,
+"PSA 10": 1327
+},
+"src": "Finder benchmark (PriceCharting/pokemon-unleashed/steelix-87)"
+},
+{
+"id": "tg:Undaunted Scizor Prime 84/90",
+"label": "Undaunted Scizor Prime 84/90",
+"lang": "EN",
+"num": "84/90",
+"words": [
+"undaunted",
+"scizor",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 104,
+"PSA 9": 2138,
+"PSA 10": 7536
+},
+"src": "Finder benchmark (PriceCharting/pokemon-undaunted/scizor-84)"
+},
+{
+"id": "tg:HeartGold SoulSilver Typhlosion Prime 110/123",
+"label": "HeartGold SoulSilver Typhlosion Prime 110/123",
+"lang": "EN",
+"num": "110/123",
+"words": [
+"heartgold",
+"soulsilver",
+"typhlosion",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 87,
+"PSA 9": 1165,
+"PSA 10": 2092
+},
+"src": "Finder benchmark (PriceCharting/pokemon-heartgold-&-soulsilver/typhlosion-prime-110)"
+},
+{
+"id": "tg:Unleashed Kingdra Prime 85/95",
+"label": "Unleashed Kingdra Prime 85/95",
+"lang": "EN",
+"num": "85/95",
+"words": [
+"unleashed",
+"kingdra",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 88,
+"PSA 9": 1425,
+"PSA 10": 8979
+},
+"src": "Finder benchmark (PriceCharting/pokemon-unleashed/kingdra-85)"
+},
+{
+"id": "tg:HeartGold SoulSilver Meganium Prime 109/123",
+"label": "HeartGold SoulSilver Meganium Prime 109/123",
+"lang": "EN",
+"num": "109/123",
+"words": [
+"heartgold",
+"soulsilver",
+"meganium",
+"prime"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 74,
+"PSA 9": 533,
+"PSA 10": 2298
+},
+"src": "Finder benchmark (PriceCharting/pokemon-heartgold-&-soulsilver/meganium-109)"
+},
+{
+"id": "tg:Japanese L1 SoulSilver Collection Typhlosion Prime 017/070 1st Edition",
+"label": "Japanese L1 SoulSilver Collection Typhlosion Prime 017/070 1st Edition",
+"lang": "JP",
+"num": "17/070",
+"words": [
+"soulsilver",
+"typhlosion",
+"prime"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 61,
+"PSA 9": 204,
+"PSA 10": 1462
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-soulsilver-collection/typhlosion-17)"
+},
+{
+"id": "tg:Undaunted Scyther 36/90 reverse holo",
+"label": "Undaunted Scyther 36/90 reverse holo",
+"lang": "EN",
+"num": "36/90",
+"words": [
+"undaunted",
+"scyther"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": true,
+"g": {
+"Raw": 33,
+"PSA 9": 101,
+"PSA 10": 493
+},
+"src": "Finder benchmark (PriceCharting/pokemon-undaunted/scyther-reverse-holo-36)"
+},
+{
+"id": "tg:Japanese Neo Discovery (Crossing the Ruins) Houndoom No.229",
+"label": "Japanese Neo Discovery (Crossing the Ruins) Houndoom No.229",
+"lang": "JP",
+"num": "No.229",
+"words": [
+"houndoom"
+],
+"keys": [
+"neo",
+"discovery",
+"neo 2",
+"ruins"
+],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 54,
+"PSA 9": 201,
+"PSA 10": 1264
+},
+"src": "Finder benchmark (PriceCharting/pokemon-japanese-crossing-the-ruins/houndoom)"
+},
+{
+"id": "en:115/114",
+"label": "Black & White Pikachu 115/114",
+"lang": "EN",
+"num": "115/114",
+"words": [
+"pikachu"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 144,
+"PSA 7": 138,
+"PSA 9": 648,
+"PSA 10": 5827
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:102/101",
+"label": "Noble Victories Meowth 102/101",
+"lang": "EN",
+"num": "102/101",
+"words": [
+"meowth"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 150,
+"PSA 7": 171,
+"PSA 9": 1139,
+"PSA 10": 5479
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:100/99",
+"label": "Next Destinies Emboar 100/99",
+"lang": "EN",
+"num": "100/99",
+"words": [
+"emboar"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 158,
+"PSA 9": 935,
+"PSA 10": 35580
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:101/99",
+"label": "Next Destinies Chandelure 101/99",
+"lang": "EN",
+"num": "101/99",
+"words": [
+"chandelure"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 225,
+"PSA 9": 1535,
+"PSA 10": 1995
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:102/99",
+"label": "Next Destinies Zoroark 102/99",
+"lang": "EN",
+"num": "102/99",
+"words": [
+"zoroark"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 369,
+"PSA 9": 2133,
+"PSA 10": 4295
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:103/99",
+"label": "Next Destinies Hydreigon 103/99",
+"lang": "EN",
+"num": "103/99",
+"words": [
+"hydreigon"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 178,
+"PSA 9": 2830,
+"PSA 10": 3396
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:109/108",
+"label": "Dark Explorers Gardevoir 109/108",
+"lang": "EN",
+"num": "109/108",
+"words": [
+"gardevoir"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 830,
+"PSA 7": 990,
+"PSA 9": 4270,
+"PSA 10": 9415
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:110/108",
+"label": "Dark Explorers Archeops 110/108",
+"lang": "EN",
+"num": "110/108",
+"words": [
+"archeops"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 178,
+"PSA 9": 825,
+"PSA 10": 4594
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:111/108",
+"label": "Dark Explorers Pokémon Catcher 111/108",
+"lang": "EN",
+"num": "111/108",
+"words": [
+"catcher"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 117,
+"PSA 9": 671,
+"PSA 10": 1512
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:125/124",
+"label": "Dragons Exalted Serperior 125/124",
+"lang": "EN",
+"num": "125/124",
+"words": [
+"serperior"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 180,
+"PSA 9": 901,
+"PSA 10": 10152
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:126/124",
+"label": "Dragons Exalted Reuniclus 126/124",
+"lang": "EN",
+"num": "126/124",
+"words": [
+"reuniclus"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 189,
+"PSA 9": 1225,
+"PSA 10": 16248
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:127/124",
+"label": "Dragons Exalted Krookodile 127/124",
+"lang": "EN",
+"num": "127/124",
+"words": [
+"krookodile"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 247,
+"PSA 9": 1459,
+"PSA 10": 5571
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:128/124",
+"label": "Dragons Exalted Rayquaza 128/124",
+"lang": "EN",
+"num": "128/124",
+"words": [
+"rayquaza"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 1014,
+"PSA 7": 3505,
+"PSA 9": 13742,
+"PSA 10": 15466
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:150/149",
+"label": "Boundaries Crossed Golurk 150/149",
+"lang": "EN",
+"num": "150/149",
+"words": [
+"golurk"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 234,
+"PSA 9": 836,
+"PSA 10": 12809
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:151/149",
+"label": "Boundaries Crossed Terrakion 151/149",
+"lang": "EN",
+"num": "151/149",
+"words": [
+"terrakion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 121,
+"PSA 9": 1381,
+"PSA 10": 3789
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:152/149",
+"label": "Boundaries Crossed Altaria 152/149",
+"lang": "EN",
+"num": "152/149",
+"words": [
+"altaria"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 185,
+"PSA 9": 1250,
+"PSA 10": 8203
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:153/149",
+"label": "Boundaries Crossed Rocky Helmet 153/149",
+"lang": "EN",
+"num": "153/149",
+"words": [
+"helmet"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 36,
+"PSA 9": 154,
+"PSA 10": 1779
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:136/135",
+"label": "Plasma Storm Charizard 136/135",
+"lang": "EN",
+"num": "136/135",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 996,
+"PSA 7": 2025,
+"PSA 9": 7218,
+"PSA 10": 110579
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:137/135",
+"label": "Plasma Storm Blastoise 137/135",
+"lang": "EN",
+"num": "137/135",
+"words": [
+"blastoise"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 547,
+"PSA 7": 829,
+"PSA 9": 3647,
+"PSA 10": 25414
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:138/135",
+"label": "Plasma Storm Random Receiver 138/135",
+"lang": "EN",
+"num": "138/135",
+"words": [
+"receiver"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 60,
+"PSA 9": 310,
+"PSA 10": 696
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:117/116",
+"label": "Plasma Freeze Empoleon 117/116",
+"lang": "EN",
+"num": "117/116",
+"words": [
+"empoleon"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 626,
+"PSA 7": 852,
+"PSA 9": 2798,
+"PSA 10": 10576
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:118/116",
+"label": "Plasma Freeze Sigilyph 118/116",
+"lang": "EN",
+"num": "118/116",
+"words": [
+"sigilyph"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 203,
+"PSA 9": 1853,
+"PSA 10": 3983
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:119/116",
+"label": "Plasma Freeze Garbodor 119/116",
+"lang": "EN",
+"num": "119/116",
+"words": [
+"garbodor"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 292,
+"PSA 9": 1161,
+"PSA 10": 3859
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:120/116",
+"label": "Plasma Freeze Garchomp 120/116",
+"lang": "EN",
+"num": "120/116",
+"words": [
+"garchomp"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 649,
+"PSA 7": 1137,
+"PSA 9": 4594,
+"PSA 10": 9962
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:121/116",
+"label": "Plasma Freeze Max Potion 121/116",
+"lang": "EN",
+"num": "121/116",
+"words": [
+"potion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 53,
+"PSA 9": 110,
+"PSA 10": 311
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:122/116",
+"label": "Plasma Freeze Ultra Ball 122/116",
+"lang": "EN",
+"num": "122/116",
+"words": [
+"ultra",
+"ball"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 805,
+"PSA 7": 616,
+"PSA 9": 856,
+"PSA 10": 6406
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:103/101",
+"label": "Plasma Blast Virizion 103/101",
+"lang": "EN",
+"num": "103/101",
+"words": [
+"virizion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 108,
+"PSA 9": 1191,
+"PSA 10": 5444
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:104/101",
+"label": "Plasma Blast Dusknoir 104/101",
+"lang": "EN",
+"num": "104/101",
+"words": [
+"dusknoir"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 159,
+"PSA 9": 1423,
+"PSA 10": 7810
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:105/101",
+"label": "Plasma Blast Rare Candy 105/101",
+"lang": "EN",
+"num": "105/101",
+"words": [
+"candy"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 175,
+"PSA 9": 285,
+"PSA 10": 895
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:114/113",
+"label": "Legendary Treasures Reshiram 114/113",
+"lang": "EN",
+"num": "114/113",
+"words": [
+"reshiram"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 266,
+"PSA 9": 1601,
+"PSA 10": 14298
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "en:115/113",
+"label": "Legendary Treasures Zekrom 115/113",
+"lang": "EN",
+"num": "115/113",
+"words": [
+"zekrom"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 249,
+"PSA 9": 1400,
+"PSA 10": 21556
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/53:tornadus:u",
+"label": "Japanese Black Collection Tornadus 054/053",
+"lang": "JP",
+"num": "54/53",
+"words": [
+"tornadus"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 25,
+"PSA 9": 110,
+"PSA 10": 478
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/53:tornadus:1",
+"label": "Japanese Black Collection Tornadus 054/053 1st Ed",
+"lang": "JP",
+"num": "54/53",
+"words": [
+"tornadus"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 17,
+"PSA 9": 73,
+"PSA 10": 447
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/53:reshiram:u",
+"label": "Japanese Black Collection Reshiram 055/053",
+"lang": "JP",
+"num": "55/53",
+"words": [
+"reshiram"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 90,
+"PSA 9": 979,
+"PSA 10": 2307
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:56/53:pikachu:u",
+"label": "Japanese Black Collection Pikachu 056/053",
+"lang": "JP",
+"num": "56/53",
+"words": [
+"pikachu"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 190,
+"PSA 9": 599,
+"PSA 10": 7116
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:56/53:pikachu:1",
+"label": "Japanese Black Collection Pikachu 056/053 1st Ed",
+"lang": "JP",
+"num": "56/53",
+"words": [
+"pikachu"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 306,
+"PSA 9": 392,
+"PSA 10": 7116
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/53:thundurus:u",
+"label": "Japanese White Collection Thundurus 054/053",
+"lang": "JP",
+"num": "54/53",
+"words": [
+"thundurus"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 23,
+"PSA 9": 141,
+"PSA 10": 450
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/53:thundurus:1",
+"label": "Japanese White Collection Thundurus 054/053 1st Ed",
+"lang": "JP",
+"num": "54/53",
+"words": [
+"thundurus"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 28,
+"PSA 9": 498
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/53:zekrom:u",
+"label": "Japanese White Collection Zekrom 055/053",
+"lang": "JP",
+"num": "55/53",
+"words": [
+"zekrom"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 110,
+"PSA 9": 427,
+"PSA 10": 1806
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/53:zekrom:1",
+"label": "Japanese White Collection Zekrom 055/053 1st Ed",
+"lang": "JP",
+"num": "55/53",
+"words": [
+"zekrom"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 158,
+"PSA 9": 522,
+"PSA 10": 2483
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:67/66:virizion:u",
+"label": "Japanese Red Collection Virizion 067/066",
+"lang": "JP",
+"num": "67/66",
+"words": [
+"virizion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 39,
+"PSA 9": 169,
+"PSA 10": 334
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:68/66:terrakion:u",
+"label": "Japanese Red Collection Terrakion 068/066",
+"lang": "JP",
+"num": "68/66",
+"words": [
+"terrakion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 31,
+"PSA 9": 165,
+"PSA 10": 576
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:69/66:cobalion:u",
+"label": "Japanese Red Collection Cobalion 069/066",
+"lang": "JP",
+"num": "69/66",
+"words": [
+"cobalion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 37,
+"PSA 9": 138,
+"PSA 10": 398
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:70/66:victini:u",
+"label": "Japanese Red Collection Victini 070/066",
+"lang": "JP",
+"num": "70/66",
+"words": [
+"victini"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 172,
+"PSA 9": 1403,
+"PSA 10": 8207
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:71/66:n:u",
+"label": "Japanese Red Collection N 071/066",
+"lang": "JP",
+"num": "71/66",
+"words": [
+"n"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 198,
+"PSA 9": 618,
+"PSA 10": 1082
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:72/66:meowth:u",
+"label": "Japanese Red Collection Meowth 072/066",
+"lang": "JP",
+"num": "72/66",
+"words": [
+"meowth"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 173,
+"PSA 9": 739,
+"PSA 10": 4023
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/52:shaymin:u",
+"label": "Japanese Psycho Drive Shaymin-EX 053/052",
+"lang": "JP",
+"num": "53/52",
+"words": [
+"shaymin"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 47,
+"PSA 9": 299,
+"PSA 10": 1046
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/52:shaymin:1",
+"label": "Japanese Psycho Drive Shaymin-EX 053/052 1st Ed",
+"lang": "JP",
+"num": "53/52",
+"words": [
+"shaymin"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 46,
+"PSA 9": 189,
+"PSA 10": 1139
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/52:kyogre:u",
+"label": "Japanese Psycho Drive Kyogre-EX 054/052",
+"lang": "JP",
+"num": "54/52",
+"words": [
+"kyogre"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 133,
+"PSA 9": 816,
+"PSA 10": 4088
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/52:kyogre:1",
+"label": "Japanese Psycho Drive Kyogre-EX 054/052 1st Ed",
+"lang": "JP",
+"num": "54/52",
+"words": [
+"kyogre"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 80,
+"PSA 9": 818,
+"PSA 10": 3700
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/52:mewtwo:u",
+"label": "Japanese Psycho Drive Mewtwo-EX 055/052",
+"lang": "JP",
+"num": "55/52",
+"words": [
+"mewtwo"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 83,
+"PSA 9": 1139,
+"PSA 10": 6893
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/52:mewtwo:1",
+"label": "Japanese Psycho Drive Mewtwo-EX 055/052 1st Ed",
+"lang": "JP",
+"num": "55/52",
+"words": [
+"mewtwo"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 108,
+"PSA 9": 498,
+"PSA 10": 7115
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:56/52:zoroark:u",
+"label": "Japanese Psycho Drive Zoroark 056/052",
+"lang": "JP",
+"num": "56/52",
+"words": [
+"zoroark"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 175,
+"PSA 9": 243,
+"PSA 10": 2846
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:56/52:zoroark:1",
+"label": "Japanese Psycho Drive Zoroark 056/052 1st Ed",
+"lang": "JP",
+"num": "56/52",
+"words": [
+"zoroark"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 125,
+"PSA 9": 498,
+"PSA 10": 1743
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:57/52:hydreigon:u",
+"label": "Japanese Psycho Drive Hydreigon 057/052",
+"lang": "JP",
+"num": "57/52",
+"words": [
+"hydreigon"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 151,
+"PSA 9": 327,
+"PSA 10": 3524
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:57/52:hydreigon:1",
+"label": "Japanese Psycho Drive Hydreigon 057/052 1st Ed",
+"lang": "JP",
+"num": "57/52",
+"words": [
+"hydreigon"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 112,
+"PSA 9": 481,
+"PSA 10": 1898
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/52:kyurem:u",
+"label": "Japanese Hail Blizzard Kyurem-EX 053/052",
+"lang": "JP",
+"num": "53/52",
+"words": [
+"kyurem"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 51,
+"PSA 9": 123,
+"PSA 10": 1184
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/52:kyurem:1",
+"label": "Japanese Hail Blizzard Kyurem-EX 053/052 1st Ed",
+"lang": "JP",
+"num": "53/52",
+"words": [
+"kyurem"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 39,
+"PSA 9": 218,
+"PSA 10": 1836
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/52:groudon:u",
+"label": "Japanese Hail Blizzard Groudon-EX 054/052",
+"lang": "JP",
+"num": "54/52",
+"words": [
+"groudon"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 137,
+"PSA 9": 1068,
+"PSA 10": 5124
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/52:groudon:1",
+"label": "Japanese Hail Blizzard Groudon-EX 054/052 1st Ed",
+"lang": "JP",
+"num": "54/52",
+"words": [
+"groudon"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 159,
+"PSA 9": 933,
+"PSA 10": 4483
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/52:regigigas:u",
+"label": "Japanese Hail Blizzard Regigigas-EX 055/052",
+"lang": "JP",
+"num": "55/52",
+"words": [
+"regigigas"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 49,
+"PSA 9": 88,
+"PSA 10": 509
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/52:regigigas:1",
+"label": "Japanese Hail Blizzard Regigigas-EX 055/052 1st Ed",
+"lang": "JP",
+"num": "55/52",
+"words": [
+"regigigas"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 61,
+"PSA 9": 174,
+"PSA 10": 1010
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:56/52:emboar:u",
+"label": "Japanese Hail Blizzard Emboar 056/052",
+"lang": "JP",
+"num": "56/52",
+"words": [
+"emboar"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 98,
+"PSA 9": 231,
+"PSA 10": 1850
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:56/52:emboar:1",
+"label": "Japanese Hail Blizzard Emboar 056/052 1st Ed",
+"lang": "JP",
+"num": "56/52",
+"words": [
+"emboar"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 142,
+"PSA 9": 360,
+"PSA 10": 1536
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:57/52:chandelure:u",
+"label": "Japanese Hail Blizzard Chandelure 057/052",
+"lang": "JP",
+"num": "57/52",
+"words": [
+"chandelure"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 213,
+"PSA 9": 188,
+"PSA 10": 3151
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:57/52:chandelure:1",
+"label": "Japanese Hail Blizzard Chandelure 057/052 1st Ed",
+"lang": "JP",
+"num": "57/52",
+"words": [
+"chandelure"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 196,
+"PSA 9": 559,
+"PSA 10": 2071
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:70/69:entei:u",
+"label": "Japanese Dark Rush Entei-EX 070/069",
+"lang": "JP",
+"num": "70/69",
+"words": [
+"entei"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 76,
+"PSA 9": 537,
+"PSA 10": 1658
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:71/69:raikou:u",
+"label": "Japanese Dark Rush Raikou-EX 071/069",
+"lang": "JP",
+"num": "71/69",
+"words": [
+"raikou"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 93,
+"PSA 9": 366,
+"PSA 10": 1570
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:72/69:darkrai:u",
+"label": "Japanese Dark Rush Darkrai-EX 072/069",
+"lang": "JP",
+"num": "72/69",
+"words": [
+"darkrai"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 117,
+"PSA 9": 633,
+"PSA 10": 2026
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:73/69:tornadus:u",
+"label": "Japanese Dark Rush Tornadus-EX 073/069",
+"lang": "JP",
+"num": "73/69",
+"words": [
+"tornadus"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 32,
+"PSA 9": 111,
+"PSA 10": 398
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:74/69:gardevoir:u",
+"label": "Japanese Dark Rush Gardevoir 074/069",
+"lang": "JP",
+"num": "74/69",
+"words": [
+"gardevoir"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 296,
+"PSA 9": 848,
+"PSA 10": 4341
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:75/69:archeops:u",
+"label": "Japanese Dark Rush Archeops 075/069",
+"lang": "JP",
+"num": "75/69",
+"words": [
+"archeops"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 178,
+"PSA 9": 370,
+"PSA 10": 1304
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:76/69:catcher:u",
+"label": "Japanese Dark Rush Pokémon Catcher 076/069",
+"lang": "JP",
+"num": "76/69",
+"words": [
+"catcher"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 94,
+"PSA 9": 58,
+"PSA 10": 961
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:51/50:mew:u",
+"label": "Japanese Dragon Blast Mew-EX 051/050",
+"lang": "JP",
+"num": "51/50",
+"words": [
+"mew"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 232,
+"PSA 9": 1074,
+"PSA 10": 4883
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:51/50:mew:1",
+"label": "Japanese Dragon Blast Mew-EX 051/050 1st Ed",
+"lang": "JP",
+"num": "51/50",
+"words": [
+"mew"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 270,
+"PSA 9": 1841,
+"PSA 10": 7248
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:52/50:terrakion:u",
+"label": "Japanese Dragon Blast Terrakion-EX 052/050",
+"lang": "JP",
+"num": "52/50",
+"words": [
+"terrakion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 45,
+"PSA 9": 162,
+"PSA 10": 598
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:52/50:terrakion:1",
+"label": "Japanese Dragon Blast Terrakion-EX 052/050 1st Ed",
+"lang": "JP",
+"num": "52/50",
+"words": [
+"terrakion"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 33,
+"PSA 9": 142,
+"PSA 10": 569
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/50:giratina:u",
+"label": "Japanese Dragon Blast Giratina-EX 053/050",
+"lang": "JP",
+"num": "53/50",
+"words": [
+"giratina"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 252,
+"PSA 9": 1418,
+"PSA 10": 5877
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/50:giratina:1",
+"label": "Japanese Dragon Blast Giratina-EX 053/050 1st Ed",
+"lang": "JP",
+"num": "53/50",
+"words": [
+"giratina"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 129,
+"PSA 9": 1408,
+"PSA 10": 4127
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/50:reuniclus:u",
+"label": "Japanese Dragon Blast Reuniclus 054/050",
+"lang": "JP",
+"num": "54/50",
+"words": [
+"reuniclus"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 89,
+"PSA 9": 196,
+"PSA 10": 804
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/50:reuniclus:1",
+"label": "Japanese Dragon Blast Reuniclus 054/050 1st Ed",
+"lang": "JP",
+"num": "54/50",
+"words": [
+"reuniclus"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 144,
+"PSA 9": 384,
+"PSA 10": 980
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/50:rayquaza:u",
+"label": "Japanese Dragon Blast Rayquaza 055/050",
+"lang": "JP",
+"num": "55/50",
+"words": [
+"rayquaza"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 607,
+"PSA 9": 1702,
+"PSA 10": 40988
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/50:rayquaza:1",
+"label": "Japanese Dragon Blast Rayquaza 055/050 1st Ed",
+"lang": "JP",
+"num": "55/50",
+"words": [
+"rayquaza"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 630,
+"PSA 9": 3131,
+"PSA 10": 18502
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:51/50:ho-oh:u",
+"label": "Japanese Dragon Blade Ho-Oh-EX 051/050",
+"lang": "JP",
+"num": "51/50",
+"words": [
+"ho-oh"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 121,
+"PSA 9": 854,
+"PSA 10": 2240
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:51/50:ho-oh:1",
+"label": "Japanese Dragon Blade Ho-Oh-EX 051/050 1st Ed",
+"lang": "JP",
+"num": "51/50",
+"words": [
+"ho-oh"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 93,
+"PSA 9": 636,
+"PSA 10": 2170
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:52/50:registeel:u",
+"label": "Japanese Dragon Blade Registeel-EX 052/050",
+"lang": "JP",
+"num": "52/50",
+"words": [
+"registeel"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 71,
+"PSA 9": 248,
+"PSA 10": 645
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:52/50:registeel:1",
+"label": "Japanese Dragon Blade Registeel-EX 052/050 1st Ed",
+"lang": "JP",
+"num": "52/50",
+"words": [
+"registeel"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 46,
+"PSA 9": 168,
+"PSA 10": 726
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/50:rayquaza:u",
+"label": "Japanese Dragon Blade Rayquaza-EX 053/050",
+"lang": "JP",
+"num": "53/50",
+"words": [
+"rayquaza"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 295,
+"PSA 9": 2286,
+"PSA 10": 9350
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/50:rayquaza:1",
+"label": "Japanese Dragon Blade Rayquaza-EX 053/050 1st Ed",
+"lang": "JP",
+"num": "53/50",
+"words": [
+"rayquaza"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 234,
+"PSA 9": 1779,
+"PSA 10": 7541
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/50:serperior:u",
+"label": "Japanese Dragon Blade Serperior 054/050",
+"lang": "JP",
+"num": "54/50",
+"words": [
+"serperior"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 118,
+"PSA 9": 268,
+"PSA 10": 578
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/50:serperior:1",
+"label": "Japanese Dragon Blade Serperior 054/050 1st Ed",
+"lang": "JP",
+"num": "54/50",
+"words": [
+"serperior"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 68,
+"PSA 9": 328,
+"PSA 10": 1987
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/50:krookodile:u",
+"label": "Japanese Dragon Blade Krookodile 055/050",
+"lang": "JP",
+"num": "55/50",
+"words": [
+"krookodile"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 122,
+"PSA 9": 576
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/50:krookodile:1",
+"label": "Japanese Dragon Blade Krookodile 055/050 1st Ed",
+"lang": "JP",
+"num": "55/50",
+"words": [
+"krookodile"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 95,
+"PSA 9": 615,
+"PSA 10": 1490
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:60/59:cresselia:u",
+"label": "Japanese Freeze Bolt Cresselia-EX 060/059",
+"lang": "JP",
+"num": "60/59",
+"words": [
+"cresselia"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 76,
+"PSA 9": 255,
+"PSA 10": 1125
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:60/59:cresselia:1",
+"label": "Japanese Freeze Bolt Cresselia-EX 060/059 1st Ed",
+"lang": "JP",
+"num": "60/59",
+"words": [
+"cresselia"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 71,
+"PSA 9": 146,
+"PSA 10": 1057
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:61/59:landorus:u",
+"label": "Japanese Freeze Bolt Landorus-EX 061/059",
+"lang": "JP",
+"num": "61/59",
+"words": [
+"landorus"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 28,
+"PSA 9": 212,
+"PSA 10": 712
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:61/59:landorus:1",
+"label": "Japanese Freeze Bolt Landorus-EX 061/059 1st Ed",
+"lang": "JP",
+"num": "61/59",
+"words": [
+"landorus"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 44,
+"PSA 9": 175,
+"PSA 10": 569
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:62/59:kyurem#fb:u",
+"label": "Japanese Freeze Bolt Black Kyurem-EX 062/059",
+"lang": "JP",
+"num": "62/59",
+"words": [
+"kyurem"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 107,
+"PSA 9": 854,
+"PSA 10": 3629
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:62/59:kyurem#fb:1",
+"label": "Japanese Freeze Bolt Black Kyurem-EX 062/059 1st Ed",
+"lang": "JP",
+"num": "62/59",
+"words": [
+"kyurem"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 84,
+"PSA 9": 566,
+"PSA 10": 2455
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:63/59:cheren:u",
+"label": "Japanese Freeze Bolt Cheren 063/059",
+"lang": "JP",
+"num": "63/59",
+"words": [
+"cheren"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 65,
+"PSA 9": 222,
+"PSA 10": 326
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:63/59:cheren:1",
+"label": "Japanese Freeze Bolt Cheren 063/059 1st Ed",
+"lang": "JP",
+"num": "63/59",
+"words": [
+"cheren"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 41,
+"PSA 9": 103,
+"PSA 10": 503
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:64/59:golurk:u",
+"label": "Japanese Freeze Bolt Golurk 064/059",
+"lang": "JP",
+"num": "64/59",
+"words": [
+"golurk"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 107,
+"PSA 9": 73,
+"PSA 10": 1668
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:64/59:golurk:1",
+"label": "Japanese Freeze Bolt Golurk 064/059 1st Ed",
+"lang": "JP",
+"num": "64/59",
+"words": [
+"golurk"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 87,
+"PSA 9": 262,
+"PSA 10": 1359
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:65/59:helmet:u",
+"label": "Japanese Freeze Bolt Rocky Helmet 065/059",
+"lang": "JP",
+"num": "65/59",
+"words": [
+"helmet"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 38,
+"PSA 9": 77,
+"PSA 10": 175
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:60/59:celebi:u",
+"label": "Japanese Cold Flare Celebi-EX 060/059",
+"lang": "JP",
+"num": "60/59",
+"words": [
+"celebi"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 69,
+"PSA 9": 381,
+"PSA 10": 2131
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:61/59:keldeo:u",
+"label": "Japanese Cold Flare Keldeo-EX 061/059",
+"lang": "JP",
+"num": "61/59",
+"words": [
+"keldeo"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 70,
+"PSA 9": 149,
+"PSA 10": 890
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:61/59:keldeo:1",
+"label": "Japanese Cold Flare Keldeo-EX 061/059 1st Ed",
+"lang": "JP",
+"num": "61/59",
+"words": [
+"keldeo"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 57,
+"PSA 9": 146,
+"PSA 10": 911
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:63/59:bianca:u",
+"label": "Japanese Cold Flare Bianca 063/059",
+"lang": "JP",
+"num": "63/59",
+"words": [
+"bianca"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 178,
+"PSA 9": 408,
+"PSA 10": 1604
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:63/59:bianca:1",
+"label": "Japanese Cold Flare Bianca 063/059 1st Ed",
+"lang": "JP",
+"num": "63/59",
+"words": [
+"bianca"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 167,
+"PSA 9": 473,
+"PSA 10": 1820
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:64/59:terrakion:u",
+"label": "Japanese Cold Flare Terrakion 064/059",
+"lang": "JP",
+"num": "64/59",
+"words": [
+"terrakion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 46,
+"PSA 9": 165,
+"PSA 10": 1025
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:64/59:terrakion:1",
+"label": "Japanese Cold Flare Terrakion 064/059 1st Ed",
+"lang": "JP",
+"num": "64/59",
+"words": [
+"terrakion"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 62,
+"PSA 9": 463,
+"PSA 10": 1119
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:65/59:altaria:u",
+"label": "Japanese Cold Flare Altaria 065/059",
+"lang": "JP",
+"num": "65/59",
+"words": [
+"altaria"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 165,
+"PSA 9": 286,
+"PSA 10": 3914
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:65/59:altaria:1",
+"label": "Japanese Cold Flare Altaria 065/059 1st Ed",
+"lang": "JP",
+"num": "65/59",
+"words": [
+"altaria"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 130,
+"PSA 9": 783,
+"PSA 10": 2687
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:71/70:victini:u",
+"label": "Japanese Plasma Gale Victini-EX 071/070",
+"lang": "JP",
+"num": "71/70",
+"words": [
+"victini"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 114,
+"PSA 9": 470,
+"PSA 10": 3895
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:71/70:victini:1",
+"label": "Japanese Plasma Gale Victini-EX 071/070 1st Ed",
+"lang": "JP",
+"num": "71/70",
+"words": [
+"victini"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 74,
+"PSA 9": 354,
+"PSA 10": 3736
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:72/70:articuno:u",
+"label": "Japanese Plasma Gale Articuno-EX 072/070",
+"lang": "JP",
+"num": "72/70",
+"words": [
+"articuno"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 164,
+"PSA 9": 480,
+"PSA 10": 4957
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:72/70:articuno:1",
+"label": "Japanese Plasma Gale Articuno-EX 072/070 1st Ed",
+"lang": "JP",
+"num": "72/70",
+"words": [
+"articuno"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 129,
+"PSA 9": 890,
+"PSA 10": 4585
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:73/70:cobalion:u",
+"label": "Japanese Plasma Gale Cobalion-EX 073/070",
+"lang": "JP",
+"num": "73/70",
+"words": [
+"cobalion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 23,
+"PSA 9": 101,
+"PSA 10": 818
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:73/70:cobalion:1",
+"label": "Japanese Plasma Gale Cobalion-EX 073/070 1st Ed",
+"lang": "JP",
+"num": "73/70",
+"words": [
+"cobalion"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 38,
+"PSA 9": 100,
+"PSA 10": 503
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:74/70:lugia:u",
+"label": "Japanese Plasma Gale Lugia-EX 074/070",
+"lang": "JP",
+"num": "74/70",
+"words": [
+"lugia"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 383,
+"PSA 9": 4483,
+"PSA 10": 21083
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:74/70:lugia:1",
+"label": "Japanese Plasma Gale Lugia-EX 074/070 1st Ed",
+"lang": "JP",
+"num": "74/70",
+"words": [
+"lugia"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 364,
+"PSA 9": 3060,
+"PSA 10": 16875
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:75/70:colress:u",
+"label": "Japanese Plasma Gale Colress 075/070",
+"lang": "JP",
+"num": "75/70",
+"words": [
+"colress"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 63,
+"PSA 9": 182,
+"PSA 10": 478
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:75/70:colress:1",
+"label": "Japanese Plasma Gale Colress 075/070 1st Ed",
+"lang": "JP",
+"num": "75/70",
+"words": [
+"colress"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 93,
+"PSA 9": 130,
+"PSA 10": 720
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:76/70:skyla:u",
+"label": "Japanese Plasma Gale Skyla 076/070",
+"lang": "JP",
+"num": "76/70",
+"words": [
+"skyla"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 321,
+"PSA 9": 556,
+"PSA 10": 2472
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:76/70:skyla:1",
+"label": "Japanese Plasma Gale Skyla 076/070 1st Ed",
+"lang": "JP",
+"num": "76/70",
+"words": [
+"skyla"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 182,
+"PSA 9": 959,
+"PSA 10": 2670
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:77/70:charizard:u",
+"label": "Japanese Plasma Gale Charizard 077/070",
+"lang": "JP",
+"num": "77/70",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 789,
+"PSA 9": 3327,
+"PSA 10": 23107
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:77/70:charizard:1",
+"label": "Japanese Plasma Gale Charizard 077/070 1st Ed",
+"lang": "JP",
+"num": "77/70",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 995,
+"PSA 9": 4976,
+"PSA 10": 22195
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:78/70:blastoise:u",
+"label": "Japanese Plasma Gale Blastoise 078/070",
+"lang": "JP",
+"num": "78/70",
+"words": [
+"blastoise"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 308,
+"PSA 9": 1262,
+"PSA 10": 3961
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:78/70:blastoise:1",
+"label": "Japanese Plasma Gale Blastoise 078/070 1st Ed",
+"lang": "JP",
+"num": "78/70",
+"words": [
+"blastoise"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 228,
+"PSA 9": 1283,
+"PSA 10": 3595
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:52/51:heatran:u",
+"label": "Japanese Spiral Force Heatran-EX 052/051",
+"lang": "JP",
+"num": "52/51",
+"words": [
+"heatran"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 69,
+"PSA 9": 231,
+"PSA 10": 2135
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/51:deoxys:u",
+"label": "Japanese Spiral Force Deoxys-EX 053/051",
+"lang": "JP",
+"num": "53/51",
+"words": [
+"deoxys"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 169,
+"PSA 9": 843,
+"PSA 10": 6159
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/51:latios:u",
+"label": "Japanese Spiral Force Latios-EX 054/051",
+"lang": "JP",
+"num": "54/51",
+"words": [
+"latios"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 112,
+"PSA 9": 694,
+"PSA 10": 5266
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/51:ghetsis:u",
+"label": "Japanese Spiral Force Ghetsis 055/051",
+"lang": "JP",
+"num": "55/51",
+"words": [
+"ghetsis"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 71,
+"PSA 9": 243,
+"PSA 10": 713
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:56/51:empoleon:u",
+"label": "Japanese Spiral Force Empoleon 056/051",
+"lang": "JP",
+"num": "56/51",
+"words": [
+"empoleon"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 278,
+"PSA 9": 1028,
+"PSA 10": 2112
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:57/51:sigilyph:u",
+"label": "Japanese Spiral Force Sigilyph 057/051",
+"lang": "JP",
+"num": "57/51",
+"words": [
+"sigilyph"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 103,
+"PSA 9": 284,
+"PSA 10": 1124
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:58/51:ultra ball:u",
+"label": "Japanese Spiral Force Ultra Ball 058/051",
+"lang": "JP",
+"num": "58/51",
+"words": [
+"ultra",
+"ball"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 181,
+"PSA 9": 391
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:52/51:thundurus:u",
+"label": "Japanese Thunder Knuckle Thundurus-EX 052/051",
+"lang": "JP",
+"num": "52/51",
+"words": [
+"thundurus"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 96,
+"PSA 9": 275,
+"PSA 10": 1601
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:52/51:thundurus:1",
+"label": "Japanese Thunder Knuckle Thundurus-EX 052/051 1st Ed",
+"lang": "JP",
+"num": "52/51",
+"words": [
+"thundurus"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 73,
+"PSA 9": 97,
+"PSA 10": 1970
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/51:latias:u",
+"label": "Japanese Thunder Knuckle Latias-EX 053/051",
+"lang": "JP",
+"num": "53/51",
+"words": [
+"latias"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 173,
+"PSA 9": 890,
+"PSA 10": 3380
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:53/51:latias:1",
+"label": "Japanese Thunder Knuckle Latias-EX 053/051 1st Ed",
+"lang": "JP",
+"num": "53/51",
+"words": [
+"latias"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 164,
+"PSA 9": 1050,
+"PSA 10": 3698
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/51:tornadus:u",
+"label": "Japanese Thunder Knuckle Tornadus-EX 054/051",
+"lang": "JP",
+"num": "54/51",
+"words": [
+"tornadus"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 50,
+"PSA 9": 260,
+"PSA 10": 1761
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:54/51:tornadus:1",
+"label": "Japanese Thunder Knuckle Tornadus-EX 054/051 1st Ed",
+"lang": "JP",
+"num": "54/51",
+"words": [
+"tornadus"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 57,
+"PSA 9": 267,
+"PSA 10": 1240
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/51:juniper:u",
+"label": "Japanese Thunder Knuckle Professor Juniper 055/051",
+"lang": "JP",
+"num": "55/51",
+"words": [
+"juniper"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 129,
+"PSA 9": 326,
+"PSA 10": 925
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:55/51:juniper:1",
+"label": "Japanese Thunder Knuckle Professor Juniper 055/051 1st Ed",
+"lang": "JP",
+"num": "55/51",
+"words": [
+"juniper"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 210,
+"PSA 9": 281,
+"PSA 10": 682
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:56/51:garbodor:u",
+"label": "Japanese Thunder Knuckle Garbodor 056/051",
+"lang": "JP",
+"num": "56/51",
+"words": [
+"garbodor"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 394,
+"PSA 9": 383,
+"PSA 10": 1262
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:56/51:garbodor:1",
+"label": "Japanese Thunder Knuckle Garbodor 056/051 1st Ed",
+"lang": "JP",
+"num": "56/51",
+"words": [
+"garbodor"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 213,
+"PSA 9": 424,
+"PSA 10": 1670
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:57/51:garchomp:u",
+"label": "Japanese Thunder Knuckle Garchomp 057/051",
+"lang": "JP",
+"num": "57/51",
+"words": [
+"garchomp"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 405,
+"PSA 9": 2081,
+"PSA 10": 5714
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:57/51:garchomp:1",
+"label": "Japanese Thunder Knuckle Garchomp 057/051 1st Ed",
+"lang": "JP",
+"num": "57/51",
+"words": [
+"garchomp"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 299,
+"PSA 9": 1294,
+"PSA 10": 9653
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:58/51:potion:u",
+"label": "Japanese Thunder Knuckle Max Potion 058/051",
+"lang": "JP",
+"num": "58/51",
+"words": [
+"potion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 19,
+"PSA 9": 261,
+"PSA 10": 1921
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:77/76:virizion:u",
+"label": "Japanese Megalo Cannon Virizion-EX 077/076",
+"lang": "JP",
+"num": "77/76",
+"words": [
+"virizion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 47,
+"PSA 9": 223,
+"PSA 10": 830
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:77/76:virizion:1",
+"label": "Japanese Megalo Cannon Virizion-EX 077/076 1st Ed",
+"lang": "JP",
+"num": "77/76",
+"words": [
+"virizion"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 12,
+"PSA 9": 127,
+"PSA 10": 487
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:78/76:genesect:u",
+"label": "Japanese Megalo Cannon Genesect-EX 078/076",
+"lang": "JP",
+"num": "78/76",
+"words": [
+"genesect"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 109,
+"PSA 9": 558,
+"PSA 10": 3113
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:78/76:genesect:1",
+"label": "Japanese Megalo Cannon Genesect-EX 078/076 1st Ed",
+"lang": "JP",
+"num": "78/76",
+"words": [
+"genesect"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 64,
+"PSA 9": 453,
+"PSA 10": 1948
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:79/76:jirachi:u",
+"label": "Japanese Megalo Cannon Jirachi-EX 079/076",
+"lang": "JP",
+"num": "79/76",
+"words": [
+"jirachi"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 79,
+"PSA 9": 470,
+"PSA 10": 2135
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:79/76:jirachi:1",
+"label": "Japanese Megalo Cannon Jirachi-EX 079/076 1st Ed",
+"lang": "JP",
+"num": "79/76",
+"words": [
+"jirachi"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 108,
+"PSA 9": 505,
+"PSA 10": 2192
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:80/76:dialga:u",
+"label": "Japanese Megalo Cannon Dialga-EX 080/076",
+"lang": "JP",
+"num": "80/76",
+"words": [
+"dialga"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 182,
+"PSA 9": 1494,
+"PSA 10": 6261
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:80/76:dialga:1",
+"label": "Japanese Megalo Cannon Dialga-EX 080/076 1st Ed",
+"lang": "JP",
+"num": "80/76",
+"words": [
+"dialga"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 295,
+"PSA 9": 1166,
+"PSA 10": 4775
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:81/76:palkia:u",
+"label": "Japanese Megalo Cannon Palkia-EX 081/076",
+"lang": "JP",
+"num": "81/76",
+"words": [
+"palkia"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 132,
+"PSA 9": 962,
+"PSA 10": 4703
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:81/76:palkia:1",
+"label": "Japanese Megalo Cannon Palkia-EX 081/076 1st Ed",
+"lang": "JP",
+"num": "81/76",
+"words": [
+"palkia"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 133,
+"PSA 9": 570,
+"PSA 10": 3817
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:82/76:iris:u",
+"label": "Japanese Megalo Cannon Iris 082/076",
+"lang": "JP",
+"num": "82/76",
+"words": [
+"iris"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 241,
+"PSA 9": 1067,
+"PSA 10": 2635
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:82/76:iris:1",
+"label": "Japanese Megalo Cannon Iris 082/076 1st Ed",
+"lang": "JP",
+"num": "82/76",
+"words": [
+"iris"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 347,
+"PSA 9": 455,
+"PSA 10": 3794
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:83/76:exeggcute:u",
+"label": "Japanese Megalo Cannon Exeggcute 083/076",
+"lang": "JP",
+"num": "83/76",
+"words": [
+"exeggcute"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 226,
+"PSA 9": 332,
+"PSA 10": 1748
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:83/76:exeggcute:1",
+"label": "Japanese Megalo Cannon Exeggcute 083/076 1st Ed",
+"lang": "JP",
+"num": "83/76",
+"words": [
+"exeggcute"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 425,
+"PSA 9": 2593
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:84/76:virizion:u",
+"label": "Japanese Megalo Cannon Virizion 084/076",
+"lang": "JP",
+"num": "84/76",
+"words": [
+"virizion"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 94,
+"PSA 9": 376,
+"PSA 10": 820
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:84/76:virizion:1",
+"label": "Japanese Megalo Cannon Virizion 084/076 1st Ed",
+"lang": "JP",
+"num": "84/76",
+"words": [
+"virizion"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 43,
+"PSA 9": 408,
+"PSA 10": 1459
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:85/76:dusknoir:u",
+"label": "Japanese Megalo Cannon Dusknoir 085/076",
+"lang": "JP",
+"num": "85/76",
+"words": [
+"dusknoir"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 111,
+"PSA 9": 465,
+"PSA 10": 996
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:85/76:dusknoir:1",
+"label": "Japanese Megalo Cannon Dusknoir 085/076 1st Ed",
+"lang": "JP",
+"num": "85/76",
+"words": [
+"dusknoir"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 109,
+"PSA 9": 463,
+"PSA 10": 1780
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:86/76:candy:1",
+"label": "Japanese Megalo Cannon Rare Candy 086/076 1st Ed",
+"lang": "JP",
+"num": "86/76",
+"words": [
+"candy"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 178,
+"PSA 9": 598
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:21/20:shaymin:1",
+"label": "Japanese Shiny Collection Shaymin-EX 021/020 1st Ed",
+"lang": "JP",
+"num": "21/20",
+"words": [
+"shaymin"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 68,
+"PSA 9": 233,
+"PSA 10": 1139
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:22/20:reshiram:1",
+"label": "Japanese Shiny Collection Reshiram 022/020 1st Ed",
+"lang": "JP",
+"num": "22/20",
+"words": [
+"reshiram"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 203,
+"PSA 9": 1247,
+"PSA 10": 4459
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:23/20:emolga:1",
+"label": "Japanese Shiny Collection Emolga 023/020 1st Ed",
+"lang": "JP",
+"num": "23/20",
+"words": [
+"emolga"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 119,
+"PSA 9": 420,
+"PSA 10": 1717
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:24/20:mew:1",
+"label": "Japanese Shiny Collection Mew-EX 024/020 1st Ed",
+"lang": "JP",
+"num": "24/20",
+"words": [
+"mew"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 355,
+"PSA 9": 1341,
+"PSA 10": 8745
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:25/20:meloetta:1",
+"label": "Japanese Shiny Collection Meloetta-EX 025/020 1st Ed",
+"lang": "JP",
+"num": "25/20",
+"words": [
+"meloetta"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 60,
+"PSA 9": 107,
+"PSA 10": 917
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:94/93:reshiram:u",
+"label": "Japanese EX Battle Boost Reshiram 094/093",
+"lang": "JP",
+"num": "94/93",
+"words": [
+"reshiram"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 325,
+"PSA 9": 966,
+"PSA 10": 4736
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:94/93:reshiram:1",
+"label": "Japanese EX Battle Boost Reshiram 094/093 1st Ed",
+"lang": "JP",
+"num": "94/93",
+"words": [
+"reshiram"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 172,
+"PSA 9": 876,
+"PSA 10": 5264
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:95/93:zekrom:u",
+"label": "Japanese EX Battle Boost Zekrom 095/093",
+"lang": "JP",
+"num": "95/93",
+"words": [
+"zekrom"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 175,
+"PSA 9": 1078,
+"PSA 10": 4325
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:95/93:zekrom:1",
+"label": "Japanese EX Battle Boost Zekrom 095/093 1st Ed",
+"lang": "JP",
+"num": "95/93",
+"words": [
+"zekrom"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 230,
+"PSA 9": 939,
+"PSA 10": 5364
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:96/93:imakuni:u",
+"label": "Japanese EX Battle Boost Imakuni? 096/093",
+"lang": "JP",
+"num": "96/93",
+"words": [
+"imakuni"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 22,
+"PSA 9": 191,
+"PSA 10": 1714
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:97/93:enterprise:u",
+"label": "Japanese EX Battle Boost Pokémon Enterprise 097/093",
+"lang": "JP",
+"num": "97/93",
+"words": [
+"enterprise"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 44,
+"PSA 9": 142,
+"PSA 10": 241
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:97/93:enterprise:1",
+"label": "Japanese EX Battle Boost Pokémon Enterprise 097/093 1st Ed",
+"lang": "JP",
+"num": "97/93",
+"words": [
+"enterprise"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 34,
+"PSA 9": 157,
+"PSA 10": 764
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:98/93:enterprise:u",
+"label": "Japanese EX Battle Boost Pokémon Enterprise 098/093",
+"lang": "JP",
+"num": "98/93",
+"words": [
+"enterprise"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 61,
+"PSA 9": 214,
+"PSA 10": 484
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:99/93:enterprise:u",
+"label": "Japanese EX Battle Boost Pokémon Enterprise 099/093",
+"lang": "JP",
+"num": "99/93",
+"words": [
+"enterprise"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 48,
+"PSA 9": 122,
+"PSA 10": 245
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "jp:99/93:enterprise:1",
+"label": "Japanese EX Battle Boost Pokémon Enterprise 099/093 1st Ed",
+"lang": "JP",
+"num": "99/93",
+"words": [
+"enterprise"
+],
+"keys": [],
+"first": true,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 46,
+"PSA 9": 213,
+"PSA 10": 481
+},
+"src": "PriceCharting 13 Nov 2026"
+},
+{
+"id": "chat:mew044rev",
+"label": "Japanese Best of XY Mew 044/171 mirror",
+"lang": "JP",
+"num": "44/171",
+"words": [
+"mew"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": true,
+"g": {
+"PSA 9": 427,
+"PSA 10": 712
+},
+"src": "PriceCharting sold, 13 Nov 2026"
+},
+{
+"id": "chat:mew044",
+"label": "Japanese Best of XY Mew 044/171",
+"lang": "JP",
+"num": "44/171",
+"words": [
+"mew"
+],
+"keys": [],
+"first": false,
+"sl": false,
+"rev": false,
+"g": {
+"Raw": 11,
+"PSA 9": 57,
+"PSA 10": 107
+},
+"src": "PriceCharting sold, 13 Nov 2026"
+}
+]
+}

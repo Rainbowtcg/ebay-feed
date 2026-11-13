@@ -1,11 +1,14 @@
-# Vintage Slab Finder feed searches (rewritten 28 Oct 2026).
+# Vintage Slab Finder feed searches (rewritten 28 Oct 2026; tidied into categories 13 Nov 2026).
 # One search per line; each runs once per country listed in ebay_search.py.
 # Lines starting with "+" are want-list searches: modern (2018+) cards are kept for them.
 # Every result still has to have a grade (PSA/CGC/BGS 9-10) or NM/mint in its title to be kept.
 # eBay returns at most 200 results per search, so busy sets are split by grade.
 # (a,b) means a OR b; -word drops titles with that word.
+# "# ---------- Name ----------" lines are the categories the finder and the daily summary group cards by.
+# A listing is filed under every category whose searches fit its title, not just the search that found it.
+# Keep the "BW / Plasma-era secret rares" heading as it is: the NM alert reads it.
 
-# ---------- e-Card era (focus) ----------
+# ---------- e-Card era ----------
 pokemon expedition holo psa 9
 pokemon expedition holo psa 10
 pokemon expedition (cgc,bgs) holo
@@ -24,7 +27,7 @@ pokemon japanese (e-series,"e series",e-card) 1st edition psa
 pokemon japanese ("split earth","mysterious mountains","wind from the sea","town on no map","base expansion pack") holo
 pokemon japanese crystal holo (psa,cgc) 1st edition
 
-# ---------- EX era (focus) ----------
+# ---------- EX era ----------
 pokemon ex ruby sapphire holo psa
 pokemon ex sandstorm holo psa
 pokemon ex dragon holo psa
@@ -56,7 +59,7 @@ pokemon japanese pcg 1st edition holo psa
 pokemon japanese pcg gold star
 pokemon japanese ("holon research tower","holon phantom","miracle crystal","offense and defense","golden sky","clash of the blue sky","rocket gang strikes back") psa
 pokemon japanese adv 1st edition holo psa
-# Want-list chase cards from these eras
+# ---------- EX era chase cards ----------
 pokemon dragonite ex dragon frontiers
 pokemon tyranitar ex dragon frontiers
 pokemon charizard delta crystal guardians
@@ -64,7 +67,7 @@ pokemon charizard ex firered leafgreen
 pokemon celebi ex unseen forces
 pokemon mew ex holon phantoms
 
-# ---------- Diamond & Pearl / Platinum (want: Lv.X, GL) ----------
+# ---------- DP & Platinum (Lv.X, GL) ----------
 +pokemon lv.x holo psa
 +pokemon lv.x holo near mint
 +pokemon japanese lv.x 1st edition psa
@@ -72,7 +75,7 @@ pokemon raichu lv.x stormfront
 pokemon gl holo (rising rivals,supreme victors,platinum) psa
 pokemon japanese gl 1st edition psa
 
-# ---------- HeartGold SoulSilver (want: era, Prime) ----------
+# ---------- HGSS & Prime ----------
 +pokemon heartgold soulsilver holo psa
 pokemon prime holo psa (heartgold,soulsilver,unleashed,undaunted,triumphant,"call of legends") -primeape
 pokemon prime holo near mint (unleashed,undaunted,triumphant) -primeape
@@ -84,7 +87,7 @@ pokemon (feraligatr,typhlosion,meganium) prime heartgold
 pokemon call of legends shiny holo psa
 +pokemon japanese (l1,l2,l3,"heartgold collection","soulsilver collection","reviving legends","clash at the summit") 1st edition holo psa
 
-# ---------- XY Generations (focus) ----------
+# ---------- XY Generations ----------
 pokemon generations radiant collection psa 9
 pokemon generations radiant collection psa 10
 pokemon generations radiant collection near mint
@@ -92,7 +95,7 @@ pokemon generations charizard ex psa
 pokemon generations (m charizard,sylveon,gardevoir,pikachu,flareon) ex psa
 pokemon generations holo ex near mint
 
-# ---------- Other want-list lines ----------
+# ---------- Celebi / Prism Star / promos ----------
 +pokemon celebi holo psa
 +pokemon celebi holo near mint
 +pokemon celebi (cgc,bgs) holo
@@ -106,7 +109,7 @@ pokemon generations holo ex near mint
 pokemon wotc black star promo psa
 pokemon japanese promo psa 10 (1998,1999,2000,2001)
 
-# ---------- WOTC classics ----------
+# ---------- WotC classics ----------
 pokemon base set holo psa
 pokemon base set holo near mint
 pokemon shadowless holo
@@ -133,7 +136,7 @@ pokemon japanese rocket gang psa
 pokemon japanese vending psa
 pokemon japanese holo near mint 1996
 
-# ---------- Misspellings (hidden from most buyers) ----------
+# ---------- Misspellings ----------
 charzard holo
 charizzard holo
 blastiose holo
@@ -143,12 +146,14 @@ pokemom holo psa
 pokemon expidition holo
 pokemon aquapolice holo
 pokemon sky ridge holo
-# ---------- Want-list additions, Nov 2026 ----------
+# ---------- Undaunted reverse & Scyther ----------
 +pokemon undaunted reverse holo psa
 +pokemon undaunted reverse holo near mint
 +pokemon undaunted reverse (cgc,bgs)
 +pokemon scyther 36/90
 +pokemon scyther undaunted (holo,reverse)
+
+# ---------- Want list: other ----------
 +togetic swsh276
 +lapras swsh051
 pokemon pidgeot 10/112
@@ -160,6 +165,8 @@ pokemon pidgeot "flight of legends"
 pokemon latias ex plasma freeze full art
 +sceptile ex 84/98
 pokemon sceptile ex ancient origins full art
+
+# ---------- DP & Platinum (Lv.X, GL) ----------
 pokemon dpbp psa
 pokemon dpbp near mint
 pokemon japanese dpbp holo
@@ -167,14 +174,18 @@ pokemon japanese ("space-time creation","secret of the lakes","shining darkness"
 pokemon japanese ("moonlit pursuit","dawn dash","cry from the mysterious","temple of anger") holo psa
 pokemon japanese "intense fight in the destroyed sky" holo psa
 pokemon japanese (dp1,dp2,dp3,dp4,dp5,dp6) near mint
+
+# ---------- XY Evolutions ----------
 +pokemon xy evolutions holo psa -prismatic
 +pokemon xy evolutions near mint -prismatic
 
-# ---------- Era additions ----------
+# ---------- Shining / Legend / POP ----------
 pokemon legend (top,bottom) (unleashed,undaunted,triumphant,"call of legends")
 pokemon shining (neo,revelation,destiny) psa
 pokemon shining (neo,revelation,destiny) near mint
 pokemon "pop series" holo psa
+
+# ---------- BW & XY era ----------
 pokemon ("next destinies","dark explorers","dragons exalted","boundaries crossed") full art
 pokemon ("plasma storm","plasma freeze","plasma blast","legendary treasures") full art
 pokemon ("phantom forces","primal clash","roaring skies",breakthrough,breakpoint) full art
@@ -187,7 +198,7 @@ pokemon japanese (bw,"black white","black collection","white collection") (ur,"g
 pokemon japanese (xy1,xy2,xy3,xy4,xy5,xy6,xy7,xy8,xy9,xy10,xy11) sr 1st edition psa
 pokemon japanese (vs,web) 1st edition psa
 
-# ---------- Want-list cards, Japan and Australia ----------
+# ---------- Primes & chase cards ----------
 +pokemon undaunted reverse holo
 +pokemon raichu prime undaunted
 +pokemon scizor prime undaunted
@@ -216,7 +227,7 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon sceptile ex ancient origins
 +pokemon japanese sceptile ex sr
 
-# ---------- Under-watched cards ----------
+# ---------- Under-watched ----------
 +pokemon neo discovery (smeargle,wobbuffet) holo
 +pokemon neo discovery (scizor,hitmontop) holo
 +pokemon neo discovery unown a holo
@@ -230,10 +241,11 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon ex (delta species,holon phantoms,dragon frontiers) reverse holo
 +pokemon ex (legend maker,unseen forces,crystal guardians) reverse holo
 
-# ---------- Promo codes by era, English and Japanese (want list, 6 Nov 2026) ----------
+# ---------- Promos: WotC & Japanese vintage ----------
 +pokemon wotc black star promo
 +pokemon japanese promo (1997,1998,1999,2000,2001,2002)
 +pokemon nintendo black star promo
+# ---------- Promos: EX / DP / HGSS ----------
 +pokemon (pcg-p,"pcg/p")
 +pokemon (adv-p,"adv/p")
 +pokemon diamond pearl black star promo
@@ -241,10 +253,12 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon (dpt-p,"dpt/p")
 +pokemon hgss black star promo
 +pokemon l-p promo
+# ---------- Promos: BW & XY ----------
 +pokemon black white black star promo
 +pokemon (bw-p,"bw/p")
 +pokemon xy black star promo
 +pokemon (xy-p,"xy/p")
+# ---------- Promos: SM / SWSH / SV / Mega ----------
 +pokemon sm black star promo
 +pokemon (sm-p,"sm/p")
 +pokemon swsh black star promo
@@ -254,12 +268,14 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon mep black star promo
 +pokemon m-p promo
 
-# ---------- Want list (added 8 Nov 2026) ----------
+# ---------- Movie & event promos ----------
 +pokemon japanese 10th movie (promo,commemoration)
 +pokemon japanese 11th movie (promo,commemoration)
 +pokemon umbreon 115/bw-p
 +pokemon phanpy 009/l-p
 +pokemon victini (234/bw-p,"234/bw","mewtwo vs genesect")
+
+# ---------- Want list: other ----------
 +pokemon raichu ("entry pack","lv.37","lv 37","lv37") japanese
 +pokemon raichu japanese holo (2007,2008) dp -dpbp
 +ライチュウ エントリーパック
@@ -268,7 +284,7 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon zapdos ex (011/play,"11/play","players club","player's club","play promo")
 +pokemon japanese ("players club","player's club","play promo","play promos")
 
-# ---------- CoroCoro Mew (every spelling) ----------
+# ---------- Mew ----------
 +pokemon mew (corocoro,"coro coro","coro-coro",korokoro,"koro koro",corocorro,corrocorro,korocoro) -mewtwo
 +mew (corocoro,"coro coro",korokoro,"koro koro") promo -mewtwo
 +pokemon mew ("corocoro comic","coro coro comic","corocoro ichiban","coro coro ichiban","comic promo","magazine promo") -mewtwo
@@ -280,29 +296,37 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon "shining mew" (corocoro,"coro coro",promo,151,japanese)
 +ひかるミュウ
 
-# ---------- Want list (added 9 Nov 2026) ----------
+# ---------- Want list: other ----------
 +pokemon eevee (bw94,"bw 94")
 +pokemon porygon2 085/106
 
-# ---------- Want list (added 10 Nov 2026) ----------
+# ---------- Want list: other ----------
 +pokemon charizard ex (xy121,"xy 121")
+
+# ---------- Southern Islands ----------
 +pokemon southern islands (holo,promo,psa,cgc)
 +pokemon japanese (southern island,southern islands) promo
 +pokemon mew (southern island,southern islands,"r.i.","no.151") -mewtwo
 +pokemon japanese (r.i.,"rainbow island","tropical island") promo 1999
 +南の島 ポケモンカード
+
+# ---------- Movie & event promos ----------
 +pokemon japanese ("striking back mewtwo",逆襲のミュウツー) (10th,movie,promo)
+
+# ---------- Want list: other ----------
 +pokemon korean (ditto,metamong) promo
 +메타몽 (프로모,promo) 포켓몬
 
-# ---------- Want list (added 11 Nov 2026) ----------
+# ---------- Want list: other ----------
 +pokemon bellossom (3/111,"neo genesis") (psa,cgc,bgs)
 +pokemon japanese (bellossom,キレイハナ) neo (psa,cgc,bgs)
 +pokemon rainbow energy (rocket,17/82) (psa,cgc,bgs)
 +pokemon japanese (rainbow energy,レインボーエネルギー) rocket
 +pokemon team rocket's zapdos (070/182,"eb games") (psa,cgc,bgs)
+
+# ---------- Mew ----------
 +pokemon japanese mew (dpbp,"shining darkness",182)
-# ---------- Mew want list (added 11 Nov 2026) ----------
+# ---------- Mew ----------
 +pokemon mew ("black star",wotc) promo (8,9)
 +pokemon japanese mew (016/036,017/036,cp5,"dream shine")
 +pokemon japanese mew (051/087,"20th anniversary")
@@ -316,7 +340,7 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon mew (15/132,"secret wonders")
 +pokemon mew sm215
 +pokemon japanese mew ex (014/025,"25th anniversary")
-# ---------- Mega Cash want list (added 11 Nov 2026) ----------
+# ---------- Mega Cash list ----------
 +pokemon kyogre ex 148/160
 +pokemon japanese venusaur ex 004/052
 +pokemon terrakion (064/059,"cold flare") -ex
