@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T15:38+00:00",
+ "generated": "2026-11-13T15:48+00:00",
  "usd_aud": 1.4683,
  "rate_source": "open.er-api.com",
  "source": "PriceCharting sold-price averages (Ungraded, Grade 7, 8, 9, 9.5, PSA 10)",
@@ -220,7 +220,7 @@
    {
     "label": "FireRed LeafGreen Charizard ex 105/112",
     "matched": "Charizard EX #105   Pokemon Fire Red & Leaf Green",
-    "url": "https://www.pricecharting.com/game/pokemon-fire-red-&-leaf-green/charizard-ex-105?q=charizard+ex+105",
+    "url": "https://www.pricecharting.com/game/pokemon-fire-red-&-leaf-green/charizard-ex-105",
     "usd": {
      "raw": 610.43,
      "g7": 2153.3,
@@ -624,7 +624,24 @@
    },
    {
     "label": "HeartGold SoulSilver Typhlosion Prime 110/123",
-    "error": "no PriceCharting card matched the name/number (top result was /game/pokemon-heartgold-&amp;-soulsilver/typhlosion-prime-110)"
+    "matched": "Typhlosion Prime #110   Pokemon HeartGold & SoulSilver",
+    "url": "https://www.pricecharting.com/game/pokemon-heartgold-&-soulsilver/typhlosion-prime-110?q=typhlosion+prime+heartgold+soulsilver+110",
+    "usd": {
+     "raw": 65.04,
+     "g7": 168.0,
+     "g8": 210.5,
+     "g9": 1100.0,
+     "g95": 1210.0,
+     "g10": 1877.68
+    },
+    "aud": {
+     "raw": 95,
+     "g7": 247,
+     "g8": 309,
+     "g9": 1615,
+     "g95": 1777,
+     "g10": 2757
+    }
    }
   ],
   "XY Generations": [
@@ -1039,7 +1056,24 @@
   "Want list: other": [
    {
     "label": "FireRed LeafGreen Pidgeot 10/112",
-    "error": "page had no prices"
+    "matched": "Pidgeot #10   Pokemon Fire Red & Leaf Green",
+    "url": "https://www.pricecharting.com/game/pokemon-fire-red-&-leaf-green/pidgeot-10",
+    "usd": {
+     "raw": 17.1,
+     "g7": 45.0,
+     "g8": 102.51,
+     "g9": 165.82,
+     "g95": 182.0,
+     "g10": 5138.64
+    },
+    "aud": {
+     "raw": 25,
+     "g7": 66,
+     "g8": 151,
+     "g9": 243,
+     "g95": 267,
+     "g10": 7545
+    }
    },
    {
     "label": "Plasma Freeze Latias EX 112/116",
@@ -1335,19 +1369,19 @@
     "matched": "Kingdra #85   Pokemon Unleashed",
     "url": "https://www.pricecharting.com/game/pokemon-unleashed/kingdra-85",
     "usd": {
-     "raw": 76.49,
-     "g7": 248.0,
-     "g8": 309.4,
-     "g9": 827.28,
-     "g95": 910.0,
+     "raw": 89.7,
+     "g7": 235.0,
+     "g8": 293.75,
+     "g9": 814.89,
+     "g95": 896.0,
      "g10": 6300.0
     },
     "aud": {
-     "raw": 112,
-     "g7": 364,
-     "g8": 454,
-     "g9": 1215,
-     "g95": 1336,
+     "raw": 132,
+     "g7": 345,
+     "g8": 431,
+     "g9": 1197,
+     "g95": 1316,
      "g10": 9250
     }
    },
@@ -1571,15 +1605,66 @@
   "Promos: BW & XY": [
    {
     "label": "Umbreon 115/BW-P",
-    "error": "no PriceCharting card matched the name/number (top result was /game/pokemon-japanese-promo/umbreon-115bw-p)"
+    "matched": "Umbreon #115/BW-P   Pokemon Japanese Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-promo/umbreon-115bw-p?q=umbreon+115%2Fbw-p",
+    "usd": {
+     "raw": 51.39,
+     "g7": 73.0,
+     "g8": 90.84,
+     "g9": 205.61,
+     "g95": 480.0,
+     "g10": 839.09
+    },
+    "aud": {
+     "raw": 75,
+     "g7": 107,
+     "g8": 133,
+     "g9": 302,
+     "g95": 705,
+     "g10": 1232
+    }
    },
    {
     "label": "Rayquaza 144/BW-P",
-    "error": "no PriceCharting card matched the name/number (top result was /game/pokemon-japanese-promo/rayquaza-144bw-p)"
+    "matched": "Rayquaza #144/BW-P   Pokemon Japanese Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-promo/rayquaza-144bw-p?q=rayquaza+144%2Fbw-p",
+    "usd": {
+     "raw": 119.57,
+     "g7": 168.94,
+     "g8": 256.76,
+     "g9": 460.63,
+     "g95": 1030.91,
+     "g10": 1037.5
+    },
+    "aud": {
+     "raw": 176,
+     "g7": 248,
+     "g8": 377,
+     "g9": 676,
+     "g95": 1514,
+     "g10": 1523
+    }
    },
    {
     "label": "Reshiram EX 158/BW-P",
-    "error": "no PriceCharting card matched the name/number (top result was /game/pokemon-japanese-promo/reshiram-ex-158bw-p)"
+    "matched": "Reshiram EX #158/BW-P   Pokemon Japanese Promo",
+    "url": "https://www.pricecharting.com/game/pokemon-japanese-promo/reshiram-ex-158bw-p?q=reshiram+ex+158%2Fbw-p",
+    "usd": {
+     "raw": 65.0,
+     "g7": 89.0,
+     "g8": 287.0,
+     "g9": 512.21,
+     "g95": 563.0,
+     "g10": 2851.25
+    },
+    "aud": {
+     "raw": 95,
+     "g7": 131,
+     "g8": 421,
+     "g9": 752,
+     "g95": 827,
+     "g10": 4186
+    }
    },
    {
     "label": "Charizard EX XY121",
@@ -1822,24 +1907,7 @@
    },
    {
     "label": "Southern Islands Lugia",
-    "matched": "Shining Lugia #SM82   Pokemon Promo",
-    "url": "https://www.pricecharting.com/game/pokemon-promo/shining-lugia-sm82",
-    "usd": {
-     "raw": 100.0,
-     "g7": 106.47,
-     "g8": 163.56,
-     "g9": 340.0,
-     "g95": 804.75,
-     "g10": 4156.25
-    },
-    "aud": {
-     "raw": 147,
-     "g7": 156,
-     "g8": 240,
-     "g9": 499,
-     "g95": 1182,
-     "g10": 6103
-    }
+    "error": "no PriceCharting card matched the name/number (top result was /game/pokemon-southern-islands/mew-1)"
    }
   ],
   "Mega Cash list": [
@@ -2083,12 +2151,8 @@
   ]
  },
  "errors": [
-  "HGSS & Prime | HeartGold SoulSilver Typhlosion Prime 110/123: no PriceCharting card matched the name/number (top result was /game/pokemon-heartgold-&amp;-soulsilver/typhlosion-prime-110)",
-  "Want list: other | FireRed LeafGreen Pidgeot 10/112: page had no prices",
   "XY Evolutions | Evolutions Blastoise 2/108: no PriceCharting card matched the name/number (top result was /game/pokemon-base-set/blastoise-2)",
   "XY Evolutions | Evolutions Venusaur 15/108: no PriceCharting card matched the name/number (top result was /game/pokemon-base-set/venusaur-15)",
-  "Promos: BW & XY | Umbreon 115/BW-P: no PriceCharting card matched the name/number (top result was /game/pokemon-japanese-promo/umbreon-115bw-p)",
-  "Promos: BW & XY | Rayquaza 144/BW-P: no PriceCharting card matched the name/number (top result was /game/pokemon-japanese-promo/rayquaza-144bw-p)",
-  "Promos: BW & XY | Reshiram EX 158/BW-P: no PriceCharting card matched the name/number (top result was /game/pokemon-japanese-promo/reshiram-ex-158bw-p)"
+  "Southern Islands | Southern Islands Lugia: no PriceCharting card matched the name/number (top result was /game/pokemon-southern-islands/mew-1)"
  ]
 }
