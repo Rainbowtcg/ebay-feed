@@ -20,6 +20,9 @@ from feedlib import categories, QueryMatcher, card_key, grade_of, land_aud, lang
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 KEEP_DAYS = 30
+SLAB_CAT = "Slab plays"          # played raw copies of cards whose low-grade slabs sell for more than raw + grading
+GRADE_COST = 70                  # A$ per card to grade (PSA via an AU submitter, value tiers)
+SELL_KEEP = 0.87                 # share of the sale price kept after eBay fees
 SKIP_CC = {"US", "GB", "UK", "CA"}
 MODERN = re.compile(r'\b(2019|202\d)\b|\b151\b|\bsar\b|\bsir\b|\bsv\d|scarlet|violet|vmax|vstar|master ball'
                     r'|\b(sv\d*[a-z]?|s\d{1,2}[a-z]|m\d[a-z]|sm(1[0-2]|[5-9])[a-z]?|swsh\d*)\b|mega dream|phantasmal|sword|shield', re.I)
@@ -70,6 +73,27 @@ class Values:
                 out.add(f"No.{int(n)}")
         return out
 
+    def find_slab(self, title):
+        """Slab-play entry for a raw copy in any condition: the card's low-grade and PSA 7 sale prices."""
+        if REPRINT.search(title) or SLAB.search(re.sub(r"\b(psa|cgc|bgs)\s*\d*\s*(contender|candidate|worthy|ready|potential)\b", "", title, flags=re.I)):
+            return None
+        tl, lang = norm(title), lang_of(title)
+        first, rev, sl = bool(FIRST.search(title)), bool(REV.search(title)), "shadowless" in tl
+        for n in self.nums(title):
+            for c in self.by.get(n, []):
+                if not c.get("slab") or c["lang"] != lang:
+                    continue
+                if c["keys"] and not any(k in tl for k in c["keys"]):
+                    continue
+                if not all(w in tl for w in c["words"]) or c["first"] != first or c["rev"] != rev or c["sl"] != sl:
+                    continue
+                if {m.lower() for m in PRE.findall(re.sub(r"light(ly)?[ -]?play(ed)?", "", title, flags=re.I))} != {m.lower() for m in PRE.findall(c["label"])}:
+                    continue
+                if {m.lower() for m in ODD.findall(title)} != {m.lower() for m in ODD.findall(c["label"])}:
+                    continue
+                return c
+        return None
+
     def find(self, title, nm=False):
         if REPRINT.search(title):
             return None
@@ -109,8 +133,9 @@ def main():
 
     qcat = categories(P("queries.txt"))
     cat_of_q = dict(qcat)
-    cats = list(dict.fromkeys(c for _, c in qcat))
+    cats = [SLAB_CAT] + [c for c in dict.fromkeys(c for _, c in qcat) if c != SLAB_CAT]
     want_cat = {c: any(q.startswith("+") for q, cc in qcat if cc == c) for c in cats}
+    want_cat[SLAB_CAT] = True
     qm = QueryMatcher([q for q, _ in qcat])
 
     items = [dict(x, shop=0) for x in L.get("items", [])] + [dict(x, shop=1) for x in S.get("items", []) if x.get("available", True)]
@@ -178,11 +203,33 @@ def main():
         k = r.get("k")
         lowest = bool(k and not auc and seen_n.get(k, 0) >= 3 and p <= low.get(k, 0) + 0.01)
         ratio = round(p / val[2], 3) if val else None
-        tags = "".join(c for c, on in (("n", new), ("d", drop), ("r", bool(r.get("re"))), ("l", lowest)) if on)
+        slab, slab_why = None, ""
+        flag = str(x.get("flag") or "")
+        if not auc and x.get("country") not in SKIP_CC and not flag.startswith(("reprint", "grader")):
+            slab = V.find_slab(t)
+            if slab:
+                sv = slab["slab"]
+                floor = sv["low"] * SELL_KEEP - GRADE_COST - p      # if it comes back a low grade
+                at7 = sv["mid"] * SELL_KEEP - GRADE_COST - p        # if it comes back a PSA 7
+                if at7 >= 100 and floor >= -30:
+                    slab_why = (f"slab play: low grade ({sv['lowg']}) ~A${sv['low']:,} → {'+' if floor >= 0 else '−'}A${abs(floor):,.0f}; "
+                                f"PSA 7 ~A${sv['mid']:,} → +A${at7:,.0f} after grading and fees ({sv['src']})")
+                    cs = [SLAB_CAT] + [c for c in cs if c != SLAB_CAT]
+                else:
+                    slab = None
+        tags = "".join(c for c, on in (("n", new), ("d", drop), ("r", bool(r.get("re"))), ("l", lowest), ("s", bool(slab))) if on)
         X[i] = [[cats.index(c) for c in cs], r["f"], r.get("pp") if drop else None, round(low[k], 2) if k in low else None,
                 live_n.get(k, 0) if k else 0, val[2] if val else None, (val[0]["label"] + " · " + val[1]) if val else "", tags]
 
         # digest: same rules as the finder's default view
+        if slab:
+            d = digest[SLAB_CAT]
+            d["total"] += 1
+            d["new"] += bool(new)
+            d["drops"] += bool(drop)
+            d["hi"].append((0, -(at7 + floor), p, {"id": i, "t": t[:90], "p": p, "cc": x.get("country") or "", "seller": x.get("seller") or "",
+                                                    "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "why": slab_why, "auc": auc,
+                                                    "cond": flag.replace("damage: ", "") or ("NM" if x.get("nm") == 1 else "")}))
         if x.get("country") in SKIP_CC or x.get("flag"):
             continue
         if (MODERN.search(t) and not str(x.get("query") or "").startswith("+") and not x["shop"]) or SV_MEP.search(t):
@@ -200,7 +247,7 @@ def main():
             reason, pri, score = f"new, cheapest of {seen_n[k]} copies seen in 30 days", 2, 0
         elif r.get("re") and not auc and r.get("p0") and p < r["p0"] * 0.95:
             reason, pri, score = f"relisted cheaper (A${r['p0']:,.0f} → A${p:,.0f})", 1, p / r["p0"]
-        for c in (cs or ["Other"]):
+        for c in ([c for c in cs if c != SLAB_CAT] or ["Other"]):
             d = digest[c]
             d["total"] += 1
             d["new"] += bool(new)
@@ -211,7 +258,7 @@ def main():
                 d["hi"].append((pri, score, p, {"id": i, "t": t[:90], "p": p, "cc": x.get("country") or "", "seller": x.get("seller") or "",
                                                 "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "why": reason, "auc": auc}))
     for d in digest.values():
-        d["hi"] = [h[3] for h in sorted(d["hi"], key=lambda h: h[:3])[:8]]
+        d["hi"] = [h[3] for h in sorted(d["hi"], key=lambda h: h[:3])[:12 if d["cat"] == SLAB_CAT else 8]]
     order = [c for c in cats if digest[c]["total"]] + (["Other"] if digest["Other"]["total"] else [])
 
     H = {"updated": today, "ids": ids}

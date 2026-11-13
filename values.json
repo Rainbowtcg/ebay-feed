@@ -1,5 +1,5 @@
 {
-"note": "Card values in A$ by grade. tg: rows come from the Slab Finder's TG benchmarks; others from PriceCharting (US$ x 1.4232). Edit or add entries freely: num = card number as printed (leading zeros dropped, or No.151 for old Japanese), words = name words that must all be in the title, keys = set words (any one must be in the title; empty = number is enough), first = 1st Edition only, rev = reverse/mirror only.",
+"note": "Card values in A$ by grade. tg: rows come from the Slab Finder's TG benchmarks; others from PriceCharting (US$ x 1.4232). Edit or add entries freely: num = card number as printed (leading zeros dropped, or No.151 for old Japanese), words = name words that must all be in the title, keys = set words (any one must be in the title; empty = number is enough), first = 1st Edition only, rev = reverse/mirror only. slab = played-copy grading targets: low = typical low-grade (lowg) sale A$, mid = PSA 7 sale A$; the feed lists raw copies where grading clears fees.",
 "updated": "2026-11-13",
 "cards": [
 {
@@ -9543,6 +9543,216 @@
 "PSA 10": 107
 },
 "src": "PriceCharting sold, 13 Nov 2026"
+},
+{
+"id": "slab:charex-jp",
+"label": "Japanese Charizard ex 012/052 2004 Starter Deck",
+"lang": "JP",
+"num": "12/52",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": false,
+"rev": false,
+"sl": false,
+"g": {},
+"slab": {
+"low": 300,
+"lowg": "PSA 1–4",
+"mid": 503,
+"src": "eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026"
+},
+"src": "eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026"
+},
+{
+"id": "slab:charex-jp-1st",
+"label": "Japanese Charizard ex 012/052 2004 Starter Deck 1st Ed",
+"lang": "JP",
+"num": "12/52",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": true,
+"rev": false,
+"sl": false,
+"g": {},
+"slab": {
+"low": 300,
+"lowg": "PSA 1–4",
+"mid": 503,
+"src": "unlimited prices used (1st Ed sells at or above)"
+},
+"src": "unlimited prices used (1st Ed sells at or above)"
+},
+{
+"id": "slab:cg-zard",
+"label": "EX Crystal Guardians Charizard delta 4/100",
+"lang": "EN",
+"num": "4/100",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": false,
+"rev": false,
+"sl": false,
+"g": {},
+"slab": {
+"low": 270,
+"lowg": "PSA 1–3",
+"mid": 639,
+"src": "eBay sold Jan 2026 (HP raw US$178, PSA 5 US$285, PSA 7 US$376–450); PSA 1–3 estimated ~US$190"
+},
+"src": "eBay sold Jan 2026 (HP raw US$178, PSA 5 US$285, PSA 7 US$376–450); PSA 1–3 estimated ~US$190"
+},
+{
+"id": "slab:cg-zard-rev",
+"label": "EX Crystal Guardians Charizard delta 4/100 reverse",
+"lang": "EN",
+"num": "4/100",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": false,
+"rev": true,
+"sl": false,
+"g": {},
+"slab": {
+"low": 149,
+"lowg": "PSA 1",
+"mid": 596,
+"src": "PriceCharting sales 2024–25 (PSA 1 ~US$100–115, PSA 7 US$325–594)"
+},
+"src": "PriceCharting sales 2024–25 (PSA 1 ~US$100–115, PSA 7 US$325–594)"
+},
+{
+"id": "slab:shining-gyarados",
+"label": "Neo Revelation Shining Gyarados 65/64",
+"lang": "EN",
+"num": "65/64",
+"words": [
+"gyarados"
+],
+"keys": [],
+"first": false,
+"rev": false,
+"sl": false,
+"g": {},
+"slab": {
+"low": 256,
+"lowg": "PSA 1–4",
+"mid": 994,
+"src": "PriceCharting (PSA 1–4 US$155–211; PSA 7 US$650–843, 2025)"
+},
+"src": "PriceCharting (PSA 1–4 US$155–211; PSA 7 US$650–843, 2025)"
+},
+{
+"id": "slab:shining-gyarados-1st",
+"label": "Neo Revelation Shining Gyarados 65/64 1st Ed",
+"lang": "EN",
+"num": "65/64",
+"words": [
+"gyarados"
+],
+"keys": [],
+"first": true,
+"rev": false,
+"sl": false,
+"g": {},
+"slab": {
+"low": 426,
+"lowg": "PSA 2–4",
+"mid": 951,
+"src": "PriceCharting (PSA 2–4 US$270–420; PSA 7 US$670–760)"
+},
+"src": "PriceCharting (PSA 2–4 US$270–420; PSA 7 US$670–760)"
+},
+{
+"id": "slab:df-zard-star",
+"label": "EX Dragon Frontiers Charizard Gold Star 100/101",
+"lang": "EN",
+"num": "100/101",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": false,
+"rev": false,
+"sl": false,
+"g": {},
+"slab": {
+"low": 3526,
+"lowg": "PSA 3",
+"mid": 7738,
+"src": "Scrydex 2026 (PSA 3 US$2,483, PSA 7 US$5,449)"
+},
+"src": "Scrydex 2026 (PSA 3 US$2,483, PSA 7 US$5,449)"
+},
+{
+"id": "slab:rayquaza-star",
+"label": "EX Deoxys Rayquaza Gold Star 107/107",
+"lang": "EN",
+"num": "107/107",
+"words": [
+"rayquaza"
+],
+"keys": [],
+"first": false,
+"rev": false,
+"sl": false,
+"g": {},
+"slab": {
+"low": 9940,
+"lowg": "PSA 1",
+"mid": 22605,
+"src": "PSA APR / Scrydex 2026 (PSA 1 US$7,000, PSA 7 US$15,919)"
+},
+"src": "PSA APR / Scrydex 2026 (PSA 1 US$7,000, PSA 7 US$15,919)"
+},
+{
+"id": "slab:skyridge-zard",
+"label": "Skyridge Charizard 146/144 crystal holo",
+"lang": "EN",
+"num": "146/144",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": false,
+"rev": false,
+"sl": false,
+"g": {},
+"slab": {
+"low": 2130,
+"lowg": "PSA 2",
+"mid": 7454,
+"src": "PriceCharting/Scrydex (PSA 2 ~US$1,420–1,600 2023; PSA 7 US$5,249 avg)"
+},
+"src": "PriceCharting/Scrydex (PSA 2 ~US$1,420–1,600 2023; PSA 7 US$5,249 avg)"
+},
+{
+"id": "slab:skyridge-zard-rev",
+"label": "Skyridge Charizard 146/144 reverse holo",
+"lang": "EN",
+"num": "146/144",
+"words": [
+"charizard"
+],
+"keys": [],
+"first": false,
+"rev": true,
+"sl": false,
+"g": {},
+"slab": {
+"low": 639,
+"lowg": "PSA 2–4",
+"mid": 2613,
+"src": "PriceCharting 2023–24 / eBay 2026 (PSA 2–4 US$425–561; PSA 7 US$1,840)"
+},
+"src": "PriceCharting 2023–24 / eBay 2026 (PSA 2–4 US$425–561; PSA 7 US$1,840)"
 }
 ]
 }

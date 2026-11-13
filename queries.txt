@@ -66,6 +66,7 @@ pokemon charizard delta crystal guardians
 pokemon charizard ex firered leafgreen
 pokemon celebi ex unseen forces
 pokemon mew ex holon phantoms
++pokemon (charizard,リザードン) (012/052,"12/52") japanese
 
 # ---------- DP & Platinum (Lv.X, GL) ----------
 +pokemon lv.x holo psa
@@ -358,6 +359,12 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon japanese (dragonite ex,カイリューex) (100/096,"rising fist")
 +pokemon dragonite ex "furious fists" full art
 +pokemon ("pokemon center lady","pokémon center lady") (105/106,flashfire)
+
+# ---------- Slab play cards (raw copies in any condition, to grade) ----------
++pokemon shining gyarados 65/64
++pokemon charizard (gold star,☆,star) 100/101
++pokemon rayquaza (gold star,☆,star) 107/107
++pokemon charizard 146/144
 
 # ---------- BW / Plasma-era secret rares, RAW copies to grade (added 12 Nov 2026) ----------
 +pokemon ("plasma storm","plasma freeze","plasma blast") secret rare
