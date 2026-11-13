@@ -339,11 +339,11 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon ("plasma storm","plasma freeze","plasma blast") secret rare
 +pokemon ("boundaries crossed","dragons exalted","dark explorers","next destinies","legendary treasures") secret rare
 +pokemon ("black white","emerging powers","noble victories") secret rare
-+pokemon (136/135,137/135,138/135)
-+pokemon (117/116,118/116,119/116,120/116,121/116,122/116)
-+pokemon (102/101,103/101,104/101,105/101) -"hidden fates"
-+pokemon (150/149,151/149,152/149,153/149)
-+pokemon (125/124,126/124,127/124,128/124) -"fates collide"
++pokemon (136/135,137/135,138/135) ("plasma storm",plasma,2013)
++pokemon (117/116,118/116,119/116,120/116,121/116,122/116) ("plasma freeze",plasma,2013)
++pokemon (102/101,103/101,104/101,105/101) ("plasma blast",plasma,2013) -"hidden fates"
++pokemon (150/149,151/149,152/149,153/149) ("boundaries crossed",2012,2013)
++pokemon (125/124,126/124,127/124,128/124) ("dragons exalted",2012) -"fates collide"
 +pokemon (109/108,110/108,111/108) "dark explorers"
 +pokemon (100/99,101/99,102/99,103/99) "next destinies"
 +pokemon (114/113,115/113) "legendary treasures"
