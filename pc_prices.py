@@ -48,8 +48,29 @@ def parse(page):
     return out, name
 
 
+def wanted(ref, label):
+    """Checks a PriceCharting link fits the card: name word, card number and Japanese/English all match."""
+    words = (label if ref.startswith("/game/") else ref).lower()
+    name = re.sub(r"[^a-z]", "", (re.findall(r"[a-z][a-z'.]+", re.sub(r"^(japanese|neo|base|set|expedition|aquapolis|skyridge|lost|thunder|"
+                                                                        r"firered|leafgreen|plasma|freeze|storm|ancient|origins|wotc|black|star)\s+", "", words)) or [""])[0])
+    m = re.search(r"\b0*(\d{1,3})\s*/\s*\d{2,3}\b|no\.\s*0*(\d{1,3})", label.lower())
+    num = (m.group(1) or m.group(2)) if m else None
+    jp = label.lower().startswith("japanese")
+
+    def ok(path):
+        p = path.lower()
+        if jp != ("japanese" in p):
+            return False
+        last = p.rstrip("/").rsplit("/", 1)[-1]
+        if name and name not in last.replace("-", ""):
+            return False
+        return not num or re.search(r"-%s$" % num, last) is not None
+    return ok
+
+
 def find(ref, label):
     """ref is a /game/ path or search words. Returns (url, html) of the card page."""
+    ok = wanted(ref, label)
     tries = []
     if ref.startswith("/game/"):
         tries.append(BASE + ref)
@@ -61,15 +82,17 @@ def find(ref, label):
         except Exception as e:
             last = e
             continue
-        if "/game/" in final and 'id="price_data"' in page:
-            return final, page
-        m = re.search(r'href="(?:https://www\.pricecharting\.com)?(/game/pokemon[^"?#]+)"', page)  # first search result
-        if m:
+        if "/game/" in final and ('id="price_data"' in page or "used_price" in page):
+            if url.startswith(BASE + "/game/") or ok(urllib.parse.urlparse(final).path):
+                return final, page
+        links = list(dict.fromkeys(re.findall(r'href="(?:https://www\.pricecharting\.com)?(/game/pokemon[^"?#]+)"', page)))
+        pick = next((l for l in links if ok(l)), None)  # first search result that fits the card's name, number and language
+        if pick:
             time.sleep(1.5)
-            final, page = get(BASE + m.group(1))
+            final, page = get(BASE + pick)
             if 'id="price_data"' in page or "used_price" in page:
                 return final, page
-        last = "no matching card"
+        last = "no PriceCharting card matched the name/number" + (f" (top result was {links[0]})" if links else "")
     raise RuntimeError(str(last))
 
 

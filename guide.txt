@@ -46,7 +46,7 @@ XY Generations | Charizard RC5 | Charizard RC5 Generations
 XY Generations | Charizard EX 11/83 | Charizard EX Generations 11
 
 Celebi / Prism Star / promos | Neo Destiny Shining Celebi 106/105 | Shining Celebi Neo Destiny
-Celebi / Prism Star / promos | Lost Thunder Ditto Prism Star | Ditto Prism Star Lost Thunder
+Celebi / Prism Star / promos | Lost Thunder Ditto Prism Star 154/214 | Ditto Prism Star Lost Thunder 154
 Celebi / Prism Star / promos | Unseen Forces Celebi ex | Celebi ex Unseen Forces
 
 WotC classics | Base Set Charizard 4/102 (unlimited) | /game/pokemon-base-set/charizard-4
@@ -58,7 +58,7 @@ WotC classics | Jungle Vaporeon 12/64 | /game/pokemon-jungle/vaporeon-12
 Japanese vintage | Japanese Base Set Charizard No.006 | Charizard Japanese Base Set
 Japanese vintage | Japanese Neo Destiny Dark Gengar No.094 | Dark Gengar Japanese Neo Destiny
 Japanese vintage | Japanese Neo Discovery Umbreon No.197 | Umbreon Japanese Neo Discovery
-Japanese vintage | Japanese Neo Revelation Lugia No.249 | Lugia Japanese Neo Revelation
+Japanese vintage | Japanese Neo Genesis Lugia No.249 | Lugia Japanese Gold Silver New World 249
 
 Undaunted reverse & Scyther | Undaunted Scizor 7/90 holo | /game/pokemon-undaunted/scizor-7
 Undaunted reverse & Scyther | Undaunted Scyther 36/90 reverse | Scyther Reverse Holo Undaunted 36
@@ -70,8 +70,9 @@ Want list: other | Ancient Origins Sceptile EX 84/98 | Sceptile EX Ancient Origi
 Want list: other | Galarian Ponyta SWSH013 | Galarian Ponyta SWSH013
 
 XY Evolutions | Evolutions Charizard 11/108 | /game/pokemon-evolutions/charizard-11
-XY Evolutions | Evolutions Blastoise 21/108 | /game/pokemon-evolutions/blastoise-21
-XY Evolutions | Evolutions Venusaur 1/108 | /game/pokemon-evolutions/venusaur-1
+XY Evolutions | Evolutions Charizard EX 12/108 | Charizard EX Evolutions 12
+XY Evolutions | Evolutions Blastoise 2/108 | /game/pokemon-evolutions/blastoise-2
+XY Evolutions | Evolutions Venusaur 15/108 | /game/pokemon-evolutions/venusaur-15
 
 Shining / Legend / POP | Neo Destiny Shining Charizard 107/105 | Shining Charizard Neo Destiny
 Shining / Legend / POP | Neo Revelation Shining Magikarp 66/64 | Shining Magikarp Neo Revelation
@@ -116,7 +117,7 @@ Mew | Triumphant Mew Prime 97/102 | /game/pokemon-triumphant/mew-97
 Mew | Japanese CP5 Dream Shine Mew 016/036 | Mew Dream Shine Collection 16
 
 Southern Islands | Southern Islands Mew | Mew Southern Islands
-Southern Islands | Southern Islands Lugia | Lugia Southern Islands
+Southern Islands | Southern Islands Lugia | Lugia Southern Islands Promo
 
 Mega Cash list | Primal Clash Kyogre EX 148/160 | Kyogre EX Primal Clash 148
 Mega Cash list | Japanese Cold Flare Terrakion 064/059 | Terrakion Cold Flare 64

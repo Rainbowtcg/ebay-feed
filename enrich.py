@@ -20,6 +20,7 @@ from feedlib import categories, QueryMatcher, card_key, grade_of, land_aud, lang
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 KEEP_DAYS = 30
+PAWN_CAT = "Pawn shops"          # heading in queries.txt; also every listing from a pawn_sellers seller
 SLAB_CAT = "Slab plays"          # played raw copies of cards whose low-grade slabs sell for more than raw + grading
 GRADE_COST = 70                  # A$ per card to grade (PSA via an AU submitter, value tiers)
 SELL_KEEP = 0.87                 # share of the sale price kept after eBay fees
@@ -136,7 +137,8 @@ def main():
     cats = [SLAB_CAT] + [c for c in dict.fromkeys(c for _, c in qcat) if c != SLAB_CAT]
     want_cat = {c: any(q.startswith("+") for q, cc in qcat if cc == c) for c in cats}
     want_cat[SLAB_CAT] = True
-    qm = QueryMatcher([q for q, _ in qcat])
+    qm = QueryMatcher([q for q, _ in qcat if "@pawn" not in q])
+    pawn_set = {str(n).lower() for n in L.get("pawn_sellers", [])}
 
     items = [dict(x, shop=0) for x in L.get("items", [])] + [dict(x, shop=1) for x in S.get("items", []) if x.get("available", True)]
     ids = H.get("ids", {})
@@ -195,6 +197,8 @@ def main():
         t = x.get("title", "")
         r = ids[i]
         cs = list(dict.fromkeys(([cat_of_q[x["query"]]] if x.get("query") in cat_of_q else []) + [cat_of_q[q] for q in qm.matches(t)]))
+        if PAWN_CAT in cats and str(x.get("seller") or "").lower() in pawn_set:
+            cs = list(dict.fromkeys(cs + [PAWN_CAT]))   # anything a pawn shop lists, whichever search found it
         auc = "AUCTION" in (x.get("options") or [])
         val = V.find(t, x.get("nm") == 1)
         p = r["p"]
