@@ -48,29 +48,50 @@ def parse(page):
     return out, name
 
 
-def wanted(ref, label):
-    """Checks a PriceCharting link fits the card: name word, card number and Japanese/English all match."""
-    words = (label if ref.startswith("/game/") else ref).lower()
-    name = re.sub(r"[^a-z]", "", (re.findall(r"[a-z][a-z'.]+", re.sub(r"^(japanese|neo|base|set|expedition|aquapolis|skyridge|lost|thunder|"
-                                                                        r"firered|leafgreen|plasma|freeze|storm|ancient|origins|wotc|black|star)\s+", "", words)) or [""])[0])
-    m = re.search(r"\b0*(\d{1,3})\s*/\s*\d{2,3}\b|no\.\s*0*(\d{1,3})", label.lower())
-    num = (m.group(1) or m.group(2)) if m else None
-    jp = label.lower().startswith("japanese")
+SKIP = set("japanese neo base set holo reverse promo black star wotc nintendo crystal full art gold the and with of unlimited 1st edition svp swsh xy sm".split())
 
-    def ok(path):
-        p = path.lower()
-        if jp != ("japanese" in p):
-            return False
-        last = p.rstrip("/").rsplit("/", 1)[-1]
-        if name and name not in last.replace("-", ""):
-            return False
-        return not num or re.search(r"-%s$" % num, last) is not None
-    return ok
+
+def words_of(t):
+    return [w for w in re.findall(r"[a-z]+", t.lower()) if len(w) >= 3]
+
+
+def wanted(ref, label):
+    """Scores a PriceCharting link for the card: 0 = wrong card (name, number or Japanese/English don't fit),
+    higher = more of the label's set words appear in the link's set."""
+    text = label + " " + ("" if ref.startswith("/game/") else ref)
+    low = label.lower()
+    m = (re.search(r"\b0*(\d{1,3})\s*/\s*(?:\d{2,3}|bw-?p)\b", low) or re.search(r"no\.\s*0*(\d{1,3})", low)
+         or re.search(r"\b((?:rc|xy|sm|swsh|svp|h|sh|bw)\s?\d{1,3})\b", low) or re.search(r"#\s*0*(\d{1,3})\b", low))
+    num = re.sub(r"\s", "", m.group(1)) if m else None
+    if num and num.startswith("svp"):
+        num = num[3:]
+    jp = label.lower().startswith("japanese") or "bw-p" in label.lower()
+    lw = set(words_of(text)) - SKIP
+    want_set = ref.split("/")[2] if ref.startswith("/game/") else None
+
+    def score(path):
+        p = H.unescape(path).split("?")[0].lower().rstrip("/")
+        parts = p.split("/")
+        if len(parts) < 4 or jp != ("japanese" in parts[2]):
+            return 0
+        card, cset = parts[3], parts[2]
+        if want_set and re.sub(r"[^a-z0-9]", "", cset) != re.sub(r"[^a-z0-9]", "", want_set):
+            return 0
+        if not any(w in card for w in lw):
+            return 0
+        if num and not re.search(r"-0*%s(?:[a-z-]*)$" % re.escape(num.lstrip("0") or "0"), card):
+            return 0
+        setw = [w for w in lw if w not in card]
+        hits = sum(w in cset.replace("-", "") for w in setw)
+        if setw and not hits and not want_set and not jp:
+            return 0  # label names a set but this link is from a different one
+        return 1 + hits
+    return score
 
 
 def find(ref, label):
     """ref is a /game/ path or search words. Returns (url, html) of the card page."""
-    ok = wanted(ref, label)
+    score = wanted(ref, label)
     tries = []
     if ref.startswith("/game/"):
         tries.append(BASE + ref)
@@ -83,13 +104,13 @@ def find(ref, label):
             last = e
             continue
         if "/game/" in final and ('id="price_data"' in page or "used_price" in page):
-            if url.startswith(BASE + "/game/") or ok(urllib.parse.urlparse(final).path):
+            if url.startswith(BASE + "/game/") or score(urllib.parse.urlparse(final).path):
                 return final, page
-        links = list(dict.fromkeys(re.findall(r'href="(?:https://www\.pricecharting\.com)?(/game/pokemon[^"?#]+)"', page)))
-        pick = next((l for l in links if ok(l)), None)  # first search result that fits the card's name, number and language
-        if pick:
+        links = list(dict.fromkeys(H.unescape(l) for l in re.findall(r'href="(?:https://www\.pricecharting\.com)?(/game/pokemon[^"?#]+)"', page)))
+        best = max(links, key=score, default=None)  # the result that fits the card and shares the most set words
+        if best and score(best):
             time.sleep(1.5)
-            final, page = get(BASE + pick)
+            final, page = get(BASE + urllib.parse.quote(best, safe="/&-:"))
             if 'id="price_data"' in page or "used_price" in page:
                 return final, page
         last = "no PriceCharting card matched the name/number" + (f" (top result was {links[0]})" if links else "")

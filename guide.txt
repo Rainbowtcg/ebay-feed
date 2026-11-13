@@ -38,7 +38,7 @@ HGSS & Prime | Undaunted Scizor Prime 84/90 | /game/pokemon-undaunted/scizor-84
 HGSS & Prime | Undaunted Slowking Prime 85/90 | /game/pokemon-undaunted/slowking-85
 HGSS & Prime | Triumphant Celebi Prime 92/102 | /game/pokemon-triumphant/celebi-92
 HGSS & Prime | Triumphant Magnezone Prime 96/102 | /game/pokemon-triumphant/magnezone-96
-HGSS & Prime | HeartGold SoulSilver Typhlosion Prime 110/123 | /game/pokemon-heartgold-soulsilver/typhlosion-110
+HGSS & Prime | HeartGold SoulSilver Typhlosion Prime 110/123 | Typhlosion Prime HeartGold SoulSilver 110
 
 XY Generations | Sylveon EX RC21 | Sylveon EX RC21 Generations
 XY Generations | M Gardevoir EX RC31 | M Gardevoir EX RC31 Generations
@@ -71,8 +71,8 @@ Want list: other | Galarian Ponyta SWSH013 | Galarian Ponyta SWSH013
 
 XY Evolutions | Evolutions Charizard 11/108 | /game/pokemon-evolutions/charizard-11
 XY Evolutions | Evolutions Charizard EX 12/108 | Charizard EX Evolutions 12
-XY Evolutions | Evolutions Blastoise 2/108 | /game/pokemon-evolutions/blastoise-2
-XY Evolutions | Evolutions Venusaur 15/108 | /game/pokemon-evolutions/venusaur-15
+XY Evolutions | Evolutions Blastoise 2/108 | Blastoise Evolutions 2
+XY Evolutions | Evolutions Venusaur 15/108 | Venusaur Evolutions 15
 
 Shining / Legend / POP | Neo Destiny Shining Charizard 107/105 | Shining Charizard Neo Destiny
 Shining / Legend / POP | Neo Revelation Shining Magikarp 66/64 | Shining Magikarp Neo Revelation
