@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T15:48+00:00",
+ "generated": "2026-11-13T21:46+00:00",
  "usd_aud": 1.4683,
  "rate_source": "open.er-api.com",
  "source": "PriceCharting sold-price averages (Ungraded, Grade 7, 8, 9, 9.5, PSA 10)",
@@ -1145,20 +1145,20 @@
     "matched": "Charizard #11   Pokemon Evolutions",
     "url": "https://www.pricecharting.com/game/pokemon-evolutions/charizard-11",
     "usd": {
-     "raw": 70.06,
-     "g7": 100.0,
-     "g8": 129.99,
-     "g9": 217.71,
-     "g95": 418.11,
-     "g10": 10506.35
+     "raw": 76.76,
+     "g7": 101.25,
+     "g8": 121.0,
+     "g9": 211.75,
+     "g95": 532.59,
+     "g10": 11541.0
     },
     "aud": {
-     "raw": 103,
-     "g7": 147,
-     "g8": 191,
-     "g9": 320,
-     "g95": 614,
-     "g10": 15426
+     "raw": 113,
+     "g7": 149,
+     "g8": 178,
+     "g9": 311,
+     "g95": 782,
+     "g10": 16946
     }
    },
    {
@@ -1629,18 +1629,18 @@
     "matched": "Rayquaza #144/BW-P   Pokemon Japanese Promo",
     "url": "https://www.pricecharting.com/game/pokemon-japanese-promo/rayquaza-144bw-p?q=rayquaza+144%2Fbw-p",
     "usd": {
-     "raw": 119.57,
+     "raw": 100.0,
      "g7": 168.94,
-     "g8": 256.76,
-     "g9": 460.63,
+     "g8": 256.95,
+     "g9": 462.5,
      "g95": 1030.91,
      "g10": 1037.5
     },
     "aud": {
-     "raw": 176,
+     "raw": 147,
      "g7": 248,
      "g8": 377,
-     "g9": 676,
+     "g9": 679,
      "g95": 1514,
      "g10": 1523
     }
@@ -1739,7 +1739,7 @@
     "url": "https://www.pricecharting.com/game/pokemon-japanese-10th-movie-commemoration-promo/striking-back-mewtwo-holo?q=mewtwo+10th+movie+japanese",
     "usd": {
      "raw": 77.99,
-     "g7": 94.4,
+     "g7": 94.47,
      "g8": 131.47,
      "g9": 235.0,
      "g95": 350.0,
@@ -1782,20 +1782,20 @@
     "matched": "Mew #44   Pokemon Japanese Best of XY",
     "url": "https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/mew-44",
     "usd": {
-     "raw": 22.5,
+     "raw": 21.7,
      "g7": 19.99,
      "g8": 39.0,
      "g9": 60.0,
      "g95": 60.0,
-     "g10": 303.02
+     "g10": 303.51
     },
     "aud": {
-     "raw": 33,
+     "raw": 32,
      "g7": 29,
      "g8": 57,
      "g9": 88,
      "g95": 88,
-     "g10": 445
+     "g10": 446
     }
    },
    {
