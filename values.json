@@ -12928,6 +12928,327 @@
    "thin": [
     "PSA 10"
    ]
+  },
+  {
+   "id": "tg:Jungle Clefable 1/64 (no symbol)",
+   "label": "Jungle Clefable 1/64 (no symbol)",
+   "lang": "EN",
+   "num": "1/64",
+   "words": [
+    "clefable"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/clefable-no-symbol-1",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Electrode 2/64 (no symbol)",
+   "label": "Jungle Electrode 2/64 (no symbol)",
+   "lang": "EN",
+   "num": "2/64",
+   "words": [
+    "electrode"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 28,
+    "PSA 8": 91,
+    "PSA 9": 220,
+    "PSA 10": 3020
+   },
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/electrode-no-symbol-2",
+   "checked": "2026-11-19",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Flareon 3/64 (no symbol)",
+   "label": "Jungle Flareon 3/64 (no symbol)",
+   "lang": "EN",
+   "num": "3/64",
+   "words": [
+    "flareon"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/flareon-no-symbol-3",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Jolteon 4/64 (no symbol)",
+   "label": "Jungle Jolteon 4/64 (no symbol)",
+   "lang": "EN",
+   "num": "4/64",
+   "words": [
+    "jolteon"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/jolteon-no-symbol-4",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Kangaskhan 5/64 (no symbol)",
+   "label": "Jungle Kangaskhan 5/64 (no symbol)",
+   "lang": "EN",
+   "num": "5/64",
+   "words": [
+    "kangaskhan"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/kangaskhan-no-symbol-5",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Mr. Mime 6/64 (no symbol)",
+   "label": "Jungle Mr. Mime 6/64 (no symbol)",
+   "lang": "EN",
+   "num": "6/64",
+   "words": [
+    "mr",
+    "mime"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/mr-mime-no-symbol-6",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Nidoqueen 7/64 (no symbol)",
+   "label": "Jungle Nidoqueen 7/64 (no symbol)",
+   "lang": "EN",
+   "num": "7/64",
+   "words": [
+    "nidoqueen"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 53,
+    "PSA 8": 126,
+    "PSA 9": 392,
+    "PSA 10": 12174
+   },
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/nidoqueen-no-symbol-7",
+   "checked": "2026-11-19",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Pidgeot 8/64 (no symbol)",
+   "label": "Jungle Pidgeot 8/64 (no symbol)",
+   "lang": "EN",
+   "num": "8/64",
+   "words": [
+    "pidgeot"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 48,
+    "PSA 8": 131,
+    "PSA 9": 315,
+    "PSA 10": 11259
+   },
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/pidgeot-no-symbol-8",
+   "checked": "2026-11-19",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Pinsir 9/64 (no symbol)",
+   "label": "Jungle Pinsir 9/64 (no symbol)",
+   "lang": "EN",
+   "num": "9/64",
+   "words": [
+    "pinsir"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/pinsir-no-symbol-9",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Scyther 10/64 (no symbol)",
+   "label": "Jungle Scyther 10/64 (no symbol)",
+   "lang": "EN",
+   "num": "10/64",
+   "words": [
+    "scyther"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/scyther-no-symbol-10",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Snorlax 11/64 (no symbol)",
+   "label": "Jungle Snorlax 11/64 (no symbol)",
+   "lang": "EN",
+   "num": "11/64",
+   "words": [
+    "snorlax"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/snorlax-no-symbol-11",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Venomoth 13/64 (no symbol)",
+   "label": "Jungle Venomoth 13/64 (no symbol)",
+   "lang": "EN",
+   "num": "13/64",
+   "words": [
+    "venomoth"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/venomoth-no-symbol-13",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Victreebel 14/64 (no symbol)",
+   "label": "Jungle Victreebel 14/64 (no symbol)",
+   "lang": "EN",
+   "num": "14/64",
+   "words": [
+    "victreebel"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/victreebel-no-symbol-14",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Vileplume 15/64 (no symbol)",
+   "label": "Jungle Vileplume 15/64 (no symbol)",
+   "lang": "EN",
+   "num": "15/64",
+   "words": [
+    "vileplume"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {},
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/vileplume-no-symbol-15",
+   "checked": "",
+   "thin": []
+  },
+  {
+   "id": "tg:Jungle Wigglytuff 16/64 (no symbol)",
+   "label": "Jungle Wigglytuff 16/64 (no symbol)",
+   "lang": "EN",
+   "num": "16/64",
+   "words": [
+    "wigglytuff"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 44,
+    "PSA 8": 147,
+    "PSA 9": 488,
+    "PSA 10": 11282
+   },
+   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "pc": "/game/pokemon-jungle/wigglytuff-no-symbol-16",
+   "checked": "2026-11-19",
+   "thin": []
   }
  ],
  "rate": {

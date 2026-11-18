@@ -49,6 +49,7 @@ MODERN = re.compile(r'\b(2019|202\d)\b|\b151\b|\bsar\b|\bsir\b|\bsv\d|scarlet|vi
                     r'|\b(sv\d*[a-z]?|s\d{1,2}[a-z]|m\d[a-z]|sm(1[0-2]|[5-9])[a-z]?|swsh\d*)\b|mega dream|phantasmal|sword|shield', re.I)
 SV_MEP = re.compile(r"\b(sv-?p|svp|m-?p|mep)\b|black star promo.*\b(sv|mega)\b", re.I)   # hidden on the finder by default too
 PRE = re.compile(r"\b(dark|light|shining|rocket's|team rocket's|gold star|crystal)\b", re.I)
+NOSYM = re.compile(r"no[- ]?(set[- ]?)?symbol|no[- ]?rarity|without (set )?symbol|missing (set )?symbol", re.I)  # Jungle no-symbol, JP no-rarity
 ODD = re.compile(r"premium file|vending|carddass|\bdeck\b|\bpromo\b|topsun|bandai|sticker|jumbo|oversized", re.I)
 SLAB = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\b", re.I)
 REV = dict(VARIANTS)["rev"]
@@ -135,6 +136,8 @@ class Values:
                     continue
                 if {m.lower() for m in ODD.findall(title)} != {m.lower() for m in ODD.findall(c["label"])}:
                     continue
+                if bool(NOSYM.search(title)) != bool(NOSYM.search(c["label"])):
+                    continue
                 if not self._fits_set(title, c):
                     continue
                 best.append((self._score(tl, c), c))
@@ -165,6 +168,8 @@ class Values:
                     continue  # Dark / Light / Shining Houndoom are different cards from Houndoom
                 if {m.lower() for m in ODD.findall(title)} != {m.lower() for m in ODD.findall(c["label"])}:
                     continue  # promo / premium file / vending / deck printings are different cards from the set card
+                if bool(NOSYM.search(title)) != bool(NOSYM.search(c["label"])):
+                    continue  # no-symbol / no-rarity printings are different cards (and values) from the normal one
                 if not self._fits_set(title, c):
                     continue  # same number, different set (Japanese No.229 Houndoom is in Neo 2 and Neo 3)
                 best.append((self._score(tl, c), c))
