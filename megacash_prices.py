@@ -27,6 +27,8 @@ from pc_more import find_card, read_page, value, NOISE  # noqa: E402
 from feedlib import card_key, grade_of, land_aud  # noqa: E402
 
 SHOPS = ["Mega Cash"]          # shop names as they appear in stores.json "seller"
+# Mega Cash's eBay stores: their listings in the daily eBay feed (listings.json) are priced the same way
+EBAY_SHOPS = {"mega-cash": "Mega Cash eBay", "megacashselect": "Mega Cash eBay", "megacashsouthwindsor": "Mega Cash Penrith eBay"}
 MAX_LOOKUPS = int(os.environ.get("MC_MAX_LOOKUPS", "250"))
 CACHE_DAYS = 7
 GRADING = 60                   # A$ per card to grade
@@ -188,6 +190,26 @@ def cheapest_live(idx, title):
     return {"aud": r[2], "country": r[3], "url": r[4], "copies": len(rows)}
 
 
+def ebay_items():
+    """Mega Cash's eBay listings from today's feed, shaped like stores.json shop items. "listed" = the day the feed
+    first saw the listing (history.json), so new eBay stock counts as new in the summary."""
+    path = os.path.join(HERE, "listings.json")
+    if not os.path.exists(path):
+        return []
+    hp = os.path.join(HERE, "history.json")
+    seen = json.load(open(hp, encoding="utf-8")).get("ids", {}) if os.path.exists(hp) else {}
+    out = []
+    for it in json.load(open(path, encoding="utf-8")).get("items", []):
+        shop = EBAY_SHOPS.get(str(it.get("seller", "")).lower())
+        if not shop or it.get("currency", "AUD") != "AUD":
+            continue
+        post = it.get("post") if (it.get("postCurrency") or "AUD") == "AUD" else None
+        out.append({"title": it.get("title", ""), "seller": shop, "url": it.get("url"), "price": it.get("price"),
+                    "post": post or 0, "listed": (seen.get(str(it.get("id"))) or {}).get("f", ""),
+                    "auction": "AUCTION" in (it.get("options") or []), "offers": "BEST_OFFER" in (it.get("options") or [])})
+    return out
+
+
 def main():
     stores = json.load(open(os.path.join(HERE, "stores.json"), encoding="utf-8"))
     cpath = os.path.join(HERE, "mc_cache.json")
@@ -196,6 +218,7 @@ def main():
     now = datetime.now(timezone.utc)
     stale = (now - timedelta(days=CACHE_DAYS)).isoformat()
     items = [i for i in stores.get("items", []) if i.get("seller") in SHOPS and i.get("available", True)]
+    items += ebay_items()
     cards = [(i, card_of(i["title"])) for i in items]
     cards.sort(key=lambda ic: str(ic[0].get("listed", "")), reverse=True)  # today's stock first
     looked = 0
@@ -227,7 +250,8 @@ def main():
         hit = {"error": f"{c['other']} card: not on PriceCharting's English/Japanese lists"} if c["other"] else cache.get(key_of(c), {})
         row = {"title": c["title"], "shop": i["seller"], "url": i["url"], "listed": i.get("listed"),
                "price": price, "post": post, "cost": cost, "grader": c["grader"], "grade": c["grade"],
-               "jp": c["jp"], "links": ebay_links(c), "live": cheapest_live(live, c["title"])}
+               "jp": c["jp"], "links": ebay_links(c), "live": cheapest_live(live, c["title"]),
+               "auction": i.get("auction", False), "offers": i.get("offers", False)}
         if "info" not in hit:
             row.update(signal="UNPRICED", why=hit.get("error", "not looked up yet"))
             out.append(row)
@@ -264,6 +288,8 @@ def main():
 def line(r, full):
     g = f"{r['grader']} {r['grade']}" if r["grade"] else "raw"
     s = f"- **A${r['cost']:.0f}** [{r['title']}]({r['url']}) · {g}"
+    if r.get("shop", "Mega Cash") != "Mega Cash":
+        s += f" · {r['shop']}" + (" (auction, current bid)" if r.get("auction") else " (Best Offer)" if r.get("offers") else "")
     if "value" not in r:
         return s + f" · {r.get('why', '')}"
     b = r["basis"]
