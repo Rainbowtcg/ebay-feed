@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-18T01:13+00:00",
+ "generated": "2026-11-18T21:48+00:00",
  "usd_aud": 1.4844,
  "rate_source": "open.er-api.com",
- "lookups_this_run": 476,
+ "lookups_this_run": 0,
  "cards": [
   {
    "title": "Pokemon - Poliwhirl 176/165 S&V 151 PSA 9",
@@ -1860,7 +1860,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=scyther+%28106%2F147%2C106%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 424.52,
+    "aud": 424.59,
     "country": "SG",
     "url": "https://www.ebay.com.au/itm/377576483047",
     "copies": 1
@@ -3412,9 +3412,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-wartortle-171-165-s-v-151-psa-10",
    "listed": "2026-11-14",
-   "price": 599.0,
+   "price": 529.0,
    "post": 12.0,
-   "cost": 611.0,
+   "cost": 541.0,
    "grader": "PSA",
    "grade": "10",
    "jp": false,
@@ -3444,9 +3444,9 @@
    },
    "value": 505,
    "landed": 605,
-   "gap": 0.21,
+   "gap": 0.07,
    "thin": false,
-   "signal": "OVER"
+   "signal": "OVER-US"
   },
   {
    "title": "Pokemon PSA 10 Blastoise ex 202/165 Special Art Rare Japanese",
@@ -3894,51 +3894,6 @@
    "signal": "OVER-US"
   },
   {
-   "title": "Pokemon - Mega Starmie ex 102/088 Perfect Order PSA 10",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-mega-starmie-ex-102-088-perfect-order-psa-10",
-   "listed": "2026-11-12",
-   "price": 99.0,
-   "post": 12.0,
-   "cost": 111.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=mega+starmie+ex+%28102%2F088%2C102%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=mega+starmie+ex+%28102%2F088%2C102%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=mega+starmie+ex+%28102%2F088%2C102%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mega+starmie+ex+%28102%2F088%2C102%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": {
-    "aud": 99.0,
-    "country": "AU",
-    "url": "https://www.ebay.com.au/itm/407354360526",
-    "copies": 1
-   },
-   "pc": "https://www.pricecharting.com/game/pokemon-perfect-order/mega-starmie-ex-102?q=mega+starmie+ex+102+perfect+order",
-   "matched": "Mega Starmie ex #102   Pokemon Perfect Order",
-   "aud": {
-    "raw": 7,
-    "g8": 27,
-    "g9": 31,
-    "g95": 37,
-    "g10": 71
-   },
-   "basis": {
-    "n90": 30,
-    "last": "2026-11-17",
-    "basis": "90-day median",
-    "pc_avg": 47.98,
-    "grade": "PSA 10"
-   },
-   "value": 71,
-   "landed": 128,
-   "gap": 0.56,
-   "thin": false,
-   "signal": "OVER-US"
-  },
-  {
    "title": "Pokemon - Sunflora 8 Of Diamonds Gold Playing Cards PSA 10",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-sunflora-8-of-diamonds-gold-playing-cards-psa-10",
@@ -4122,27 +4077,6 @@
     "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Rattata+5+Of+Spades+Gold+Playing+Cards&LH_LocatedIn=1&_salic=104",
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Rattata+5+Of+Spades+Gold+Playing+Cards&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Rattata+5+Of+Spades+Gold+Playing+Cards&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "signal": "UNPRICED",
-   "why": "playing cards card: not on PriceCharting's English/Japanese lists"
-  },
-  {
-   "title": "Pokemon - Beedrill 8 Of Clubs Gold Playing Cards PSA 9",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-beedrill-8-of-clubs-gold-playing-cards-psa-9",
-   "listed": "2026-11-12",
-   "price": 39.0,
-   "post": 12.0,
-   "cost": 51.0,
-   "grader": "PSA",
-   "grade": "9",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Beedrill+8+Of+Clubs+Gold+Playing+Cards&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Beedrill+8+Of+Clubs+Gold+Playing+Cards&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Beedrill+8+Of+Clubs+Gold+Playing+Cards&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Beedrill+8+Of+Clubs+Gold+Playing+Cards&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": null,
    "signal": "UNPRICED",
@@ -5055,7 +4989,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=delibird+%2849%2F144%2C49%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 220.42,
+    "aud": 220.46,
     "country": "SG",
     "url": "https://www.ebay.com.au/itm/377471602085",
     "copies": 2
@@ -6814,52 +6748,6 @@
    "signal": "FAIR"
   },
   {
-   "title": "Pokemon- Lugia Holo #249 Japanese Neo (JPN) PSA 8",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-lugia-holo-249-japanese-neo-jpn-psa-8",
-   "listed": "2026-11-10",
-   "price": 479.0,
-   "post": 12.0,
-   "cost": 491.0,
-   "grader": "PSA",
-   "grade": "8",
-   "jp": true,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=lugia+249+japanese&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=lugia+249+japanese&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=lugia+249+japanese&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=lugia+249+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": {
-    "aud": 600.86,
-    "country": "JP",
-    "url": "https://www.ebay.com.au/itm/407345367103",
-    "copies": 5
-   },
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-neo-premium-file/lugia-249",
-   "matched": "Lugia #249   Pokemon Japanese Neo Premium File",
-   "aud": {
-    "raw": 79,
-    "g7": 162,
-    "g8": 182,
-    "g9": 384,
-    "g95": 422,
-    "g10": 2100
-   },
-   "basis": {
-    "n90": 5,
-    "last": "2026-11-08",
-    "basis": "90-day median",
-    "pc_avg": 122.5,
-    "grade": "PSA 8"
-   },
-   "value": 188,
-   "landed": 256,
-   "gap": 1.61,
-   "thin": false,
-   "signal": "OVER"
-  },
-  {
    "title": "Pokemon - Dragonite 4/62 Holo Fossil PSA 8",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-dragonite-4-62-holo-fossil-psa-8",
@@ -7045,7 +6933,7 @@
    "signal": "OVER"
   },
   {
-   "title": "Pokemon- Dark Gyarados 8/82 Prerelease PSA 8",
+   "title": "Pokemon- Dark Gyarados 8/82 Prerelease PSA 9",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-dark-gyarados-8-82-prerelease-psa-9",
    "listed": "2026-11-10",
@@ -7053,7 +6941,7 @@
    "post": 12.0,
    "cost": 261.0,
    "grader": "PSA",
-   "grade": "8",
+   "grade": "9",
    "jp": false,
    "links": {
     "au": "https://www.ebay.com.au/sch/i.html?_nkw=dark+gyarados+%288%2F82%2C8%29&LH_PrefLoc=1",
@@ -7076,17 +6964,17 @@
     "n90": 30,
     "last": "2026-11-16",
     "basis": "90-day median",
-    "pc_avg": 79.99,
-    "grade": "PSA 8"
+    "pc_avg": 159.75,
+    "grade": "PSA 9"
    },
-   "value": 119,
-   "landed": 180,
-   "gap": 1.19,
+   "value": 225,
+   "landed": 296,
+   "gap": 0.16,
    "thin": false,
-   "signal": "OVER"
+   "signal": "OVER-US"
   },
   {
-   "title": "Pokemon- Dark Gyarados 8/82 Prerelease PSA 8",
+   "title": "Pokemon- Dark Gyarados 8/82 Prerelease PSA 9",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-dark-gyarados-8-82-prerelease-psa-8",
    "listed": "2026-11-10",
@@ -7094,7 +6982,7 @@
    "post": 12.0,
    "cost": 261.0,
    "grader": "PSA",
-   "grade": "8",
+   "grade": "9",
    "jp": false,
    "links": {
     "au": "https://www.ebay.com.au/sch/i.html?_nkw=dark+gyarados+%288%2F82%2C8%29&LH_PrefLoc=1",
@@ -7117,14 +7005,14 @@
     "n90": 30,
     "last": "2026-11-16",
     "basis": "90-day median",
-    "pc_avg": 79.99,
-    "grade": "PSA 8"
+    "pc_avg": 159.75,
+    "grade": "PSA 9"
    },
-   "value": 119,
-   "landed": 180,
-   "gap": 1.19,
+   "value": 225,
+   "landed": 296,
+   "gap": 0.16,
    "thin": false,
-   "signal": "OVER"
+   "signal": "OVER-US"
   },
   {
    "title": "Pokemon - Blastoise Ex 200/165 S&V 151 BGS 9",
@@ -8012,7 +7900,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%28016%2F128%2C16%2F128%2C16%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 438.38,
+    "aud": 438.45,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/820263051861",
     "copies": 2
@@ -9510,27 +9398,6 @@
    "why": "no PriceCharting value at BGS 8.5"
   },
   {
-   "title": "Pokemon - Gyarados Ancient Origins XY60 Black Star Promo",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-gyarados-ancient-origins-xy60-black-star-promo",
-   "listed": "2026-11-05",
-   "price": 699.0,
-   "post": 12.0,
-   "cost": 711.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=gyarados+ancient+origins+xy60&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=gyarados+ancient+origins+xy60&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=gyarados+ancient+origins+xy60&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=gyarados+ancient+origins+xy60&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-ancient-origins/m-rayquaza-ex-98)"
-  },
-  {
    "title": "Pokemon- Primal Groudon Ex 97/98 Ancient Origins",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-primal-groudon-ex-97-98-ancient-origins",
@@ -10401,7 +10268,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pidgeot+%28123%2F128%2C123%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 1853.18,
+    "aud": 1853.46,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/820270329464",
     "copies": 2
@@ -10531,7 +10398,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mega+dragonite+ex+%28246%2F193%2C246%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 365.74,
+    "aud": 365.8,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/307286962415",
     "copies": 4
@@ -10771,47 +10638,6 @@
    "signal": "OVER-US"
   },
   {
-   "title": "Pokemon - PSA 8 1st Edition Dragonite 4/62 Fossil",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-psa-8-1st-edition-dragonite-4-62-fossil",
-   "listed": "2026-10-29",
-   "price": 1599.0,
-   "post": 12.0,
-   "cost": 1611.0,
-   "grader": "PSA",
-   "grade": "8",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=st+dragonite+%284%2F62%2C4%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=st+dragonite+%284%2F62%2C4%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=st+dragonite+%284%2F62%2C4%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=st+dragonite+%284%2F62%2C4%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "pc": "https://www.pricecharting.com/game/pokemon-fossil/dragonite-1st-edition-4?q=1st+edition+dragonite+4+fossil",
-   "matched": "Dragonite [1st Edition] #4   Pokemon Fossil",
-   "aud": {
-    "raw": 408,
-    "g7": 814,
-    "g8": 1440,
-    "g9": 4899,
-    "g95": 5388,
-    "g10": 33227
-   },
-   "basis": {
-    "n90": 30,
-    "last": "2026-11-16",
-    "basis": "90-day median",
-    "pc_avg": 970.0,
-    "grade": "PSA 8"
-   },
-   "value": 1392,
-   "landed": 1580,
-   "gap": 0.16,
-   "thin": false,
-   "signal": "OVER"
-  },
-  {
    "title": "Pokemon - PSA 9 Rayquaza VMAX 218/203 Evolving Skies",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-9-rayquaza-vmax-218-203-evolving-skies",
@@ -10872,6 +10698,47 @@
    "live": null,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-legendary-collection/jolteon-reverse-holo-14)"
+  },
+  {
+   "title": "Pokemon - PSA 8 1st Edition Dragonite 4/62 Fossil",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-psa-8-1st-edition-dragonite-4-62-fossil",
+   "listed": "2026-10-29",
+   "price": 1249.0,
+   "post": 12.0,
+   "cost": 1261.0,
+   "grader": "PSA",
+   "grade": "8",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=st+dragonite+%284%2F62%2C4%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=st+dragonite+%284%2F62%2C4%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=st+dragonite+%284%2F62%2C4%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=st+dragonite+%284%2F62%2C4%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "pc": "https://www.pricecharting.com/game/pokemon-fossil/dragonite-1st-edition-4?q=1st+edition+dragonite+4+fossil",
+   "matched": "Dragonite [1st Edition] #4   Pokemon Fossil",
+   "aud": {
+    "raw": 408,
+    "g7": 814,
+    "g8": 1440,
+    "g9": 4899,
+    "g95": 5388,
+    "g10": 33227
+   },
+   "basis": {
+    "n90": 30,
+    "last": "2026-11-16",
+    "basis": "90-day median",
+    "pc_avg": 970.0,
+    "grade": "PSA 8"
+   },
+   "value": 1392,
+   "landed": 1580,
+   "gap": -0.09,
+   "thin": false,
+   "signal": "FAIR"
   },
   {
    "title": "Pokemon - PSA 10 Pikachu ex 238/191 Surging Sparks",
@@ -11202,9 +11069,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-snorlax-27-64-1st-edition-jungle-psa-9",
    "listed": "2026-10-26",
-   "price": 699.0,
+   "price": 549.0,
    "post": 12.0,
-   "cost": 711.0,
+   "cost": 561.0,
    "grader": "PSA",
    "grade": "9",
    "jp": false,
@@ -11239,9 +11106,9 @@
    },
    "value": 550,
    "landed": 654,
-   "gap": 0.29,
+   "gap": 0.02,
    "thin": false,
-   "signal": "OVER"
+   "signal": "OVER-US"
   },
   {
    "title": "Pokemon - Wartortle 171/165 S&V 151 PSA 10 (JPN)",
@@ -12289,9 +12156,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-9-charizard-gx-sv49-sv94-hidden-fates",
    "listed": "2026-10-25",
-   "price": 999.0,
+   "price": 849.0,
    "post": 12.0,
-   "cost": 1011.0,
+   "cost": 861.0,
    "grader": "PSA",
    "grade": "9",
    "jp": false,
@@ -12321,9 +12188,9 @@
    },
    "value": 946,
    "landed": 1090,
-   "gap": 0.07,
+   "gap": -0.09,
    "thin": false,
-   "signal": "OVER-US"
+   "signal": "FAIR"
   },
   {
    "title": "Pokemon - PSA 10 Poliwhirl 176/165 151",
@@ -12516,9 +12383,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-slowking-holo-14-111-psa-8-1st-edition",
    "listed": "2026-10-23",
-   "price": 1799.0,
+   "price": 1429.0,
    "post": 12.0,
-   "cost": 1811.0,
+   "cost": 1441.0,
    "grader": "PSA",
    "grade": "8",
    "jp": false,
@@ -12548,9 +12415,9 @@
    },
    "value": 1381,
    "landed": 1569,
-   "gap": 0.31,
+   "gap": 0.04,
    "thin": false,
-   "signal": "OVER"
+   "signal": "OVER-US"
   },
   {
    "title": "Pokemon- Ditto ( Charmander ) 012/086 - PSA 9 (JPN)",
@@ -12577,27 +12444,6 @@
    },
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-delta-species/ditto-charmander-61)"
-  },
-  {
-   "title": "Pokemon- Jungle Unlimited. BOX BREAK- Live Break - Price per pack",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-jungle-unlimited-box-break",
-   "listed": "2026-10-23",
-   "price": 899.0,
-   "post": 12.0,
-   "cost": 911.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Jungle+Unlimited.+BOX+BREAK+Live+Break+Price+per+pack&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Jungle+Unlimited.+BOX+BREAK+Live+Break+Price+per+pack&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Jungle+Unlimited.+BOX+BREAK+Live+Break+Price+per+pack&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Jungle+Unlimited.+BOX+BREAK+Live+Break+Price+per+pack&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "signal": "UNPRICED",
-   "why": "box break card: not on PriceCharting's English/Japanese lists"
   },
   {
    "title": "Pokemon - Charizard 3/110 Rev Holo Legendary Collection",
@@ -13678,49 +13524,6 @@
    "signal": "OVER",
    "psa8_net": -130,
    "psa9_net": 597
-  },
-  {
-   "title": "Pokemon - Dark Blastoise 4/110 Holo Legendary Collection",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-dark-blastoise-4-110-holo-legendary-collection",
-   "listed": "2026-10-23",
-   "price": 359.0,
-   "post": 12.0,
-   "cost": 371.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=dark+blastoise+%284%2F110%2C4%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=dark+blastoise+%284%2F110%2C4%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=dark+blastoise+%284%2F110%2C4%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=dark+blastoise+%284%2F110%2C4%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "pc": "https://www.pricecharting.com/game/pokemon-legendary-collection/dark-blastoise-holo-4",
-   "matched": "Dark Blastoise [Holo] #4   Pokemon Legendary Collection",
-   "aud": {
-    "raw": 104,
-    "g7": 257,
-    "g8": 480,
-    "g9": 2231,
-    "g95": 2454,
-    "g10": 2676
-   },
-   "basis": {
-    "n90": 26,
-    "last": "2026-11-13",
-    "basis": "90-day median",
-    "pc_avg": 69.92,
-    "grade": "raw (NM)"
-   },
-   "value": 94,
-   "landed": 130,
-   "gap": 2.95,
-   "thin": false,
-   "signal": "OVER",
-   "psa8_net": 11,
-   "psa9_net": 762
   },
   {
    "title": "Pokemon - Raichu 61/165 Rev Holo Expedition",
@@ -15257,9 +15060,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-alakazam-33-165-expedition-psa-10",
    "listed": "2026-10-12",
-   "price": 1699.0,
+   "price": 1299.0,
    "post": 12.0,
-   "cost": 1711.0,
+   "cost": 1311.0,
    "grader": "PSA",
    "grade": "10",
    "jp": false,
@@ -15289,9 +15092,9 @@
    },
    "value": 1262,
    "landed": 1437,
-   "gap": 0.36,
+   "gap": 0.04,
    "thin": false,
-   "signal": "OVER"
+   "signal": "OVER-US"
   },
   {
    "title": "Pokemon - Charizard 001/025 Celebrations ARS 10 (JPN)",
@@ -15406,9 +15209,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-charmander-9-108-xy-evolutions-psa-10-copy",
    "listed": "2026-10-12",
-   "price": 249.0,
+   "price": 199.0,
    "post": 12.0,
-   "cost": 261.0,
+   "cost": 211.0,
    "grader": "PSA",
    "grade": "10",
    "jp": false,
@@ -15438,18 +15241,18 @@
    },
    "value": 233,
    "landed": 306,
-   "gap": 0.12,
+   "gap": -0.09,
    "thin": false,
-   "signal": "OVER-US"
+   "signal": "FAIR"
   },
   {
    "title": "Pokemon - Charmander 001/034 Classic Collection PSA 10",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-charmander-001-034-classic-collection-psa-10",
    "listed": "2026-10-12",
-   "price": 229.0,
+   "price": 169.0,
    "post": 12.0,
-   "cost": 241.0,
+   "cost": 181.0,
    "grader": "PSA",
    "grade": "10",
    "jp": false,
@@ -15478,9 +15281,9 @@
    },
    "value": 190,
    "landed": 258,
-   "gap": 0.27,
+   "gap": -0.05,
    "thin": false,
-   "signal": "OVER-US"
+   "signal": "FAIR"
   },
   {
    "title": "Pokemon - PSA 10 1st Edition Sabrina 20/132 Gym Challenge",
@@ -16148,7 +15951,7 @@
     "aud": 202.0,
     "country": "AU",
     "url": "https://www.ebay.com.au/itm/237143118171",
-    "copies": 17
+    "copies": 21
    },
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-japanese-promo/hoopa-155xy-p)"
@@ -16158,9 +15961,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-greninja-ex-090-066-psa-10",
    "listed": "2026-09-17",
-   "price": 849.0,
+   "price": 449.0,
    "post": 12.0,
-   "cost": 861.0,
+   "cost": 461.0,
    "grader": "PSA",
    "grade": "10",
    "jp": false,
@@ -16189,7 +15992,7 @@
    },
    "value": 341,
    "landed": 425,
-   "gap": 1.52,
+   "gap": 0.35,
    "thin": false,
    "signal": "OVER"
   },
@@ -16211,7 +16014,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=magneton+82+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 279.2,
+    "aud": 279.25,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/377641512852",
     "copies": 3
@@ -16742,9 +16545,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-10-mega-charizard-x-ex-110-080-inferno-x-japanese-1",
    "listed": "2026-08-22",
-   "price": 1299.0,
+   "price": 1099.0,
    "post": 12.0,
-   "cost": 1311.0,
+   "cost": 1111.0,
    "grader": "PSA",
    "grade": "10",
    "jp": true,
@@ -16755,7 +16558,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mega+charizard+ex+%28110%2F080%2C110%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 1261.69,
+    "aud": 1261.88,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/389416558808",
     "copies": 4
@@ -16779,9 +16582,9 @@
    },
    "value": 1018,
    "landed": 1170,
-   "gap": 0.29,
+   "gap": 0.09,
    "thin": false,
-   "signal": "OVER"
+   "signal": "OVER-US"
   },
   {
    "title": "Pokemon - PSA 10 JP Hop's Trevenant 204/193 Mega Dream",
@@ -16863,10 +16666,10 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=electrode+101+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 1018.85,
+    "aud": 1019.0,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/377622878621",
-    "copies": 4
+    "copies": 5
    },
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-jungle/electrode-101",
    "matched": "Electrode #101   Pokemon Japanese Jungle",
@@ -16930,7 +16733,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=magneton+82+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 279.2,
+    "aud": 279.25,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/377641512852",
     "copies": 3
@@ -17041,13 +16844,34 @@
    "signal": "OVER-US"
   },
   {
+   "title": "Pokemon - PSA 8 Mistys Seadra Holo #117 Japanese Gym",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-psa-8-misty-s-seadra-holo-117-japanese-gym",
+   "listed": "2026-08-20",
+   "price": 99.0,
+   "post": 12.0,
+   "cost": 111.0,
+   "grader": "PSA",
+   "grade": "8",
+   "jp": true,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=mistys+seadra+117+japanese&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=mistys+seadra+117+japanese&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=mistys+seadra+117+japanese&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mistys+seadra+117+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-japanese-leaders%27-stadium/misty%27s-tears)"
+  },
+  {
    "title": "Pokemon - PSA 10 Steelix 150/132 Mega Evolutions Base",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-10-steelix-150-132-mega-evolutions-base",
    "listed": "2026-08-20",
-   "price": 129.0,
+   "price": 99.0,
    "post": 12.0,
-   "cost": 141.0,
+   "cost": 111.0,
    "grader": "PSA",
    "grade": "10",
    "jp": false,
@@ -17077,30 +16901,9 @@
    },
    "value": 82,
    "landed": 139,
-   "gap": 0.72,
+   "gap": 0.35,
    "thin": false,
-   "signal": "OVER"
-  },
-  {
-   "title": "Pokemon - PSA 8 Mistys Seadra Holo #117 Japanese Gym",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-psa-8-misty-s-seadra-holo-117-japanese-gym",
-   "listed": "2026-08-20",
-   "price": 99.0,
-   "post": 12.0,
-   "cost": 111.0,
-   "grader": "PSA",
-   "grade": "8",
-   "jp": true,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=mistys+seadra+117+japanese&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=mistys+seadra+117+japanese&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=mistys+seadra+117+japanese&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mistys+seadra+117+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-japanese-leaders%27-stadium/misty%27s-tears)"
+   "signal": "OVER-US"
   },
   {
    "title": "Pokemon - PSA 8 Dark Vileplume Holo #45",
@@ -17183,46 +16986,6 @@
    "landed": 517,
    "gap": 0.2,
    "thin": false,
-   "signal": "OVER-US"
-  },
-  {
-   "title": "Pokemon PSA 10 Lucario EX 075/131 Premium Champion Pack Japanese",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-psa-10-lucario-ex-075-131-premium-champion-pack-japanese",
-   "listed": "2026-08-19",
-   "price": 339.0,
-   "post": 12.0,
-   "cost": 351.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": true,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=lucario+ex+%28075%2F131%2C75%2F131%2C75%29+japanese&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=lucario+ex+%28075%2F131%2C75%2F131%2C75%29+japanese&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=lucario+ex+%28075%2F131%2C75%2F131%2C75%29+japanese&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=lucario+ex+%28075%2F131%2C75%2F131%2C75%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-premium-champion-pack/m-lucario-ex-75?q=lucario+ex+075+premium+champion+pack+japanese",
-   "matched": "M Lucario EX #75   Pokemon Japanese Premium Champion Pack",
-   "aud": {
-    "raw": 41,
-    "g8": 30,
-    "g9": 98,
-    "g95": 108,
-    "g10": 347
-   },
-   "basis": {
-    "n90": 2,
-    "last": "2026-11-14",
-    "basis": "PriceCharting average",
-    "thin": true,
-    "grade": "PSA 10"
-   },
-   "value": 347,
-   "landed": 431,
-   "gap": 0.01,
-   "thin": true,
    "signal": "OVER-US"
   },
   {
@@ -18402,46 +18165,6 @@
    "signal": "OVER-US"
   },
   {
-   "title": "Pokemon - PSA 10 Claydol 092/086 Choas Rising",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-psa-10-claydol-092-086-choas-rising",
-   "listed": "2026-08-14",
-   "price": 79.0,
-   "post": 12.0,
-   "cost": 91.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=claydol+%28092%2F086%2C92%2F086%2C92%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=claydol+%28092%2F086%2C92%2F086%2C92%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=claydol+%28092%2F086%2C92%2F086%2C92%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=claydol+%28092%2F086%2C92%2F086%2C92%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "pc": "https://www.pricecharting.com/game/pokemon-chaos-rising/claydol-92",
-   "matched": "Claydol #92   Pokemon Chaos Rising",
-   "aud": {
-    "raw": 3,
-    "g8": 13,
-    "g9": 17,
-    "g95": 17,
-    "g10": 68
-   },
-   "basis": {
-    "n90": 30,
-    "last": "2026-11-15",
-    "basis": "90-day median",
-    "pc_avg": 45.48,
-    "grade": "PSA 10"
-   },
-   "value": 70,
-   "landed": 127,
-   "gap": 0.3,
-   "thin": false,
-   "signal": "OVER-US"
-  },
-  {
    "title": "Pokemon - PSA 10 Ethans Magcargo 222/217 Ascended Hereos",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-10-ethan-s-magcargo-222-217-ascended-hereos",
@@ -18862,9 +18585,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-bgs-7-5-blastoise-holo-2-102-base-set-unlimited",
    "listed": "2026-08-04",
-   "price": 499.0,
+   "price": 379.0,
    "post": 12.0,
-   "cost": 511.0,
+   "cost": 391.0,
    "grader": "BGS",
    "grade": "7.5",
    "jp": false,
@@ -19609,87 +19332,6 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-team-rocket/dark-charmeleon-w-stamp-32)"
   },
   {
-   "title": "Pokemon - PSA 10 Ditto 132/165 Masterball 151 (JPN)",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-psa-10-ditto-132-165-masterball-151-jpn",
-   "listed": "2026-07-08",
-   "price": 199.0,
-   "post": 12.0,
-   "cost": 211.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": true,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=ditto+%28132%2F165%2C132%29+japanese&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=ditto+%28132%2F165%2C132%29+japanese&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=ditto+%28132%2F165%2C132%29+japanese&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=ditto+%28132%2F165%2C132%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/ditto-master-ball-132?q=ditto+132+masterball+151+japanese",
-   "matched": "Ditto [Master Ball] #132   Pokemon Japanese Scarlet & Violet 151",
-   "aud": {
-    "raw": 31,
-    "g8": 39,
-    "g9": 56,
-    "g95": 61,
-    "g10": 171
-   },
-   "basis": {
-    "n90": 10,
-    "last": "2026-11-16",
-    "basis": "90-day median",
-    "pc_avg": 115.11,
-    "grade": "PSA 10"
-   },
-   "value": 165,
-   "landed": 231,
-   "gap": 0.28,
-   "thin": false,
-   "signal": "OVER-US"
-  },
-  {
-   "title": "Pokemon - PSA 10 Medicham V 186/203 Evolving Skies",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-medicham-v-186-203-evolving-skies",
-   "listed": "2026-07-08",
-   "price": 179.0,
-   "post": 12.0,
-   "cost": 191.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=medicham+%28186%2F203%2C186%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=medicham+%28186%2F203%2C186%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=medicham+%28186%2F203%2C186%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=medicham+%28186%2F203%2C186%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "pc": "https://www.pricecharting.com/game/pokemon-evolving-skies/medicham-v-186?q=medicham+v+186+evolving+skies",
-   "matched": "Medicham V #186   Pokemon Evolving Skies",
-   "aud": {
-    "raw": 25,
-    "g7": 23,
-    "g8": 27,
-    "g9": 36,
-    "g95": 40,
-    "g10": 119
-   },
-   "basis": {
-    "n90": 27,
-    "last": "2026-11-11",
-    "basis": "90-day median",
-    "pc_avg": 80.15,
-    "grade": "PSA 10"
-   },
-   "value": 122,
-   "landed": 183,
-   "gap": 0.57,
-   "thin": false,
-   "signal": "OVER"
-  },
-  {
    "title": "Pokemon - TAG 10 Mega Charizard X Ex 013/094 Phatasmal Flames",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-tag-10-mega-charizard-x-ex-013-094-phatasmal-flames",
@@ -19727,6 +19369,87 @@
    "landed": 180,
    "gap": 0.44,
    "thin": true,
+   "signal": "OVER-US"
+  },
+  {
+   "title": "Pokemon - PSA 10 Ditto 132/165 Masterball 151 (JPN)",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-psa-10-ditto-132-165-masterball-151-jpn",
+   "listed": "2026-07-08",
+   "price": 139.0,
+   "post": 12.0,
+   "cost": 151.0,
+   "grader": "PSA",
+   "grade": "10",
+   "jp": true,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=ditto+%28132%2F165%2C132%29+japanese&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=ditto+%28132%2F165%2C132%29+japanese&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=ditto+%28132%2F165%2C132%29+japanese&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=ditto+%28132%2F165%2C132%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/ditto-master-ball-132?q=ditto+132+masterball+151+japanese",
+   "matched": "Ditto [Master Ball] #132   Pokemon Japanese Scarlet & Violet 151",
+   "aud": {
+    "raw": 31,
+    "g8": 39,
+    "g9": 56,
+    "g95": 61,
+    "g10": 171
+   },
+   "basis": {
+    "n90": 10,
+    "last": "2026-11-16",
+    "basis": "90-day median",
+    "pc_avg": 115.11,
+    "grade": "PSA 10"
+   },
+   "value": 165,
+   "landed": 231,
+   "gap": -0.08,
+   "thin": false,
+   "signal": "FAIR"
+  },
+  {
+   "title": "Pokemon - PSA 10 Medicham V 186/203 Evolving Skies",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-medicham-v-186-203-evolving-skies",
+   "listed": "2026-07-08",
+   "price": 129.0,
+   "post": 12.0,
+   "cost": 141.0,
+   "grader": "PSA",
+   "grade": "10",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=medicham+%28186%2F203%2C186%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=medicham+%28186%2F203%2C186%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=medicham+%28186%2F203%2C186%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=medicham+%28186%2F203%2C186%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "pc": "https://www.pricecharting.com/game/pokemon-evolving-skies/medicham-v-186?q=medicham+v+186+evolving+skies",
+   "matched": "Medicham V #186   Pokemon Evolving Skies",
+   "aud": {
+    "raw": 25,
+    "g7": 23,
+    "g8": 27,
+    "g9": 36,
+    "g95": 40,
+    "g10": 119
+   },
+   "basis": {
+    "n90": 27,
+    "last": "2026-11-11",
+    "basis": "90-day median",
+    "pc_avg": 80.15,
+    "grade": "PSA 10"
+   },
+   "value": 122,
+   "landed": 183,
+   "gap": 0.16,
+   "thin": false,
    "signal": "OVER-US"
   },
   {
@@ -20033,9 +19756,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-10-gengar-ex-010-049-jpn-build-power-style",
    "listed": "2026-06-26",
-   "price": 899.0,
+   "price": 499.0,
    "post": 12.0,
-   "cost": 911.0,
+   "cost": 511.0,
    "grader": "PSA",
    "grade": "10",
    "jp": true,
@@ -20063,9 +19786,9 @@
    },
    "value": 742,
    "landed": 866,
-   "gap": 0.23,
+   "gap": -0.31,
    "thin": false,
-   "signal": "OVER"
+   "signal": "UNDER"
   },
   {
    "title": "Pokemon- Glumanda ( Charmander) 46/102 PSA 9 - 1st Edition (German)",
@@ -20352,9 +20075,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-cgc-10-mega-gardevoir-ex-178-132-mega-evolutions-copy",
    "listed": "2026-06-08",
-   "price": 99.0,
+   "price": 69.0,
    "post": 12.0,
-   "cost": 111.0,
+   "cost": 81.0,
    "grader": "PSA",
    "grade": "10",
    "jp": false,
@@ -20579,9 +20302,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-10-jpn-blaziken-101-098",
    "listed": "2026-05-30",
-   "price": 99.0,
+   "price": 69.0,
    "post": 12.0,
-   "cost": 111.0,
+   "cost": 81.0,
    "grader": "PSA",
    "grade": "10",
    "jp": true,
@@ -20611,9 +20334,9 @@
    },
    "value": 53,
    "landed": 107,
-   "gap": 1.09,
+   "gap": 0.53,
    "thin": false,
-   "signal": "OVER"
+   "signal": "OVER-US"
   },
   {
    "title": "Pokemon - PSA 10 - Team Rocket's Zapdos EB Games Promo",
@@ -20732,12 +20455,7 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=charizard+ex+%28234%2F091%2C234%29&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=charizard+ex+%28234%2F091%2C234%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": {
-    "aud": 410.0,
-    "country": "AU",
-    "url": "https://www.ebay.com.au/itm/366816417455",
-    "copies": 1
-   },
+   "live": null,
    "pc": "https://www.pricecharting.com/game/pokemon-paldean-fates/charizard-ex-234?q=charizard+ex+234",
    "matched": "Charizard ex #234   Pokemon Paldean Fates",
    "aud": {
@@ -20801,47 +20519,6 @@
    "signal": "OVER"
   },
   {
-   "title": "Pokemon - Wartortle - Base Set 2 - 63/130 - PSA 10 GEM MT",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-wartortle-base-set-2-63-130-psa-10-gem-mt",
-   "listed": "2026-05-11",
-   "price": 389.0,
-   "post": 12.0,
-   "cost": 401.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "pc": "https://www.pricecharting.com/game/pokemon-base-set-2/wartortle-w-stamp-63",
-   "matched": "Wartortle [W Stamp] #63   Pokemon Base Set 2",
-   "aud": {
-    "raw": 66,
-    "g7": 62,
-    "g8": 77,
-    "g9": 281,
-    "g95": 309,
-    "g10": 8164
-   },
-   "basis": {
-    "n90": 1,
-    "last": "2026-09-22",
-    "basis": "PriceCharting average",
-    "thin": true,
-    "grade": "PSA 10"
-   },
-   "value": 8164,
-   "landed": 9030,
-   "gap": -0.95,
-   "thin": true,
-   "signal": "UNDER"
-  },
-  {
    "title": "Pokemon - Squirtle - Base Set 2 - 93/130 - PSA 10 GEM MT",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-squirtle-base-set-2-93-130-psa-10-gem-mt",
@@ -20881,6 +20558,47 @@
    "gap": 0.06,
    "thin": false,
    "signal": "OVER-US"
+  },
+  {
+   "title": "Pokemon - Wartortle - Base Set 2 - 63/130 - PSA 10 GEM MT",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-wartortle-base-set-2-63-130-psa-10-gem-mt",
+   "listed": "2026-05-11",
+   "price": 299.0,
+   "post": 12.0,
+   "cost": 311.0,
+   "grader": "PSA",
+   "grade": "10",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "pc": "https://www.pricecharting.com/game/pokemon-base-set-2/wartortle-w-stamp-63",
+   "matched": "Wartortle [W Stamp] #63   Pokemon Base Set 2",
+   "aud": {
+    "raw": 66,
+    "g7": 62,
+    "g8": 77,
+    "g9": 281,
+    "g95": 309,
+    "g10": 8164
+   },
+   "basis": {
+    "n90": 1,
+    "last": "2026-09-22",
+    "basis": "PriceCharting average",
+    "thin": true,
+    "grade": "PSA 10"
+   },
+   "value": 8164,
+   "landed": 9030,
+   "gap": -0.96,
+   "thin": true,
+   "signal": "UNDER"
   },
   {
    "title": "Pokemon - Guzma STAFF - PSA 8 - 115a/147 Rev. Foil Regional Championships",
