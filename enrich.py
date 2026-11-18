@@ -33,6 +33,14 @@ SELL_KEEP = 0.87                 # share of the sale price kept after eBay fees
 SKIP_CC = {"US", "GB", "UK", "CA"}
 AUCTION_HOURS = 24               # auctions ending within this many hours are shown when the bid is well under value
 AUCTION_RATIO = 0.7              # ... at or under 70% of the card's value (landed, with GST)
+NEO_N = [("neo 1 ", "N1"), ("neo 2 ", "N2"), ("neo 3 ", "N3"), ("neo 4 ", "N4")]  # Japanese Neo sets as PSA labels name them
+
+
+def neo_n(t):
+    """"neo2" / "neo-2" -> "neo 2", so PSA-label style set names count."""
+    return re.sub(r"\bneo\s*-?\s*([1-4])\b", r"neo \1", t)
+
+
 POKEDEX_SETS = {"BS", "JU", "FO", "TR", "G1", "G2", "N1", "N2", "N3", "N4", "SI", "VS", "WEB"}  # numbered No.xxx in Japan
 CN_RAW_MIN = 0.6                 # raw cards from China under 60% of value: usually fakes, not highlighted
 SUSPECT_MIN = 3                  # a value is "suspect" when 3+ live copies sit 15%+ under it ...
@@ -84,6 +92,10 @@ class Values:
         if lang_of(title) == "JP":
             for n in re.findall(r"(?:#|\bno\.?\s*)0*(\d{1,3})\b", t, re.I):
                 out.add(f"No.{int(n)}")
+            # bare Pokedex number ("Houndoom Holo 229 Neo 2"), only when the title has no other card number:
+            # 3 digits, not part of 12/34, 9.5, a year or "pop 441"
+            for n in [] if out else re.findall(r"(?<![/\d.])(?<!pop )(?<!pop: )\b(\d{3})\b(?![/\d.])", t, re.I):
+                out.add(f"No.{int(n)}")
         return out
 
     @staticmethod
@@ -94,13 +106,14 @@ class Values:
         if not str(c.get("num", "")).startswith("No."):
             return True
         want = set_of(c["label"])
-        t = norm(title) + " "
-        named = {code for name, code in SETS if name in t and code in POKEDEX_SETS}
+        t = neo_n(norm(title)) + " "
+        named = {code for name, code in SETS + NEO_N if name in t and code in POKEDEX_SETS}
         return not (want and named and want not in named)
 
     @staticmethod
     def _score(tl, c):
         """How specifically the title names this card's set: longest matching key wins."""
+        tl = neo_n(tl)
         return max([len(k) for k in c["keys"] if k in tl] or [0])
 
     def find_slab(self, title):
@@ -114,7 +127,7 @@ class Values:
             for c in self.by.get(n, []):
                 if not c.get("slab") or c["lang"] != lang:
                     continue
-                if c["keys"] and not any(k in tl for k in c["keys"]):
+                if c["keys"] and not any(k in neo_n(tl) for k in c["keys"]):
                     continue
                 if not all(w in tl for w in c["words"]) or c["first"] != first or c["rev"] != rev or c["sl"] != sl:
                     continue
@@ -142,7 +155,7 @@ class Values:
             for c in self.by.get(n, []):
                 if c["lang"] != lang or g not in c["g"]:
                     continue
-                if c["keys"] and not any(k in tl for k in c["keys"]):
+                if c["keys"] and not any(k in neo_n(tl) for k in c["keys"]):
                     continue
                 if not all(w in tl for w in c["words"]):
                     continue
