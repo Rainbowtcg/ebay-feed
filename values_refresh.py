@@ -52,9 +52,15 @@ def main():
     rate, rate_src = usd_aud()
     today = date.today().isoformat()
     stale = (date.today() - timedelta(days=STALE_DAYS)).isoformat()
+    # values the last summary flagged as probably wrong (most live copies far under them) go first, even if recently checked
+    try:
+        sus = {c.get("id") for c in json.load(open(os.path.join(HERE, "values_suspect.json"), encoding="utf-8")).get("cards", [])}
+    except Exception:
+        sus = set()
     todo = [e for e in data["cards"] if e.get("lang") in ("EN", "JP") and AUTO_SRC.search(e.get("src", ""))
-            and e.get("checked", "") < stale]
-    todo.sort(key=lambda e: e.get("checked", ""))  # oldest first
+            and (e.get("checked", "") < stale or (e.get("id") in sus and e.get("checked", "") < today))]
+    todo.sort(key=lambda e: (e.get("id") not in sus, e.get("checked", "")))  # suspect first, then oldest first
+    hand = [e["label"] for e in data["cards"] if e.get("id") in sus and not AUTO_SRC.search(e.get("src", ""))]
     done, errors, checks = 0, [], []
     for e in todo[:MAX_REFRESH]:
         c = card_of(e)
@@ -94,6 +100,8 @@ def main():
     md = [f"# Card value refresh {today}", f"{done} cards refreshed at US$1 = A${rate}; {left} still due.", ""]
     if checks:
         md += ["## Big jumps not written (check the match)"] + checks + [""]
+    if hand:
+        md += ["## Flagged as probably wrong, but hand-researched (not refreshed automatically)"] + [f"- {h}" for h in hand] + [""]
     if errors:
         md += ["## Not found on PriceCharting"] + errors + [""]
     open(os.path.join(HERE, "values_check.md"), "w", encoding="utf-8").write("\n".join(md))

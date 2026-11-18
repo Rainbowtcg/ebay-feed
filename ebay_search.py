@@ -19,7 +19,9 @@ CATEGORY = "183454"  # CCG Individual Cards
 COUNTRIES = ["AU", "JP", "CN", "NZ", "HK", "SG", "KR"]
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-REPRINT = re.compile(r"celebrations?|classic collection|25th|30th|anniversary|evolutions|\bcp6\b|reprint|proxy|custom|fan ?art|orica|replica|metal card|gold (plated|metal)|digital|tcg ?live|code card|\bonline code", re.I)
+REPRINT = re.compile(r"celebrations?|classic collection|25th|30th|anniversary|evolutions|\bcp6\b|reprint|proxy|custom|fan ?art|orica|replica|metal card|gold (plated|metal)|digital|tcg ?live|code card|\bonline code"
+                     r"|fan[- ]?made|unofficial|hand[- ]?made|acrylic (card|stand|block|display|art)|key ?(chain|ring)|novelty|reproduction|\brepro\b|bootleg|\bfake\b(?! ?free)", re.I)
+# "fake" is skipped when it reads "not fake" / "no fakes" (sellers often promise that); see not_fake() below.
 MODERN = re.compile(r"\b(20(1[89]|2\d))\b|sword|shield|scarlet|violet|\bsv\d|\bswsh|vmax|vstar|\bv max\b|pokemon 151|obsidian|paldea|paradox|evolving skies|fusion strike|brilliant stars|astral radiance|lost origin|silver tempest|crown zenith|hidden fates|shining fates|team up|unbroken bonds|unified minds|cosmic eclipse|mega evolution|prismatic|surging sparks|stellar crown|temporal forces|twilight masquerade|journey together|destined rivals|white flare|black bolt", re.I)
 JUNK = re.compile(r"\blot\b|bundle|binder|sealed|booster|pack\b|box\b|tin\b|sleeve|playmat|case only|empty|choose|pick your|you pick|mystery|repack|graded card guaranteed", re.I)
 GRADE = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\s*-?\s*(10|9\.5|9)\b|gem ?mint|\bNM\b|near mint|mint", re.I)
@@ -36,6 +38,10 @@ NMWORD = re.compile(r"gem ?mint|\bNM\b|near mint|\bmint\b", re.I)
 # (seller condition notes, Card Condition field, description) and are tagged "damage" if it is mentioned.
 DEEP_MAX = int(os.environ.get("DEEP_MAX", "300"))   # item-page calls per run, keeps under eBay's 5,000/day
 DEEP_RATIO = float(os.environ.get("DEEP_RATIO", "0.6"))  # "suspiciously cheap" = under 60% of the card's median
+# eBay allows 5,000 calls a day. Searches stop at SEARCH_MAX so the page check always has calls left;
+# searches that didn't run keep yesterday's results (like a quota stop), and the summary says so.
+DAILY_CALLS = int(os.environ.get("DAILY_CALLS", "5000"))
+SEARCH_MAX = int(os.environ.get("SEARCH_MAX", str(DAILY_CALLS - DEEP_MAX - 50)))
 SLAB = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\b", re.I)
 STOP = set(("pokemon pokémon card cards tcg japanese japan english psa cgc bgs gem mint mt nm near holo rare promo the 1st edition ed graded jp jpn of in game "
              "base set jungle fossil team rocket gym heroes challenge neo genesis discovery revelation destiny expedition aquapolis skyridge "
@@ -64,6 +70,19 @@ PAWN_ERA = re.compile(r"\b(199[6-9]|200\d|201[0-7])\b|wotc|wizards|old back|vint
                       r"undaunted|unleashed|triumphant|call of legends|diamond|pearl|platinum|majestic dawn|great encounters|stormfront|"
                       r"rising rivals|supreme victors|arceus|black star|promo|pcg|generations|evolutions|xy\b|black.?white|\bbw\b|plasma|"
                       r"boundaries crossed|dragons exalted|legendary treasures|\bpsa\b|\bcgc\b|\bbgs\b", re.I)
+
+
+def trusted_sellers():
+    """trusted_sellers.txt: one eBay username per line (# comments allowed). Used by "@trusted" search lines."""
+    names = []
+    try:
+        for l in open(os.path.join(HERE, "trusted_sellers.txt"), encoding="utf-8"):
+            l = l.split("#")[0].strip()
+            if l:
+                names.append(l.lower())
+    except FileNotFoundError:
+        pass
+    return sorted(set(names))[:250]
 
 
 def pawn_sellers():
@@ -97,12 +116,20 @@ def search(tok, q, country, offset=0, limit=200, aspect=None, sellers=None):
         return json.load(r)
 
 
+NOT_FAKE = re.compile(r"\b(not|no|never|non)[- ]?(a )?fakes?\b|\bfakes? free|100% (genuine|authentic|real)", re.I)
+
+
+def reprint_hit(t):
+    """Reprint / fake / novelty words, ignoring sellers' "not fake" promises."""
+    return REPRINT.search(NOT_FAKE.sub(" ", t))
+
+
 def keep(title, modern_ok=False):
     # "+" want-list searches may keep XY Evolutions cards; every other reprint is still dropped.
     check = re.sub(r"\bevolutions\b", "", title, flags=re.I) if modern_ok else title
     # "+" want-list searches keep sealed single promos (still-sealed movie/campaign cards); boosters, boxes and lots stay out.
     junk_title = re.sub(r"\bsealed\b", "", title, flags=re.I) if modern_ok else title
-    if REPRINT.search(check) or JUNK.search(junk_title):
+    if reprint_hit(check) or JUNK.search(junk_title):
         return False
 
     if MODERN.search(title) and not modern_ok:
@@ -118,7 +145,7 @@ def keep_nm(title, modern_ok=False):
     """For listings eBay already filtered to Card Condition: Near Mint or Better. No grade word needed in the title."""
     check = re.sub(r"\bevolutions\b", "", title, flags=re.I) if modern_ok else title
     junk_title = re.sub(r"\bsealed\b", "", title, flags=re.I) if modern_ok else title
-    if REPRINT.search(check) or JUNK.search(junk_title):
+    if reprint_hit(check) or JUNK.search(junk_title):
         return False
     if PLAYED.search(title) and not modern_ok:
         return False
@@ -149,6 +176,11 @@ try:  # better "same card" test (number + set + variant + grade + language + nam
     from feedlib import card_key as _card_key2
 except Exception:
     _card_key2 = None
+try:
+    from feedlib import line_options
+except Exception:  # older feedlib: only @pawn is understood
+    def line_options(line):
+        return line.lstrip("+").replace("@pawn", "").strip(), ({"pawn": True} if "@pawn" in line else {})
 
 
 def card_key(title):
@@ -198,7 +230,7 @@ def aspects(item):
     return out
 
 
-def deep_check(tok, out):
+def deep_check(tok, out, limit=None):
     """Read the item page of listings far cheaper than the same card's other listings (raw and graded).
     Tags: damage (raw only), reprint (item specifics name a reprint set the title hides),
     grader (slab is from a different company than the title says, e.g. MNT 9 sold as "PSA 9")."""
@@ -220,7 +252,7 @@ def deep_check(tok, out):
                 cands.append((0 if str(x.get("query", "")).startswith("+") else 1, 1 if auc else 0, p / med, x))
     cands.sort(key=lambda c: c[:3])  # want-list first, Buy It Now before auctions, then cheapest against peers
     tagged, checked, calls = 0, 0, 0
-    for *_, x in cands[:DEEP_MAX]:
+    for *_, x in cands[:DEEP_MAX if limit is None else limit]:
         try:
             item = get_item(tok, x["id"])
             calls += 1
@@ -268,27 +300,42 @@ def main():
     queries = [l.strip() for l in open(os.path.join(HERE, "queries.txt"), encoding="utf-8") if l.strip() and not l.startswith("#")]
     tok = token(cid, secret)
     pawns = pawn_sellers()
-    print(f"pawn-shop sellers: {len(pawns)}")
+    trusted = trusted_sellers()
+    print(f"pawn-shop sellers: {len(pawns)}; trusted sellers: {len(trusted)}; search budget {SEARCH_MAX} calls")
     seen, out, calls = set(), [], 0
     stats = {}  # per search: [eBay returned, kept as new, already found by an earlier search, filtered out]
+    cstats = {}  # per search and country: new listings kept
+    budget_hit = False
     nm_fail, nm_found = 0, 0
     done, quota_hit, fails_in_row = set(), False, 0
     for q in queries:
-        if quota_hit:
+        if quota_hit or budget_hit:
             break
         # A "+" at the start marks a want-list search: modern (2018+) cards are kept for it.
         want = q.startswith("+")
-        is_pawn = "@pawn" in q
-        sq = q.lstrip("+").replace("@pawn", "").strip()
-        if is_pawn and not pawns:
+        sq, opts = line_options(q)
+        is_pawn, is_trusted = bool(opts.get("pawn")), bool(opts.get("trusted"))
+        sellers = pawns if is_pawn else trusted if is_trusted else None
+        if (is_pawn or is_trusted) and not sellers:
             continue
-        for c in (["AU"] if is_pawn else COUNTRIES):
+        if is_pawn:
+            countries = ["AU"]
+        elif is_trusted and not isinstance(opts.get("c"), list):
+            countries = ["JP"]  # the trusted sellers are Japan-based
+        elif isinstance(opts.get("c"), list):
+            countries = [c for c in opts["c"] if c in COUNTRIES] or COUNTRIES
+        else:
+            countries = COUNTRIES
+        for c in countries:
           # NM pass first, so listings the seller marked "Near Mint or Better" are recorded with nm=1
-          passes = ([NM_ASPECT] if NM_PASS and nm_fail < 5 else []) + [None]
-          pages = [(asp, off) for asp in passes for off in ([o * 200 for o in range(PAWN_PAGES)] if is_pawn else [0])]
+          passes = ([NM_ASPECT] if NM_PASS and nm_fail < 5 and not opts.get("nonm") and not is_trusted else []) + [None]
+          pages = [(asp, off) for asp in passes for off in ([o * 200 for o in range(PAWN_PAGES)] if sellers else [0])]
           for asp, off in pages:
+            if calls >= SEARCH_MAX:
+                budget_hit = True
+                break
             try:
-                res = search(tok, sq, c, offset=off, aspect=asp, sellers=pawns if is_pawn else None)
+                res = search(tok, sq, c, offset=off, aspect=asp, sellers=sellers)
                 calls += 1
                 fails_in_row = 0
             except Exception as e:  # keep going on one bad query
@@ -304,7 +351,10 @@ def main():
             for it in res.get("itemSummaries", []) or []:
                 iid = it.get("legacyItemId") or ((it.get("itemId") or "").split("|") + ["", ""])[1] or None
                 title = it.get("title", "")
-                ok = keep_nm(title, want) if asp else keep(title, want)
+                if is_trusted:  # trusted sellers' stock: no grade word needed, but hunted eras and not played
+                    ok = keep_nm(title, want) and bool(PAWN_ERA.search(title))
+                else:
+                    ok = keep_nm(title, want) if asp else keep(title, want)
                 if ok and is_pawn and not PAWN_ERA.search(title):
                     ok = False  # pawn shops: hunted eras only
                 st = stats.setdefault(q, [0, 0, 0, 0])
@@ -316,6 +366,8 @@ def main():
                     st[3] += 1
                     continue
                 st[1] += 1
+                cs_ = cstats.setdefault(q, {})
+                cs_[c] = cs_.get(c, 0) + 1
                 if asp:
                     nm_found += 1
                 seen.add(iid)
@@ -329,15 +381,17 @@ def main():
                     "seller": (it.get("seller") or {}).get("username"), "feedback": (it.get("seller") or {}).get("feedbackPercentage"),
                     "url": f"https://www.ebay.com.au/itm/{iid}", "query": q,
                     "nm": 1 if asp else 0,
-                    "flag": flag_for(title, asp),
+                    "flag": flag_for(title, asp or is_trusted),
                 })
             time.sleep(0.2)
-          if quota_hit:
+          if quota_hit or budget_hit:
               break
-        if not quota_hit:
+        if not quota_hit and not budget_hit:
             done.add(q)
+    if budget_hit:
+        print(f"search budget of {SEARCH_MAX} calls reached: {len(queries) - len(done)} searches keep yesterday's results", file=sys.stderr)
     carried = 0
-    if quota_hit:
+    if quota_hit or budget_hit:
         # don't wipe the feed with a half run: carry over the last full results for searches that didn't finish
         try:
             prev = json.load(open(os.path.join(HERE, "listings.json"), encoding="utf-8")).get("items", [])
@@ -347,15 +401,17 @@ def main():
             if x.get("query") not in done and x.get("id") not in seen:
                 seen.add(x.get("id")); out.append(dict(x, stale=1)); carried += 1
     if DEEP_MAX > 0 and not quota_hit:
-        out, deep_calls, _ = deep_check(tok, out)
+        out, deep_calls, _ = deep_check(tok, out, limit=max(0, min(DEEP_MAX, DAILY_CALLS - calls - 20)))
         calls += deep_calls
     out.sort(key=lambda x: (x["country"] != "AU", x["country"] != "JP", x["country"] != "CN", x["title"]))
     meta = {"generated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(out), "calls": calls,
             "damaged_flagged": sum(1 for x in out if str(x.get("flag", "")).startswith("damage")),
             "unverified": sum(1 for x in out if x.get("flag") == "unverified"),
             "searches_done": f"{len(done)}/{len(queries)}", "carried_over": carried,
+            "budget_stop": budget_hit,
             "pawn_sellers": sorted(set(pawns) | {str(x.get("seller")).lower() for x in out if x.get("seller") and PAWN_RX.search(str(x.get("seller")))}),
-            "query_stats": {q: dict(zip(("returned", "new", "dupes", "filtered"), stats.get(q, [0, 0, 0, 0]))) for q in queries},
+            "query_stats": {q: dict(zip(("returned", "new", "dupes", "filtered"), stats.get(q, [0, 0, 0, 0])), by_country=cstats.get(q, {}),
+                                ran=q in done) for q in queries},
             "note": "Pre-filtered by title and eBay Card Condition. Cheap raw outliers had their item page read (checked=1); others still need a look before buying."}
     with open(os.path.join(HERE, "listings.json"), "w", encoding="utf-8") as f:
         json.dump({**meta, "items": out}, f, ensure_ascii=False, indent=1)

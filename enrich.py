@@ -16,15 +16,27 @@ try:
     SYD = ZoneInfo("Australia/Sydney")
 except Exception:  # pragma: no cover
     SYD = timezone(timedelta(hours=11))
-from feedlib import categories, QueryMatcher, card_key, grade_of, land_aud, lang_of, norm, REPRINT, VARIANTS
+from feedlib import categories, QueryMatcher, card_key, grade_of, land_aud, lang_of, norm, set_of, SETS, REPRINT, VARIANTS
+try:
+    from feedlib import landed_aud
+except Exception:  # older feedlib: no GST
+    def landed_aud(it, p=None):
+        return land_aud(it) if p is None else p
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 KEEP_DAYS = 30
 PAWN_CAT = "Pawn shops"          # heading in queries.txt; also every listing from a pawn_sellers seller
+TRUSTED_CAT = "Trusted sellers"  # heading in queries.txt; also every listing from a trusted_sellers.txt seller
 SLAB_CAT = "Slab plays"          # played raw copies of cards whose low-grade slabs sell for more than raw + grading
 GRADE_COST = 70                  # A$ per card to grade (PSA via an AU submitter, value tiers)
 SELL_KEEP = 0.87                 # share of the sale price kept after eBay fees
 SKIP_CC = {"US", "GB", "UK", "CA"}
+AUCTION_HOURS = 24               # auctions ending within this many hours are shown when the bid is well under value
+AUCTION_RATIO = 0.7              # ... at or under 70% of the card's value (landed, with GST)
+POKEDEX_SETS = {"BS", "JU", "FO", "TR", "G1", "G2", "N1", "N2", "N3", "N4", "SI", "VS", "WEB"}  # numbered No.xxx in Japan
+CN_RAW_MIN = 0.6                 # raw cards from China under 60% of value: usually fakes, not highlighted
+SUSPECT_MIN = 3                  # a value is "suspect" when 3+ live copies sit 15%+ under it ...
+SUSPECT_MED = 0.75               # ... and the typical (median) live copy is under 75% of it
 MODERN = re.compile(r'\b(2019|202\d)\b|\b151\b|\bsar\b|\bsir\b|\bsv\d|scarlet|violet|vmax|vstar|master ball'
                     r'|\b(sv\d*[a-z]?|s\d{1,2}[a-z]|m\d[a-z]|sm(1[0-2]|[5-9])[a-z]?|swsh\d*)\b|mega dream|phantasmal|sword|shield', re.I)
 SV_MEP = re.compile(r"\b(sv-?p|svp|m-?p|mep)\b|black star promo.*\b(sv|mega)\b", re.I)   # hidden on the finder by default too
@@ -74,12 +86,30 @@ class Values:
                 out.add(f"No.{int(n)}")
         return out
 
+    @staticmethod
+    def _fits_set(title, c):
+        """Japanese vintage cards are numbered by Pokédex number (No.229), so the same number is in several sets.
+        False when such a title names one of those sets but not the value card's set (Neo Discovery vs Neo Revelation,
+        Erika's Ivysaur Gym Challenge vs Base Set Ivysaur). Cards numbered 4/102 etc. are left alone."""
+        if not str(c.get("num", "")).startswith("No."):
+            return True
+        want = set_of(c["label"])
+        t = norm(title) + " "
+        named = {code for name, code in SETS if name in t and code in POKEDEX_SETS}
+        return not (want and named and want not in named)
+
+    @staticmethod
+    def _score(tl, c):
+        """How specifically the title names this card's set: longest matching key wins."""
+        return max([len(k) for k in c["keys"] if k in tl] or [0])
+
     def find_slab(self, title):
         """Slab-play entry for a raw copy in any condition: the card's low-grade and PSA 7 sale prices."""
         if REPRINT.search(title) or SLAB.search(re.sub(r"\b(psa|cgc|bgs)\s*\d*\s*(contender|candidate|worthy|ready|potential)\b", "", title, flags=re.I)):
             return None
         tl, lang = norm(title), lang_of(title)
         first, rev, sl = bool(FIRST.search(title)), bool(REV.search(title)), "shadowless" in tl
+        best = []
         for n in self.nums(title):
             for c in self.by.get(n, []):
                 if not c.get("slab") or c["lang"] != lang:
@@ -92,8 +122,10 @@ class Values:
                     continue
                 if {m.lower() for m in ODD.findall(title)} != {m.lower() for m in ODD.findall(c["label"])}:
                     continue
-                return c
-        return None
+                if not self._fits_set(title, c):
+                    continue
+                best.append((self._score(tl, c), c))
+        return max(best, key=lambda b: b[0])[1] if best else None
 
     def find(self, title, nm=False):
         if REPRINT.search(title):
@@ -105,6 +137,7 @@ class Values:
             return None
         tl, lang = norm(title), lang_of(title)
         first, rev, sl = bool(FIRST.search(title)), bool(REV.search(title)), "shadowless" in tl
+        best = []
         for n in self.nums(title):
             for c in self.by.get(n, []):
                 if c["lang"] != lang or g not in c["g"]:
@@ -119,8 +152,13 @@ class Values:
                     continue  # Dark / Light / Shining Houndoom are different cards from Houndoom
                 if {m.lower() for m in ODD.findall(title)} != {m.lower() for m in ODD.findall(c["label"])}:
                     continue  # promo / premium file / vending / deck printings are different cards from the set card
-                return c, g, c["g"][g]
-        return None
+                if not self._fits_set(title, c):
+                    continue  # same number, different set (Japanese No.229 Houndoom is in Neo 2 and Neo 3)
+                best.append((self._score(tl, c), c))
+        if not best:
+            return None
+        c = max(best, key=lambda b: b[0])[1]
+        return c, g, c["g"][g]
 
 
 # ---------------------------------------------------------------- main
@@ -137,8 +175,12 @@ def main():
     cats = [SLAB_CAT] + [c for c in dict.fromkeys(c for _, c in qcat) if c != SLAB_CAT]
     want_cat = {c: any(q.startswith("+") for q, cc in qcat if cc == c) for c in cats}
     want_cat[SLAB_CAT] = True
-    qm = QueryMatcher([q for q, _ in qcat if "@pawn" not in q])
+    qm = QueryMatcher([q for q, _ in qcat if "@pawn" not in q and "@trusted" not in q])  # seller-only lines match any title
     pawn_set = {str(n).lower() for n in L.get("pawn_sellers", [])}
+    try:
+        trusted_set = {l.split("#")[0].strip().lower() for l in open(P("trusted_sellers.txt"), encoding="utf-8")} - {""}
+    except Exception:
+        trusted_set = set()
 
     items = [dict(x, shop=0) for x in L.get("items", [])] + [dict(x, shop=1) for x in S.get("items", []) if x.get("available", True)]
     ids = H.get("ids", {})
@@ -190,6 +232,30 @@ def main():
         if k:
             live_n[k] = live_n.get(k, 0) + 1
 
+    # 1b. card values for every live listing, and values that look wrong
+    # (many live copies far "under" a value usually means the value or the match is off, not that they're all bargains)
+    gen = L.get("generated")
+    try:
+        now = datetime.fromisoformat(str(gen).replace("Z", "+00:00"))
+    except Exception:
+        now = datetime.now(timezone.utc)
+    vals, groups = {}, {}
+    for i, x in cur.items():
+        val = V.find(x.get("title", ""), x.get("nm") == 1)
+        vals[i] = val
+        if val and "AUCTION" not in (x.get("options") or []) and x.get("country") not in SKIP_CC and not x.get("flag"):
+            groups.setdefault((val[0].get("id") or val[0]["label"], val[1]), []).append(
+                (landed_aud(x, ids[i]["p"]) / val[2], str(x.get("seller") or ""), i))
+    suspect = {}
+    for (vid, g), rs in groups.items():
+        under = [r for r in rs if r[0] <= 0.85]
+        med = sorted(r[0] for r in rs)[len(rs) // 2]
+        if len(under) >= SUSPECT_MIN and med <= SUSPECT_MED:
+            c = vals[rs[0][2]][0]
+            suspect[(vid, g)] = {"label": c["label"], "grade": g, "value": c["g"][g], "copies": len(rs), "under": len(under),
+                                 "sellers": len({r[1] for r in rs}), "median_ratio": round(med, 2), "src": c.get("src", ""),
+                                 "pc": c.get("pc", ""), "id": vid}
+
     # 2. per-listing extras + categories
     X, digest = {}, {c: {"cat": c, "want": want_cat[c], "total": 0, "new": 0, "drops": 0, "relisted": 0, "under": 0, "hi": []} for c in cats}
     digest["Other"] = {"cat": "Not in a category", "want": False, "total": 0, "new": 0, "drops": 0, "relisted": 0, "under": 0, "hi": []}
@@ -199,14 +265,24 @@ def main():
         cs = list(dict.fromkeys(([cat_of_q[x["query"]]] if x.get("query") in cat_of_q else []) + [cat_of_q[q] for q in qm.matches(t)]))
         if PAWN_CAT in cats and str(x.get("seller") or "").lower() in pawn_set:
             cs = list(dict.fromkeys(cs + [PAWN_CAT]))   # anything a pawn shop lists, whichever search found it
+        if TRUSTED_CAT in cats and str(x.get("seller") or "").lower() in trusted_set:
+            cs = list(dict.fromkeys(cs + [TRUSTED_CAT]))
         auc = "AUCTION" in (x.get("options") or [])
-        val = V.find(t, x.get("nm") == 1)
+        val = vals.get(i)
         p = r["p"]
+        pl = landed_aud(x, p)        # with GST on overseas items: what it really costs delivered
         new = had_before and r["f"] == today and not r.get("re")
         drop = r.get("pp") and p <= r["pp"] * 0.95 and r["pp"] - p >= 2
         k = r.get("k")
         lowest = bool(k and not auc and seen_n.get(k, 0) >= 3 and p <= low.get(k, 0) + 0.01)
-        ratio = round(p / val[2], 3) if val else None
+        ratio = round(pl / val[2], 3) if val else None
+        sus = suspect.get((val[0].get("id") or val[0]["label"], val[1])) if val else None
+        hours = None
+        if auc and x.get("ends"):
+            try:
+                hours = (datetime.fromisoformat(str(x["ends"]).replace("Z", "+00:00")) - now).total_seconds() / 3600
+            except Exception:
+                hours = None
         slab, slab_why = None, ""
         flag = str(x.get("flag") or "")
         if not auc and x.get("country") not in SKIP_CC and not flag.startswith(("reprint", "grader")):
@@ -241,10 +317,20 @@ def main():
         if p > 1000 and SLAB.search(t):
             continue
         reason, pri, score = None, 9, 0
+        gst = " incl. GST" if pl > p else ""
         if ratio is not None and ratio < 0.4:
             pass  # far too cheap for the card: nearly always a reprint, fake, wrong version or played copy; not a highlight
+        elif ratio is not None and ratio < CN_RAW_MIN and x.get("country") == "CN" and val[1] == "Raw":
+            pass  # raw cards from China far under value: usually fakes
+        elif ratio is not None and ratio <= 0.85 and not auc and sus:
+            reason, pri, score = (f"{round((1 - ratio) * 100)}% under A${val[2]:,} value{gst} — but {sus['under']} of {sus['copies']} live copies are "
+                                  f"too, so the value may be wrong ({val[1]})"), 3, ratio
         elif ratio is not None and ratio <= 0.85 and not auc:
-            reason, pri, score = f"{round((1 - ratio) * 100)}% under A${val[2]:,} value ({val[1]}, {val[0]['src'].split('(')[0].strip()})", 0, ratio
+            reason, pri, score = f"{round((1 - ratio) * 100)}% under A${val[2]:,} value{gst} ({val[1]}, {val[0]['src'].split('(')[0].strip()})", 0, ratio
+        elif (ratio is not None and auc and hours is not None and 0 < hours <= AUCTION_HOURS and ratio <= AUCTION_RATIO
+              and not sus and not (x.get("country") == "CN" and val[1] == "Raw" and ratio < CN_RAW_MIN)):
+            reason, pri, score = (f"auction ends in {hours:.0f}h: A${pl:,.0f}{gst} now, {round((1 - ratio) * 100)}% under A${val[2]:,} value "
+                                  f"({val[1]}; {x.get('bids') or 0} bids)"), 1, ratio
         elif drop:
             reason, pri, score = f"price dropped A${r['pp']:,.0f} → A${p:,.0f}", 1, p / r["pp"]
         elif new and lowest:
@@ -257,7 +343,7 @@ def main():
             d["new"] += bool(new)
             d["drops"] += bool(drop)
             d["relisted"] += bool(r.get("re"))
-            d["under"] += bool(ratio is not None and 0.4 <= ratio <= 0.85 and not auc)
+            d["under"] += bool(ratio is not None and 0.4 <= ratio <= 0.85 and not auc and not sus)
             if reason:
                 d["hi"].append((pri, score, p, {"id": i, "t": t[:90], "p": p, "cc": x.get("country") or "", "seller": x.get("seller") or "",
                                                 "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "why": reason, "auc": auc}))
@@ -270,8 +356,12 @@ def main():
     json.dump({"day": today, "cats": cats + ["Other"], "x": X}, open(P("enrich.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     tot = {"listings": len(cur), "new": sum(1 for v in X.values() if "n" in v[7]), "drops": sum(1 for v in X.values() if "d" in v[7]),
            "relisted": sum(1 for v in X.values() if "r" in v[7]), "valued": sum(1 for v in X.values() if v[5])}
+    sus_list = sorted(suspect.values(), key=lambda v: -v["value"])
     json.dump({"day": today, "generated": L.get("generated"), "totals": tot, "first_day": not had_before,
-               "categories": [digest[c] for c in order]}, open(P("digest.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+               "categories": [digest[c] for c in order], "suspect_values": sus_list},
+              open(P("digest.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    # values_refresh.py re-reads these cards' PriceCharting pages first on the next run
+    json.dump({"day": today, "cards": sus_list}, open(P("values_suspect.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
     md = [f"# Slab Finder summary {today}",
           f"{tot['listings']:,} live listings · {tot['new']:,} new · {tot['drops']:,} price drops · {tot['relisted']:,} relisted · {tot['valued']:,} with a card value",
@@ -281,6 +371,13 @@ def main():
         md.append(f"## {c}{' (want list)' if d['want'] else ''} — {d['total']:,} listings, {d['new']} new, {d['drops']} drops, {d['under']} under value")
         for h in d["hi"][:5]:
             md.append(f"- A${h['p']:,.0f} {h['t']} ({h['cc']}, {h['seller']}{', auction' if h['auc'] else ''}): {h['why']} {h['url']}")
+        md.append("")
+    if sus_list:
+        md.append(f"## Values to recheck — {len(sus_list)}")
+        md.append("Most live copies sit well under these values, so the value or the card match is probably off. Not counted as under value.")
+        for v in sus_list[:15]:
+            md.append(f"- {v['label']} {v['grade']}: A${v['value']:,} value; {v['under']} of {v['copies']} copies under it "
+                      f"({v['sellers']} seller{'s' if v['sellers'] != 1 else ''}, typical copy {round(v['median_ratio'] * 100)}% of value)")
         md.append("")
     open(P("digest.md"), "w", encoding="utf-8").write("\n".join(md))
     print(f"enrich: {tot}; {len(ids)} listings in 30-day history; {len(order)} categories")

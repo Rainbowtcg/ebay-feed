@@ -7,13 +7,19 @@
 # "# ---------- Name ----------" lines are the categories the finder and the daily summary group cards by.
 # A listing is filed under every category whose searches fit its title, not just the search that found it.
 # Keep the "BW / Plasma-era secret rares" heading as it is: the NM alert reads it.
+# Options at the end of a line (not searched for):
+#   @c=AU,JP   only search these countries (saves 2 calls a day per country left out)
+#   @nonm      skip the extra "Near Mint or Better" pass (halves the calls)
+#   @pawn      only the pawn-shop sellers (AU)      @trusted   only the sellers in trusted_sellers.txt
+# queries_report.md (daily) lists searches that find nothing, and countries that never find anything for a line.
+# Removed 19 Nov 2026 (every result was already found by other searches): expedition reverse holo psa, e-series cgc,
+#   GL holo psa, prime near mint, and the three named-Prime lines.
 
 # ---------- e-Card era ----------
 pokemon expedition holo psa 9
 pokemon expedition holo psa 10
 pokemon expedition (cgc,bgs) holo
 pokemon expedition holo near mint
-pokemon expedition reverse holo psa
 pokemon aquapolis holo psa
 pokemon aquapolis crystal
 pokemon aquapolis holo near mint
@@ -22,7 +28,6 @@ pokemon skyridge crystal
 pokemon skyridge holo near mint
 pokemon legendary collection holo psa
 pokemon legendary collection reverse holo
-pokemon e-series (expedition,aquapolis,skyridge) cgc
 pokemon japanese (e-series,"e series",e-card) 1st edition psa
 pokemon japanese ("split earth","mysterious mountains","wind from the sea","town on no map","base expansion pack") holo
 pokemon japanese crystal holo (psa,cgc) 1st edition
@@ -73,18 +78,13 @@ pokemon mew ex holon phantoms
 +pokemon lv.x holo near mint
 +pokemon japanese lv.x 1st edition psa
 pokemon raichu lv.x stormfront
-pokemon gl holo (rising rivals,supreme victors,platinum) psa
 pokemon japanese gl 1st edition psa
 
 # ---------- HGSS & Prime ----------
 +pokemon heartgold soulsilver holo psa
 pokemon prime holo psa (heartgold,soulsilver,unleashed,undaunted,triumphant,"call of legends") -primeape
-pokemon prime holo near mint (unleashed,undaunted,triumphant) -primeape
 pokemon prime cgc (unleashed,undaunted,triumphant) -primeape
-pokemon (umbreon,espeon,raichu,scizor,slowking,houndoom) prime undaunted
 pokemon (celebi,absol,mew,gengar) prime triumphant
-pokemon (kingdra,tyranitar,crobat,steelix) prime unleashed
-pokemon (feraligatr,typhlosion,meganium) prime heartgold
 pokemon call of legends shiny holo psa
 +pokemon japanese (l1,l2,l3,"heartgold collection","soulsilver collection","reviving legends","clash at the summit") 1st edition holo psa
 
@@ -139,30 +139,34 @@ pokemon japanese holo near mint 1996
 
 # ---------- Misspellings ----------
 # Grouped so one line covers several spellings. Results still need a grade or NM/mint in the title.
-(charzard,charizzard,charizad,charazard,charzad,chairzard,charizrd,charizar) holo
-(blastiose,blastoice,blastois,blastose,blastios,blastoies) holo
-(venasaur,venusuar,venusour,venasuar,venusar,venesaur) holo
-(pokeman,pokemom,pokmon,pokemn,pokemen,pokeomn,pokemone) holo (psa,cgc,bgs,"near mint")
-(pikachew,pickachu,pikchu,pikacu,picachu,pikachue) (psa,cgc,promo,holo)
-(mewto,mewtoo,mewtow,mewtwoo,mewtu) holo
-(genger,gengr,gangar) holo
-(luiga,lugai,lugea) holo
-(umbrion,umbreeon,umbrean,espion,esspeon,espeeon) (holo,ex,gx)
-(rayquasa,rayqauza,rayquaze,raquaza,rayqaza,rayquazza) (holo,ex)
-(gyrados,gyarodos,garados,dragonight,dragnite,dragonit) holo
-(alakazan,alakasam,alakazm,gardavoir,gardevior,gardevoire,gardivoir) (holo,ex)
-(sceptyle,septile,feraligator,feraligater,typhlosian,typhlossion,meganuim) holo
-(tyrannitar,tyranitor,houndoon,hondoom,sucuine,suicun,raikuo,entie) holo
-(celibi,celebie,jiarachi,jirache,deoxis,latais,latos,sycther,scythr) holo
-(flarion,sylvion,artikuno,articono,zapados,moltress,molters) (holo,ex)
-pokemon (expidition,expedtion,expeditoin,expediton,"expidition base") holo
-pokemon (aquapolice,aqupolis,aquapollis,aquopolis,aquaplis) holo
-pokemon ("sky ridge",skyrige,"sky-ridge",skyrdge,skyrigde) holo
-pokemon ("dragon frontier","dragon fronteirs","holon phantom","holon phantems",delta-species) holo
-pokemon (shadowles,shaddowless,shadowlees,"shadow less") holo
-pokemon (evolutons,evoultions,evolutoins,"generation radiant","radiant colection") (psa,"near mint")
-pokemon (japanesse,japenese,japaneese,jappanese) holo (psa,"1st edition","near mint")
-pokemon ("gem mnt","gem mt 10","psa10","psa 1o","mint 1o") holo -"psa 9"
+(charzard,charizzard,charizad,charazard,charzad,chairzard,charizrd,charizar) holo @c=AU,NZ,JP,HK
+(blastiose,blastoice,blastois,blastose,blastios,blastoies) holo @c=AU,NZ,JP,HK
+(venasaur,venusuar,venusour,venasuar,venusar,venesaur) holo @c=AU,NZ,JP,HK
+(pokeman,pokemom,pokmon,pokemn,pokemen,pokeomn,pokemone) holo (psa,cgc,bgs,"near mint") @c=AU,NZ,JP,HK
+(pikachew,pickachu,pikchu,pikacu,picachu,pikachue) (psa,cgc,promo,holo) @c=AU,NZ,JP,HK
+(mewto,mewtoo,mewtow,mewtwoo,mewtu) holo @c=AU,NZ,JP,HK
+(genger,gengr,gangar) holo @c=AU,NZ,JP,HK
+(luiga,lugai,lugea) holo @c=AU,NZ,JP,HK
+(umbrion,umbreeon,umbrean,espion,esspeon,espeeon) (holo,ex,gx) @c=AU,NZ,JP,HK
+(rayquasa,rayqauza,rayquaze,raquaza,rayqaza,rayquazza) (holo,ex) @c=AU,NZ,JP,HK
+(gyrados,gyarodos,garados,dragonight,dragnite,dragonit) holo @c=AU,NZ,JP,HK
+(alakazan,alakasam,alakazm,gardavoir,gardevior,gardevoire,gardivoir) (holo,ex) @c=AU,NZ,JP,HK
+(sceptyle,septile,feraligator,feraligater,typhlosian,typhlossion,meganuim) holo @c=AU,NZ,JP,HK
+(tyrannitar,tyranitor,houndoon,hondoom,sucuine,suicun,raikuo,entie) holo @c=AU,NZ,JP,HK
+(celibi,celebie,jiarachi,jirache,deoxis,latais,latos,sycther,scythr) holo @c=AU,NZ,JP,HK
+(flarion,sylvion,artikuno,articono,zapados,moltress,molters) (holo,ex) @c=AU,NZ,JP,HK
+pokemon (expidition,expedtion,expeditoin,expediton,"expidition base") holo @c=AU,NZ,JP,HK
+pokemon (aquapolice,aqupolis,aquapollis,aquopolis,aquaplis) holo @c=AU,NZ,JP,HK
+pokemon (skyrige,skyrdge,skyrigde,skyrdige,skiridge) holo @c=AU,NZ,JP,HK
+pokemon ("dragon fronteirs","dragon fronters","holon phantems","holon phantum",delta-specie) holo @c=AU,NZ,JP,HK
+pokemon (shadowles,shaddowless,shadowlees,shadowlesss) holo @c=AU,NZ,JP,HK
+pokemon (evolutons,evoultions,evolutoins,"generation radiant","radiant colection") (psa,"near mint") @c=AU,NZ,JP,HK
+pokemon (japanesse,japenese,japaneese,jappanese) holo (psa,"1st edition","near mint") @c=AU,NZ,JP,HK
+pokemon ("gem mnt","psa 1o","mint 1o","gem mnit") holo -"psa 9" @c=AU,NZ,JP,HK
+# ---------- Trusted sellers ----------
+# Whole stock of the sellers in trusted_sellers.txt (Japan, 99.5%+ feedback); era-checked, no grade word needed.
+pokemon holo @trusted
+pokemon (psa,cgc,bgs,1st,promo) @trusted
 # ---------- Undaunted reverse & Scyther ----------
 +pokemon undaunted reverse holo psa
 +pokemon undaunted reverse holo near mint

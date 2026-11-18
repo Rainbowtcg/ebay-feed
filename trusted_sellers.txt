@@ -1,0 +1,43 @@
+# Trusted sellers for "@trusted" lines in queries.txt: their whole stock is searched (no grade word needed),
+# so badly titled listings are found too. Japan-based, 99.5%+ feedback, 40+ listings in the feed, few damaged.
+# One eBay username per line; add or remove freely (max 250).
+japancultureshop888
+actionfiguresjapan
+mayumi_card_shop
+sho_store_jp
+super10_collectors
+mercuriusjapan
+tokyowaves
+bespread.japan
+japan_qol_trade
+vibejp
+gakujinn
+totoriri
+mamosubb
+ryosuke0619
+onigiriselectjapan
+otorio_shop
+edoniajapan
+loco_base_japan
+japancard_6
+nipponroots
+light-sunny-jp
+kura-shuto-japan
+i3-japan
+imax-64
+qbks_89
+pokemon-japan-igu-54
+merry_tcg
+japansh_0
+japan_world_shop
+pokemonpuddle
+kj_store_jp
+maisondebelle
+fast-parts-japan
+chikapy-2
+selectshop.japan
+japan-daisuki
+japan_eastwind_trading
+wa-yashop
+e-life_japan
+japan.harbor

@@ -72,9 +72,26 @@ def _tokens(q):
             j = i
             while j < len(q) and not q[j].isspace():
                 j += 1
-            toks.append((neg, [q[i:j]]))
+            if not q[i:j].startswith("@"):  # @pawn, @trusted, @c=AU,JP, @nonm are run options, not title words
+                toks.append((neg, [q[i:j]]))
             i = j
     return toks
+
+
+def line_options(line):
+    """Split a queries.txt line into (eBay search text, options). Options are the @words:
+    @pawn     run against the pawn-shop sellers only (AU)
+    @trusted  run against the sellers in trusted_sellers.txt only
+    @c=AU,JP  run only in these countries instead of all of them
+    @nonm     skip the extra "Near Mint or Better" pass (halves the calls)"""
+    opts, words = {}, []
+    for w in line.lstrip("+").split():
+        if w.startswith("@"):
+            k, _, v = w[1:].partition("=")
+            opts[k.lower()] = [c.strip().upper() for c in v.split(",") if c.strip()] if v else True
+        else:
+            words.append(w)
+    return " ".join(words), opts
 
 
 def _alt_rx(a):
@@ -223,6 +240,18 @@ def card_key(title):
         var = (var + "+reprint").strip("+")
     g = grade_of(title) or "raw?"
     return "|".join((n, set_of(title), var, g, lang_of(title), name_word(title)))
+
+
+GST = 0.10        # eBay adds 10% GST at checkout on items from overseas sellers up to A$1,000
+GST_MAX = 1000
+
+
+def landed_aud(it, p=None):
+    """What it costs delivered to Australia: price + postage, plus GST on overseas items up to A$1,000."""
+    p = land_aud(it) if p is None else p
+    if (it.get("country") or "AU") != "AU" and 0 < p <= GST_MAX:
+        return round(p * (1 + GST), 2)
+    return p
 
 
 def land_aud(it):
