@@ -33,6 +33,9 @@ jobs:
       - name: Price guide (PriceCharting)
         continue-on-error: true
         run: python pc_prices.py
+      - name: Search report (which searches find nothing)
+        continue-on-error: true
+        run: python query_report.py
       - name: Build finder feed
         continue-on-error: true
         run: python build_feed.py listings.json feed.js - stores.json
@@ -41,7 +44,7 @@ jobs:
           git config user.name "ebay-feed-bot"
           git config user.email "ebay-feed-bot@users.noreply.github.com"
           git add listings.json listings.csv
-          for f in stores.json feed.js history.json digest.json digest.md guide.json megacash.json megacash.md mc_cache.json values.json values_check.md; do if [ -f "$f" ]; then git add "$f"; fi; done
+          for f in stores.json feed.js history.json digest.json digest.md guide.json megacash.json megacash.md mc_cache.json values.json values_check.md values_suspect.json query_history.json queries_report.md; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --cached --quiet || git commit -m "eBay feed $(date -u +%F)"
           git push
       - name: Refresh the finder's copy
