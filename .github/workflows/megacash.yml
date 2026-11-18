@@ -1,0 +1,31 @@
+name: Price refresh
+on:
+  workflow_dispatch: {}   # run by hand: refreshes every card value and prices the Mega Cash stock now (no eBay calls); the feed picks up the new values at its next daily run
+permissions:
+  contents: write
+jobs:
+  price:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh card values
+        continue-on-error: true
+        env:
+          VALUES_MAX: "600"
+        run: python values_refresh.py
+      - name: Price shop cards
+        env:
+          MC_MAX_LOOKUPS: "700"
+        run: python megacash_prices.py
+      - name: Save
+        run: |
+          git config user.name "price-guide-bot"
+          git config user.email "actions@users.noreply.github.com"
+          for f in values.json values_check.md megacash.json megacash.md mc_cache.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          git diff --cached --quiet || git commit -m "Price refresh $(date -u +%F)"
+          git pull --rebase || true
+          git push

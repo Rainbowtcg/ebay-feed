@@ -21,6 +21,12 @@ jobs:
       - name: Read shop catalogues
         continue-on-error: true
         run: python store_scan.py
+      - name: Refresh card values (PriceCharting)
+        continue-on-error: true
+        run: python values_refresh.py
+      - name: Price shop cards (Mega Cash)
+        continue-on-error: true
+        run: python megacash_prices.py
       - name: Categories, price history and daily summary
         continue-on-error: true
         run: python enrich.py
@@ -35,7 +41,7 @@ jobs:
           git config user.name "ebay-feed-bot"
           git config user.email "ebay-feed-bot@users.noreply.github.com"
           git add listings.json listings.csv
-          for f in stores.json feed.js history.json digest.json digest.md guide.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          for f in stores.json feed.js history.json digest.json digest.md guide.json megacash.json megacash.md mc_cache.json values.json values_check.md; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --cached --quiet || git commit -m "eBay feed $(date -u +%F)"
           git push
       - name: Refresh the finder's copy
