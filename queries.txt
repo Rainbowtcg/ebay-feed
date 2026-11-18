@@ -138,15 +138,31 @@ pokemon japanese vending psa
 pokemon japanese holo near mint 1996
 
 # ---------- Misspellings ----------
-charzard holo
-charizzard holo
-blastiose holo
-venasaur holo
-pokeman holo psa
-pokemom holo psa
-pokemon expidition holo
-pokemon aquapolice holo
-pokemon sky ridge holo
+# Grouped so one line covers several spellings. Results still need a grade or NM/mint in the title.
+(charzard,charizzard,charizad,charazard,charzad,chairzard,charizrd,charizar) holo
+(blastiose,blastoice,blastois,blastose,blastios,blastoies) holo
+(venasaur,venusuar,venusour,venasuar,venusar,venesaur) holo
+(pokeman,pokemom,pokmon,pokemn,pokemen,pokeomn,pokemone) holo (psa,cgc,bgs,"near mint")
+(pikachew,pickachu,pikchu,pikacu,picachu,pikachue) (psa,cgc,promo,holo)
+(mewto,mewtoo,mewtow,mewtwoo,mewtu) holo
+(genger,gengr,gangar) holo
+(luiga,lugai,lugea) holo
+(umbrion,umbreeon,umbrean,espion,esspeon,espeeon) (holo,ex,gx)
+(rayquasa,rayqauza,rayquaze,raquaza,rayqaza,rayquazza) (holo,ex)
+(gyrados,gyarodos,garados,dragonight,dragnite,dragonit) holo
+(alakazan,alakasam,alakazm,gardavoir,gardevior,gardevoire,gardivoir) (holo,ex)
+(sceptyle,septile,feraligator,feraligater,typhlosian,typhlossion,meganuim) holo
+(tyrannitar,tyranitor,houndoon,hondoom,sucuine,suicun,raikuo,entie) holo
+(celibi,celebie,jiarachi,jirache,deoxis,latais,latos,sycther,scythr) holo
+(flarion,sylvion,artikuno,articono,zapados,moltress,molters) (holo,ex)
+pokemon (expidition,expedtion,expeditoin,expediton,"expidition base") holo
+pokemon (aquapolice,aqupolis,aquapollis,aquopolis,aquaplis) holo
+pokemon ("sky ridge",skyrige,"sky-ridge",skyrdge,skyrigde) holo
+pokemon ("dragon frontier","dragon fronteirs","holon phantom","holon phantems",delta-species) holo
+pokemon (shadowles,shaddowless,shadowlees,"shadow less") holo
+pokemon (evolutons,evoultions,evolutoins,"generation radiant","radiant colection") (psa,"near mint")
+pokemon (japanesse,japenese,japaneese,jappanese) holo (psa,"1st edition","near mint")
+pokemon ("gem mnt","gem mt 10","psa10","psa 1o","mint 1o") holo -"psa 9"
 # ---------- Undaunted reverse & Scyther ----------
 +pokemon undaunted reverse holo psa
 +pokemon undaunted reverse holo near mint
