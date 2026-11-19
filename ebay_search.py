@@ -298,6 +298,17 @@ def main():
     if not cid or not secret:
         sys.exit("Set EBAY_CLIENT_ID and EBAY_CLIENT_SECRET (eBay production keys).")
     queries = [l.strip() for l in open(os.path.join(HERE, "queries.txt"), encoding="utf-8") if l.strip() and not l.startswith("#")]
+    # If the last run was cut short by eBay's daily limit, the searches it never reached go first this time,
+    # so the same end of queries.txt doesn't keep missing out (new lines count as not reached).
+    try:
+        last = json.load(open(os.path.join(HERE, "listings.json"), encoding="utf-8")).get("query_stats") or {}
+        if last:
+            missed = [q for q in queries if not (last.get(q) or {}).get("ran")]
+            if missed and len(missed) < len(queries):
+                queries = missed + [q for q in queries if q not in set(missed)]
+                print(f"{len(missed)} searches not reached last run go first")
+    except Exception as e:
+        print("query order: last run's stats not used:", e)
     tok = token(cid, secret)
     pawns = pawn_sellers()
     trusted = trusted_sellers()
