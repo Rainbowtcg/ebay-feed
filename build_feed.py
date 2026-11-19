@@ -3,7 +3,7 @@
 # stores.json (optional): in-stock shop listings from store_scan.py, same item format plus url; added as rows with the shop URL.
 # want.txt (optional): the user's want list, one line per card. Titles matching a want line are kept
 # even when they look modern (post-2018), because want-list items are an exception to the era rule.
-import json,sys,re
+import json, os,sys,re
 FX={'AUD':1,'JPY':0.009002,'USD':1.4232,'HKD':0.1813,'GBP':1.9062,'KRW':0.001073,'SGD':1.1138,'CAD':1.03,'NZD':0.91,'EUR':1.65}
 d=json.load(open(sys.argv[1]))
 MODERN=re.compile(r'\b(2019|202\d)\b|\b151\b|\bsar\b|\bsir\b|\bsv\d|scarlet|violet|vmax|vstar|master ball',re.I)
@@ -50,7 +50,11 @@ try:
     try: age=(day-_dt.date.fromisoformat(v[1])).days
     except Exception: age=0
     return [v[0],age]+v[2:]
-  out['cats']=en['cats']; out['day']=en['day']; out['x']=[_x(r[0]) for r in rows]
+  def _trim(v):  # drop trailing empty fields; the page reads missing ones as empty
+    if not v: return 0
+    while v and v[-1] in (None,'',0,[]): v.pop()
+    return v or 0
+  out['cats']=en['cats']; out['day']=en['day']; out['x']=[_trim(_x(r[0])) for r in rows]
   print('enrich:',sum(1 for v in out['x'] if v),'rows with extras')
 except Exception as e: print('enrich.json not used:',e)
 try: out['guide']=json.load(open('guide.json',encoding='utf8'))
@@ -65,4 +69,12 @@ try:
 except Exception as e: print('sealed.json not used:',e)
 s='window.FEED='+json.dumps(out,ensure_ascii=True,separators=(',',':'))+';'
 open(sys.argv[2],'w').write(s)
+# feed-lite.js: what the Deals tab needs when the page opens (price, post, bids, end time per eBay listing, plus the
+# daily shop scan bits), so the full feed.js only loads when the Feed or Wants tab is opened.
+lite={'generated':out.get('generated'),'shopPhotos':out.get('shopPhotos',{}),'sealed':out.get('sealed',[]),
+      'items':[[r[0],r[2],r[3],r[6],r[8],r[9]] for r in rows if len(r)<=10]}
+ls='window.FEEDLITE='+json.dumps(lite,ensure_ascii=True,separators=(',',':'))+';'
+lp=os.path.join(os.path.dirname(os.path.abspath(sys.argv[2])),'feed-lite.js')
+open(lp,'w').write(ls)
+print('feed-lite.js',len(lite['items']),'rows',round(len(ls)/1e6,2),'MB')
 print(len(rows),'items',round(len(s)/1e6,2),'MB')
