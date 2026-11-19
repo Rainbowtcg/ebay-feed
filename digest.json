@@ -1,12 +1,12 @@
 {
- "day": "2026-11-19",
- "generated": "2026-11-18T21:24+00:00",
+ "day": "2026-11-20",
+ "generated": "2026-11-19T18:47+00:00",
  "totals": {
-  "listings": 50105,
-  "new": 1876,
-  "drops": 659,
-  "relisted": 2287,
-  "valued": 1561
+  "listings": 45443,
+  "new": 833,
+  "drops": 192,
+  "relisted": 2283,
+  "valued": 1640
  },
  "first_day": false,
  "categories": [
@@ -14,7 +14,7 @@
    "cat": "Slab plays",
    "want": true,
    "total": 13,
-   "new": 1,
+   "new": 0,
    "drops": 0,
    "relisted": 0,
    "under": 0,
@@ -22,22 +22,22 @@
     {
      "id": "800738179306",
      "t": "Charizard ex 012/052 Starter Deck Holo Heavily Played Japanese Pokemon Card #2",
-     "p": 122.48,
+     "p": 122.84,
      "cc": "JP",
      "seller": "koyacchi23",
      "url": "https://www.ebay.com.au/itm/800738179306",
-     "why": "slab play: low grade (PSA 1–4) ~A$300 → +A$69; PSA 7 ~A$503 → +A$245 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
+     "why": "slab play: low grade (PSA 1–4) ~A$300 → +A$68; PSA 7 ~A$503 → +A$245 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
      "auc": false,
      "cond": "heavily"
     },
     {
      "id": "800612148847",
      "t": "Charizard ex 012/052 Starter Deck 2004 Holo HP Japanese Pokemon Card",
-     "p": 142.98,
+     "p": 143.4,
      "cc": "JP",
      "seller": "koyacchi23",
      "url": "https://www.ebay.com.au/itm/800612148847",
-     "why": "slab play: low grade (PSA 1–4) ~A$300 → +A$48; PSA 7 ~A$503 → +A$225 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
+     "why": "slab play: low grade (PSA 1–4) ~A$300 → +A$48; PSA 7 ~A$503 → +A$224 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
      "auc": false,
      "cond": "hp"
     },
@@ -55,11 +55,11 @@
     {
      "id": "206384964213",
      "t": "Charizard ex 012/052 Holo Charizard Starter Deck 2004 Pokemon Card Japanese",
-     "p": 183.09,
+     "p": 183.64,
      "cc": "JP",
      "seller": "wataru_japanese_store",
      "url": "https://www.ebay.com.au/itm/206384964213",
-     "why": "slab play: low grade (PSA 1–4) ~A$300 → +A$8; PSA 7 ~A$503 → +A$185 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
+     "why": "slab play: low grade (PSA 1–4) ~A$300 → +A$7; PSA 7 ~A$503 → +A$184 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
      "auc": false,
      "cond": "unverified"
     },
@@ -77,22 +77,22 @@
     {
      "id": "188346060312",
      "t": "Charizard EX 012/052 ex Starter Deck Pokemon Japanese Heavily Played",
-     "p": 186.98,
+     "p": 187.54,
      "cc": "JP",
      "seller": "mayuta_japan",
      "url": "https://www.ebay.com.au/itm/188346060312",
-     "why": "slab play: low grade (PSA 1–4) ~A$300 → +A$4; PSA 7 ~A$503 → +A$181 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
+     "why": "slab play: low grade (PSA 1–4) ~A$300 → +A$3; PSA 7 ~A$503 → +A$180 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
      "auc": false,
      "cond": "heavily"
     },
     {
      "id": "407371260954",
      "t": "Charizard ex 012/052 Holo PCG Random Starter Deck 2004 Japanese Pokemon Card LP",
-     "p": 187.78,
+     "p": 188.34,
      "cc": "JP",
      "seller": "sugoi-surrly",
      "url": "https://www.ebay.com.au/itm/407371260954",
-     "why": "slab play: low grade (PSA 1–4) ~A$300 → +A$3; PSA 7 ~A$503 → +A$180 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
+     "why": "slab play: low grade (PSA 1–4) ~A$300 → +A$3; PSA 7 ~A$503 → +A$179 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
      "auc": false,
      "cond": "lp"
     },
@@ -110,22 +110,22 @@
     {
      "id": "366717835529",
      "t": "[HP] Charizard ex 012/052 Random Constructed Starter Deck Holo Japanese Pokemon",
-     "p": 195.95,
+     "p": 196.53,
      "cc": "JP",
      "seller": "sushidog_tcg",
      "url": "https://www.ebay.com.au/itm/366717835529",
-     "why": "slab play: low grade (PSA 1–4) ~A$300 → −A$5; PSA 7 ~A$503 → +A$172 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
+     "why": "slab play: low grade (PSA 1–4) ~A$300 → −A$6; PSA 7 ~A$503 → +A$171 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
      "auc": false,
      "cond": "[hp]"
     },
     {
      "id": "168797483761",
      "t": "Japanese Pokemon Card Charizard ex 012/052 PCG Random Starter Deck 2004 HP160",
-     "p": 201.84,
+     "p": 202.44,
      "cc": "JP",
      "seller": "martake53",
      "url": "https://www.ebay.com.au/itm/168797483761",
-     "why": "slab play: low grade (PSA 1–4) ~A$300 → −A$11; PSA 7 ~A$503 → +A$166 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
+     "why": "slab play: low grade (PSA 1–4) ~A$300 → −A$11; PSA 7 ~A$503 → +A$165 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
      "auc": false,
      "cond": "unverified"
     },
@@ -141,25 +141,25 @@
      "cond": "unverified"
     },
     {
-     "id": "800768586275",
-     "t": "Charizard ex 012/052 Starter Deck 2004 Holo HP Japanese Pokemon Card【U.S./DDP】⑧",
-     "p": 215.56,
+     "id": "168815360041",
+     "t": "Japanese Pokemon Card Charizard ex 012/052 PCG Random Starter Deck 2004 HP160",
+     "p": 215.58,
      "cc": "JP",
-     "seller": "fast-parts-japan",
-     "url": "https://www.ebay.com.au/itm/800768586275",
+     "seller": "martake53",
+     "url": "https://www.ebay.com.au/itm/168815360041",
      "why": "slab play: low grade (PSA 1–4) ~A$300 → −A$25; PSA 7 ~A$503 → +A$152 after grading and fees (eBay sold Sep–Oct 2026; PSA 7 US$354 Jul 2026)",
      "auc": false,
-     "cond": "hp"
+     "cond": "unverified"
     }
    ]
   },
   {
    "cat": "e-Card era",
    "want": false,
-   "total": 898,
-   "new": 25,
-   "drops": 23,
-   "relisted": 48,
+   "total": 895,
+   "new": 28,
+   "drops": 8,
+   "relisted": 51,
    "under": 0,
    "hi": [
     {
@@ -175,17 +175,37 @@
     {
      "id": "820344337207",
      "t": "PSA 10 Black Kyurem R 020/027 CP2 Pokemon Card Legendary Shine Collection",
-     "p": 571.6,
+     "p": 570.7,
      "cc": "JP",
      "seller": "super10_collectors",
      "url": "https://www.ebay.com.au/itm/820344337207",
-     "why": "relisted cheaper (A$726 → A$572)",
+     "why": "relisted cheaper (A$726 → A$571)",
+     "auc": false
+    },
+    {
+     "id": "820260911682",
+     "t": "PSA 9 Zekrom R 1ED 009/027 CP2 Legend Kira Collection Pokemon Japanese",
+     "p": 438.95,
+     "cc": "JP",
+     "seller": "jun_card_celler",
+     "url": "https://www.ebay.com.au/itm/820260911682",
+     "why": "price dropped A$542 → A$439",
+     "auc": false
+    },
+    {
+     "id": "227621365989",
+     "t": "Pokemon S-Chinese Card Sun&Moon CSM2aC-183 SR Trainer Green's Exploration Holo",
+     "p": 129.2,
+     "cc": "CN",
+     "seller": "gamecardscorner",
+     "url": "https://www.ebay.com.au/itm/227621365989",
+     "why": "relisted cheaper (A$157 → A$129)",
      "auc": false
     },
     {
      "id": "820346195777",
      "t": "PSA 9 Reshiram R 002/027 CP2 Legendary Shine Collection Pokemon Card",
-     "p": 222.16,
+     "p": 221.81,
      "cc": "JP",
      "seller": "super10_collectors",
      "url": "https://www.ebay.com.au/itm/820346195777",
@@ -193,53 +213,33 @@
      "auc": false
     },
     {
-     "id": "820275747516",
-     "t": "PSA 10 Pokemon Japanese Legendary Dream Shine Collection #029/036 Genesect 2016",
-     "p": 582.96,
-     "cc": "JP",
-     "seller": "imax-64",
-     "url": "https://www.ebay.com.au/itm/820275747516",
-     "why": "price dropped A$661 → A$583",
+     "id": "236669620939",
+     "t": "ODDISH 005/128 POKEMON CARD JAPANESE E SERIES E1 EXPEDITION COMMON NM",
+     "p": 10.2,
+     "cc": "AU",
+     "seller": "oscemon",
+     "url": "https://www.ebay.com.au/itm/236669620939",
+     "why": "relisted cheaper (A$12 → A$10)",
      "auc": false
     },
     {
-     "id": "820342690353",
-     "t": "PSA 9 Darkrai Full Art 2016 Japanese Pokemon Dream Shine 024/036 CP5 1st Ed.",
-     "p": 416.29,
+     "id": "206693239384",
+     "t": "Aikatsu Card Goth Magic Coordination Set of 2 Yurika Todo",
+     "p": 332.22,
      "cc": "JP",
-     "seller": "super10_collectors",
-     "url": "https://www.ebay.com.au/itm/820342690353",
-     "why": "relisted cheaper (A$472 → A$416)",
+     "seller": "japan-product-shop",
+     "url": "https://www.ebay.com.au/itm/206693239384",
+     "why": "price dropped A$385 → A$332",
      "auc": false
     },
     {
-     "id": "377637878922",
-     "t": "PSA10 GEM MINT Latios R 1st Edition 019/027 Legend Kira Collection Pokemon JP",
-     "p": 1508.31,
-     "cc": "JP",
-     "seller": "japanseller2",
-     "url": "https://www.ebay.com.au/itm/377637878922",
-     "why": "price dropped A$1,685 → A$1,508",
-     "auc": false
-    },
-    {
-     "id": "157602809771",
-     "t": "IN STOCK Green's Exploration Trainer Card CSM2aC-183 SR Sun&Moon Pokémon Chinese",
-     "p": 102.23,
-     "cc": "CN",
-     "seller": "xu7100",
-     "url": "https://www.ebay.com.au/itm/157602809771",
-     "why": "price dropped A$114 → A$102",
-     "auc": false
-    },
-    {
-     "id": "860116038732",
-     "t": "PSA 10 Pokemon Black Kyurem 020/027 R FA CP2 Legendary Shine Collection Holo",
-     "p": 823.25,
-     "cc": "JP",
-     "seller": "totoriri",
-     "url": "https://www.ebay.com.au/itm/860116038732",
-     "why": "price dropped A$915 → A$823",
+     "id": "377528148008",
+     "t": "Magneton [Holo] H16/H32 Pokemon Aquapolis [NM] WOTC",
+     "p": 376.71,
+     "cc": "SG",
+     "seller": "roninzardtcg",
+     "url": "https://www.ebay.com.au/itm/377528148008",
+     "why": "price dropped A$425 → A$377",
      "auc": false
     }
    ]
@@ -247,10 +247,10 @@
   {
    "cat": "EX era",
    "want": true,
-   "total": 1252,
-   "new": 46,
-   "drops": 33,
-   "relisted": 99,
+   "total": 1264,
+   "new": 41,
+   "drops": 21,
+   "relisted": 108,
    "under": 0,
    "hi": [
     {
@@ -266,21 +266,11 @@
     {
      "id": "206693757666",
      "t": "Pokemon Japanese Team Magma's Groudon PSA 10 Gem Mint S8a-P 011/025 #07a1",
-     "p": 166.27,
+     "p": 166.77,
      "cc": "JP",
      "seller": "actionfiguresjapan",
      "url": "https://www.ebay.com.au/itm/206693757666",
-     "why": "relisted cheaper (A$603 → A$166)",
-     "auc": false
-    },
-    {
-     "id": "880123894590",
-     "t": "Ex Raichu 98/100 Ex Sandstorm PSA 7 NM",
-     "p": 699.94,
-     "cc": "AU",
-     "seller": "rsim-29",
-     "url": "https://www.ebay.com.au/itm/880123894590",
-     "why": "relisted cheaper (A$2,000 → A$700)",
+     "why": "relisted cheaper (A$603 → A$167)",
      "auc": false
     },
     {
@@ -294,9 +284,39 @@
      "auc": false
     },
     {
+     "id": "820342689402",
+     "t": "PSA 9 Pikachu ex UR 136/106 Super Electric Breaker Pokemon Card Japanese",
+     "p": 204.58,
+     "cc": "JP",
+     "seller": "super10_collectors",
+     "url": "https://www.ebay.com.au/itm/820342689402",
+     "why": "relisted cheaper (A$388 → A$205)",
+     "auc": false
+    },
+    {
+     "id": "860046840466",
+     "t": "Kirlia #47 PSA 9 Pokemon EX Delta Species Reverse Holo Stamped NEW CERT REV.FOIL",
+     "p": 857.65,
+     "cc": "AU",
+     "seller": "yarran123",
+     "url": "https://www.ebay.com.au/itm/860046840466",
+     "why": "price dropped A$1,571 → A$858",
+     "auc": false
+    },
+    {
+     "id": "366775338692",
+     "t": "PSA 9 M Gengar EX #35 Phantom Forces 2014 Full Art Holo - Pokemon TCG",
+     "p": 995.0,
+     "cc": "AU",
+     "seller": "unifiedmindscollectibles",
+     "url": "https://www.ebay.com.au/itm/366775338692",
+     "why": "relisted cheaper (A$1,785 → A$995)",
+     "auc": false
+    },
+    {
      "id": "820342681978",
      "t": "PSA 9 Rayquaza EX RR 1ED 061/078 Emerald Break XY6 Japanese Pokemon Card",
-     "p": 211.37,
+     "p": 211.04,
      "cc": "JP",
      "seller": "super10_collectors",
      "url": "https://www.ebay.com.au/itm/820342681978",
@@ -312,26 +332,6 @@
      "url": "https://www.ebay.com.au/itm/206703488386",
      "why": "relisted cheaper (A$453 → A$311)",
      "auc": false
-    },
-    {
-     "id": "860127221921",
-     "t": "2013 POKEMON TCG B&W #051/076 JIRACHI EX HOLO JAPANESE 1ST ED PSA 10",
-     "p": 600.0,
-     "cc": "AU",
-     "seller": "paramjittushi3022",
-     "url": "https://www.ebay.com.au/itm/860127221921",
-     "why": "relisted cheaper (A$850 → A$600)",
-     "auc": false
-    },
-    {
-     "id": "206703394271",
-     "t": "Pokemon Japanese Team Aqua's Seviper C PSA 10 Gem Mint CP1 009/034 #0372",
-     "p": 323.96,
-     "cc": "JP",
-     "seller": "actionfiguresjapan",
-     "url": "https://www.ebay.com.au/itm/206703394271",
-     "why": "relisted cheaper (A$453 → A$324)",
-     "auc": false
     }
    ]
   },
@@ -339,7 +339,7 @@
    "cat": "EX era chase cards",
    "want": true,
    "total": 27,
-   "new": 1,
+   "new": 0,
    "drops": 0,
    "relisted": 1,
    "under": 0,
@@ -348,12 +348,22 @@
   {
    "cat": "DP & Platinum",
    "want": true,
-   "total": 1193,
-   "new": 70,
-   "drops": 15,
-   "relisted": 84,
+   "total": 1214,
+   "new": 25,
+   "drops": 5,
+   "relisted": 92,
    "under": 0,
    "hi": [
+    {
+     "id": "860103486987",
+     "t": "Palkia G LV.X #125 PSA 8 Platinum Holo Ultra Rare 125/127 Pokemon 2009 NEW CERT",
+     "p": 857.65,
+     "cc": "AU",
+     "seller": "yarran123",
+     "url": "https://www.ebay.com.au/itm/860103486987",
+     "why": "price dropped A$2,106 → A$858",
+     "auc": false
+    },
     {
      "id": "336868918546",
      "t": "Glaceon Holo 005/012 PSA 9 2009 Japanese Pokémon TCG (Shaymin LV.X Collection)",
@@ -377,21 +387,11 @@
     {
      "id": "407327358657",
      "t": "PSA 6 Darkrai LV.X Holo Shining Darkness 2007 Japanese Pokemon Card",
-     "p": 445.81,
+     "p": 447.14,
      "cc": "JP",
      "seller": "nipponroots",
      "url": "https://www.ebay.com.au/itm/407327358657",
-     "why": "relisted cheaper (A$557 → A$446)",
-     "auc": false
-    },
-    {
-     "id": "920133161788",
-     "t": "2008 POKEMON LEGENDS AWAKENED RHYPERIOR LV X #145 HOLO PSA 6",
-     "p": 424.7,
-     "cc": "AU",
-     "seller": "drawfourcollects",
-     "url": "https://www.ebay.com.au/itm/920133161788",
-     "why": "price dropped A$531 → A$425",
+     "why": "relisted cheaper (A$557 → A$447)",
      "auc": false
     },
     {
@@ -405,33 +405,33 @@
      "auc": false
     },
     {
-     "id": "147660368859",
-     "t": "PSA 7 2006 Pokémon JPN Diamond & Pearl Empoleon LV.X Holo 1st Ed Space-Time CRTN",
-     "p": 165.0,
+     "id": "820327471041",
+     "t": "PSA 10 Luxray Gl Lv.X #017/025 Pokemon Japanese S8a-P Promo 2021 Gem Mint Card",
+     "p": 131.0,
+     "cc": "JP",
+     "seller": "imax-64",
+     "url": "https://www.ebay.com.au/itm/820327471041",
+     "why": "price dropped A$162 → A$131",
+     "auc": false
+    },
+    {
+     "id": "820327470599",
+     "t": "PSA 10 Garchomp C Lv.X #018/025 Pokemon Japanese S8a-P Promo 2021 Gem Mint Card",
+     "p": 186.69,
+     "cc": "JP",
+     "seller": "imax-64",
+     "url": "https://www.ebay.com.au/itm/820327470599",
+     "why": "price dropped A$219 → A$187",
+     "auc": false
+    },
+    {
+     "id": "920133161788",
+     "t": "2008 POKEMON LEGENDS AWAKENED RHYPERIOR LV X #145 HOLO PSA 6",
+     "p": 371.7,
      "cc": "AU",
-     "seller": "julcu_156",
-     "url": "https://www.ebay.com.au/itm/147660368859",
-     "why": "price dropped A$199 → A$165",
-     "auc": false
-    },
-    {
-     "id": "840105681147",
-     "t": "PSA 10 Roserade Holo #368 2006 Pokemon Japanese Space-Time Creation  UNLIMITED",
-     "p": 653.25,
-     "cc": "JP",
-     "seller": "cardcollector_japan",
-     "url": "https://www.ebay.com.au/itm/840105681147",
-     "why": "price dropped A$733 → A$653",
-     "auc": false
-    },
-    {
-     "id": "840105770030",
-     "t": "PSA 10 Roserade Holo #368 2006 Pokemon Japanese Space-Time Creation UNLIMITED",
-     "p": 653.27,
-     "cc": "JP",
-     "seller": "cardcollector_japan",
-     "url": "https://www.ebay.com.au/itm/840105770030",
-     "why": "price dropped A$731 → A$653",
+     "seller": "drawfourcollects",
+     "url": "https://www.ebay.com.au/itm/920133161788",
+     "why": "price dropped A$425 → A$372",
      "auc": false
     }
    ]
@@ -439,10 +439,10 @@
   {
    "cat": "HGSS & Prime",
    "want": true,
-   "total": 104,
-   "new": 5,
+   "total": 108,
+   "new": 6,
    "drops": 1,
-   "relisted": 10,
+   "relisted": 9,
    "under": 0,
    "hi": [
     {
@@ -458,17 +458,17 @@
     {
      "id": "820342691854",
      "t": "PSA 10 Porygon-Z 067/080 Clash at Summit L3 1st Edition Holo Pokemon Japanese HP",
-     "p": 701.02,
+     "p": 697.76,
      "cc": "JP",
      "seller": "super10_collectors",
      "url": "https://www.ebay.com.au/itm/820342691854",
-     "why": "relisted cheaper (A$835 → A$701)",
+     "why": "relisted cheaper (A$835 → A$698)",
      "auc": false
     },
     {
      "id": "820342681558",
      "t": "PSA 9 Japanese Porygon-Z 067/080 L3 Pokemon Card 1st Edition Holo Foil Rare",
-     "p": 224.31,
+     "p": 223.96,
      "cc": "JP",
      "seller": "super10_collectors",
      "url": "https://www.ebay.com.au/itm/820342681558",
@@ -476,23 +476,33 @@
      "auc": false
     },
     {
-     "id": "860143560796",
-     "t": "PSA 9 Pokemon Xatu 043/070 R Holo Heartgold Collection 2009 JP",
-     "p": 219.58,
-     "cc": "JP",
-     "seller": "totoriri",
-     "url": "https://www.ebay.com.au/itm/860143560796",
-     "why": "price dropped A$244 → A$220",
+     "id": "257846660626",
+     "t": "Noctowl HGSS06 Holo Black Star Promo HeartGold SoulSilver Pokémon TCG NM",
+     "p": 48.4,
+     "cc": "AU",
+     "seller": "mistiqueblue88",
+     "url": "https://www.ebay.com.au/itm/257846660626",
+     "why": "price dropped A$54 → A$48",
      "auc": false
     },
     {
      "id": "800931969218",
      "t": "PSA 10 Houndoom Holo 043/080 Reviving Legends 1st Edition 2010 Japanese Pokemon",
-     "p": 896.53,
+     "p": 899.2,
      "cc": "JP",
      "seller": "animint_japan",
      "url": "https://www.ebay.com.au/itm/800931969218",
-     "why": "relisted cheaper (A$960 → A$897)",
+     "why": "relisted cheaper (A$960 → A$899)",
+     "auc": false
+    },
+    {
+     "id": "377658604779",
+     "t": "PSA 8 Umbreon 037/080 Holo 1st Edition Reviving Legends Japanese Pokemon 2010",
+     "p": 737.05,
+     "cc": "JP",
+     "seller": "sakura.japan.select",
+     "url": "https://www.ebay.com.au/itm/377658604779",
+     "why": "new, cheapest of 3 copies seen in 30 days",
      "auc": false
     }
    ]
@@ -500,30 +510,20 @@
   {
    "cat": "XY Generations",
    "want": false,
-   "total": 391,
-   "new": 9,
-   "drops": 4,
-   "relisted": 7,
+   "total": 386,
+   "new": 4,
+   "drops": 1,
+   "relisted": 8,
    "under": 0,
    "hi": [
     {
-     "id": "407368061086",
-     "t": "Dedenne RC10 Generations: Radiant Collection Pokemon",
-     "p": 36.36,
+     "id": "820278643013",
+     "t": "Pokémon TCG 2016 Generations Radiant Gardevoir EX RC30/RC32 Full Art PSA 9 OLD",
+     "p": 815.0,
      "cc": "AU",
-     "seller": "commongroundslgs",
-     "url": "https://www.ebay.com.au/itm/407368061086",
-     "why": "price dropped A$48 → A$36",
-     "auc": false
-    },
-    {
-     "id": "187004079030",
-     "t": "Blaziken ex 016/175 Generations Start Decks Double Rare - Pokemon Card Japanese",
-     "p": 14.9,
-     "cc": "JP",
-     "seller": "katanacards",
-     "url": "https://www.ebay.com.au/itm/187004079030",
-     "why": "price dropped A$18 → A$15",
+     "seller": "thaathingy",
+     "url": "https://www.ebay.com.au/itm/820278643013",
+     "why": "price dropped A$910 → A$815",
      "auc": false
     },
     {
@@ -535,62 +535,32 @@
      "url": "https://www.ebay.com.au/itm/327445713823",
      "why": "relisted cheaper (A$20 → A$18)",
      "auc": false
-    },
-    {
-     "id": "168750360000",
-     "t": "POKEMON 2016 XY Generations Radiant Collection RC15 MEOWSTIC PSA 9 Mint RARE",
-     "p": 225.0,
-     "cc": "AU",
-     "seller": "zhengstaz",
-     "url": "https://www.ebay.com.au/itm/168750360000",
-     "why": "price dropped A$250 → A$225",
-     "auc": false
-    },
-    {
-     "id": "168861466871",
-     "t": "Flareon EX RC6/RC32 Ultra Rare Holo XY Generations Pokémon TCG",
-     "p": 106.7,
-     "cc": "AU",
-     "seller": "taymeggles",
-     "url": "https://www.ebay.com.au/itm/168861466871",
-     "why": "price dropped A$117 → A$107",
-     "auc": false
     }
    ]
   },
   {
    "cat": "Celebi / Prism Star / promos",
    "want": true,
-   "total": 1668,
-   "new": 49,
-   "drops": 39,
-   "relisted": 95,
+   "total": 1655,
+   "new": 45,
+   "drops": 30,
+   "relisted": 96,
    "under": 0,
    "hi": [
     {
      "id": "187004078426",
      "t": "Celebi ex SR 060/059 BW6 Cold Flare - Pokemon Card Japanese",
-     "p": 137.75,
+     "p": 138.16,
      "cc": "JP",
      "seller": "katanacards",
      "url": "https://www.ebay.com.au/itm/187004078426",
-     "why": "price dropped A$701 → A$138",
-     "auc": false
-    },
-    {
-     "id": "187969860465",
-     "t": "Celebi ex SR 060/059 BW6 Cold Flare - Pokemon Card Japanese",
-     "p": 121.23,
-     "cc": "JP",
-     "seller": "katanacards",
-     "url": "https://www.ebay.com.au/itm/187969860465",
-     "why": "price dropped A$615 → A$121",
+     "why": "relisted cheaper (A$689 → A$138)",
      "auc": false
     },
     {
      "id": "186804237738",
      "t": "Celebi V SR 071/070 S6K Jet-Black Spirit - Pokemon Card Japanese",
-     "p": 17.36,
+     "p": 17.37,
      "cc": "JP",
      "seller": "katanacards",
      "url": "https://www.ebay.com.au/itm/186804237738",
@@ -600,7 +570,7 @@
     {
      "id": "186769723490",
      "t": "Celebi VMAX RRR 004/070 S6K Jet-Black Spirit - Pokemon Card Japanese",
-     "p": 7.07,
+     "p": 7.09,
      "cc": "JP",
      "seller": "katanacards",
      "url": "https://www.ebay.com.au/itm/186769723490",
@@ -610,7 +580,7 @@
     {
      "id": "188309318046",
      "t": "Lance  PR 050/053 - Pokemon Card Japanese",
-     "p": 28.34,
+     "p": 28.42,
      "cc": "JP",
      "seller": "katanacards",
      "url": "https://www.ebay.com.au/itm/188309318046",
@@ -618,33 +588,43 @@
      "auc": false
     },
     {
-     "id": "820342691513",
-     "t": "PSA 10 Pokemon Card Jirachi Prism Star 091/173 Tag All Stars Japanese TCG",
-     "p": 767.89,
-     "cc": "JP",
-     "seller": "super10_collectors",
-     "url": "https://www.ebay.com.au/itm/820342691513",
-     "why": "relisted cheaper (A$1,299 → A$768)",
-     "auc": false
-    },
-    {
      "id": "820352383463",
      "t": "Shaymin♢ Prism Star PSA 10 Pokemon Card",
-     "p": 437.44,
+     "p": 416.89,
      "cc": "JP",
      "seller": "mercuriusjapan",
      "url": "https://www.ebay.com.au/itm/820352383463",
-     "why": "relisted cheaper (A$725 → A$437)",
+     "why": "relisted cheaper (A$725 → A$417)",
+     "auc": false
+    },
+    {
+     "id": "820342691513",
+     "t": "PSA 10 Pokemon Card Jirachi Prism Star 091/173 Tag All Stars Japanese TCG",
+     "p": 766.68,
+     "cc": "JP",
+     "seller": "super10_collectors",
+     "url": "https://www.ebay.com.au/itm/820342691513",
+     "why": "relisted cheaper (A$1,299 → A$767)",
      "auc": false
     },
     {
      "id": "178527687903",
      "t": "PSA 10 Celebi Holo Timeless 10th Movie Comm Promo Pokemon Card Japanese 2007",
-     "p": 621.19,
+     "p": 623.03,
      "cc": "JP",
      "seller": "yus-japan",
      "url": "https://www.ebay.com.au/itm/178527687903",
-     "why": "relisted cheaper (A$948 → A$621)",
+     "why": "relisted cheaper (A$948 → A$623)",
+     "auc": false
+    },
+    {
+     "id": "820342684732",
+     "t": "PSA 10 Pokemon Card Fairy Rise Xerneas Prism Star 033/050 PR SM7b Japanese",
+     "p": 570.7,
+     "cc": "JP",
+     "seller": "super10_collectors",
+     "url": "https://www.ebay.com.au/itm/820342684732",
+     "why": "price dropped A$833 → A$571",
      "auc": false
     }
    ]
@@ -652,10 +632,10 @@
   {
    "cat": "WotC classics",
    "want": false,
-   "total": 2224,
-   "new": 72,
-   "drops": 60,
-   "relisted": 156,
+   "total": 2197,
+   "new": 66,
+   "drops": 12,
+   "relisted": 162,
    "under": 1,
    "hi": [
     {
@@ -679,16 +659,6 @@
      "auc": false
     },
     {
-     "id": "800843683437",
-     "t": "Dark Tyranitar Holo 20/109 Cosmos-Jessie Theme Deck Pokemon PSA 8 Nm-Mt",
-     "p": 615.0,
-     "cc": "AU",
-     "seller": "pokeduckk_collectables",
-     "url": "https://www.ebay.com.au/itm/800843683437",
-     "why": "price dropped A$1,215 → A$615",
-     "auc": false
-    },
-    {
      "id": "267830701869",
      "t": "1999 Pokémon TCG Jungle Flareon Holo Rare 3/64 PSA 9 Spanish",
      "p": 339.9,
@@ -699,43 +669,53 @@
      "auc": false
     },
     {
+     "id": "860048053569",
+     "t": "PSA 10 Team Rocket's Mewtwo ex SR 114/098 Glory of Team Rocket Pokemon Japanese",
+     "p": 105.42,
+     "cc": "JP",
+     "seller": "fujiyama-japan",
+     "url": "https://www.ebay.com.au/itm/860048053569",
+     "why": "price dropped A$161 → A$105",
+     "auc": false
+    },
+    {
      "id": "820344341552",
      "t": "PSA 10 Team Rocket's Houndoom AR 100/098 Glory of Team Rocket Pokemon Japanese",
-     "p": 86.26,
+     "p": 83.97,
      "cc": "JP",
      "seller": "super10_collectors",
      "url": "https://www.ebay.com.au/itm/820344341552",
-     "why": "relisted cheaper (A$117 → A$86)",
+     "why": "relisted cheaper (A$117 → A$84)",
      "auc": false
     },
     {
-     "id": "377622891732",
-     "t": "PSA10 GEM MINT Dark Porygon2 Holo No.233 Neo Destiny Old Back Pokemon JP",
-     "p": 1439.43,
+     "id": "920140593489",
+     "t": "Pokemon Team Rocket's Dugtrio 239/217 Me: Ascended Heroes IR Holo Eng PSA 9",
+     "p": 64.3,
+     "cc": "AU",
+     "seller": "masterballmarkettcg2025",
+     "url": "https://www.ebay.com.au/itm/920140593489",
+     "why": "price dropped A$88 → A$64",
+     "auc": false
+    },
+    {
+     "id": "377644695287",
+     "t": "PSA10 GEM MINT Dark Dugtrio Holo Team Rocket No.051 Japanese Old Back Pokemon",
+     "p": 1037.64,
      "cc": "JP",
      "seller": "japanseller2",
-     "url": "https://www.ebay.com.au/itm/377622891732",
-     "why": "price dropped A$1,799 → A$1,439",
+     "url": "https://www.ebay.com.au/itm/377644695287",
+     "why": "relisted cheaper (A$1,407 → A$1,038)",
      "auc": false
     },
     {
-     "id": "377622943954",
-     "t": "PSA10 GEM MINT Dark Porygon2 Holo No.233 Neo Destiny Old Back Pokemon JP",
-     "p": 1482.62,
-     "cc": "JP",
-     "seller": "japanseller2",
-     "url": "https://www.ebay.com.au/itm/377622943954",
-     "why": "price dropped A$1,849 → A$1,483",
-     "auc": false
-    },
-    {
-     "id": "820349725120",
-     "t": "PSA 10 Ampharos RR 1st Edition 1ED 028/081 XY7 Japanese Pokemon Card GEM MINT",
-     "p": 265.82,
-     "cc": "JP",
-     "seller": "ask-me-japan",
-     "url": "https://www.ebay.com.au/itm/820349725120",
-     "why": "relisted cheaper (A$329 → A$266)",
+     "id": "800937302353",
+     "t": "Boldore 70/149 Uncommon SM Base Set Pokemon Reverse Holo Near Mint",
+     "p": 3.99,
+     "cc": "AU",
+     "seller": "copperheadcardz",
+     "url": "https://www.ebay.com.au/itm/800937302353",
+     "why": "relisted cheaper (A$5 → A$4)",
      "auc": false
     }
    ]
@@ -743,60 +723,60 @@
   {
    "cat": "Japanese vintage",
    "want": false,
-   "total": 1266,
-   "new": 45,
-   "drops": 16,
-   "relisted": 91,
+   "total": 1241,
+   "new": 44,
+   "drops": 7,
+   "relisted": 87,
    "under": 0,
    "hi": [
     {
-     "id": "307276018842",
-     "t": "PSA 9 Poliwag No. 060 Basic No Rarity Symbol Pokemon Card 1996 Japanese",
-     "p": 929.19,
-     "cc": "JP",
-     "seller": "japan.harbor",
-     "url": "https://www.ebay.com.au/itm/307276018842",
-     "why": "relisted cheaper (A$1,224 → A$929)",
+     "id": "206693039689",
+     "t": "Pokémon TCG Sabrina's Alakazam No.065 - Gym Challenge Japanese Holo Rare HP 80",
+     "p": 250.0,
+     "cc": "AU",
+     "seller": "alexroberts_123",
+     "url": "https://www.ebay.com.au/itm/206693039689",
+     "why": "price dropped A$390 → A$250",
      "auc": false
     },
     {
      "id": "800918744687",
      "t": "[PSA 9] Raichu Pokemon Card Japanese No.026 Vending Series 1998 Vintage",
-     "p": 843.74,
+     "p": 852.21,
      "cc": "JP",
      "seller": "mayumi_card_shop",
      "url": "https://www.ebay.com.au/itm/800918744687",
-     "why": "relisted cheaper (A$1,049 → A$844)",
-     "auc": false
-    },
-    {
-     "id": "168441076068",
-     "t": "Pokemon TCG - 1999 Japanese Gym 2 Giovanni's Machamp Holo #68  - PSA 9 MINT",
-     "p": 210.91,
-     "cc": "AU",
-     "seller": "traderscache",
-     "url": "https://www.ebay.com.au/itm/168441076068",
-     "why": "price dropped A$261 → A$211",
+     "why": "relisted cheaper (A$1,049 → A$852)",
      "auc": false
     },
     {
      "id": "800918573999",
      "t": "[PSA 9] Raichu Pokemon Card Japanese No.026 Vending Series 1998 Vintage",
-     "p": 854.05,
+     "p": 856.59,
      "cc": "JP",
      "seller": "mayumi_card_shop",
      "url": "https://www.ebay.com.au/itm/800918573999",
-     "why": "relisted cheaper (A$1,049 → A$854)",
+     "why": "relisted cheaper (A$1,049 → A$857)",
      "auc": false
     },
     {
      "id": "377650374222",
      "t": "PSA 7 1998 Pokemon Japanese Vending Series III #150 Mewtwo NM",
-     "p": 481.74,
+     "p": 483.18,
      "cc": "JP",
      "seller": "kenyu_japan",
      "url": "https://www.ebay.com.au/itm/377650374222",
-     "why": "relisted cheaper (A$581 → A$482)",
+     "why": "relisted cheaper (A$581 → A$483)",
+     "auc": false
+    },
+    {
+     "id": "128187830523",
+     "t": "PSA 9 Lugia & Slowking Prism MOVIE 42 Pokemon Carddass Vending Series 7 Japanese",
+     "p": 854.42,
+     "cc": "JP",
+     "seller": "hokama-trade",
+     "url": "https://www.ebay.com.au/itm/128187830523",
+     "why": "price dropped A$1,024 → A$854",
      "auc": false
     },
     {
@@ -812,21 +792,21 @@
     {
      "id": "287676886992",
      "t": "PSA 9 Meganium No.154 Neo Genesis Holo Vintage Old Back Japanese Pokemon Card",
-     "p": 352.72,
+     "p": 353.77,
      "cc": "JP",
      "seller": "kakerujapan920",
      "url": "https://www.ebay.com.au/itm/287676886992",
-     "why": "relisted cheaper (A$412 → A$353)",
+     "why": "relisted cheaper (A$412 → A$354)",
      "auc": false
     },
     {
-     "id": "860151030236",
-     "t": "PSA 9 Squirtle No Rarity 7 Base Set Pokemon Japanese 1996",
-     "p": 274.35,
+     "id": "377627135441",
+     "t": "PSA 9 Ninetales Holo No.038 Base Set 1996 Old Back Pokemon Card Japanese",
+     "p": 357.91,
      "cc": "JP",
-     "seller": "youlab.store",
-     "url": "https://www.ebay.com.au/itm/860151030236",
-     "why": "price dropped A$318 → A$274",
+     "seller": "japanseller2",
+     "url": "https://www.ebay.com.au/itm/377627135441",
+     "why": "relisted cheaper (A$394 → A$358)",
      "auc": false
     }
    ]
@@ -834,8 +814,8 @@
   {
    "cat": "Misspellings",
    "want": false,
-   "total": 17,
-   "new": 13,
+   "total": 27,
+   "new": 0,
    "drops": 0,
    "relisted": 0,
    "under": 0,
@@ -844,10 +824,10 @@
   {
    "cat": "Trusted sellers",
    "want": false,
-   "total": 2722,
-   "new": 281,
-   "drops": 174,
-   "relisted": 290,
+   "total": 2695,
+   "new": 41,
+   "drops": 25,
+   "relisted": 291,
    "under": 0,
    "hi": [
     {
@@ -873,11 +853,11 @@
     {
      "id": "206693757666",
      "t": "Pokemon Japanese Team Magma's Groudon PSA 10 Gem Mint S8a-P 011/025 #07a1",
-     "p": 166.27,
+     "p": 166.77,
      "cc": "JP",
      "seller": "actionfiguresjapan",
      "url": "https://www.ebay.com.au/itm/206693757666",
-     "why": "relisted cheaper (A$603 → A$166)",
+     "why": "relisted cheaper (A$603 → A$167)",
      "auc": false
     },
     {
@@ -911,23 +891,23 @@
      "auc": false
     },
     {
-     "id": "388746956041",
-     "t": "Pokemon Ghetsis Holo SR 055/051 BW8 Spiral Force Japanese Card",
-     "p": 651.23,
+     "id": "820342689402",
+     "t": "PSA 9 Pikachu ex UR 136/106 Super Electric Breaker Pokemon Card Japanese",
+     "p": 204.58,
      "cc": "JP",
-     "seller": "edoniajapan",
-     "url": "https://www.ebay.com.au/itm/388746956041",
-     "why": "price dropped A$1,392 → A$651",
+     "seller": "super10_collectors",
+     "url": "https://www.ebay.com.au/itm/820342689402",
+     "why": "relisted cheaper (A$388 → A$205)",
      "auc": false
     },
     {
-     "id": "388893895245",
-     "t": "Pokemon Ghetsis Holo SR 055/051 BW8 Spiral Force Japanese Card",
-     "p": 676.17,
+     "id": "820352383463",
+     "t": "Shaymin♢ Prism Star PSA 10 Pokemon Card",
+     "p": 416.89,
      "cc": "JP",
-     "seller": "edoniajapan",
-     "url": "https://www.ebay.com.au/itm/388893895245",
-     "why": "price dropped A$1,407 → A$676",
+     "seller": "mercuriusjapan",
+     "url": "https://www.ebay.com.au/itm/820352383463",
+     "why": "relisted cheaper (A$725 → A$417)",
      "auc": false
     }
    ]
@@ -956,9 +936,9 @@
   {
    "cat": "Want list: other",
    "want": true,
-   "total": 251,
-   "new": 4,
-   "drops": 2,
+   "total": 244,
+   "new": 0,
+   "drops": 0,
    "relisted": 17,
    "under": 0,
    "hi": [
@@ -993,16 +973,6 @@
      "auc": false
     },
     {
-     "id": "168633499047",
-     "t": "Pokemon TCG - Pidgeot 10/112 FireRed & LeafGreen Holo Rare - PSA 9 MINT",
-     "p": 330.91,
-     "cc": "AU",
-     "seller": "traderscache",
-     "url": "https://www.ebay.com.au/itm/168633499047",
-     "why": "price dropped A$411 → A$331",
-     "auc": false
-    },
-    {
      "id": "189058627830",
      "t": "Pokemon Plusle 3,000 EXP Points Japanese Holo Promo 004/PLAY Players Club New",
      "p": 862.04,
@@ -1010,16 +980,6 @@
      "seller": "hiluxs_63",
      "url": "https://www.ebay.com.au/itm/189058627830",
      "why": "relisted cheaper (A$1,057 → A$862)",
-     "auc": false
-    },
-    {
-     "id": "800904819931",
-     "t": "Pokemon Card Pidgeot Holo Old Back Japanese Vintage Pre-Owned",
-     "p": 616.1,
-     "cc": "JP",
-     "seller": "zen_luxe_japan2",
-     "url": "https://www.ebay.com.au/itm/800904819931",
-     "why": "price dropped A$676 → A$616",
      "auc": false
     },
     {
@@ -1037,23 +997,12 @@
   {
    "cat": "XY Evolutions",
    "want": true,
-   "total": 177,
-   "new": 0,
-   "drops": 1,
+   "total": 228,
+   "new": 14,
+   "drops": 0,
    "relisted": 10,
    "under": 0,
-   "hi": [
-    {
-     "id": "960120943001",
-     "t": "PSA 9 Graded Mint Pokemon TCG Cards XY Evolutions Reverse Holo: Staryu 30/108 MT",
-     "p": 58.45,
-     "cc": "AU",
-     "seller": "steveyboy882009",
-     "url": "https://www.ebay.com.au/itm/960120943001",
-     "why": "price dropped A$65 → A$58",
-     "auc": false
-    }
-   ]
+   "hi": []
   },
   {
    "cat": "Shining / Legend / POP",
@@ -1068,8 +1017,8 @@
   {
    "cat": "BW & XY era",
    "want": false,
-   "total": 461,
-   "new": 13,
+   "total": 455,
+   "new": 8,
    "drops": 0,
    "relisted": 19,
    "under": 1,
@@ -1086,7 +1035,7 @@
     },
     {
      "id": "366775338692",
-     "t": "PSA 9 M Gengar EX 114/119 Phantom Forces 2014 Full Art Holo - Pokemon TCG",
+     "t": "PSA 9 M Gengar EX #35 Phantom Forces 2014 Full Art Holo - Pokemon TCG",
      "p": 995.0,
      "cc": "AU",
      "seller": "unifiedmindscollectibles",
@@ -1107,11 +1056,11 @@
     {
      "id": "307285209763",
      "t": "2016 Pokemon Scizor EX 119/122 XY BREAKPOINT Full Art Holo PSA 9 New Cert",
-     "p": 474.55,
+     "p": 473.8,
      "cc": "HK",
      "seller": "shibuyagifts",
      "url": "https://www.ebay.com.au/itm/307285209763",
-     "why": "relisted cheaper (A$529 → A$475)",
+     "why": "relisted cheaper (A$529 → A$474)",
      "auc": false
     },
     {
@@ -1145,13 +1094,13 @@
      "auc": false
     },
     {
-     "id": "860155430268",
-     "t": "PSA 9 Pokemon Dark Ivysaur Web 017/048 1st Edition 2001 Japanese Card F/S",
-     "p": 530.73,
+     "id": "227622034793",
+     "t": "PSA 10 Super Scoop Up 136/141 Pokemon VS 2001 Japanese 1st Edition Promo",
+     "p": 371.68,
      "cc": "JP",
-     "seller": "t.hiroki",
-     "url": "https://www.ebay.com.au/itm/860155430268",
-     "why": "new, cheapest of 3 copies seen in 30 days",
+     "seller": "card_toys_asahiya",
+     "url": "https://www.ebay.com.au/itm/227622034793",
+     "why": "new, cheapest of 4 copies seen in 30 days",
      "auc": false
     }
    ]
@@ -1159,10 +1108,10 @@
   {
    "cat": "Primes & chase cards",
    "want": true,
-   "total": 240,
-   "new": 9,
+   "total": 233,
+   "new": 0,
    "drops": 0,
-   "relisted": 4,
+   "relisted": 5,
    "under": 1,
    "hi": [
     {
@@ -1184,35 +1133,15 @@
      "url": "https://www.ebay.com.au/itm/920150800481",
      "why": "relisted cheaper (A$720 → A$580)",
      "auc": false
-    },
-    {
-     "id": "397721385749",
-     "t": "Mega Dragonite ex SAR 246/193 m2a Pokemon Card Mega Dream ex Japanese",
-     "p": 200.27,
-     "cc": "JP",
-     "seller": "rkingl5",
-     "url": "https://www.ebay.com.au/itm/397721385749",
-     "why": "new, cheapest of 7 copies seen in 30 days",
-     "auc": false
-    },
-    {
-     "id": "920155064511",
-     "t": "2026 Pokemon Mega Dragonite ex 290/217  Ascended Heroes SIR",
-     "p": 640.0,
-     "cc": "AU",
-     "seller": "jaydos_tcg",
-     "url": "https://www.ebay.com.au/itm/920155064511",
-     "why": "new, cheapest of 3 copies seen in 30 days",
-     "auc": false
     }
    ]
   },
   {
    "cat": "Under-watched",
    "want": true,
-   "total": 861,
-   "new": 32,
-   "drops": 41,
+   "total": 860,
+   "new": 2,
+   "drops": 3,
    "relisted": 55,
    "under": 0,
    "hi": [
@@ -1237,43 +1166,13 @@
      "auc": false
     },
     {
-     "id": "820364982889",
-     "t": "PSA 10 Psyduck Poke Ball Reverse Holo #032/193 Pokemon Japanese Mega Dream ex",
-     "p": 176.34,
-     "cc": "JP",
-     "seller": "imax-64",
-     "url": "https://www.ebay.com.au/itm/820364982889",
-     "why": "price dropped A$291 → A$176",
-     "auc": false
-    },
-    {
-     "id": "820365710427",
-     "t": "PSA 10 Psyduck Poke Ball Reverse Holo #032/193 Pokemon Japanese Mega Dream ex",
-     "p": 176.33,
-     "cc": "JP",
-     "seller": "imax-64",
-     "url": "https://www.ebay.com.au/itm/820365710427",
-     "why": "price dropped A$279 → A$176",
-     "auc": false
-    },
-    {
-     "id": "800930135616",
-     "t": "PSA 10 N's Reshiram Energy Mark Mirror 128/193 MEGA Dream ex M2a Japanese",
-     "p": 192.13,
-     "cc": "JP",
-     "seller": "japan_eastwind_trading",
-     "url": "https://www.ebay.com.au/itm/800930135616",
-     "why": "price dropped A$266 → A$192",
-     "auc": false
-    },
-    {
-     "id": "940080710902",
-     "t": "2005 Pokémon EX Emerald Zigzagoon 74/106 Stamped Reverse Holo PSA 9 Low Pop",
-     "p": 800.0,
+     "id": "860046840466",
+     "t": "Kirlia #47 PSA 9 Pokemon EX Delta Species Reverse Holo Stamped NEW CERT REV.FOIL",
+     "p": 857.65,
      "cc": "AU",
-     "seller": "monkey_dy",
-     "url": "https://www.ebay.com.au/itm/940080710902",
-     "why": "relisted cheaper (A$1,100 → A$800)",
+     "seller": "yarran123",
+     "url": "https://www.ebay.com.au/itm/860046840466",
+     "why": "price dropped A$1,571 → A$858",
      "auc": false
     },
     {
@@ -1287,13 +1186,43 @@
      "auc": false
     },
     {
-     "id": "366402876927",
-     "t": "Chansey Holo 3/102 Base Set Unlimited Rare WOTC 1999 POKEMON",
-     "p": 318.7,
+     "id": "820305148338",
+     "t": "Pokémon TCG Grumpig 20 EX Crystal Guardians Reverse Holo PSA 9 (2006) Stamped",
+     "p": 965.0,
      "cc": "AU",
-     "seller": "rgbcollector",
-     "url": "https://www.ebay.com.au/itm/366402876927",
-     "why": "price dropped A$425 → A$319",
+     "seller": "thaathingy",
+     "url": "https://www.ebay.com.au/itm/820305148338",
+     "why": "price dropped A$1,274 → A$965",
+     "auc": false
+    },
+    {
+     "id": "820344340565",
+     "t": "PSA 9 UMBREON 092/187 SV8A-TERASTAL FEST EX MASTER BALL REVERSE HOLO",
+     "p": 146.66,
+     "cc": "JP",
+     "seller": "super10_collectors",
+     "url": "https://www.ebay.com.au/itm/820344340565",
+     "why": "relisted cheaper (A$185 → A$147)",
+     "auc": false
+    },
+    {
+     "id": "820353030465",
+     "t": "Mega Charizard Y ex PSA 10 Reverse Holo Pokemon",
+     "p": 236.98,
+     "cc": "JP",
+     "seller": "mercuriusjapan",
+     "url": "https://www.ebay.com.au/itm/820353030465",
+     "why": "relisted cheaper (A$295 → A$237)",
+     "auc": false
+    },
+    {
+     "id": "940080710902",
+     "t": "2005 Pokémon EX Emerald Zigzagoon 74/106 Stamped Reverse Holo PSA 9 Low Pop",
+     "p": 650.0,
+     "cc": "AU",
+     "seller": "monkey_dy",
+     "url": "https://www.ebay.com.au/itm/940080710902",
+     "why": "price dropped A$800 → A$650",
      "auc": false
     }
    ]
@@ -1301,32 +1230,12 @@
   {
    "cat": "Promos: WotC & Japanese vintage",
    "want": true,
-   "total": 983,
-   "new": 39,
-   "drops": 13,
-   "relisted": 65,
+   "total": 990,
+   "new": 9,
+   "drops": 2,
+   "relisted": 66,
    "under": 0,
    "hi": [
-    {
-     "id": "287689453955",
-     "t": "Pokemon 2000 Black Star Promo Cool Porygon #15 Holo PSA 9 English WOTC",
-     "p": 841.66,
-     "cc": "AU",
-     "seller": "pokelounge_au",
-     "url": "https://www.ebay.com.au/itm/287689453955",
-     "why": "price dropped A$1,258 → A$842",
-     "auc": false
-    },
-    {
-     "id": "397656059551",
-     "t": "Bulbasaur 001/032 Classic Holo CLF Pokemon Card Japanese [Near Mint]",
-     "p": 25.46,
-     "cc": "JP",
-     "seller": "stcrecycling",
-     "url": "https://www.ebay.com.au/itm/397656059551",
-     "why": "price dropped A$34 → A$25",
-     "auc": false
-    },
     {
      "id": "376880748383",
      "t": "[NM] Sneasel No.215 Promo Fossil Set Japanese Pokemon Card Old Back 1997 Vintage",
@@ -1338,33 +1247,13 @@
      "auc": false
     },
     {
-     "id": "377641507063",
-     "t": "PSA10 GEM MINT Snorlax Holo CD Promo No.143 1999 Japanese Old Back Pokemon Card",
-     "p": 4806.41,
-     "cc": "JP",
-     "seller": "japanseller2",
-     "url": "https://www.ebay.com.au/itm/377641507063",
-     "why": "price dropped A$6,007 → A$4,806",
-     "auc": false
-    },
-    {
-     "id": "287683806383",
-     "t": "Ancient Mew Pokemon Japanese Nintedo Error 1999 Movie Promo Vintage",
-     "p": 462.15,
-     "cc": "JP",
-     "seller": "kakerujapan920",
-     "url": "https://www.ebay.com.au/itm/287683806383",
-     "why": "price dropped A$577 → A$462",
-     "auc": false
-    },
-    {
-     "id": "377641553895",
-     "t": "PSA10 GEM MINT Snorlax Holo CD Promo No.143 1999 Japanese Old Back Pokemon Card",
-     "p": 4950.61,
-     "cc": "JP",
-     "seller": "japanseller2",
-     "url": "https://www.ebay.com.au/itm/377641553895",
-     "why": "price dropped A$6,175 → A$4,951",
+     "id": "407343612389",
+     "t": "1999 Pokemon TCG Japanese Lickitung Southern Island PROMO #108 PSA 10 ZU07",
+     "p": 900.82,
+     "cc": "CN",
+     "seller": "gecards_shop",
+     "url": "https://www.ebay.com.au/itm/407343612389",
+     "why": "price dropped A$1,096 → A$901",
      "auc": false
     },
     {
@@ -1378,13 +1267,43 @@
      "auc": false
     },
     {
-     "id": "820009481804",
-     "t": "PSA 1 Lily Pad Mew #151 CoroCoro Comics Promo 1997 Glossy Japanese Pokemon Card",
-     "p": 302.11,
+     "id": "128191675902",
+     "t": "PSA 8 Mew Glossy CD Promo 151 Pokemon CD Promo Japanese 1999",
+     "p": 884.1,
      "cc": "JP",
-     "seller": "komorebi-japan-goods-store",
-     "url": "https://www.ebay.com.au/itm/820009481804",
-     "why": "price dropped A$359 → A$302",
+     "seller": "hokama-trade",
+     "url": "https://www.ebay.com.au/itm/128191675902",
+     "why": "relisted cheaper (A$1,044 → A$884)",
+     "auc": false
+    },
+    {
+     "id": "385066858715",
+     "t": "[NM] Picasso Touch Pokemon 1998 Garura Tournament Promo Japanese Vintage GQ42",
+     "p": 130.63,
+     "cc": "JP",
+     "seller": "mayumi_card_shop",
+     "url": "https://www.ebay.com.au/itm/385066858715",
+     "why": "relisted cheaper (A$149 → A$131)",
+     "auc": false
+    },
+    {
+     "id": "168303997004",
+     "t": "PSA 8 CHARIZARD #006 2000 POKEMON CARD JAPANESE NEO 2 PROMO REVERSE FOIL VINTAGE",
+     "p": 655.15,
+     "cc": "JP",
+     "seller": "kura-shuto-japan",
+     "url": "https://www.ebay.com.au/itm/168303997004",
+     "why": "price dropped A$698 → A$655",
+     "auc": false
+    },
+    {
+     "id": "227622034793",
+     "t": "PSA 10 Super Scoop Up 136/141 Pokemon VS 2001 Japanese 1st Edition Promo",
+     "p": 371.68,
+     "cc": "JP",
+     "seller": "card_toys_asahiya",
+     "url": "https://www.ebay.com.au/itm/227622034793",
+     "why": "new, cheapest of 4 copies seen in 30 days",
      "auc": false
     }
    ]
@@ -1392,22 +1311,12 @@
   {
    "cat": "Promos: EX / DP / HGSS",
    "want": true,
-   "total": 1065,
-   "new": 50,
-   "drops": 15,
-   "relisted": 78,
+   "total": 1063,
+   "new": 1,
+   "drops": 0,
+   "relisted": 80,
    "under": 0,
    "hi": [
-    {
-     "id": "188504764325",
-     "t": "Pokemon Card Prinplup 038/DP-P Meiji Promo Japanese SEALED #2",
-     "p": 121.5,
-     "cc": "AU",
-     "seller": "sugoicardsandcollectables",
-     "url": "https://www.ebay.com.au/itm/188504764325",
-     "why": "price dropped A$9,122 → A$122",
-     "auc": false
-    },
     {
      "id": "188389568557",
      "t": "Tauros Promo 049/PCG-P PCG-P Promotional cards - Pokemon Card Japanese",
@@ -1459,16 +1368,6 @@
      "auc": false
     },
     {
-     "id": "188342176879",
-     "t": "Charizard Promo 054/ADV-P ADV-P Promotional cards MEIJI - Pokemon Card Japanese",
-     "p": 815.51,
-     "cc": "JP",
-     "seller": "katanacards",
-     "url": "https://www.ebay.com.au/itm/188342176879",
-     "why": "price dropped A$1,082 → A$816",
-     "auc": false
-    },
-    {
      "id": "860128816138",
      "t": "Phanpy 009/L-P PROMO PSA 10",
      "p": 762.35,
@@ -1477,16 +1376,36 @@
      "url": "https://www.ebay.com.au/itm/860128816138",
      "why": "relisted cheaper (A$997 → A$762)",
      "auc": false
+    },
+    {
+     "id": "318117716841",
+     "t": "Aura's Lucario 093/PCG-P PokePark 2005 Promo Sealed Pokemon Card Japanese",
+     "p": 372.92,
+     "cc": "JP",
+     "seller": "e-life_japan",
+     "url": "https://www.ebay.com.au/itm/318117716841",
+     "why": "relisted cheaper (A$477 → A$373)",
+     "auc": false
+    },
+    {
+     "id": "377623118544",
+     "t": "Pokepark's Torchic 47/PCG-P Pokepark Grand Opening Pokemon Japanese PSA 8 Nm-Mt",
+     "p": 268.88,
+     "cc": "AU",
+     "seller": "stasiscollectibles",
+     "url": "https://www.ebay.com.au/itm/377623118544",
+     "why": "relisted cheaper (A$318 → A$269)",
+     "auc": false
     }
    ]
   },
   {
    "cat": "Promos: BW & XY",
    "want": true,
-   "total": 1130,
-   "new": 51,
-   "drops": 11,
-   "relisted": 72,
+   "total": 1107,
+   "new": 3,
+   "drops": 3,
+   "relisted": 70,
    "under": 0,
    "hi": [
     {
@@ -1520,16 +1439,6 @@
      "auc": false
     },
     {
-     "id": "336273770526",
-     "t": "Pokemon Hoopa PROMO 155/XY-P & Armored Mewtwo 365/SM-P Japanese Factory Sealed",
-     "p": 725.06,
-     "cc": "JP",
-     "seller": "sukiyaki_3",
-     "url": "https://www.ebay.com.au/itm/336273770526",
-     "why": "price dropped A$996 → A$725",
-     "auc": false
-    },
-    {
      "id": "840114530612",
      "t": "Rayquaza Promo 144/BW-P BW-P Promotional cards - Pokemon Card Japanese",
      "p": 334.58,
@@ -1540,33 +1449,43 @@
      "auc": false
     },
     {
-     "id": "800650871859",
-     "t": "【PSA 9】 Rayquaza P [BW-P 144/BW-P] Pokemon from Japan",
-     "p": 832.08,
-     "cc": "JP",
-     "seller": "ryosuke0619",
-     "url": "https://www.ebay.com.au/itm/800650871859",
-     "why": "price dropped A$1,090 → A$832",
-     "auc": false
-    },
-    {
-     "id": "147645351664",
-     "t": "2012 Pokemon JPN B&W Promo Rayquaza Holo Nobunaga’s Ambition PSA 9 #144 BW-P",
-     "p": 742.07,
-     "cc": "JP",
-     "seller": "japanseller777",
-     "url": "https://www.ebay.com.au/itm/147645351664",
-     "why": "price dropped A$966 → A$742",
-     "auc": false
-    },
-    {
-     "id": "186769729547",
-     "t": "Sealed Umbreon Promo 115/BW-P BW-P Promotional cards - Pokemon Card Japanese",
-     "p": 442.59,
+     "id": "186837999493",
+     "t": "Metal Energy Promo 090/BW-P BW-P Promotional cards - Pokemon Card Japanese",
+     "p": 59.49,
      "cc": "JP",
      "seller": "katanacards",
-     "url": "https://www.ebay.com.au/itm/186769729547",
-     "why": "price dropped A$575 → A$443",
+     "url": "https://www.ebay.com.au/itm/186837999493",
+     "why": "relisted cheaper (A$66 → A$59)",
+     "auc": false
+    },
+    {
+     "id": "820344334919",
+     "t": "PSA 10 Celebi Holo Promo 142/XY-P Japanese XY Bandit Ring Pokemon Card",
+     "p": 702.07,
+     "cc": "JP",
+     "seller": "super10_collectors",
+     "url": "https://www.ebay.com.au/itm/820344334919",
+     "why": "relisted cheaper (A$781 → A$702)",
+     "auc": false
+    },
+    {
+     "id": "186048101124",
+     "t": "Rayquaza Promo 144/BW-P BW-P Promotional cards - Pokemon Card Japanese",
+     "p": 355.05,
+     "cc": "JP",
+     "seller": "katanacards",
+     "url": "https://www.ebay.com.au/itm/186048101124",
+     "why": "relisted cheaper (A$393 → A$355)",
+     "auc": false
+    },
+    {
+     "id": "188310253616",
+     "t": "Silver Bangle Promo 214/BW-P BW-P Promotional cards - Pokemon Card Japanese",
+     "p": 19.18,
+     "cc": "JP",
+     "seller": "katanacards",
+     "url": "https://www.ebay.com.au/itm/188310253616",
+     "why": "relisted cheaper (A$21 → A$19)",
      "auc": false
     }
    ]
@@ -1574,10 +1493,10 @@
   {
    "cat": "Promos: SM / SWSH / SV / Mega",
    "want": true,
-   "total": 2179,
-   "new": 128,
-   "drops": 21,
-   "relisted": 121,
+   "total": 2162,
+   "new": 4,
+   "drops": 7,
+   "relisted": 122,
    "under": 0,
    "hi": [
     {
@@ -1611,26 +1530,6 @@
      "auc": false
     },
     {
-     "id": "336273770526",
-     "t": "Pokemon Hoopa PROMO 155/XY-P & Armored Mewtwo 365/SM-P Japanese Factory Sealed",
-     "p": 725.06,
-     "cc": "JP",
-     "seller": "sukiyaki_3",
-     "url": "https://www.ebay.com.au/itm/336273770526",
-     "why": "price dropped A$996 → A$725",
-     "auc": false
-    },
-    {
-     "id": "186833737222",
-     "t": "Mr. Mime-GX Promo 231/SM-P Sun & Moon Promos - Pokemon Card Japanese",
-     "p": 21.11,
-     "cc": "JP",
-     "seller": "katanacards",
-     "url": "https://www.ebay.com.au/itm/186833737222",
-     "why": "price dropped A$27 → A$21",
-     "auc": false
-    },
-    {
      "id": "227464951846",
      "t": "PSA 10 Celebi V SA 175/S-P Jet Black Spirit Promo Pokemon Card Japanese 2021",
      "p": 487.83,
@@ -1659,16 +1558,36 @@
      "url": "https://www.ebay.com.au/itm/377392800533",
      "why": "relisted cheaper (A$774 → A$621)",
      "auc": false
+    },
+    {
+     "id": "237175779663",
+     "t": "Pokemon 2019 P.M. SM Black Star Promo Full Art Holo Charizard GX PSA 9 Pokémon",
+     "p": 200.0,
+     "cc": "AU",
+     "seller": "smithiesbargains",
+     "url": "https://www.ebay.com.au/itm/237175779663",
+     "why": "relisted cheaper (A$245 → A$200)",
+     "auc": false
+    },
+    {
+     "id": "366808992119",
+     "t": "Lugia 237/SM-P Promo Holo Pokemon Card Japanese Sealed Authentic",
+     "p": 145.08,
+     "cc": "JP",
+     "seller": "sugiyamakousakusho",
+     "url": "https://www.ebay.com.au/itm/366808992119",
+     "why": "relisted cheaper (A$176 → A$145)",
+     "auc": false
     }
    ]
   },
   {
    "cat": "Movie & event promos",
    "want": true,
-   "total": 344,
-   "new": 9,
-   "drops": 6,
-   "relisted": 21,
+   "total": 341,
+   "new": 0,
+   "drops": 0,
+   "relisted": 20,
    "under": 0,
    "hi": [
     {
@@ -1694,31 +1613,11 @@
     {
      "id": "178527687903",
      "t": "PSA 10 Celebi Holo Timeless 10th Movie Comm Promo Pokemon Card Japanese 2007",
-     "p": 621.19,
+     "p": 623.03,
      "cc": "JP",
      "seller": "yus-japan",
      "url": "https://www.ebay.com.au/itm/178527687903",
-     "why": "relisted cheaper (A$948 → A$621)",
-     "auc": false
-    },
-    {
-     "id": "397903145245",
-     "t": "PSA 9 Alto Mare's Latios Holo 10th Movie Promo Pokemon Card Japanese Mint",
-     "p": 326.6,
-     "cc": "JP",
-     "seller": "i3-japan",
-     "url": "https://www.ebay.com.au/itm/397903145245",
-     "why": "price dropped A$434 → A$327",
-     "auc": false
-    },
-    {
-     "id": "398109515492",
-     "t": "PSA 9 Alto Mare's Latios Holo 10th Movie Promo Pokemon Card Japanese Mint",
-     "p": 326.6,
-     "cc": "JP",
-     "seller": "i3-japan",
-     "url": "https://www.ebay.com.au/itm/398109515492",
-     "why": "price dropped A$432 → A$327",
+     "why": "relisted cheaper (A$948 → A$623)",
      "auc": false
     },
     {
@@ -1732,23 +1631,43 @@
      "auc": false
     },
     {
-     "id": "186769729547",
-     "t": "Sealed Umbreon Promo 115/BW-P BW-P Promotional cards - Pokemon Card Japanese",
-     "p": 442.59,
+     "id": "800649853295",
+     "t": "[NM] Wave-Guiding Hero Lucario Pokemon Japanese Holo Foil 10th Movie Promo PA37",
+     "p": 89.32,
      "cc": "JP",
-     "seller": "katanacards",
-     "url": "https://www.ebay.com.au/itm/186769729547",
-     "why": "price dropped A$575 → A$443",
+     "seller": "mayumi_card_shop",
+     "url": "https://www.ebay.com.au/itm/800649853295",
+     "why": "relisted cheaper (A$111 → A$89)",
      "auc": false
     },
     {
-     "id": "187950890026",
-     "t": "Sealed Umbreon Promo 115/BW-P BW-P Promotional cards - Pokemon Card Japanese",
-     "p": 389.54,
+     "id": "880066914021",
+     "t": "PSA 10 Timeless Celebi Holo 10th Movie Promo Japanese Pokemon Card 2007 Swirl",
+     "p": 625.0,
+     "cc": "AU",
+     "seller": "cozycollectables",
+     "url": "https://www.ebay.com.au/itm/880066914021",
+     "why": "relisted cheaper (A$725 → A$625)",
+     "auc": false
+    },
+    {
+     "id": "800615579170",
+     "t": "[NM] Striking Back Mewtwo Pokemon card Japanese 10th Movie Promo Rare KA56",
+     "p": 275.17,
      "cc": "JP",
-     "seller": "katanacards",
-     "url": "https://www.ebay.com.au/itm/187950890026",
-     "why": "price dropped A$505 → A$390",
+     "seller": "mayumi_card_shop",
+     "url": "https://www.ebay.com.au/itm/800615579170",
+     "why": "relisted cheaper (A$311 → A$275)",
+     "auc": false
+    },
+    {
+     "id": "307272555295",
+     "t": "Pokemon TCG Japanese Holo Alto Mare's Latios PSA 9 MINT 10th Movie Promo",
+     "p": 399.95,
+     "cc": "AU",
+     "seller": "i24_collections",
+     "url": "https://www.ebay.com.au/itm/307272555295",
+     "why": "relisted cheaper (A$450 → A$400)",
      "auc": false
     }
    ]
@@ -1756,62 +1675,12 @@
   {
    "cat": "Mew",
    "want": true,
-   "total": 708,
-   "new": 29,
-   "drops": 13,
-   "relisted": 50,
+   "total": 706,
+   "new": 2,
+   "drops": 1,
+   "relisted": 49,
    "under": 0,
    "hi": [
-    {
-     "id": "128002692122",
-     "t": "Pokemon Cards Mew CP 016 036 CP5 Japanese",
-     "p": 115.92,
-     "cc": "JP",
-     "seller": "showtime1031",
-     "url": "https://www.ebay.com.au/itm/128002692122",
-     "why": "price dropped A$198 → A$116",
-     "auc": false
-    },
-    {
-     "id": "398378328912",
-     "t": "CCIC 10 Gem Mint 2021 Pokemon TCG Japanese S8a-P 014/025 Mew ex",
-     "p": 166.54,
-     "cc": "CN",
-     "seller": "premecollectibles",
-     "url": "https://www.ebay.com.au/itm/398378328912",
-     "why": "price dropped A$219 → A$167",
-     "auc": false
-    },
-    {
-     "id": "398378328293",
-     "t": "2021 Pokemon TCG Japanese S8a-P 014/025 Mew ex CCIC 10 Gem Mint",
-     "p": 182.85,
-     "cc": "CN",
-     "seller": "premecollectibles",
-     "url": "https://www.ebay.com.au/itm/398378328293",
-     "why": "price dropped A$235 → A$183",
-     "auc": false
-    },
-    {
-     "id": "287683806383",
-     "t": "Ancient Mew Pokemon Japanese Nintedo Error 1999 Movie Promo Vintage",
-     "p": 462.15,
-     "cc": "JP",
-     "seller": "kakerujapan920",
-     "url": "https://www.ebay.com.au/itm/287683806383",
-     "why": "price dropped A$577 → A$462",
-     "auc": false
-    },
-    {
-     "id": "820009481804",
-     "t": "PSA 1 Lily Pad Mew #151 CoroCoro Comics Promo 1997 Glossy Japanese Pokemon Card",
-     "p": 302.11,
-     "cc": "JP",
-     "seller": "komorebi-japan-goods-store",
-     "url": "https://www.ebay.com.au/itm/820009481804",
-     "why": "price dropped A$359 → A$302",
-     "auc": false
-    },
     {
      "id": "128191675902",
      "t": "PSA 8 Mew Glossy CD Promo 151 Pokemon CD Promo Japanese 1999",
@@ -1833,13 +1702,43 @@
      "auc": false
     },
     {
-     "id": "800920585198",
-     "t": "PSA 10 Mew Holo 027/078 Awakening Psychic King XY10 1st Edition 2016 Japanese",
-     "p": 872.03,
+     "id": "407367277537",
+     "t": "PSA 10 Mew R 027/078 Japanese Pokemon Card",
+     "p": 983.3,
      "cc": "JP",
-     "seller": "animint_japan",
-     "url": "https://www.ebay.com.au/itm/800920585198",
-     "why": "price dropped A$988 → A$872",
+     "seller": "pleased_store",
+     "url": "https://www.ebay.com.au/itm/407367277537",
+     "why": "relisted cheaper (A$1,085 → A$983)",
+     "auc": false
+    },
+    {
+     "id": "820206076676",
+     "t": "PSA 10 Pokemon Japanese The Best of XY #044/171 Mew 2017 Gem Mint",
+     "p": 674.41,
+     "cc": "JP",
+     "seller": "imax-64",
+     "url": "https://www.ebay.com.au/itm/820206076676",
+     "why": "relisted cheaper (A$736 → A$674)",
+     "auc": false
+    },
+    {
+     "id": "307286500435",
+     "t": "2000 Pokemon Mew Black Star Promo Pokemon League #8 Card ARS 9 (Equal To PSA 10)",
+     "p": 573.26,
+     "cc": "JP",
+     "seller": "dragonkingiii",
+     "url": "https://www.ebay.com.au/itm/307286500435",
+     "why": "price dropped A$621 → A$573",
+     "auc": false
+    },
+    {
+     "id": "800900110540",
+     "t": "Mew 342/SM-P Holo Promo 2019 TAG TEAM GX Deluxe Japanese Pokemon Card",
+     "p": 226.98,
+     "cc": "JP",
+     "seller": "miyashop_22",
+     "url": "https://www.ebay.com.au/itm/800900110540",
+     "why": "relisted cheaper (A$245 → A$227)",
      "auc": false
     }
    ]
@@ -1847,40 +1746,20 @@
   {
    "cat": "Southern Islands",
    "want": true,
-   "total": 199,
-   "new": 8,
-   "drops": 2,
+   "total": 200,
+   "new": 0,
+   "drops": 1,
    "relisted": 11,
    "under": 0,
    "hi": [
     {
-     "id": "366780676789",
-     "t": "Pokemon Carddass Mew Holo Super Rare FILE No.151 Metronome Attack Card",
-     "p": 622.17,
-     "cc": "JP",
-     "seller": "mamosubb",
-     "url": "https://www.ebay.com.au/itm/366780676789",
-     "why": "price dropped A$696 → A$622",
-     "auc": false
-    },
-    {
-     "id": "860137237456",
-     "t": "PSA 9 Pokemon Japanese Promo Raticate Southern Island Card",
-     "p": 432.68,
-     "cc": "JP",
-     "seller": "totoriri",
-     "url": "https://www.ebay.com.au/itm/860137237456",
-     "why": "price dropped A$481 → A$433",
-     "auc": false
-    },
-    {
-     "id": "137939580916",
-     "t": "PSA 5 Mew Holo #151 Southern Island Rainbow Isld. 1999 Pokemon Japanese Promo EX",
-     "p": 561.68,
-     "cc": "JP",
-     "seller": "yellodon",
-     "url": "https://www.ebay.com.au/itm/137939580916",
-     "why": "new, cheapest of 3 copies seen in 30 days",
+     "id": "407343612389",
+     "t": "1999 Pokemon TCG Japanese Lickitung Southern Island PROMO #108 PSA 10 ZU07",
+     "p": 900.82,
+     "cc": "CN",
+     "seller": "gecards_shop",
+     "url": "https://www.ebay.com.au/itm/407343612389",
+     "why": "price dropped A$1,096 → A$901",
      "auc": false
     }
    ]
@@ -1888,52 +1767,12 @@
   {
    "cat": "Mega Cash list",
    "want": true,
-   "total": 290,
-   "new": 16,
-   "drops": 7,
+   "total": 284,
+   "new": 1,
+   "drops": 0,
    "relisted": 4,
    "under": 0,
    "hi": [
-    {
-     "id": "388746955796",
-     "t": "Pokemon Terrakion Holo UR 064/059 BW6 Cold Flare Japanese Card",
-     "p": 969.39,
-     "cc": "JP",
-     "seller": "edoniajapan",
-     "url": "https://www.ebay.com.au/itm/388746955796",
-     "why": "price dropped A$1,392 → A$969",
-     "auc": false
-    },
-    {
-     "id": "388889091222",
-     "t": "Pokemon Terrakion Holo UR 064/059 BW6 Cold Flare Japanese Card",
-     "p": 994.34,
-     "cc": "JP",
-     "seller": "edoniajapan",
-     "url": "https://www.ebay.com.au/itm/388889091222",
-     "why": "price dropped A$1,407 → A$994",
-     "auc": false
-    },
-    {
-     "id": "940096732232",
-     "t": "The Pokémon Company M Lucario EX 55a/111 Rising Fist Full Art Holo EN",
-     "p": 130.53,
-     "cc": "AU",
-     "seller": "hanadiray11",
-     "url": "https://www.ebay.com.au/itm/940096732232",
-     "why": "price dropped A$183 → A$131",
-     "auc": false
-    },
-    {
-     "id": "407369091901",
-     "t": "Pokemon Card MEGA Mega Lucario ex MA 228/193 M2a MEGA Dream ex Japanese NM",
-     "p": 35.35,
-     "cc": "CN",
-     "seller": "poketcgcollectors",
-     "url": "https://www.ebay.com.au/itm/407369091901",
-     "why": "price dropped A$47 → A$35",
-     "auc": false
-    },
     {
      "id": "960180433703",
      "t": "PSA 10 M Lucario EX 063/171 The Best of XY Pokemon Card Japanese Mega 2017",
@@ -1945,16 +1784,6 @@
      "auc": false
     },
     {
-     "id": "860075611583",
-     "t": "PSA 8 Pokemon Lt. Surge's Raichu Holo NM-MT 1999 Japanese Gym 2",
-     "p": 308.4,
-     "cc": "JP",
-     "seller": "totoriri",
-     "url": "https://www.ebay.com.au/itm/860075611583",
-     "why": "price dropped A$343 → A$308",
-     "auc": false
-    },
-    {
      "id": "960181635406",
      "t": "PSA 10 M Lucario EX 063/171 The Best of XY Pokemon Card Japanese Mega 2017",
      "p": 488.91,
@@ -1962,16 +1791,6 @@
      "seller": "bespread.japan",
      "url": "https://www.ebay.com.au/itm/960181635406",
      "why": "relisted cheaper (A$535 → A$489)",
-     "auc": false
-    },
-    {
-     "id": "137556678804",
-     "t": "PSA 10 Dragonite EX Rising Fist 1st 069 069/096 XY3 RR Pokemon Japanese 2014",
-     "p": 386.86,
-     "cc": "JP",
-     "seller": "yahman_finds_japan",
-     "url": "https://www.ebay.com.au/itm/137556678804",
-     "why": "price dropped A$419 → A$387",
      "auc": false
     }
    ]
@@ -1999,9 +1818,9 @@
   {
    "cat": "BW / Plasma-era secret rares",
    "want": true,
-   "total": 332,
-   "new": 3,
-   "drops": 10,
+   "total": 330,
+   "new": 0,
+   "drops": 0,
    "relisted": 14,
    "under": 1,
    "hi": [
@@ -2018,71 +1837,11 @@
     {
      "id": "187004078426",
      "t": "Celebi ex SR 060/059 BW6 Cold Flare - Pokemon Card Japanese",
-     "p": 137.75,
+     "p": 138.16,
      "cc": "JP",
      "seller": "katanacards",
      "url": "https://www.ebay.com.au/itm/187004078426",
-     "why": "price dropped A$701 → A$138",
-     "auc": false
-    },
-    {
-     "id": "187969860465",
-     "t": "Celebi ex SR 060/059 BW6 Cold Flare - Pokemon Card Japanese",
-     "p": 121.23,
-     "cc": "JP",
-     "seller": "katanacards",
-     "url": "https://www.ebay.com.au/itm/187969860465",
-     "why": "price dropped A$615 → A$121",
-     "auc": false
-    },
-    {
-     "id": "388746956041",
-     "t": "Pokemon Ghetsis Holo SR 055/051 BW8 Spiral Force Japanese Card",
-     "p": 651.23,
-     "cc": "JP",
-     "seller": "edoniajapan",
-     "url": "https://www.ebay.com.au/itm/388746956041",
-     "why": "price dropped A$1,392 → A$651",
-     "auc": false
-    },
-    {
-     "id": "388893895245",
-     "t": "Pokemon Ghetsis Holo SR 055/051 BW8 Spiral Force Japanese Card",
-     "p": 676.17,
-     "cc": "JP",
-     "seller": "edoniajapan",
-     "url": "https://www.ebay.com.au/itm/388893895245",
-     "why": "price dropped A$1,407 → A$676",
-     "auc": false
-    },
-    {
-     "id": "187004078537",
-     "t": "Heatran-EX SR 052/051 Spiral Force - Pokemon Card Japanese",
-     "p": 159.53,
-     "cc": "JP",
-     "seller": "katanacards",
-     "url": "https://www.ebay.com.au/itm/187004078537",
-     "why": "price dropped A$299 → A$160",
-     "auc": false
-    },
-    {
-     "id": "187950829482",
-     "t": "Heatran-EX SR 052/051 Spiral Force - Pokemon Card Japanese",
-     "p": 140.4,
-     "cc": "JP",
-     "seller": "katanacards",
-     "url": "https://www.ebay.com.au/itm/187950829482",
-     "why": "price dropped A$263 → A$140",
-     "auc": false
-    },
-    {
-     "id": "388746955796",
-     "t": "Pokemon Terrakion Holo UR 064/059 BW6 Cold Flare Japanese Card",
-     "p": 969.39,
-     "cc": "JP",
-     "seller": "edoniajapan",
-     "url": "https://www.ebay.com.au/itm/388746955796",
-     "why": "price dropped A$1,392 → A$969",
+     "why": "relisted cheaper (A$689 → A$138)",
      "auc": false
     }
    ]
@@ -2090,10 +1849,10 @@
   {
    "cat": "Not in a category",
    "want": false,
-   "total": 13259,
-   "new": 117,
-   "drops": 36,
-   "relisted": 55,
+   "total": 8930,
+   "new": 300,
+   "drops": 4,
+   "relisted": 27,
    "under": 0,
    "hi": [
     {
@@ -2107,73 +1866,73 @@
      "auc": false
     },
     {
-     "id": "s-megacash.com.au-9239431512291",
-     "t": "Pokémon - Greninja Ex 090/066 PSA 10",
-     "p": 461.0,
+     "id": "s-ozziecollectables.com-8254261526650",
+     "t": "2018 Pokemon Japanese Sun & Moon Tag Bolt 019 Magikarp & Wailord Gx Tag Bolt - PSA 9",
+     "p": 111.99,
      "cc": "AU",
-     "seller": "Mega Cash",
-     "url": "https://megacash.com.au/products/pokemon-greninja-ex-090-066-psa-10",
-     "why": "price dropped A$861 → A$461",
+     "seller": "Ozzie Collectables",
+     "url": "https://ozziecollectables.com/products/2018-pokemon-japanese-sun-moon-tag-bolt-019-magikarp-wailord-gx-tag-bolt-psa-9",
+     "why": "price dropped A$212 → A$112",
      "auc": false
     },
     {
-     "id": "s-megacash.com.au-9527553622243",
-     "t": "Pokémon - PSA 10 Gengar Ex 010/049 JPN Build Power Style",
-     "p": 511.0,
+     "id": "s-ozziecollectables.com-8306168070266",
+     "t": "2026 Pokemon Por En-Perfect Order 094 Clefairy Illustration Rare - PSA 9",
+     "p": 91.99,
      "cc": "AU",
-     "seller": "Mega Cash",
-     "url": "https://megacash.com.au/products/pokemon-psa-10-gengar-ex-010-049-jpn-build-power-style",
-     "why": "price dropped A$911 → A$511",
+     "seller": "Ozzie Collectables",
+     "url": "https://ozziecollectables.com/products/2026-pokemon-por-en-perfect-order-094-illustration-rare",
+     "why": "relisted cheaper (A$112 → A$92)",
      "auc": false
     },
     {
-     "id": "s-megacash.com.au-9555261653219",
-     "t": "Pokémon - PSA 10 Ditto 132/165 Masterball 151 (JPN)",
-     "p": 151.0,
+     "id": "s-pwatcg.com-15417100566702",
+     "t": "PSA 8 2025 POKEMON PRE EN-PRISMATIC EVOLUTIONS #155 ESPEON EX SPECIAL ILLUSTRATION RARE",
+     "p": 347.0,
      "cc": "AU",
-     "seller": "Mega Cash",
-     "url": "https://megacash.com.au/products/pokemon-psa-10-ditto-132-165-masterball-151-jpn",
-     "why": "price dropped A$211 → A$151",
+     "seller": "Pokeworld Australia",
+     "url": "https://pwatcg.com/products/psa-8-2025-pokemon-pre-en-prismatic-evolutions-155-espeon-ex-special-illustration-rare-1",
+     "why": "relisted cheaper (A$412 → A$347)",
      "auc": false
     },
     {
-     "id": "s-megacash.com.au-9440855884003",
-     "t": "Pokemon - PSA 10 - Mega Gardevoir Ex 226/193 - Mega Evolutions",
-     "p": 81.0,
+     "id": "s-mayhemcollectables.com.au-15526835290426",
+     "t": "Enamorus 110/103 (ME06: Delta Reign)  - Holofoil [NM]",
+     "p": 16.5,
      "cc": "AU",
-     "seller": "Mega Cash",
-     "url": "https://megacash.com.au/products/pokemon-cgc-10-mega-gardevoir-ex-178-132-mega-evolutions-copy",
-     "why": "price dropped A$111 → A$81",
+     "seller": "Mayhem Collectables",
+     "url": "https://mayhemcollectables.com.au/products/enamorus-110-103-me06-delta-reign-holofoil",
+     "why": "price dropped A$20 → A$16",
      "auc": false
     },
     {
-     "id": "s-megacash.com.au-9329077125347",
-     "t": "Pokémon - PSA 10 - JPN Blaziken - 101/098",
-     "p": 81.0,
+     "id": "s-thecardcave.com.au-15452427255917",
+     "t": "POKEMON TCG - Kyogre 117 ME Mega Evolution Promo - Promo [Near Mint]",
+     "p": 24.99,
      "cc": "AU",
-     "seller": "Mega Cash",
-     "url": "https://megacash.com.au/products/pokemon-psa-10-jpn-blaziken-101-098",
-     "why": "price dropped A$111 → A$81",
+     "seller": "The Card Cave",
+     "url": "https://thecardcave.com.au/products/pokemon-tcg-kyogre-117-me-mega-evolution-promo-promo",
+     "why": "price dropped A$29 → A$25",
      "auc": false
     },
     {
-     "id": "s-lightofcards.com.au-10321736138850",
-     "t": "Pokémon TCG - Mew ex - 129/103 - JP - 30th Celebration",
-     "p": 81.99,
+     "id": "s-slabd.com.au-44758",
+     "t": "2021 POKEMON CELEBRATIONS CLASSIC COLLECTION 17 UMBREON-GOLD STAR",
+     "p": 662.0,
      "cc": "AU",
-     "seller": "Light of Cards",
-     "url": "https://lightofcards.com.au/products/pokemon-tcg-mew-ex-129-103-jp-30th-celebration",
-     "why": "price dropped A$112 → A$82",
+     "seller": "Slabd",
+     "url": "https://slabd.com.au/shop/single-cards/tcg/pokemon-tcg/2021-pokemon-celebrations-classic-collection-17-umbreon-gold-star-2/",
+     "why": "price dropped A$762 → A$662",
      "auc": false
     },
     {
-     "id": "s-pidoofcollectibles.com-10352134324393",
-     "t": "2021 POKEMON JAPANESE PROMO CARD PACK 25TH ANNIVERSARY EDITION #011 TM.MAG.GROUDON-HOLO PC",
-     "p": 112.0,
+     "id": "s-thecardcave.com.au-15433576251501",
+     "t": "ARCEUS XY116 XY PROMO POKEMON PROMO HOLO LP",
+     "p": 71.99,
      "cc": "AU",
-     "seller": "Pidoof Collectibles",
-     "url": "https://pidoofcollectibles.com/products/2022-pokemon-japanese-sword-shield-vstar-universe-195-fa-latias-vstar-universe-copy",
-     "why": "relisted cheaper (A$152 → A$112)",
+     "seller": "The Card Cave",
+     "url": "https://thecardcave.com.au/products/arceus-xy116-xy-promo-pokemon-promo-holo-lp-771829",
+     "why": "relisted cheaper (A$82 → A$72)",
      "auc": false
     }
    ]
@@ -2183,12 +1942,12 @@
   {
    "label": "Aquapolis Lugia 149/147 (crystal)",
    "grade": "Raw",
-   "value": 3711,
+   "value": 3721,
    "copies": 4,
    "under": 4,
    "sellers": 4,
    "median_ratio": 0.22,
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-aquapolis/lugia-149",
    "id": "tg:Aquapolis Lugia 149/147 (crystal)"
   }

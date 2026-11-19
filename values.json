@@ -1,6 +1,6 @@
 {
  "note": "Card values in A$ by grade. tg: rows come from the Slab Finder's TG benchmarks; others from PriceCharting (US$ x 1.4232). Edit or add entries freely: num = card number as printed (leading zeros dropped, or No.151 for old Japanese), words = name words that must all be in the title, keys = set words (any one must be in the title; empty = number is enough), first = 1st Edition only, rev = reverse/mirror only. slab = played-copy grading targets: low = typical low-grade (lowg) sale A$, mid = PSA 7 sale A$; the feed lists raw copies where grading clears fees.",
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "cards": [
   {
    "id": "tg:Fossil 1st Edition Hypno 8/62",
@@ -5888,15 +5888,15 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 3711,
-    "PSA 9": 41712,
-    "PSA 10": 220450,
-    "PSA 7": 16504,
-    "PSA 8": 22860
+    "Raw": 3721,
+    "PSA 9": 43238,
+    "PSA 10": 221044,
+    "PSA 7": 15683,
+    "PSA 8": 22921
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-aquapolis/lugia-149",
-   "checked": "2026-11-18",
+   "checked": "2026-11-19",
    "thin": []
   },
   {
@@ -12943,11 +12943,19 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 45,
+    "PSA 7": 99,
+    "PSA 8": 149,
+    "PSA 9": 223,
+    "PSA 10": 8398
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/clefable-no-symbol-1",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Electrode 2/64 (no symbol)",
@@ -12988,11 +12996,20 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 112,
+    "PSA 7": 167,
+    "PSA 8": 268,
+    "PSA 9": 577,
+    "PSA 10": 6177
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/flareon-no-symbol-3",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 7",
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Jolteon 4/64 (no symbol)",
@@ -13008,11 +13025,19 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 89,
+    "PSA 7": 144,
+    "PSA 8": 260,
+    "PSA 9": 827,
+    "PSA 10": 4237
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/jolteon-no-symbol-4",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Kangaskhan 5/64 (no symbol)",
@@ -13028,11 +13053,19 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 41,
+    "PSA 7": 80,
+    "PSA 8": 114,
+    "PSA 9": 417,
+    "PSA 10": 7381
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/kangaskhan-no-symbol-5",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Mr. Mime 6/64 (no symbol)",
@@ -13049,11 +13082,19 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 48,
+    "PSA 7": 85,
+    "PSA 8": 127,
+    "PSA 9": 277,
+    "PSA 10": 1563
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/mr-mime-no-symbol-6",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Nidoqueen 7/64 (no symbol)",
@@ -13119,11 +13160,20 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 37,
+    "PSA 7": 83,
+    "PSA 8": 149,
+    "PSA 9": 399,
+    "PSA 10": 1398
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/pinsir-no-symbol-9",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 7",
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Scyther 10/64 (no symbol)",
@@ -13139,11 +13189,19 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 61,
+    "PSA 7": 153,
+    "PSA 8": 220,
+    "PSA 9": 440,
+    "PSA 10": 3014
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/scyther-no-symbol-10",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Snorlax 11/64 (no symbol)",
@@ -13159,11 +13217,19 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 197,
+    "PSA 7": 357,
+    "PSA 8": 608,
+    "PSA 9": 2139,
+    "PSA 10": 11386
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/snorlax-no-symbol-11",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Venomoth 13/64 (no symbol)",
@@ -13179,11 +13245,19 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 34,
+    "PSA 7": 100,
+    "PSA 8": 96,
+    "PSA 9": 335,
+    "PSA 10": 3457
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/venomoth-no-symbol-13",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Victreebel 14/64 (no symbol)",
@@ -13199,11 +13273,19 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 40,
+    "PSA 7": 100,
+    "PSA 8": 134,
+    "PSA 9": 208,
+    "PSA 10": 2716
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/victreebel-no-symbol-14",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Vileplume 15/64 (no symbol)",
@@ -13219,11 +13301,21 @@
    "first": false,
    "sl": false,
    "rev": false,
-   "g": {},
-   "src": "PriceCharting (added 2026-11-19, refreshed by values_refresh)",
+   "g": {
+    "Raw": 42,
+    "PSA 7": 63,
+    "PSA 8": 126,
+    "PSA 9": 470,
+    "PSA 10": 3396
+   },
+   "src": "PriceCharting 2026-11-19 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/vileplume-no-symbol-15",
-   "checked": "",
-   "thin": []
+   "checked": "2026-11-19",
+   "thin": [
+    "PSA 7",
+    "PSA 8",
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Jungle Wigglytuff 16/64 (no symbol)",
@@ -13252,7 +13344,7 @@
   }
  ],
  "rate": {
-  "usd_aud": 1.4844,
+  "usd_aud": 1.4884,
   "source": "open.er-api.com"
  }
 }
