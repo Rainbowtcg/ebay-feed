@@ -1,7 +1,7 @@
 name: eBay feed
 on:
   schedule:
-    - cron: "17 19 * * *"   # 6:17 am AEDT daily
+    - cron: "17 17 * * *"   # 4:17 am AEDT daily (3:17 am AEST in winter); GitHub usually starts it 1-2 h late, so it is done by about 7 am
   workflow_dispatch: {}
 permissions:
   contents: write
