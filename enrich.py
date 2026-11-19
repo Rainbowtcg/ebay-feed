@@ -33,6 +33,32 @@ SELL_KEEP = 0.87                 # share of the sale price kept after eBay fees
 SKIP_CC = {"US", "GB", "UK", "CA"}
 AUCTION_HOURS = 24               # auctions ending within this many hours are shown when the bid is well under value
 AUCTION_RATIO = 0.7              # ... at or under 70% of the card's value (landed, with GST)
+NEO_NAME = {"1": " neo genesis", "2": " neo discovery", "3": " neo revelation", "4": " neo destiny"}
+
+
+def key_title(t):
+    """"Neo 3" / "neo3" titles get the set's name, so the same-card key keeps Neo 2 and Neo 3 Houndoom No.229 apart."""
+    m = re.search(r"\bneo ([1-4])\b", neo_n(norm(t)))
+    return t + NEO_NAME[m.group(1)] if m and not set_of(t) else t
+
+
+def search_words(c):
+    """Broad eBay search for a valued card: its name words plus number variants, e.g. houndoom (229,no.229)."""
+    n = str(c.get("num") or "")
+    if n.lower().startswith("no."):
+        v = [str(int(n[3:])) if n[3:].isdigit() else n[3:], "no." + n[3:]]
+    elif "/" in n:
+        a, b = n.split("/", 1)
+        v = [n]
+        if a.isdigit() and b.isdigit():
+            v += [f"{int(a)}/{int(b)}", f"{a.zfill(3)}/{b.zfill(3)}"]
+    else:
+        v = [n] if n else []
+    v = list(dict.fromkeys(x for x in v if x))
+    num = (v[0] if len(v) == 1 else "(" + ",".join(v) + ")") if v else ""
+    return " ".join(list(c.get("words") or []) + ([num] if num else [])).strip()
+
+
 NEO_N = [("neo 1 ", "N1"), ("neo 2 ", "N2"), ("neo 3 ", "N3"), ("neo 4 ", "N4")]  # Japanese Neo sets as PSA labels name them
 
 
@@ -215,7 +241,7 @@ def main():
         p = land_aud(x)
         if not p:
             continue
-        k = card_key(x.get("title", ""))
+        k = card_key(key_title(x.get("title", "")))
         auc = 1 if "AUCTION" in (x.get("options") or []) else 0
         h = hashlib.md5((str(x.get("seller")) + "|" + norm(x.get("title", ""))).encode()).hexdigest()[:10]
         r = ids.get(i)
@@ -242,7 +268,8 @@ def main():
     for i, r in ids.items():
         k = r.get("k")
         if k:
-            low[k] = min(low.get(k, 1e12), r.get("pm") or 1e12)
+            if not r.get("a"):  # auction bids (often A$1-10 starts) aren't asking prices
+                low[k] = min(low.get(k, 1e12), r.get("pm") or 1e12)
             seen_n[k] = seen_n.get(k, 0) + 1
     live_n = {}
     for i in cur:
@@ -317,7 +344,9 @@ def main():
                     slab = None
         tags = "".join(c for c, on in (("n", new), ("d", drop), ("r", bool(r.get("re"))), ("l", lowest), ("s", bool(slab))) if on)
         X[i] = [[cats.index(c) for c in cs], r["f"], r.get("pp") if drop else None, round(low[k], 2) if k in low else None,
-                live_n.get(k, 0) if k else 0, val[2] if val else None, (val[0]["label"] + " · " + val[1]) if val else "", tags]
+                live_n.get(k, 0) if k else 0, val[2] if val else None, (val[0]["label"] + " · " + val[1]) if val else "", tags,
+                (1 if val[1] in (val[0].get("thin") or []) else 0) if val else 0,   # value rests on few sales
+                search_words(val[0]) if val else "", (val[0].get("checked") or "") if val else ""]
 
         # digest: same rules as the finder's default view
         if slab:
