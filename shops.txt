@@ -1,6 +1,6 @@
 # Shops read by store_scan.py each morning. One per line:
-# domain | name | country | platform (shopify or woo) | collections (comma-separated, or all) | currency (optional)
-trollaustralia.com.au | Troll Australia | AU | shopify | psa-graded-pokemon-cards,auto
+# domain | name | country | platform (shopify or woo) | collections (comma-separated, or all) | currency (optional) | link host (optional, e.g. www.shop.com.au when product links on the bare domain don't open)
+trollaustralia.com.au | Troll Australia | AU | shopify | psa-graded-pokemon-cards,auto | | www.trollaustralia.com.au
 ozziecollectables.com | Ozzie Collectables | AU | shopify | pokemon-graded-cards,pokemon-singles,auto
 clickandcollectables.com.au | Click and Collectables | AU | shopify | pokemon-graded-cards,auto
 mayhemcollectables.com.au | Mayhem Collectables | AU | shopify | pokemon-singles,auto

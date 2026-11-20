@@ -134,7 +134,7 @@ def sealed_scan(shop):
                 link = p.get("url") or ""
                 out.append({"title": title, "price": round(price, 2), "shop": shop["name"], "kind": kind,
                             "lang": "JP" if re.search(r"japanese|\bjp\b", title, re.I) else "EN",
-                            "url": f"https://{shop['domain']}{link.split('?')[0]}"})
+                            "url": f"https://{shop.get('link') or shop['domain']}{link.split('?')[0]}"})
         time.sleep(PAUSE)
     return out
 
@@ -170,7 +170,7 @@ def shopify(shop, coll):
             if JUNK.search(p.get("title", "")):
                 continue
             note_photos(shop, [i.get("src") for i in p.get("images") or []])
-            url = f"https://{shop['domain']}/products/{p.get('handle')}"
+            url = f"https://{shop.get('link') or shop['domain']}/products/{p.get('handle')}"
             listed = (p.get("published_at") or p.get("created_at") or "")[:10]
             named = [v for v in vs if (v.get("title") or "").strip().lower() not in ("", "default title", "default")]
             if len(vs) > 1 and named:
@@ -242,8 +242,9 @@ def main():
         domain, name, country, platform = f[0], f[1], f[2], f[3]
         colls = [c.strip() for c in (f[4] if len(f) > 4 else "all").split(",") if c.strip()]
         cur = f[5] if len(f) > 5 and f[5] else CUR.get(country, "AUD")
+        link = f[6] if len(f) > 6 and f[6] else ""   # host for product links when the bare domain doesn't open pages
         shops.append({"domain": domain, "name": name, "country": country, "platform": platform,
-                      "collections": colls, "currency": cur})
+                      "collections": colls, "currency": cur, "link": link})
     items, status, seen, sealed = [], [], set(), []
     for s in shops:
         got, err = 0, ""
