@@ -49,4 +49,6 @@ jobs:
           git push
       - name: Refresh the finder's copy
         continue-on-error: true
-        run: curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/feed.js" || true
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/feed.js" || true
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/feed-lite.js" || true
