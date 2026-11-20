@@ -52,8 +52,8 @@ try:
     return [v[0],age]+v[2:]
   def _trim(v):  # drop trailing empty fields; the page reads missing ones as empty
     if not v: return 0
-    while v and v[-1] in (None,'',0,[]): v.pop()
-    return v or 0
+    while len(v)>2 and v[-1] in (None,'',0,[]): v.pop()  # keep [cats, age] so a listing's age always survives
+    return v
   out['cats']=en['cats']; out['day']=en['day']; out['x']=[_trim(_x(r[0])) for r in rows]
   print('enrich:',sum(1 for v in out['x'] if v),'rows with extras')
 except Exception as e: print('enrich.json not used:',e)
