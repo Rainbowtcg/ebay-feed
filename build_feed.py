@@ -27,7 +27,7 @@ if len(sys.argv)>4:
   except Exception as e: print('stores.json not used:',e)
 for it in items:
   t=it.get('title') or ''
-  if MODERN.search(t) and not wanted(t) and not str(it.get('query') or '').startswith('+'): continue
+  if MODERN.search(t) and not it.get('sealed') and not wanted(t) and not str(it.get('query') or '').startswith('+'): continue  # sealed ETBs/boxes: any year
   try: p=float(it.get('price') or 0)*FX.get(it.get('currency'),0)
   except: continue
   if not p: continue

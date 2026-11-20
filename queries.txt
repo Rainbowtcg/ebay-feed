@@ -415,3 +415,9 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon japanese ("psycho drive","hail blizzard","dark rush","dragon blast","dragon blade",bw3,bw4,bw5) (sr,ur)
 +pokemon japanese "shiny collection" (021/020,022/020,023/020,024/020)
 +pokemon japanese ("ex battle boost","dragon selection") (sr,ur)
+
+# ---------- Sealed: ETBs & booster boxes
+# "@sealed" lines: Elite Trainer Boxes and 36-pack booster boxes from Australian sellers, any year, judged against
+# Australian RRP (A$100 ETB, A$306 English booster box). Shops' ETBs and boxes join this category too.
+pokemon (elite trainer box,etb) sealed @sealed @c=AU
+pokemon (booster box,booster display) sealed @sealed @c=AU

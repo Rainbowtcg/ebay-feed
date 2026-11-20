@@ -103,10 +103,12 @@ def pawn_sellers():
     return sorted(set(n for n in names if n and n != "none"))[:250]
 
 
-def search(tok, q, country, offset=0, limit=200, aspect=None, sellers=None):
-    params = {"q": q, "category_ids": CATEGORY, "limit": str(limit), "offset": str(offset),
+def search(tok, q, country, offset=0, limit=200, aspect=None, sellers=None, category=CATEGORY):
+    params = {"q": q, "limit": str(limit), "offset": str(offset),
               "filter": f"itemLocationCountry:{country},buyingOptions:{{FIXED_PRICE|AUCTION|BEST_OFFER}}"
                         + (",sellers:{" + "|".join(sellers) + "}" if sellers else "")}
+    if category:  # sealed searches run without the single-cards category (ETBs and boxes sit in several)
+        params["category_ids"] = category
     if aspect:
         params["aspect_filter"] = aspect
     req = urllib.request.Request(API + "/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode(params),
@@ -122,6 +124,25 @@ NOT_FAKE = re.compile(r"\b(not|no|never|non)[- ]?(a )?fakes?\b|\bfakes? free|100
 def reprint_hit(t):
     """Reprint / fake / novelty words, ignoring sellers' "not fake" promises."""
     return REPRINT.search(NOT_FAKE.sub(" ", t))
+
+
+# "@sealed" search lines: Elite Trainer Boxes and booster boxes, kept whatever the year, judged against RRP by enrich.py
+SEALED_KIND = re.compile(r"elite trainer|\betb\b|booster box|booster display|\b36 (booster )?packs\b", re.I)
+SEALED_BAD = re.compile(r"\bempty\b|opened|\bno cards\b|resealed|repack|mystery|custom|proxy|fake|replica|\blot of\b|\bcase of\b|"
+                        r"\bcase\b|\b\d+\s?x\b|\bx\s?\d+\b|sleeves? only|box only|only the box|card only|promo only|cards? only|"
+                        r"\bdamaged\b|dented|crushed|\bsingles?\b|\bpack art\b|\bpromo card\b|\bpsa\b|\bcgc\b|magnetic|acrylic|protector|"
+                        r"display case|storage|deck box|playmat|\btin\b|blister|mini|half|chinese|korean|simplified|indonesian|thai", re.I)
+
+
+def sealed_keep(title):
+    """A sealed Pokemon ETB or booster box (not cases, empties, accessories, lots or graded promos)."""
+    if not re.search(r"pok[eé]mon", title, re.I) or SEALED_BAD.search(title):  # anniversary sets (Celebrations, 30th) are real sealed products
+        return None
+    if re.search(r"elite trainer|\betb\b", title, re.I):
+        return "ETB"
+    if re.search(r"booster box|booster display|\b36 (booster )?packs\b", title, re.I):
+        return "Box"
+    return None
 
 
 def keep(title, modern_ok=False):
@@ -326,6 +347,7 @@ def main():
         want = q.startswith("+")
         sq, opts = line_options(q)
         is_pawn, is_trusted = bool(opts.get("pawn")), bool(opts.get("trusted"))
+        is_sealed = bool(opts.get("sealed"))
         sellers = pawns if is_pawn else trusted if is_trusted else None
         if (is_pawn or is_trusted) and not sellers:
             continue
@@ -339,14 +361,14 @@ def main():
             countries = COUNTRIES
         for c in countries:
           # NM pass first, so listings the seller marked "Near Mint or Better" are recorded with nm=1
-          passes = ([NM_ASPECT] if NM_PASS and nm_fail < 5 and not opts.get("nonm") and not is_trusted else []) + [None]
+          passes = ([NM_ASPECT] if NM_PASS and nm_fail < 5 and not opts.get("nonm") and not is_trusted and not is_sealed else []) + [None]
           pages = [(asp, off) for asp in passes for off in ([o * 200 for o in range(PAWN_PAGES)] if sellers else [0])]
           for asp, off in pages:
             if calls >= SEARCH_MAX:
                 budget_hit = True
                 break
             try:
-                res = search(tok, sq, c, offset=off, aspect=asp, sellers=sellers)
+                res = search(tok, sq, c, offset=off, aspect=asp, sellers=sellers, category=None if is_sealed else CATEGORY)
                 calls += 1
                 fails_in_row = 0
             except Exception as e:  # keep going on one bad query
@@ -362,7 +384,10 @@ def main():
             for it in res.get("itemSummaries", []) or []:
                 iid = it.get("legacyItemId") or ((it.get("itemId") or "").split("|") + ["", ""])[1] or None
                 title = it.get("title", "")
-                if is_trusted:  # trusted sellers' stock: no grade word needed, but hunted eras and not played
+                kind = sealed_keep(title) if is_sealed else None
+                if is_sealed:
+                    ok = bool(kind)
+                elif is_trusted:  # trusted sellers' stock: no grade word needed, but hunted eras and not played
                     ok = keep_nm(title, want) and bool(PAWN_ERA.search(title))
                 else:
                     ok = keep_nm(title, want) if asp else keep(title, want)
@@ -392,7 +417,8 @@ def main():
                     "seller": (it.get("seller") or {}).get("username"), "feedback": (it.get("seller") or {}).get("feedbackPercentage"),
                     "url": f"https://www.ebay.com.au/itm/{iid}", "query": q,
                     "nm": 1 if asp else 0,
-                    "flag": flag_for(title, asp or is_trusted),
+                    "flag": "" if is_sealed else flag_for(title, asp or is_trusted),
+                    **({"sealed": kind} if kind else {}),
                 })
             time.sleep(0.2)
           if quota_hit or budget_hit:

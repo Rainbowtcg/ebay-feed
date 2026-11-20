@@ -28,6 +28,9 @@ KEEP_DAYS = 30
 PAWN_CAT = "Pawn shops"          # heading in queries.txt; also every listing from a pawn_sellers seller
 TRUSTED_CAT = "Trusted sellers"  # heading in queries.txt; also every listing from a trusted_sellers.txt seller
 SLAB_CAT = "Slab plays"          # played raw copies of cards whose low-grade slabs sell for more than raw + grading
+SEALED_CAT = "Sealed: ETBs & booster boxes"  # heading in queries.txt; also every shop ETB / booster box
+# Australian RRPs (same as the Slab Finder page's NR_RRP): standard Elite Trainer Box, English 36-pack booster box
+RRP = {"ETB": 100.0, "Box": 306.0}
 GRADE_COST = 70                  # A$ per card to grade (PSA via an AU submitter, value tiers)
 SELL_KEEP = 0.87                 # share of the sale price kept after eBay fees
 SKIP_CC = {"US", "GB", "UK", "CA"}
@@ -40,6 +43,29 @@ def key_title(t):
     """"Neo 3" / "neo3" titles get the set's name, so the same-card key keeps Neo 2 and Neo 3 Houndoom No.229 apart."""
     m = re.search(r"\bneo ([1-4])\b", neo_n(norm(t)))
     return t + NEO_NAME[m.group(1)] if m and not set_of(t) else t
+
+
+OTHER_TCG = re.compile(r"yu-?gi-?oh|magic|\bmtg\b|one piece|lorcana|digimon|dragon ball|flesh and blood|weiss|union arena|"
+                       r"star wars|gundam|grand archive|sorcery|altered|riftbound|naruto|disney", re.I)
+
+
+def sealed_kind(x):
+    """"ETB" / "Box" for sealed listings (eBay @sealed searches and shop sealed scans), else None."""
+    k = x.get("sealed")
+    if k in RRP and not OTHER_TCG.search(x.get("title", "")):
+        return k
+    return None
+
+
+def rrp_value(x):
+    """The RRP a sealed listing is judged against, as a card-style value (card, grade, A$), or None when no RRP applies:
+    Japanese product, Pokemon Center ETBs, half/mini/enhanced boxes and anything that isn't a standard ETB or 36-pack box."""
+    k = sealed_kind(x)
+    t = x.get("title", "")
+    if not k or OTHER_TCG.search(t) or re.search(r"japan|\bjp\b|\bjpn\b|korean|chinese|pok[eé]mon center|\bpc\b|half|mini|enhanced|18 packs|bundle", t, re.I):
+        return None
+    name = "Elite Trainer Box" if k == "ETB" else "Booster box (36 packs)"
+    return ({"label": name, "id": "rrp-" + k, "thin": [], "src": "Australian RRP", "words": [], "num": ""}, "RRP", RRP[k])
 
 
 def search_words(c):
@@ -219,7 +245,7 @@ def main():
     cats = [SLAB_CAT] + [c for c in dict.fromkeys(c for _, c in qcat) if c != SLAB_CAT]
     want_cat = {c: any(q.startswith("+") for q, cc in qcat if cc == c) for c in cats}
     want_cat[SLAB_CAT] = True
-    qm = QueryMatcher([q for q, _ in qcat if "@pawn" not in q and "@trusted" not in q])  # seller-only lines match any title
+    qm = QueryMatcher([q for q, _ in qcat if "@pawn" not in q and "@trusted" not in q and "@sealed" not in q])  # seller-only lines match any title
     pawn_set = {str(n).lower() for n in L.get("pawn_sellers", [])}
     try:
         trusted_set = {l.split("#")[0].strip().lower() for l in open(P("trusted_sellers.txt"), encoding="utf-8")} - {""}
@@ -291,6 +317,9 @@ def main():
         if val and "AUCTION" not in (x.get("options") or []) and x.get("country") not in SKIP_CC and not x.get("flag"):
             groups.setdefault((val[0].get("id") or val[0]["label"], val[1]), []).append(
                 (landed_aud(x, ids[i]["p"]) / val[2], str(x.get("seller") or ""), i))
+    for i, x in cur.items():  # sealed ETBs / boxes are judged against RRP, not a card value
+        if sealed_kind(x):
+            vals[i] = rrp_value(x)
     suspect = {}
     for (vid, g), rs in groups.items():
         under = [r for r in rs if r[0] <= 0.85]
@@ -312,6 +341,8 @@ def main():
             cs = list(dict.fromkeys(cs + [PAWN_CAT]))   # anything a pawn shop lists, whichever search found it
         if TRUSTED_CAT in cats and str(x.get("seller") or "").lower() in trusted_set:
             cs = list(dict.fromkeys(cs + [TRUSTED_CAT]))
+        if SEALED_CAT in cats and sealed_kind(x):
+            cs = list(dict.fromkeys([SEALED_CAT] + cs))
         auc = "AUCTION" in (x.get("options") or [])
         val = vals.get(i)
         p = r["p"]
@@ -359,13 +390,23 @@ def main():
                                                     "cond": flag.replace("damage: ", "") or ("NM" if x.get("nm") == 1 else "")}))
         if x.get("country") in SKIP_CC or x.get("flag"):
             continue
-        if (MODERN.search(t) and not str(x.get("query") or "").startswith("+") and not x["shop"]) or SV_MEP.search(t):
+        sealed = bool(sealed_kind(x))
+        if not sealed and ((MODERN.search(t) and not str(x.get("query") or "").startswith("+") and not x["shop"]) or SV_MEP.search(t)):
             continue
         if p > 1000 and SLAB.search(t):
             continue
         reason, pri, score = None, 9, 0
         gst = " incl. GST" if pl > p else ""
-        if ratio is not None and ratio < 0.4:
+        if sealed:
+            if ratio is not None and ratio < 0.6 and not auc:
+                reason, pri, score = (f"A${pl:,.0f}, far under the A${val[2]:,.0f} RRP: check it's the English product and not a pre-order "
+                                      f"deposit, a different size or another language"), 3, ratio
+            elif ratio is not None and ratio <= 1.0 and not auc:
+                reason, pri, score = (f"at or under RRP: A${pl:,.0f}{gst} vs A${val[2]:,.0f} {val[0]['label']} RRP"
+                                      + (f" ({round((1 - ratio) * 100)}% under)" if ratio < 0.995 else "")), 0, ratio
+            elif drop:
+                reason, pri, score = f"price dropped A${r['pp']:,.0f} → A${p:,.0f}", 1, p / r["pp"]
+        elif ratio is not None and ratio < 0.4:
             pass  # far too cheap for the card: nearly always a reprint, fake, wrong version or played copy; not a highlight
         elif ratio is not None and ratio < CN_RAW_MIN and x.get("country") == "CN" and val[1] == "Raw":
             pass  # raw cards from China far under value: usually fakes
@@ -390,7 +431,7 @@ def main():
             d["new"] += bool(new)
             d["drops"] += bool(drop)
             d["relisted"] += bool(r.get("re"))
-            d["under"] += bool(ratio is not None and 0.4 <= ratio <= 0.85 and not auc and not sus)
+            d["under"] += bool(ratio is not None and ((0.6 <= ratio <= 1.0) if sealed else 0.4 <= ratio <= 0.85) and not auc and not sus)
             if reason:
                 d["hi"].append((pri, score, p, {"id": i, "t": t[:90], "p": p, "cc": x.get("country") or "", "seller": x.get("seller") or "",
                                                 "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "why": reason, "auc": auc}))

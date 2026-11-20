@@ -123,7 +123,8 @@ def sealed_scan(shop):
             if key in seen or not p.get("available"):
                 continue
             seen.add(key)
-            if not POKE_RX.search(title + " " + str(p.get("vendor") or "") + " " + str(p.get("type") or "")) or SEALED_SKIP.search(title):
+            if not POKE_RX.search(title + " " + str(p.get("vendor") or "") + " " + str(p.get("type") or "")) or SEALED_SKIP.search(title) \
+                    or re.search(r"yu-?gi-?oh|magic|\bmtg\b|one piece|lorcana|digimon|dragon ball|flesh and blood|weiss|union arena|star wars|gundam", title, re.I):
                 continue
             kind = "ETB" if re.search(r"elite trainer|\betb\b", title, re.I) else "Box" if re.search(r"booster box|\bbooster display\b", title, re.I) else ""
             try:
@@ -132,7 +133,7 @@ def sealed_scan(shop):
                 continue
             if kind and price > 0:
                 link = p.get("url") or ""
-                out.append({"title": title, "price": round(price, 2), "shop": shop["name"], "kind": kind,
+                out.append({"title": title, "price": round(price, 2), "shop": shop["name"], "kind": kind, "pid": p.get("id") or key,
                             "lang": "JP" if re.search(r"japanese|\bjp\b", title, re.I) else "EN",
                             "url": f"https://{shop.get('link') or shop['domain']}{link.split('?')[0]}"})
         time.sleep(PAUSE)
@@ -296,6 +297,13 @@ def main():
                 found = sealed_scan(s)
                 sealed += found
                 n_sealed = len(found)
+                # also as feed listings (Sealed category on the Feed tab, judged against RRP, with price history);
+                # postage left blank so the price compares straight against RRP
+                for f in found:
+                    r = item(s, f"sealed-{f['pid']}", f["title"], f["price"], s["currency"], True, f["url"], "")
+                    r.update(post="", sealed=f["kind"], lang=f["lang"])
+                    if r["id"] not in seen:
+                        seen.add(r["id"]); items.append(r)
             except Exception as e:
                 print(f"{s['name']}: sealed search failed: {type(e).__name__} {str(e)[:100]}")
         status.append({"shop": s["name"], "domain": s["domain"], "items": got, "sealed": n_sealed, "error": err,
