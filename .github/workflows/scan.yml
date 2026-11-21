@@ -46,7 +46,8 @@ jobs:
           git add listings.json listings.csv
           for f in stores.json feed.js feed-lite.js history.json digest.json digest.md guide.json megacash.json megacash.md mc_cache.json values.json values_check.md values_suspect.json query_history.json queries_report.md; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --cached --quiet || git commit -m "eBay feed $(date -u +%F)"
-          git push
+          # if a file was uploaded while this ran, put the results on top of it instead of failing (a failed push throws away the whole day's eBay calls)
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 10; done
       - name: Refresh the finder's copy
         continue-on-error: true
         run: |
