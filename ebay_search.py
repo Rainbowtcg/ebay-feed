@@ -151,8 +151,22 @@ def sealed_keep(title):
 LOT_BAD = re.compile(r"\bempty\b|binder only|folder only|album only|no cards|pages only|portfolio only|cards? not included|"
                      r"sleeves?\b|toploaders?|playmat|deck box|storage box|code cards?|online codes?|energy (cards )?only|"
                      r"booster box|elite trainer|\betb\b|sealed (booster|pack|box)|digital|proxy|custom|replica|orica|fake|"
-                     r"yu-?gi-?oh|magic the gathering|\bmtg\b|one piece|lorcana|dragon ball|digimon|sports|nba|nfl|afl|nrl", re.I)
-LOT_WORD = re.compile(r"\blots?\b|bundle|binder|folder|album|collection|job ?lot|bulk|\bx\s?\d+\b|\b\d+\s?(x|cards|pcs|pieces)\b", re.I)
+                     r"yu-?gi-?oh|magic the gathering|\bmtg\b|one piece|lorcana|dragon ball|digimon|sports|nba|nfl|afl|nrl|"
+                     r"tazos?|pogs?|\b(3ds|ds|switch|gameboy|game boy|n64|wii)\b|figures?|plush|stickers?|\bdvds?\b|\bvhs\b|"
+                     r"pins?\b|coins?\b|\bstamp(s)?\b|books?\b|manga|comics?|magazines?|3[- ]ring|ring binder|\bcases?\b(?! fresh)", re.I)
+# modern-only lots (cheap mixed packs of GX / V / ex cards) are kept out unless the title also names an older era
+LOT_MODERN = re.compile(r"\b(vmax|vstar|v-?union|gx|tag team|radiant|scarlet|violet|sword|shield|paldea|paldean|tera|terastal|"
+                        r"chien|151|obsidian|surging|prismatic|stellar|evolving|brilliant|fusion|astral|lost origin|crown zenith|"
+                        r"silver tempest|mega evolution|\bsv\d|\bswsh)\b", re.I)
+LOT_OLD = re.compile(r"wotc|wizards|199\d|200[0-9]|base set|jungle|fossil|team rocket|gym (heroes|challenge)|\bneo\b|e-?card|"
+                     r"expedition|aquapolis|skyridge|old back|1st edition|first edition|shadowless|vintage|gold star|lv\.?x|"
+                     r"legendary collection|southern islands|\bex (ruby|sapphire|dragon|deoxys|emerald|delta|holon|crystal|power)", re.I)
+# "collection" alone is often a set name (Legendary Collection, Shine Collection...), so it only counts with a word
+# that makes it someone's collection
+LOT_WORD = re.compile(r"\blots?\b|bundle|binder|folder|album|job ?lot|bulk|\bx\s?\d+\b|\b\d+\s?(x|cards|pcs|pieces)\b|"
+                      r"\b(my|old|childhood|whole|entire|personal|kids?'?|son'?s|daughter'?s|card|cards|vintage|huge|large|big) collection\b|"
+                      r"collection of\b", re.I)
+SINGLE_SLAB = re.compile(r"\b(psa|cgc|bgs|beckett|ace)\s?\d", re.I)
 
 
 def keep_lot(title):
@@ -161,7 +175,11 @@ def keep_lot(title):
         return False
     if not re.search(r"pok[eé]mon|pocket monsters|ポケモン", title, re.I):
         return False
-    return bool(LOT_WORD.search(title)) and bool(PAWN_ERA.search(title) or re.search(r"\bold\b|original|childhood|first gen|gen ?1|nostalg", title, re.I))
+    if LOT_MODERN.search(title) and not LOT_OLD.search(title):
+        return False
+    if SINGLE_SLAB.search(title) and not re.search(r"\blots?\b|bundle|binder|\bx\s?\d+\b|\b\d+\s?(cards|slabs)\b", title, re.I):
+        return False                                   # one graded card whose set name has "collection" in it
+    return bool(LOT_WORD.search(title)) and bool(LOT_OLD.search(title) or re.search(r"\bold\b|original|childhood|first gen|gen ?1|nostalg", title, re.I))
 
 
 DEAD_RUNS = 5          # a line + country that kept nothing in each of the last 5 runs is rested ...

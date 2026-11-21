@@ -50,6 +50,9 @@ GRADE_MIN_SHARE = 0.30           # ... and at least 30% of the landed cost
 GRADE_MAX_LOSS = 0.25            # ... and one grade lower loses no more than 25% of the landed cost
 VINTAGE = {"BS", "B2", "JU", "FO", "TR", "G1", "G2", "N1", "N2", "N3", "N4", "SI", "LC", "EXP", "AQ", "SK", "e2", "e3", "e4", "e5", "VS", "WEB"}
 OTHER_SLAB = re.compile(r"\b(ICG|AGS|CCIC|CIC|PCA|MNT|GMA|HGA|KSA|BCCG|AP grading|slabbed|graded)\b", re.I)
+LOT_OLD_E = re.compile(r"wotc|wizards|199\d|base set|jungle|fossil|team rocket|gym (?:heroes|challenge)|\bneo\b|e-?card|expedition|"
+                       r"aquapolis|skyridge|old back|1st edition|first edition|shadowless|gold star|lv\.?x|legendary collection|"
+                       r"southern islands|\bholos?\b|binder|childhood|original", re.I)
 NMWORD = re.compile(r"gem ?mint|\bNM\b|near mint|\bmint\b", re.I)
 PLAYED_T = re.compile(r"\[(HP|MP|LP|DMG)\]|\b(HP|MP|LP|DMG)\b(?!\s?\d)|heavily|moderately|lightly played|\bplayed\b|damaged|creased?", re.I)
 NEWER = re.compile(r"terastal|stellar|mega (evolution|dream)|\bm\d[a-z]?\b|mc battle|\b(mur|sar|sir|ar)\b|\b(2019|202\d)\b|\bex\b.*\b\d{3}/\d{3}\b", re.I)
@@ -502,9 +505,12 @@ def main():
             d["new"] += bool(new)
             d["drops"] += bool(drop)
             n_cards = None
-            m = re.search(r"\b(\d{2,4})\s?\+?\s?(?:x\s)?(?:pokemon\s)?(?:cards|pcs|pieces|card lot)\b|\bx\s?(\d{2,4})\b", t, re.I)
-            if m:
-                n_cards = int(m.group(1) or m.group(2))
+            for m in re.finditer(r"\b(\d{1,4})\s?\+?\s?(?:[x×]\s)?(?:pokemon\s|pokémon\s|vintage\s|holo\s|assorted\s|mixed\s)*(?:cards|pcs|pieces|card lot)\b|(?:\bx|×)\s?(\d{1,4})\b|\blot of (\d{1,4})\b", t, re.I):
+                n = int(m.group(1) or m.group(2) or m.group(3))
+                if not 1995 <= n <= 2030:        # years ("2000 Pokemon cards") aren't card counts
+                    n_cards = n
+                    break
+            score_old = len(LOT_OLD_E.findall(t))   # more named old sets / signs of age = higher up the list
             each = f"; {n_cards} cards ≈ A${pl / n_cards:,.2f} each" if n_cards and n_cards >= 10 else ""
             why, pri = "", 9
             if auc and hours is not None and 0 < hours <= AUCTION_HOURS:
@@ -516,7 +522,7 @@ def main():
             elif r.get("re") and not auc and r.get("p0") and p < r["p0"] * 0.95:
                 why, pri = f"relisted cheaper (A${r['p0']:,.0f} → A${p:,.0f})", 2
             if why:
-                d["hi"].append((pri, (pl / n_cards) if n_cards else pl, pl,
+                d["hi"].append((pri, -score_old, pl,
                                 hi_entry(i, x, t, p, pl, why + each + ". Check the photos for holos and condition", auc)))
             continue
 
