@@ -39,13 +39,13 @@ US$1 = A$1.4987. Value = median of the last 90 days' sales at the card's grade (
 - **A$1311** [Pokemon - Gengar 050/088 Eb Games Stamp Promo PSA 10](https://megacash.com.au/products/pokemon-gengar-050-088-eb-games-stamp-promo-psa-10) · PSA 10 · value A$1359 (-4%) · ⚠️THIN · PriceCharting average, 1 sales/90d, last 2026-09-27 · import A$1545 · [PC: Gengar [EB Games Stamped] #50   Pokemon Perfect Order](https://www.pricecharting.com/game/pokemon-perfect-order/gengar-eb-games-stamped-50?q=gengar+050+eb+games+stamp) · [AU](https://www.ebay.com.au/sch/i.html?_nkw=gengar+%28050%2F088%2C50%2F088%2C50%29&LH_PrefLoc=1) [JP](https://www.ebay.com.au/sch/i.html?_nkw=gengar+%28050%2F088%2C50%2F088%2C50%29&LH_LocatedIn=1&_salic=104) [CN](https://www.ebay.com.au/sch/i.html?_nkw=gengar+%28050%2F088%2C50%2F088%2C50%29&LH_LocatedIn=1&_salic=45) [Sold](https://www.ebay.com.au/sch/i.html?_nkw=gengar+%28050%2F088%2C50%2F088%2C50%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2)
 - **A$267** [Pokemon - PSA 10 Guzma & Hala 229/236](https://megacash.com.au/products/pokemon-psa-10-guzma-hala-229-236) · PSA 10 · value A$270 (-1%) · ⚠️THIN · PriceCharting average, 1 sales/90d, last 2026-10-23 · import A$346 · [PC: Guzma & Hala #229   Pokemon Cosmic Eclipse](https://www.pricecharting.com/game/pokemon-cosmic-eclipse/guzma-&-hala-229?q=guzma+%26+hala+229) · [AU](https://www.ebay.com.au/sch/i.html?_nkw=guzma+hala+%28229%2F236%2C229%29&LH_PrefLoc=1) [JP](https://www.ebay.com.au/sch/i.html?_nkw=guzma+hala+%28229%2F236%2C229%29&LH_LocatedIn=1&_salic=104) [CN](https://www.ebay.com.au/sch/i.html?_nkw=guzma+hala+%28229%2F236%2C229%29&LH_LocatedIn=1&_salic=45) [Sold](https://www.ebay.com.au/sch/i.html?_nkw=guzma+hala+%28229%2F236%2C229%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2)
 
-## Above US value, below import cost: 147 (1 new)
+## Above US value, below import cost: 145 (1 new)
 - **A$191** [M Charizard EX 101/108 XY Evolutions](https://megacash.com.au/products/m-charizard-ex-101-108-xy-evolutions) · raw · value A$172 (+11%)
-- …146 older, in megacash.json
+- …144 older, in megacash.json
 
-## Over (dearer than importing): 238 (1 new)
+## Over (dearer than importing): 237 (1 new)
 - **A$331** [Pokemon - GG70/GG70 Arceus Vstar Crown Zenith](https://megacash.com.au/products/pokemon-gg70-gg70-arceus-vstar-crown-zenith) · raw · value A$230 (+44%)
-- …237 older, in megacash.json
+- …236 older, in megacash.json
 
-## Unpriced (check by hand): 196 (0 new)
-- …196 older, in megacash.json
+## Unpriced (check by hand): 197 (0 new)
+- …197 older, in megacash.json

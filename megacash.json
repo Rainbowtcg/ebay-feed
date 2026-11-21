@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-21T02:07+00:00",
+ "generated": "2026-11-21T08:55+00:00",
  "usd_aud": 1.4987,
  "rate_source": "open.er-api.com",
- "lookups_this_run": 0,
+ "lookups_this_run": 1,
  "cards": [
   {
    "title": "Pokemon - GG70/GG70 Arceus Vstar Crown Zenith",
@@ -1761,51 +1761,6 @@
    "signal": "OVER",
    "psa8_net": -151,
    "psa9_net": 140
-  },
-  {
-   "title": "Pokemon - Crobat 6/144 Rev Holo Skyridge",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-crobat-6-144-rev-holo-skyridge",
-   "listed": "2026-11-17",
-   "price": 149.0,
-   "post": 12.0,
-   "cost": 161.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=crobat+%286%2F144%2C6%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=crobat+%286%2F144%2C6%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=crobat+%286%2F144%2C6%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=crobat+%286%2F144%2C6%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-skyridge/crobat-reverse-holo-6?q=crobat+6+reverse+holo+skyridge",
-   "matched": "Crobat [Reverse Holo] #6   Pokemon Skyridge",
-   "aud": {
-    "raw": 182,
-    "g7": 140,
-    "g8": 329,
-    "g9": 670,
-    "g95": 737,
-    "g10": 2301
-   },
-   "basis": {
-    "n90": 11,
-    "last": "2026-11-08",
-    "basis": "90-day median",
-    "pc_avg": 121.5,
-    "grade": "raw (NM)"
-   },
-   "value": 127,
-   "landed": 168,
-   "gap": 0.27,
-   "thin": false,
-   "signal": "OVER-US",
-   "psa8_net": 108,
-   "psa9_net": 391
   },
   {
    "title": "Pokemon - Victreebel 42/147 Rev Holo Aquapolis",
@@ -13205,51 +13160,6 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-expedition/magby-reverse-holo-17)"
   },
   {
-   "title": "Pokemon - Mew 55/165 Rev Holo Expedition",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-mew-55-165-rev-holo-expedition",
-   "listed": "2026-10-26",
-   "price": 299.0,
-   "post": 12.0,
-   "cost": 311.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=mew+%2855%2F165%2C55%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=mew+%2855%2F165%2C55%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=mew+%2855%2F165%2C55%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mew+%2855%2F165%2C55%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-expedition/mew-reverse-holo-55?q=mew+55+reverse+holo+expedition",
-   "matched": "Mew [Reverse Holo] #55   Pokemon Expedition",
-   "aud": {
-    "raw": 255,
-    "g7": 397,
-    "g8": 860,
-    "g9": 2347,
-    "g95": 2582,
-    "g10": 2818
-   },
-   "basis": {
-    "n90": 29,
-    "last": "2026-11-10",
-    "basis": "90-day median",
-    "pc_avg": 170.0,
-    "grade": "raw (NM)"
-   },
-   "value": 262,
-   "landed": 316,
-   "gap": 0.19,
-   "thin": false,
-   "signal": "OVER-US",
-   "psa8_net": 453,
-   "psa9_net": 1502
-  },
-  {
    "title": "Pokemon - Pichu 58/165 Rev Holo Expedition",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-pichu-58-165-rev-holo-expedition",
@@ -15057,51 +14967,6 @@
    "signal": "OVER",
    "psa8_net": 31,
    "psa9_net": 886
-  },
-  {
-   "title": "Pokemon - Gyarados 21/98 Cosmos Holo XY Ancient Origins",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-gyarados-21-98-cosmos-holo-xy-ancient-origins",
-   "listed": "2026-10-22",
-   "price": 249.0,
-   "post": 12.0,
-   "cost": 261.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=gyarados+%2821%2F98%2C21%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=gyarados+%2821%2F98%2C21%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=gyarados+%2821%2F98%2C21%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=gyarados+%2821%2F98%2C21%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-ancient-origins/gyarados-21",
-   "matched": "Gyarados #21   Pokemon Ancient Origins",
-   "aud": {
-    "raw": 59,
-    "g7": 156,
-    "g8": 331,
-    "g9": 534,
-    "g95": 587,
-    "g10": 5386
-   },
-   "basis": {
-    "n90": 55,
-    "last": "2026-11-17",
-    "basis": "90-day median",
-    "pc_avg": 39.63,
-    "grade": "raw (NM)"
-   },
-   "value": 91,
-   "landed": 128,
-   "gap": 1.87,
-   "thin": false,
-   "signal": "OVER",
-   "psa8_net": 10,
-   "psa9_net": 519
   },
   {
    "title": "Pokemon - Gyarados Ex 114/122 XY Breakpoint",
@@ -23304,6 +23169,29 @@
    "signal": "FAIR",
    "psa8_net": null,
    "psa9_net": null
+  },
+  {
+   "title": "Pokemon- Paldea Evolved Booster Box - Scarlet & Violet",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-paldea-evolved-booster-box-scarlet-violet-2",
+   "listed": "",
+   "price": 679.0,
+   "post": 0.0,
+   "cost": 679.0,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-paldea-evolved/raichu-211)"
   }
  ]
 }
