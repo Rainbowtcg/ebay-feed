@@ -340,6 +340,7 @@ def main():
     budget_hit = False
     nm_fail, nm_found = 0, 0
     done, quota_hit, fails_in_row = set(), False, 0
+    bad_lines = set()  # search lines eBay refuses (HTTP 400)
     for q in queries:
         if quota_hit or budget_hit:
             break
@@ -373,6 +374,9 @@ def main():
                 fails_in_row = 0
             except Exception as e:  # keep going on one bad query
                 print("query failed:", q, c, "(NM pass)" if asp else "", e, file=sys.stderr)
+                if getattr(e, "code", None) == 400:  # eBay rejected this search line itself: skip it, don't treat it as the call limit
+                    bad_lines.add(q)
+                    continue
                 fails_in_row += 1
                 if getattr(e, "code", None) == 429 or fails_in_row >= 8:
                     quota_hit = True  # eBay's 5,000 calls/day used up (e.g. a second run the same day)
@@ -427,6 +431,8 @@ def main():
             done.add(q)
     if budget_hit:
         print(f"search budget of {SEARCH_MAX} calls reached: {len(queries) - len(done)} searches keep yesterday's results", file=sys.stderr)
+    if bad_lines:
+        print(f"{len(bad_lines)} search lines rejected by eBay (fix or remove them in queries.txt):", *sorted(bad_lines), sep="\n  ", file=sys.stderr)
     carried = 0
     if quota_hit or budget_hit:
         # don't wipe the feed with a half run: carry over the last full results for searches that didn't finish

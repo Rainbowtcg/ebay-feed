@@ -164,8 +164,10 @@ pokemon (evolutons,evoultions,evolutoins,"generation radiant","radiant colection
 pokemon (japanesse,japenese,japaneese,jappanese) holo (psa,"1st edition","near mint") @c=AU,NZ,JP,HK
 pokemon ("gem mnt","psa 1o","mint 1o","gem mnit") holo -"psa 9" @c=AU,NZ,JP,HK
 # Japanese names written out in English letters (translator listings: Nidokuin = Nidoqueen, Kyukon = Ninetales...)
-(lizardon,rizadon,kamex,kamekkusu,fushigibana,nidokuin,kyukon,kyuukon,fuudin,foodin,kairyu,kairyuu,rougela,kabigon) (holo,psa,"old back") @c=AU,NZ,JP,HK
-(blacky,eifie,hassam,nyula,happinas,bangiras,bakphoon,bakuphoon,ordile,okutank,myuutsu,myuu) (holo,psa,"old back") pokemon @c=AU,NZ,JP,HK
+(lizardon,rizadon,kamex,kamekkusu,fushigibana,nidokuin,kyukon) (holo,psa,"old back") pokemon @c=AU,NZ,JP,HK
+(kyuukon,fuudin,foodin,kairyu,kairyuu,rougela,kabigon) (holo,psa,"old back") pokemon @c=AU,NZ,JP,HK
+(blacky,eifie,hassam,nyula,happinas,bangiras) (holo,psa,"old back") pokemon @c=AU,NZ,JP,HK
+(bakphoon,bakuphoon,ordile,okutank,myuutsu,myuu) (holo,psa,"old back") pokemon @c=AU,NZ,JP,HK
 # ---------- Trusted sellers ----------
 # Whole stock of the sellers in trusted_sellers.txt (Japan, 99.5%+ feedback); era-checked, no grade word needed.
 pokemon holo @trusted
