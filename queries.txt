@@ -423,3 +423,19 @@ pokemon japanese (vs,web) 1st edition psa
 # Australian RRP (A$100 ETB, A$306 English booster box). Shops' ETBs and boxes join this category too.
 pokemon (elite trainer box,etb) sealed @sealed @c=AU
 pokemon (booster box,booster display) sealed @sealed @c=AU
+
+# ---------- Binders & lots ----------
+# Whole binders, collections and job lots with older cards in them (@lots: lot / binder / bundle words allowed, no grade
+# word needed, never valued as single cards). Newest listed first, so fresh ones show the day they go up. Check the photos.
+pokemon (binder,folder,album) (vintage,wotc,1999,2000,old,original,holo,holos,childhood) @lots @c=AU,NZ
+pokemon (collection,lot,bundle) (1999,2000,wotc,"base set",jungle,fossil,"team rocket",neo,vintage) @lots @c=AU,NZ
+pokemon cards (childhood,"old collection",estate,deceased,"garage sale",attic,"found in",inherited,nostalgia,"from the 90s") @lots @c=AU,NZ
+"old pokemon cards" @lots @c=AU,NZ
+pokemon ("1st edition",shadowless,"gold star",shining,"lv.x",prime,"ex era",delta) (lot,bundle,collection,binder) @lots @c=AU,NZ
+pokemon japanese (lot,bundle,collection,binder) ("old back",vintage,1997,1998,1999,neo,"e-card",holo) @lots @c=AU,NZ,JP
+pokemon (lot,bundle,collection,binder,cards) @lots @pawn
+
+# ---------- Under-labelled ----------
+# Single cards whose title never says "Pokemon", so most buyers' searches miss them (single-cards category only).
+(charizard,blastoise,venusaur,lugia,umbreon,espeon,rayquaza,gengar,dragonite,mewtwo) holo (1999,2000,wotc,"1st edition",shadowless,neo,"gold star",psa,"near mint") -pokemon -pokémon @c=AU,NZ,JP
+(celebi,suicune,typhlosion,feraligatr,meganium,tyranitar,houndoom,scizor,latias,latios) holo (2001,2002,2003,"e-card",expedition,aquapolis,skyridge,"gold star",psa,"near mint") -pokemon -pokémon @c=AU,NZ,JP

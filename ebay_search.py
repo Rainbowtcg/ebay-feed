@@ -103,8 +103,8 @@ def pawn_sellers():
     return sorted(set(n for n in names if n and n != "none"))[:250]
 
 
-def search(tok, q, country, offset=0, limit=200, aspect=None, sellers=None, category=CATEGORY):
-    params = {"q": q, "limit": str(limit), "offset": str(offset),
+def search(tok, q, country, offset=0, limit=200, aspect=None, sellers=None, category=CATEGORY, sort=None):
+    params = {"q": q, "limit": str(limit), "offset": str(offset), **({"sort": sort} if sort else {}),
               "filter": f"itemLocationCountry:{country},buyingOptions:{{FIXED_PRICE|AUCTION|BEST_OFFER}}"
                         + (",sellers:{" + "|".join(sellers) + "}" if sellers else "")}
     if category:  # sealed searches run without the single-cards category (ETBs and boxes sit in several)
@@ -143,6 +143,52 @@ def sealed_keep(title):
     if re.search(r"booster box|booster display|\b36 (booster )?packs\b", title, re.I):
         return "Box"
     return None
+
+
+# "@lots" search lines: binders, collections and job lots of older cards. Kept without a grade word and never valued
+# as single cards (enrich.py lists them in their own category); empty binders, accessories, sealed product and
+# lots with no sign of the hunted eras stay out.
+LOT_BAD = re.compile(r"\bempty\b|binder only|folder only|album only|no cards|pages only|portfolio only|cards? not included|"
+                     r"sleeves?\b|toploaders?|playmat|deck box|storage box|code cards?|online codes?|energy (cards )?only|"
+                     r"booster box|elite trainer|\betb\b|sealed (booster|pack|box)|digital|proxy|custom|replica|orica|fake|"
+                     r"yu-?gi-?oh|magic the gathering|\bmtg\b|one piece|lorcana|dragon ball|digimon|sports|nba|nfl|afl|nrl", re.I)
+LOT_WORD = re.compile(r"\blots?\b|bundle|binder|folder|album|collection|job ?lot|bulk|\bx\s?\d+\b|\b\d+\s?(x|cards|pcs|pieces)\b", re.I)
+
+
+def keep_lot(title):
+    """A binder / collection / lot of Pokemon cards from the hunted eras."""
+    if LOT_BAD.search(title) or reprint_hit(title):
+        return False
+    if not re.search(r"pok[eé]mon|pocket monsters|ポケモン", title, re.I):
+        return False
+    return bool(LOT_WORD.search(title)) and bool(PAWN_ERA.search(title) or re.search(r"\bold\b|original|childhood|first gen|gen ?1|nostalg", title, re.I))
+
+
+DEAD_RUNS = 5          # a line + country that kept nothing in each of the last 5 runs is rested ...
+PROBE_EVERY = 7        # ... and tried again every 7 days in case something turns up
+
+
+def dead_pairs(queries):
+    """(line, country) pairs that kept no listings in each of the last DEAD_RUNS recorded runs (query_history.json)."""
+    try:
+        runs = json.load(open(os.path.join(HERE, "query_history.json"), encoding="utf-8")).get("runs") or []
+    except Exception:
+        return set()
+    runs = runs[-DEAD_RUNS:]
+    if len(runs) < DEAD_RUNS:
+        return set()
+    out = set()
+    for q in queries:
+        if not all(q in r.get("q", {}) for r in runs):
+            continue                                   # new or changed line: always searched
+        _, opts = line_options(q)
+        if opts.get("pawn") or opts.get("trusted") or opts.get("sealed") or opts.get("lots"):
+            continue
+        cs = opts["c"] if isinstance(opts.get("c"), list) else COUNTRIES
+        for c in cs:
+            if all(not ((r["q"][q][2] if len(r["q"][q]) > 2 else {}) or {}).get(c) for r in runs):
+                out.add((q, c))
+    return out
 
 
 def keep(title, modern_ok=False):
@@ -338,9 +384,62 @@ def main():
     stats = {}  # per search: [eBay returned, kept as new, already found by an earlier search, filtered out]
     cstats = {}  # per search and country: new listings kept
     budget_hit = False
-    nm_fail, nm_found = 0, 0
+    nm_fail = 0
     done, quota_hit, fails_in_row = set(), False, 0
     bad_lines = set()  # search lines eBay refuses (HTTP 400)
+    counts = {"nm": 0, "skipped": 0, "extra": 0, "extra_new": 0}
+    totals = {}       # (line, country) -> how many listings eBay has for the plain search (it returns 200 at most)
+    dead = dead_pairs(queries)
+    day_no = datetime.now(timezone.utc).toordinal()
+    def take(res, q, c, asp, want, is_sealed, is_trusted, is_pawn, is_lots):
+        """Keep the wanted listings from one page of eBay results."""
+        for it in res.get("itemSummaries", []) or []:
+            iid = it.get("legacyItemId") or ((it.get("itemId") or "").split("|") + ["", ""])[1] or None
+            title = it.get("title", "")
+            kind = sealed_keep(title) if is_sealed else None
+            if is_sealed:
+                ok = bool(kind)
+            elif is_lots:
+                ok = keep_lot(title) and (not is_pawn or bool(PAWN_ERA.search(title)))
+            elif is_trusted:  # trusted sellers' stock: no grade word needed, but hunted eras and not played
+                ok = keep_nm(title, want) and bool(PAWN_ERA.search(title))
+            else:
+                ok = keep_nm(title, want) if asp else keep(title, want)
+            if ok and is_pawn and not is_lots and not PAWN_ERA.search(title):
+                ok = False  # pawn shops: hunted eras only
+            st = stats.setdefault(q, [0, 0, 0, 0])
+            st[0] += 1
+            if iid and iid in seen:
+                st[2] += 1
+                continue
+            if not iid or not ok:
+                st[3] += 1
+                continue
+            st[1] += 1
+            cs_ = cstats.setdefault(q, {})
+            cs_[c] = cs_.get(c, 0) + 1
+            if asp:
+                counts["nm"] += 1
+            seen.add(iid)
+            price = it.get("currentBidPrice") or it.get("price") or {}
+            ship = (it.get("shippingOptions") or [{}])[0].get("shippingCost") or {}
+            out.append({
+                "id": iid, "title": title, "price": price.get("value"), "currency": price.get("currency"),
+                "post": ship.get("value"), "postCurrency": ship.get("currency"),
+                "options": it.get("buyingOptions"), "bids": it.get("bidCount"), "ends": it.get("itemEndDate"),
+                "condition": it.get("condition"), "country": (it.get("itemLocation") or {}).get("country"),
+                "seller": (it.get("seller") or {}).get("username"), "feedback": (it.get("seller") or {}).get("feedbackPercentage"),
+                "url": f"https://www.ebay.com.au/itm/{iid}", "query": q,
+                "nm": 1 if asp else 0,
+                "flag": "" if (is_sealed or is_lots) else flag_for(title, asp or is_trusted),
+                **({"lot": 1} if is_lots else {}),
+                **({"sealed": kind} if kind else {}),
+                # multi-option listing (seller-defined variations): the summary's price is one option's,
+                # not necessarily the card in the title, so it is never treated as a deal
+                **({"var": 1} if (it.get("itemGroupHref") or it.get("itemGroupType")
+                                  or ((it.get("itemId") or "").split("|") + ["", "", ""])[2] not in ("", "0")) else {}),
+            })
+
     for q in queries:
         if quota_hit or budget_hit:
             break
@@ -349,6 +448,7 @@ def main():
         sq, opts = line_options(q)
         is_pawn, is_trusted = bool(opts.get("pawn")), bool(opts.get("trusted"))
         is_sealed = bool(opts.get("sealed"))
+        is_lots = bool(opts.get("lots"))
         sellers = pawns if is_pawn else trusted if is_trusted else None
         if (is_pawn or is_trusted) and not sellers:
             continue
@@ -362,16 +462,22 @@ def main():
             countries = COUNTRIES
         for c in countries:
           # NM pass first, so listings the seller marked "Near Mint or Better" are recorded with nm=1
-          passes = ([NM_ASPECT] if NM_PASS and nm_fail < 5 and not opts.get("nonm") and not is_trusted and not is_sealed else []) + [None]
+          if (q, c) in dead and (day_no + sum(map(ord, q + c))) % PROBE_EVERY:
+              counts["skipped"] += 1   # found nothing here in the last DEAD_RUNS runs: rest it, but try it again every PROBE_EVERY days
+              continue
+          passes = ([NM_ASPECT] if NM_PASS and nm_fail < 5 and not opts.get("nonm") and not is_trusted and not is_sealed and not is_lots else []) + [None]
           pages = [(asp, off) for asp in passes for off in ([o * 200 for o in range(PAWN_PAGES)] if sellers else [0])]
           for asp, off in pages:
             if calls >= SEARCH_MAX:
                 budget_hit = True
                 break
             try:
-                res = search(tok, sq, c, offset=off, aspect=asp, sellers=sellers, category=None if is_sealed else CATEGORY)
+                res = search(tok, sq, c, offset=off, aspect=asp, sellers=sellers, category=None if (is_sealed or is_lots) else CATEGORY,
+                             sort="newlyListed" if is_lots else None)
                 calls += 1
                 fails_in_row = 0
+                if asp is None and off == 0 and not sellers and not is_lots and not is_sealed:
+                    totals[(q, c)] = int(res.get("total") or 0)
             except Exception as e:  # keep going on one bad query
                 print("query failed:", q, c, "(NM pass)" if asp else "", e, file=sys.stderr)
                 if getattr(e, "code", None) == 400:  # eBay rejected this search line itself: skip it, don't treat it as the call limit
@@ -385,54 +491,41 @@ def main():
                 if asp:
                     nm_fail += 1  # stop the NM pass for the rest of the run if eBay keeps refusing it
                 continue
-            for it in res.get("itemSummaries", []) or []:
-                iid = it.get("legacyItemId") or ((it.get("itemId") or "").split("|") + ["", ""])[1] or None
-                title = it.get("title", "")
-                kind = sealed_keep(title) if is_sealed else None
-                if is_sealed:
-                    ok = bool(kind)
-                elif is_trusted:  # trusted sellers' stock: no grade word needed, but hunted eras and not played
-                    ok = keep_nm(title, want) and bool(PAWN_ERA.search(title))
-                else:
-                    ok = keep_nm(title, want) if asp else keep(title, want)
-                if ok and is_pawn and not PAWN_ERA.search(title):
-                    ok = False  # pawn shops: hunted eras only
-                st = stats.setdefault(q, [0, 0, 0, 0])
-                st[0] += 1
-                if iid and iid in seen:
-                    st[2] += 1
-                    continue
-                if not iid or not ok:
-                    st[3] += 1
-                    continue
-                st[1] += 1
-                cs_ = cstats.setdefault(q, {})
-                cs_[c] = cs_.get(c, 0) + 1
-                if asp:
-                    nm_found += 1
-                seen.add(iid)
-                price = it.get("currentBidPrice") or it.get("price") or {}
-                ship = (it.get("shippingOptions") or [{}])[0].get("shippingCost") or {}
-                out.append({
-                    "id": iid, "title": title, "price": price.get("value"), "currency": price.get("currency"),
-                    "post": ship.get("value"), "postCurrency": ship.get("currency"),
-                    "options": it.get("buyingOptions"), "bids": it.get("bidCount"), "ends": it.get("itemEndDate"),
-                    "condition": it.get("condition"), "country": (it.get("itemLocation") or {}).get("country"),
-                    "seller": (it.get("seller") or {}).get("username"), "feedback": (it.get("seller") or {}).get("feedbackPercentage"),
-                    "url": f"https://www.ebay.com.au/itm/{iid}", "query": q,
-                    "nm": 1 if asp else 0,
-                    "flag": "" if is_sealed else flag_for(title, asp or is_trusted),
-                    **({"sealed": kind} if kind else {}),
-                    # multi-option listing (seller-defined variations): the summary's price is one option's,
-                    # not necessarily the card in the title, so it is never treated as a deal
-                    **({"var": 1} if (it.get("itemGroupHref") or it.get("itemGroupType")
-                                      or ((it.get("itemId") or "").split("|") + ["", "", ""])[2] not in ("", "0")) else {}),
-                })
+            take(res, q, c, asp, want, is_sealed, is_trusted, is_pawn, is_lots)
             time.sleep(0.2)
           if quota_hit or budget_hit:
               break
         if not quota_hit and not budget_hit:
             done.add(q)
+    # Extra pages with the calls the run didn't need. eBay gives 200 results per search in "best match" order, which
+    # buries long-running listings: for every search with more than 200 results, also fetch the 200 cheapest
+    # (price + postage), want-list searches first, then the busiest. Then, budget allowing, the next 200 cheapest.
+    if not quota_hit and not budget_hit:
+        capped = sorted(((q, c, n) for (q, c), n in totals.items() if n > 200),
+                        key=lambda x: (not x[0].startswith("+"), -x[2]))
+        for rnd in (0, 1):
+            for q, c, n in capped:
+                if calls >= SEARCH_MAX or quota_hit:
+                    break
+                if rnd == 1 and n <= 400:
+                    continue
+                sq, opts = line_options(q)
+                try:
+                    res = search(tok, sq, c, offset=200 * rnd, sellers=None, category=None if opts.get("sealed") else CATEGORY,
+                                 sort="price")
+                    calls += 1
+                    counts["extra"] += 1
+                except Exception as e:
+                    print("extra page failed:", q, c, e, file=sys.stderr)
+                    if getattr(e, "code", None) == 429:
+                        quota_hit = True
+                    continue
+                before = len(out)
+                take(res, q, c, None, q.startswith("+"), bool(opts.get("sealed")), False, False, False)
+                counts["extra_new"] += len(out) - before
+                time.sleep(0.2)
+        print(f"cheapest-first pages: {counts['extra']} calls on {len(capped)} searches with over 200 results, "
+              f"{counts['extra_new']} listings the normal pages missed; {counts['skipped']} country searches rested")
     if budget_hit:
         print(f"search budget of {SEARCH_MAX} calls reached: {len(queries) - len(done)} searches keep yesterday's results", file=sys.stderr)
     if bad_lines:
@@ -456,6 +549,7 @@ def main():
             "unverified": sum(1 for x in out if x.get("flag") == "unverified"),
             "searches_done": f"{len(done)}/{len(queries)}", "carried_over": carried,
             "budget_stop": budget_hit, "quota_stop": quota_hit, "bad_lines": sorted(bad_lines),
+            "extra_pages": counts["extra"], "extra_new": counts["extra_new"], "rested": counts["skipped"],
             "pawn_sellers": sorted(set(pawns) | {str(x.get("seller")).lower() for x in out if x.get("seller") and PAWN_RX.search(str(x.get("seller")))}),
             "query_stats": {q: dict(zip(("returned", "new", "dupes", "filtered"), stats.get(q, [0, 0, 0, 0])), by_country=cstats.get(q, {}),
                                 ran=q in done) for q in queries},
@@ -466,7 +560,7 @@ def main():
         fields = list(dict.fromkeys(k for x in out for k in x)) or ["id"]
         w = csv.DictWriter(f, fieldnames=fields, restval="")
         w.writeheader(); w.writerows(out)
-    print(f"{len(out)} listings from {calls} searches ({nm_found} extra raw Near Mint or Better listings from the NM pass)")
+    print(f"{len(out)} listings from {calls} searches ({counts['nm']} extra raw Near Mint or Better listings from the NM pass)")
 
 
 if __name__ == "__main__":

@@ -262,3 +262,44 @@ def land_aud(it):
     except (TypeError, ValueError):
         return 0.0
     return round(p + post, 2)
+
+# ---------------------------------------------------------------- misspellings
+# Common misspellings and romanised Japanese names (the ones queries.txt searches for), mapped to the English card
+# name, so those listings can be matched to card values and to other copies of the same card.
+_SPELL = {
+    "charizard": "charzard charizzard charizad charazard charzad chairzard charizrd charizar lizardon rizadon",
+    "blastoise": "blastiose blastoice blastois blastose blastios blastoies kamex kamekkusu",
+    "venusaur": "venasaur venusuar venusour venasuar venusar venesaur fushigibana",
+    "pokemon": "pokeman pokemom pokmon pokemn pokemen pokeomn pokemone",
+    "pikachu": "pikachew pickachu pikchu pikacu picachu pikachue",
+    "mewtwo": "mewto mewtoo mewtow mewtwoo mewtu myuutsu",
+    "mew": "myuu", "gengar": "genger gengr gangar", "lugia": "luiga lugai lugea",
+    "umbreon": "umbrion umbreeon umbrean blacky", "espeon": "espion esspeon espeeon eifie",
+    "rayquaza": "rayquasa rayqauza rayquaze raquaza rayqaza rayquazza",
+    "gyarados": "gyrados gyarodos garados", "dragonite": "dragonight dragnite dragonit kairyu kairyuu",
+    "alakazam": "alakazan alakasam alakazm fuudin foodin", "gardevoir": "gardavoir gardevior gardevoire gardivoir",
+    "sceptile": "sceptyle septile", "feraligatr": "feraligator feraligater ordile",
+    "typhlosion": "typhlosian typhlossion bakphoon bakuphoon", "meganium": "meganuim",
+    "tyranitar": "tyrannitar tyranitor bangiras", "houndoom": "houndoon hondoom", "suicune": "sucuine suicun",
+    "raikou": "raikuo", "entei": "entie", "celebi": "celibi celebie", "jirachi": "jiarachi jirache", "deoxys": "deoxis",
+    "latias": "latais", "latios": "latos", "scyther": "sycther scythr", "flareon": "flarion", "sylveon": "sylvion",
+    "articuno": "artikuno articono", "zapdos": "zapados", "moltres": "moltress molters",
+    "nidoqueen": "nidokuin", "ninetales": "kyukon kyuukon", "jynx": "rougela", "snorlax": "kabigon",
+    "scizor": "hassam", "sneasel": "nyula", "blissey": "happinas", "octillery": "okutank",
+    "expedition": "expidition expedtion expeditoin expediton", "aquapolis": "aquapolice aqupolis aquapollis aquopolis aquaplis",
+    "skyridge": "skyrige skyrdge skyrigde skyrdige skiridge", "frontiers": "fronteirs fronters", "phantoms": "phantems phantum",
+    "shadowless": "shadowles shaddowless shadowlees shadowlesss", "evolutions": "evolutons evoultions evolutoins",
+    "collection": "colection", "japanese": "japanesse japenese japaneese jappanese",
+}
+_SPELL_MAP = {w: right for right, wrong in _SPELL.items() for w in wrong.split()}
+_SPELL_RX = re.compile(r"(?<![a-z0-9])(" + "|".join(sorted(map(re.escape, _SPELL_MAP), key=len, reverse=True)) + r")(?![a-z0-9])", re.I)
+_SPELL_EXTRA = [(re.compile(r"\bpsa ?1o\b", re.I), "PSA 10"), (re.compile(r"\bgem mnt\b|\bgem mnit\b", re.I), "gem mint"),
+                (re.compile(r"\bdelta[- ]specie\b", re.I), "delta species")]
+
+
+def fix_spelling(title):
+    """Title with known misspellings / romanised Japanese names replaced by the English card name."""
+    t = _SPELL_RX.sub(lambda m: _SPELL_MAP[m.group(1).lower()], title or "")
+    for rx, right in _SPELL_EXTRA:
+        t = rx.sub(right, t)
+    return t

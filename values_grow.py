@@ -24,7 +24,7 @@ sys.path.insert(0, HERE)
 from pc_prices import usd_aud  # noqa: E402
 from pc_more import find_card, read_page, value, set_words  # noqa: E402
 from megacash_prices import card_of  # noqa: E402
-from feedlib import grade_of, lang_of, land_aud, norm, REPRINT  # noqa: E402
+from feedlib import grade_of, lang_of, land_aud, norm, REPRINT, fix_spelling  # noqa: E402
 from enrich import Values, MODERN, NEWER, SV_MEP, SKIP_CC, FIRST, REV, PRE, ODD, NOSYM  # noqa: E402
 
 GROW_MAX = int(os.environ.get("GROW_MAX", "200"))
@@ -38,7 +38,7 @@ NOT_NAME = set("xy sm bw dp neo sealed promo mc rr rrr hr sr ur ar chr csr sar s
 
 def name_of(title):
     """card_of() for a title, with set codes / rarity letters taken out of the name; None when no real name is left."""
-    c = card_of(title)
+    c = card_of(fix_spelling(title))
     name = [w for w in c["name"] if w not in NOT_NAME]
     if not any(len(w) >= 3 for w in name):
         return None
@@ -62,8 +62,8 @@ def candidates(items, V):
     """{ident: {"t": sample title, "nm": bool, "num": .., "lang": .., "n": copies, "want": bool, "top": max A$}}"""
     out = {}
     for x in items:
-        t = x.get("title") or ""
-        if (x.get("country") in SKIP_CC or x.get("flag") or x.get("sealed") or x.get("var") or REPRINT.search(t)
+        t = fix_spelling(x.get("title") or "")
+        if (x.get("country") in SKIP_CC or x.get("flag") or x.get("sealed") or x.get("var") or x.get("lot") or REPRINT.search(t)
                 or SV_MEP.search(t)):
             continue
         want = str(x.get("query") or "").startswith("+")

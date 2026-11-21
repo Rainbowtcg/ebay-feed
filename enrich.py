@@ -16,7 +16,7 @@ try:
     SYD = ZoneInfo("Australia/Sydney")
 except Exception:  # pragma: no cover
     SYD = timezone(timedelta(hours=11))
-from feedlib import categories, QueryMatcher, card_key, grade_of, land_aud, lang_of, norm, set_of, SETS, REPRINT, VARIANTS
+from feedlib import categories, QueryMatcher, card_key, grade_of, land_aud, lang_of, norm, set_of, SETS, REPRINT, VARIANTS, fix_spelling
 try:
     from feedlib import landed_aud
 except Exception:  # older feedlib: no GST
@@ -29,6 +29,7 @@ PAWN_CAT = "Pawn shops"          # heading in queries.txt; also every listing fr
 TRUSTED_CAT = "Trusted sellers"  # heading in queries.txt; also every listing from a trusted_sellers.txt seller
 SLAB_CAT = "Slab plays"          # played raw copies of cards whose low-grade slabs sell for more than raw + grading
 GRADE_CAT = "Grade plays"        # Near Mint raw copies where landed cost + grading is well under the PSA 9 price
+LOTS_CAT = "Binders & lots"       # heading in queries.txt; @lots listings (never valued as single cards)
 SEALED_CAT = "Sealed: ETBs & booster boxes"  # heading in queries.txt; also every shop ETB / booster box
 # Australian RRPs (same as the Slab Finder page's NR_RRP): standard Elite Trainer Box, English 36-pack booster box
 RRP = {"ETB": 100.0, "Box": 306.0}
@@ -55,7 +56,9 @@ NEWER = re.compile(r"terastal|stellar|mega (evolution|dream)|\bm\d[a-z]?\b|mc ba
 
 
 def key_title(t):
-    """"Neo 3" / "neo3" titles get the set's name, so the same-card key keeps Neo 2 and Neo 3 Houndoom No.229 apart."""
+    """"Neo 3" / "neo3" titles get the set's name, so the same-card key keeps Neo 2 and Neo 3 Houndoom No.229 apart.
+    Misspelt and romanised Japanese names are corrected first, so "Charzard" and "Lizardon" are Charizard here too."""
+    t = fix_spelling(t)
     m = re.search(r"\bneo ([1-4])\b", neo_n(norm(t)))
     return t + NEO_NAME[m.group(1)] if m and not set_of(t) else t
 
@@ -132,7 +135,7 @@ def hi_entry(i, x, t, p, pl, why, auc):
     return {"id": i, "t": t[:90], "p": p, "pl": pl, "cc": x.get("country") or "", "seller": x.get("seller") or "",
             "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "why": why, "auc": auc, "shop": 1 if x.get("shop") else 0,
             "post?": 1 if (x.get("post") in (None, "") and not x.get("shop")) else 0,
-            "ck": card_key(key_title(t)) or ""}
+            "ck": "" if x.get("lot") else (card_key(key_title(t)) or "")}
 
 
 def ebay_warnings(L):
@@ -243,6 +246,7 @@ class Values:
         return max(best, key=lambda b: b[0])[1] if best else None
 
     def find(self, title, nm=False):
+        title = fix_spelling(title)
         if REPRINT.search(title):
             return None
         g = grade_of(title)
@@ -319,7 +323,7 @@ def main():
         p = land_aud(x)
         if not p:
             continue
-        k = card_key(key_title(x.get("title", "")))
+        k = None if x.get("lot") else card_key(key_title(x.get("title", "")))   # lots aren't one card
         auc = 1 if "AUCTION" in (x.get("options") or []) else 0
         h = hashlib.md5((str(x.get("seller")) + "|" + norm(x.get("title", ""))).encode()).hexdigest()[:10]
         r = ids.get(i)
@@ -366,7 +370,7 @@ def main():
         now = datetime.now(timezone.utc)
     vals, groups = {}, {}
     for i, x in cur.items():
-        val = V.find(x.get("title", ""), x.get("nm") == 1)
+        val = None if x.get("lot") else V.find(x.get("title", ""), x.get("nm") == 1)
         vals[i] = val
         if val and "AUCTION" not in (x.get("options") or []) and x.get("country") not in SKIP_CC and not x.get("flag"):
             groups.setdefault((val[0].get("id") or val[0]["label"], val[1]), []).append(
@@ -421,6 +425,10 @@ def main():
             cs = list(dict.fromkeys(cs + [TRUSTED_CAT]))
         if SEALED_CAT in cats and sealed_kind(x):
             cs = list(dict.fromkeys([SEALED_CAT] + cs))
+        if x.get("lot") and LOTS_CAT in cats:
+            cs = [LOTS_CAT]                  # binders and lots stay in their own category ...
+        elif LOTS_CAT in cs:
+            cs = [c for c in cs if c != LOTS_CAT]   # ... and single cards never go in it
         auc = "AUCTION" in (x.get("options") or [])
         val = vals.get(i)
         p = r["p"]
@@ -484,6 +492,33 @@ def main():
                 live_n.get(k, 0) if k else 0, val[2] if val else None, (val[0]["label"] + " · " + val[1]) if val else "", tags,
                 (1 if val[1] in (val[0].get("thin") or []) else 0) if val else 0,   # value rests on few sales
                 search_words(val[0]) if val else "", (val[0].get("checked") or "") if val else ""]
+
+        # binders & lots: no values, so the summary shows what's fresh or about to end, cheapest per card first
+        if x.get("lot"):
+            if x.get("country") in SKIP_CC or LOTS_CAT not in digest:
+                continue
+            d = digest[LOTS_CAT]
+            d["total"] += 1
+            d["new"] += bool(new)
+            d["drops"] += bool(drop)
+            n_cards = None
+            m = re.search(r"\b(\d{2,4})\s?\+?\s?(?:x\s)?(?:pokemon\s)?(?:cards|pcs|pieces|card lot)\b|\bx\s?(\d{2,4})\b", t, re.I)
+            if m:
+                n_cards = int(m.group(1) or m.group(2))
+            each = f"; {n_cards} cards ≈ A${pl / n_cards:,.2f} each" if n_cards and n_cards >= 10 else ""
+            why, pri = "", 9
+            if auc and hours is not None and 0 < hours <= AUCTION_HOURS:
+                why, pri = f"auction ends in {hours:.0f}h: A${pl:,.0f}{gst_of(pl, p)} now, {x.get('bids') or 0} bids — the bid will rise", 1
+            elif new or (r["f"] == today and not had_before):
+                why, pri = f"new: A${pl:,.0f}{gst_of(pl, p)}{' (auction)' if auc else ''}", 0
+            elif drop:
+                why, pri = f"price dropped A${r['pp']:,.0f} → A${p:,.0f}", 2
+            elif r.get("re") and not auc and r.get("p0") and p < r["p0"] * 0.95:
+                why, pri = f"relisted cheaper (A${r['p0']:,.0f} → A${p:,.0f})", 2
+            if why:
+                d["hi"].append((pri, (pl / n_cards) if n_cards else pl, pl,
+                                hi_entry(i, x, t, p, pl, why + each + ". Check the photos for holos and condition", auc)))
+            continue
 
         # digest: same rules as the finder's default view
         if slab:
@@ -600,7 +635,7 @@ def main():
         for h in kept:
             if h.get("more"):
                 h["why"] += f" (+{h['more']} more cop{'ies' if h['more'] > 1 else 'y'} also flagged)"
-        d["hi"] = kept[:12 if d["cat"] in (SLAB_CAT, GRADE_CAT) else 8]
+        d["hi"] = kept[:15 if d["cat"] == LOTS_CAT else 12 if d["cat"] in (SLAB_CAT, GRADE_CAT) else 8]
     order = [c for c in cats if digest[c]["total"]] + (["Other"] if digest["Other"]["total"] else [])
 
     H = {"updated": today, "ids": ids}
