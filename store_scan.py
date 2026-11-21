@@ -110,6 +110,34 @@ def keep_raw(title):
     return bool(VINTAGE_RX.search(title)) and not MODERN_RX.search(title)
 
 
+# condition options on sealed products that aren't a normal sealed box (Mayhem lists DMG / MI / FS, others "Damaged box" etc.)
+SEALED_LESSER = re.compile(r"\b(dmg|damaged?|dent(ed)?|crush(ed)?|opened|open box|no shrink|unsealed|torn|ripped|mi|minor|imperfect(ion)?s?|"
+                           r"b[- ]?grade|seconds?|scuff(ed)?|ding(ed)?|worn|faded|resealed|loose|empty|case of|\d+ ?x\b)", re.I)
+SEALED_BEST = re.compile(r"\b(fs|factory sealed|sealed|new|mint|perfect|standard|default title)\b", re.I)
+
+
+def sealed_option(shop, handle):
+    """The price of a sealed product's normal option, from the shop's own product data.
+
+    The search-suggest price is the cheapest option, which can be a damaged box. Returns (price, option name) or None
+    when the product data can't be read (the suggest price is then kept)."""
+    try:
+        p = get(f"https://{shop['domain']}/products/{urllib.parse.quote(handle)}.js", tries=2)
+    except Exception:
+        return None
+    vs = [v for v in (p.get("variants") or []) if v.get("available")]
+    if not vs:
+        return None
+    named = lambda v: (v.get("title") or v.get("public_title") or "").strip()
+    good = [v for v in vs if not SEALED_LESSER.search(named(v))]
+    if not good:
+        return None, ""                              # only damaged / imperfect boxes in stock
+    best = [v for v in good if SEALED_BEST.search(named(v))] or good
+    v = min(best, key=lambda v: v.get("price") or 0)
+    cents = v.get("price") or 0
+    return round(cents / 100, 2), ("" if named(v).lower() in ("", "default title", "default") else named(v))
+
+
 def sealed_scan(shop):
     """Reads ETBs and booster boxes through a Shopify shop's public search suggestions."""
     out, seen = [], set()
@@ -132,6 +160,14 @@ def sealed_scan(shop):
             except (TypeError, ValueError):
                 continue
             if kind and price > 0:
+                opt = sealed_option(shop, p.get("handle") or "") if p.get("handle") else None
+                if opt is not None:
+                    if opt[0] is None:
+                        continue                     # only damaged / imperfect boxes left
+                    price = opt[0]
+                    if opt[1]:
+                        title = f"{title} [{opt[1]}]"
+                    time.sleep(PAUSE)
                 link = p.get("url") or ""
                 out.append({"title": title, "price": round(price, 2), "shop": shop["name"], "kind": kind, "pid": p.get("id") or key,
                             "lang": "JP" if re.search(r"japanese|\bjp\b", title, re.I) else "EN",
