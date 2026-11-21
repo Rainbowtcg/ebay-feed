@@ -1,6 +1,6 @@
 {
  "note": "Card values in A$ by grade. tg: rows come from the Slab Finder's TG benchmarks; others from PriceCharting (US$ x 1.4232). Edit or add entries freely: num = card number as printed (leading zeros dropped, or No.151 for old Japanese), words = name words that must all be in the title, keys = set words (any one must be in the title; empty = number is enough), first = 1st Edition only, rev = reverse/mirror only. slab = played-copy grading targets: low = typical low-grade (lowg) sale A$, mid = PSA 7 sale A$; the feed lists raw copies where grading clears fees.",
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "cards": [
   {
    "id": "tg:Fossil 1st Edition Hypno 8/62",
@@ -5888,15 +5888,15 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 3319,
+    "Raw": 3147,
     "PSA 9": 43537,
     "PSA 10": 222573,
     "PSA 7": 15791,
     "PSA 8": 24204
    },
-   "src": "PriceCharting 2026-11-20 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-aquapolis/lugia-149",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "thin": []
   },
   {

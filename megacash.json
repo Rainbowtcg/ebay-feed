@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-20T18:28+00:00",
+ "generated": "2026-11-21T02:07+00:00",
  "usd_aud": 1.4987,
  "rate_source": "open.er-api.com",
- "lookups_this_run": 22,
+ "lookups_this_run": 0,
  "cards": [
   {
    "title": "Pokemon - GG70/GG70 Arceus Vstar Crown Zenith",
@@ -67,9 +67,9 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=charizard+ex+%28101%2F108%2C101%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 192.56,
+    "aud": 221.84,
     "country": "AU",
-    "url": "https://www.ebay.com.au/itm/336854883398",
+    "url": "https://www.ebay.com.au/itm/800819312388",
     "copies": 1
    },
    "auction": false,
@@ -85,15 +85,15 @@
     "g10": 839
    },
    "basis": {
-    "n90": 53,
+    "n90": 52,
     "last": "2026-11-19",
     "basis": "90-day median",
     "pc_avg": 75.35,
     "grade": "raw (NM)"
    },
-   "value": 174,
-   "landed": 219,
-   "gap": 0.1,
+   "value": 172,
+   "landed": 217,
+   "gap": 0.11,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -94,
@@ -173,14 +173,14 @@
     "g10": 2698
    },
    "basis": {
-    "n90": 28,
+    "n90": 27,
     "last": "2026-11-02",
     "basis": "90-day median",
     "pc_avg": 195.5,
     "grade": "raw (NM)"
    },
-   "value": 300,
-   "landed": 358,
+   "value": 301,
+   "landed": 359,
    "gap": 1.2,
    "thin": false,
    "signal": "OVER",
@@ -624,14 +624,14 @@
     "g10": 7893
    },
    "basis": {
-    "n90": 19,
+    "n90": 16,
     "last": "2026-11-08",
     "basis": "90-day median",
     "pc_avg": 64.15,
     "grade": "raw (NM)"
    },
    "value": 88,
-   "landed": 125,
+   "landed": 124,
    "gap": 2.19,
    "thin": false,
    "signal": "OVER",
@@ -714,15 +714,15 @@
     "g10": 462
    },
    "basis": {
-    "n90": 23,
+    "n90": 22,
     "last": "2026-11-07",
     "basis": "90-day median",
     "pc_avg": 120.85,
     "grade": "raw (NM)"
    },
-   "value": 178,
-   "landed": 224,
-   "gap": 0.47,
+   "value": 172,
+   "landed": 216,
+   "gap": 0.52,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -70,
@@ -759,15 +759,15 @@
     "g10": 7001
    },
    "basis": {
-    "n90": 23,
+    "n90": 22,
     "last": "2026-11-05",
     "basis": "90-day median",
     "pc_avg": 72.49,
     "grade": "raw (NM)"
    },
-   "value": 90,
-   "landed": 126,
-   "gap": 1.9,
+   "value": 86,
+   "landed": 122,
+   "gap": 2.03,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -255,
@@ -944,15 +944,15 @@
     "g10": 7269
    },
    "basis": {
-    "n90": 17,
+    "n90": 16,
     "last": "2026-11-08",
     "basis": "90-day median",
     "pc_avg": 124.63,
     "grade": "raw (NM)"
    },
-   "value": 165,
-   "landed": 209,
-   "gap": 0.46,
+   "value": 169,
+   "landed": 213,
+   "gap": 0.43,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -62,
@@ -1034,15 +1034,15 @@
     "g10": 7001
    },
    "basis": {
-    "n90": 23,
+    "n90": 22,
     "last": "2026-11-05",
     "basis": "90-day median",
     "pc_avg": 72.49,
     "grade": "raw (NM)"
    },
-   "value": 90,
-   "landed": 126,
-   "gap": 1.68,
+   "value": 86,
+   "landed": 122,
+   "gap": 1.8,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -235,
@@ -1155,7 +1155,12 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=beedrill+%285%2F144%2C5%29&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=beedrill+%285%2F144%2C5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": null,
+   "live": {
+    "aud": 359.99,
+    "country": "AU",
+    "url": "https://www.ebay.com.au/itm/137948166447",
+    "copies": 1
+   },
    "auction": false,
    "offers": false,
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/beedrill-reverse-holo-5?q=beedrill+5+reverse+holo+skyridge",
@@ -1259,15 +1264,15 @@
     "g10": 7001
    },
    "basis": {
-    "n90": 23,
+    "n90": 22,
     "last": "2026-11-05",
     "basis": "90-day median",
     "pc_avg": 72.49,
     "grade": "raw (NM)"
    },
-   "value": 90,
-   "landed": 126,
-   "gap": 1.34,
+   "value": 86,
+   "landed": 122,
+   "gap": 1.45,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -205,
@@ -1878,19 +1883,19 @@
     "g10": 1216
    },
    "basis": {
-    "n90": 8,
+    "n90": 7,
     "last": "2026-11-13",
     "basis": "90-day median",
     "pc_avg": 53.86,
     "grade": "raw (NM)"
    },
-   "value": 70,
-   "landed": 105,
-   "gap": 1.3,
+   "value": 80,
+   "landed": 116,
+   "gap": 1.01,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -51,
-   "psa9_net": 127
+   "psa9_net": 129
   },
   {
    "title": "Pokemon - Zubat 117/144 Rev Holo Skyridge",
@@ -2045,7 +2050,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=scyther+%28106%2F147%2C106%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 425.85,
+    "aud": 429.5,
     "country": "SG",
     "url": "https://www.ebay.com.au/itm/377576483047",
     "copies": 1
@@ -2207,12 +2212,7 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=umbreon+ex+svp176&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=umbreon+ex+svp176&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": {
-    "aud": 60.0,
-    "country": "AU",
-    "url": "https://www.ebay.com.au/itm/880110729631",
-    "copies": 1
-   },
+   "live": null,
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
@@ -2411,15 +2411,15 @@
     "g10": 3002
    },
    "basis": {
-    "n90": 20,
+    "n90": 19,
     "last": "2026-11-01",
     "basis": "90-day median",
     "pc_avg": 75.0,
     "grade": "raw (NM)"
    },
-   "value": 116,
-   "landed": 155,
-   "gap": 1.59,
+   "value": 120,
+   "landed": 159,
+   "gap": 1.51,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 74,
@@ -2484,16 +2484,16 @@
     "g10": 608
    },
    "basis": {
-    "n90": 3,
+    "n90": 2,
     "last": "2026-10-28",
-    "basis": "90-day median",
-    "pc_avg": 71.47,
+    "basis": "PriceCharting average",
+    "thin": true,
     "grade": "raw (NM)"
    },
-   "value": 105,
-   "landed": 143,
-   "gap": 1.77,
-   "thin": false,
+   "value": 107,
+   "landed": 145,
+   "gap": 1.72,
+   "thin": true,
    "signal": "OVER",
    "psa8_net": 51,
    "psa9_net": 151
@@ -2534,16 +2534,16 @@
     "g10": 608
    },
    "basis": {
-    "n90": 3,
+    "n90": 2,
     "last": "2026-10-28",
-    "basis": "90-day median",
-    "pc_avg": 71.47,
+    "basis": "PriceCharting average",
+    "thin": true,
     "grade": "raw (NM)"
    },
-   "value": 105,
-   "landed": 143,
-   "gap": 1.77,
-   "thin": false,
+   "value": 107,
+   "landed": 145,
+   "gap": 1.72,
+   "thin": true,
    "signal": "OVER",
    "psa8_net": 51,
    "psa9_net": 151
@@ -2624,15 +2624,15 @@
     "g10": 2383
    },
    "basis": {
-    "n90": 26,
+    "n90": 25,
     "last": "2026-11-11",
     "basis": "90-day median",
     "pc_avg": 144.67,
     "grade": "raw (NM)"
    },
-   "value": 191,
-   "landed": 238,
-   "gap": 0.37,
+   "value": 187,
+   "landed": 234,
+   "gap": 0.4,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 353,
@@ -3033,7 +3033,7 @@
    "gap": 0.56,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -1,
+   "psa8_net": 2,
    "psa9_net": 257
   },
   {
@@ -4759,15 +4759,15 @@
     "g10": 166
    },
    "basis": {
-    "n90": 7,
+    "n90": 6,
     "last": "2026-11-16",
     "basis": "90-day median",
     "pc_avg": 52.61,
     "grade": "PSA 9"
    },
-   "value": 78,
-   "landed": 135,
-   "gap": 0.67,
+   "value": 79,
+   "landed": 136,
+   "gap": 0.65,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -5025,12 +5025,7 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=lucario+ex+%28107%2F111%2C107%29&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=lucario+ex+%28107%2F111%2C107%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": {
-    "aud": 170.3,
-    "country": "AU",
-    "url": "https://www.ebay.com.au/itm/227612128133",
-    "copies": 1
-   },
+   "live": null,
    "auction": false,
    "offers": true,
    "pc": "https://www.pricecharting.com/game/pokemon-furious-fists/lucario-ex-107?q=lucario+ex+107+furious+fists",
@@ -6277,7 +6272,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=delibird+%2849%2F144%2C49%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 221.12,
+    "aud": 223.01,
     "country": "SG",
     "url": "https://www.ebay.com.au/itm/377471602085",
     "copies": 2
@@ -6340,7 +6335,7 @@
     "g10": 6369
    },
    "basis": {
-    "n90": 14,
+    "n90": 13,
     "last": "2026-11-09",
     "basis": "90-day median",
     "pc_avg": 64.29,
@@ -6708,15 +6703,15 @@
     "g10": 7001
    },
    "basis": {
-    "n90": 23,
+    "n90": 22,
     "last": "2026-11-05",
     "basis": "90-day median",
     "pc_avg": 72.49,
     "grade": "raw (NM)"
    },
-   "value": 90,
-   "landed": 126,
-   "gap": 1.9,
+   "value": 86,
+   "landed": 122,
+   "gap": 2.03,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -255,
@@ -7051,15 +7046,15 @@
     "g10": 3394
    },
    "basis": {
-    "n90": 19,
+    "n90": 18,
     "last": "2026-11-12",
     "basis": "90-day median",
     "pc_avg": 65.0,
     "grade": "raw (NM)"
    },
-   "value": 85,
-   "landed": 120,
-   "gap": 1.72,
+   "value": 83,
+   "landed": 119,
+   "gap": 1.78,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -155,
@@ -7096,15 +7091,15 @@
     "g10": 4871
    },
    "basis": {
-    "n90": 30,
+    "n90": 29,
     "last": "2026-11-14",
     "basis": "90-day median",
     "pc_avg": 47.4,
     "grade": "raw (NM)"
    },
-   "value": 72,
-   "landed": 107,
-   "gap": 2.21,
+   "value": 67,
+   "landed": 102,
+   "gap": 2.45,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 66,
@@ -7357,7 +7352,12 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=staryu+%28104%2F144%2C104%29&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=staryu+%28104%2F144%2C104%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": null,
+   "live": {
+    "aud": 139.99,
+    "country": "AU",
+    "url": "https://www.ebay.com.au/itm/840150024377",
+    "copies": 1
+   },
    "auction": false,
    "offers": false,
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/staryu-reverse-holo-104?q=staryu+104+reverse+holo+skyridge",
@@ -7600,7 +7600,7 @@
     "g10": 4421
    },
    "basis": {
-    "n90": 8,
+    "n90": 7,
     "last": "2026-11-13",
     "basis": "90-day median",
     "pc_avg": 119.99,
@@ -9243,7 +9243,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%28016%2F128%2C16%2F128%2C16%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 438.12,
+    "aud": 429.97,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/820263051861",
     "copies": 2
@@ -9797,15 +9797,15 @@
     "g10": 12629
    },
    "basis": {
-    "n90": 13,
+    "n90": 12,
     "last": "2026-11-05",
     "basis": "90-day median",
     "pc_avg": 418.59,
     "grade": "raw (NM)"
    },
-   "value": 558,
-   "landed": 641,
-   "gap": -0.28,
+   "value": 579,
+   "landed": 664,
+   "gap": -0.31,
    "thin": false,
    "signal": "UNDER",
    "psa8_net": 1469,
@@ -9910,7 +9910,7 @@
     "g10": 9438
    },
    "basis": {
-    "n90": 33,
+    "n90": 32,
     "last": "2026-11-15",
     "basis": "90-day median",
     "pc_avg": 93.7,
@@ -10158,15 +10158,15 @@
     "g10": 3002
    },
    "basis": {
-    "n90": 20,
+    "n90": 19,
     "last": "2026-11-01",
     "basis": "90-day median",
     "pc_avg": 75.0,
     "grade": "raw (NM)"
    },
-   "value": 116,
-   "landed": 155,
-   "gap": 1.59,
+   "value": 120,
+   "landed": 159,
+   "gap": 1.51,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 74,
@@ -10474,14 +10474,14 @@
     "g10": 7893
    },
    "basis": {
-    "n90": 19,
+    "n90": 16,
     "last": "2026-11-08",
     "basis": "90-day median",
     "pc_avg": 64.15,
     "grade": "raw (NM)"
    },
    "value": 88,
-   "landed": 125,
+   "landed": 124,
    "gap": 1.4,
    "thin": false,
    "signal": "OVER",
@@ -10554,7 +10554,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -97,
-   "psa9_net": 348
+   "psa9_net": 259
   },
   {
    "title": "Pokemon- Mistys Gyarados 13/132 Holo Gym Heroes",
@@ -11191,12 +11191,7 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=mew+ex+svp053&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mew+ex+svp053&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": {
-    "aud": 170.0,
-    "country": "AU",
-    "url": "https://www.ebay.com.au/itm/257734523576",
-    "copies": 1
-   },
+   "live": null,
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
@@ -11361,7 +11356,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": 99,
-   "psa9_net": 1296
+   "psa9_net": 1297
   },
   {
    "title": "Pokemon - Xerneas Ex 146/146 XY Base Set",
@@ -11634,7 +11629,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pidgeot+%28123%2F128%2C123%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 1851.53,
+    "aud": 1802.66,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/820270329464",
     "copies": 2
@@ -11774,7 +11769,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mega+dragonite+ex+%28246%2F193%2C246%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 366.89,
+    "aud": 370.03,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/307286962415",
     "copies": 4
@@ -11844,7 +11839,12 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%28124%2Fs-p%2C124%29+japanese&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%28124%2Fs-p%2C124%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": null,
+   "live": {
+    "aud": 369.86,
+    "country": "JP",
+    "url": "https://www.ebay.com.au/itm/407375785457",
+    "copies": 1
+   },
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
@@ -14561,7 +14561,7 @@
     "g10": 49367
    },
    "basis": {
-    "n90": 33,
+    "n90": 32,
     "last": "2026-11-16",
     "basis": "90-day median",
     "pc_avg": 320.0,
@@ -14876,7 +14876,7 @@
     "g10": 6369
    },
    "basis": {
-    "n90": 14,
+    "n90": 13,
     "last": "2026-11-09",
     "basis": "90-day median",
     "pc_avg": 64.29,
@@ -15749,7 +15749,12 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=charmander+%28051%2F049%2C51%2F049%2C51%29+japanese&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=charmander+%28051%2F049%2C51%2F049%2C51%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": null,
+   "live": {
+    "aud": 628.0,
+    "country": "JP",
+    "url": "https://www.ebay.com.au/itm/206703490795",
+    "copies": 1
+   },
    "auction": false,
    "offers": false,
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-svg-special-set/charmander-51?q=charmander+051+japanese",
@@ -16314,15 +16319,15 @@
     "g10": 193
    },
    "basis": {
-    "n90": 12,
+    "n90": 11,
     "last": "2026-11-13",
     "basis": "90-day median",
     "pc_avg": 50.0,
     "grade": "raw (NM)"
    },
-   "value": 76,
-   "landed": 112,
-   "gap": 3.75,
+   "value": 75,
+   "landed": 110,
+   "gap": 3.81,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -384,
@@ -16359,7 +16364,7 @@
     "g10": 300
    },
    "basis": {
-    "n90": 23,
+    "n90": 22,
     "last": "2026-11-12",
     "basis": "90-day median",
     "pc_avg": 200.0,
@@ -17396,7 +17401,7 @@
     "aud": 202.0,
     "country": "AU",
     "url": "https://www.ebay.com.au/itm/237143118171",
-    "copies": 21
+    "copies": 22
    },
    "auction": false,
    "offers": false,
@@ -17421,7 +17426,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=magneton+82+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 280.08,
+    "aud": 282.47,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/377641512852",
     "copies": 3
@@ -17553,7 +17558,7 @@
     "g10": 66
    },
    "basis": {
-    "n90": 18,
+    "n90": 17,
     "last": "2026-11-13",
     "basis": "90-day median",
     "pc_avg": 44.27,
@@ -17997,7 +18002,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mega+charizard+ex+%28110%2F080%2C110%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 1265.63,
+    "aud": 1276.47,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/389416558808",
     "copies": 4
@@ -18111,7 +18116,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=electrode+101+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 1022.04,
+    "aud": 1030.79,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/377622878621",
     "copies": 5
@@ -18182,7 +18187,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=magneton+82+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 280.08,
+    "aud": 282.47,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/377641512852",
     "copies": 3
@@ -18286,15 +18291,15 @@
     "g10": 694
    },
    "basis": {
-    "n90": 16,
+    "n90": 14,
     "last": "2026-11-13",
     "basis": "90-day median",
     "pc_avg": 62.5,
     "grade": "PSA 9"
    },
-   "value": 98,
-   "landed": 157,
-   "gap": 0.54,
+   "value": 103,
+   "landed": 162,
+   "gap": 0.47,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -18582,7 +18587,7 @@
     "aud": 141.5,
     "country": "AU",
     "url": "https://www.ebay.com.au/itm/407359498136",
-    "copies": 9
+    "copies": 11
    },
    "auction": false,
    "offers": false,
@@ -19377,7 +19382,7 @@
     "g10": 150
    },
    "basis": {
-    "n90": 2,
+    "n90": 1,
     "last": "2026-09-21",
     "basis": "PriceCharting average",
     "thin": true,
@@ -20188,13 +20193,13 @@
     "g10": 175
    },
    "basis": {
-    "n90": 8,
+    "n90": 7,
     "last": "2026-10-12",
     "basis": "90-day median",
     "pc_avg": 116.57,
     "grade": "PSA 10"
    },
-   "value": 192,
+   "value": 191,
    "landed": 260,
    "gap": 0.1,
    "thin": false,
@@ -20728,7 +20733,7 @@
     "aud": 130.0,
     "country": "AU",
     "url": "https://www.ebay.com.au/itm/800492026312",
-    "copies": 1
+    "copies": 2
    },
    "auction": false,
    "offers": false,
@@ -21003,15 +21008,15 @@
     "g10": 161
    },
    "basis": {
-    "n90": 22,
+    "n90": 20,
     "last": "2026-11-16",
     "basis": "90-day median",
     "pc_avg": 107.5,
     "grade": "PSA 10"
    },
-   "value": 161,
-   "landed": 227,
-   "gap": 0.31,
+   "value": 164,
+   "landed": 230,
+   "gap": 0.29,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -21572,16 +21577,16 @@
     "g10": 1552
    },
    "basis": {
-    "n90": 4,
+    "n90": 2,
     "last": "2026-09-07",
-    "basis": "90-day median",
-    "pc_avg": 104.04,
+    "basis": "PriceCharting average",
+    "thin": true,
     "grade": "PSA 9"
    },
    "value": 156,
    "landed": 221,
    "gap": 0.03,
-   "thin": false,
+   "thin": true,
    "signal": "OVER-US"
   },
   {
@@ -22402,7 +22407,7 @@
     "g10": 558
    },
    "basis": {
-    "n90": 46,
+    "n90": 45,
     "last": "2026-11-15",
     "basis": "90-day median",
     "pc_avg": 12.89,
@@ -22447,7 +22452,7 @@
     "g10": 463
    },
    "basis": {
-    "n90": 48,
+    "n90": 47,
     "last": "2026-11-15",
     "basis": "90-day median",
     "pc_avg": 9.0,
@@ -22492,7 +22497,7 @@
     "g10": 450
    },
    "basis": {
-    "n90": 47,
+    "n90": 46,
     "last": "2026-11-15",
     "basis": "90-day median",
     "pc_avg": 6.6,
@@ -22537,15 +22542,15 @@
     "g10": 563
    },
    "basis": {
-    "n90": 42,
+    "n90": 41,
     "last": "2026-11-15",
     "basis": "90-day median",
     "pc_avg": 8.57,
     "grade": "raw (NM)"
    },
-   "value": 12,
-   "landed": 40,
-   "gap": 1.67,
+   "value": 13,
+   "landed": 42,
+   "gap": 1.46,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -58,
@@ -22651,15 +22656,15 @@
     "g10": 1918
    },
    "basis": {
-    "n90": 38,
+    "n90": 37,
     "last": "2026-11-08",
     "basis": "90-day median",
     "pc_avg": 28.98,
     "grade": "raw (NM)"
    },
-   "value": 50,
+   "value": 51,
    "landed": 83,
-   "gap": 0.84,
+   "gap": 0.8,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -78,

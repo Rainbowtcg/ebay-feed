@@ -4,12 +4,12 @@
   {
    "label": "Aquapolis Lugia 149/147 (crystal)",
    "grade": "Raw",
-   "value": 3319,
+   "value": 3147,
    "copies": 4,
    "under": 4,
    "sellers": 4,
-   "median_ratio": 0.24,
-   "src": "PriceCharting 2026-11-20 (90-day sales median where 3+ sales)",
+   "median_ratio": 0.26,
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-aquapolis/lugia-149",
    "id": "tg:Aquapolis Lugia 149/147 (crystal)"
   }
