@@ -5,6 +5,9 @@ on:
   workflow_dispatch: {}
 permissions:
   contents: write
+concurrency:
+  group: feed-data          # shared with the afternoon shop scan, so the two never write the feed at the same time
+  cancel-in-progress: false
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -24,6 +27,10 @@ jobs:
       - name: Refresh card values (PriceCharting)
         continue-on-error: true
         run: python values_refresh.py
+      - name: Add values for unvalued cards (PriceCharting)
+        continue-on-error: true
+        timeout-minutes: 25
+        run: python values_grow.py
       - name: Price shop cards (Mega Cash)
         continue-on-error: true
         run: python megacash_prices.py
@@ -44,7 +51,7 @@ jobs:
           git config user.name "ebay-feed-bot"
           git config user.email "ebay-feed-bot@users.noreply.github.com"
           git add listings.json listings.csv
-          for f in stores.json feed.js feed-lite.js history.json digest.json digest.md guide.json megacash.json megacash.md mc_cache.json values.json values_check.md values_suspect.json query_history.json queries_report.md; do if [ -f "$f" ]; then git add "$f"; fi; done
+          for f in stores.json feed.js feed-lite.js history.json digest.json digest.md guide.json megacash.json megacash.md mc_cache.json values.json values_check.md values_suspect.json values_grow.json values_grow.md query_history.json queries_report.md; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --cached --quiet || git commit -m "eBay feed $(date -u +%F)"
           # if a file was uploaded while this ran, put the results on top of it instead of failing (a failed push throws away the whole day's eBay calls)
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 10; done
@@ -53,3 +60,25 @@ jobs:
         run: |
           curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/feed.js" || true
           curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/feed-lite.js" || true
+      - name: Check the eBay search ran
+        # turns the run red (and GitHub emails you) when eBay searches didn't run, so stale data can't pass as fresh
+        run: |
+          python - <<'EOF'
+          import json, sys
+          d = json.load(open("listings.json", encoding="utf-8"))
+          done, _, total = str(d.get("searches_done", "")).partition("/")
+          done, total = int(done or 0), int(total or 0)
+          bad = d.get("bad_lines") or []
+          fail = []
+          if d.get("calls") == 0 or done == 0:
+              fail.append(f"eBay search did not run (0 of {total} searches): every eBay listing is carried over from an earlier day")
+          elif total and done < total / 2:
+              fail.append(f"eBay search stopped early: only {done} of {total} searches ran")
+          elif total and done < total:
+              print(f"::warning::eBay search incomplete: {done} of {total} searches ran; the rest kept earlier results")
+          if bad:
+              fail.append(f"eBay rejected {len(bad)} search line(s) in queries.txt: " + " | ".join(bad[:5]))
+          for m in fail:
+              print(f"::error::{m}")
+          sys.exit(1 if fail else 0)
+          EOF
