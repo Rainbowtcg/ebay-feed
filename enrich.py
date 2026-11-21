@@ -28,6 +28,7 @@ KEEP_DAYS = 30
 PAWN_CAT = "Pawn shops"          # heading in queries.txt; also every listing from a pawn_sellers seller
 TRUSTED_CAT = "Trusted sellers"  # heading in queries.txt; also every listing from a trusted_sellers.txt seller
 SLAB_CAT = "Slab plays"          # played raw copies of cards whose low-grade slabs sell for more than raw + grading
+GRADE_CAT = "Grade plays"        # Near Mint raw copies where landed cost + grading is well under the PSA 9 price
 SEALED_CAT = "Sealed: ETBs & booster boxes"  # heading in queries.txt; also every shop ETB / booster box
 # Australian RRPs (same as the Slab Finder page's NR_RRP): standard Elite Trainer Box, English 36-pack booster box
 RRP = {"ETB": 100.0, "Box": 306.0}
@@ -37,6 +38,20 @@ SKIP_CC = {"US", "GB", "UK", "CA"}
 AUCTION_HOURS = 24               # auctions ending within this many hours are shown when the bid is well under value
 AUCTION_RATIO = 0.7              # ... at or under 70% of the card's value (landed, with GST)
 NEO_NAME = {"1": " neo genesis", "2": " neo discovery", "3": " neo revelation", "4": " neo destiny"}
+# Deal rules. Sold values come first; asking prices of other live copies are the second opinion,
+# used on their own only when a card has no sold value (or one resting on few sales).
+ASK_MIN = 3                      # other sellers with a live copy before asking prices mean anything
+ASK_DEAL = 0.80                  # no sold value: at or under 80% of the next-cheapest other seller's copy is a highlight ...
+ASK_FLOOR = 0.35                 # ... unless it's under 35% of the typical asking price (usually a different card, fake or damaged)
+ASK_MIN_PRICE = 20               # asking-price-only highlights start at A$20 (cheaper cards are noise)
+GRADE_MIN_NET = 40               # grade play: at least A$40 profit at PSA 9 after grading and fees ...
+GRADE_MIN_SHARE = 0.30           # ... and at least 30% of the landed cost
+GRADE_MAX_LOSS = 0.25            # ... and one grade lower loses no more than 25% of the landed cost
+VINTAGE = {"BS", "B2", "JU", "FO", "TR", "G1", "G2", "N1", "N2", "N3", "N4", "SI", "LC", "EXP", "AQ", "SK", "e2", "e3", "e4", "e5", "VS", "WEB"}
+OTHER_SLAB = re.compile(r"\b(ICG|AGS|CCIC|CIC|PCA|MNT|GMA|HGA|KSA|BCCG|AP grading|slabbed|graded)\b", re.I)
+NMWORD = re.compile(r"gem ?mint|\bNM\b|near mint|\bmint\b", re.I)
+PLAYED_T = re.compile(r"\[(HP|MP|LP|DMG)\]|\b(HP|MP|LP|DMG)\b(?!\s?\d)|heavily|moderately|lightly played|\bplayed\b|damaged|creased?", re.I)
+NEWER = re.compile(r"terastal|stellar|mega (evolution|dream)|\bm\d[a-z]?\b|mc battle|\b(mur|sar|sir|ar)\b|\b(2019|202\d)\b|\bex\b.*\b\d{3}/\d{3}\b", re.I)
 
 
 def key_title(t):
@@ -106,6 +121,38 @@ ODD = re.compile(r"premium file|vending|carddass|\bdeck\b|\bpromo\b|topsun|banda
 SLAB = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\b", re.I)
 REV = dict(VARIANTS)["rev"]
 FIRST = dict(VARIANTS)["1st"]
+
+
+def gst_of(pl, p):
+    return " incl. GST" if pl > p else ""
+
+
+def hi_entry(i, x, t, p, pl, why, auc):
+    """One digest highlight. p = price + postage; pl = what it costs delivered (with GST on overseas items)."""
+    return {"id": i, "t": t[:90], "p": p, "pl": pl, "cc": x.get("country") or "", "seller": x.get("seller") or "",
+            "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "why": why, "auc": auc, "shop": 1 if x.get("shop") else 0,
+            "post?": 1 if (x.get("post") in (None, "") and not x.get("shop")) else 0,
+            "ck": card_key(key_title(t)) or ""}
+
+
+def ebay_warnings(L):
+    """Lines for the top of the summary when the day's eBay search didn't fully run."""
+    out = []
+    done, _, total = str(L.get("searches_done") or "").partition("/")
+    try:
+        done, total = int(done), int(total)
+    except ValueError:
+        done = total = None
+    carried = int(L.get("carried_over") or 0)
+    if done == 0 or L.get("calls") == 0:
+        out.append(f"⚠ eBay search did not run: 0 of {total} searches. Every eBay listing below is carried over from an earlier day; "
+                   "check the Search eBay step in GitHub Actions.")
+    elif done is not None and total and done < total:
+        out.append(f"⚠ eBay search incomplete: {done} of {total} searches ran; {carried:,} listings are carried over from an earlier day.")
+    bad = L.get("bad_lines") or []
+    if bad:
+        out.append(f"⚠ eBay rejected {len(bad)} search line{'s' if len(bad) != 1 else ''} in queries.txt (fix or remove): " + " | ".join(bad[:5]))
+    return out + ([""] if out else [])
 
 
 def P(*a):
@@ -242,9 +289,14 @@ def main():
 
     qcat = categories(P("queries.txt"))
     cat_of_q = dict(qcat)
-    cats = [SLAB_CAT] + [c for c in dict.fromkeys(c for _, c in qcat) if c != SLAB_CAT]
+    cats = [GRADE_CAT, SLAB_CAT] + [c for c in dict.fromkeys(c for _, c in qcat) if c not in (SLAB_CAT, GRADE_CAT)]
     want_cat = {c: any(q.startswith("+") for q, cc in qcat if cc == c) for c in cats}
-    want_cat[SLAB_CAT] = True
+    want_cat[SLAB_CAT] = want_cat[GRADE_CAT] = True
+    shop_seen = ""
+    try:
+        shop_seen = datetime.fromisoformat(str(S.get("generated")).replace("Z", "+00:00")).astimezone(SYD).strftime("%-d %b %-I:%M%p").replace("AM", "am").replace("PM", "pm")
+    except Exception:
+        pass
     qm = QueryMatcher([q for q, _ in qcat if "@pawn" not in q and "@trusted" not in q and "@sealed" not in q])  # seller-only lines match any title
     pawn_set = {str(n).lower() for n in L.get("pawn_sellers", [])}
     try:
@@ -272,7 +324,7 @@ def main():
         h = hashlib.md5((str(x.get("seller")) + "|" + norm(x.get("title", ""))).encode()).hexdigest()[:10]
         r = ids.get(i)
         if r is None:
-            r = {"f": today, "l": today, "p0": p, "pm": p, "p": p, "pp": None, "k": k, "h": h, "a": auc}
+            r = {"f": today, "l": today, "p0": p, "pm": p, "p": p, "pp": None, "k": k, "h": h, "a": auc, "v": 1 if x.get("var") else 0}
             old = by_hash.get(h)
             if old and old != i:
                 r["re"] = ids[old].get("f")      # relisted: same seller and title seen before under another listing
@@ -283,7 +335,9 @@ def main():
                 r["pp"] = r.get("p")              # yesterday's (or the last seen day's) price
             if auc or r.get("a"):
                 r["pp"] = None                    # auction bids aren't price drops
-            r["l"], r["p"], r["k"], r["a"] = today, p, k, auc
+            if x.get("var"):
+                r["pp"] = None                    # multi-option listings: the price may be a different option each day
+            r["l"], r["p"], r["k"], r["a"], r["v"] = today, p, k, auc, 1 if x.get("var") else 0
             r["pm"] = min(r.get("pm") or p, p)
         cur[i] = x
     for i in [i for i, r in ids.items() if r.get("l", "") < cutoff]:
@@ -294,7 +348,7 @@ def main():
     for i, r in ids.items():
         k = r.get("k")
         if k:
-            if not r.get("a"):  # auction bids (often A$1-10 starts) aren't asking prices
+            if not r.get("a") and not r.get("v"):  # auction bids (often A$1-10 starts) and multi-option prices aren't asking prices
                 low[k] = min(low.get(k, 1e12), r.get("pm") or 1e12)
             seen_n[k] = seen_n.get(k, 0) + 1
     live_n = {}
@@ -329,6 +383,30 @@ def main():
             suspect[(vid, g)] = {"label": c["label"], "grade": g, "value": c["g"][g], "copies": len(rs), "under": len(under),
                                  "sellers": len({r[1] for r in rs}), "median_ratio": round(med, 2), "src": c.get("src", ""),
                                  "pc": c.get("pc", ""), "id": vid}
+
+    # 1c. asking prices of the card's other live copies (landed, Buy It Now only): the second opinion when sold data is thin.
+    # Compared with the next-cheapest copy from another seller rather than the average, since overpriced listings
+    # drag averages up and make ordinary prices look like bargains.
+    asks = {}
+    for i, x in cur.items():
+        k = ids[i].get("k")
+        if (k and "AUCTION" not in (x.get("options") or []) and not x.get("flag") and not x.get("var")
+                and x.get("country") not in SKIP_CC):
+            asks.setdefault(k, []).append((landed_aud(x, ids[i]["p"]), i, str(x.get("seller") or "").lower()))
+
+    def ask_of(i, k, seller):
+        """{"med", "n", "sellers", "next"} for the card's other sellers' live copies, or None when fewer than ASK_MIN sellers."""
+        seller = str(seller or "").lower()
+        best = {}
+        for p, j, s_ in asks.get(k, []):
+            if j != i and s_ != seller and p > 0:
+                best[s_] = min(best.get(s_, 1e12), p)   # one price per seller: their cheapest copy
+        ps = sorted(best.values())
+        if len(ps) < ASK_MIN:
+            return None
+        n = len(ps)
+        med = ps[n // 2] if n % 2 else (ps[n // 2 - 1] + ps[n // 2]) / 2
+        return {"med": med, "n": n, "next": ps[0]}
 
     # 2. per-listing extras + categories
     X, digest = {}, {c: {"cat": c, "want": want_cat[c], "total": 0, "new": 0, "drops": 0, "relisted": 0, "under": 0, "hi": []} for c in cats}
@@ -373,7 +451,35 @@ def main():
                     cs = [SLAB_CAT] + [c for c in cs if c != SLAB_CAT]
                 else:
                     slab = None
-        tags = "".join(c for c, on in (("n", new), ("d", drop), ("r", bool(r.get("re"))), ("l", lowest), ("s", bool(slab))) if on)
+        # grade play: Near Mint raw copy that pays after grading at the grade it's likely to get (PSA 8 for WotC/e-Card-era
+        # and old Japanese cards, PSA 9 for later ones), without a big loss one grade lower
+        gp, gp_why, gp_net = False, "", 0
+        if (val and val[1] == "Raw" and not auc and not flag and not x.get("var") and x.get("country") not in SKIP_CC | {"CN"}
+                and (x.get("nm") == 1 or NMWORD.search(t)) and not OTHER_SLAB.search(t) and not sus and ratio is not None and ratio >= 0.4):
+            gv = val[0]["g"]
+            old = set_of(val[0]["label"]) in VINTAGE or str(val[0].get("num", "")).startswith("No.")
+            want_g, low_g = ("PSA 8", "PSA 7") if old else ("PSA 9", "PSA 8")
+            pw, plow = gv.get(want_g), gv.get(low_g)
+            pr = gv.get("Raw")
+            if pw and not val[0].get("src", "").startswith("PriceCharting"):
+                pw = None   # hand-entered benchmarks aren't trusted for grading maths (they get re-read from PriceCharting over time)
+            if pw and pr and pw > 15 * pr:
+                pw = None   # graded price over 15x raw: usually a mismatched value, not a real spread
+            if pw:
+                gp_net = pw * SELL_KEEP - GRADE_COST - pl
+                net_low = plow * SELL_KEEP - GRADE_COST - pl if plow else None
+                if gp_net >= max(GRADE_MIN_NET, GRADE_MIN_SHARE * pl) and (net_low is None or net_low >= -GRADE_MAX_LOSS * pl):
+                    gp = True
+                    up = [g for g in (("PSA 9", "PSA 10") if old else ("PSA 10",)) if gv.get(g)]
+                    thin = [g for g in (low_g, want_g) + tuple(up) if g in (val[0].get("thin") or [])]
+                    gp_why = (f"grade play{' (vintage: judged at PSA 8)' if old else ''}: A${pl:,.0f} landed raw{gst_of(pl, p)} → "
+                              f"{want_g} ~A${pw:,} = +A${gp_net:,.0f} after A${GRADE_COST} grading and fees"
+                              + (f"; {low_g} ~A${plow:,} = {'+' if net_low >= 0 else '−'}A${abs(net_low):,.0f}" if net_low is not None else "")
+                              + "".join(f"; {g} ~A${gv[g]:,}" for g in up)
+                              + (f" ({', '.join(thin)} rest on few sales)" if thin else "")
+                              + f" — {val[0]['src'].split('(')[0].strip()}. Check the photos: raw 'NM' is the seller's word")
+                    cs = [GRADE_CAT] + [c for c in cs if c != GRADE_CAT]
+        tags = "".join(c for c, on in (("n", new), ("d", drop), ("r", bool(r.get("re"))), ("l", lowest), ("s", bool(slab)), ("g", gp), ("m", bool(x.get("var")))) if on)
         X[i] = [[cats.index(c) for c in cs], r["f"], r.get("pp") if drop else None, round(low[k], 2) if k in low else None,
                 live_n.get(k, 0) if k else 0, val[2] if val else None, (val[0]["label"] + " · " + val[1]) if val else "", tags,
                 (1 if val[1] in (val[0].get("thin") or []) else 0) if val else 0,   # value rests on few sales
@@ -385,9 +491,14 @@ def main():
             d["total"] += 1
             d["new"] += bool(new)
             d["drops"] += bool(drop)
-            d["hi"].append((0, -(at7 + floor), p, {"id": i, "t": t[:90], "p": p, "cc": x.get("country") or "", "seller": x.get("seller") or "",
-                                                    "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "why": slab_why, "auc": auc,
-                                                    "cond": flag.replace("damage: ", "") or ("NM" if x.get("nm") == 1 else "")}))
+            d["hi"].append((0, -(at7 + floor), p, dict(hi_entry(i, x, t, p, pl, slab_why, auc),
+                                                       cond=flag.replace("damage: ", "") or ("NM" if x.get("nm") == 1 else ""))))
+        if gp:
+            d = digest[GRADE_CAT]
+            d["total"] += 1
+            d["new"] += bool(new)
+            d["drops"] += bool(drop)
+            d["hi"].append((0, -gp_net, pl, hi_entry(i, x, t, p, pl, gp_why, auc)))
         if x.get("country") in SKIP_CC or x.get("flag"):
             continue
         sealed = bool(sealed_kind(x))
@@ -395,8 +506,16 @@ def main():
             continue
         if p > 1000 and SLAB.search(t):
             continue
+        played = bool(PLAYED_T.search(re.sub(r"\bHP\s?\d+|\d+\s?HP\b", "", t))) and not SLAB.search(t)
         reason, pri, score = None, 9, 0
-        gst = " incl. GST" if pl > p else ""
+        gst = gst_of(pl, p)
+        ask = None if (auc or not k) else ask_of(i, k, x.get("seller"))
+        vs_next = round(pl / ask["next"], 3) if ask else None
+        ask_ok = bool(ask and pl >= ASK_FLOOR * ask["med"])          # not so cheap it's probably a different card
+        ask_txt = (f"next-cheapest other seller A${ask['next']:,.0f}, typical asking A${ask['med']:,.0f} across {ask['n']} sellers" if ask else "")
+        thin_val = bool(val and val[1] in (val[0].get("thin") or []))
+        src = val[0]["src"].split("(")[0].strip() if val else ""
+        relist_cheaper = bool(r.get("re") and not auc and r.get("p0") and p < r["p0"] * 0.95)
         if sealed:
             if ratio is not None and ratio < 0.6 and not auc:
                 reason, pri, score = (f"A${pl:,.0f}, far under the A${val[2]:,.0f} RRP: check it's the English product and not a pre-order "
@@ -406,6 +525,10 @@ def main():
                                       + (f" ({round((1 - ratio) * 100)}% under)" if ratio < 0.995 else "")), 0, ratio
             elif drop:
                 reason, pri, score = f"price dropped A${r['pp']:,.0f} → A${p:,.0f}", 1, p / r["pp"]
+        elif played:
+            pass  # played copy (shop titles carry [HP] / [MP] etc.; eBay ones are already flagged)
+        elif x.get("var"):
+            pass  # multi-option listing: the price eBay reports may belong to a different option than the title's card
         elif ratio is not None and ratio < 0.4:
             pass  # far too cheap for the card: nearly always a reprint, fake, wrong version or played copy; not a highlight
         elif ratio is not None and ratio < CN_RAW_MIN and x.get("country") == "CN" and val[1] == "Raw":
@@ -414,18 +537,47 @@ def main():
             reason, pri, score = (f"{round((1 - ratio) * 100)}% under A${val[2]:,} value{gst} — but {sus['under']} of {sus['copies']} live copies are "
                                   f"too, so the value may be wrong ({val[1]})"), 3, ratio
         elif ratio is not None and ratio <= 0.85 and not auc:
-            reason, pri, score = f"{round((1 - ratio) * 100)}% under A${val[2]:,} value{gst} ({val[1]}, {val[0]['src'].split('(')[0].strip()})", 0, ratio
-        elif (ratio is not None and auc and hours is not None and 0 < hours <= AUCTION_HOURS and ratio <= AUCTION_RATIO
-              and not sus and not (x.get("country") == "CN" and val[1] == "Raw" and ratio < CN_RAW_MIN)):
-            reason, pri, score = (f"auction ends in {hours:.0f}h: A${pl:,.0f}{gst} now, {round((1 - ratio) * 100)}% under A${val[2]:,} value "
-                                  f"({val[1]}; {x.get('bids') or 0} bids)"), 1, ratio
-        elif drop:
-            reason, pri, score = f"price dropped A${r['pp']:,.0f} → A${p:,.0f}", 1, p / r["pp"]
-        elif new and lowest:
-            reason, pri, score = f"new, cheapest of {seen_n[k]} copies seen in 30 days", 2, 0
-        elif r.get("re") and not auc and r.get("p0") and p < r["p0"] * 0.95:
-            reason, pri, score = f"relisted cheaper (A${r['p0']:,.0f} → A${p:,.0f})", 1, p / r["p0"]
-        for c in ([c for c in cs if c != SLAB_CAT] or ["Other"]):
+            reason, pri, score = (f"A${pl:,.0f} landed{gst}, {round((1 - ratio) * 100)}% under A${val[2]:,} value ({val[1]}, {src}"
+                                  + (", few sales" if thin_val else "") + ")"
+                                  + (f"; {ask_txt}" if ask else "")), 0, ratio
+        elif auc:
+            ends = ""
+            if hours is not None:
+                try:
+                    ends = datetime.fromisoformat(str(x["ends"]).replace("Z", "+00:00")).astimezone(SYD).strftime(" (%a %-I:%M%p)").replace("AM", "am").replace("PM", "pm")
+                except Exception:
+                    ends = ""
+            if (ratio is not None and hours is not None and 0 < hours <= AUCTION_HOURS and ratio <= AUCTION_RATIO
+                    and not sus and not (x.get("country") == "CN" and val[1] == "Raw" and ratio < CN_RAW_MIN)):
+                reason, pri, score = (f"auction ends in {hours:.0f}h{ends}: A${pl:,.0f}{gst} now, {round((1 - ratio) * 100)}% under A${val[2]:,} value "
+                                      f"({val[1]}; {x.get('bids') or 0} bids) — the bid will rise"), 1, ratio
+            elif ratio is None and k and hours is not None and 0 < hours <= AUCTION_HOURS and not MODERN.search(t) and not NEWER.search(t):
+                aa = ask_of(i, k, x.get("seller"))
+                if aa and ASK_FLOOR * aa["med"] <= pl <= 0.6 * aa["next"]:
+                    reason, pri, score = (f"auction ends in {hours:.0f}h{ends}: A${pl:,.0f}{gst} now, no sold value yet; "
+                                          f"cheapest Buy It Now from another seller A${aa['next']:,.0f} ({x.get('bids') or 0} bids) — the bid will rise"), 3, pl / aa["next"]
+        else:
+            signal = (f"price dropped A${r['pp']:,.0f} → A${p:,.0f}" if drop else
+                      f"relisted cheaper (A${r['p0']:,.0f} → A${p:,.0f})" if relist_cheaper else
+                      f"new, cheapest of {seen_n[k]} copies seen in 30 days" if (new and lowest) else "")
+            under_next = vs_next is not None and vs_next <= ASK_DEAL and ask_ok
+            if ratio is not None:
+                if ratio <= 1.0 and (signal or under_next):
+                    reason, pri, score = (f"{signal or f'{round((1 - vs_next) * 100)}% under the next-cheapest other seller'}; "
+                                          f"A${pl:,.0f} landed{gst} is {round(ratio * 100)}% of A${val[2]:,} value ({val[1]}, {src}"
+                                          + (", few sales" if thin_val else "") + ")"), 2, ratio
+                elif thin_val and under_next:
+                    reason, pri, score = (f"{signal + '; ' if signal else ''}A${pl:,.0f} landed{gst} is over the A${val[2]:,} value ({val[1]}), but that "
+                                          f"rests on few sales, and it's {round((1 - vs_next) * 100)}% under the {ask_txt}"), 3, vs_next
+                # otherwise it's over what the card sells for: not a highlight, however it compares with other listings
+            elif pl >= ASK_MIN_PRICE and not MODERN.search(t) and not NEWER.search(t):
+                if under_next:
+                    reason, pri, score = ((signal + "; " if signal else "") + f"no sold value yet — A${pl:,.0f} landed{gst}, "
+                                          f"{round((1 - vs_next) * 100)}% under the {ask_txt}"), 2, vs_next
+                elif signal and vs_next is not None and vs_next <= 1.0 and ask_ok:
+                    reason, pri, score = (f"{signal}; no sold value yet — A${pl:,.0f} landed{gst}, the cheapest live copy "
+                                          f"({ask_txt})"), 3, vs_next
+        for c in ([c for c in cs if c not in (SLAB_CAT, GRADE_CAT)] or ["Other"]):
             d = digest[c]
             d["total"] += 1
             d["new"] += bool(new)
@@ -433,10 +585,22 @@ def main():
             d["relisted"] += bool(r.get("re"))
             d["under"] += bool(ratio is not None and ((0.6 <= ratio <= 1.0) if sealed else 0.4 <= ratio <= 0.85) and not auc and not sus)
             if reason:
-                d["hi"].append((pri, score, p, {"id": i, "t": t[:90], "p": p, "cc": x.get("country") or "", "seller": x.get("seller") or "",
-                                                "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "why": reason, "auc": auc}))
+                d["hi"].append((pri, score, pl, hi_entry(i, x, t, p, pl, reason + (f" · shop listing, last checked {shop_seen}" if x["shop"] and shop_seen else ""), auc)))
     for d in digest.values():
-        d["hi"] = [h[3] for h in sorted(d["hi"], key=lambda h: h[:3])[:12 if d["cat"] == SLAB_CAT else 8]]
+        # one line per card: the best copy, with a count of the other highlighted copies of the same card
+        kept, seen_k = [], {}
+        for h in sorted(d["hi"], key=lambda h: h[:3]):
+            ck = h[3].get("ck")
+            if ck and ck in seen_k:
+                seen_k[ck]["more"] = seen_k[ck].get("more", 0) + 1
+                continue
+            if ck:
+                seen_k[ck] = h[3]
+            kept.append(h[3])
+        for h in kept:
+            if h.get("more"):
+                h["why"] += f" (+{h['more']} more cop{'ies' if h['more'] > 1 else 'y'} also flagged)"
+        d["hi"] = kept[:12 if d["cat"] in (SLAB_CAT, GRADE_CAT) else 8]
     order = [c for c in cats if digest[c]["total"]] + (["Other"] if digest["Other"]["total"] else [])
 
     H = {"updated": today, "ids": ids}
@@ -445,20 +609,23 @@ def main():
     tot = {"listings": len(cur), "new": sum(1 for v in X.values() if "n" in v[7]), "drops": sum(1 for v in X.values() if "d" in v[7]),
            "relisted": sum(1 for v in X.values() if "r" in v[7]), "valued": sum(1 for v in X.values() if v[5])}
     sus_list = sorted(suspect.values(), key=lambda v: -v["value"])
-    json.dump({"day": today, "generated": L.get("generated"), "totals": tot, "first_day": not had_before,
+    json.dump({"day": today, "generated": L.get("generated"), "totals": tot, "first_day": not had_before, "warnings": ebay_warnings(L),
                "categories": [digest[c] for c in order], "suspect_values": sus_list},
               open(P("digest.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # values_refresh.py re-reads these cards' PriceCharting pages first on the next run
     json.dump({"day": today, "cards": sus_list}, open(P("values_suspect.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
-    md = [f"# Slab Finder summary {today}",
+    md = [f"# Slab Finder summary {today}"] + ebay_warnings(L) + [
           f"{tot['listings']:,} live listings · {tot['new']:,} new · {tot['drops']:,} price drops · {tot['relisted']:,} relisted · {tot['valued']:,} with a card value",
-          "Default view: no US/UK/CA sellers, damaged/reprint/wrong-grader tags hidden, slabs over A$1,000 hidden.", ""]
+          "Default view: no US/UK/CA sellers, damaged/reprint/wrong-grader tags hidden, slabs over A$1,000 hidden. "
+          "Prices are landed (postage, plus GST on overseas items). Highlights need a sold value at or under the price, "
+          "or, where there's no sold value yet, a price well under the other live copies.", ""]
     for c in order:
         d = digest[c]
         md.append(f"## {c}{' (want list)' if d['want'] else ''} — {d['total']:,} listings, {d['new']} new, {d['drops']} drops, {d['under']} under value")
         for h in d["hi"][:5]:
-            md.append(f"- A${h['p']:,.0f} {h['t']} ({h['cc']}, {h['seller']}{', auction' if h['auc'] else ''}): {h['why']} {h['url']}")
+            md.append(f"- A${h.get('pl', h['p']):,.0f} {h['t']} ({h['cc']}, {h['seller']}{', auction' if h['auc'] else ''}"
+                      f"{', + postage' if h.get('post?') else ''}): {h['why']} {h['url']}")
         md.append("")
     if sus_list:
         md.append(f"## Values to recheck — {len(sus_list)}")

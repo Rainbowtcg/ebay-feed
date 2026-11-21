@@ -423,6 +423,10 @@ def main():
                     "nm": 1 if asp else 0,
                     "flag": "" if is_sealed else flag_for(title, asp or is_trusted),
                     **({"sealed": kind} if kind else {}),
+                    # multi-option listing (seller-defined variations): the summary's price is one option's,
+                    # not necessarily the card in the title, so it is never treated as a deal
+                    **({"var": 1} if (it.get("itemGroupHref") or it.get("itemGroupType")
+                                      or ((it.get("itemId") or "").split("|") + ["", "", ""])[2] not in ("", "0")) else {}),
                 })
             time.sleep(0.2)
           if quota_hit or budget_hit:
@@ -451,7 +455,7 @@ def main():
             "damaged_flagged": sum(1 for x in out if str(x.get("flag", "")).startswith("damage")),
             "unverified": sum(1 for x in out if x.get("flag") == "unverified"),
             "searches_done": f"{len(done)}/{len(queries)}", "carried_over": carried,
-            "budget_stop": budget_hit,
+            "budget_stop": budget_hit, "quota_stop": quota_hit, "bad_lines": sorted(bad_lines),
             "pawn_sellers": sorted(set(pawns) | {str(x.get("seller")).lower() for x in out if x.get("seller") and PAWN_RX.search(str(x.get("seller")))}),
             "query_stats": {q: dict(zip(("returned", "new", "dupes", "filtered"), stats.get(q, [0, 0, 0, 0])), by_country=cstats.get(q, {}),
                                 ran=q in done) for q in queries},
