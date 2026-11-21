@@ -13341,6 +13341,1468 @@
    "pc": "/game/pokemon-jungle/wigglytuff-no-symbol-16",
    "checked": "2026-11-19",
    "thin": []
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-reviving-legends/umbreon-1st-edition-37",
+   "label": "Japanese Reviving Legends Umbreon [1st Edition] #37   Pokemon Japanese Reviving Legends 37/80",
+   "lang": "JP",
+   "num": "37/80",
+   "words": [
+    "umbreon"
+   ],
+   "keys": [
+    "legends",
+    "reviving"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 262,
+    "PSA 7": 317,
+    "PSA 8": 366,
+    "PSA 9": 682,
+    "PSA 10": 2585
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-reviving-legends/umbreon-1st-edition-37",
+   "checked": "2026-11-21",
+   "thin": [],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-shining-legends/shining-mew-41",
+   "label": "Japanese Shining Legends Shining Mew #41   Pokemon Japanese Shining Legends 41/72",
+   "lang": "JP",
+   "num": "41/72",
+   "words": [
+    "shining",
+    "mew"
+   ],
+   "keys": [
+    "legends"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 240,
+    "PSA 7": 58,
+    "PSA 8": 274,
+    "PSA 9": 413,
+    "PSA 10": 1389
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-shining-legends/shining-mew-41",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-mysterious-mountains/dugtrio-49",
+   "label": "Japanese Mysterious Mountains Dugtrio #49   Pokemon Japanese Mysterious Mountains 49/88",
+   "lang": "JP",
+   "num": "49/88",
+   "words": [
+    "dugtrio"
+   ],
+   "keys": [
+    "mountains",
+    "mysterious"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 60,
+    "PSA 9": 87,
+    "PSA 10": 555
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-mysterious-mountains/dugtrio-49",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 9",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-dream-shine-collection/mew-16",
+   "label": "Japanese Dream Shine Collection Mew #16   Pokemon Japanese Dream Shine Collection 16/36",
+   "lang": "JP",
+   "num": "16/36",
+   "words": [
+    "mew"
+   ],
+   "keys": [
+    "dream",
+    "shine"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 126,
+    "PSA 7": 32,
+    "PSA 8": 199,
+    "PSA 9": 292,
+    "PSA 10": 793
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-dream-shine-collection/mew-16",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-dream-shine-collection/mew-17",
+   "label": "Japanese Dream Shine Collection Mew #17   Pokemon Japanese Dream Shine Collection 17/36",
+   "lang": "JP",
+   "num": "17/36",
+   "words": [
+    "mew"
+   ],
+   "keys": [
+    "collection",
+    "dream",
+    "shine"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 324,
+    "PSA 7": 120,
+    "PSA 8": 284,
+    "PSA 9": 899,
+    "PSA 10": 3146
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-dream-shine-collection/mew-17",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-legendary-heartbeat/celebi-9",
+   "label": "Japanese Legendary Heartbeat Celebi #9   Pokemon Japanese Legendary Heartbeat 9/76",
+   "lang": "JP",
+   "num": "9/76",
+   "words": [
+    "celebi"
+   ],
+   "keys": [
+    "heartbeat",
+    "legendary"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 36,
+    "PSA 7": 18,
+    "PSA 8": 37,
+    "PSA 9": 43,
+    "PSA 10": 84
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-legendary-heartbeat/celebi-9",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-reviving-legends/tyranitar-1st-edition-44",
+   "label": "Japanese Reviving Legends Tyranitar [1st Edition] #44   Pokemon Japanese Reviving Legends 44/80",
+   "lang": "JP",
+   "num": "44/80",
+   "words": [
+    "tyranitar"
+   ],
+   "keys": [
+    "legends",
+    "reviving"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 127,
+    "PSA 7": 193,
+    "PSA 8": 315,
+    "PSA 9": 781,
+    "PSA 10": 3634
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-reviving-legends/tyranitar-1st-edition-44",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-reviving-legends/houndoom-1st-edition-43",
+   "label": "Japanese Reviving Legends Houndoom [1st Edition] #43   Pokemon Japanese Reviving Legends 43/80",
+   "lang": "JP",
+   "num": "43/80",
+   "words": [
+    "houndoom"
+   ],
+   "keys": [
+    "legends",
+    "reviving"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 25,
+    "PSA 7": 19,
+    "PSA 8": 64,
+    "PSA 9": 135,
+    "PSA 10": 689
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-reviving-legends/houndoom-1st-edition-43",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-best-of-xy/m-lucario-ex-63",
+   "label": "Japanese Best Of Xy M Lucario EX #63   Pokemon Japanese Best of XY 63/171",
+   "lang": "JP",
+   "num": "63/171",
+   "words": [
+    "lucario",
+    "ex"
+   ],
+   "keys": [
+    "best"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 44,
+    "PSA 9": 73,
+    "PSA 10": 294
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-best-of-xy/m-lucario-ex-63",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-jet-black-spirit/celebi-vmax-4",
+   "label": "Japanese Jet Black Spirit Celebi VMAX #4   Pokemon Japanese Jet-Black Spirit 4/70",
+   "lang": "JP",
+   "num": "4/70",
+   "words": [
+    "celebi",
+    "vmax"
+   ],
+   "keys": [
+    "jet",
+    "spirit"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 5,
+    "PSA 8": 22,
+    "PSA 9": 25,
+    "PSA 10": 94
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-jet-black-spirit/celebi-vmax-4",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-expedition-expansion-pack/venusaur-1st-edition-97",
+   "label": "Japanese Expedition Expansion Pack Venusaur [1st Edition] #97   Pokemon Japanese Expedition Expansion Pack 97/128",
+   "lang": "JP",
+   "num": "97/128",
+   "words": [
+    "venusaur"
+   ],
+   "keys": [
+    "expedition"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 133,
+    "PSA 7": 159,
+    "PSA 8": 318,
+    "PSA 9": 562,
+    "PSA 10": 2247
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-expedition-expansion-pack/venusaur-1st-edition-97",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 7"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-reviving-legends/espeon-1st-edition-24",
+   "label": "Japanese Reviving Legends Espeon [1st Edition] #24   Pokemon Japanese Reviving Legends 24/80",
+   "lang": "JP",
+   "num": "24/80",
+   "words": [
+    "espeon"
+   ],
+   "keys": [
+    "legends",
+    "reviving"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 60,
+    "PSA 7": 63,
+    "PSA 8": 203,
+    "PSA 9": 421,
+    "PSA 10": 1326
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-reviving-legends/espeon-1st-edition-24",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-abyss-eye/mega-darkrai-ex-46",
+   "label": "Japanese Abyss Eye Mega Darkrai ex #46   Pokemon Japanese Abyss Eye 46/DP-P (promo)",
+   "lang": "JP",
+   "num": "46/DP-P",
+   "words": [
+    "darkrai"
+   ],
+   "keys": [],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 3,
+    "PSA 7": 13,
+    "PSA 9": 15,
+    "PSA 10": 39
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-abyss-eye/mega-darkrai-ex-46",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-shining-legends/shining-celebi-4",
+   "label": "Japanese Shining Legends Shining Celebi #4   Pokemon Japanese Shining Legends 4/72",
+   "lang": "JP",
+   "num": "4/72",
+   "words": [
+    "shining",
+    "celebi"
+   ],
+   "keys": [
+    "legends"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 90,
+    "PSA 8": 57,
+    "PSA 9": 156,
+    "PSA 10": 349
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-shining-legends/shining-celebi-4",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-super-burst-impact/celebi-prism-star-15",
+   "label": "Japanese Super Burst Impact Celebi Prism Star #15   Pokemon Japanese Super-Burst Impact 15/95",
+   "lang": "JP",
+   "num": "15/95",
+   "words": [
+    "celebi"
+   ],
+   "keys": [
+    "burst",
+    "impact",
+    "super"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 28,
+    "PSA 8": 60,
+    "PSA 9": 72,
+    "PSA 10": 492
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-super-burst-impact/celebi-prism-star-15",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-charizard-half-deck/charizard-g-lv-x-2",
+   "label": "Japanese Charizard Half Deck Charizard G LV. X #2   Pokemon Japanese Charizard Half Deck 2/16",
+   "lang": "JP",
+   "num": "2/16",
+   "words": [
+    "charizard"
+   ],
+   "keys": [
+    "deck",
+    "half"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 190,
+    "PSA 7": 420,
+    "PSA 8": 570,
+    "PSA 9": 1338,
+    "PSA 10": 5939
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-charizard-half-deck/charizard-g-lv-x-2",
+   "checked": "2026-11-21",
+   "thin": [],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-clash-at-the-summit/celebi-1st-edition-37",
+   "label": "Japanese Clash At The Summit Celebi [1st Edition] #37   Pokemon Japanese Clash at the Summit 7/80",
+   "lang": "JP",
+   "num": "7/80",
+   "words": [
+    "celebi"
+   ],
+   "keys": [
+    "clash",
+    "summit"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 41,
+    "PSA 7": 57,
+    "PSA 8": 98,
+    "PSA 9": 234,
+    "PSA 10": 915
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-clash-at-the-summit/celebi-1st-edition-37",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-dream-shine-collection/celebi-2",
+   "label": "Japanese Dream Shine Collection Celebi #2   Pokemon Japanese Dream Shine Collection 2/36",
+   "lang": "JP",
+   "num": "2/36",
+   "words": [
+    "celebi"
+   ],
+   "keys": [
+    "collection",
+    "dream"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 109,
+    "PSA 7": 130,
+    "PSA 8": 127,
+    "PSA 9": 283,
+    "PSA 10": 1071
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-dream-shine-collection/celebi-2",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-expedition-expansion-pack/venusaur-1st-edition-65",
+   "label": "Japanese Expedition Expansion Pack Venusaur [1st Edition] #65   Pokemon Japanese Expedition Expansion Pack 65/128",
+   "lang": "JP",
+   "num": "65/128",
+   "words": [
+    "venusaur"
+   ],
+   "keys": [
+    "expedition"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 40,
+    "PSA 7": 30,
+    "PSA 8": 80,
+    "PSA 9": 139,
+    "PSA 10": 808
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-expedition-expansion-pack/venusaur-1st-edition-65",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 7",
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-classic-charizard/charmander-1",
+   "label": "Japanese Classic Charizard Charmander #1   Pokemon Japanese Classic: Charizard 1/32",
+   "lang": "JP",
+   "num": "1/32",
+   "words": [
+    "charmander"
+   ],
+   "keys": [
+    "classic",
+    "japan"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 30,
+    "PSA 7": 16,
+    "PSA 8": 37,
+    "PSA 9": 60,
+    "PSA 10": 121
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-classic-charizard/charmander-1",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-tag-bolt/celebi-&-venusaur-gx-1",
+   "label": "Japanese Tag Bolt Celebi & Venusaur GX #1   Pokemon Japanese Tag Bolt 1/95",
+   "lang": "JP",
+   "num": "1/95",
+   "words": [
+    "celebi",
+    "venusaur",
+    "gx"
+   ],
+   "keys": [
+    "bolt"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 27,
+    "PSA 7": 27,
+    "PSA 8": 34,
+    "PSA 9": 45,
+    "PSA 10": 134
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-tag-bolt/celebi-&-venusaur-gx-1",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-expedition-expansion-pack/mew-1st-edition-119",
+   "label": "Japanese Expedition Expansion Pack Mew [1st Edition] #119   Pokemon Japanese Expedition Expansion Pack 119/128",
+   "lang": "JP",
+   "num": "119/128",
+   "words": [
+    "mew"
+   ],
+   "keys": [
+    "expedition"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 891,
+    "PSA 7": 330,
+    "PSA 8": 1304,
+    "PSA 9": 1434,
+    "PSA 10": 1721
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-expedition-expansion-pack/mew-1st-edition-119",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 7",
+    "PSA 8",
+    "PSA 9",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-advent-of-arceus/salamence-lvx-1st-edition-72",
+   "label": "Japanese Advent Of Arceus Salamence LV.X [1st Edition] #72   Pokemon Japanese Advent of Arceus 72/90",
+   "lang": "JP",
+   "num": "72/90",
+   "words": [
+    "salamence"
+   ],
+   "keys": [
+    "advent",
+    "arceus"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 52,
+    "PSA 7": 114,
+    "PSA 8": 187,
+    "PSA 9": 280,
+    "PSA 10": 2065
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-advent-of-arceus/salamence-lvx-1st-edition-72",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-jet-black-spirit/celebi-v-71",
+   "label": "Japanese Jet Black Spirit Celebi V #71   Pokemon Japanese Jet-Black Spirit 71/70",
+   "lang": "JP",
+   "num": "71/70",
+   "words": [
+    "celebi"
+   ],
+   "keys": [
+    "jet",
+    "spirit"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 18,
+    "PSA 9": 29,
+    "PSA 10": 150
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-jet-black-spirit/celebi-v-71",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-advent-of-arceus/gengar-lvx-1st-edition-43",
+   "label": "Japanese Advent Of Arceus Gengar LV.X [1st Edition] #43   Pokemon Japanese Advent of Arceus 43/90",
+   "lang": "JP",
+   "num": "43/90",
+   "words": [
+    "gengar"
+   ],
+   "keys": [
+    "advent",
+    "arceus"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 402,
+    "PSA 7": 648,
+    "PSA 8": 899,
+    "PSA 9": 2127,
+    "PSA 10": 12739
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-advent-of-arceus/gengar-lvx-1st-edition-43",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-beat-of-the-frontier/rayquaza-c-1st-edition-79",
+   "label": "Japanese Beat Of The Frontier Rayquaza C [1st Edition] #79   Pokemon Japanese Beat of the Frontier 79/100",
+   "lang": "JP",
+   "num": "79/100",
+   "words": [
+    "rayquaza"
+   ],
+   "keys": [
+    "beat",
+    "frontier"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 270,
+    "PSA 7": 354,
+    "PSA 8": 565,
+    "PSA 9": 1664,
+    "PSA 10": 9695
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-beat-of-the-frontier/rayquaza-c-1st-edition-79",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 7",
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-cold-flare/celebi-ex-1st-edition-60",
+   "label": "Japanese Cold Flare Celebi EX [1st Edition] #60   Pokemon Japanese Cold Flare 60/59",
+   "lang": "JP",
+   "num": "60/59",
+   "words": [
+    "celebi",
+    "ex"
+   ],
+   "keys": [
+    "cold",
+    "flare"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 82,
+    "PSA 8": 60,
+    "PSA 9": 334,
+    "PSA 10": 2635
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-cold-flare/celebi-ex-1st-edition-60",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-best-of-xy/mega-lucario-ex-176",
+   "label": "Japanese Best Of Xy Mega Lucario EX #176   Pokemon Japanese Best of XY 176/171",
+   "lang": "JP",
+   "num": "176/171",
+   "words": [
+    "lucario",
+    "ex"
+   ],
+   "keys": [
+    "best"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 432,
+    "PSA 10": 1731
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-best-of-xy/mega-lucario-ex-176",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-awakening-psychic-king/mew-27",
+   "label": "Japanese Awakening Psychic King Mew #27   Pokemon Japanese Awakening Psychic King 27/78",
+   "lang": "JP",
+   "num": "27/78",
+   "words": [
+    "mew"
+   ],
+   "keys": [],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 34,
+    "PSA 9": 130,
+    "PSA 10": 558
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-awakening-psychic-king/mew-27",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-rising-fist/dragonite-ex-100",
+   "label": "Japanese Rising Fist Dragonite EX #100   Pokemon Japanese Rising Fist 100/96",
+   "lang": "JP",
+   "num": "100/96",
+   "words": [
+    "dragonite",
+    "ex"
+   ],
+   "keys": [
+    "fist",
+    "rising"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 135,
+    "PSA 7": 58,
+    "PSA 8": 126,
+    "PSA 9": 247,
+    "PSA 10": 1798
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-rising-fist/dragonite-ex-100",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 7",
+    "PSA 8",
+    "PSA 9",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-shiny-treasure-ex/pikachu-reverse-holo-55",
+   "label": "Japanese Shiny Treasure Ex Pikachu [Reverse Holo] #55   Pokemon Japanese Shiny Treasure ex 55/190",
+   "lang": "JP",
+   "num": "55/190",
+   "words": [
+    "pikachu"
+   ],
+   "keys": [
+    "shiny",
+    "treasure"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": true,
+   "g": {
+    "Raw": 10,
+    "PSA 7": 18,
+    "PSA 8": 19,
+    "PSA 9": 21,
+    "PSA 10": 110
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-shiny-treasure-ex/pikachu-reverse-holo-55",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-ex-battle-boost/pokemon-enterprise-reverse-holo-98",
+   "label": "Japanese Ex Battle Boost Pokemon Enterprise [Reverse Holo] #98   Pokemon Japanese EX Battle Boost 98/93",
+   "lang": "JP",
+   "num": "98/93",
+   "words": [
+    "enterprise"
+   ],
+   "keys": [
+    "battle",
+    "boost"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": true,
+   "g": {
+    "Raw": 120,
+    "PSA 10": 2173
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-ex-battle-boost/pokemon-enterprise-reverse-holo-98",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-ex-battle-boost/pokemon-enterprise-reverse-holo-97",
+   "label": "Japanese Ex Battle Boost Pokemon Enterprise [Reverse Holo] #97   Pokemon Japanese EX Battle Boost No.97",
+   "lang": "JP",
+   "num": "No.97",
+   "words": [
+    "enterprise"
+   ],
+   "keys": [
+    "battle",
+    "boost"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": true,
+   "g": {
+    "Raw": 120,
+    "PSA 10": 525
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-ex-battle-boost/pokemon-enterprise-reverse-holo-97",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-11th-movie-commemoration-promo/pikachu-3",
+   "label": "Japanese 11Th Movie Commemoration Promo Pikachu #3   Pokemon Japanese 11th Movie Commemoration Promo 3/9",
+   "lang": "JP",
+   "num": "3/9",
+   "words": [
+    "pikachu"
+   ],
+   "keys": [
+    "11th",
+    "movie"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 134,
+    "PSA 7": 205,
+    "PSA 8": 257,
+    "PSA 9": 368,
+    "PSA 10": 1452
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-11th-movie-commemoration-promo/pikachu-3",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-arceus-lvx-deck/gengar-1st-edition-6",
+   "label": "Japanese Arceus Lvx Deck Gengar [1st Edition] #6   Pokemon Japanese Arceus LV.X Deck No.6",
+   "lang": "JP",
+   "num": "No.6",
+   "words": [
+    "gengar"
+   ],
+   "keys": [
+    "arceus",
+    "deck"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 141,
+    "PSA 8": 152,
+    "PSA 9": 168,
+    "PSA 10": 4496
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-arceus-lvx-deck/gengar-1st-edition-6",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 8",
+    "PSA 9",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-tag-all-stars/giratina-prism-star-58",
+   "label": "Japanese Tag All Stars Giratina Prism Star #58   Pokemon Japanese Tag All Stars 58/173",
+   "lang": "JP",
+   "num": "58/173",
+   "words": [
+    "giratina"
+   ],
+   "keys": [
+    "all",
+    "stars"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 33,
+    "PSA 8": 127,
+    "PSA 9": 187,
+    "PSA 10": 510
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-tag-all-stars/giratina-prism-star-58",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-awakening-psychic-king/mew-1st-edition-27",
+   "label": "Japanese Awakening Psychic King Mew [1st Edition] #27   Pokemon Japanese Awakening Psychic King 27/78",
+   "lang": "JP",
+   "num": "27/78",
+   "words": [
+    "mew"
+   ],
+   "keys": [
+    "awakening",
+    "king",
+    "psychic"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 38,
+    "PSA 7": 16,
+    "PSA 8": 21,
+    "PSA 9": 148,
+    "PSA 10": 596
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-awakening-psychic-king/mew-1st-edition-27",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-soulsilver-collection/ninetales-13",
+   "label": "Japanese Soulsilver Collection Ninetales #13   Pokemon Japanese SoulSilver Collection 13/70",
+   "lang": "JP",
+   "num": "13/70",
+   "words": [
+    "ninetales"
+   ],
+   "keys": [
+    "collection",
+    "soulsilver"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 30,
+    "PSA 8": 45,
+    "PSA 9": 150,
+    "PSA 10": 623
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-soulsilver-collection/ninetales-13",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-clash-at-the-summit/porygon-z-1st-edition-67",
+   "label": "Japanese Clash At The Summit Porygon-Z [1st Edition] #67   Pokemon Japanese Clash at the Summit 67/80",
+   "lang": "JP",
+   "num": "67/80",
+   "words": [
+    "porygon"
+   ],
+   "keys": [
+    "clash",
+    "summit"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 13,
+    "PSA 8": 50,
+    "PSA 9": 133,
+    "PSA 10": 384
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-clash-at-the-summit/porygon-z-1st-edition-67",
+   "checked": "2026-11-21",
+   "thin": [
+    "Raw",
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-tag-all-stars/darkrai-prism-star-77",
+   "label": "Japanese Tag All Stars Darkrai Prism Star #77   Pokemon Japanese Tag All Stars 77/173",
+   "lang": "JP",
+   "num": "77/173",
+   "words": [
+    "darkrai",
+    "pr"
+   ],
+   "keys": [
+    "all",
+    "stars"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 39,
+    "PSA 9": 89,
+    "PSA 10": 367
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-tag-all-stars/darkrai-prism-star-77",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-tag-bolt/celebi-&-venusaur-gx-110",
+   "label": "Japanese Tag Bolt Celebi & Venusaur GX #110   Pokemon Japanese Tag Bolt 110/95",
+   "lang": "JP",
+   "num": "110/95",
+   "words": [
+    "celebi",
+    "venusaur",
+    "gx"
+   ],
+   "keys": [
+    "bolt"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 70,
+    "PSA 7": 43,
+    "PSA 8": 61,
+    "PSA 9": 88,
+    "PSA 10": 258
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-tag-bolt/celebi-&-venusaur-gx-110",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-tag-bolt/celebi-&-venusaur-gx-96",
+   "label": "Japanese Tag Bolt Celebi & Venusaur GX #96   Pokemon Japanese Tag Bolt 96/95",
+   "lang": "JP",
+   "num": "96/95",
+   "words": [
+    "celebi",
+    "venusaur",
+    "gx"
+   ],
+   "keys": [
+    "bolt"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 48,
+    "PSA 7": 23,
+    "PSA 8": 82,
+    "PSA 9": 90,
+    "PSA 10": 261
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-tag-bolt/celebi-&-venusaur-gx-96",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-jet-black-spirit/celebi-vmax-84",
+   "label": "Japanese Jet Black Spirit Celebi VMAX #84   Pokemon Japanese Jet-Black Spirit 84/70",
+   "lang": "JP",
+   "num": "84/70",
+   "words": [
+    "celebi",
+    "vmax"
+   ],
+   "keys": [
+    "jet",
+    "spirit"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 43,
+    "PSA 8": 24,
+    "PSA 9": 25,
+    "PSA 10": 134
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-jet-black-spirit/celebi-vmax-84",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 8",
+    "PSA 9",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-galactic%27s-conquest/dialga-g-lvx-66",
+   "label": "Japanese Galactic%27S Conquest Dialga G LV.X #66   Pokemon Japanese Galactic's Conquest 66/96",
+   "lang": "JP",
+   "num": "66/96",
+   "words": [
+    "dialga"
+   ],
+   "keys": [
+    "conquest",
+    "galactics"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 42,
+    "PSA 7": 45,
+    "PSA 8": 225,
+    "PSA 9": 502,
+    "PSA 10": 3072
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-galactic%27s-conquest/dialga-g-lvx-66",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-e-starter-deck/charizard-1st-edition-12",
+   "label": "Japanese E Starter Deck Charizard [1st Edition] #12   Pokemon Japanese E-Starter Deck 12/52",
+   "lang": "JP",
+   "num": "12/52",
+   "words": [
+    "charizard",
+    "ex"
+   ],
+   "keys": [
+    "deck",
+    "starter"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 390,
+    "PSA 7": 268,
+    "PSA 8": 541,
+    "PSA 9": 1172,
+    "PSA 10": 4161
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-e-starter-deck/charizard-1st-edition-12",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-soulsilver-collection/crobat-37",
+   "label": "Japanese Soulsilver Collection Crobat #37   Pokemon Japanese SoulSilver Collection 37/70",
+   "lang": "JP",
+   "num": "37/70",
+   "words": [
+    "crobat"
+   ],
+   "keys": [
+    "collection",
+    "soulsilver"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 66,
+    "PSA 7": 87,
+    "PSA 8": 112,
+    "PSA 9": 200,
+    "PSA 10": 1439
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-soulsilver-collection/crobat-37",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-jungle/mr-mime-122",
+   "label": "Japanese Jungle Mr. Mime #122   Pokemon Japanese Jungle No.122",
+   "lang": "JP",
+   "num": "No.122",
+   "words": [
+    "mr",
+    "mime"
+   ],
+   "keys": [
+    "jungle"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 22,
+    "PSA 7": 44,
+    "PSA 8": 75,
+    "PSA 9": 150,
+    "PSA 10": 902
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-jungle/mr-mime-122",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-reviving-legends/scizor-1st-edition-48",
+   "label": "Japanese Reviving Legends Scizor [1st Edition] #48   Pokemon Japanese Reviving Legends 48/80",
+   "lang": "JP",
+   "num": "48/80",
+   "words": [
+    "scizor"
+   ],
+   "keys": [
+    "legends",
+    "reviving"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 112,
+    "PSA 7": 110,
+    "PSA 8": 151,
+    "PSA 9": 405,
+    "PSA 10": 1379
+   },
+   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-reviving-legends/scizor-1st-edition-48",
+   "checked": "2026-11-21",
+   "thin": [
+    "PSA 7"
+   ],
+   "auto": 1
   }
  ],
  "rate": {

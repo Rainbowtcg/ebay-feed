@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T02:12+00:00",
+ "generated": "2026-11-21T20:01+00:00",
  "usd_aud": 1.4987,
  "rate_source": "open.er-api.com",
  "source": "PriceCharting sold-price averages (Ungraded, Grade 7, 8, 9, 9.5, PSA 10)",
@@ -52,20 +52,20 @@
     "matched": "Venusaur #30   Pokemon Expedition",
     "url": "https://www.pricecharting.com/game/pokemon-expedition/venusaur-30",
     "usd": {
-     "raw": 115.54,
-     "g7": 259.83,
+     "raw": 115.17,
+     "g7": 259.18,
      "g8": 450.0,
-     "g9": 895.75,
-     "g95": 985.0,
-     "g10": 8864.13
+     "g9": 847.88,
+     "g95": 933.0,
+     "g10": 8824.27
     },
     "aud": {
      "raw": 173,
-     "g7": 389,
+     "g7": 388,
      "g8": 674,
-     "g9": 1342,
-     "g95": 1476,
-     "g10": 13285
+     "g9": 1271,
+     "g95": 1398,
+     "g10": 13225
     }
    },
    {
@@ -73,19 +73,19 @@
     "matched": "Lugia #149   Pokemon Aquapolis",
     "url": "https://www.pricecharting.com/game/pokemon-aquapolis/lugia-149",
     "usd": {
-     "raw": 2500.0,
-     "g7": 10900.0,
-     "g8": 14286.89,
-     "g9": 27813.26,
-     "g95": 30595.0,
+     "raw": 2218.39,
+     "g7": 10051.12,
+     "g8": 15000.0,
+     "g9": 28999.59,
+     "g95": 31900.0,
      "g10": 140255.5
     },
     "aud": {
-     "raw": 3747,
-     "g7": 16336,
-     "g8": 21412,
-     "g9": 41684,
-     "g95": 45853,
+     "raw": 3325,
+     "g7": 15064,
+     "g8": 22480,
+     "g9": 43462,
+     "g95": 47809,
      "g10": 210201
     }
    },
@@ -160,19 +160,19 @@
     "url": "https://www.pricecharting.com/game/pokemon-deoxys/rayquaza-gold-star-107",
     "usd": {
      "raw": 13350.0,
-     "g7": 38888.99,
-     "g8": 50900.0,
-     "g9": 84137.5,
-     "g95": 92551.0,
-     "g10": 100965.0
+     "g7": 38900.0,
+     "g8": 42575.0,
+     "g9": 92771.23,
+     "g95": 102048.0,
+     "g10": 365750.0
     },
     "aud": {
      "raw": 20008,
-     "g7": 58283,
-     "g8": 76284,
-     "g9": 126097,
-     "g95": 138706,
-     "g10": 151316
+     "g7": 58299,
+     "g8": 63807,
+     "g9": 139036,
+     "g95": 152939,
+     "g10": 548150
     }
    },
    {
@@ -308,19 +308,19 @@
     "matched": "Dragonite EX #91   Pokemon Dragon Frontiers",
     "url": "https://www.pricecharting.com/game/pokemon-dragon-frontiers/dragonite-ex-91",
     "usd": {
-     "raw": 187.55,
-     "g7": 805.49,
-     "g8": 989.95,
-     "g9": 4516.57,
-     "g95": 4968.0,
+     "raw": 180.06,
+     "g7": 550.0,
+     "g8": 982.5,
+     "g9": 3872.86,
+     "g95": 4260.0,
      "g10": 23500.0
     },
     "aud": {
-     "raw": 281,
-     "g7": 1207,
-     "g8": 1484,
-     "g9": 6769,
-     "g95": 7446,
+     "raw": 270,
+     "g7": 824,
+     "g8": 1472,
+     "g9": 5804,
+     "g95": 6384,
      "g10": 35219
     }
    },
@@ -329,20 +329,20 @@
     "matched": "Tyranitar EX #99   Pokemon Dragon Frontiers",
     "url": "https://www.pricecharting.com/game/pokemon-dragon-frontiers/tyranitar-ex-99?q=tyranitar+ex+dragon+frontiers",
     "usd": {
-     "raw": 185.95,
+     "raw": 183.22,
      "g7": 337.5,
      "g8": 609.53,
-     "g9": 2157.22,
-     "g95": 2373.0,
-     "g10": 5918.1
+     "g9": 1886.75,
+     "g95": 2075.0,
+     "g10": 5355.02
     },
     "aud": {
-     "raw": 279,
+     "raw": 275,
      "g7": 506,
      "g8": 914,
-     "g9": 3233,
-     "g95": 3556,
-     "g10": 8869
+     "g9": 2828,
+     "g95": 3110,
+     "g10": 8026
     }
    },
    {
@@ -478,20 +478,20 @@
     "matched": "Darkrai LV. X #104   Pokemon Great Encounters",
     "url": "https://www.pricecharting.com/game/pokemon-great-encounters/darkrai-lv-x-104",
     "usd": {
-     "raw": 92.57,
-     "g7": 303.21,
+     "raw": 77.31,
+     "g7": 304.38,
      "g8": 542.6,
-     "g9": 1806.45,
-     "g95": 1987.0,
-     "g10": 18235.71
+     "g9": 1710.75,
+     "g95": 1882.0,
+     "g10": 18190.19
     },
     "aud": {
-     "raw": 139,
-     "g7": 454,
+     "raw": 116,
+     "g7": 456,
      "g8": 813,
-     "g9": 2707,
-     "g95": 2978,
-     "g10": 27330
+     "g9": 2564,
+     "g95": 2821,
+     "g10": 27262
     }
    },
    {
@@ -522,20 +522,20 @@
     "matched": "Raichu #83   Pokemon Undaunted",
     "url": "https://www.pricecharting.com/game/pokemon-undaunted/raichu-83",
     "usd": {
-     "raw": 131.17,
+     "raw": 144.08,
      "g7": 369.0,
-     "g8": 621.34,
-     "g9": 1162.37,
-     "g95": 1279.0,
-     "g10": 15043.31
+     "g8": 637.93,
+     "g9": 1141.58,
+     "g95": 1256.0,
+     "g10": 15021.66
     },
     "aud": {
-     "raw": 197,
+     "raw": 216,
      "g7": 553,
-     "g8": 931,
-     "g9": 1742,
-     "g95": 1917,
-     "g10": 22545
+     "g8": 956,
+     "g9": 1711,
+     "g95": 1882,
+     "g10": 22513
     }
    },
    {
@@ -543,19 +543,19 @@
     "matched": "Scizor #84   Pokemon Undaunted",
     "url": "https://www.pricecharting.com/game/pokemon-undaunted/scizor-84",
     "usd": {
-     "raw": 97.82,
+     "raw": 101.73,
      "g7": 222.5,
      "g8": 402.5,
-     "g9": 1040.84,
-     "g95": 1145.0,
+     "g9": 1033.42,
+     "g95": 1137.0,
      "g10": 5287.51
     },
     "aud": {
-     "raw": 147,
+     "raw": 152,
      "g7": 333,
      "g8": 603,
-     "g9": 1560,
-     "g95": 1716,
+     "g9": 1549,
+     "g95": 1704,
      "g10": 7924
     }
    },
@@ -585,19 +585,19 @@
     "matched": "Celebi #92   Pokemon Triumphant",
     "url": "https://www.pricecharting.com/game/pokemon-triumphant/celebi-92",
     "usd": {
-     "raw": 116.25,
-     "g7": 278.16,
+     "raw": 112.5,
+     "g7": 379.49,
      "g8": 764.37,
-     "g9": 2275.0,
-     "g95": 2503.0,
+     "g9": 1874.24,
+     "g95": 2062.0,
      "g10": 12870.76
     },
     "aud": {
-     "raw": 174,
-     "g7": 417,
+     "raw": 169,
+     "g7": 569,
      "g8": 1146,
-     "g9": 3410,
-     "g95": 3751,
+     "g9": 2809,
+     "g95": 3090,
      "g10": 19289
     }
    },
@@ -650,19 +650,19 @@
     "matched": "Sylveon EX #RC21   Pokemon Generations",
     "url": "https://www.pricecharting.com/game/pokemon-generations/sylveon-ex-rc21?q=sylveon+ex+rc21+generations",
     "usd": {
-     "raw": 67.33,
+     "raw": 55.41,
      "g7": 79.5,
      "g8": 120.0,
-     "g9": 272.33,
-     "g95": 300.0,
+     "g9": 230.0,
+     "g95": 253.0,
      "g10": 5049.86
     },
     "aud": {
-     "raw": 101,
+     "raw": 83,
      "g7": 119,
      "g8": 180,
-     "g9": 408,
-     "g95": 450,
+     "g9": 345,
+     "g95": 379,
      "g10": 7568
     }
    },
@@ -757,20 +757,20 @@
     "matched": "Ditto #154   Pokemon Lost Thunder",
     "url": "https://www.pricecharting.com/game/pokemon-lost-thunder/ditto-154",
     "usd": {
-     "raw": 29.97,
+     "raw": 32.38,
      "g7": 28.0,
      "g8": 34.75,
-     "g9": 315.7,
-     "g95": 347.0,
-     "g10": 4400.26
+     "g9": 317.62,
+     "g95": 349.0,
+     "g10": 4373.23
     },
     "aud": {
-     "raw": 45,
+     "raw": 49,
      "g7": 42,
      "g8": 52,
-     "g9": 473,
-     "g95": 520,
-     "g10": 6595
+     "g9": 476,
+     "g95": 523,
+     "g10": 6554
     }
    },
    {
@@ -864,20 +864,20 @@
     "matched": "Gengar #5   Pokemon Fossil",
     "url": "https://www.pricecharting.com/game/pokemon-fossil/gengar-5",
     "usd": {
-     "raw": 110.0,
-     "g7": 212.84,
-     "g8": 353.09,
+     "raw": 107.99,
+     "g7": 221.0,
+     "g8": 343.14,
      "g9": 425.0,
      "g95": 562.5,
-     "g10": 3198.63
+     "g10": 3192.51
     },
     "aud": {
-     "raw": 165,
-     "g7": 319,
-     "g8": 529,
+     "raw": 162,
+     "g7": 331,
+     "g8": 514,
      "g9": 637,
      "g95": 843,
-     "g10": 4794
+     "g10": 4785
     }
    },
    {
@@ -1059,12 +1059,12 @@
     "matched": "Pidgeot #10   Pokemon Fire Red & Leaf Green",
     "url": "https://www.pricecharting.com/game/pokemon-fire-red-&-leaf-green/pidgeot-10",
     "usd": {
-     "raw": 15.15,
+     "raw": 15.03,
      "g7": 45.0,
      "g8": 80.44,
      "g9": 164.88,
      "g95": 181.0,
-     "g10": 5055.76
+     "g10": 5024.3
     },
     "aud": {
      "raw": 23,
@@ -1072,7 +1072,7 @@
      "g8": 121,
      "g9": 247,
      "g95": 271,
-     "g10": 7577
+     "g10": 7530
     }
    },
    {
@@ -1080,19 +1080,19 @@
     "matched": "Latias EX #112   Pokemon Plasma Freeze",
     "url": "https://www.pricecharting.com/game/pokemon-plasma-freeze/latias-ex-112?q=latias+ex+plasma+freeze+112",
     "usd": {
-     "raw": 222.08,
-     "g7": 281.51,
-     "g8": 402.39,
-     "g9": 1421.62,
-     "g95": 1564.0,
+     "raw": 205.0,
+     "g7": 341.1,
+     "g8": 404.23,
+     "g9": 1644.13,
+     "g95": 1809.0,
      "g10": 4250.0
     },
     "aud": {
-     "raw": 333,
-     "g7": 422,
-     "g8": 603,
-     "g9": 2131,
-     "g95": 2344,
+     "raw": 307,
+     "g7": 511,
+     "g8": 606,
+     "g9": 2464,
+     "g95": 2711,
      "g10": 6369
     }
    },
@@ -1413,20 +1413,20 @@
     "matched": "Smeargle #11   Pokemon Neo Discovery",
     "url": "https://www.pricecharting.com/game/pokemon-neo-discovery/smeargle-11",
     "usd": {
-     "raw": 37.63,
+     "raw": 37.67,
      "g7": 70.0,
      "g8": 113.83,
-     "g9": 551.11,
-     "g95": 606.0,
-     "g10": 1982.16
+     "g9": 581.41,
+     "g95": 640.0,
+     "g10": 1967.63
     },
     "aud": {
      "raw": 56,
      "g7": 105,
      "g8": 171,
-     "g9": 826,
-     "g95": 908,
-     "g10": 2971
+     "g9": 871,
+     "g95": 959,
+     "g10": 2949
     }
    },
    {
@@ -1435,19 +1435,19 @@
     "url": "https://www.pricecharting.com/game/pokemon-neo-discovery/wobbuffet-16",
     "usd": {
      "raw": 29.99,
-     "g7": 38.56,
+     "g7": 38.32,
      "g8": 113.48,
-     "g9": 274.26,
+     "g9": 274.92,
      "g95": 302.0,
-     "g10": 1558.72
+     "g10": 1558.14
     },
     "aud": {
      "raw": 45,
-     "g7": 58,
+     "g7": 57,
      "g8": 170,
-     "g9": 411,
+     "g9": 412,
      "g95": 453,
-     "g10": 2336
+     "g10": 2335
     }
    },
    {
@@ -1455,17 +1455,17 @@
     "matched": "Scizor #10   Pokemon Neo Discovery",
     "url": "https://www.pricecharting.com/game/pokemon-neo-discovery/scizor-10",
     "usd": {
-     "raw": 48.67,
+     "raw": 47.27,
      "g7": 97.5,
-     "g8": 119.64,
-     "g9": 318.95,
+     "g8": 122.24,
+     "g9": 318.67,
      "g95": 351.0,
      "g10": 762.0
     },
     "aud": {
-     "raw": 73,
+     "raw": 71,
      "g7": 146,
-     "g8": 179,
+     "g8": 183,
      "g9": 478,
      "g95": 526,
      "g10": 1142
@@ -1497,20 +1497,20 @@
     "matched": "Chansey #3   Pokemon Base Set",
     "url": "https://www.pricecharting.com/game/pokemon-base-set/chansey-3",
     "usd": {
-     "raw": 15.68,
+     "raw": 16.2,
      "g7": 47.9,
      "g8": 88.01,
      "g9": 264.54,
      "g95": 291.0,
-     "g10": 7691.1
+     "g10": 7775.7
     },
     "aud": {
-     "raw": 23,
+     "raw": 24,
      "g7": 72,
      "g8": 132,
      "g9": 396,
      "g95": 436,
-     "g10": 11527
+     "g10": 11653
     }
    }
   ],
@@ -1694,20 +1694,20 @@
     "matched": "Mew #SM215   Pokemon Promo",
     "url": "https://www.pricecharting.com/game/pokemon-promo/mew-sm215?q=mew+sm215",
     "usd": {
-     "raw": 31.27,
+     "raw": 29.02,
      "g7": 37.99,
-     "g8": 62.04,
+     "g8": 62.23,
      "g9": 316.82,
      "g95": 349.0,
-     "g10": 2063.05
+     "g10": 2073.56
     },
     "aud": {
-     "raw": 47,
+     "raw": 43,
      "g7": 57,
      "g8": 93,
      "g9": 475,
      "g95": 523,
-     "g10": 3092
+     "g10": 3108
     }
    },
    {
@@ -1782,15 +1782,15 @@
     "matched": "Mew #44   Pokemon Japanese Best of XY",
     "url": "https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/mew-44",
     "usd": {
-     "raw": 21.7,
+     "raw": 20.85,
      "g7": 19.99,
      "g8": 39.0,
      "g9": 60.0,
      "g95": 60.0,
-     "g10": 303.76
+     "g10": 303.88
     },
     "aud": {
-     "raw": 33,
+     "raw": 31,
      "g7": 30,
      "g8": 58,
      "g9": 90,
@@ -1803,16 +1803,16 @@
     "matched": "Mew #10   Pokemon Legend Maker",
     "url": "https://www.pricecharting.com/game/pokemon-legend-maker/mew-10",
     "usd": {
-     "raw": 197.81,
-     "g7": 325.0,
+     "raw": 200.0,
+     "g7": 311.5,
      "g8": 859.59,
      "g9": 1703.8,
      "g95": 1874.0,
      "g10": 4061.0
     },
     "aud": {
-     "raw": 296,
-     "g7": 487,
+     "raw": 300,
+     "g7": 467,
      "g8": 1288,
      "g9": 2553,
      "g95": 2809,
@@ -2024,19 +2024,19 @@
     "url": "https://www.pricecharting.com/game/pokemon-deoxys/rayquaza-gold-star-107",
     "usd": {
      "raw": 13350.0,
-     "g7": 38888.99,
-     "g8": 50900.0,
-     "g9": 84137.5,
-     "g95": 92551.0,
-     "g10": 100965.0
+     "g7": 38900.0,
+     "g8": 42575.0,
+     "g9": 92771.23,
+     "g95": 102048.0,
+     "g10": 365750.0
     },
     "aud": {
      "raw": 20008,
-     "g7": 58283,
-     "g8": 76284,
-     "g9": 126097,
-     "g95": 138706,
-     "g10": 151316
+     "g7": 58299,
+     "g8": 63807,
+     "g9": 139036,
+     "g95": 152939,
+     "g10": 548150
     }
    },
    {
