@@ -17,7 +17,7 @@ SET_SKIP = NOISE | set("psa cgc bgs tag ace ccic cic ags gem mint pristine japan
 
 # main price table / sold-listing blocks on a PriceCharting card page -> our grade keys
 MAIN = {"used": "raw", "cib": "g7", "new": "g8", "graded": "g9", "box-only": "g95", "manual-only": "g10"}
-FULL_LABELS = {"ungraded": "raw", "grade 7": "g7", "grade 8": "g8", "grade 9": "g9", "grade 9.5": "g95", "psa 10": "g10"}
+FULL_LABELS = {"ungraded": "raw", "grade 4": "g4", "grade 5": "g5", "grade 6": "g6", "grade 7": "g7", "grade 8": "g8", "grade 9": "g9", "grade 9.5": "g95", "psa 10": "g10"}
 RECENT_DAYS, MIN_SALES = 90, 3
 JUNK = re.compile(r"\b(lot|bundle|proxy|custom|reprint|replica|orica|fake|damaged|creased|digital|code card|empty)\b", re.I)
 

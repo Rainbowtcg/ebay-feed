@@ -30,8 +30,8 @@ from enrich import Values, MODERN, NEWER, SV_MEP, SKIP_CC, FIRST, REV, PRE, ODD,
 GROW_MAX = int(os.environ.get("GROW_MAX", "200"))
 RETRY_DAYS = 14
 MIN_PRICE = 30                       # A$: cheaper cards aren't worth a lookup
-GRADES = [("Raw", "raw"), ("PSA 7", "g7"), ("PSA 8", "g8"), ("PSA 9", "g9"), ("PSA 10", "g10")]
-USEFUL = {g for g, _ in GRADES}
+GRADES = [("Raw", "raw"), ("PSA 4", "g4"), ("PSA 5", "g5"), ("PSA 6", "g6"), ("PSA 7", "g7"), ("PSA 8", "g8"), ("PSA 9", "g9"), ("PSA 10", "g10")]
+USEFUL = {"Raw", "PSA 7", "PSA 8", "PSA 9", "PSA 10"}   # listings worth a lookup (low grades are read, not hunted)
 # words card_of() sometimes takes for the card's name that are really set codes, rarities or packaging
 NOT_NAME = set("xy sm bw dp neo sealed promo mc rr rrr hr sr ur ar chr csr sar sir pokemon japanese holo rare lv".split())
 

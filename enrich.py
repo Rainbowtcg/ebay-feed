@@ -129,6 +129,24 @@ REV = dict(VARIANTS)["rev"]
 FIRST = dict(VARIANTS)["1st"]
 
 
+PLAYED_EX = re.compile(r"\bexcellent\b|\bexc\b|\bEX\s?[-/+]\s?(NM|near mint)|\bEX\+|\bEXMT\b|\bEX-MT\b", re.I)
+PLAYED_LP = re.compile(r"lightly played|\bLP\b|\[LP\]|light play|light wear|\bLP\+", re.I)
+PLAYED_BAD = re.compile(r"moderately|heavily|\bMP\b|\[MP\]|\bHP\b(?!\s?\d)|\[HP\]|damaged?|\bdmg\b|creas|\bdent|\bbent\b|\bbend|\btear\b|"
+                        r"\btorn\b|water|stain|\bpoor\b|\bas[- ]is\b|heavy wear|\bink\b|marked|writing|peel|ripped|\bcut\b|miscut|scratch", re.I)
+
+
+def played_grade(title, flag):
+    """(grade to judge at, one grade lower, label) for an Excellent or Lightly Played raw listing, else None."""
+    t = re.sub(r"\bHP\s?\d+|\d+\s?HP\b", "", title)
+    if PLAYED_BAD.search(t) or (flag.startswith("damage:") and not re.search(r"\b(lp|lightly|played)$", flag)):
+        return None
+    if PLAYED_EX.search(t):
+        return ("PSA 6", "PSA 5", "Excellent")
+    if PLAYED_LP.search(t) or re.search(r"\b(lp|lightly)$", flag):
+        return ("PSA 5", "PSA 4", "Lightly Played")
+    return None
+
+
 def gst_of(pl, p):
     return " incl. GST" if pl > p else ""
 
@@ -462,6 +480,32 @@ def main():
                     cs = [SLAB_CAT] + [c for c in cs if c != SLAB_CAT]
                 else:
                     slab = None
+        # slab play for any valued card: an Excellent or Lightly Played raw copy, judged at the grade that condition
+        # usually gets (Excellent PSA 6, Lightly Played PSA 5); it has to pay at that grade and lose little one grade lower.
+        # Moderately / heavily played and damaged copies stay out (only the slab-play want-list cards above take those).
+        if (not slab and not auc and x.get("country") not in SKIP_CC | {"CN"} and not x.get("var") and not x.get("lot")
+                and not SLAB.search(t) and not OTHER_SLAB.search(t) and not flag.startswith(("reprint", "grader"))):
+            cond = played_grade(t, flag)
+            if cond:
+                pv = V.find(t, True)
+                if pv and pv[1] == "Raw" and pv[0].get("src", "").startswith("PriceCharting"):
+                    gv = pv[0]["g"]
+                    want_g, low_g, label = cond
+                    pw, plow = gv.get(want_g), gv.get(low_g)
+                    if pw:
+                        net = pw * SELL_KEEP - GRADE_COST - pl
+                        net_low = plow * SELL_KEEP - GRADE_COST - pl if plow else None
+                        if net >= max(GRADE_MIN_NET, GRADE_MIN_SHARE * pl) and (net_low is None or net_low >= -GRADE_MAX_LOSS * pl):
+                            slab = {"slab": {}}
+                            thin = [g for g in (low_g, want_g) if g in (pv[0].get("thin") or [])]
+                            slab_why = (f"slab play ({label}, judged at {want_g}): A${pl:,.0f} landed{gst_of(pl, p)} → {want_g} ~A${pw:,} = "
+                                        f"+A${net:,.0f} after A${GRADE_COST} grading and fees"
+                                        + (f"; {low_g} ~A${plow:,} = {'+' if net_low >= 0 else '−'}A${abs(net_low):,.0f}" if net_low is not None else "")
+                                        + (f"; PSA 7 ~A${gv['PSA 7']:,}" if gv.get("PSA 7") else "")
+                                        + (" (low-grade prices are PriceCharting averages with few sales)" if thin else "")
+                                        + f" — {pv[0]['label']}. Check the photos: the condition is the seller's word")
+                            at7, floor = net, (net_low if net_low is not None else net)
+                            cs = [SLAB_CAT] + [c for c in cs if c != SLAB_CAT]
         # grade play: Near Mint raw copy that pays after grading at the grade it's likely to get (PSA 8 for WotC/e-Card-era
         # and old Japanese cards, PSA 9 for later ones), without a big loss one grade lower
         gp, gp_why, gp_net = False, "", 0

@@ -21,7 +21,9 @@ from pc_more import find_card, read_page, value  # noqa: E402
 MAX_REFRESH = int(os.environ.get("VALUES_MAX", "120"))
 STALE_DAYS = 6
 AUTO_SRC = re.compile(r"^(Finder benchmark|PriceCharting)", re.I)
-GRADES = [("Raw", "raw"), ("PSA 7", "g7"), ("PSA 8", "g8"), ("PSA 9", "g9"), ("PSA 10", "g10")]
+# PSA 4-6 are read too (from PriceCharting's full price guide; they have no sales list there, so they're marked thin):
+# they let enrich.py judge Excellent / Lightly Played raw copies as slab plays
+GRADES = [("Raw", "raw"), ("PSA 4", "g4"), ("PSA 5", "g5"), ("PSA 6", "g6"), ("PSA 7", "g7"), ("PSA 8", "g8"), ("PSA 9", "g9"), ("PSA 10", "g10")]
 
 
 def card_of(e):
@@ -58,8 +60,9 @@ def main():
     except Exception:
         sus = set()
     todo = [e for e in data["cards"] if e.get("lang") in ("EN", "JP") and AUTO_SRC.search(e.get("src", ""))
-            and (e.get("checked", "") < stale or (e.get("id") in sus and e.get("checked", "") < today))]
-    todo.sort(key=lambda e: (e.get("id") not in sus, e.get("checked", "")))  # suspect first, then oldest first
+            and (e.get("checked", "") < stale or (e.get("id") in sus and e.get("checked", "") < today)
+                 or ("PSA 6" not in e.get("g", {}) and e.get("checked", "") < today))]   # backfill PSA 4-6 once
+    todo.sort(key=lambda e: (e.get("id") not in sus, "PSA 6" in e.get("g", {}), e.get("checked", "")))  # suspect first, then backfill, then oldest
     hand = [e["label"] for e in data["cards"] if e.get("id") in sus and not AUTO_SRC.search(e.get("src", ""))]
     done, errors, checks = 0, [], []
     for e in todo[:MAX_REFRESH]:
