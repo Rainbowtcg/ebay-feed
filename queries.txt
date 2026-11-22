@@ -349,6 +349,7 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon rainbow energy (rocket,17/82) (psa,cgc,bgs)
 +pokemon japanese (rainbow energy,レインボーエネルギー) rocket
 +pokemon team rocket's zapdos (070/182,"eb games") (psa,cgc,bgs)
++pokemon japanese pichu (031/070,31/070,"soulsilver collection")
 
 # ---------- Mew ----------
 +pokemon japanese mew (dpbp,"shining darkness",182)
