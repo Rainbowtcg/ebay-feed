@@ -20,7 +20,7 @@ pokemon-sandstorm
 pokemon-dragon
 pokemon-team-magma-&-team-aqua
 pokemon-hidden-legends
-pokemon-firered-&-leafgreen
+pokemon-fire-red-&-leaf-green
 pokemon-team-rocket-returns
 pokemon-deoxys
 pokemon-emerald

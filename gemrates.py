@@ -54,38 +54,60 @@ def grade_of_head(h):
     return m.group(1) if m else None
 
 
+LINK = re.compile(r'href="(?:https?://www\.pricecharting\.com)?/?(?:pop/item|pop/game|game)/([^"/?#]+)/([^"/?#]+)"')
+NUM = re.compile(r"^\d{1,3}(?:,\d{3})*$|^\d+$")
+
+
 def parse_pop(page):
     """{card path: {"name", "n": {"10": .., "9": ..}, "total": ..}} from a PriceCharting set population page.
-    Reads every table row that links to a card page; columns are matched to the nearest header row."""
+    Card links look like /pop/item/<set>/<card>; the price page is /game/<set>/<card>.
+    First tries table rows; if the page isn't a plain table, reads each card's block of numbers in the order
+    of the page's "Card Grade 6 ... Grade 10 Total" header."""
     out, heads = {}, []
     for row in re.findall(r"<tr[^>]*>(.*?)</tr>", page, re.S):
         cells = re.findall(r"<t([dh])[^>]*>(.*?)</t[dh]>", row, re.S)
         labels = [text(c) for _, c in cells]
-        if cells and all(k == "h" for k, _ in cells) or (sum(1 for l in labels if re.search(r"grade|total|psa", l, re.I)) >= 3):
+        if (cells and all(k == "h" for k, _ in cells)) or sum(1 for l in labels if re.search(r"grade|total|psa", l, re.I)) >= 3:
             heads = [grade_of_head(l) for l in labels]
             continue
-        link = re.search(r'href="(?:https://www\.pricecharting\.com)?/(?:pop/)?game/([^"/?#]+)/([^"/?#]+)', row)
+        link = LINK.search(row)
         if not link or not heads:
             continue
-        path = f"/game/{link.group(1)}/{link.group(2)}"
         n, total = {}, None
         for h, l in zip(heads, labels):
-            if not h:
+            l = l.replace(" ", "")
+            if not h or not NUM.match(l):
                 continue
-            m = re.fullmatch(r"[\d,]+", l.replace(" ", ""))
-            if not m:
-                continue
-            v = int(l.replace(",", "").replace(" ", ""))
+            v = int(l.replace(",", ""))
             if h == "total":
                 total = v
             else:
                 n[h] = v
         if not n:
             continue
-        if total is None:
-            total = sum(n.values())
-        name = re.sub(r"\s*#\s*\w+$", "", labels[0]) if labels else link.group(2)
-        out[path] = {"name": name or link.group(2), "n": n, "total": total}
+        name = re.sub(r"\s*#\s*\w+$", "", labels[0]) if labels and labels[0] else link.group(2)
+        out[f"/game/{link.group(1)}/{link.group(2)}"] = {"name": name, "n": n, "total": total or sum(n.values())}
+    if out:
+        return out
+    # fallback: not a table. Column order from the header text, then the numbers after each card's name link.
+    flat = text(page)
+    m = re.search(r"\bCard\s+((?:Grade\s+\d+(?:\.5)?\s+)+)Total\b", flat, re.I)
+    order = (re.findall(r"Grade\s+(\d+(?:\.5)?)", m.group(1), re.I) + ["total"]) if m else ["6", "7", "8", "9", "10", "total"]
+    hits = [(x.start(), x.group(1), x.group(2)) for x in LINK.finditer(page)]
+    for i, (pos, st, slug) in enumerate(hits):
+        path = f"/game/{st}/{slug}"
+        if path in out:
+            continue
+        nxt = next((p for p, s2, g2 in hits[i + 1:] if (s2, g2) != (st, slug)), len(page))
+        a = re.search(r">(.*?)</a>", page[pos:nxt], re.S)
+        name = text(a.group(1)) if a else ""
+        after = text(page[pos + (a.end() if a else 0):nxt])
+        nums = [t for t in after.split() if NUM.match(t)][:len(order)]
+        if not name or len(nums) < len(order):
+            continue
+        vals = dict(zip(order, (int(t.replace(",", "")) for t in nums)))
+        total = vals.pop("total", None)
+        out[path] = {"name": re.sub(r"\s*#\s*\w+$", "", name), "n": vals, "total": total or sum(vals.values())}
     return out
 
 
@@ -139,17 +161,18 @@ def main():
 
     # 1. population pages (oldest first)
     pop_cut = (today - timedelta(days=POP_DAYS)).isoformat()
-    todo = sorted((s for s in sets if data["pop"].get(s, {}).get("day", "") < pop_cut),
+    todo = sorted((s for s in sets if data["pop"].get(s, {}).get("day", "") < pop_cut or not data["pop"].get(s, {}).get("rows")),
                   key=lambda s: data["pop"].get(s, {}).get("day", ""))
     for s in todo[:POP_MAX]:
         try:
             _, page = get(f"{BASE}/pop/set/{s}")
             rows = parse_pop(page)
-            data["pop"][s] = {"day": T, "rows": rows}
-            if not rows:
+            if rows:
+                data["pop"][s] = {"day": T, "rows": rows}
+            else:
                 log.append(f"- {s}: population page read but no card rows understood (page layout may have changed)")
         except Exception as e:
-            data["pop"][s] = {"day": T, "rows": data["pop"].get(s, {}).get("rows", {}), "error": str(e)[:120]}
+            data["pop"][s] = {"day": data["pop"].get(s, {}).get("day", ""), "rows": data["pop"].get(s, {}).get("rows", {}), "error": str(e)[:120]}
             log.append(f"- {s}: population page failed ({str(e)[:80]})")
         time.sleep(PAUSE)
 
