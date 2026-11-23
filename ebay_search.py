@@ -154,6 +154,9 @@ def sealed_keep(title):
 # lots with no sign of the hunted eras stay out.
 LOT_BAD = re.compile(r"\bempty\b|binder only|folder only|album only|no cards|pages only|portfolio only|cards? not included|"
                      r"sleeves?\b|toploaders?|playmat|deck box|storage box|code cards?|online codes?|energy (cards )?only|"
+                     r"\b\d+\s?x\s?(basic\s)?(fire|water|grass|lightning|fighting|psychic|darkness|dark|metal|colou?rless|double colou?rless)?\s?energy\b|"
+                     r"\benergy (card )?(lot|bundle|cards)\b|\b(basic|fire|water|grass|lightning|fighting|psychic|darkness|metal) energy lot\b|"
+                     r"\b(bulk )?commons?( (and|&) uncommons?)? (only|bulk|lot)\b|\bbulk commons?\b|\btrainers? only\b|"
                      r"booster box|elite trainer|\betb\b|sealed (booster|pack|box)|digital|proxy|custom|replica|orica|fake|"
                      r"yu-?gi-?oh|magic the gathering|\bmtg\b|one piece|lorcana|dragon ball|digimon|sports|nba|nfl|afl|nrl|"
                      r"tazos?|pogs?|\b(3ds|ds|switch|gameboy|game boy|n64|wii)\b|figures?|plush|stickers?|\bdvds?\b|\bvhs\b|"

@@ -4298,7 +4298,7 @@ const NR_SOON=[
     let v=[b.num]; if(b.isjp) v=[String(+b.num),"no."+b.num]; else { const m=String(b.num).match(/^(\d+)\/(\d+)$/); if(m) v=[...new Set([b.num,(+m[1])+"/"+(+m[2]),m[1].padStart(3,"0")+"/"+m[2].padStart(3,"0")])]; }
     return b.words.join(" ")+" "+(v.length>1?"("+v.join(",")+")":v[0]); }
   function fourLinks(b){ const q=cardQ(b); if(!q) return ""; const u="https://www.ebay.com.au/sch/i.html?_nkw="+encodeURIComponent(q);
-    return `<a href="${u}&LH_PrefLoc=1" target="_blank" rel="noopener">AU</a><a href="${u}&LH_LocatedIn=1&_salic=104" target="_blank" rel="noopener">JP</a><a href="${u}&LH_LocatedIn=1&_salic=45" target="_blank" rel="noopener">CN</a><a href="${u}&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2" target="_blank" rel="noopener">Sold</a>`; }
+    return `<a href="${withCond(u+"&LH_PrefLoc=1")}" target="_blank" rel="noopener">AU</a><a href="${withCond(u+"&LH_LocatedIn=1&_salic=104")}" target="_blank" rel="noopener">JP</a><a href="${withCond(u+"&LH_LocatedIn=1&_salic=45")}" target="_blank" rel="noopener">CN</a><a href="${u}&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2" target="_blank" rel="noopener">Sold</a>`; }
   // How long the feed has seen a listing (days since it first turned up in the daily eBay/shop scan). The feed's history
   // starts 24 Oct 2026, so anything seen since then shows as "N+ days".
   const HIST0=Date.parse("2026-10-24T00:00:00Z");

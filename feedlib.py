@@ -108,7 +108,8 @@ class QueryMatcher:
         for line in lines:
             groups = []
             for neg, alts in _tokens(line):
-                alts = [a for a in alts if norm(a) not in IGNORE]
+                if not neg:                          # "-pokemon" must still exclude; only positive filler words are dropped
+                    alts = [a for a in alts if norm(a) not in IGNORE]
                 if alts:
                     groups.append((neg, [_alt_rx(a) for a in alts]))
             if any(not n for n, _ in groups):
@@ -181,10 +182,18 @@ LANGS = [("XX", re.compile(r"\b(spanish|espa[nñ]ol|german|deutsch|french|fran[c
          ("JP", JPRX)]
 
 
+# Japanese titles that never say "Japanese": old back cards, kana in the title, Pocket Monsters, and Pokédex-style
+# "No.230" numbering with no English set number (x/102)
+JP_HINT = re.compile(r"old[\s-]?back|[\u3040-\u30ff]|pocket monsters?|\bcarddass\b|\bvending\b|\bbandai\b", re.I)
+JP_NO = re.compile(r"\bNo\.\s?\d{1,3}\b")
+
+
 def lang_of(title):
     for code, rx in LANGS:
         if rx.search(title):
             return code
+    if JP_HINT.search(title) or (JP_NO.search(title) and not NUM.search(title)):
+        return "JP"
     return "EN"
 
 

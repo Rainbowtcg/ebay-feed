@@ -95,6 +95,8 @@ def search_words(c):
     (1st Edition, shadowless, reverse holo, or leave those out when it's the plain card)."""
     n = str(c.get("num") or "")
     jp = c.get("lang") == "JP"
+    if not (c.get("words") or n):
+        return ""                             # nothing to search on: no link rather than a search for just "-reverse"
     if n.lower().startswith("no."):
         v = [str(int(n[3:])) if n[3:].isdigit() else n[3:], "no." + n[3:]]
     elif "/" in n:

@@ -132,7 +132,10 @@ function ebayQuery(name, num, slug, lang) {
 }
 function ebay(q, loc) {
   const base = "https://www.ebay.com.au/sch/i.html?_nkw=" + encodeURIComponent(q).replace(/%20/g, "+");
-  return base + ({ AU: "&LH_PrefLoc=1", JP: "&LH_LocatedIn=1&_salic=104", CN: "&LH_LocatedIn=1&_salic=45",
+  // live searches open filtered to Card Condition: Near Mint or Better or Not Specified (graded cards are Not Specified),
+  // the same filter the Slab Finder uses; Sold stays unfiltered
+  const nm = "&_sacat=0&_dcat=183454&Card%2520Condition=Near%2520Mint%2520or%2520Better%7C%21";
+  return base + ({ AU: "&LH_PrefLoc=1" + nm, JP: "&LH_LocatedIn=1&_salic=104" + nm, CN: "&LH_LocatedIn=1&_salic=45" + nm,
                    Sold: "&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2" }[loc]);
 }
 
