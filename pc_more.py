@@ -20,6 +20,12 @@ MAIN = {"used": "raw", "cib": "g7", "new": "g8", "graded": "g9", "box-only": "g9
 FULL_LABELS = {"ungraded": "raw", "grade 4": "g4", "grade 5": "g5", "grade 6": "g6", "grade 7": "g7", "grade 8": "g8", "grade 9": "g9", "grade 9.5": "g95", "psa 10": "g10"}
 RECENT_DAYS, MIN_SALES = 90, 3
 JUNK = re.compile(r"\b(lot|bundle|proxy|custom|reprint|replica|orica|fake|damaged|creased|digital|code card|empty)\b", re.I)
+# raw sales: PriceCharting's "ungraded" list mixes every condition, so for a NM raw price drop played copies and
+# prefer listings that say NM. Card names like "Gengar EX" are why plain "EX" isn't treated as Excellent.
+PLAYED = re.compile(r"\b(LP|MP|HP|DMG|played|lightly|moderately|heavily|poor|excellent|exc|good condition|"
+                    r"worn|wear|whitening|scratch(?:es|ed)?|crease[sd]?|bent|water|stain(?:ed)?|ink|writing|"
+                    r"\(EX\)|\[EX\]|EX condition|EX/NM|EX-NM|NM/EX|NM-EX)\b", re.I)
+NMWORDS = re.compile(r"near[ -]?mint|\bNM\b|\bM/NM\b|\bNM/M\b|\bmint\b|pack fresh", re.I)
 
 
 def set_words(c):
@@ -153,14 +159,28 @@ def read_page(page, keep_days=180):
 
 
 def value(info, key, today=None):
-    """(US$ value, note) for one grade key. Median of the last 90 days' sales when there are 3+,
-    otherwise PriceCharting's own average (marked thin)."""
+    """(US$ value, note) for one grade key, from the last 90 days' sales (junk like lots and proxies left out).
+    Graded: the median when there are 3+ sales. Raw: a NEAR MINT price, not an every-condition average:
+    the median of NM-titled sales when there are 3+, otherwise the 75th percentile of sales with no played/damage
+    words (NM copies sit in the upper part of that list). Under 3 usable sales: PriceCharting's own average (thin)."""
     today = today or date.today()
     cut = (today - timedelta(days=RECENT_DAYS)).isoformat()
     avg = info["main"].get(key) if key in info["main"] else info["full"].get(key)
     rows = [r for r in info["sales"].get(key, []) if r[0] >= cut and not JUNK.search(r[2])]
-    n = len(rows)
     last = max((r[0] for r in info["sales"].get(key, [])), default=None)
+    if key == "raw":
+        clean = [r for r in rows if not PLAYED.search(r[2])]
+        nm = [r for r in clean if NMWORDS.search(r[2])]
+        if len(nm) >= MIN_SALES:
+            return statistics.median(r[1] for r in nm), {"n90": len(nm), "last": last, "basis": "90-day NM median", "pc_avg": avg}
+        if len(clean) >= MIN_SALES:
+            q = sorted(r[1] for r in clean)
+            return q[min(len(q) - 1, int(round(0.75 * (len(q) - 1))))], {"n90": len(clean), "last": last,
+                    "basis": "90-day upper quarter (few NM-labelled sales)", "pc_avg": avg}
+        if not info["sales"]:
+            return avg, {"n90": None, "last": None, "basis": "PriceCharting average (sales list not read)", "thin": avg is not None}
+        return avg, {"n90": len(clean), "last": last, "basis": "PriceCharting average (mixed condition)", "thin": True}
+    n = len(rows)
     if n >= MIN_SALES:
         med = statistics.median(r[1] for r in rows)
         return med, {"n90": n, "last": last, "basis": "90-day median", "pc_avg": avg}
