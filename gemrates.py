@@ -182,6 +182,68 @@ def classify(v, n, total, thin):
     return ("SAFE" if net(v8) >= max_raw else "HUNT"), max_raw, round(ev), ""
 
 
+SETS = {  # English set slug -> (printed total, one distinctive title word or "")
+ "base-set": (102, "base"), "jungle": (64, "jungle"), "fossil": (62, "fossil"), "team-rocket": (82, "rocket"),
+ "gym-heroes": (132, "heroes"), "gym-challenge": (132, "challenge"), "neo-genesis": (111, "genesis"),
+ "neo-discovery": (75, "discovery"), "neo-revelation": (64, "revelation"), "neo-destiny": (105, "destiny"),
+ "legendary-collection": (110, "legendary"), "expedition": (165, "expedition"), "aquapolis": (147, "aquapolis"),
+ "skyridge": (144, "skyridge"), "ruby-&-sapphire": (109, "sapphire"), "sandstorm": (100, "sandstorm"),
+ "dragon": (97, ""), "team-magma-&-team-aqua": (95, "magma"), "hidden-legends": (101, "hidden"),
+ "fire-red-&-leaf-green": (112, "firered"), "team-rocket-returns": (109, "returns"), "deoxys": (107, ""),
+ "emerald": (106, "emerald"), "unseen-forces": (115, "unseen"), "delta-species": (113, "delta"),
+ "legend-maker": (92, "maker"), "holon-phantoms": (110, "holon"), "crystal-guardians": (100, "guardians"),
+ "dragon-frontiers": (101, "frontiers"), "power-keepers": (108, "keepers"), "diamond-&-pearl": (130, ""),
+ "mysterious-treasures": (123, "mysterious"), "secret-wonders": (132, "wonders"), "great-encounters": (106, "encounters"),
+ "majestic-dawn": (100, "majestic"), "legends-awakened": (146, "awakened"), "stormfront": (100, "stormfront"),
+ "platinum": (127, ""), "rising-rivals": (111, "rivals"), "supreme-victors": (147, "victors"), "arceus": (99, ""),
+ "heartgold-&-soulsilver": (123, "heartgold"), "unleashed": (95, "unleashed"), "undaunted": (90, "undaunted"),
+ "triumphant": (102, "triumphant"), "call-of-legends": (95, "call"), "black-&-white": (114, ""),
+ "emerging-powers": (98, "emerging"), "noble-victories": (101, "noble"), "next-destinies": (99, "destinies"),
+ "dark-explorers": (108, "explorers"), "dragons-exalted": (124, "exalted"), "dragon-vault": (20, "vault"),
+ "boundaries-crossed": (149, "boundaries"), "plasma-storm": (135, ""), "plasma-freeze": (116, ""),
+ "plasma-blast": (101, ""), "legendary-treasures": (113, ""), "xy": (146, ""), "flashfire": (106, "flashfire"),
+ "furious-fists": (111, "furious"), "phantom-forces": (119, "phantom"), "primal-clash": (160, "primal"),
+ "roaring-skies": (108, "roaring"), "ancient-origins": (98, "ancient"), "breakthrough": (162, "breakthrough"),
+ "breakpoint": (122, "breakpoint"), "generations": (83, "generations"), "fates-collide": (124, "fates"),
+ "steam-siege": (114, "steam"), "evolutions": (108, "evolutions"),
+}
+VARIANT = {"Reverse Holo": "(reverse,rev)", "Shadowless": "shadowless", "1st Edition": "1st", "Cosmos Holo": "cosmos",
+           "Prerelease": "prerelease", "Prerelease Staff": "staff", "Toys R Us": "(toys,tru)", "Gold Border": "gold",
+           "City Championships": "championship"}
+
+
+def ebay_query(name, num, set_slug, lang):
+    """Tight but not narrow: the card name plus its number written the ways sellers write it (56/144, 056/144)
+    or one distinctive set word, and the variant (reverse holo, shadowless...) when there is one."""
+    card = (name or "").split("#")[0]
+    variants = re.findall(r"\[([^\]]+)\]", card)
+    plain = re.sub(r"\s+", " ", re.sub(r"\[[^\]]*\]", "", card)).strip()
+    slug = (set_slug or "").replace("pokemon-", "")
+    if lang == "JP":
+        words = [w for w in slug.replace("japanese-", "").replace("%27s", "").split("-") if len(w) > 3]
+        word = max(words, key=len) if words else ""
+        alts = [x for x in (word, num if num and num.isdigit() and int(num) > 0 else "") if x]
+        q = f"{plain} japanese" + (f" ({','.join(alts)})" if len(alts) > 1 else f" {alts[0]}" if alts else "")
+    else:
+        total, word = SETS.get(slug, (None, ""))
+        alts = []
+        if num and num.isdigit() and total:
+            alts = [f"{int(num)}/{total}", f"{int(num):03d}/{total}"]
+        elif num:
+            alts = [num]
+        if word:
+            alts.append(word)
+        alts = list(dict.fromkeys(alts))
+        q = plain + (f" ({','.join(alts)})" if len(alts) > 1 else f" {alts[0]}" if alts else "")
+    extra = [VARIANT[v] for v in variants if v in VARIANT]
+    if lang != "JP" and "Reverse Holo" not in variants:
+        extra.append("-reverse")
+    if lang != "JP" and "1st Edition" not in variants and re.match(r"(base-set|jungle|fossil|team-rocket|gym-|neo-)", slug) \
+            and slug != "team-rocket-returns":
+        extra.append("-1st")      # 1st Edition copies are a different (dearer) card
+    return " ".join([q] + extra)
+
+
 def ebay(q, sold=False):
     u = "https://www.ebay.com.au/sch/i.html?_nkw=" + urllib.parse.quote_plus(q)
     return u + ("&LH_Sold=1&LH_Complete=1" if sold else "&_sop=15")
@@ -256,7 +318,8 @@ def main():
         out[path] = {"kind": kind, "max_raw": max_raw, "set": s, "name": c.get("name") or r["name"], "num": card_num(path),
                      "lang": "JP" if "japanese" in s else "EN", "gem": round(gem, 3), "n10": n.get("10", 0), "n9": n.get("9", 0),
                      "n8": n.get("8", 0), "total": tot, "v": v, "thin": c.get("thin", []),
-                     "ev_graded": ev, "raw_market": v.get("Raw"), "checked": c.get("day")}
+                     "ev_graded": ev, "raw_market": v.get("Raw"), "checked": c.get("day"),
+                     "q": ebay_query(c.get("name") or r["name"], card_num(path), s, "JP" if "japanese" in s else "EN")}
     data["targets"] = out
     data["updated"] = T
     data["rules"] = {"min_total": MIN_TOTAL, "min_psa9": MIN_N9, "max_gem": MAX_GEM, "sell_keep": SELL_KEEP,
@@ -284,7 +347,7 @@ def main():
         md += [f"## {title} ({len(rows)})", ""]
         for x in rows:
             v = x["v"]
-            q = f"{x['name']} {x['num']}{' japanese' if x['lang'] == 'JP' else ''}".strip()
+            q = x["q"]
             thin = f" (few sales: {', '.join(x['thin'])})" if x["thin"] else ""
             md.append(f"- **{x['name']}** #{x['num']} · {x['set'].replace('pokemon-', '').replace('-', ' ')} — "
                       f"gem {x['gem'] * 100:.{1 if x['gem'] < 0.1 else 0}f}% ({x['n10']}/{x['total']}), PSA 9 pop {x['n9']} · "

@@ -103,6 +103,33 @@ const st = { k: "", l: "", era: "", q: "", sort: "room", budget: "", room: false
 try { Object.assign(st, JSON.parse(localStorage.getItem("gemsFilters") || "{}")); } catch (e) {}
 const save = () => { try { localStorage.setItem("gemsFilters", JSON.stringify(st)); } catch (e) {} };
 
+const SETS = {"base-set": [102, "base"], "jungle": [64, "jungle"], "fossil": [62, "fossil"], "team-rocket": [82, "rocket"], "gym-heroes": [132, "heroes"], "gym-challenge": [132, "challenge"], "neo-genesis": [111, "genesis"], "neo-discovery": [75, "discovery"], "neo-revelation": [64, "revelation"], "neo-destiny": [105, "destiny"], "legendary-collection": [110, "legendary"], "expedition": [165, "expedition"], "aquapolis": [147, "aquapolis"], "skyridge": [144, "skyridge"], "ruby-&-sapphire": [109, "sapphire"], "sandstorm": [100, "sandstorm"], "dragon": [97, ""], "team-magma-&-team-aqua": [95, "magma"], "hidden-legends": [101, "hidden"], "fire-red-&-leaf-green": [112, "firered"], "team-rocket-returns": [109, "returns"], "deoxys": [107, ""], "emerald": [106, "emerald"], "unseen-forces": [115, "unseen"], "delta-species": [113, "delta"], "legend-maker": [92, "maker"], "holon-phantoms": [110, "holon"], "crystal-guardians": [100, "guardians"], "dragon-frontiers": [101, "frontiers"], "power-keepers": [108, "keepers"], "diamond-&-pearl": [130, ""], "mysterious-treasures": [123, "mysterious"], "secret-wonders": [132, "wonders"], "great-encounters": [106, "encounters"], "majestic-dawn": [100, "majestic"], "legends-awakened": [146, "awakened"], "stormfront": [100, "stormfront"], "platinum": [127, ""], "rising-rivals": [111, "rivals"], "supreme-victors": [147, "victors"], "arceus": [99, ""], "heartgold-&-soulsilver": [123, "heartgold"], "unleashed": [95, "unleashed"], "undaunted": [90, "undaunted"], "triumphant": [102, "triumphant"], "call-of-legends": [95, "call"], "black-&-white": [114, ""], "emerging-powers": [98, "emerging"], "noble-victories": [101, "noble"], "next-destinies": [99, "destinies"], "dark-explorers": [108, "explorers"], "dragons-exalted": [124, "exalted"], "dragon-vault": [20, "vault"], "boundaries-crossed": [149, "boundaries"], "plasma-storm": [135, ""], "plasma-freeze": [116, ""], "plasma-blast": [101, ""], "legendary-treasures": [113, ""], "xy": [146, ""], "flashfire": [106, "flashfire"], "furious-fists": [111, "furious"], "phantom-forces": [119, "phantom"], "primal-clash": [160, "primal"], "roaring-skies": [108, "roaring"], "ancient-origins": [98, "ancient"], "breakthrough": [162, "breakthrough"], "breakpoint": [122, "breakpoint"], "generations": [83, "generations"], "fates-collide": [124, "fates"], "steam-siege": [114, "steam"], "evolutions": [108, "evolutions"]};
+const VARIANT = {"Reverse Holo": "(reverse,rev)", "Shadowless": "shadowless", "1st Edition": "1st", "Cosmos Holo": "cosmos", "Prerelease": "prerelease", "Prerelease Staff": "staff", "Toys R Us": "(toys,tru)", "Gold Border": "gold", "City Championships": "championship"};
+function ebayQuery(name, num, slug, lang) {
+  const card = (name || "").split("#")[0];
+  const variants = [...card.matchAll(/\[([^\]]+)\]/g)].map(m => m[1]);
+  const plain = card.replace(/\[[^\]]*\]/g, "").replace(/\s+/g, " ").trim();
+  slug = (slug || "").replace("pokemon-", "");
+  let q;
+  if (lang === "JP") {
+    const words = slug.replace("japanese-", "").replace("%27s", "").split("-").filter(w => w.length > 3);
+    const word = words.sort((a, b) => b.length - a.length)[0] || "";
+    const alts = [word, /^\d+$/.test(num) && +num > 0 ? num : ""].filter(Boolean);
+    q = plain + " japanese" + (alts.length > 1 ? ` (${alts.join(",")})` : alts.length ? " " + alts[0] : "");
+  } else {
+    const [total, word] = SETS[slug] || [null, ""];
+    let alts = [];
+    if (/^\d+$/.test(num) && total) alts = [`${+num}/${total}`, `${String(+num).padStart(3, "0")}/${total}`];
+    else if (num) alts = [num];
+    if (word) alts.push(word);
+    alts = [...new Set(alts)];
+    q = plain + (alts.length > 1 ? ` (${alts.join(",")})` : alts.length ? " " + alts[0] : "");
+  }
+  const extra = variants.filter(v => VARIANT[v]).map(v => VARIANT[v]);
+  if (lang !== "JP" && !variants.includes("Reverse Holo")) extra.push("-reverse");
+  if (lang !== "JP" && !variants.includes("1st Edition") && /^(base-set|jungle|fossil|team-rocket|gym-|neo-)/.test(slug) && slug !== "team-rocket-returns") extra.push("-1st");
+  return [q, ...extra].join(" ");
+}
 function ebay(q, loc) {
   const base = "https://www.ebay.com.au/sch/i.html?_nkw=" + encodeURIComponent(q).replace(/%20/g, "+");
   return base + ({ AU: "&LH_PrefLoc=1", JP: "&LH_LocatedIn=1&_salic=104", CN: "&LH_LocatedIn=1&_salic=45",
@@ -115,7 +142,7 @@ function build(d) {
     const card = (x.name || "").split("#")[0].trim();
     const plain = card.replace(/\[[^\]]*\]/g, "").trim();
     const setName = (x.set || "").replace("pokemon-", "").replace(/-/g, " ");
-    const q = `${plain} ${x.num}${x.lang === "JP" ? " japanese" : ""}`.replace(/\s+/g, " ").trim();
+    const q = x.q || ebayQuery(x.name, x.num, x.set, x.lang);
     return { ...x, path, card, setName, q, era: eraOf(x.set || ""), raw: x.raw_market,
              room: x.raw_market != null ? x.max_raw - x.raw_market : null,
              hay: (card + " " + setName).toLowerCase() };
