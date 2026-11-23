@@ -308,6 +308,8 @@ def main():
     L = load("listings.json", {"items": []})
     S = load("stores.json", {"items": []})
     V = Values(load("values.json", {"cards": []}).get("cards", []))
+    # gem-rate targets from gemrates.py (weekly): PriceCharting card path -> kind (SAFE / HUNT), max raw price, gem rate
+    GEM = load("gemrates.json", {}).get("targets") or {}
     H = load("history.json", {"ids": {}})
     today = day_of(L.get("generated"))
     cutoff = (datetime.fromisoformat(today) - timedelta(days=KEEP_DAYS)).date().isoformat()
@@ -509,8 +511,10 @@ def main():
         # grade play: Near Mint raw copy that pays after grading at the grade it's likely to get (PSA 8 for WotC/e-Card-era
         # and old Japanese cards, PSA 9 for later ones), without a big loss one grade lower
         gp, gp_why, gp_net = False, "", 0
-        if (val and val[1] == "Raw" and not auc and not flag and not x.get("var") and x.get("country") not in SKIP_CC | {"CN"}
-                and (x.get("nm") == 1 or NMWORD.search(t)) and not OTHER_SLAB.search(t) and not sus and ratio is not None and ratio >= 0.4):
+        nm_raw_ok = bool(val and val[1] == "Raw" and not auc and not flag and not x.get("var") and x.get("country") not in SKIP_CC | {"CN"}
+                         and (x.get("nm") == 1 or NMWORD.search(t)) and not OTHER_SLAB.search(t) and not sus and ratio is not None and ratio >= 0.4)
+        gem = GEM.get(val[0].get("pc")) if val and val[0].get("pc") else None
+        if nm_raw_ok:
             gv = val[0]["g"]
             old = set_of(val[0]["label"]) in VINTAGE or str(val[0].get("num", "")).startswith("No.")
             want_g, low_g = ("PSA 8", "PSA 7") if old else ("PSA 9", "PSA 8")
@@ -534,6 +538,20 @@ def main():
                               + (f" ({', '.join(thin)} rest on few sales)" if thin else "")
                               + f" — {val[0]['src'].split('(')[0].strip()}. Check the photos: raw 'NM' is the seller's word")
                     cs = [GRADE_CAT] + [c for c in cs if c != GRADE_CAT]
+        if gem and nm_raw_ok:
+            gem_txt = (f"gem rate {gem['gem'] * 100:.0f}% ({gem['n10']:,} PSA 10s of {gem['total']:,} graded); "
+                       f"{'safe' if gem['kind'] == 'SAFE' else '10 hunt'} max raw A${gem['max_raw']:,}")
+            if gp:
+                gp_why += f" · {gem_txt}"
+            elif pl <= gem["max_raw"]:
+                gv = gem["v"]
+                gp = True
+                gp_net = (gv.get("PSA 10", 0) * SELL_KEEP - GRADE_COST - pl) * gem["gem"]   # ranked by the 10's expected share
+                gp_why = (f"{'10 hunt' if gem['kind'] == 'HUNT' else 'gem target'}: A${pl:,.0f} landed raw{gst_of(pl, p)}, at or under "
+                          f"the A${gem['max_raw']:,} max → PSA 8 ~A${gv.get('PSA 8', 0):,} · PSA 9 ~A${gv.get('PSA 9', 0):,} · "
+                          f"PSA 10 ~A${gv.get('PSA 10', 0):,}; {gem_txt.split(';')[0]} — weekly gem-rate list "
+                          f"({gem.get('checked', '')}). Only buy a copy that looks clean in the photos")
+                cs = [GRADE_CAT] + [c for c in cs if c != GRADE_CAT]
         tags = "".join(c for c, on in (("n", new), ("d", drop), ("r", bool(r.get("re"))), ("l", lowest), ("s", bool(slab)), ("g", gp), ("m", bool(x.get("var")))) if on)
         X[i] = [[cats.index(c) for c in cs], r["f"], r.get("pp") if drop else None, round(low[k], 2) if k in low else None,
                 live_n.get(k, 0) if k else 0, val[2] if val else None, (val[0]["label"] + " · " + val[1]) if val else "", tags,

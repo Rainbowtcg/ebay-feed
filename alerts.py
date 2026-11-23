@@ -4,6 +4,7 @@ Reads digest.json (written by enrich.py) and picks out the highlights worth a pi
   - cards priced well under their sold value (20%+ under, not auctions, not values flagged as doubtful)
   - grade plays that clear at least A$500 at PSA 9 after grading and fees
   - sealed ETBs / booster boxes at or under RRP
+  - gem-rate targets (gemrates.py): raw NM copies at or under the card's max raw price
 Each listing is alerted once (alerts_seen.json remembers it for 30 days); it is alerted again only if its
 price drops another 10%+. New picks are posted as ONE GitHub issue per run, which the GitHub app pushes to
 the phone. Set ALERT_ISSUE=1 (scan.yml / shops.yml do) to post; without it the script only prints.
@@ -33,6 +34,8 @@ def pick(h):
         return None
     if why.startswith("at or under RRP"):
         return ("Sealed at or under RRP", 0)
+    if why.startswith(("10 hunt", "gem target")):     # raw NM copy at or under its weekly gem-rate max price
+        return ("Gem-rate target", 0)
     if why.startswith("grade play"):
         m = GRADE_RX.search(why)
         net = int(m.group(1).replace(",", "")) if m else 0
