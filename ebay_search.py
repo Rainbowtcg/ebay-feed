@@ -535,6 +535,7 @@ def main():
         is_pawn, is_trusted = bool(opts.get("pawn")), bool(opts.get("trusted"))
         is_sealed = bool(opts.get("sealed"))
         is_lots = bool(opts.get("lots"))
+        is_sport = bool(opts.get("sport"))  # "@sport": sports cards (soccer autos), searched outside the Pokemon card category
         sellers = pawns if is_pawn else trusted if is_trusted else None
         if (is_pawn or is_trusted) and not sellers:
             continue
@@ -551,14 +552,14 @@ def main():
           if (q, c) in dead and (day_no + sum(map(ord, q + c))) % PROBE_EVERY:
               counts["skipped"] += 1   # found nothing here in the last DEAD_RUNS runs: rest it, but try it again every PROBE_EVERY days
               continue
-          passes = ([NM_ASPECT] if NM_PASS and nm_fail < 5 and not opts.get("nonm") and not is_trusted and not is_sealed and not is_lots else []) + [None]
+          passes = ([NM_ASPECT] if NM_PASS and nm_fail < 5 and not opts.get("nonm") and not is_trusted and not is_sealed and not is_lots and not is_sport else []) + [None]
           pages = [(asp, off) for asp in passes for off in ([o * 200 for o in range(PAWN_PAGES)] if sellers else [0])]
           for asp, off in pages:
             if calls >= SEARCH_MAX:
                 budget_hit = True
                 break
             try:
-                res = search(tok, sq, c, offset=off, aspect=asp, sellers=sellers, category=None if (is_sealed or is_lots) else CATEGORY,
+                res = search(tok, sq, c, offset=off, aspect=asp, sellers=sellers, category=None if (is_sealed or is_lots or is_sport) else CATEGORY,
                              sort="newlyListed" if is_lots else None)
                 calls += 1
                 fails_in_row = 0
@@ -600,7 +601,7 @@ def main():
                     continue
                 sq, opts = line_options(q)
                 try:
-                    res = search(tok, sq, c, offset=200 * rnd, sellers=None, category=None if opts.get("sealed") else CATEGORY,
+                    res = search(tok, sq, c, offset=200 * rnd, sellers=None, category=None if (opts.get("sealed") or opts.get("sport")) else CATEGORY,
                                  sort="price")
                     calls += 1
                     counts["extra"] += 1

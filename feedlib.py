@@ -83,7 +83,8 @@ def line_options(line):
     @pawn     run against the pawn-shop sellers only (AU)
     @trusted  run against the sellers in trusted_sellers.txt only
     @c=AU,JP  run only in these countries instead of all of them
-    @nonm     skip the extra "Near Mint or Better" pass (halves the calls)"""
+    @nonm     skip the extra "Near Mint or Better" pass (halves the calls)
+    @sport    sports cards (soccer autos): searched outside the Pokemon card category, no NM pass"""
     opts, words = {}, []
     for w in line.lstrip("+").split():
         if w.startswith("@"):

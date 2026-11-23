@@ -441,3 +441,8 @@ pokemon (lot,bundle,collection,binder,cards) @lots @pawn
 # Single cards whose title never says "Pokemon", so most buyers' searches miss them (single-cards category only).
 (charizard,blastoise,venusaur,lugia,umbreon,espeon,rayquaza,gengar,dragonite,mewtwo) holo (1999,2000,wotc,"1st edition",shadowless,neo,"gold star",psa,"near mint") -pokemon -pokémon @c=AU,NZ,JP
 (celebi,suicune,typhlosion,feraligatr,meganium,tyranitar,houndoom,scizor,latias,latios) holo (2001,2002,2003,"e-card",expedition,aquapolis,skyridge,"gold star",psa,"near mint") -pokemon -pokémon @c=AU,NZ,JP
+
+# ---------- Soccer: Nyoni & Rio autos (want list) ----------
+# "@sport" lines search all of eBay (not just Pokemon cards) for Liverpool prospects' autographs (added 24 Nov 2026).
++nyoni (auto,autograph,autographed,signed,autos) @sport
++ngumoha (auto,autograph,autographed,signed,autos) @sport
