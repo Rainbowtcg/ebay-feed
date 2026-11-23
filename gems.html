@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gem targets · Vintage Slab Finder</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --line:#30363d; --text:#e6edf3; --dim:#8b949e; --acc:#58a6ff;
+          --safe:#3fb950; --hunt:#d29922; --bad:#f85149; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+         padding:env(safe-area-inset-top) 0 40px; }
+  header { padding:14px 14px 6px; }
+  h1 { font-size:20px; margin:0 0 2px; }
+  .sub { color:var(--dim); font-size:13px; }
+  .sub a { color:var(--acc); }
+  .bar { position:sticky; top:0; z-index:5; background:var(--bg); border-bottom:1px solid var(--line); padding:8px 14px 10px; }
+  .row { display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin-top:6px; }
+  .chip { border:1px solid var(--line); background:var(--card); color:var(--text); border-radius:16px; padding:5px 11px; font-size:13px; }
+  .chip.on { background:var(--acc); border-color:var(--acc); color:#0d1117; font-weight:600; }
+  input[type=search], select, input[type=number] { background:var(--card); color:var(--text); border:1px solid var(--line);
+         border-radius:8px; padding:7px 9px; font-size:15px; }
+  input[type=search] { flex:1; min-width:0; }
+  input[type=number] { width:86px; }
+  label.tg { font-size:13px; color:var(--dim); display:flex; align-items:center; gap:4px; }
+  .count { color:var(--dim); font-size:13px; padding:8px 14px 0; }
+  ul { list-style:none; margin:0; padding:6px 10px; }
+  li { background:var(--card); border:1px solid var(--line); border-radius:10px; margin:6px 0; padding:10px 12px; }
+  .top { display:flex; justify-content:space-between; gap:8px; }
+  .nm { font-weight:600; }
+  .set { color:var(--dim); font-size:13px; }
+  .badge { font-size:11px; font-weight:700; padding:2px 7px; border-radius:10px; white-space:nowrap; align-self:flex-start; }
+  .SAFE { background:rgba(63,185,80,.18); color:var(--safe); }
+  .HUNT { background:rgba(210,153,34,.18); color:var(--hunt); }
+  .nums { display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; font-size:14px; }
+  .nums b { font-weight:600; }
+  .room.pos { color:var(--safe); } .room.neg { color:var(--bad); }
+  .more { display:none; margin-top:8px; border-top:1px solid var(--line); padding-top:8px; font-size:13px; color:var(--dim); }
+  li.open .more { display:block; }
+  .grades { display:grid; grid-template-columns:repeat(5,1fr); gap:4px; text-align:center; margin-bottom:8px; }
+  .grades div { background:var(--bg); border-radius:6px; padding:4px 2px; }
+  .grades span { display:block; color:var(--text); font-weight:600; font-size:13px; }
+  .links a { color:var(--acc); margin-right:12px; text-decoration:none; display:inline-block; padding:4px 0; }
+  .thin { color:var(--hunt); }
+  button.load { display:block; margin:10px auto; }
+  .err { color:var(--bad); padding:14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Gem-rate targets</h1>
+  <div class="sub" id="meta">Loading…</div>
+</header>
+
+<div class="bar">
+  <div class="row">
+    <input type="search" id="q" placeholder="Search card or set">
+    <select id="sort">
+      <option value="room">Most room under max</option>
+      <option value="max">Highest max raw</option>
+      <option value="gem">Hardest to 10</option>
+      <option value="cheap">Cheapest raw</option>
+      <option value="name">Name</option>
+    </select>
+  </div>
+  <div class="row" id="kinds">
+    <button class="chip on" data-k="">All</button>
+    <button class="chip" data-k="SAFE">Safe</button>
+    <button class="chip" data-k="HUNT">10 hunts</button>
+    <span style="width:8px"></span>
+    <button class="chip on" data-l="">EN+JP</button>
+    <button class="chip" data-l="EN">EN</button>
+    <button class="chip" data-l="JP">JP</button>
+  </div>
+  <div class="row" id="eras"></div>
+  <div class="row">
+    <label class="tg">Max raw ≤ A$<input type="number" id="budget" inputmode="numeric" placeholder="any"></label>
+    <label class="tg"><input type="checkbox" id="room"> raw under max</label>
+    <label class="tg"><input type="checkbox" id="solid"> skip thin 10s</label>
+  </div>
+</div>
+
+<div class="count" id="count"></div>
+<ul id="list"></ul>
+<button class="chip load" id="loadmore" hidden>Show more</button>
+
+<script>
+const ERAS = [
+  ["WotC", /base-set|jungle|fossil|team-rocket(?!-returns)|gym-|neo-|legendary-collection|southern|promo-wizard|base-set-2/],
+  ["e-Card", /expedition|aquapolis|skyridge/],
+  ["EX", /pokemon-ex-|ruby|sapphire|sandstorm|dragon(?!-frontiers)|dragon-frontiers|team-magma|hidden-legends|firered|team-rocket-returns|deoxys|emerald|unseen-forces|delta-species|legend-maker|holon|crystal-guardians|power-keepers/],
+  ["DP/Pt", /diamond|pearl|mysterious-treasures|secret-wonders|great-encounters|majestic-dawn|legends-awakened|stormfront|platinum|rising-rivals|supreme-victors|arceus/],
+  ["HGSS", /heartgold|soulsilver|unleashed|undaunted|triumphant|call-of-legends/],
+  ["BW", /black-&-white|black-and-white|emerging-powers|noble-victories|next-destinies|dark-explorers|dragons-exalted|boundaries-crossed|plasma|legendary-treasures/],
+  ["XY", /pokemon-xy|flashfire|furious-fists|phantom-forces|primal-clash|roaring-skies|ancient-origins|breakthrough|breakpoint|generations|fates-collide|steam-siege|evolutions/],
+];
+const eraOf = s => (ERAS.find(([, r]) => r.test(s)) || ["Other"])[0];
+const $ = id => document.getElementById(id);
+const aud = n => n == null ? "–" : "A$" + Math.round(n).toLocaleString("en-AU");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+let ALL = [], shown = 0, PAGE = 40;
+const st = { k: "", l: "", era: "", q: "", sort: "room", budget: "", room: false, solid: false };
+try { Object.assign(st, JSON.parse(localStorage.getItem("gemsFilters") || "{}")); } catch (e) {}
+const save = () => { try { localStorage.setItem("gemsFilters", JSON.stringify(st)); } catch (e) {} };
+
+function ebay(q, loc) {
+  const base = "https://www.ebay.com.au/sch/i.html?_nkw=" + encodeURIComponent(q).replace(/%20/g, "+");
+  return base + ({ AU: "&LH_PrefLoc=1", JP: "&LH_LocatedIn=1&_salic=104", CN: "&LH_LocatedIn=1&_salic=45",
+                   Sold: "&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2" }[loc]);
+}
+
+function build(d) {
+  const t = d.targets || {};
+  ALL = Object.entries(t).map(([path, x]) => {
+    const card = (x.name || "").split("#")[0].trim();
+    const plain = card.replace(/\[[^\]]*\]/g, "").trim();
+    const setName = (x.set || "").replace("pokemon-", "").replace(/-/g, " ");
+    const q = `${plain} ${x.num}${x.lang === "JP" ? " japanese" : ""}`.replace(/\s+/g, " ").trim();
+    return { ...x, path, card, setName, q, era: eraOf(x.set || ""), raw: x.raw_market,
+             room: x.raw_market != null ? x.max_raw - x.raw_market : null,
+             hay: (card + " " + setName).toLowerCase() };
+  });
+  const eras = ["", ...ERAS.map(e => e[0]), "Other"].filter(e => e === "" || ALL.some(x => x.era === e));
+  $("eras").innerHTML = eras.map(e => `<button class="chip${st.era === e ? " on" : ""}" data-e="${e}">${e || "All eras"}</button>`).join("");
+  const safe = ALL.filter(x => x.kind === "SAFE").length;
+  $("meta").innerHTML = `${ALL.length} targets (${safe} safe, ${ALL.length - safe} hunts) · updated ${esc(d.updated || "?")} · ` +
+    `US$1 = A$${d.rules && d.rules.usd_aud || "?"} · <a href="./">Slab Finder</a> · <a href="gemrates.md">full list</a>`;
+  sync(); render();
+}
+
+function filtered() {
+  const q = st.q.trim().toLowerCase(), b = parseFloat(st.budget);
+  let r = ALL.filter(x => (!st.k || x.kind === st.k) && (!st.l || x.lang === st.l) && (!st.era || x.era === st.era)
+    && (!q || q.split(/\s+/).every(w => x.hay.includes(w))) && (!b || x.max_raw <= b)
+    && (!st.room || (x.room != null && x.room > 0)) && (!st.solid || !(x.thin || []).includes("PSA 10")));
+  const by = { room: (a, c) => (c.room ?? -1e9) - (a.room ?? -1e9), max: (a, c) => c.max_raw - a.max_raw,
+               gem: (a, c) => a.gem - c.gem || c.max_raw - a.max_raw, cheap: (a, c) => (a.raw ?? 1e9) - (c.raw ?? 1e9),
+               name: (a, c) => a.card.localeCompare(c.card) }[st.sort];
+  return r.sort(by);
+}
+
+function item(x) {
+  const v = x.v || {}, thin = x.thin || [];
+  const g = ["Raw", "PSA 7", "PSA 8", "PSA 9", "PSA 10"].map(k =>
+    `<div>${k.replace("PSA ", "")}<span class="${thin.includes(k) ? "thin" : ""}">${aud(v[k])}</span></div>`).join("");
+  const roomTxt = x.room == null ? "" : `<span class="room ${x.room > 0 ? "pos" : "neg"}">${x.room > 0 ? "+" : ""}${aud(x.room).replace("A$-", "−A$")}</span>`;
+  return `<li>
+    <div class="top"><div><div class="nm">${esc(x.card)} #${esc(x.num)}${x.lang === "JP" ? " 🇯🇵" : ""}</div>
+      <div class="set">${esc(x.setName)} · ${x.era}</div></div>
+      <span class="badge ${x.kind}">${x.kind === "SAFE" ? "SAFE" : "10 HUNT"}</span></div>
+    <div class="nums"><span>max <b>${aud(x.max_raw)}</b></span><span>raw ${aud(x.raw)}</span>${roomTxt}
+      <span>gem ${(x.gem * 100).toFixed(x.gem < 0.1 ? 1 : 0)}%</span></div>
+    <div class="more">
+      <div class="grades">${g}</div>
+      <div>Pop: ${x.n10.toLocaleString()} tens · ${x.n9.toLocaleString()} nines · ${x.n8.toLocaleString()} eights of ${x.total.toLocaleString()} graded${thin.length ? ` · <span class="thin">few sales: ${thin.join(", ")}</span>` : ""}</div>
+      <div class="links">
+        <a href="${ebay(x.q, "AU")}" target="_blank" rel="noopener">AU</a><a href="${ebay(x.q, "JP")}" target="_blank" rel="noopener">JP</a><a href="${ebay(x.q, "CN")}" target="_blank" rel="noopener">CN</a><a href="${ebay(x.q, "Sold")}" target="_blank" rel="noopener">Sold</a><a href="https://www.pricecharting.com${esc(x.path)}" target="_blank" rel="noopener">PriceCharting</a>
+      </div>
+    </div></li>`;
+}
+
+let LIST = [];
+function render(more) {
+  if (!more) { LIST = filtered(); shown = 0; $("list").innerHTML = ""; }
+  const next = LIST.slice(shown, shown + PAGE);
+  $("list").insertAdjacentHTML("beforeend", next.map(item).join(""));
+  shown += next.length;
+  $("count").textContent = `${LIST.length} shown · tap a card for grades, pop and links`;
+  $("loadmore").hidden = shown >= LIST.length;
+}
+
+function sync() {
+  document.querySelectorAll("[data-k]").forEach(b => b.classList.toggle("on", b.dataset.k === st.k));
+  document.querySelectorAll("[data-l]").forEach(b => b.classList.toggle("on", b.dataset.l === st.l));
+  document.querySelectorAll("[data-e]").forEach(b => b.classList.toggle("on", b.dataset.e === st.era));
+  $("q").value = st.q; $("sort").value = st.sort; $("budget").value = st.budget; $("room").checked = st.room; $("solid").checked = st.solid;
+}
+
+document.addEventListener("click", e => {
+  const b = e.target.closest("button[data-k],button[data-l],button[data-e]");
+  if (b) {
+    if ("k" in b.dataset) st.k = b.dataset.k; else if ("l" in b.dataset) st.l = b.dataset.l; else st.era = b.dataset.e;
+    save(); sync(); render(); return;
+  }
+  const li = e.target.closest("li");
+  if (li && !e.target.closest("a")) li.classList.toggle("open");
+});
+let tq;
+$("q").addEventListener("input", e => { clearTimeout(tq); tq = setTimeout(() => { st.q = e.target.value; save(); render(); }, 200); });
+$("sort").addEventListener("change", e => { st.sort = e.target.value; save(); render(); });
+$("budget").addEventListener("input", e => { st.budget = e.target.value; save(); render(); });
+$("room").addEventListener("change", e => { st.room = e.target.checked; save(); render(); });
+$("solid").addEventListener("change", e => { st.solid = e.target.checked; save(); render(); });
+$("loadmore").addEventListener("click", () => render(true));
+
+fetch("gemrates.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(build)
+  .catch(e => { $("meta").innerHTML = `<span class="err">Couldn't load gemrates.json (${esc(e.message)}). Is this page in the same folder as gemrates.json?</span>`; });
+</script>
+</body>
+</html>
