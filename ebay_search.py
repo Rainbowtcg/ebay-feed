@@ -11,7 +11,7 @@ Needs two environment variables from a free eBay developer account
   EBAY_CLIENT_SECRET  the Cert ID
 Read-only: it never bids, buys or contacts anyone.
 """
-import base64, csv, json, os, re, sys, time, urllib.parse, urllib.request
+import base64, csv, json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
 API = "https://api.ebay.com"
@@ -36,6 +36,10 @@ PLAYED = re.compile(r"lightly|moderately|heavily|\bplayed\b|\bLP\b|\bMP\b|\[HP\]
 NMWORD = re.compile(r"gem ?mint|\bNM\b|near mint|\bmint\b", re.I)
 # Page check: raw listings priced far under the same card's other listings get their item page read
 # (seller condition notes, Card Condition field, description) and are tagged "damage" if it is mentioned.
+# Save-as-you-go: every CHECKPOINT_EVERY finished searches the results so far are written (unfinished searches keep
+# yesterday's listings) and, when CHECKPOINT_PUSH=1 (set in scan.yml), pushed to GitHub. If GitHub's machine drops out
+# partway through a run, the feed keeps what was searched instead of losing the whole day.
+CHECKPOINT_EVERY = int(os.environ.get("CHECKPOINT_EVERY", "60"))
 DEEP_MAX = int(os.environ.get("DEEP_MAX", "300"))   # item-page calls per run, keeps under eBay's 5,000/day
 DEEP_RATIO = float(os.environ.get("DEEP_RATIO", "0.6"))  # "suspiciously cheap" = under 60% of the card's median
 # eBay allows 5,000 calls a day. Searches stop at SEARCH_MAX so the page check always has calls left;
@@ -378,6 +382,44 @@ def deep_check(tok, out, limit=None):
     return out, calls, tagged
 
 
+def write_listings(items, meta):
+    with open(os.path.join(HERE, "listings.json"), "w", encoding="utf-8") as f:
+        json.dump({**meta, "items": items}, f, ensure_ascii=False, indent=1)
+    with open(os.path.join(HERE, "listings.csv"), "w", newline="", encoding="utf-8") as f:
+        fields = list(dict.fromkeys(k for x in items for k in x)) or ["id"]
+        w = csv.DictWriter(f, fieldnames=fields, restval="")
+        w.writeheader(); w.writerows(items)
+
+
+def push_checkpoint(label):
+    """Commit and push the partial results (only on GitHub, when CHECKPOINT_PUSH=1). Never stops the run."""
+    if os.environ.get("CHECKPOINT_PUSH") != "1":
+        return
+    def git(*a):
+        return subprocess.run(["git", *a], cwd=HERE, capture_output=True, text=True, timeout=180)
+    try:
+        files = ["listings.json", "listings.csv"]
+        if os.path.exists(os.path.join(HERE, "build_feed.py")):
+            args = [sys.executable, "build_feed.py", "listings.json", "feed.js", "-"]
+            if os.path.exists(os.path.join(HERE, "stores.json")):
+                args.append("stores.json")
+            r = subprocess.run(args, cwd=HERE, capture_output=True, text=True, timeout=300)
+            if r.returncode == 0:
+                files += [f for f in ("feed.js", "feed-lite.js") if os.path.exists(os.path.join(HERE, f))]
+        git("add", *files)
+        if git("diff", "--cached", "--quiet").returncode == 0:
+            return
+        git("commit", "-m", f"eBay feed {datetime.now(timezone.utc):%Y-%m-%d} (saved partway: {label})")
+        for _ in range(3):
+            if git("pull", "--rebase", "-X", "theirs", "origin", "main").returncode == 0 and git("push").returncode == 0:
+                print(f"checkpoint pushed: {label}")
+                return
+            time.sleep(10)
+        print(f"checkpoint push failed ({label}); the run carries on", file=sys.stderr)
+    except Exception as e:
+        print(f"checkpoint skipped ({label}):", e, file=sys.stderr)
+
+
 def main():
     cid, secret = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
     if not cid or not secret:
@@ -394,6 +436,11 @@ def main():
                 print(f"{len(missed)} searches not reached last run go first")
     except Exception as e:
         print("query order: last run's stats not used:", e)
+    # yesterday's listings, read once now (checkpoints overwrite listings.json during the run)
+    try:
+        prev_items = json.load(open(os.path.join(HERE, "listings.json"), encoding="utf-8")).get("items", [])
+    except Exception:
+        prev_items = []
     tok = token(cid, secret)
     pawns = pawn_sellers()
     trusted = trusted_sellers()
@@ -458,6 +505,24 @@ def main():
                                   or ((it.get("itemId") or "").split("|") + ["", "", ""])[2] not in ("", "0")) else {}),
             })
 
+    def checkpoint(label):
+        """Write what has been searched so far, plus yesterday's listings for the searches not reached yet."""
+        if CHECKPOINT_EVERY <= 0:
+            return
+        try:
+            ids = {x["id"] for x in out}
+            items = list(out) + [dict(x, stale=1) for x in prev_items if x.get("query") not in done and x.get("id") not in ids]
+            items.sort(key=lambda x: (x.get("country") != "AU", x.get("country") != "JP", x.get("country") != "CN", x.get("title") or ""))
+            meta = {"generated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(items), "calls": calls,
+                    "partial": True, "searches_done": f"{len(done)}/{len(queries)}", "bad_lines": sorted(bad_lines),
+                    "query_stats": {q: dict(zip(("returned", "new", "dupes", "filtered"), stats.get(q, [0, 0, 0, 0])),
+                                            by_country=cstats.get(q, {}), ran=q in done) for q in queries},
+                    "note": "Saved partway through today's run: searches not reached yet show yesterday's listings (stale=1)."}
+            write_listings(items, meta)
+            push_checkpoint(label)
+        except Exception as e:
+            print(f"checkpoint failed ({label}):", e, file=sys.stderr)
+
     for q in queries:
         if quota_hit or budget_hit:
             break
@@ -515,6 +580,9 @@ def main():
               break
         if not quota_hit and not budget_hit:
             done.add(q)
+            if CHECKPOINT_EVERY > 0 and len(done) % CHECKPOINT_EVERY == 0 and len(done) < len(queries):
+                checkpoint(f"{len(done)} of {len(queries)} searches")
+    checkpoint(f"all {len(done)} of {len(queries)} searches, before extra pages")
     # Extra pages with the calls the run didn't need. eBay gives 200 results per search in "best match" order, which
     # buries long-running listings: for every search with more than 200 results, also fetch the 200 cheapest
     # (price + postage), want-list searches first, then the busiest. Then, budget allowing, the next 200 cheapest.
@@ -551,11 +619,7 @@ def main():
     carried = 0
     if quota_hit or budget_hit:
         # don't wipe the feed with a half run: carry over the last full results for searches that didn't finish
-        try:
-            prev = json.load(open(os.path.join(HERE, "listings.json"), encoding="utf-8")).get("items", [])
-        except Exception:
-            prev = []
-        for x in prev:
+        for x in prev_items:
             if x.get("query") not in done and x.get("id") not in seen:
                 seen.add(x.get("id")); out.append(dict(x, stale=1)); carried += 1
     if DEEP_MAX > 0 and not quota_hit:
@@ -572,12 +636,7 @@ def main():
             "query_stats": {q: dict(zip(("returned", "new", "dupes", "filtered"), stats.get(q, [0, 0, 0, 0])), by_country=cstats.get(q, {}),
                                 ran=q in done) for q in queries},
             "note": "Pre-filtered by title and eBay Card Condition. Cheap raw outliers had their item page read (checked=1); others still need a look before buying."}
-    with open(os.path.join(HERE, "listings.json"), "w", encoding="utf-8") as f:
-        json.dump({**meta, "items": out}, f, ensure_ascii=False, indent=1)
-    with open(os.path.join(HERE, "listings.csv"), "w", newline="", encoding="utf-8") as f:
-        fields = list(dict.fromkeys(k for x in out for k in x)) or ["id"]
-        w = csv.DictWriter(f, fieldnames=fields, restval="")
-        w.writeheader(); w.writerows(out)
+    write_listings(out, meta)
     print(f"{len(out)} listings from {calls} searches ({counts['nm']} extra raw Near Mint or Better listings from the NM pass)")
 
 
