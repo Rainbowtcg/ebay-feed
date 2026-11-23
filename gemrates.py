@@ -37,6 +37,7 @@ FEE_OVER = 0.10        # over the last tier: about 10% of the card's value
 HALF_GRADE_WORSE = 0.5 # pop reports are mostly the good copies people chose to grade: assume half of each grade's share
                        # comes back one grade lower for an ordinary raw NM copy
 THIN_10_KEEP = 0.6     # a PSA 10 value from under 3 recent sales counts for 60%
+THIN_10_CAP = 5        # ... and never more than 5x the PSA 9 price
 MAX_BUY = int(os.environ.get("GEM_MAX_BUY", "1000"))   # budget: targets whose max raw is over this are left out
 MIN_MAX_RAW = 10       # not worth listing if the most you could pay is under A$10
 # focus eras get their card prices read first (e-Card, EX, XY)
@@ -165,7 +166,7 @@ def classify(v, n, total, thin):
     if not total:
         return None, None, None, "no population"
     if v10 and "PSA 10" in thin:
-        v10 = v10 * THIN_10_KEEP
+        v10 = min(v10 * THIN_10_KEEP, v9 * THIN_10_CAP)   # one big outlier sale (often a 1st Ed or mislabelled) can't carry it
     p = {g: n.get(str(g), 0) / total for g in (10, 9, 8, 7)}
     h = HALF_GRADE_WORSE
     q = {10: p[10] * (1 - h), 9: p[9] * (1 - h) + p[10] * h, 8: p[8] * (1 - h) + p[9] * h, 7: p[7] * (1 - h) + p[8] * h}
@@ -274,7 +275,7 @@ def main():
           "(fees by value tier) and eBay fees, using the card's real grade mix from the pop report, shifted half a grade "
           "worse because pop reports are mostly the best copies. SAFE: a PSA 8 alone still covers max raw. "
           "HUNT: you need a 9 or better. Gem rate = PSA 10s ÷ all graded copies. Cards need 3+ recent PSA 8 and 9 sales; "
-          f"a thin PSA 10 price counts {THIN_10_KEEP:.0%}. Over A${MAX_BUY:,} max raw is left out (budget). "
+          f"a thin PSA 10 price counts {THIN_10_KEEP:.0%}, capped at {THIN_10_CAP}x the PSA 9. Over A${MAX_BUY:,} max raw is left out (budget). "
           "Raw now = PriceCharting's raw price, which includes played copies.", ""]
     if skipped:
         md += ["Left out: " + "; ".join(f"{k} ({v})" for k, v in sorted(skipped.items(), key=lambda kv: -kv[1])), ""]
