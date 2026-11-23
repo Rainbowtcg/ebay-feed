@@ -6,3 +6,21 @@
 168562753378  grader  # Jungle Flareon "PSA 9", marsau-hpexrieo: local grader, not PSA
 407126490498  lp      # JP Pichu 031/070 L1, dreamhaze_collectibles: LP, not NM
 960199897664  lp      # Undaunted Scyther 36/90 reverse, ast-3557: LP, not NM
+# Checked and passed 24 Nov 2026 (hidden so they stop coming up)
+198817105387  hide    # Virizion 103/101 Plasma Blast, pikapacksofficial A$240
+s-thecardcave.com.au-15393441415277  hide  # Lugia EX 94/98 Ancient Origins, The Card Cave A$362
+178567667015  hide    # JP Blaine's Charizard Gym 2, possumcollectablestcg A$811
+800738179306  hide    # JP Charizard ex 012/052 Starter Deck HP, koyacchi23 A$137
+820330749944  hide    # JP Giovanni's Persian Gym 2 PSA 9, praxiscollectables A$246
+860001190137  hide    # JP Lt. Surge's Raichu Gym 2 PSA 9, akibadesk A$301
+800569448947  hide    # JP Koga's Beedrill Gym 2 PSA 9, cocoscollectables A$130
+327433027922  hide    # JP Erika's Vileplume Gym Deck PSA 9, emssmi9 A$101
+860130678631  hide    # JP Aggron DPBP#357 PSA 10, shinycardtraders A$849
+800650534072  hide    # JP Celebi Neo Revelation, mahounoranpu A$152
+307165838610  hide    # JP Scizor Neo Discovery, lemrix A$59
+406932168310  hide    # JP Regigigas 11th Movie promo, bshr2938 A$15
+188342177572  hide    # katanacards PokePark Latios 045/PCG-P
+188309319149  hide    # katanacards Groudon 042/PCG-P
+188430677242  hide    # katanacards PokePark Munchlax 040/PCG-P
+188468022080  hide    # katanacards PokePark Celebi 044/PCG-P
+188361581126  hide    # katanacards Rayquaza 041/PCG-P
