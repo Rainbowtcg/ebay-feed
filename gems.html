@@ -141,7 +141,10 @@ function ebay(q, loc) {
 
 function build(d) {
   const t = d.targets || {};
-  ALL = Object.entries(t).map(([path, x]) => {
+  ALL = Object.entries(t).map(([path, x0]) => {
+    // older lists left lettered numbers (SH7, H24, RC21) blank: take them from the card's path
+    const pm = path.match(/-([a-z]{1,4}\d+[a-z]?)$/i);
+    const x = x0.num ? x0 : { ...x0, num: pm ? pm[1].toUpperCase() : "" };
     const card = (x.name || "").split("#")[0].trim();
     const plain = card.replace(/\[[^\]]*\]/g, "").trim();
     const setName = (x.set || "").replace("pokemon-", "").replace(/-/g, " ");

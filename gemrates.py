@@ -138,8 +138,9 @@ def sets_to_read():
 
 
 def card_num(path):
-    m = re.search(r"-(\d+[a-z]?)$", path)
-    return m.group(1) if m else ""
+    # plain numbers (30, 54a) and lettered ones (SH7 shinies, H24 Skyridge holos, RC21, TG05, XY121 promos)
+    m = re.search(r"-(\d+[a-z]?)$", path) or re.search(r"-([a-z]{1,4}\d+[a-z]?)$", path)
+    return m.group(1).upper() if m else ""
 
 
 def fee(v):
