@@ -325,6 +325,36 @@ class Values:
         return c, g, c["g"][g]
 
 
+# corrections.txt: your own condition calls on listings the title gets wrong. One per line:
+#   <eBay item number or listing URL>  <code>  # note
+# codes: lp / ex (kept as played slab plays), mp / hp / dmg (damaged: hidden by default), grader (not the grader the title
+# claims: hidden like other wrong-grader slabs), hide (never highlight). The call sticks for as long as the listing lives.
+CORR_CODES = {"ex": "damage: excellent", "lp": "damage: lp", "mp": "damage: mp", "hp": "damage: hp", "dmg": "damage: damaged",
+              "hide": "damage: hidden by you"}
+
+
+def corrections():
+    out = {}
+    try:
+        lines = open(P("corrections.txt"), encoding="utf-8").read().splitlines()
+    except OSError:
+        return out
+    for l in lines:
+        body, _, note = l.partition("#")
+        parts = body.split()
+        if len(parts) < 2:
+            continue
+        m = re.search(r"(\d{9,15})", parts[0])
+        code = parts[1].lower()
+        if not m:
+            continue
+        if code.startswith("grader"):
+            out[m.group(1)] = "grader: " + (note.strip() or "not the grader in the title")[:40] + " (your call)"
+        elif code in CORR_CODES:
+            out[m.group(1)] = CORR_CODES[code]
+    return out
+
+
 # ---------------------------------------------------------------- main
 def main():
     L = load("listings.json", {"items": []})
@@ -354,6 +384,11 @@ def main():
         trusted_set = set()
 
     items = [dict(x, shop=0) for x in L.get("items", [])] + [dict(x, shop=1) for x in S.get("items", []) if x.get("available", True)]
+    CORR = corrections()
+    for x in items:
+        m = re.search(r"(\d{9,15})", str(x.get("id") or "")) or re.search(r"/itm/(?:[^/]*/)?(\d{9,15})", str(x.get("url") or ""))
+        if m and m.group(1) in CORR:
+            x["flag"], x["nm"] = CORR[m.group(1)], 0      # your condition call beats the title's
     ids = H.get("ids", {})
     had_before = any(r.get("f", today) < today for r in ids.values())
 

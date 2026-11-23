@@ -1,0 +1,8 @@
+# Your condition calls on listings whose titles get it wrong. The feed treats them this way while they're listed.
+# Format: item number (or listing link)  code  # note
+# Codes: lp, ex = played (only shown as LP/EX slab plays) · mp, hp, dmg = damaged (hidden by default)
+#        grader = not the grader the title claims (hidden like wrong-grader slabs) · hide = never highlight
+224650216320  mp      # Charizard EX 100/106 Flashfire, kattykat1313: listed NM, photos show MP
+168562753378  grader  # Jungle Flareon "PSA 9", marsau-hpexrieo: local grader, not PSA
+407126490498  lp      # JP Pichu 031/070 L1, dreamhaze_collectibles: LP, not NM
+960199897664  lp      # Undaunted Scyther 36/90 reverse, ast-3557: LP, not NM
