@@ -5,6 +5,7 @@ on:
   workflow_dispatch: {}
 permissions:
   contents: write
+  issues: write             # phone alerts are posted as a GitHub issue
 concurrency:
   group: feed-data          # shared with the morning eBay feed, so the two never write the feed at the same time
   cancel-in-progress: false
@@ -25,6 +26,12 @@ jobs:
       - name: Categories, price history and daily summary
         continue-on-error: true
         run: python enrich.py
+      - name: Phone alerts for new deals
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ALERT_ISSUE: "1"
+        run: python alerts.py
       - name: Build finder feed
         continue-on-error: true
         run: python build_feed.py listings.json feed.js - stores.json
@@ -32,7 +39,7 @@ jobs:
         run: |
           git config user.name "ebay-feed-bot"
           git config user.email "ebay-feed-bot@users.noreply.github.com"
-          for f in stores.json feed.js feed-lite.js history.json digest.json digest.md megacash.json megacash.md mc_cache.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          for f in stores.json feed.js feed-lite.js history.json digest.json digest.md megacash.json megacash.md mc_cache.json alerts_seen.json; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --cached --quiet || git commit -m "Shop scan $(date -u +%F)"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 10; done
       - name: Refresh the finder's copy

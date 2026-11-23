@@ -5,6 +5,7 @@ on:
   workflow_dispatch: {}
 permissions:
   contents: write
+  issues: write             # phone alerts are posted as a GitHub issue
 concurrency:
   group: feed-data          # shared with the afternoon shop scan, so the two never write the feed at the same time
   cancel-in-progress: false
@@ -42,6 +43,12 @@ jobs:
       - name: Categories, price history and daily summary
         continue-on-error: true
         run: python enrich.py
+      - name: Phone alerts for new deals
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ALERT_ISSUE: "1"
+        run: python alerts.py
       - name: Price guide (PriceCharting)
         continue-on-error: true
         run: python pc_prices.py
@@ -56,7 +63,7 @@ jobs:
           git config user.name "ebay-feed-bot"
           git config user.email "ebay-feed-bot@users.noreply.github.com"
           git add listings.json listings.csv
-          for f in stores.json feed.js feed-lite.js history.json digest.json digest.md guide.json megacash.json megacash.md mc_cache.json values.json values_check.md values_suspect.json values_grow.json values_grow.md query_history.json queries_report.md; do if [ -f "$f" ]; then git add "$f"; fi; done
+          for f in stores.json feed.js feed-lite.js history.json digest.json digest.md guide.json megacash.json megacash.md mc_cache.json values.json values_check.md values_suspect.json values_grow.json values_grow.md query_history.json queries_report.md alerts_seen.json; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --cached --quiet || git commit -m "eBay feed $(date -u +%F)"
           # if a file was uploaded while this ran, put the results on top of it instead of failing (a failed push throws away the whole day's eBay calls)
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 10; done
