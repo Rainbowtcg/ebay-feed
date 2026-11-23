@@ -1,9 +1,629 @@
 {
- "generated": "2026-11-22T06:09+00:00",
+ "generated": "2026-11-23T06:21+00:00",
  "usd_aud": 1.507,
  "rate_source": "open.er-api.com",
- "lookups_this_run": 0,
+ "lookups_this_run": 14,
  "cards": [
+  {
+   "title": "Pokemon - Metal Energy 018/L-P Gym Challenge Promo PSA 10",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-metal-energy-018-l-p-gym-challenge-psa-10",
+   "listed": "2026-11-23",
+   "price": 169.0,
+   "post": 12.0,
+   "cost": 181.0,
+   "grader": "PSA",
+   "grade": "10",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=metal+energy+%28018%2Fl-p%2C18%2Fl-p%2C18%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=metal+energy+%28018%2Fl-p%2C18%2Fl-p%2C18%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=metal+energy+%28018%2Fl-p%2C18%2Fl-p%2C18%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=metal+energy+%28018%2Fl-p%2C18%2Fl-p%2C18%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-gym-challenge/sabrina%27s-gengar-29)"
+  },
+  {
+   "title": "Pokemon - Pikachu 56/236 Unified Minds PSA 10",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-pikachu-56-236-unified-minds-psa-10",
+   "listed": "2026-11-23",
+   "price": 989.0,
+   "post": 12.0,
+   "cost": 1001.0,
+   "grader": "PSA",
+   "grade": "10",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%2856%2F236%2C56%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%2856%2F236%2C56%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%2856%2F236%2C56%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%2856%2F236%2C56%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-unified-minds/pikachu-56",
+   "matched": "Pikachu #56   Pokemon Unified Minds",
+   "aud": {
+    "raw": 8,
+    "g7": 21,
+    "g8": 26,
+    "g9": 211,
+    "g95": 232,
+    "g10": 701
+   },
+   "basis": {
+    "n90": 5,
+    "last": "2026-10-16",
+    "basis": "90-day median",
+    "pc_avg": 465.42,
+    "grade": "PSA 10"
+   },
+   "value": 904,
+   "landed": 1044,
+   "gap": 0.11,
+   "thin": false,
+   "signal": "OVER-US"
+  },
+  {
+   "title": "Pokemon - Pikachu SM86 General Mills Promo PSA 8",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-pikachu-sm86-general-mills-promo",
+   "listed": "2026-11-23",
+   "price": 599.0,
+   "post": 12.0,
+   "cost": 611.0,
+   "grader": "PSA",
+   "grade": "8",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+sm86&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+sm86&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+sm86&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+sm86&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-promo/pikachu-general-mills-2017-sm86?q=pikachu+sm86+general+mills",
+   "matched": "Pikachu [General Mills 2017] #SM86   Pokemon Promo",
+   "aud": {
+    "raw": 63,
+    "g8": 305,
+    "g9": 1545,
+    "g95": 1700,
+    "g10": 2713
+   },
+   "basis": {
+    "n90": 3,
+    "last": "2026-11-06",
+    "basis": "90-day median",
+    "pc_avg": 202.5,
+    "grade": "PSA 8"
+   },
+   "value": 305,
+   "landed": 385,
+   "gap": 1.0,
+   "thin": false,
+   "signal": "OVER"
+  },
+  {
+   "title": "Pokemon - Jolteon Holo #135 Jungle (JPN) PSA 9",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-jolteon-holo-135-jungle-jpn-psa-9",
+   "listed": "2026-11-23",
+   "price": 419.0,
+   "post": 12.0,
+   "cost": 431.0,
+   "grader": "PSA",
+   "grade": "9",
+   "jp": true,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=jolteon+135+japanese&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=jolteon+135+japanese&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=jolteon+135+japanese&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=jolteon+135+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": {
+    "aud": 740.19,
+    "country": "JP",
+    "url": "https://www.ebay.com.au/itm/147667146935",
+    "copies": 5
+   },
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-jungle/jolteon-135",
+   "matched": "Jolteon #135   Pokemon Japanese Jungle",
+   "aud": {
+    "raw": 60,
+    "g7": 105,
+    "g8": 160,
+    "g9": 305,
+    "g95": 443,
+    "g10": 2562
+   },
+   "basis": {
+    "n90": 30,
+    "last": "2026-11-16",
+    "basis": "90-day median",
+    "pc_avg": 202.39,
+    "grade": "PSA 9"
+   },
+   "value": 302,
+   "landed": 382,
+   "gap": 0.43,
+   "thin": false,
+   "signal": "OVER"
+  },
+  {
+   "title": "Pokemon - Vaporeon Holo #134 Jungle (JPN) PSA 9",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-vaporeon-holo-134-jungle-jpn-psa-9",
+   "listed": "2026-11-23",
+   "price": 399.0,
+   "post": 12.0,
+   "cost": 411.0,
+   "grader": "PSA",
+   "grade": "9",
+   "jp": true,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=vaporeon+134+japanese&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=vaporeon+134+japanese&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=vaporeon+134+japanese&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=vaporeon+134+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": {
+    "aud": 555.13,
+    "country": "AU",
+    "url": "https://www.ebay.com.au/itm/117510175689",
+    "copies": 4
+   },
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-jungle/vaporeon-134",
+   "matched": "Vaporeon #134   Pokemon Japanese Jungle",
+   "aud": {
+    "raw": 44,
+    "g7": 96,
+    "g8": 173,
+    "g9": 414,
+    "g95": 457,
+    "g10": 6005
+   },
+   "basis": {
+    "n90": 30,
+    "last": "2026-11-17",
+    "basis": "90-day median",
+    "pc_avg": 275.0,
+    "grade": "PSA 9"
+   },
+   "value": 431,
+   "landed": 524,
+   "gap": -0.05,
+   "thin": false,
+   "signal": "FAIR"
+  },
+  {
+   "title": "Pokemon - Vileplume 17/18 Southern Islands BGS 9",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-vileplume-17-18-southern-islands-bgs-9",
+   "listed": "2026-11-23",
+   "price": 379.0,
+   "post": 12.0,
+   "cost": 391.0,
+   "grader": "BGS",
+   "grade": "9",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=vileplume+%2817%2F18%2C17%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=vileplume+%2817%2F18%2C17%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=vileplume+%2817%2F18%2C17%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=vileplume+%2817%2F18%2C17%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-southern-islands/vileplume-17?q=vileplume+17+southern+islands",
+   "matched": "Vileplume #17   Pokemon Southern Islands",
+   "aud": {
+    "raw": 111,
+    "g7": 222,
+    "g8": 395,
+    "g9": 999,
+    "g95": 1099,
+    "g10": 17880
+   },
+   "basis": {
+    "n90": 30,
+    "last": "2026-11-15",
+    "basis": "90-day median",
+    "pc_avg": 662.9,
+    "grade": "BGS 9"
+   },
+   "value": 724,
+   "landed": 846,
+   "gap": -0.46,
+   "thin": false,
+   "signal": "UNDER"
+  },
+  {
+   "title": "Pokemon - Flareon Holo #136 Jungle (JPN) PSA 9",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-flareon-holo-136-jungle-jpn-psa-9",
+   "listed": "2026-11-23",
+   "price": 339.0,
+   "post": 12.0,
+   "cost": 351.0,
+   "grader": "PSA",
+   "grade": "9",
+   "jp": true,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=flareon+136+japanese&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=flareon+136+japanese&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=flareon+136+japanese&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=flareon+136+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": {
+    "aud": 373.42,
+    "country": "JP",
+    "url": "https://www.ebay.com.au/itm/307221375808",
+    "copies": 6
+   },
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-jungle/flareon-136",
+   "matched": "Flareon #136   Pokemon Japanese Jungle",
+   "aud": {
+    "raw": 51,
+    "g7": 100,
+    "g8": 175,
+    "g9": 347,
+    "g95": 754,
+    "g10": 3719
+   },
+   "basis": {
+    "n90": 27,
+    "last": "2026-11-20",
+    "basis": "90-day median",
+    "pc_avg": 230.0,
+    "grade": "PSA 9"
+   },
+   "value": 347,
+   "landed": 431,
+   "gap": 0.01,
+   "thin": false,
+   "signal": "OVER-US"
+  },
+  {
+   "title": "Pokemon - Arceus V 166/172 Brilliant Stars PSA 10",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-arceus-v-166-172-brilliant-stars-psa-10",
+   "listed": "2026-11-23",
+   "price": 279.0,
+   "post": 12.0,
+   "cost": 291.0,
+   "grader": "PSA",
+   "grade": "10",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=arceus+%28166%2F172%2C166%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=arceus+%28166%2F172%2C166%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=arceus+%28166%2F172%2C166%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=arceus+%28166%2F172%2C166%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-brilliant-stars/arceus-v-166?q=arceus+v+166+brilliant+stars",
+   "matched": "Arceus V #166   Pokemon Brilliant Stars",
+   "aud": {
+    "raw": 78,
+    "g7": 53,
+    "g8": 71,
+    "g9": 90,
+    "g95": 133,
+    "g10": 301
+   },
+   "basis": {
+    "n90": 30,
+    "last": "2026-11-21",
+    "basis": "90-day median",
+    "pc_avg": 200.0,
+    "grade": "PSA 10"
+   },
+   "value": 292,
+   "landed": 371,
+   "gap": -0.0,
+   "thin": false,
+   "signal": "FAIR"
+  },
+  {
+   "title": "Pokemon - Metagross Ex 95/108 Ex Power Keepers PSA 1",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-metagross-ex-95-108-ex-power-keepers-psa-1",
+   "listed": "2026-11-23",
+   "price": 249.0,
+   "post": 12.0,
+   "cost": 261.0,
+   "grader": "PSA",
+   "grade": "1",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=metagross+ex+%2895%2F108%2C95%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=metagross+ex+%2895%2F108%2C95%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=metagross+ex+%2895%2F108%2C95%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=metagross+ex+%2895%2F108%2C95%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-power-keepers/metagross-ex-95?q=metagross+ex+95+ex+power+keepers",
+   "matched": "Metagross EX #95   Pokemon Power Keepers",
+   "aud": {
+    "raw": 117,
+    "g7": 265,
+    "g8": 395,
+    "g9": 1167,
+    "g95": 1284,
+    "g10": 8312
+   },
+   "basis": {
+    "grade": "PSA 1",
+    "basis": "PriceCharting full price list",
+    "n90": null,
+    "thin": true
+   },
+   "value": 222,
+   "landed": 294,
+   "gap": 0.18,
+   "thin": true,
+   "signal": "OVER-US"
+  },
+  {
+   "title": "Pokemon - Pikachu League Promo #1 Black Star Promo PSA 8",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-pikachu-league-promo-1-black-star-promo-psa-8",
+   "listed": "2026-11-23",
+   "price": 189.0,
+   "post": 12.0,
+   "cost": 201.0,
+   "grader": "PSA",
+   "grade": "8",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+league+1&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+league+1&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+league+1&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+league+1&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-1sv-p)"
+  },
+  {
+   "title": "Pokemon - Tyranitar 31/75 Neo Discovery PSA 8",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-tyranitar-31-75-neo-discovery-psa-8",
+   "listed": "2026-11-23",
+   "price": 159.0,
+   "post": 12.0,
+   "cost": 171.0,
+   "grader": "PSA",
+   "grade": "8",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=tyranitar+%2831%2F75%2C31%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=tyranitar+%2831%2F75%2C31%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=tyranitar+%2831%2F75%2C31%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=tyranitar+%2831%2F75%2C31%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-neo-discovery/tyranitar-31",
+   "matched": "Tyranitar #31   Pokemon Neo Discovery",
+   "aud": {
+    "raw": 27,
+    "g7": 75,
+    "g8": 107,
+    "g9": 162,
+    "g95": 170,
+    "g10": 1554
+   },
+   "basis": {
+    "n90": 8,
+    "last": "2026-11-11",
+    "basis": "90-day median",
+    "pc_avg": 71.0,
+    "grade": "PSA 8"
+   },
+   "value": 114,
+   "landed": 175,
+   "gap": 0.5,
+   "thin": false,
+   "signal": "OVER-US"
+  },
+  {
+   "title": "Pokemon - Charmander 46/102 Base Set CGC 10",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-charmander-46-102-base-set-cgc-10",
+   "listed": "2026-11-23",
+   "price": 149.0,
+   "post": 12.0,
+   "cost": 161.0,
+   "grader": "CGC",
+   "grade": "10",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=charmander+%2846%2F102%2C46%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=charmander+%2846%2F102%2C46%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=charmander+%2846%2F102%2C46%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=charmander+%2846%2F102%2C46%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-base-set/charmander-46",
+   "matched": "Charmander #46   Pokemon Base Set",
+   "aud": {
+    "raw": 4,
+    "g7": 45,
+    "g8": 49,
+    "g9": 77,
+    "g95": 84,
+    "g10": 557
+   },
+   "basis": {
+    "grade": "CGC 10",
+    "basis": "PriceCharting full price list",
+    "n90": null,
+    "thin": true
+   },
+   "value": 149,
+   "landed": 214,
+   "gap": 0.08,
+   "thin": true,
+   "signal": "OVER-US"
+  },
+  {
+   "title": "Pokemon - Squirtle 63/102 Shadowless Base Set PSA 8",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-squirtle-63-102-shadowless-base-set-psa-8",
+   "listed": "2026-11-23",
+   "price": 129.0,
+   "post": 12.0,
+   "cost": 141.0,
+   "grader": "PSA",
+   "grade": "8",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+%2863%2F102%2C63%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+%2863%2F102%2C63%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+%2863%2F102%2C63%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+%2863%2F102%2C63%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-base-set/squirtle-shadowless-63?q=squirtle+63+shadowless+base+set",
+   "matched": "Squirtle [Shadowless] #63   Pokemon Base Set",
+   "aud": {
+    "raw": 17,
+    "g7": 79,
+    "g8": 102,
+    "g9": 222,
+    "g95": 244,
+    "g10": 1321
+   },
+   "basis": {
+    "n90": 30,
+    "last": "2026-11-18",
+    "basis": "90-day median",
+    "pc_avg": 68.0,
+    "grade": "PSA 8"
+   },
+   "value": 105,
+   "landed": 166,
+   "gap": 0.34,
+   "thin": false,
+   "signal": "OVER-US"
+  },
+  {
+   "title": "Pokemon - Kingdra 10/110 Holon Phantoms PSA 5",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-kingdra-10-110-holon-phantoms-psa-5",
+   "listed": "2026-11-23",
+   "price": 89.0,
+   "post": 12.0,
+   "cost": 101.0,
+   "grader": "PSA",
+   "grade": "5",
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%2810%2F110%2C10%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%2810%2F110%2C10%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%2810%2F110%2C10%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%2810%2F110%2C10%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-holon-phantoms/kingdra-10",
+   "matched": "Kingdra #10   Pokemon Holon Phantoms",
+   "aud": {
+    "raw": 75,
+    "g7": 126,
+    "g8": 184,
+    "g9": 974,
+    "g95": 1071,
+    "g10": 3711
+   },
+   "basis": {
+    "grade": "PSA 5",
+    "basis": "PriceCharting full price list",
+    "n90": null,
+    "thin": true
+   },
+   "signal": "UNPRICED",
+   "why": "no PriceCharting value at PSA 5"
+  },
+  {
+   "title": "Pokemon - Charizard Holo 4/102 Base Set Unlimited",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-charizard-holo-4-102-base-set-unlimited",
+   "listed": "2026-11-23",
+   "price": 479.0,
+   "post": 12.0,
+   "cost": 491.0,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=charizard+%284%2F102%2C4%29&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=charizard+%284%2F102%2C4%29&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=charizard+%284%2F102%2C4%29&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=charizard+%284%2F102%2C4%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": {
+    "aud": 1310.65,
+    "country": "AU",
+    "url": "https://www.ebay.com.au/itm/820348313736",
+    "copies": 2
+   },
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-base-set/charizard-4",
+   "matched": "Charizard #4   Pokemon Base Set",
+   "aud": {
+    "raw": 482,
+    "g7": 1183,
+    "g8": 1846,
+    "g9": 4806,
+    "g95": 9383,
+    "g10": 49641
+   },
+   "basis": {
+    "n90": 31,
+    "last": "2026-11-16",
+    "basis": "90-day median",
+    "pc_avg": 320.0,
+    "grade": "raw (NM)"
+   },
+   "value": 602,
+   "landed": 690,
+   "gap": -0.18,
+   "thin": false,
+   "signal": "FAIR",
+   "psa8_net": 1258,
+   "psa9_net": 4009
+  },
   {
    "title": "Pokemon - GG70/GG70 Arceus Vstar Crown Zenith",
    "shop": "Mega Cash",
@@ -338,7 +958,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -151,
-   "psa9_net": 224
+   "psa9_net": 247
   },
   {
    "title": "Pokemon - Typhlosion 64/165 Rev Holo Expedition",
@@ -2018,15 +2638,15 @@
     "g10": 2260
    },
    "basis": {
-    "n90": 18,
+    "n90": 15,
     "last": "2026-11-13",
     "basis": "90-day median",
     "pc_avg": 130.18,
     "grade": "raw (NM)"
    },
-   "value": 195,
-   "landed": 242,
-   "gap": -0.17,
+   "value": 201,
+   "landed": 249,
+   "gap": -0.2,
    "thin": false,
    "signal": "FAIR",
    "psa8_net": 95,
@@ -2298,15 +2918,15 @@
     "g10": 2152
    },
    "basis": {
-    "n90": 10,
+    "n90": 9,
     "last": "2026-11-13",
     "basis": "90-day median",
     "pc_avg": 38.38,
     "grade": "raw (NM)"
    },
-   "value": 63,
-   "landed": 97,
-   "gap": 4.73,
+   "value": 68,
+   "landed": 102,
+   "gap": 4.31,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -348,
@@ -2579,64 +3199,19 @@
     "g10": 2396
    },
    "basis": {
-    "n90": 25,
+    "n90": 24,
     "last": "2026-11-11",
     "basis": "90-day median",
     "pc_avg": 144.67,
     "grade": "raw (NM)"
    },
-   "value": 188,
-   "landed": 235,
-   "gap": 0.39,
+   "value": 179,
+   "landed": 224,
+   "gap": 0.46,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 357,
    "psa9_net": 573
-  },
-  {
-   "title": "Pokemon - Mewtwo 56/165 Expedition",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-mewtwo-56-165-expedition",
-   "listed": "2026-11-16",
-   "price": 199.0,
-   "post": 12.0,
-   "cost": 211.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=mewtwo+%2856%2F165%2C56%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=mewtwo+%2856%2F165%2C56%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=mewtwo+%2856%2F165%2C56%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mewtwo+%2856%2F165%2C56%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-expedition/mewtwo-56",
-   "matched": "Mewtwo #56   Pokemon Expedition",
-   "aud": {
-    "raw": 109,
-    "g7": 264,
-    "g8": 362,
-    "g9": 527,
-    "g95": 580,
-    "g10": 2834
-   },
-   "basis": {
-    "n90": 29,
-    "last": "2026-11-16",
-    "basis": "90-day median",
-    "pc_avg": 72.5,
-    "grade": "raw (NM)"
-   },
-   "value": 113,
-   "landed": 152,
-   "gap": 0.87,
-   "thin": false,
-   "signal": "OVER",
-   "psa8_net": 30,
-   "psa9_net": 256
   },
   {
    "title": "Pokemon - Tenacruel 38/147 Rev Holo Aquapolis",
@@ -2803,7 +3378,7 @@
    "gap": 0.43,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 33,
+   "psa8_net": 14,
    "psa9_net": 892
   },
   {
@@ -2853,7 +3428,7 @@
    "gap": 0.43,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 33,
+   "psa8_net": 14,
    "psa9_net": 892
   },
   {
@@ -3341,15 +3916,15 @@
     "g10": 6329
    },
    "basis": {
-    "n90": 49,
+    "n90": 48,
     "last": "2026-11-17",
     "basis": "90-day median",
     "pc_avg": 25.57,
     "grade": "raw (NM)"
    },
-   "value": 47,
-   "landed": 79,
-   "gap": 0.43,
+   "value": 46,
+   "landed": 78,
+   "gap": 0.46,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -48,
@@ -3488,7 +4063,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": 36,
-   "psa9_net": 258
+   "psa9_net": 369
   },
   {
    "title": "Pokemon - Ampharos 34/165 Rev Holo Expedition",
@@ -3611,15 +4186,15 @@
     "g10": 1677
    },
    "basis": {
-    "n90": 17,
+    "n90": 16,
     "last": "2026-11-17",
     "basis": "90-day median",
     "pc_avg": 55.5,
     "grade": "raw (NM)"
    },
-   "value": 83,
-   "landed": 119,
-   "gap": 0.7,
+   "value": 79,
+   "landed": 115,
+   "gap": 0.78,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -88,
@@ -5360,14 +5935,14 @@
     "g10": 14799
    },
    "basis": {
-    "n90": 23,
+    "n90": 22,
     "last": "2026-11-17",
     "basis": "90-day median",
     "pc_avg": 638.83,
     "grade": "PSA 8"
    },
-   "value": 889,
-   "landed": 1028,
+   "value": 897,
+   "landed": 1036,
    "gap": -0.16,
    "thin": false,
    "signal": "FAIR"
@@ -5861,15 +6436,15 @@
     "g10": 9700
    },
    "basis": {
-    "n90": 9,
+    "n90": 8,
     "last": "2026-10-31",
     "basis": "90-day median",
     "pc_avg": 155.41,
     "grade": "raw (NM)"
    },
-   "value": 226,
-   "landed": 276,
-   "gap": 1.13,
+   "value": 239,
+   "landed": 291,
+   "gap": 1.01,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 212,
@@ -6019,15 +6594,15 @@
     "g10": 2152
    },
    "basis": {
-    "n90": 10,
+    "n90": 9,
     "last": "2026-11-13",
     "basis": "90-day median",
     "pc_avg": 38.38,
     "grade": "raw (NM)"
    },
-   "value": 63,
-   "landed": 97,
-   "gap": 4.73,
+   "value": 68,
+   "landed": 102,
+   "gap": 4.31,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -348,
@@ -6618,15 +7193,15 @@
     "g10": 1597
    },
    "basis": {
-    "n90": 14,
+    "n90": 13,
     "last": "2026-11-12",
     "basis": "90-day median",
     "pc_avg": 70.0,
     "grade": "raw (NM)"
    },
-   "value": 98,
-   "landed": 135,
-   "gap": 1.87,
+   "value": 105,
+   "landed": 144,
+   "gap": 1.68,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 358,
@@ -6837,7 +7412,7 @@
    "gap": 0.06,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 60,
+   "psa8_net": 56,
    "psa9_net": 1676
   },
   {
@@ -7571,7 +8146,7 @@
    "gap": 0.11,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 214,
+   "psa8_net": 221,
    "psa9_net": 393
   },
   {
@@ -7605,15 +8180,15 @@
     "g10": 1356
    },
    "basis": {
-    "n90": 14,
+    "n90": 13,
     "last": "2026-10-23",
     "basis": "90-day median",
     "pc_avg": 56.72,
     "grade": "raw (NM)"
    },
-   "value": 94,
-   "landed": 131,
-   "gap": 1.03,
+   "value": 83,
+   "landed": 119,
+   "gap": 1.3,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -25,
@@ -8017,18 +8592,18 @@
     "g10": 14799
    },
    "basis": {
-    "n90": 32,
+    "n90": 31,
     "last": "2026-11-15",
     "basis": "90-day median",
     "pc_avg": 100.04,
     "grade": "raw (NM)"
    },
    "value": 151,
-   "landed": 194,
+   "landed": 193,
    "gap": 2.38,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 318,
+   "psa8_net": 326,
    "psa9_net": 182
   },
   {
@@ -8713,7 +9288,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -151,
-   "psa9_net": 224
+   "psa9_net": 247
   },
   {
    "title": "Pokemon- Primeape 29/147 Rev Holo Aquapolis",
@@ -8881,15 +9456,15 @@
     "g10": 19591
    },
    "basis": {
-    "n90": 14,
+    "n90": 13,
     "last": "2026-11-07",
     "basis": "90-day median",
     "pc_avg": 88.33,
     "grade": "raw (NM)"
    },
-   "value": 156,
-   "landed": 199,
-   "gap": 0.35,
+   "value": 144,
+   "landed": 186,
+   "gap": 0.47,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 29,
@@ -8961,7 +9536,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": 22,
-   "psa9_net": 244
+   "psa9_net": 355
   },
   {
    "title": "Pokemon - Dark Charmeleon 32/82 W Stamped WOTC Promo",
@@ -9446,15 +10021,15 @@
     "g10": 1597
    },
    "basis": {
-    "n90": 14,
+    "n90": 13,
     "last": "2026-11-12",
     "basis": "90-day median",
     "pc_avg": 70.0,
     "grade": "raw (NM)"
    },
-   "value": 98,
-   "landed": 135,
-   "gap": 1.87,
+   "value": 105,
+   "landed": 144,
+   "gap": 1.68,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 358,
@@ -9604,15 +10179,15 @@
     "g10": 26974
    },
    "basis": {
-    "n90": 17,
+    "n90": 16,
     "last": "2026-11-11",
     "basis": "90-day median",
     "pc_avg": 164.94,
     "grade": "raw (NM)"
    },
-   "value": 252,
-   "landed": 305,
-   "gap": 1.03,
+   "value": 258,
+   "landed": 311,
+   "gap": 0.98,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 182,
@@ -9717,15 +10292,15 @@
     "g10": 12810
    },
    "basis": {
-    "n90": 30,
+    "n90": 29,
     "last": "2026-11-14",
     "basis": "90-day median",
     "pc_avg": 152.05,
     "grade": "raw (NM)"
    },
-   "value": 227,
-   "landed": 277,
-   "gap": 0.81,
+   "value": 234,
+   "landed": 284,
+   "gap": 0.76,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 813,
@@ -9830,19 +10405,19 @@
     "g10": 16200
    },
    "basis": {
-    "n90": 18,
+    "n90": 17,
     "last": "2026-11-14",
     "basis": "90-day median",
     "pc_avg": 122.49,
     "grade": "raw (NM)"
    },
-   "value": 185,
-   "landed": 231,
-   "gap": 0.84,
+   "value": 181,
+   "landed": 226,
+   "gap": 0.88,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 72,
-   "psa9_net": 1106
+   "psa9_net": 964
   },
   {
    "title": "Pokemon - Dark Scizor 9/105 Holo Neo Destiny",
@@ -10620,15 +11195,15 @@
     "g10": 1677
    },
    "basis": {
-    "n90": 17,
+    "n90": 16,
     "last": "2026-11-17",
     "basis": "90-day median",
     "pc_avg": 55.5,
     "grade": "raw (NM)"
    },
-   "value": 83,
-   "landed": 119,
-   "gap": 1.06,
+   "value": 79,
+   "landed": 115,
+   "gap": 1.16,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -118,
@@ -11000,7 +11575,7 @@
    "gap": 2.25,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 45,
+   "psa8_net": 58,
    "psa9_net": 180
   },
   {
@@ -11095,31 +11670,8 @@
    "gap": 0.07,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -11,
+   "psa8_net": -4,
    "psa9_net": 261
-  },
-  {
-   "title": "Pokemon- Raichu Prime 83/90 Undaunted",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-raichu-prime-83-90-undaunted",
-   "listed": "2026-11-05",
-   "price": 189.0,
-   "post": 12.0,
-   "cost": 201.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=raichu+prime+%2883%2F90%2C83%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=raichu+prime+%2883%2F90%2C83%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=raichu+prime+%2883%2F90%2C83%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=raichu+prime+%2883%2F90%2C83%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-undaunted/umbreon-86)"
   },
   {
    "title": "Pokemon - Crobat Prime 84/95 HGSS Unleashed",
@@ -11194,51 +11746,6 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-xy/venusaur-ex-141)"
-  },
-  {
-   "title": "Pokemon - Giratina Ex 93/98 Ancient Origins",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-giratina-ex-93-98-ancient-origins",
-   "listed": "2026-11-05",
-   "price": 149.0,
-   "post": 12.0,
-   "cost": 161.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=giratina+ex+%2893%2F98%2C93%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=giratina+ex+%2893%2F98%2C93%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=giratina+ex+%2893%2F98%2C93%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=giratina+ex+%2893%2F98%2C93%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-ancient-origins/giratina-ex-93?q=giratina+ex+93+ancient+origins",
-   "matched": "Giratina EX #93   Pokemon Ancient Origins",
-   "aud": {
-    "raw": 196,
-    "g7": 227,
-    "g8": 392,
-    "g9": 1129,
-    "g95": 1242,
-    "g10": 7723
-   },
-   "basis": {
-    "n90": 40,
-    "last": "2026-11-16",
-    "basis": "90-day median",
-    "pc_avg": 130.0,
-    "grade": "raw (NM)"
-   },
-   "value": 196,
-   "landed": 243,
-   "gap": -0.18,
-   "thin": false,
-   "signal": "FAIR",
-   "psa8_net": 156,
-   "psa9_net": 781
   },
   {
    "title": "Pokemon- Terrakion 064/059 Black & White Cold Flare (JPN)",
@@ -11426,7 +11933,7 @@
    "gap": -0.19,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -5,
+   "psa8_net": 0,
    "psa9_net": 248
   },
   {
@@ -12687,15 +13194,15 @@
     "g10": 6405
    },
    "basis": {
-    "n90": 14,
+    "n90": 13,
     "last": "2026-11-09",
     "basis": "90-day median",
     "pc_avg": 290.74,
     "grade": "raw (NM)"
    },
-   "value": 456,
-   "landed": 529,
-   "gap": 0.12,
+   "value": 497,
+   "landed": 575,
+   "gap": 0.03,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": 409,
@@ -13002,15 +13509,15 @@
     "g10": 9214
    },
    "basis": {
-    "n90": 28,
+    "n90": 27,
     "last": "2026-11-11",
     "basis": "90-day median",
     "pc_avg": 109.63,
     "grade": "raw (NM)"
    },
-   "value": 165,
-   "landed": 209,
-   "gap": 1.49,
+   "value": 157,
+   "landed": 200,
+   "gap": 1.62,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 231,
@@ -13137,15 +13644,15 @@
     "g10": 12810
    },
    "basis": {
-    "n90": 30,
+    "n90": 29,
     "last": "2026-11-14",
     "basis": "90-day median",
     "pc_avg": 152.05,
     "grade": "raw (NM)"
    },
-   "value": 227,
-   "landed": 277,
-   "gap": 0.63,
+   "value": 234,
+   "landed": 284,
+   "gap": 0.59,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 853,
@@ -13205,7 +13712,7 @@
     "g10": 6803
    },
    "basis": {
-    "n90": 23,
+    "n90": 21,
     "last": "2026-11-07",
     "basis": "90-day median",
     "pc_avg": 92.5,
@@ -13250,15 +13757,15 @@
     "g10": 3209
    },
    "basis": {
-    "n90": 11,
+    "n90": 10,
     "last": "2026-11-03",
     "basis": "90-day median",
     "pc_avg": 62.98,
     "grade": "raw (NM)"
    },
-   "value": 95,
-   "landed": 132,
-   "gap": 2.27,
+   "value": 88,
+   "landed": 124,
+   "gap": 2.53,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -273,
@@ -14043,7 +14550,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": 1121,
-   "psa9_net": 2872
+   "psa9_net": 2910
   },
   {
    "title": "Pokemon - Shining Celebi 106/105 Neo Destiny",
@@ -14301,15 +14808,15 @@
     "g10": 35613
    },
    "basis": {
-    "n90": 31,
+    "n90": 30,
     "last": "2026-11-14",
     "basis": "90-day median",
     "pc_avg": 278.89,
     "grade": "raw (NM)"
    },
-   "value": 422,
-   "landed": 492,
-   "gap": 0.68,
+   "value": 429,
+   "landed": 500,
+   "gap": 0.66,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 209,
@@ -14448,7 +14955,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": 380,
-   "psa9_net": 750
+   "psa9_net": 864
   },
   {
    "title": "Pokemon - Charizard 4/102 Holo Base Set Unlimited",
@@ -14666,15 +15173,15 @@
     "g10": 15512
    },
    "basis": {
-    "n90": 30,
+    "n90": 29,
     "last": "2026-11-16",
     "basis": "90-day median",
     "pc_avg": 185.3,
     "grade": "raw (NM)"
    },
-   "value": 280,
+   "value": 281,
    "landed": 336,
-   "gap": 1.18,
+   "gap": 1.17,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 504,
@@ -14711,13 +15218,13 @@
     "g10": 15512
    },
    "basis": {
-    "n90": 30,
+    "n90": 29,
     "last": "2026-11-16",
     "basis": "90-day median",
     "pc_avg": 185.3,
     "grade": "raw (NM)"
    },
-   "value": 280,
+   "value": 281,
    "landed": 336,
    "gap": 0.82,
    "thin": false,
@@ -14980,7 +15487,7 @@
    "gap": 0.43,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 33,
+   "psa8_net": 14,
    "psa9_net": 892
   },
   {
@@ -15019,15 +15526,15 @@
     "g10": 3691
    },
    "basis": {
-    "n90": 47,
+    "n90": 46,
     "last": "2026-11-16",
     "basis": "90-day median",
     "pc_avg": 76.77,
     "grade": "raw (NM)"
    },
-   "value": 117,
-   "landed": 156,
-   "gap": 0.8,
+   "value": 116,
+   "landed": 155,
+   "gap": 0.82,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -75,
@@ -16216,7 +16723,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -384,
-   "psa9_net": -340
+   "psa9_net": -342
   },
   {
    "title": "Pokemon - Ekans 46/62 1ST Edition PSA 10",
@@ -18181,15 +18688,15 @@
     "g10": 698
    },
    "basis": {
-    "n90": 14,
+    "n90": 13,
     "last": "2026-11-13",
     "basis": "90-day median",
     "pc_avg": 62.5,
     "grade": "PSA 9"
    },
-   "value": 103,
-   "landed": 163,
-   "gap": 0.47,
+   "value": 101,
+   "landed": 161,
+   "gap": 0.5,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -18310,9 +18817,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-9-vaporeon-134-holo-jungle-japanese",
    "listed": "2026-08-19",
-   "price": 499.0,
+   "price": 399.0,
    "post": 12.0,
-   "cost": 511.0,
+   "cost": 411.0,
    "grader": "PSA",
    "grade": "9",
    "jp": true,
@@ -18344,9 +18851,9 @@
    },
    "value": 431,
    "landed": 524,
-   "gap": 0.19,
+   "gap": -0.05,
    "thin": false,
-   "signal": "OVER-US"
+   "signal": "FAIR"
   },
   {
    "title": "Pokemon PSA 10 Blastoise ex 202/165 Special Art Rare Japanese",
@@ -18789,15 +19296,15 @@
     "g10": 5162
    },
    "basis": {
-    "n90": 4,
+    "n90": 3,
     "last": "2026-11-13",
     "basis": "90-day median",
     "pc_avg": 152.5,
     "grade": "PSA 7"
    },
-   "value": 220,
-   "landed": 291,
-   "gap": 0.19,
+   "value": 230,
+   "landed": 302,
+   "gap": 0.13,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -20055,7 +20562,7 @@
     "g10": 793
    },
    "basis": {
-    "n90": 30,
+    "n90": 29,
     "last": "2026-11-17",
     "basis": "90-day median",
     "pc_avg": 526.0,
@@ -20098,15 +20605,15 @@
     "g10": 176
    },
    "basis": {
-    "n90": 7,
+    "n90": 6,
     "last": "2026-10-12",
     "basis": "90-day median",
     "pc_avg": 116.57,
     "grade": "PSA 10"
    },
-   "value": 192,
-   "landed": 261,
-   "gap": 0.1,
+   "value": 187,
+   "landed": 255,
+   "gap": 0.13,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -20828,7 +21335,7 @@
     "g10": 121
    },
    "basis": {
-    "n90": 27,
+    "n90": 25,
     "last": "2026-11-11",
     "basis": "90-day median",
     "pc_avg": 80.15,
@@ -20870,15 +21377,15 @@
     "g10": 86
    },
    "basis": {
-    "n90": 8,
+    "n90": 7,
     "last": "2026-11-09",
     "basis": "90-day median",
     "pc_avg": 56.79,
     "grade": "PSA 10"
    },
-   "value": 94,
-   "landed": 153,
-   "gap": 0.39,
+   "value": 92,
+   "landed": 151,
+   "gap": 0.42,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -21500,29 +22007,6 @@
    "signal": "OVER-US"
   },
   {
-   "title": "Pokemon - PSA 10 - Mega Gardevoir Ex 226/193 - Mega Evolutions",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-cgc-10-mega-gardevoir-ex-178-132-mega-evolutions-copy",
-   "listed": "2026-06-08",
-   "price": 69.0,
-   "post": 12.0,
-   "cost": 81.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=mega+gardevoir+ex+%28226%2F193%2C226%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=mega+gardevoir+ex+%28226%2F193%2C226%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=mega+gardevoir+ex+%28226%2F193%2C226%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mega+gardevoir+ex+%28226%2F193%2C226%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-mega-evolution/mega-lucario-ex-179)"
-  },
-  {
    "title": "Pokemon - PSA 10 Leafeon SVP170",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-10-leafeon-svp170",
@@ -21978,92 +22462,6 @@
    "signal": "OVER"
   },
   {
-   "title": "Pokemon - Squirtle - Base Set 2 - 93/130 - PSA 10 GEM MT",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-squirtle-base-set-2-93-130-psa-10-gem-mt",
-   "listed": "2026-05-11",
-   "price": 349.0,
-   "post": 12.0,
-   "cost": 361.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+base+set+%2893%2F130%2C93%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+base+set+%2893%2F130%2C93%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+base+set+%2893%2F130%2C93%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+base+set+%2893%2F130%2C93%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-base-set-2/squirtle-93",
-   "matched": "Squirtle #93   Pokemon Base Set 2",
-   "aud": {
-    "raw": 4,
-    "g7": 26,
-    "g8": 33,
-    "g9": 68,
-    "g95": 75,
-    "g10": 377
-   },
-   "basis": {
-    "n90": 4,
-    "last": "2026-10-19",
-    "basis": "90-day median",
-    "pc_avg": 250.0,
-    "grade": "PSA 10"
-   },
-   "value": 346,
-   "landed": 430,
-   "gap": 0.04,
-   "thin": false,
-   "signal": "OVER-US"
-  },
-  {
-   "title": "Pokemon - Wartortle - Base Set 2 - 63/130 - PSA 10 GEM MT",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-wartortle-base-set-2-63-130-psa-10-gem-mt",
-   "listed": "2026-05-11",
-   "price": 299.0,
-   "post": 12.0,
-   "cost": 311.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=wartortle+base+set+%2863%2F130%2C63%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-base-set-2/wartortle-w-stamp-63",
-   "matched": "Wartortle [W Stamp] #63   Pokemon Base Set 2",
-   "aud": {
-    "raw": 67,
-    "g7": 63,
-    "g8": 78,
-    "g9": 285,
-    "g95": 313,
-    "g10": 8288
-   },
-   "basis": {
-    "n90": 1,
-    "last": "2026-09-22",
-    "basis": "PriceCharting average",
-    "thin": true,
-    "grade": "PSA 10"
-   },
-   "value": 8288,
-   "landed": 9167,
-   "gap": -0.96,
-   "thin": true,
-   "signal": "UNDER"
-  },
-  {
    "title": "Pokemon - Guzma STAFF - PSA 8 - 115a/147 Rev. Foil Regional Championships",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-guzma-staff-psa-8-115a-147-rev-foil-regional-championships",
@@ -22317,7 +22715,7 @@
     "g10": 561
    },
    "basis": {
-    "n90": 45,
+    "n90": 44,
     "last": "2026-11-15",
     "basis": "90-day median",
     "pc_avg": 12.89,
@@ -22373,8 +22771,8 @@
    "gap": 1.29,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -61,
-   "psa9_net": -21
+   "psa8_net": -62,
+   "psa9_net": -22
   },
   {
    "title": "Fighting Energy 97/102 1st Edition Shadowless Base Set 1999 NM",
@@ -22825,29 +23223,6 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-hidden-fates/pikachu-19)"
   },
   {
-   "title": "Pokemon- Brilliant Stars ETB Sword & Shield",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-brilliant-stars-etb-sword-shield-copy",
-   "listed": "",
-   "price": 329.0,
-   "post": 0.0,
-   "cost": 329.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+ETB+Sword+%26+Shield&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+ETB+Sword+%26+Shield&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+ETB+Sword+%26+Shield&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+ETB+Sword+%26+Shield&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-brilliant-stars/flareon-tg01)"
-  },
-  {
    "title": "Pokemon- Temporal Forces ETB Scarlet & Violet",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-scarlet-violet-temporal-forces-elite-trainer-box",
@@ -22869,6 +23244,29 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-temporal-forces/gastly-177)"
+  },
+  {
+   "title": "Pokemon- Brilliant Stars ETB Sword & Shield",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-brilliant-stars-etb-sword-shield-copy",
+   "listed": "",
+   "price": 329.0,
+   "post": 0.0,
+   "cost": 329.0,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+ETB+Sword+%26+Shield&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+ETB+Sword+%26+Shield&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+ETB+Sword+%26+Shield&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+ETB+Sword+%26+Shield&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-brilliant-stars/flareon-tg01)"
   },
   {
    "title": "Pokemon- Perfect Order ETB",
@@ -22915,46 +23313,6 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-evolving-skies/booster-box)"
-  },
-  {
-   "title": "Pokemon- Scarlet & Violet Base booster box",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-scarlet-violet-base-booster-box",
-   "listed": "",
-   "price": 449.0,
-   "post": 0.0,
-   "cost": 449.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/base-set-booster-box",
-   "matched": "Base Set Booster Box   Pokemon Scarlet & Violet",
-   "aud": {
-    "raw": 406
-   },
-   "basis": {
-    "n90": 60,
-    "last": "2026-11-18",
-    "basis": "90-day median",
-    "pc_avg": 269.26,
-    "grade": "raw (NM)"
-   },
-   "value": 433,
-   "landed": 504,
-   "gap": 0.04,
-   "thin": false,
-   "signal": "OVER-US",
-   "psa8_net": null,
-   "psa9_net": null
   },
   {
    "title": "Pokemon- Surging Sparks Booster Box- Scarlet & Violet",
@@ -23026,6 +23384,29 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-sword-&-shield/snorlax-140)"
   },
   {
+   "title": "Pokemon- Paradox Rift booster box. Scarlett & Violet",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-paradox-rift-booster-box-scarlett-violet-1",
+   "listed": "",
+   "price": 479.0,
+   "post": 0.0,
+   "cost": 479.0,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Paradox+Rift+booster+box.+Scarlett+%26+Violet&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Paradox+Rift+booster+box.+Scarlett+%26+Violet&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Paradox+Rift+booster+box.+Scarlett+%26+Violet&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Paradox+Rift+booster+box.+Scarlett+%26+Violet&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-paradox-rift/groudon-199)"
+  },
+  {
    "title": "Pokemon-Stellar Crown Booster Box Scarlet & Violet",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-tcg-scarlet-violet-stellar-crown-booster-box",
@@ -23051,7 +23432,7 @@
   {
    "title": "Pokemon- Paradox Rift booster box. Scarlett & Violet",
    "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-paradox-rift-booster-box-scarlett-violet-1",
+   "url": "https://megacash.com.au/products/pokemon-paradox-rift-booster-box-scarlett-violet-3",
    "listed": "",
    "price": 479.0,
    "post": 0.0,
@@ -23072,27 +23453,44 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-paradox-rift/groudon-199)"
   },
   {
-   "title": "Pokemon- Paradox Rift booster box. Scarlett & Violet",
+   "title": "Pokemon- Scarlet & Violet Base booster box",
    "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-paradox-rift-booster-box-scarlett-violet-3",
+   "url": "https://megacash.com.au/products/pokemon-scarlet-violet-base-booster-box",
    "listed": "",
-   "price": 479.0,
+   "price": 449.0,
    "post": 0.0,
-   "cost": 479.0,
+   "cost": 449.0,
    "grader": null,
    "grade": null,
    "jp": false,
    "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Paradox+Rift+booster+box.+Scarlett+%26+Violet&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Paradox+Rift+booster+box.+Scarlett+%26+Violet&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Paradox+Rift+booster+box.+Scarlett+%26+Violet&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Paradox+Rift+booster+box.+Scarlett+%26+Violet&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": null,
    "auction": false,
    "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-paradox-rift/groudon-199)"
+   "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/base-set-booster-box",
+   "matched": "Base Set Booster Box   Pokemon Scarlet & Violet",
+   "aud": {
+    "raw": 406
+   },
+   "basis": {
+    "n90": 60,
+    "last": "2026-11-18",
+    "basis": "90-day median",
+    "pc_avg": 269.26,
+    "grade": "raw (NM)"
+   },
+   "value": 433,
+   "landed": 504,
+   "gap": 0.04,
+   "thin": false,
+   "signal": "OVER-US",
+   "psa8_net": null,
+   "psa9_net": null
   },
   {
    "title": "Pokemon- Sword & Shield BASE booster box",
@@ -23129,6 +23527,46 @@
    "value": 859,
    "landed": 972,
    "gap": 0.1,
+   "thin": false,
+   "signal": "OVER-US",
+   "psa8_net": null,
+   "psa9_net": null
+  },
+  {
+   "title": "Pokemon - Chilling Reign Booster Box",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-chilling-reign-booster-box",
+   "listed": "",
+   "price": 729.0,
+   "post": 0.0,
+   "cost": 729.0,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Chilling+Reign+Booster+Box&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Chilling+Reign+Booster+Box&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Chilling+Reign+Booster+Box&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Chilling+Reign+Booster+Box&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-chilling-reign/booster-box?q=chilling+reign+booster+box",
+   "matched": "Booster Box   Pokemon Chilling Reign",
+   "aud": {
+    "raw": 643
+   },
+   "basis": {
+    "n90": 60,
+    "last": "2026-11-18",
+    "basis": "90-day median",
+    "pc_avg": 426.89,
+    "grade": "raw (NM)"
+   },
+   "value": 670,
+   "landed": 765,
+   "gap": 0.09,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": null,
@@ -23175,27 +23613,44 @@
    "psa9_net": null
   },
   {
-   "title": "Pokemon- Paldea Evolved Booster Box - Scarlet & Violet",
+   "title": "Pokemon Chaos Rising Booster Box",
    "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-paldea-evolved-booster-box-scarlet-violet-2",
+   "url": "https://megacash.com.au/products/pokemon-chaos-rising-booster-box",
    "listed": "",
-   "price": 679.0,
+   "price": 329.0,
    "post": 0.0,
-   "cost": 679.0,
+   "cost": 329.0,
    "grader": null,
    "grade": null,
    "jp": false,
    "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Chaos+Rising+Booster+Box&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Chaos+Rising+Booster+Box&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Chaos+Rising+Booster+Box&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Chaos+Rising+Booster+Box&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": null,
    "auction": false,
    "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-paldea-evolved/raichu-211)"
+   "pc": "https://www.pricecharting.com/game/pokemon-chaos-rising/booster-box",
+   "matched": "Booster Box   Pokemon Chaos Rising",
+   "aud": {
+    "raw": 243
+   },
+   "basis": {
+    "n90": 60,
+    "last": "2026-11-23",
+    "basis": "90-day median",
+    "pc_avg": 161.14,
+    "grade": "raw (NM)"
+   },
+   "value": 273,
+   "landed": 327,
+   "gap": 0.21,
+   "thin": false,
+   "signal": "OVER",
+   "psa8_net": null,
+   "psa9_net": null
   }
  ]
 }
