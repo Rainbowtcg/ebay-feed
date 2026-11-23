@@ -55,3 +55,6 @@ beholdgames.com.au | Behold Games | AU | shopify | auto
 tcg.irresistibleforce.com.au | Irresistible Force | AU | shopify | auto
 gamesportal.com.au | Games Portal | AU | shopify | auto
 otakumart.co.nz | Otaku Mart | NZ | shopify | auto
+# Japanese shop (added 23 Nov 2026). English titles via /en; vintage-to-XY series collections only, so modern stock stays out.
+# store_scan.py keeps only cards from ¥1,500 up, skips commons/uncommons and lower-condition copies.
+www.hareruya2.com/en | Hareruya 2 | JP | shopify | pmcg,neo,vs,web,e,adv,pcg,dp,dpt,legend,bw,xy,generations | JPY

@@ -31,6 +31,28 @@ def get(url, tries=3):
         time.sleep(5 * (attempt + 1))
 
 
+# Japanese shops (Hareruya 2): big catalogues of every card, so keep only what's worth a look:
+# at least JP_MIN yen, not common/uncommon, not a lower-condition copy. Titles get "Japanese Pokemon" in front so the
+# finder files them as Japanese cards. (Hareruya 2: a title with no condition note is condition A, i.e. near mint.)
+JP_MIN = 1500
+JP_LOW_RARITY = re.compile(r"\((C|U)\)")
+JP_LOW_COND = re.compile(r"状態\s*[B-D]|condition\s*:?\s*[B-D]\b|\[[B-D]\]|【[B-D]】|played|damaged?|scratch|傷", re.I)
+
+
+def jp_keep(r):
+    try:
+        price = float(r["price"])
+    except (TypeError, ValueError):
+        return False
+    return price >= JP_MIN and not JP_LOW_RARITY.search(r["title"]) and not JP_LOW_COND.search(r["title"])
+
+
+def jp_tidy(r):
+    if not re.search(r"japan", r["title"], re.I):
+        r["title"] = "Japanese Pokemon " + r["title"]
+    return r
+
+
 AUTO_RX = re.compile(r"graded|slab|psa|cgc", re.I)
 POKE_RX = re.compile(r"pok[eé]mon", re.I)
 SEALED_Q = ["elite trainer box", "pokemon elite trainer box", "pokemon booster box", "japanese booster box"]
@@ -306,6 +328,8 @@ def main():
                 continue
             if raw:
                 rows = [r for r in rows if keep_raw(r["title"])]
+            if s["country"] == "JP":
+                rows = [jp_tidy(r) for r in rows if jp_keep(r)]
             for r in rows:
                 if r["id"] in seen:
                     continue
