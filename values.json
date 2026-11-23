@@ -1,6 +1,6 @@
 {
  "note": "Card values in A$ by grade. tg: rows come from the Slab Finder's TG benchmarks; others from PriceCharting (US$ x 1.4232). Edit or add entries freely: num = card number as printed (leading zeros dropped, or No.151 for old Japanese), words = name words that must all be in the title, keys = set words (any one must be in the title; empty = number is enough), first = 1st Edition only, rev = reverse/mirror only. slab = played-copy grading targets: low = typical low-grade (lowg) sale A$, mid = PSA 7 sale A$; the feed lists raw copies where grading clears fees.",
- "updated": "2026-11-21",
+ "updated": "2026-11-23",
  "cards": [
   {
    "id": "tg:Fossil 1st Edition Hypno 8/62",
@@ -17,16 +17,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 94,
-    "PSA 9": 520,
-    "PSA 10": 7322,
-    "PSA 7": 123,
-    "PSA 8": 205
+    "Raw": 140,
+    "PSA 9": 527,
+    "PSA 10": 7436,
+    "PSA 7": 133,
+    "PSA 8": 212,
+    "PSA 4": 43,
+    "PSA 5": 66,
+    "PSA 6": 121
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/hypno-1st-edition-8",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Gym Heroes 1st Edition Blaine's Moltres 1/132",
@@ -49,7 +56,7 @@
     "PSA 10": 23122
    },
    "src": "Finder benchmark (PriceCharting/pokemon-gym-heroes/blaine's-moltres-1st-edition-1)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Expedition Blastoise 4/165 (reverse holo)",
@@ -66,16 +73,23 @@
    "sl": false,
    "rev": true,
    "g": {
-    "Raw": 341,
-    "PSA 9": 2486,
+    "Raw": 463,
+    "PSA 9": 2524,
     "PSA 10": 5806,
-    "PSA 7": 456,
-    "PSA 8": 523
+    "PSA 7": 657,
+    "PSA 8": 663,
+    "PSA 4": 196,
+    "PSA 5": 226,
+    "PSA 6": 381
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-expedition/blastoise-reverse-holo-4",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:EX Team Rocket Returns Dark Octillery 8/109",
@@ -94,16 +108,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 33,
-    "PSA 9": 159,
-    "PSA 10": 1038,
-    "PSA 7": 58,
-    "PSA 8": 96
+    "Raw": 48,
+    "PSA 9": 161,
+    "PSA 10": 1053,
+    "PSA 7": 59,
+    "PSA 8": 105,
+    "PSA 4": 15,
+    "PSA 5": 17,
+    "PSA 6": 33
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-team-rocket-returns/dark-octillery-8",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -127,7 +147,7 @@
     "PSA 10": 9901
    },
    "src": "Finder benchmark (PriceCharting/pokemon-stormfront/raichu-lv-x-99)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Expedition Dugtrio 10/165",
@@ -144,16 +164,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 92,
-    "PSA 9": 991,
-    "PSA 10": 14181,
-    "PSA 7": 204,
-    "PSA 8": 433
+    "Raw": 95,
+    "PSA 9": 1006,
+    "PSA 10": 14353,
+    "PSA 7": 226,
+    "PSA 8": 428,
+    "PSA 4": 59,
+    "PSA 5": 69,
+    "PSA 6": 87
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-expedition/dugtrio-10",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -175,16 +201,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 594,
-    "PSA 7": 1158,
-    "PSA 8": 1782,
-    "PSA 9": 4491,
-    "PSA 10": 53097
+    "Raw": 1017,
+    "PSA 7": 1133,
+    "PSA 8": 1864,
+    "PSA 9": 4066,
+    "PSA 10": 49641,
+    "PSA 4": 568,
+    "PSA 5": 620,
+    "PSA 6": 795
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/charizard-4",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Shadowless Charizard 4/102",
@@ -204,16 +237,22 @@
    "sl": true,
    "rev": false,
    "g": {
-    "PSA 9": 17405,
-    "Raw": 1492,
-    "PSA 7": 5639,
-    "PSA 8": 9021,
-    "PSA 10": 36825
+    "PSA 9": 17670,
+    "Raw": 1875,
+    "PSA 7": 5650,
+    "PSA 8": 9158,
+    "PSA 10": 37386,
+    "PSA 4": 1891,
+    "PSA 5": 2487,
+    "PSA 6": 3457
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/charizard-shadowless-4",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -235,16 +274,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 140,
-    "PSA 7": 375,
-    "PSA 8": 527,
-    "PSA 9": 1388,
-    "PSA 10": 16941
+    "Raw": 320,
+    "PSA 7": 373,
+    "PSA 8": 539,
+    "PSA 9": 1301,
+    "PSA 10": 16984,
+    "PSA 4": 147,
+    "PSA 5": 187,
+    "PSA 6": 203
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/blastoise-2",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Venusaur 15/102",
@@ -264,16 +310,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 103,
+    "Raw": 211,
     "PSA 7": 309,
-    "PSA 8": 416,
-    "PSA 9": 868,
-    "PSA 10": 6383
+    "PSA 8": 392,
+    "PSA 9": 849,
+    "PSA 10": 6480,
+    "PSA 4": 121,
+    "PSA 5": 136,
+    "PSA 6": 201
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/venusaur-15",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Shadowless Venusaur 15/102",
@@ -293,16 +346,22 @@
    "sl": true,
    "rev": false,
    "g": {
-    "Raw": 293,
-    "PSA 7": 629,
-    "PSA 8": 1257,
-    "PSA 9": 2820,
-    "PSA 10": 15341
+    "Raw": 286,
+    "PSA 7": 659,
+    "PSA 8": 1271,
+    "PSA 9": 2863,
+    "PSA 10": 15574,
+    "PSA 4": 354,
+    "PSA 5": 388,
+    "PSA 6": 550
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/venusaur-shadowless-15",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -324,16 +383,22 @@
    "sl": true,
    "rev": false,
    "g": {
-    "PSA 7": 197,
-    "PSA 8": 327,
-    "Raw": 77,
-    "PSA 9": 883,
-    "PSA 10": 14035
+    "PSA 7": 213,
+    "PSA 8": 334,
+    "Raw": 181,
+    "PSA 9": 829,
+    "PSA 10": 14249,
+    "PSA 4": 72,
+    "PSA 5": 85,
+    "PSA 6": 128
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/ninetales-shadowless-12",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -355,16 +420,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 8": 189,
+    "PSA 8": 192,
     "PSA 9": 530,
-    "Raw": 48,
-    "PSA 7": 112,
-    "PSA 10": 6234
+    "Raw": 98,
+    "PSA 7": 114,
+    "PSA 10": 6329,
+    "PSA 4": 62,
+    "PSA 5": 68,
+    "PSA 6": 94
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/raichu-14",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Ninetales 12/102",
@@ -384,16 +456,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 8": 166,
-    "PSA 9": 201,
-    "Raw": 23,
-    "PSA 7": 80,
-    "PSA 10": 2820
+    "PSA 8": 168,
+    "PSA 9": 204,
+    "Raw": 49,
+    "PSA 7": 81,
+    "PSA 10": 2863,
+    "PSA 4": 43,
+    "PSA 5": 49,
+    "PSA 6": 53
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/ninetales-12",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Nidoking 11/102",
@@ -413,16 +492,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 9": 268,
-    "Raw": 27,
-    "PSA 7": 84,
-    "PSA 8": 146,
-    "PSA 10": 2969
+    "PSA 9": 272,
+    "Raw": 57,
+    "PSA 7": 85,
+    "PSA 8": 148,
+    "PSA 10": 3014,
+    "PSA 4": 38,
+    "PSA 5": 47,
+    "PSA 6": 68
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/nidoking-11",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Shadowless Nidoking 11/102",
@@ -442,16 +528,23 @@
    "sl": true,
    "rev": false,
    "g": {
-    "PSA 8": 367,
+    "PSA 8": 373,
     "Raw": 82,
-    "PSA 7": 208,
-    "PSA 9": 965,
-    "PSA 10": 17468
+    "PSA 7": 215,
+    "PSA 9": 942,
+    "PSA 10": 17734,
+    "PSA 4": 63,
+    "PSA 5": 101,
+    "PSA 6": 154
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/nidoking-shadowless-11",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Chansey 3/102",
@@ -471,16 +564,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 9": 361,
-    "Raw": 26,
-    "PSA 7": 73,
-    "PSA 8": 134,
-    "PSA 10": 11417
+    "PSA 9": 505,
+    "Raw": 77,
+    "PSA 7": 75,
+    "PSA 8": 143,
+    "PSA 10": 11718,
+    "PSA 4": 42,
+    "PSA 5": 43,
+    "PSA 6": 60
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/chansey-3",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -502,16 +601,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 10": 633,
-    "Raw": 4,
-    "PSA 7": 42,
-    "PSA 8": 45,
-    "PSA 9": 76
+    "PSA 10": 643,
+    "Raw": 5,
+    "PSA 7": 47,
+    "PSA 8": 51,
+    "PSA 9": 78,
+    "PSA 4": 25,
+    "PSA 5": 26,
+    "PSA 6": 32
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/magikarp-35",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Charmeleon 24/102",
@@ -531,16 +637,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 10": 375,
-    "Raw": 3,
-    "PSA 7": 53,
-    "PSA 8": 45,
-    "PSA 9": 78
+    "PSA 10": 381,
+    "Raw": 6,
+    "PSA 7": 54,
+    "PSA 8": 44,
+    "PSA 9": 79,
+    "PSA 4": 17,
+    "PSA 5": 19,
+    "PSA 6": 30
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/charmeleon-24",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Shadowless Charmeleon 24/102",
@@ -560,16 +673,23 @@
    "sl": true,
    "rev": false,
    "g": {
-    "PSA 10": 751,
-    "Raw": 13,
+    "PSA 10": 744,
+    "Raw": 29,
     "PSA 7": 50,
     "PSA 8": 59,
-    "PSA 9": 162
+    "PSA 9": 163,
+    "PSA 4": 31,
+    "PSA 5": 37,
+    "PSA 6": 39
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/charmeleon-shadowless-24",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Wartortle 42/102",
@@ -589,16 +709,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 10": 456,
-    "Raw": 5,
-    "PSA 7": 59,
-    "PSA 8": 56,
-    "PSA 9": 135
+    "PSA 10": 463,
+    "Raw": 7,
+    "PSA 7": 60,
+    "PSA 8": 53,
+    "PSA 9": 137,
+    "PSA 4": 21,
+    "PSA 5": 39,
+    "PSA 6": 45
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/wartortle-42",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set 1st Edition Raichu 14/102",
@@ -618,16 +745,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 594,
-    "PSA 7": 1370,
-    "PSA 8": 2377,
-    "PSA 9": 6234,
-    "PSA 10": 13264
+    "Raw": 769,
+    "PSA 7": 1409,
+    "PSA 8": 2339,
+    "PSA 9": 6405,
+    "PSA 10": 13466,
+    "PSA 4": 678,
+    "PSA 5": 832,
+    "PSA 6": 933
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/raichu-1st-edition-14",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -646,16 +779,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 7": 191,
-    "PSA 8": 330,
-    "Raw": 71,
-    "PSA 9": 1369,
-    "PSA 10": 17667
+    "PSA 7": 192,
+    "PSA 8": 339,
+    "Raw": 87,
+    "PSA 9": 1390,
+    "PSA 10": 17911,
+    "PSA 4": 41,
+    "PSA 5": 47,
+    "PSA 6": 90
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/vaporeon-no-symbol-12",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -674,16 +813,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 10": 1106,
-    "Raw": 20,
+    "PSA 10": 1123,
+    "Raw": 22,
     "PSA 7": 37,
     "PSA 8": 66,
-    "PSA 9": 147
+    "PSA 9": 149,
+    "PSA 4": 23,
+    "PSA 5": 27,
+    "PSA 6": 35
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/eevee-1st-edition-51",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Team Rocket Dark Charizard 4/82",
@@ -702,16 +848,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 371,
-    "PSA 7": 553,
-    "PSA 8": 727,
-    "PSA 9": 1134,
-    "PSA 10": 21922
+    "Raw": 550,
+    "PSA 7": 561,
+    "PSA 8": 738,
+    "PSA 9": 1151,
+    "PSA 10": 22256,
+    "PSA 4": 258,
+    "PSA 5": 362,
+    "PSA 6": 395
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-team-rocket/dark-charizard-4",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -732,16 +884,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 1125,
-    "PSA 7": 1352,
-    "PSA 8": 1780,
-    "PSA 9": 4232,
-    "PSA 10": 35017
+    "Raw": 1262,
+    "PSA 7": 1356,
+    "PSA 8": 1771,
+    "PSA 9": 4234,
+    "PSA 10": 35550,
+    "PSA 4": 742,
+    "PSA 5": 896,
+    "PSA 6": 1077
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-team-rocket/dark-charizard-1st-edition-4",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Neo Genesis Lugia 9/111",
@@ -759,16 +918,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 603,
-    "PSA 7": 1351,
-    "PSA 8": 2598,
-    "PSA 9": 3563,
-    "PSA 10": 47649
+    "Raw": 849,
+    "PSA 7": 1316,
+    "PSA 8": 2713,
+    "PSA 9": 3617,
+    "PSA 10": 48375,
+    "PSA 4": 601,
+    "PSA 5": 646,
+    "PSA 6": 840
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-neo-genesis/lugia-9",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -788,16 +953,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 2932,
-    "PSA 7": 5975,
-    "PSA 8": 7570,
-    "PSA 9": 20485,
-    "PSA 10": 25472
+    "Raw": 5274,
+    "PSA 7": 5803,
+    "PSA 8": 7686,
+    "PSA 9": 17858,
+    "PSA 10": 19570,
+    "PSA 4": 2260,
+    "PSA 5": 3240,
+    "PSA 6": 4182
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-neo-genesis/lugia-1st-edition-9",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -817,16 +988,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 10": 1470,
-    "Raw": 10,
-    "PSA 7": 63,
-    "PSA 8": 74,
-    "PSA 9": 121
+    "PSA 10": 1492,
+    "Raw": 15,
+    "PSA 7": 64,
+    "PSA 8": 75,
+    "PSA 9": 116,
+    "PSA 4": 20,
+    "PSA 5": 36,
+    "PSA 6": 38
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-neo-genesis/pikachu-70",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Neo Genesis 1st Edition Pikachu 70/111",
@@ -844,16 +1022,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 10": 3110,
-    "Raw": 52,
-    "PSA 7": 111,
-    "PSA 8": 78,
-    "PSA 9": 315
+    "PSA 10": 3157,
+    "Raw": 53,
+    "PSA 7": 113,
+    "PSA 8": 87,
+    "PSA 9": 307,
+    "PSA 4": 37,
+    "PSA 5": 38,
+    "PSA 6": 47
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-neo-genesis/pikachu-1st-edition-70",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Neo Revelation Suicune 14/64",
@@ -871,17 +1056,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 7": 341,
-    "PSA 8": 667,
-    "Raw": 176,
-    "PSA 9": 1281,
-    "PSA 10": 5548
+    "PSA 7": 347,
+    "PSA 8": 677,
+    "Raw": 324,
+    "PSA 9": 1300,
+    "PSA 10": 5548,
+    "PSA 4": 158,
+    "PSA 5": 185,
+    "PSA 6": 234
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-neo-revelation/suicune-14",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
-    "PSA 10"
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
    ]
   },
   {
@@ -902,7 +1092,7 @@
     "PSA 8": 801
    },
    "src": "Finder benchmark (PriceCharting/pokemon-legendary-collection/gengar-11)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Legendary Collection Gengar 11/110 (reverse)",
@@ -919,16 +1109,22 @@
    "sl": false,
    "rev": true,
    "g": {
-    "PSA 8": 13360,
-    "Raw": 3271,
-    "PSA 7": 11431,
-    "PSA 9": 44532,
-    "PSA 10": 308278
+    "PSA 8": 13563,
+    "Raw": 5021,
+    "PSA 7": 11605,
+    "PSA 9": 45210,
+    "PSA 10": 312971,
+    "PSA 4": 3615,
+    "PSA 5": 4879,
+    "PSA 6": 7751
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-legendary-collection/gengar-reverse-holo-11",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -948,16 +1144,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 8": 442,
-    "Raw": 94,
-    "PSA 7": 260,
-    "PSA 9": 1193,
-    "PSA 10": 2676
+    "PSA 8": 452,
+    "Raw": 136,
+    "PSA 7": 254,
+    "PSA 9": 1211,
+    "PSA 10": 2717,
+    "PSA 4": 77,
+    "PSA 5": 90,
+    "PSA 6": 226
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-legendary-collection/dark-blastoise-holo-4",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -976,16 +1178,22 @@
    "sl": false,
    "rev": true,
    "g": {
-    "PSA 7": 754,
-    "PSA 8": 889,
-    "Raw": 235,
-    "PSA 9": 3321,
-    "PSA 10": 54184
+    "PSA 7": 766,
+    "PSA 8": 903,
+    "Raw": 452,
+    "PSA 9": 3165,
+    "PSA 10": 53030,
+    "PSA 4": 362,
+    "PSA 5": 529,
+    "PSA 6": 577
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-expedition/dragonite-reverse-holo-9",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -1004,16 +1212,22 @@
    "sl": false,
    "rev": true,
    "g": {
-    "PSA 7": 1039,
-    "Raw": 371,
-    "PSA 8": 1386,
-    "PSA 9": 3414,
-    "PSA 10": 17554
+    "PSA 7": 1055,
+    "Raw": 472,
+    "PSA 8": 1408,
+    "PSA 9": 3466,
+    "PSA 10": 17774,
+    "PSA 4": 301,
+    "PSA 5": 543,
+    "PSA 6": 791
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-deoxys/sableye-reverse-holo-23",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -1035,7 +1249,7 @@
     "PSA 8": 501
    },
    "src": "Finder benchmark (PriceCharting/pokemon-unseen-forces/ho-oh-reverse-holo-27)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Supreme Victors Charizard G 20/147 (holo)",
@@ -1057,7 +1271,7 @@
     "PSA 9": 335
    },
    "src": "Finder benchmark (PriceCharting/pokemon-supreme-victors/charizard-g-20)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Plasma Blast Virizion EX 96/101",
@@ -1077,15 +1291,23 @@
    "rev": false,
    "g": {
     "PSA 9": 391,
-    "Raw": 55,
-    "PSA 7": 112,
-    "PSA 8": 157,
-    "PSA 10": 10957
+    "Raw": 78,
+    "PSA 7": 90,
+    "PSA 8": 159,
+    "PSA 10": 11124,
+    "PSA 4": 39,
+    "PSA 5": 45,
+    "PSA 6": 59
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-plasma-blast/virizion-ex-96",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7"
+   ]
   },
   {
    "id": "tg:Flashfire Charizard EX 100/106",
@@ -1102,16 +1324,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 238,
-    "PSA 9": 2077,
-    "PSA 10": 46833,
-    "PSA 7": 434,
-    "PSA 8": 738
+    "Raw": 442,
+    "PSA 9": 2110,
+    "PSA 10": 46868,
+    "PSA 7": 445,
+    "PSA 8": 735,
+    "PSA 4": 151,
+    "PSA 5": 268,
+    "PSA 6": 354
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-flashfire/charizard-ex-100",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Evolutions Charizard 11/108",
@@ -1126,16 +1355,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 9": 332,
-    "Raw": 106,
-    "PSA 7": 150,
-    "PSA 8": 178,
-    "PSA 10": 14250
+    "PSA 9": 315,
+    "Raw": 150,
+    "PSA 7": 151,
+    "PSA 8": 181,
+    "PSA 10": 14919,
+    "PSA 4": 90,
+    "PSA 5": 107,
+    "PSA 6": 134
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-evolutions/charizard-11",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Evolutions M Charizard EX 101/108",
@@ -1150,16 +1386,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 171,
-    "PSA 7": 166,
-    "PSA 8": 155,
-    "PSA 9": 228,
-    "PSA 10": 839
+    "Raw": 181,
+    "PSA 7": 169,
+    "PSA 8": 158,
+    "PSA 9": 232,
+    "PSA 10": 841,
+    "PSA 4": 72,
+    "PSA 5": 84,
+    "PSA 6": 105
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-evolutions/m-charizard-ex-101",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Ancient Origins Lugia EX 94/98",
@@ -1178,16 +1421,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 267,
-    "PSA 7": 475,
-    "PSA 8": 891,
-    "PSA 9": 1948,
-    "PSA 10": 10836
+    "Raw": 335,
+    "PSA 7": 482,
+    "PSA 8": 904,
+    "PSA 9": 1468,
+    "PSA 10": 10700,
+    "PSA 4": 173,
+    "PSA 5": 234,
+    "PSA 6": 403
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-ancient-origins/lugia-ex-94",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Ancient Origins Giratina EX 93/98",
@@ -1206,16 +1456,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 193,
-    "PSA 7": 213,
-    "PSA 8": 371,
-    "PSA 9": 965,
-    "PSA 10": 6828
+    "Raw": 264,
+    "PSA 7": 217,
+    "PSA 8": 392,
+    "PSA 9": 1002,
+    "PSA 10": 6857,
+    "PSA 4": 117,
+    "PSA 5": 134,
+    "PSA 6": 144
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-ancient-origins/giratina-ex-93",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Dark Explorers Raikou EX 105/108",
@@ -1234,16 +1491,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 295,
-    "PSA 7": 430,
-    "PSA 8": 800,
-    "PSA 9": 1893,
-    "PSA 10": 15628
+    "Raw": 390,
+    "PSA 7": 437,
+    "PSA 8": 875,
+    "PSA 9": 2110,
+    "PSA 10": 14539,
+    "PSA 4": 231,
+    "PSA 5": 271,
+    "PSA 6": 339
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-dark-explorers/raikou-ex-105",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 7",
     "PSA 10"
    ]
@@ -1265,16 +1528,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "PSA 9": 1076,
-    "Raw": 157,
-    "PSA 7": 252,
-    "PSA 8": 473,
-    "PSA 10": 10465
+    "PSA 9": 1089,
+    "Raw": 256,
+    "PSA 7": 255,
+    "PSA 8": 430,
+    "PSA 10": 10700,
+    "PSA 4": 110,
+    "PSA 5": 143,
+    "PSA 6": 225
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fates-collide/alakazam-ex-125",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Base Set Charizard No.6",
@@ -1294,16 +1564,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 453,
-    "PSA 9": 4639,
-    "PSA 10": 48489,
-    "PSA 7": 1143,
-    "PSA 8": 1930
+    "Raw": 582,
+    "PSA 9": 4663,
+    "PSA 10": 53725,
+    "PSA 7": 1160,
+    "PSA 8": 1941,
+    "PSA 4": 545,
+    "PSA 5": 660,
+    "PSA 6": 782
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-expansion-pack/charizard-6",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Base Set Blastoise No.9",
@@ -1323,16 +1600,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 88,
-    "PSA 9": 824,
-    "PSA 10": 6457,
-    "PSA 7": 252,
-    "PSA 8": 404
+    "Raw": 117,
+    "PSA 9": 829,
+    "PSA 10": 6442,
+    "PSA 7": 260,
+    "PSA 8": 411,
+    "PSA 4": 149,
+    "PSA 5": 151,
+    "PSA 6": 194
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-expansion-pack/blastoise-9",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Base Set Venusaur No.3",
@@ -1352,16 +1636,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 97,
-    "PSA 9": 730,
-    "PSA 10": 5270,
-    "PSA 7": 199,
-    "PSA 8": 314
+    "Raw": 200,
+    "PSA 9": 761,
+    "PSA 10": 5350,
+    "PSA 7": 202,
+    "PSA 8": 310,
+    "PSA 4": 105,
+    "PSA 5": 130,
+    "PSA 6": 151
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-expansion-pack/venusaur-3",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Base Set Mewtwo No.150",
@@ -1381,16 +1672,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 104,
-    "PSA 9": 804,
-    "PSA 10": 6663,
-    "PSA 7": 176,
-    "PSA 8": 314
+    "Raw": 151,
+    "PSA 9": 806,
+    "PSA 10": 7041,
+    "PSA 7": 179,
+    "PSA 8": 322,
+    "PSA 4": 68,
+    "PSA 5": 80,
+    "PSA 6": 118
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-expansion-pack/mewtwo-150",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Base Set Pikachu No.25 (No Rarity)",
@@ -1410,16 +1708,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 567,
-    "PSA 9": 7960,
-    "PSA 10": 10613,
-    "PSA 7": 1979,
-    "PSA 8": 3377
+    "Raw": 549,
+    "PSA 9": 8156,
+    "PSA 10": 10775,
+    "PSA 7": 2009,
+    "PSA 8": 3315,
+    "PSA 4": 719,
+    "PSA 5": 1271,
+    "PSA 6": 1356
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-expansion-pack/pikachu-no-rarity-25",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -1442,16 +1746,22 @@
    "rev": false,
    "g": {
     "Raw": 40,
-    "PSA 9": 481,
-    "PSA 10": 3976,
-    "PSA 7": 152,
-    "PSA 8": 294
+    "PSA 9": 488,
+    "PSA 10": 4036,
+    "PSA 7": 154,
+    "PSA 8": 298,
+    "PSA 4": 84,
+    "PSA 5": 99,
+    "PSA 6": 124
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-expansion-pack/abra-no-rarity-63",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
     "Raw",
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 7",
     "PSA 9",
     "PSA 10"
@@ -1476,15 +1786,21 @@
    "rev": false,
    "g": {
     "Raw": 53,
-    "PSA 9": 1484,
-    "PSA 10": 3304,
-    "PSA 7": 405,
-    "PSA 8": 698
+    "PSA 9": 1507,
+    "PSA 10": 3354,
+    "PSA 7": 411,
+    "PSA 8": 625,
+    "PSA 4": 56,
+    "PSA 5": 65,
+    "PSA 6": 226
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-expansion-pack/ivysaur-no-rarity-2",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 7",
     "PSA 10"
    ]
@@ -1507,16 +1823,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 30,
-    "PSA 9": 249,
-    "PSA 10": 1854,
-    "PSA 7": 74,
-    "PSA 8": 112
+    "Raw": 38,
+    "PSA 9": 251,
+    "PSA 10": 1882,
+    "PSA 7": 75,
+    "PSA 8": 114,
+    "PSA 4": 26,
+    "PSA 5": 39,
+    "PSA 6": 55
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-expansion-pack/ninetales-38",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Fossil Gengar No.94",
@@ -1534,16 +1857,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 171,
-    "PSA 9": 1191,
-    "PSA 10": 14027,
-    "PSA 7": 394,
-    "PSA 8": 571
+    "Raw": 215,
+    "PSA 9": 1169,
+    "PSA 10": 14240,
+    "PSA 7": 411,
+    "PSA 8": 579,
+    "PSA 4": 181,
+    "PSA 5": 212,
+    "PSA 6": 271
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-mystery-of-the-fossils/gengar-94",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Fossil Dragonite No.149",
@@ -1561,16 +1891,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 119,
-    "PSA 9": 715,
-    "PSA 10": 6162,
-    "PSA 7": 216,
-    "PSA 8": 338
+    "Raw": 174,
+    "PSA 9": 705,
+    "PSA 10": 5728,
+    "PSA 7": 220,
+    "PSA 8": 332,
+    "PSA 4": 96,
+    "PSA 5": 157,
+    "PSA 6": 176
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-mystery-of-the-fossils/dragonite-149",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Fossil Mew No.151",
@@ -1588,16 +1925,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 141,
-    "PSA 9": 876,
-    "PSA 10": 9055,
-    "PSA 7": 263,
-    "PSA 8": 430
+    "Raw": 191,
+    "PSA 9": 856,
+    "PSA 10": 9211,
+    "PSA 7": 270,
+    "PSA 8": 437,
+    "PSA 4": 75,
+    "PSA 5": 88,
+    "PSA 6": 181
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-mystery-of-the-fossils/mew-151",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Fossil Lapras No.131",
@@ -1615,16 +1959,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 27,
-    "PSA 9": 220,
-    "PSA 10": 1855,
-    "PSA 7": 105,
-    "PSA 8": 115
+    "Raw": 45,
+    "PSA 9": 224,
+    "PSA 10": 1884,
+    "PSA 7": 106,
+    "PSA 8": 116,
+    "PSA 4": 39,
+    "PSA 5": 47,
+    "PSA 6": 50
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-mystery-of-the-fossils/lapras-131",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Fossil Haunter No.93",
@@ -1642,16 +1993,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 39,
-    "PSA 9": 277,
-    "PSA 10": 2089,
-    "PSA 7": 104,
-    "PSA 8": 139
+    "Raw": 66,
+    "PSA 9": 275,
+    "PSA 10": 2138,
+    "PSA 7": 105,
+    "PSA 8": 136,
+    "PSA 4": 42,
+    "PSA 5": 61,
+    "PSA 6": 72
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-mystery-of-the-fossils/haunter-93",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Jungle Snorlax No.143",
@@ -1668,16 +2026,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 88,
-    "PSA 9": 589,
-    "PSA 10": 5863,
-    "PSA 7": 174,
-    "PSA 8": 266
+    "Raw": 148,
+    "PSA 9": 588,
+    "PSA 10": 5990,
+    "PSA 7": 181,
+    "PSA 8": 270,
+    "PSA 4": 65,
+    "PSA 5": 75,
+    "PSA 6": 141
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-jungle/snorlax-143",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Jungle Vaporeon No.134",
@@ -1694,16 +2059,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 43,
-    "PSA 9": 425,
-    "PSA 10": 5915,
-    "PSA 7": 101,
-    "PSA 8": 171
+    "Raw": 62,
+    "PSA 9": 431,
+    "PSA 10": 6005,
+    "PSA 7": 107,
+    "PSA 8": 173,
+    "PSA 4": 47,
+    "PSA 5": 56,
+    "PSA 6": 70
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-jungle/vaporeon-134",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Jungle Scyther No.123",
@@ -1720,16 +2092,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 27,
-    "PSA 9": 182,
-    "PSA 10": 1031,
+    "Raw": 36,
+    "PSA 9": 185,
+    "PSA 10": 1130,
     "PSA 7": 39,
-    "PSA 8": 102
+    "PSA 8": 103,
+    "PSA 4": 23,
+    "PSA 5": 35,
+    "PSA 6": 39
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-jungle/scyther-123",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 7"
    ]
   },
@@ -1749,16 +2127,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 215,
-    "PSA 9": 920,
-    "PSA 10": 5938,
-    "PSA 7": 377,
-    "PSA 8": 520
+    "Raw": 377,
+    "PSA 9": 934,
+    "PSA 10": 5897,
+    "PSA 7": 379,
+    "PSA 8": 527,
+    "PSA 4": 197,
+    "PSA 5": 215,
+    "PSA 6": 301
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-rocket-gang/dark-charizard-6",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Rocket Gang Dark Dragonite No.149",
@@ -1776,16 +2161,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 109,
-    "PSA 9": 553,
-    "PSA 10": 4897,
-    "PSA 7": 215,
-    "PSA 8": 317
+    "Raw": 136,
+    "PSA 9": 543,
+    "PSA 10": 4898,
+    "PSA 7": 218,
+    "PSA 8": 319,
+    "PSA 4": 127,
+    "PSA 5": 133,
+    "PSA 6": 160
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-rocket-gang/dark-dragonite-149",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Rocket Gang Dark Blastoise No.9",
@@ -1803,16 +2195,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 94,
-    "PSA 9": 520,
-    "PSA 10": 3210,
-    "PSA 7": 178,
-    "PSA 8": 297
+    "Raw": 121,
+    "PSA 9": 527,
+    "PSA 10": 3240,
+    "PSA 7": 182,
+    "PSA 8": 301,
+    "PSA 4": 105,
+    "PSA 5": 132,
+    "PSA 6": 151
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-rocket-gang/dark-blastoise-9",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Rocket Gang Dark Gyarados No.130",
@@ -1830,16 +2229,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 39,
-    "PSA 9": 260,
-    "PSA 10": 2171,
-    "PSA 7": 79,
-    "PSA 8": 131
+    "Raw": 68,
+    "PSA 9": 271,
+    "PSA 10": 2147,
+    "PSA 7": 81,
+    "PSA 8": 122,
+    "PSA 4": 46,
+    "PSA 5": 60,
+    "PSA 6": 60
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-rocket-gang/dark-gyarados-130",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Gym Challenge Blaine's Charizard No.6",
@@ -1864,7 +2270,7 @@
     "PSA 10": 4703
    },
    "src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Japanese Gym Challenge Sabrina's Gengar No.94",
@@ -1889,7 +2295,7 @@
     "PSA 10": 11952
    },
    "src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Japanese Gym Challenge Rocket's Mewtwo No.150",
@@ -1914,7 +2320,7 @@
     "PSA 10": 3471
    },
    "src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Japanese Gym Challenge Blaine's Arcanine No.59",
@@ -1939,7 +2345,7 @@
     "PSA 10": 1313
    },
    "src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Japanese Gym Challenge Rocket's Zapdos No.145",
@@ -1964,7 +2370,7 @@
     "PSA 10": 857
    },
    "src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Japanese Gym Challenge Rocket's Snorlax No.143",
@@ -1989,7 +2395,7 @@
     "PSA 10": 2713
    },
    "src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-challenge-from-the-darkness)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Japanese Leaders' Stadium Misty's Gyarados No.130",
@@ -2013,7 +2419,7 @@
     "PSA 10": 2263
    },
    "src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-leaders'-stadium)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Japanese Leaders' Stadium Rocket's Moltres No.146",
@@ -2037,7 +2443,7 @@
     "PSA 10": 1164
    },
    "src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-leaders'-stadium)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Japanese Neo Genesis Lugia No.249",
@@ -2059,16 +2465,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 238,
-    "PSA 9": 1288,
-    "PSA 10": 10151,
-    "PSA 7": 430,
-    "PSA 8": 602
+    "Raw": 332,
+    "PSA 9": 1307,
+    "PSA 10": 10005,
+    "PSA 7": 440,
+    "PSA 8": 607,
+    "PSA 4": 206,
+    "PSA 5": 255,
+    "PSA 6": 319
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-gold-silver-new-world/lugia-249",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Neo Genesis Typhlosion No.157",
@@ -2090,16 +2503,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 56,
-    "PSA 9": 304,
-    "PSA 10": 1633,
-    "PSA 7": 70,
-    "PSA 8": 107
+    "Raw": 95,
+    "PSA 9": 282,
+    "PSA 10": 1658,
+    "PSA 7": 71,
+    "PSA 8": 109,
+    "PSA 4": 32,
+    "PSA 5": 38,
+    "PSA 6": 47
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-gold-silver-new-world/typhlosion-157",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Neo Genesis Pichu No.172",
@@ -2121,16 +2541,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 67,
-    "PSA 9": 297,
-    "PSA 10": 2720,
-    "PSA 7": 126,
-    "PSA 8": 198
+    "Raw": 89,
+    "PSA 9": 301,
+    "PSA 10": 2756,
+    "PSA 7": 141,
+    "PSA 8": 209,
+    "PSA 4": 33,
+    "PSA 5": 39,
+    "PSA 6": 48
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-gold-silver-new-world/pichu-172",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Neo Discovery Umbreon No.197",
@@ -2150,16 +2577,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 419,
-    "PSA 9": 1460,
-    "PSA 10": 9722,
-    "PSA 7": 560,
-    "PSA 8": 816
+    "Raw": 485,
+    "PSA 9": 1507,
+    "PSA 10": 9796,
+    "PSA 7": 565,
+    "PSA 8": 829,
+    "PSA 4": 309,
+    "PSA 5": 364,
+    "PSA 6": 413
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-crossing-the-ruins/umbreon-197",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Neo Discovery Espeon No.196",
@@ -2179,16 +2613,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 155,
-    "PSA 9": 572,
-    "PSA 10": 2951,
-    "PSA 7": 256,
-    "PSA 8": 356
+    "Raw": 166,
+    "PSA 9": 573,
+    "PSA 10": 2996,
+    "PSA 7": 264,
+    "PSA 8": 362,
+    "PSA 4": 143,
+    "PSA 5": 155,
+    "PSA 6": 194
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-crossing-the-ruins/espeon-196",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Neo Revelation Ho-Oh No.250",
@@ -2213,7 +2654,7 @@
     "PSA 10": 2846
    },
    "src": "Finder benchmark (PriceCharting/https://www.pricecharting.com/console/pokemon-japanese-awakening-legends)",
-   "checked": "2026-11-18"
+   "checked": "2026-11-23"
   },
   {
    "id": "tg:Japanese Neo Revelation Houndoom No.229",
@@ -2233,16 +2674,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 195,
-    "PSA 9": 620,
-    "PSA 10": 2895,
-    "PSA 7": 230,
-    "PSA 8": 282
+    "Raw": 298,
+    "PSA 9": 629,
+    "PSA 10": 2939,
+    "PSA 7": 241,
+    "PSA 8": 290,
+    "PSA 4": 60,
+    "PSA 5": 154,
+    "PSA 6": 192
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-awakening-legends/houndoom-229",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Neo Revelation Celebi No.251",
@@ -2262,16 +2710,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 126,
-    "PSA 9": 313,
-    "PSA 10": 2668,
-    "PSA 7": 105,
-    "PSA 8": 132
+    "Raw": 166,
+    "PSA 9": 318,
+    "PSA 10": 2491,
+    "PSA 7": 107,
+    "PSA 8": 134,
+    "PSA 4": 30,
+    "PSA 5": 35,
+    "PSA 6": 101
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-awakening-legends/celebi-251",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 7",
     "PSA 8",
     "PSA 10"
@@ -2296,16 +2750,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 445,
-    "PSA 9": 1247,
-    "PSA 10": 6383,
-    "PSA 7": 594,
-    "PSA 8": 735
+    "Raw": 554,
+    "PSA 9": 1206,
+    "PSA 10": 6480,
+    "PSA 7": 603,
+    "PSA 8": 728,
+    "PSA 4": 391,
+    "PSA 5": 425,
+    "PSA 6": 541
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-darkness-and-to-light/dark-gengar-94",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Japanese Neo Destiny Shining Charizard No.6",
@@ -2326,17 +2787,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 3731,
-    "PSA 9": 22266,
+    "Raw": 3788,
+    "PSA 9": 22605,
     "PSA 10": 99118,
-    "PSA 7": 7867,
-    "PSA 8": 10285
+    "PSA 7": 7987,
+    "PSA 8": 10441,
+    "PSA 4": 1076,
+    "PSA 5": 1845,
+    "PSA 6": 6028
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-japanese-darkness-and-to-light/shining-charizard-6",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
     "Raw",
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 7",
     "PSA 8"
    ]
@@ -2359,16 +2826,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 56,
-    "PSA 9": 443,
-    "PSA 7": 126,
-    "PSA 8": 243,
-    "PSA 10": 4899
+    "Raw": 105,
+    "PSA 9": 437,
+    "PSA 7": 130,
+    "PSA 8": 247,
+    "PSA 10": 4974,
+    "PSA 4": 50,
+    "PSA 5": 72,
+    "PSA 6": 94
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/alakazam-1",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Clefairy 5/102",
@@ -2388,16 +2862,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 30,
-    "PSA 9": 281,
-    "PSA 7": 85,
-    "PSA 8": 107,
-    "PSA 10": 8535
+    "Raw": 68,
+    "PSA 9": 285,
+    "PSA 7": 83,
+    "PSA 8": 116,
+    "PSA 10": 8665,
+    "PSA 4": 39,
+    "PSA 5": 45,
+    "PSA 6": 57
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/clefairy-5",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Gyarados 6/102",
@@ -2417,16 +2898,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 28,
-    "PSA 9": 375,
-    "PSA 7": 116,
-    "PSA 8": 177,
-    "PSA 10": 4857
+    "Raw": 69,
+    "PSA 9": 399,
+    "PSA 7": 118,
+    "PSA 8": 182,
+    "PSA 10": 4931,
+    "PSA 4": 54,
+    "PSA 5": 66,
+    "PSA 6": 87
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/gyarados-6",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Hitmonchan 7/102",
@@ -2446,16 +2934,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 21,
-    "PSA 9": 265,
-    "PSA 7": 68,
-    "PSA 8": 91,
-    "PSA 10": 5195
+    "Raw": 29,
+    "PSA 9": 264,
+    "PSA 7": 69,
+    "PSA 8": 97,
+    "PSA 10": 5274,
+    "PSA 4": 38,
+    "PSA 5": 42,
+    "PSA 6": 47
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/hitmonchan-7",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Machamp 8/102",
@@ -2476,16 +2971,22 @@
    "rev": false,
    "g": {
     "Raw": 51,
-    "PSA 9": 462,
-    "PSA 7": 197,
-    "PSA 8": 367,
-    "PSA 10": 3563
+    "PSA 9": 488,
+    "PSA 7": 204,
+    "PSA 8": 373,
+    "PSA 10": 3617,
+    "PSA 4": 51,
+    "PSA 5": 60,
+    "PSA 6": 134
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/machamp-1999-2000-8",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
     "Raw",
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 7",
     "PSA 9",
     "PSA 10"
@@ -2509,16 +3010,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 29,
-    "PSA 9": 186,
-    "PSA 7": 64,
-    "PSA 8": 118,
-    "PSA 10": 3266
+    "Raw": 47,
+    "PSA 9": 188,
+    "PSA 7": 63,
+    "PSA 8": 121,
+    "PSA 10": 3315,
+    "PSA 4": 30,
+    "PSA 5": 33,
+    "PSA 6": 42
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/magneton-9",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -2540,16 +3047,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 39,
-    "PSA 9": 631,
-    "PSA 7": 169,
-    "PSA 8": 260,
-    "PSA 10": 8164
+    "Raw": 116,
+    "PSA 9": 640,
+    "PSA 7": 171,
+    "PSA 8": 274,
+    "PSA 10": 8288,
+    "PSA 4": 83,
+    "PSA 5": 87,
+    "PSA 6": 92
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/mewtwo-10",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Poliwrath 13/102",
@@ -2569,16 +3083,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 30,
-    "PSA 9": 222,
-    "PSA 7": 82,
-    "PSA 8": 142,
-    "PSA 10": 2104
+    "Raw": 51,
+    "PSA 9": 225,
+    "PSA 7": 83,
+    "PSA 8": 143,
+    "PSA 10": 2260,
+    "PSA 4": 35,
+    "PSA 5": 51,
+    "PSA 6": 57
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/poliwrath-13",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Base Set Zapdos 16/102",
@@ -2598,16 +3119,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 39,
-    "PSA 9": 291,
-    "PSA 7": 96,
-    "PSA 8": 171,
-    "PSA 10": 3710
+    "Raw": 67,
+    "PSA 9": 260,
+    "PSA 7": 99,
+    "PSA 8": 173,
+    "PSA 10": 3767,
+    "PSA 4": 41,
+    "PSA 5": 57,
+    "PSA 6": 60
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-base-set/zapdos-16",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Jungle Clefable 1/64",
@@ -2624,16 +3152,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 34,
-    "PSA 9": 222,
-    "PSA 7": 69,
-    "PSA 8": 104,
-    "PSA 10": 4453
+    "Raw": 56,
+    "PSA 9": 226,
+    "PSA 7": 72,
+    "PSA 8": 105,
+    "PSA 10": 4521,
+    "PSA 4": 26,
+    "PSA 5": 30,
+    "PSA 6": 37
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/clefable-1",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -2652,16 +3186,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 23,
-    "PSA 9": 148,
-    "PSA 7": 67,
-    "PSA 8": 91,
-    "PSA 10": 1665
+    "Raw": 44,
+    "PSA 9": 151,
+    "PSA 7": 68,
+    "PSA 8": 95,
+    "PSA 10": 1691,
+    "PSA 4": 23,
+    "PSA 5": 27,
+    "PSA 6": 33
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/electrode-2",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -2680,16 +3220,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 60,
-    "PSA 9": 479,
-    "PSA 7": 125,
-    "PSA 8": 215,
-    "PSA 10": 6940
+    "Raw": 135,
+    "PSA 9": 486,
+    "PSA 7": 128,
+    "PSA 8": 213,
+    "PSA 10": 7045,
+    "PSA 4": 68,
+    "PSA 5": 85,
+    "PSA 6": 104
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/flareon-3",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Jungle Jolteon 4/64",
@@ -2706,16 +3253,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 68,
-    "PSA 9": 521,
-    "PSA 7": 134,
-    "PSA 8": 223,
-    "PSA 10": 3122
+    "Raw": 148,
+    "PSA 9": 530,
+    "PSA 7": 138,
+    "PSA 8": 225,
+    "PSA 10": 3185,
+    "PSA 4": 63,
+    "PSA 5": 75,
+    "PSA 6": 91
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/jolteon-4",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -2734,16 +3287,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 12,
-    "PSA 9": 165,
-    "PSA 7": 58,
-    "PSA 8": 96,
-    "PSA 10": 7422
+    "Raw": 15,
+    "PSA 9": 173,
+    "PSA 7": 59,
+    "PSA 8": 98,
+    "PSA 10": 7535,
+    "PSA 4": 30,
+    "PSA 5": 32,
+    "PSA 6": 35
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/kangaskhan-5",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -2763,16 +3322,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 27,
-    "PSA 9": 215,
-    "PSA 7": 71,
-    "PSA 8": 103,
-    "PSA 10": 4231
+    "Raw": 58,
+    "PSA 9": 216,
+    "PSA 7": 69,
+    "PSA 8": 105,
+    "PSA 10": 4296,
+    "PSA 4": 33,
+    "PSA 5": 43,
+    "PSA 6": 53
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/mr-mime-6",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Jungle Nidoqueen 7/64",
@@ -2789,16 +3355,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 30,
-    "PSA 9": 171,
+    "Raw": 56,
+    "PSA 9": 196,
     "PSA 7": 71,
-    "PSA 8": 116,
-    "PSA 10": 5492
+    "PSA 8": 115,
+    "PSA 10": 5575,
+    "PSA 4": 40,
+    "PSA 5": 42,
+    "PSA 6": 52
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/nidoqueen-7",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Jungle Pidgeot 8/64",
@@ -2815,16 +3388,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 35,
-    "PSA 9": 223,
-    "PSA 7": 90,
-    "PSA 8": 143,
-    "PSA 10": 3191
+    "Raw": 72,
+    "PSA 9": 226,
+    "PSA 7": 96,
+    "PSA 8": 139,
+    "PSA 10": 3240,
+    "PSA 4": 48,
+    "PSA 5": 52,
+    "PSA 6": 57
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/pidgeot-8",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Jungle Pinsir 9/64",
@@ -2841,16 +3421,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 25,
-    "PSA 9": 178,
-    "PSA 7": 67,
-    "PSA 8": 111,
-    "PSA 10": 4676
+    "Raw": 48,
+    "PSA 9": 181,
+    "PSA 7": 68,
+    "PSA 8": 113,
+    "PSA 10": 4747,
+    "PSA 4": 35,
+    "PSA 5": 41,
+    "PSA 6": 51
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/pinsir-9",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -2869,16 +3455,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 40,
-    "PSA 9": 200,
-    "PSA 7": 91,
-    "PSA 8": 134,
-    "PSA 10": 2412
+    "Raw": 69,
+    "PSA 9": 208,
+    "PSA 7": 96,
+    "PSA 8": 136,
+    "PSA 10": 2911,
+    "PSA 4": 41,
+    "PSA 5": 48,
+    "PSA 6": 61
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/scyther-10",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -2897,16 +3489,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 107,
-    "PSA 9": 813,
-    "PSA 7": 267,
-    "PSA 8": 351,
-    "PSA 10": 22266
+    "Raw": 237,
+    "PSA 9": 794,
+    "PSA 7": 266,
+    "PSA 8": 382,
+    "PSA 10": 27461,
+    "PSA 4": 84,
+    "PSA 5": 126,
+    "PSA 6": 146
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/snorlax-11",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -2925,16 +3523,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 30,
-    "PSA 9": 262,
-    "PSA 7": 119,
-    "PSA 8": 187,
-    "PSA 10": 6890
+    "Raw": 60,
+    "PSA 9": 326,
+    "PSA 7": 121,
+    "PSA 8": 192,
+    "PSA 10": 11587,
+    "PSA 4": 53,
+    "PSA 5": 60,
+    "PSA 6": 67
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/vaporeon-12",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -2953,16 +3557,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 24,
-    "PSA 9": 151,
-    "PSA 7": 59,
-    "PSA 8": 89,
-    "PSA 10": 2765
+    "Raw": 56,
+    "PSA 9": 156,
+    "PSA 7": 60,
+    "PSA 8": 90,
+    "PSA 10": 2807,
+    "PSA 4": 26,
+    "PSA 5": 29,
+    "PSA 6": 45
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/venomoth-13",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Jungle Victreebel 14/64",
@@ -2979,16 +3590,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 30,
-    "PSA 9": 178,
-    "PSA 7": 64,
-    "PSA 8": 104,
-    "PSA 10": 1282
+    "Raw": 45,
+    "PSA 9": 181,
+    "PSA 7": 67,
+    "PSA 8": 105,
+    "PSA 10": 1301,
+    "PSA 4": 38,
+    "PSA 5": 40,
+    "PSA 6": 47
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/victreebel-14",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -3007,16 +3624,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 30,
-    "PSA 9": 171,
-    "PSA 7": 61,
-    "PSA 8": 99,
-    "PSA 10": 2494
+    "Raw": 53,
+    "PSA 9": 173,
+    "PSA 7": 62,
+    "PSA 8": 105,
+    "PSA 10": 2522,
+    "PSA 4": 29,
+    "PSA 5": 36,
+    "PSA 6": 39
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/vileplume-15",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -3035,16 +3658,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 34,
-    "PSA 9": 182,
+    "Raw": 61,
+    "PSA 9": 185,
     "PSA 7": 68,
-    "PSA 8": 109,
-    "PSA 10": 4453
+    "PSA 8": 111,
+    "PSA 10": 4521,
+    "PSA 4": 29,
+    "PSA 5": 43,
+    "PSA 6": 44
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-jungle/wigglytuff-16",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -3063,16 +3692,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 30,
-    "PSA 9": 187,
-    "PSA 7": 78,
-    "PSA 8": 126,
-    "PSA 10": 2041
+    "Raw": 60,
+    "PSA 9": 190,
+    "PSA 7": 77,
+    "PSA 8": 129,
+    "PSA 10": 2072,
+    "PSA 4": 44,
+    "PSA 5": 50,
+    "PSA 6": 54
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/aerodactyl-1",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -3091,16 +3726,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 39,
-    "PSA 9": 442,
-    "PSA 7": 108,
-    "PSA 8": 182,
-    "PSA 10": 6680
+    "Raw": 98,
+    "PSA 9": 451,
+    "PSA 7": 113,
+    "PSA 8": 181,
+    "PSA 10": 6781,
+    "PSA 4": 46,
+    "PSA 5": 72,
+    "PSA 6": 75
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/articuno-2",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Fossil Ditto 3/62",
@@ -3117,16 +3759,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 39,
-    "PSA 9": 211,
-    "PSA 7": 80,
-    "PSA 8": 126,
-    "PSA 10": 3283
+    "Raw": 69,
+    "PSA 9": 214,
+    "PSA 7": 83,
+    "PSA 8": 128,
+    "PSA 10": 3333,
+    "PSA 4": 48,
+    "PSA 5": 57,
+    "PSA 6": 72
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/ditto-3",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Fossil Dragonite 4/62",
@@ -3143,16 +3792,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 126,
-    "PSA 9": 594,
-    "PSA 7": 261,
-    "PSA 8": 416,
-    "PSA 10": 21636
+    "Raw": 294,
+    "PSA 9": 603,
+    "PSA 7": 264,
+    "PSA 8": 447,
+    "PSA 10": 21965,
+    "PSA 4": 128,
+    "PSA 5": 150,
+    "PSA 6": 192
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/dragonite-4",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -3171,16 +3826,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 148,
-    "PSA 9": 631,
-    "PSA 7": 320,
-    "PSA 8": 560,
-    "PSA 10": 4766
+    "Raw": 321,
+    "PSA 9": 640,
+    "PSA 7": 332,
+    "PSA 8": 554,
+    "PSA 10": 4811,
+    "PSA 4": 151,
+    "PSA 5": 203,
+    "PSA 6": 250
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/gengar-5",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -3199,16 +3860,23 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 45,
-    "PSA 9": 223,
-    "PSA 7": 83,
-    "PSA 8": 135,
-    "PSA 10": 4527
+    "Raw": 72,
+    "PSA 9": 226,
+    "PSA 7": 85,
+    "PSA 8": 137,
+    "PSA 10": 4596,
+    "PSA 4": 54,
+    "PSA 5": 61,
+    "PSA 6": 63
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/haunter-6",
-   "checked": "2026-11-18",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ]
   },
   {
    "id": "tg:Fossil Hitmonlee 7/62",
@@ -3225,16 +3893,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 30,
-    "PSA 9": 204,
-    "PSA 7": 84,
-    "PSA 8": 124,
-    "PSA 10": 9574
+    "Raw": 64,
+    "PSA 9": 203,
+    "PSA 7": 85,
+    "PSA 8": 126,
+    "PSA 10": 9719,
+    "PSA 4": 30,
+    "PSA 5": 41,
+    "PSA 6": 55
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/hitmonlee-7",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -3253,16 +3927,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 22,
-    "PSA 9": 150,
+    "Raw": 56,
+    "PSA 9": 158,
     "PSA 7": 68,
-    "PSA 8": 108,
-    "PSA 10": 1355
+    "PSA 8": 105,
+    "PSA 10": 1375,
+    "PSA 4": 35,
+    "PSA 5": 39,
+    "PSA 6": 42
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/hypno-8",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -3281,16 +3961,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 30,
+    "Raw": 60,
     "PSA 9": 215,
-    "PSA 7": 66,
-    "PSA 8": 134,
-    "PSA 10": 2598
+    "PSA 7": 75,
+    "PSA 8": 133,
+    "PSA 10": 2637,
+    "PSA 4": 35,
+    "PSA 5": 44,
+    "PSA 6": 53
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/kabutops-9",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -3309,16 +3995,22 @@
    "sl": false,
    "rev": false,
    "g": {
-    "Raw": 18,
-    "PSA 9": 267,
-    "PSA 7": 68,
-    "PSA 8": 129,
-    "PSA 10": 7485
+    "Raw": 38,
+    "PSA 9": 270,
+    "PSA 7": 67,
+    "PSA 8": 124,
+    "PSA 10": 7573,
+    "PSA 4": 39,
+    "PSA 5": 45,
+    "PSA 6": 55
    },
-   "src": "PriceCharting 2026-11-18 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-fossil/lapras-10",
-   "checked": "2026-11-18",
+   "checked": "2026-11-23",
    "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
     "PSA 10"
    ]
   },
@@ -5889,15 +6581,23 @@
    "rev": false,
    "g": {
     "Raw": 3147,
-    "PSA 9": 43537,
-    "PSA 10": 222573,
-    "PSA 7": 15791,
-    "PSA 8": 24204
+    "PSA 9": 43778,
+    "PSA 10": 211365,
+    "PSA 7": 15700,
+    "PSA 8": 23283,
+    "PSA 4": 7258,
+    "PSA 5": 7698,
+    "PSA 6": 11227
    },
-   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-aquapolis/lugia-149",
-   "checked": "2026-11-21",
-   "thin": []
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 10"
+   ]
   },
   {
    "id": "tg:Aquapolis Kingdra 148/147 (crystal)",
@@ -14803,10 +15503,745 @@
     "PSA 7"
    ],
    "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-soulsilver-collection/pichu-31",
+   "label": "Japanese Soulsilver Collection Pichu #31   Pokemon Japanese SoulSilver Collection 31/70",
+   "lang": "JP",
+   "num": "31/70",
+   "words": [
+    "pichu"
+   ],
+   "keys": [],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 56,
+    "PSA 4": 27,
+    "PSA 5": 32,
+    "PSA 6": 39,
+    "PSA 7": 48,
+    "PSA 8": 60,
+    "PSA 9": 192,
+    "PSA 10": 769
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-soulsilver-collection/pichu-31",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-1997-carddass/mew-foil-151",
+   "label": "Japanese 1997 Carddass Mew Foil #151   Pokemon Japanese 1997 Carddass No.151 (vending)",
+   "lang": "JP",
+   "num": "No.151",
+   "words": [
+    "mew"
+   ],
+   "keys": [
+    "carddass"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 151,
+    "PSA 4": 62,
+    "PSA 5": 105,
+    "PSA 6": 304,
+    "PSA 7": 399,
+    "PSA 8": 1130,
+    "PSA 9": 1243,
+    "PSA 10": 23767
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-1997-carddass/mew-foil-151",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8",
+    "PSA 9",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-reviving-legends/gliscor-1st-edition-32",
+   "label": "Japanese Reviving Legends Gliscor [1st Edition] #32   Pokemon Japanese Reviving Legends No.32",
+   "lang": "JP",
+   "num": "No.32",
+   "words": [
+    "gliscor"
+   ],
+   "keys": [
+    "legends",
+    "reviving"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 8,
+    "PSA 8": 31,
+    "PSA 9": 65,
+    "PSA 10": 301
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-reviving-legends/gliscor-1st-edition-32",
+   "checked": "2026-11-23",
+   "thin": [
+    "Raw",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-tag-all-stars/tapu-koko-prism-star-49",
+   "label": "Japanese Tag All Stars Tapu Koko Prism Star #49   Pokemon Japanese Tag All Stars 49/173",
+   "lang": "JP",
+   "num": "49/173",
+   "words": [
+    "tapu",
+    "koko",
+    "pr"
+   ],
+   "keys": [
+    "all",
+    "stars"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 9,
+    "PSA 10": 209
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-tag-all-stars/tapu-koko-prism-star-49",
+   "checked": "2026-11-23",
+   "thin": [
+    "Raw"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-tag-bolt/celebi-&-venusaur-gx-97",
+   "label": "Japanese Tag Bolt Celebi & Venusaur GX #97   Pokemon Japanese Tag Bolt 97/95",
+   "lang": "JP",
+   "num": "97/95",
+   "words": [
+    "celebi",
+    "venusaur",
+    "gx"
+   ],
+   "keys": [
+    "bolt"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 145,
+    "PSA 4": 29,
+    "PSA 5": 33,
+    "PSA 6": 41,
+    "PSA 7": 51,
+    "PSA 8": 53,
+    "PSA 9": 211,
+    "PSA 10": 710
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-tag-bolt/celebi-&-venusaur-gx-97",
+   "checked": "2026-11-23",
+   "thin": [
+    "Raw",
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-heartgold-collection/feraligatr-25",
+   "label": "Japanese Heartgold Collection Feraligatr #25   Pokemon Japanese HeartGold Collection 25/70",
+   "lang": "JP",
+   "num": "25/70",
+   "words": [
+    "feraligatr"
+   ],
+   "keys": [
+    "collection",
+    "heartgold"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 107,
+    "PSA 4": 30,
+    "PSA 5": 36,
+    "PSA 6": 45,
+    "PSA 7": 57,
+    "PSA 8": 74,
+    "PSA 9": 286,
+    "PSA 10": 1507
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-heartgold-collection/feraligatr-25",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-11th-movie-commemoration-promo/dialga-8",
+   "label": "Japanese 11Th Movie Commemoration Promo Dialga #8   Pokemon Japanese 11th Movie Commemoration Promo 8/9",
+   "lang": "JP",
+   "num": "8/9",
+   "words": [
+    "dialga"
+   ],
+   "keys": [
+    "11th",
+    "movie"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 49,
+    "PSA 4": 24,
+    "PSA 5": 29,
+    "PSA 6": 36,
+    "PSA 7": 45,
+    "PSA 8": 57,
+    "PSA 9": 121,
+    "PSA 10": 574
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-11th-movie-commemoration-promo/dialga-8",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-rising-fist/dragonite-ex-1st-edition-69",
+   "label": "Japanese Rising Fist Dragonite EX [1st Edition] #69   Pokemon Japanese Rising Fist 69/96",
+   "lang": "JP",
+   "num": "69/96",
+   "words": [
+    "dragonite",
+    "ex"
+   ],
+   "keys": [
+    "fist",
+    "rising"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 23,
+    "PSA 8": 99,
+    "PSA 9": 46,
+    "PSA 10": 332
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-rising-fist/dragonite-ex-1st-edition-69",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-tag-all-stars/jirachi-prism-star-91",
+   "label": "Japanese Tag All Stars Jirachi Prism Star #91   Pokemon Japanese Tag All Stars 91/173",
+   "lang": "JP",
+   "num": "91/173",
+   "words": [
+    "jirachi",
+    "prism"
+   ],
+   "keys": [
+    "all",
+    "stars"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 38,
+    "PSA 8": 11,
+    "PSA 10": 509
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-tag-all-stars/jirachi-prism-star-91",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 8",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-11th-movie-commemoration-promo/regigigas-9",
+   "label": "Japanese 11Th Movie Commemoration Promo Regigigas #9   Pokemon Japanese 11th Movie Commemoration Promo 9/9",
+   "lang": "JP",
+   "num": "9/9",
+   "words": [
+    "regigigas"
+   ],
+   "keys": [
+    "11th",
+    "movie"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 37,
+    "PSA 4": 11,
+    "PSA 5": 12,
+    "PSA 6": 15,
+    "PSA 7": 18,
+    "PSA 8": 37,
+    "PSA 9": 69,
+    "PSA 10": 301
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-11th-movie-commemoration-promo/regigigas-9",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-mega-dream-ex/mega-dragonite-ex-246",
+   "label": "Japanese Mega Dream Ex Mega Dragonite ex #246   Pokemon Japanese Mega Dream ex 246/193",
+   "lang": "JP",
+   "num": "246/193",
+   "words": [
+    "mega",
+    "dragonite",
+    "ex"
+   ],
+   "keys": [
+    "dream"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 200,
+    "PSA 4": 90,
+    "PSA 5": 105,
+    "PSA 6": 131,
+    "PSA 7": 163,
+    "PSA 8": 200,
+    "PSA 9": 176,
+    "PSA 10": 278
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-mega-dream-ex/mega-dragonite-ex-246",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-thunderclap-spark/ditto-prism-star-43",
+   "label": "Japanese Thunderclap Spark Ditto Prism Star #43   Pokemon Japanese Thunderclap Spark 43/60",
+   "lang": "JP",
+   "num": "43/60",
+   "words": [
+    "nm",
+    "ditto",
+    "prism",
+    "pr"
+   ],
+   "keys": [],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 52,
+    "PSA 9": 66,
+    "PSA 10": 1130
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-thunderclap-spark/ditto-prism-star-43",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-soulsilver-collection/typhlosion-17",
+   "label": "Japanese Soulsilver Collection Typhlosion #17   Pokemon Japanese SoulSilver Collection 17/70",
+   "lang": "JP",
+   "num": "17/70",
+   "words": [
+    "typhlosion"
+   ],
+   "keys": [
+    "collection",
+    "soulsilver"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 80,
+    "PSA 8": 176,
+    "PSA 9": 169,
+    "PSA 10": 1517
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-soulsilver-collection/typhlosion-17",
+   "checked": "2026-11-23",
+   "thin": [],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-promo/shining-mew-corocoro-151",
+   "label": "Japanese Promo Shining Mew [CoroCoro] #151   Pokemon Japanese Promo No.151",
+   "lang": "JP",
+   "num": "No.151",
+   "words": [
+    "shining",
+    "mew"
+   ],
+   "keys": [
+    "japan"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 1959,
+    "PSA 4": 1415,
+    "PSA 5": 1620,
+    "PSA 6": 1899,
+    "PSA 7": 2151,
+    "PSA 8": 3278,
+    "PSA 9": 8041,
+    "PSA 10": 65645
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-promo/shining-mew-corocoro-151",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-galactic%27s-conquest/palkia-g-lvx-1st-edition-33",
+   "label": "Japanese Galactic%27S Conquest Palkia G Lv.X [1st Edition] #33   Pokemon Japanese Galactic's Conquest No.33",
+   "lang": "JP",
+   "num": "No.33",
+   "words": [
+    "palkia"
+   ],
+   "keys": [
+    "conquest",
+    "galactics"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 59,
+    "PSA 4": 39,
+    "PSA 5": 45,
+    "PSA 6": 54,
+    "PSA 7": 68,
+    "PSA 8": 113,
+    "PSA 9": 437,
+    "PSA 10": 2374
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-galactic%27s-conquest/palkia-g-lvx-1st-edition-33",
+   "checked": "2026-11-23",
+   "thin": [
+    "Raw",
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-e-starter-deck/venusaur-1st-edition-4",
+   "label": "Japanese E Starter Deck Venusaur [1st Edition] #4   Pokemon Japanese E-Starter Deck 4/52",
+   "lang": "JP",
+   "num": "4/52",
+   "words": [
+    "venusaur",
+    "ex"
+   ],
+   "keys": [
+    "deck",
+    "starter"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 151,
+    "PSA 4": 14,
+    "PSA 5": 17,
+    "PSA 6": 20,
+    "PSA 7": 81,
+    "PSA 8": 102,
+    "PSA 9": 249,
+    "PSA 10": 1115
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-e-starter-deck/venusaur-1st-edition-4",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8",
+    "PSA 9",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-galactic%27s-conquest/giratina-lvx-1st-edition-52",
+   "label": "Japanese Galactic%27S Conquest Giratina LV.X [1st Edition] #52   Pokemon Japanese Galactic's Conquest 52/96",
+   "lang": "JP",
+   "num": "52/96",
+   "words": [
+    "giratina"
+   ],
+   "keys": [
+    "conquest",
+    "galactics"
+   ],
+   "first": true,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 83,
+    "PSA 4": 56,
+    "PSA 5": 66,
+    "PSA 6": 83,
+    "PSA 7": 197,
+    "PSA 8": 413,
+    "PSA 9": 678,
+    "PSA 10": 4664
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-galactic%27s-conquest/giratina-lvx-1st-edition-52",
+   "checked": "2026-11-23",
+   "thin": [
+    "Raw",
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-infernape-half-deck/infernape-lvx-4",
+   "label": "Japanese Infernape Half Deck Infernape LV.X #4   Pokemon Japanese Infernape Half Deck No.4",
+   "lang": "JP",
+   "num": "No.4",
+   "words": [
+    "infernape"
+   ],
+   "keys": [
+    "deck",
+    "half"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 80,
+    "PSA 4": 52,
+    "PSA 5": 66,
+    "PSA 6": 131,
+    "PSA 7": 165,
+    "PSA 8": 222,
+    "PSA 9": 520,
+    "PSA 10": 2355
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-infernape-half-deck/infernape-lvx-4",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-reviving-legends/espeon-24",
+   "label": "Japanese Reviving Legends Espeon #24   Pokemon Japanese Reviving Legends 24/80",
+   "lang": "JP",
+   "num": "24/80",
+   "words": [
+    "espeon"
+   ],
+   "keys": [
+    "legends",
+    "reviving"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 60,
+    "PSA 4": 27,
+    "PSA 5": 31,
+    "PSA 6": 49,
+    "PSA 7": 60,
+    "PSA 8": 75,
+    "PSA 9": 405,
+    "PSA 10": 1608
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-reviving-legends/espeon-24",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8",
+    "PSA 9"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-1997-carddass/raichu-26",
+   "label": "Japanese 1997 Carddass Raichu #26   Pokemon Japanese 1997 Carddass No.26 (bandai)",
+   "lang": "JP",
+   "num": "No.26",
+   "words": [
+    "raichu"
+   ],
+   "keys": [
+    "carddass"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 47,
+    "PSA 4": 12,
+    "PSA 5": 14,
+    "PSA 6": 17,
+    "PSA 7": 21,
+    "PSA 8": 83,
+    "PSA 9": 282,
+    "PSA 10": 1817
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-1997-carddass/raichu-26",
+   "checked": "2026-11-23",
+   "thin": [
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8",
+    "PSA 9",
+    "PSA 10"
+   ],
+   "auto": 1
+  },
+  {
+   "id": "auto:JP:/game/pokemon-japanese-bonds-to-the-end-of-time/flygon-lvx-73",
+   "label": "Japanese Bonds To The End Of Time Flygon LV.X #73   Pokemon Japanese Bonds to the End of Time 73/90",
+   "lang": "JP",
+   "num": "73/90",
+   "words": [
+    "flygon"
+   ],
+   "keys": [
+    "bonds",
+    "end",
+    "time"
+   ],
+   "first": false,
+   "sl": false,
+   "rev": false,
+   "g": {
+    "Raw": 43,
+    "PSA 4": 44,
+    "PSA 5": 51,
+    "PSA 6": 65,
+    "PSA 7": 81,
+    "PSA 8": 101,
+    "PSA 9": 429,
+    "PSA 10": 3014
+   },
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales; auto-added from a live listing)",
+   "pc": "/game/pokemon-japanese-bonds-to-the-end-of-time/flygon-lvx-73",
+   "checked": "2026-11-23",
+   "thin": [
+    "Raw",
+    "PSA 4",
+    "PSA 5",
+    "PSA 6",
+    "PSA 7",
+    "PSA 8"
+   ],
+   "auto": 1
   }
  ],
  "rate": {
-  "usd_aud": 1.4987,
+  "usd_aud": 1.507,
   "source": "open.er-api.com"
  }
 }

@@ -1,5 +1,5 @@
 {
- "day": "2026-11-22",
+ "day": "2026-11-24",
  "cards": [
   {
    "label": "Aquapolis Lugia 149/147 (crystal)",
@@ -9,7 +9,7 @@
    "under": 4,
    "sellers": 4,
    "median_ratio": 0.25,
-   "src": "PriceCharting 2026-11-21 (90-day sales median where 3+ sales)",
+   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-aquapolis/lugia-149",
    "id": "tg:Aquapolis Lugia 149/147 (crystal)"
   }
