@@ -289,10 +289,11 @@ pokemon japanese (vs,web) 1st edition psa
 +pokemon (sm-p,"sm/p")
 +pokemon swsh black star promo
 +pokemon s-p promo
-+pokemon svp black star promo
-+pokemon (sv-p,"sv/p")
-+pokemon mep black star promo
-+pokemon m-p promo
+# SV and Mega promos are hidden on the finder by default, so these search Australia and Japan only (saves calls for the hunted eras)
++pokemon svp black star promo @c=AU,JP
++pokemon (sv-p,"sv/p") @c=AU,JP
++pokemon mep black star promo @c=AU,JP
++pokemon m-p promo @c=AU,JP
 
 # ---------- Movie & event promos ----------
 +pokemon japanese 10th movie (promo,commemoration)
