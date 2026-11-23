@@ -90,8 +90,11 @@ def rrp_value(x):
 
 
 def search_words(c):
-    """Broad eBay search for a valued card: its name words plus number variants, e.g. houndoom (229,no.229)."""
+    """eBay search for a valued card: name words plus the number as sellers write it, e.g.
+    hypno (8/62,008/062,fossil) 1st. English cards also add one set word as an alternative and the variant
+    (1st Edition, shadowless, reverse holo, or leave those out when it's the plain card)."""
     n = str(c.get("num") or "")
+    jp = c.get("lang") == "JP"
     if n.lower().startswith("no."):
         v = [str(int(n[3:])) if n[3:].isdigit() else n[3:], "no." + n[3:]]
     elif "/" in n:
@@ -101,9 +104,26 @@ def search_words(c):
             v += [f"{int(a)}/{int(b)}", f"{a.zfill(3)}/{b.zfill(3)}"]
     else:
         v = [n] if n else []
+    keys = [k for k in (c.get("keys") or []) if k and " " not in k]
+    if not jp and keys and "/" in n:
+        v.append(keys[0])                     # sellers who write the set name but not the number
     v = list(dict.fromkeys(x for x in v if x))
     num = (v[0] if len(v) == 1 else "(" + ",".join(v) + ")") if v else ""
-    return " ".join(list(c.get("words") or []) + ([num] if num else [])).strip()
+    extra = []
+    if c.get("first"):
+        extra.append("1st")
+    if c.get("sl"):
+        extra.append("shadowless")
+    if c.get("rev"):
+        extra.append("(reverse,rev)")
+    elif not jp:
+        extra.append("-reverse")
+    if not jp and not c.get("first") and WOTC_KEYS.search(" ".join(c.get("keys") or []) + " " + c.get("label", "")):
+        extra.append("-1st")                  # unlimited WotC: 1st Edition copies are a dearer, different card
+    return " ".join(list(c.get("words") or []) + ([num] if num else []) + extra).strip()
+
+
+WOTC_KEYS = re.compile(r"\b(base set|jungle|fossil|team rocket|gym|heroes|challenge|neo|genesis|discovery|revelation|destiny)\b", re.I)
 
 
 NEO_N = [("neo 1 ", "N1"), ("neo 2 ", "N2"), ("neo 3 ", "N3"), ("neo 4 ", "N4")]  # Japanese Neo sets as PSA labels name them

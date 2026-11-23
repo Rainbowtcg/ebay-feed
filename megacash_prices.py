@@ -136,9 +136,12 @@ def value_for(info, c):
 
 
 def ebay_links(c):
+    """AU / JP / CN / Sold searches: name + the number as sellers write it (56/144, 056/144; no bare number, which
+    pulls in every card with that number), plus the variant from the shop's title."""
     n = " ".join(c["name"][:3]) or c["query"]
     if c["num"] and c["tot"]:
-        v = dict.fromkeys([f'{c["num"]}/{c["tot"]}', f'{c["num"].lstrip("0")}/{c["tot"]}', c["num"].lstrip("0")])
+        v = dict.fromkeys([f'{c["num"]}/{c["tot"]}', f'{c["num"].lstrip("0") or "0"}/{c["tot"]}',
+                           f'{c["num"].zfill(3)}/{c["tot"]}'])
         q = f'{n} ({",".join(v)})'
     elif c["num"]:
         q = f'{n} {c["num"]}'
@@ -146,6 +149,17 @@ def ebay_links(c):
         q = c["query"]
     if c["jp"]:
         q += " japanese"
+    t = c.get("title", "")
+    if re.search(r"\b1st\b|first edition", t, re.I):
+        q += " 1st"
+    elif not c["jp"] and re.search(r"base set|jungle|fossil|team rocket|gym (?:heroes|challenge)|\bneo\b", t, re.I):
+        q += " -1st"
+    if re.search(r"shadowless", t, re.I):
+        q += " shadowless"
+    if re.search(r"rev(?:erse)?\.? ?holo", t, re.I):
+        q += " (reverse,rev)"
+    elif not c["jp"]:
+        q += " -reverse"
     e = urllib.parse.quote_plus(q)
     base = "https://www.ebay.com.au/sch/i.html?_nkw=" + e
     return {"au": base + "&LH_PrefLoc=1", "jp": base + "&LH_LocatedIn=1&_salic=104",
