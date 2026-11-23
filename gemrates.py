@@ -28,16 +28,25 @@ P = lambda f: os.path.join(HERE, f)
 MIN_TOTAL = 100        # graded copies in all, or the counts are noise
 MIN_N9 = 25            # PSA 9s: the card can reach a 9 and 9s exist to sell
 MAX_GEM = 0.35         # gem rate above this: 10s are common, so no special upside (cards are still ranked by gem rate)
-# money rules (same as enrich.py grade plays)
-SELL_KEEP, GRADE_COST = 0.87, 70
-SAFE_9_OVER_8 = 1.5    # a 9 must be worth 1.5x an 8 for a safe play ...
-SAFE_MIN_GAIN = 40     # ... and make at least A$40 more than an 8
-HUNT_10_OVER_9 = 5.0   # a 10 hunt needs a 10 worth 5x a 9 ...
-HUNT_MIN_UPSIDE = 300  # ... and at least A$300 profit if it does get the 10
+# money rules
+SELL_KEEP, GRADE_COST = 0.87, 70   # eBay fees kept; base grading cost (same as enrich.py)
+# PSA charges by declared value, so a card that comes back worth thousands costs more to grade.
+# Rough A$ cost per card by the value it comes back at (submitter + PSA upcharge). Check against current PSA prices.
+FEE_TIERS = [(750, 70), (2250, 150), (3750, 260), (7500, 480), (15000, 800)]
+FEE_OVER = 0.10        # over the last tier: about 10% of the card's value
+HALF_GRADE_WORSE = 0.5 # pop reports are mostly the good copies people chose to grade: assume half of each grade's share
+                       # comes back one grade lower for an ordinary raw NM copy
+THIN_10_KEEP = 0.6     # a PSA 10 value from under 3 recent sales counts for 60%
+MAX_BUY = int(os.environ.get("GEM_MAX_BUY", "1000"))   # budget: targets whose max raw is over this are left out
 MIN_MAX_RAW = 10       # not worth listing if the most you could pay is under A$10
+# focus eras get their card prices read first (e-Card, EX, XY)
+FOCUS = re.compile(r"expedition|aquapolis|skyridge|pokemon-ex-|ruby|sapphire|sandstorm|dragon|team-magma|hidden-legends|"
+                   r"firered|team-rocket-returns|deoxys|emerald|unseen-forces|delta-species|legend-maker|holon|"
+                   r"crystal-guardians|power-keepers|pokemon-xy|flashfire|furious-fists|phantom-forces|primal-clash|"
+                   r"roaring-skies|ancient-origins|breakthrough|breakpoint|generations|fates-collide|steam-siege|evolutions")
 # politeness / run length
 POP_MAX = int(os.environ.get("GEM_POP_MAX", "130"))     # set pages per run
-CARD_MAX = int(os.environ.get("GEM_CARD_MAX", "200"))   # card pages per run
+CARD_MAX = int(os.environ.get("GEM_CARD_MAX", "800"))   # card pages per run (~40 min at the pause below)
 POP_DAYS, CARD_DAYS = 13, 20                            # re-read after this many days
 PAUSE = 2.0
 
@@ -132,17 +141,44 @@ def card_num(path):
     return m.group(1) if m else ""
 
 
-def classify(v):
-    """(kind, max raw A$, note) from A$ values by grade, or (None, None, why)."""
-    v8, v9, v10 = v.get("PSA 8"), v.get("PSA 9"), v.get("PSA 10")
-    if not v9:
-        return None, None, "no PSA 9 price"
-    net = lambda x: x * SELL_KEEP - GRADE_COST
-    if v8 and v9 >= SAFE_9_OVER_8 * v8 and net(v8) >= MIN_MAX_RAW and (v9 - v8) * SELL_KEEP >= SAFE_MIN_GAIN:
-        return "SAFE", round(net(v8)), ""
-    if v10 and v10 >= HUNT_10_OVER_9 * v9 and net(v9) >= MIN_MAX_RAW and net(v10) - net(v9) >= HUNT_MIN_UPSIDE:
-        return "HUNT", round(net(v9)), ""
-    return None, None, "doesn't pay at a 9 after grading and fees"
+def fee(v):
+    for top, cost in FEE_TIERS:
+        if v <= top:
+            return cost
+    return v * FEE_OVER
+
+
+def net(v):
+    return v * SELL_KEEP - fee(v) if v else None
+
+
+def classify(v, n, total, thin):
+    """(kind, max raw A$, expected net A$, why). Max raw = what an ordinary raw NM copy is expected to net once graded
+    and sold, using the population's grade mix shifted half a grade worse. SAFE when a PSA 8 alone still covers it."""
+    v7, v8, v9, v10, raw = (v.get(k) for k in ("PSA 7", "PSA 8", "PSA 9", "PSA 10", "Raw"))
+    if not v8 or not v9:
+        return None, None, None, "no PSA 8 or 9 price"
+    if "PSA 8" in thin or "PSA 9" in thin:
+        return None, None, None, "too few PSA 8/9 sales to trust"
+    if v9 < v8 or (v10 and v10 < v9) or (v7 and v8 < v7):
+        return None, None, None, "prices out of order (a higher grade priced lower): bad data"
+    if not total:
+        return None, None, None, "no population"
+    if v10 and "PSA 10" in thin:
+        v10 = v10 * THIN_10_KEEP
+    p = {g: n.get(str(g), 0) / total for g in (10, 9, 8, 7)}
+    h = HALF_GRADE_WORSE
+    q = {10: p[10] * (1 - h), 9: p[9] * (1 - h) + p[10] * h, 8: p[8] * (1 - h) + p[9] * h, 7: p[7] * (1 - h) + p[8] * h}
+    q_low = max(0.0, 1 - sum(q.values()))
+    low = net(raw or (v7 or v8) * 0.5) or 0          # a low-grade slab sells for about raw
+    ev = (q[10] * (net(v10) if v10 else net(v9)) + q[9] * net(v9) + q[8] * net(v8)
+          + q[7] * (net(v7) if v7 else net(v8 * 0.6)) + q_low * low)
+    max_raw = round(ev)
+    if max_raw < MIN_MAX_RAW:
+        return None, None, None, "doesn't pay on the usual grade mix"
+    if max_raw > MAX_BUY:
+        return None, None, None, f"over the A${MAX_BUY:,} budget"
+    return ("SAFE" if net(v8) >= max_raw else "HUNT"), max_raw, round(ev), ""
 
 
 def ebay(q, sold=False):
@@ -187,7 +223,7 @@ def main():
     # 3. prices for those cards (stalest first, lowest gem rate first)
     card_cut = (today - timedelta(days=CARD_DAYS)).isoformat()
     need = [c for c in cands if data["cards"].get(c[0], {}).get("day", "") < card_cut]
-    need.sort(key=lambda c: (data["cards"].get(c[0], {}).get("day", ""), c[3]))
+    need.sort(key=lambda c: (data["cards"].get(c[0], {}).get("day", ""), not FOCUS.search(c[1]), c[3]))
     for path, s, r, gem in need[:CARD_MAX]:
         try:
             _, page = get(BASE + path)
@@ -205,28 +241,26 @@ def main():
         time.sleep(PAUSE)
 
     # 4. sort into safe plays and 10 hunts
-    out = {}
+    out, skipped = {}, {}
     for path, s, r, gem in cands:
         c = data["cards"].get(path) or {}
         v = c.get("v") or {}
-        if not v:
-            continue
-        kind, max_raw, why = classify(v)
-        if not kind or gem > MAX_GEM:
+        if not v or gem > MAX_GEM:
             continue
         n = r["n"]; tot = r["total"]
-        p = {g: n.get(g, 0) / tot for g in ("10", "9", "8")}
-        p_low = max(0.0, 1 - sum(p.values()))
-        ev = (p["10"] * v.get("PSA 10", 0) + p["9"] * v.get("PSA 9", 0) + p["8"] * v.get("PSA 8", 0)
-              + p_low * v.get("PSA 7", v.get("PSA 8", 0) * 0.6)) * SELL_KEEP - GRADE_COST
+        kind, max_raw, ev, why = classify(v, n, tot, c.get("thin", []))
+        if not kind:
+            skipped[why.split(" (")[0].split(":")[0]] = skipped.get(why.split(" (")[0].split(":")[0], 0) + 1
+            continue
         out[path] = {"kind": kind, "max_raw": max_raw, "set": s, "name": c.get("name") or r["name"], "num": card_num(path),
                      "lang": "JP" if "japanese" in s else "EN", "gem": round(gem, 3), "n10": n.get("10", 0), "n9": n.get("9", 0),
                      "n8": n.get("8", 0), "total": tot, "v": v, "thin": c.get("thin", []),
-                     "ev_graded": round(ev), "raw_market": v.get("Raw"), "checked": c.get("day")}
+                     "ev_graded": ev, "raw_market": v.get("Raw"), "checked": c.get("day")}
     data["targets"] = out
     data["updated"] = T
     data["rules"] = {"min_total": MIN_TOTAL, "min_psa9": MIN_N9, "max_gem": MAX_GEM, "sell_keep": SELL_KEEP,
-                     "grade_cost": GRADE_COST, "usd_aud": rate}
+                     "grade_cost": GRADE_COST, "fee_tiers": FEE_TIERS, "half_grade_worse": HALF_GRADE_WORSE,
+                     "max_buy": MAX_BUY, "usd_aud": rate}
     json.dump(data, open(P("gemrates.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 
     # 5. the readable list
@@ -236,9 +270,14 @@ def main():
           f"{len(out)} targets from {len(cands)} cards with {MIN_TOTAL}+ graded copies and {MIN_N9}+ PSA 9s, across "
           f"{sum(1 for s in sets if data['pop'].get(s, {}).get('rows'))} of {len(sets)} sets. US$1 = A${rate} ({rate_src})."
           + (f" Still to read: {left_pop} set pages, {left_cards} card pages (next runs)." if left_pop or left_cards else ""),
-          "", "**Max raw** = the most to pay for a raw NM copy, landed. SAFE: a PSA 8 breaks even there. "
-          "HUNT: a PSA 9 breaks even there, so you're playing for the 10. Gem rate = PSA 10s ÷ all graded copies. "
-          "Raw now = PriceCharting's raw price: if it's well over max raw, you need a bargain to make it work.", ""]
+          "", "**Max raw** = the most to pay for a raw NM copy, landed: what a copy is expected to net after grading "
+          "(fees by value tier) and eBay fees, using the card's real grade mix from the pop report, shifted half a grade "
+          "worse because pop reports are mostly the best copies. SAFE: a PSA 8 alone still covers max raw. "
+          "HUNT: you need a 9 or better. Gem rate = PSA 10s ÷ all graded copies. Cards need 3+ recent PSA 8 and 9 sales; "
+          f"a thin PSA 10 price counts {THIN_10_KEEP:.0%}. Over A${MAX_BUY:,} max raw is left out (budget). "
+          "Raw now = PriceCharting's raw price, which includes played copies.", ""]
+    if skipped:
+        md += ["Left out: " + "; ".join(f"{k} ({v})" for k, v in sorted(skipped.items(), key=lambda kv: -kv[1])), ""]
     for kind, title in (("SAFE", "Safe grade plays"), ("HUNT", "10 hunts")):
         rows = sorted((x for x in out.values() if x["kind"] == kind), key=lambda x: (x["gem"], -x["max_raw"]))
         md += [f"## {title} ({len(rows)})", ""]
@@ -247,7 +286,7 @@ def main():
             q = f"{x['name']} {x['num']}{' japanese' if x['lang'] == 'JP' else ''}".strip()
             thin = f" (few sales: {', '.join(x['thin'])})" if x["thin"] else ""
             md.append(f"- **{x['name']}** #{x['num']} · {x['set'].replace('pokemon-', '').replace('-', ' ')} — "
-                      f"gem {x['gem'] * 100:.0f}% ({x['n10']}/{x['total']}), PSA 9 pop {x['n9']} · "
+                      f"gem {x['gem'] * 100:.{1 if x['gem'] < 0.1 else 0}f}% ({x['n10']}/{x['total']}), PSA 9 pop {x['n9']} · "
                       f"PSA 8 A${v.get('PSA 8', 0):,} · 9 A${v.get('PSA 9', 0):,} · 10 A${v.get('PSA 10', 0):,} · "
                       f"raw now A${v.get('Raw', 0):,} → **max raw A${x['max_raw']:,}**{thin} · "
                       f"[eBay]({ebay(q)}) · [sold]({ebay(q, True)}) · [PriceCharting]({BASE}{next(p for p, y in out.items() if y is x)})")
