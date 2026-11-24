@@ -22,7 +22,7 @@ from datetime import date, timedelta
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from pc_prices import usd_aud  # noqa: E402
-from pc_more import find_card, read_page, value, set_words  # noqa: E402
+from pc_more import find_card, read_page, value, set_words, jp_set, SELLER_CODE  # noqa: E402
 from megacash_prices import card_of  # noqa: E402
 from feedlib import grade_of, lang_of, land_aud, norm, REPRINT, fix_spelling  # noqa: E402
 from enrich import Values, MODERN, NEWER, SV_MEP, SKIP_CC, FIRST, REV, PRE, ODD, NOSYM  # noqa: E402
@@ -33,13 +33,23 @@ MIN_PRICE = 30                       # A$: cheaper cards aren't worth a lookup
 GRADES = [("Raw", "raw"), ("PSA 4", "g4"), ("PSA 5", "g5"), ("PSA 6", "g6"), ("PSA 7", "g7"), ("PSA 8", "g8"), ("PSA 9", "g9"), ("PSA 10", "g10")]
 USEFUL = {"Raw", "PSA 7", "PSA 8", "PSA 9", "PSA 10"}   # listings worth a lookup (low grades are read, not hunted)
 # words card_of() sometimes takes for the card's name that are really set codes, rarities or packaging
-NOT_NAME = set("xy sm bw dp neo sealed promo mc rr rrr hr sr ur ar chr csr sar sir pokemon japanese holo rare lv".split())
+NOT_NAME = set("xy sm bw dp neo sealed promo mc rr rrr hr sr ur ar chr csr sar sir pokemon japanese holo rare lv "
+               "nm no near mint dpbp vintage unlimited card old back".split())
 
 
 def name_of(title):
     """card_of() for a title, with set codes / rarity letters taken out of the name; None when no real name is left."""
     c = card_of(fix_spelling(title))
-    name = [w for w in c["name"] if w not in NOT_NAME]
+    js = jp_set(title) if lang_of(title) == "JP" else None
+    if lang_of(title) == "JP":
+        c["jp"] = True        # titles like "Gengar DPBP 102 Space-Time Creation" are Japanese without saying so
+    drop = js[2] if js else set()
+    name = [w for w in c["name"] if w not in NOT_NAME and w not in drop and not SELLER_CODE.match(w)]
+    if js:
+        c["pcsets"], c["setkeys"] = js[0], js[1]
+        # search PriceCharting with the card name, number and its Japanese set name, not the seller's wording
+        setname = js[0][0].replace("pokemon-japanese-", "").replace("-", " ").replace("%27", "'")
+        c["query"] = " ".join(name + [str(c.get("num") or "").replace("#", ""), "japanese", setname]).strip()
     if not any(len(w) >= 3 for w in name):
         return None
     c["name"] = name
@@ -106,7 +116,10 @@ def entry_for(cand, url, info, rate, today):
         return None, f"odd PriceCharting link {path}"
     cset = parts[1]
     flat = cset.replace("-", "")
-    keys = sorted(w for w in set_words(dict(c, keys=[])) if w in flat or (len(w) > 5 and w[:5] in flat))
+    if c.get("setkeys"):
+        keys = list(c["setkeys"])
+    else:
+        keys = sorted(w for w in set_words(dict(c, keys=[])) if w in flat or (len(w) > 5 and w[:5] in flat))
     if cand["num"].startswith("No.") and not keys:
         return None, "Japanese No. card with no set named in the title (the same number is in several sets)"
     g, thin = {}, []
@@ -119,6 +132,8 @@ def entry_for(cand, url, info, rate, today):
     if not g:
         return None, "PriceCharting page has no prices"
     set_name = re.sub(r"^pokemon ", "", cset.replace("-", " ")).title()
+    if c.get("setkeys"):      # Japanese set found by its English name: label it that way, so later listings match it
+        set_name = "Japanese " + c["setkeys"][0].title()
     label = f"{set_name} {info.get('name') or ' '.join(c['name']).title()}".strip()
     if cand["num"] not in label:
         label += f" {cand['num']}"

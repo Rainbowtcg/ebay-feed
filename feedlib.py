@@ -144,7 +144,7 @@ SETS = [
     ("neo genesis", "N1"), ("gold, silver, to a new world", "N1"), ("new world", "N1"), ("neo discovery", "N2"), ("crossing the ruins", "N2"),
     ("neo revelation", "N3"), ("awakening legends", "N3"), ("neo destiny", "N4"), ("darkness, and to light", "N4"), ("darkness and to light", "N4"),
     ("southern island", "SI"), ("legendary collection", "LC"), ("expedition", "EXP"), ("base expansion pack", "EXP"), ("aquapolis", "AQ"),
-    ("skyridge", "SK"), ("mysterious mountains", "e4"), ("split earth", "e5"), ("wind from the sea", "e3"), ("town on no map", "e2"),
+    ("skyridge", "SK"), ("mysterious mountains", "e5"), ("split earth", "e4"), ("wind from the sea", "e3"), ("town on no map", "e2"),
     ("ruby", "RS"), ("sandstorm", "SS"), ("dragon frontiers", "DF"), ("team magma vs team aqua", "MA"), ("hidden legends", "HL"),
     ("firered", "RG"), ("fire red", "RG"), ("deoxys", "DX"), ("emerald", "EM"), ("unseen forces", "UF"), ("golden sky", "UF"),
     ("delta species", "DS"), ("holon research tower", "DS"), ("legend maker", "LM"), ("holon phantom", "HP"),
@@ -185,7 +185,9 @@ LANGS = [("XX", re.compile(r"\b(spanish|espa[nñ]ol|german|deutsch|french|fran[c
 
 # Japanese titles that never say "Japanese": old back cards, kana in the title, Pocket Monsters, and Pokédex-style
 # "No.230" numbering with no English set number (x/102)
-JP_HINT = re.compile(r"old[\s-]?back|[\u3040-\u30ff]|pocket monsters?|\bcarddass\b|\bvending\b|\bbandai\b", re.I)
+JP_HINT = re.compile(r"old[\s-]?back|[\u3040-\u30ff]|pocket monsters?|\bcarddass\b|\bvending\b|\bbandai\b|\bdpbp\b|"
+                     r"crossing the ruins|darkness,? and to light|awakening legends|gold,? silver,? (to )?(a )?new world|"
+                     r"space[- ]time creation|shining darkness|split earth|mysterious mountains|town on no map|wind from the sea", re.I)
 JP_NO = re.compile(r"\bNo\.\s?\d{1,3}\b")
 
 

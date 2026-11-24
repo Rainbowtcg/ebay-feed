@@ -144,6 +144,13 @@ MODERN = re.compile(r'\b(2019|202\d)\b|\b151\b|\bsar\b|\bsir\b|\bsv\d|scarlet|vi
                     r'|\b(sv\d*[a-z]?|s\d{1,2}[a-z]|m\d[a-z]|sm(1[0-2]|[5-9])[a-z]?|swsh\d*)\b|mega dream|phantasmal|sword|shield', re.I)
 SV_MEP = re.compile(r"\b(sv-?p|svp|m-?p|mep)\b|black star promo.*\b(sv|mega)\b", re.I)   # hidden on the finder by default too
 PRE = re.compile(r"\b(dark|light|shining|rocket's|team rocket's|gold star|crystal)\b", re.I)
+# set names that contain those words ("Shining Darkness", "Darkness, and to Light") aren't Dark / Light / Shining cards
+SET_PRE = re.compile(r"shining darkness|darkness,? and to light|challenge from the darkness|shining legends|shining fates|"
+                     r"crystal guardians|crystal tower|light and darkness", re.I)
+
+
+def pre_of(text):
+    return {m.lower() for m in PRE.findall(SET_PRE.sub(" ", re.sub(r"light(ly)?[ -]?play(ed)?", "", text, flags=re.I)))}
 NOSYM = re.compile(r"no[- ]?(set[- ]?)?symbol|no[- ]?rarity|without (set )?symbol|missing (set )?symbol", re.I)  # Jungle no-symbol, JP no-rarity
 ODD = re.compile(r"premium file|vending|carddass|\bdeck\b|\bpromo\b|topsun|bandai|sticker|jumbo|oversized", re.I)
 SLAB = re.compile(r"\b(PSA|CGC|BGS|BECKETT|ACE|TAG|SGC)\b", re.I)
@@ -277,7 +284,7 @@ class Values:
                     continue
                 if not all(w in tl for w in c["words"]) or c["first"] != first or c["rev"] != rev or c["sl"] != sl:
                     continue
-                if {m.lower() for m in PRE.findall(re.sub(r"light(ly)?[ -]?play(ed)?", "", title, flags=re.I))} != {m.lower() for m in PRE.findall(c["label"])}:
+                if pre_of(title) != pre_of(c["label"]):
                     continue
                 if {m.lower() for m in ODD.findall(title)} != {m.lower() for m in ODD.findall(c["label"])}:
                     continue
@@ -310,7 +317,7 @@ class Values:
                     continue
                 if c["first"] != first or c["rev"] != rev or c["sl"] != sl:
                     continue
-                if {m.lower() for m in PRE.findall(re.sub(r"light(ly)?[ -]?play(ed)?", "", title, flags=re.I))} != {m.lower() for m in PRE.findall(c["label"])}:
+                if pre_of(title) != pre_of(c["label"]):
                     continue  # Dark / Light / Shining Houndoom are different cards from Houndoom
                 if {m.lower() for m in ODD.findall(title)} != {m.lower() for m in ODD.findall(c["label"])}:
                     continue  # promo / premium file / vending / deck printings are different cards from the set card

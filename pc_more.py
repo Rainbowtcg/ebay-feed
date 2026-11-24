@@ -13,7 +13,8 @@ from pc_prices import get, parse, BASE
 
 NOISE = set("pokemon rare foil card tcg english eng the black star wotc promo -".split())
 SET_SKIP = NOISE | set("psa cgc bgs tag ace ccic cic ags gem mint pristine japanese jpn edition 1st reverse holo "
-                       "ultra secret full art alt illustration special hyper promo rev svp mep pokemon jp".split())
+                       "ultra secret full art alt illustration special hyper promo rev svp mep pokemon jp "
+                       "vintage unlimited near nm old back card cards".split())
 
 # main price table / sold-listing blocks on a PriceCharting card page -> our grade keys
 MAIN = {"used": "raw", "cib": "g7", "new": "g8", "graded": "g9", "box-only": "g95", "manual-only": "g10"}
@@ -28,13 +29,63 @@ PLAYED = re.compile(r"\b(LP|MP|HP|DMG|played|lightly|moderately|heavily|poor|exc
 NMWORDS = re.compile(r"near[ -]?mint|\bNM\b|\bM/NM\b|\bNM/M\b|\bmint\b|pack fresh", re.I)
 
 
+# Japanese sets: the names eBay sellers use (English set names, Neo 1-4, e1-e5, DP codes) -> PriceCharting's set page(s).
+# A Japanese title that names one of these is matched only against those PriceCharting sets, and the set words in the title
+# (which rarely match PriceCharting's Japanese set names) no longer have to appear in the page path.
+JP_SETS = [
+    (r"base expansion pack|\bexpansion pack\b(?!.*expedition)|\bbase set\b|\boriginal base\b", ["pokemon-japanese-expansion-pack"], ["base set", "expansion pack"]),
+    (r"\bjungle\b", ["pokemon-japanese-jungle"], ["jungle"]),
+    (r"\bfossil\b|mystery of the fossils", ["pokemon-japanese-mystery-of-the-fossils"], ["fossil"]),
+    (r"rocket gang strikes back|team rocket returns", ["pokemon-japanese-rocket-gang-strikes-back"], ["rocket gang strikes back", "team rocket returns"]),
+    (r"\brocket gang\b|\bteam rocket\b(?!'s)", ["pokemon-japanese-rocket-gang"], ["rocket gang", "team rocket"]),
+    (r"leaders'? stadium|gym heroes|\bgym 1\b", ["pokemon-japanese-leaders'-stadium", "pokemon-japanese-leaders%27-stadium"], ["leaders stadium", "leaders' stadium", "gym heroes", "gym 1"]),
+    (r"challenge from the darkness|gym challenge|\bgym 2\b", ["pokemon-japanese-challenge-from-the-darkness"], ["challenge from the darkness", "gym challenge", "gym 2"]),
+    (r"gold,? silver,? (to )?(a )?new world|neo genesis|\bneo 1\b", ["pokemon-japanese-gold-silver-new-world"], ["neo genesis", "neo 1", "new world"]),
+    (r"crossing the ruins|neo discovery|\bneo 2\b(?!.*premium)", ["pokemon-japanese-crossing-the-ruins"], ["neo discovery", "neo 2", "crossing the ruins"]),
+    (r"awakening legends|neo revelation|\bneo 3\b", ["pokemon-japanese-awakening-legends"], ["neo revelation", "neo 3", "awakening legends"]),
+    (r"darkness,? and to light|neo destiny|\bneo 4\b", ["pokemon-japanese-darkness-and-to-light"], ["neo destiny", "neo 4", "darkness and to light", "darkness, and to light"]),
+    (r"premium file", ["pokemon-japanese-neo-premium-file", "pokemon-japanese-promo"], ["premium file"]),
+    (r"southern islands?", ["pokemon-japanese-southern-islands"], ["southern island"]),
+    (r"expedition|\be1\b", ["pokemon-japanese-expedition-expansion-pack"], ["expedition"]),
+    (r"town on no map|\be2\b", ["pokemon-japanese-the-town-on-no-map"], ["town on no map"]),
+    (r"wind from the sea|\be3\b", ["pokemon-japanese-wind-from-the-sea"], ["wind from the sea"]),
+    (r"split earth|\be4\b", ["pokemon-japanese-split-earth"], ["split earth"]),
+    (r"mysterious mountains|\be5\b", ["pokemon-japanese-mysterious-mountains"], ["mysterious mountains"]),
+    (r"\bvs\b|pokemon vs", ["pokemon-japanese-vs"], ["vs"]),
+    (r"shining darkness|\bdp3\b", ["pokemon-japanese-shining-darkness"], ["shining darkness", "dp3"]),
+    (r"space[- ]time creation|\bdp1\b", ["pokemon-japanese-space-time"], ["space time", "space-time", "dp1"]),
+    (r"soul ?silver collection|\bl1\b.*soul ?silver", ["pokemon-japanese-soulsilver-collection"], ["soulsilver collection", "soul silver collection"]),
+    (r"heart ?gold collection", ["pokemon-japanese-heartgold-collection"], ["heartgold collection", "heart gold collection"]),
+    (r"holon phantom", ["pokemon-japanese-holon-phantom"], ["holon phantom"]),
+    (r"holon research", ["pokemon-japanese-holon-research"], ["holon research"]),
+    (r"golden sky,? silvery ocean", ["pokemon-japanese-golden-sky-silvery-ocean"], ["golden sky"]),
+    (r"legendary shine", ["pokemon-japanese-legendary-shine-collection"], ["legendary shine"]),
+    (r"dream shine", ["pokemon-japanese-dream-shine-collection"], ["dream shine"]),
+    (r"best of xy", ["pokemon-japanese-best-of-xy"], ["best of xy"]),
+    (r"10th movie", ["pokemon-japanese-10th-movie-commemoration-promo"], ["10th movie"]),
+    (r"11th movie", ["pokemon-japanese-11th-movie-commemoration-promo"], ["11th movie"]),
+]
+JP_SETS = [(re.compile(rx, re.I), slugs, keys) for rx, slugs, keys in JP_SETS]
+SELLER_CODE = re.compile(r"^[a-z]{1,3}\d{2,3}$")   # stock codes sellers add to titles (FC37, EW87, B026, A582)
+
+
+def jp_set(title):
+    """(PriceCharting set slugs, title keys, words to drop from the name) for the first Japanese set a title names, else None."""
+    t = re.sub(r"\bneo\s*-?\s*([1-4])\b", r"neo \1", title.lower().replace("'", "'"))
+    for rx, slugs, keys in JP_SETS:
+        m = rx.search(t)
+        if m:
+            return slugs, keys, set(re.findall(r"[a-z]+", m.group(0)))
+    return None
+
+
 def set_words(c):
     """Title words that should name the set (anything that isn't the card name, number, grade or filler)."""
     name = set(c["name"])
     num = (c.get("num") or "").lower().lstrip("0")
     t = c["title"].lower().replace("s&v", "scarlet violet").replace("'s", "s")
     ws = set(re.findall(r"[a-z0-9&]{3,}", t)) | set(c.get("keys") or [])
-    return {w for w in ws - SET_SKIP - name if w == "151" or (not w.isdigit() and w.lstrip("0") != num)}
+    return {w for w in ws - SET_SKIP - name if (w == "151" or (not w.isdigit() and w.lstrip("0") != num)) and not SELLER_CODE.match(w)}
 
 
 def score(path, c):
@@ -72,6 +123,10 @@ def score(path, c):
             bonus += 0.5
     elif c["first"] and not c["jp"]:
         return 0
+    if c.get("pcsets"):       # a Japanese title naming a known set: only that set's PriceCharting page(s) will do
+        if H.unescape(cset) not in [H.unescape(x) for x in c["pcsets"]]:
+            return 0
+        return 3 + bonus
     sw = set_words(c)
     hits = sum(w in sflat or w in flat or (len(w) > 5 and w[:5] in sflat) for w in sw)
     if sw and not hits:
