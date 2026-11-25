@@ -1,15 +1,15 @@
 {
- "day": "2026-11-24",
+ "day": "2026-11-25",
  "cards": [
   {
    "label": "Aquapolis Lugia 149/147 (crystal)",
    "grade": "Raw",
-   "value": 3147,
-   "copies": 4,
-   "under": 4,
-   "sellers": 4,
-   "median_ratio": 0.25,
-   "src": "PriceCharting 2026-11-23 (90-day sales median where 3+ sales)",
+   "value": 1432,
+   "copies": 5,
+   "under": 5,
+   "sellers": 5,
+   "median_ratio": 0.26,
+   "src": "PriceCharting 2026-11-25 (90-day sales median where 3+ sales)",
    "pc": "/game/pokemon-aquapolis/lugia-149",
    "id": "tg:Aquapolis Lugia 149/147 (crystal)"
   }

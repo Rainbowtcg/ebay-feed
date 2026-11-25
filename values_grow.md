@@ -1,107 +1,100 @@
-# New card values 2026-11-23
-21 cards added from PriceCharting at US$1 = A$1.507 (open.er-api.com); 179 not matched; 9235 unvalued cards still waiting; 560 cards valued in all.
+# New card values 2026-11-25
+14 cards added from PriceCharting at US$1 = A$1.5073 (open.er-api.com); 186 not matched; 8472 unvalued cards still waiting; 574 cards valued in all.
 
 ## Added
-- Japanese Soulsilver Collection Pichu #31   Pokemon Japanese SoulSilver Collection 31/70 (JP): Raw A$56, PSA 4 A$27, PSA 5 A$32, PSA 6 A$39, PSA 7 A$48, PSA 8 A$60, PSA 9 A$192, PSA 10 A$769 — from “PSA 8 Pichu 1st Edition 031/070 Japanese Pokemon Card” · https://www.pricecharting.com/game/pokemon-japanese-soulsilver-collection/pichu-31
-- Japanese 1997 Carddass Mew Foil #151   Pokemon Japanese 1997 Carddass No.151 (vending) (JP): Raw A$151, PSA 4 A$62, PSA 5 A$105, PSA 6 A$304, PSA 7 A$399, PSA 8 A$1,130, PSA 9 A$1,243, PSA 10 A$23,767 — from “Pokemon Mew Holo 1996 Carddass No.151 Vending Card Vintage ARS 10 Japa” · https://www.pricecharting.com/game/pokemon-japanese-1997-carddass/mew-foil-151
-- Japanese Reviving Legends Gliscor [1st Edition] #32   Pokemon Japanese Reviving Legends No.32 (JP): Raw A$8, PSA 8 A$31, PSA 9 A$65, PSA 10 A$301 — from “PSA 10 Gliscor Holo 032 Pokemon Card Reviving Legends 2010 1st Edition” · https://www.pricecharting.com/game/pokemon-japanese-reviving-legends/gliscor-1st-edition-32
-- Japanese Tag All Stars Tapu Koko Prism Star #49   Pokemon Japanese Tag All Stars 49/173 (JP): Raw A$9, PSA 10 A$209 — from “PSA 10 Tapu Koko PR 049/173 SM12a TAG TEAM GX Tag All Stars Pokemon Ja” · https://www.pricecharting.com/game/pokemon-japanese-tag-all-stars/tapu-koko-prism-star-49
-- Japanese Tag Bolt Celebi & Venusaur GX #97   Pokemon Japanese Tag Bolt 97/95 (JP): Raw A$145, PSA 4 A$29, PSA 5 A$33, PSA 6 A$41, PSA 7 A$51, PSA 8 A$53, PSA 9 A$211, PSA 10 A$710 — from “PSA 10 Celebi & Venusaur GX 097/095 Tag Bolt Japanese Pokemon” · https://www.pricecharting.com/game/pokemon-japanese-tag-bolt/celebi-&-venusaur-gx-97
-- Japanese Heartgold Collection Feraligatr #25   Pokemon Japanese HeartGold Collection 25/70 (JP): Raw A$107, PSA 4 A$30, PSA 5 A$36, PSA 6 A$45, PSA 7 A$57, PSA 8 A$74, PSA 9 A$286, PSA 10 A$1,507 — from “PSA 9 Feraligatr 025/070 Holo HeartGold Collection 1st Edition 2009 Ja” · https://www.pricecharting.com/game/pokemon-japanese-heartgold-collection/feraligatr-25
-- Japanese 11Th Movie Commemoration Promo Dialga #8   Pokemon Japanese 11th Movie Commemoration Promo 8/9 (JP): Raw A$49, PSA 4 A$24, PSA 5 A$29, PSA 6 A$36, PSA 7 A$45, PSA 8 A$57, PSA 9 A$121, PSA 10 A$574 — from “PSA 10 Dialga 008/009 Holo Promo 11th Movie Pokemon Card Japanese 2008” · https://www.pricecharting.com/game/pokemon-japanese-11th-movie-commemoration-promo/dialga-8
-- Japanese Rising Fist Dragonite EX [1st Edition] #69   Pokemon Japanese Rising Fist 69/96 (JP): Raw A$23, PSA 8 A$99, PSA 9 A$46, PSA 10 A$332 — from “Dragonite EX 069/096 RR - 2014 XY3 Rising Fist 1st Edition Pokemon car” · https://www.pricecharting.com/game/pokemon-japanese-rising-fist/dragonite-ex-1st-edition-69
-- Japanese Tag All Stars Jirachi Prism Star #91   Pokemon Japanese Tag All Stars 91/173 (JP): Raw A$38, PSA 8 A$11, PSA 10 A$509 — from “PSA 10 Pokemon Card Jirachi Prism Star 091/173 Tag All Stars Japanese ” · https://www.pricecharting.com/game/pokemon-japanese-tag-all-stars/jirachi-prism-star-91
-- Japanese 11Th Movie Commemoration Promo Regigigas #9   Pokemon Japanese 11th Movie Commemoration Promo 9/9 (JP): Raw A$37, PSA 4 A$11, PSA 5 A$12, PSA 6 A$15, PSA 7 A$18, PSA 8 A$37, PSA 9 A$69, PSA 10 A$301 — from “PSA 10 Regigigas Holo 009/009 11th Movie Promo Japanese Pokemon Card 2” · https://www.pricecharting.com/game/pokemon-japanese-11th-movie-commemoration-promo/regigigas-9
-- Japanese Mega Dream Ex Mega Dragonite ex #246   Pokemon Japanese Mega Dream ex 246/193 (JP): Raw A$200, PSA 4 A$90, PSA 5 A$105, PSA 6 A$131, PSA 7 A$163, PSA 8 A$200, PSA 9 A$176, PSA 10 A$278 — from “MEGA Dragonite ex SAR 246/193 MEGA Dream ex M2a Pokemon Card Japanese ” · https://www.pricecharting.com/game/pokemon-japanese-mega-dream-ex/mega-dragonite-ex-246
-- Japanese Thunderclap Spark Ditto Prism Star #43   Pokemon Japanese Thunderclap Spark 43/60 (JP): Raw A$52, PSA 9 A$66, PSA 10 A$1,130 — from “NM- Ditto Prism Star PR 043/060 Pokemon Card Japanese” · https://www.pricecharting.com/game/pokemon-japanese-thunderclap-spark/ditto-prism-star-43
-- Japanese Soulsilver Collection Typhlosion #17   Pokemon Japanese SoulSilver Collection 17/70 (JP): Raw A$80, PSA 8 A$176, PSA 9 A$169, PSA 10 A$1,517 — from “Typhlosion Holo 017/070 1st Edition Soulsilver Collection Pokemon Japa” · https://www.pricecharting.com/game/pokemon-japanese-soulsilver-collection/typhlosion-17
-- Japanese Promo Shining Mew [CoroCoro] #151   Pokemon Japanese Promo No.151 (JP): Raw A$1,959, PSA 4 A$1,415, PSA 5 A$1,620, PSA 6 A$1,899, PSA 7 A$2,151, PSA 8 A$3,278, PSA 9 A$8,041, PSA 10 A$65,645 — from “PSA 8 Shining Mew #151 2001 Pokemon Japan Promo Corocoro Comics-Holo N” · https://www.pricecharting.com/game/pokemon-japanese-promo/shining-mew-corocoro-151
-- Japanese Galactic%27S Conquest Palkia G Lv.X [1st Edition] #33   Pokemon Japanese Galactic's Conquest No.33 (JP): Raw A$59, PSA 4 A$39, PSA 5 A$45, PSA 6 A$54, PSA 7 A$68, PSA 8 A$113, PSA 9 A$437, PSA 10 A$2,374 — from “PSA 10 Palkia G Lv.X 1st Ed Secret Japanese Pokemon Galactic's Conques” · https://www.pricecharting.com/game/pokemon-japanese-galactic%27s-conquest/palkia-g-lvx-1st-edition-33
-- Japanese E Starter Deck Venusaur [1st Edition] #4   Pokemon Japanese E-Starter Deck 4/52 (JP): Raw A$151, PSA 4 A$14, PSA 5 A$17, PSA 6 A$20, PSA 7 A$81, PSA 8 A$102, PSA 9 A$249, PSA 10 A$1,115 — from “PSA 10 Venusaur ex 004/052 ex Starter Deck Pokemon Japanese Holo 2004 ” · https://www.pricecharting.com/game/pokemon-japanese-e-starter-deck/venusaur-1st-edition-4
-- Japanese Galactic%27S Conquest Giratina LV.X [1st Edition] #52   Pokemon Japanese Galactic's Conquest 52/96 (JP): Raw A$83, PSA 4 A$56, PSA 5 A$66, PSA 6 A$83, PSA 7 A$197, PSA 8 A$413, PSA 9 A$678, PSA 10 A$4,664 — from “PSA 10 Giratina LV.X Holo 1st Edition 052/096 Galactic's Conquest Japa” · https://www.pricecharting.com/game/pokemon-japanese-galactic%27s-conquest/giratina-lvx-1st-edition-52
-- Japanese Infernape Half Deck Infernape LV.X #4   Pokemon Japanese Infernape Half Deck No.4 (JP): Raw A$80, PSA 4 A$52, PSA 5 A$66, PSA 6 A$131, PSA 7 A$165, PSA 8 A$222, PSA 9 A$520, PSA 10 A$2,355 — from “PSA 10 Infernape 4 LV.X #004 2008 Pokemon Japanese Infernape Half Deck” · https://www.pricecharting.com/game/pokemon-japanese-infernape-half-deck/infernape-lvx-4
-- Japanese Reviving Legends Espeon #24   Pokemon Japanese Reviving Legends 24/80 (JP): Raw A$60, PSA 4 A$27, PSA 5 A$31, PSA 6 A$49, PSA 7 A$60, PSA 8 A$75, PSA 9 A$405, PSA 10 A$1,608 — from “PSA 10 Espeon Holo 024/080 Reviving Legends Unlimited Japanese Pokemon” · https://www.pricecharting.com/game/pokemon-japanese-reviving-legends/espeon-24
-- Japanese 1997 Carddass Raichu #26   Pokemon Japanese 1997 Carddass No.26 (bandai) (JP): Raw A$47, PSA 4 A$12, PSA 5 A$14, PSA 6 A$17, PSA 7 A$21, PSA 8 A$83, PSA 9 A$282, PSA 10 A$1,817 — from “PSA 10 Raichu #026 Bandai Carddass 1997 Pokemon Card Japanese” · https://www.pricecharting.com/game/pokemon-japanese-1997-carddass/raichu-26
-- Japanese Bonds To The End Of Time Flygon LV.X #73   Pokemon Japanese Bonds to the End of Time 73/90 (JP): Raw A$43, PSA 4 A$44, PSA 5 A$51, PSA 6 A$65, PSA 7 A$81, PSA 8 A$101, PSA 9 A$429, PSA 10 A$3,014 — from “Pokemon PSA 10 Flygon LV.X 073/090 Bonds to The End of Time Pt2 Japane” · https://www.pricecharting.com/game/pokemon-japanese-bonds-to-the-end-of-time/flygon-lvx-73
+- Japanese Neo Genesis Kingdra #230   Pokemon Japanese Gold, Silver, New World No.230 (JP): Raw A$30, PSA 4 A$20, PSA 5 A$23, PSA 6 A$36, PSA 7 A$44, PSA 8 A$68, PSA 9 A$90, PSA 10 A$641 — from “Kingdra No. 230 Holo Neo Genesis Pokemon Japanese NM” · https://www.pricecharting.com/game/pokemon-japanese-gold-silver-new-world/kingdra-230
+- Japanese Jungle Clefable #36   Pokemon Japanese Jungle No.36 (JP): Raw A$30, PSA 4 A$22, PSA 5 A$24, PSA 6 A$33, PSA 7 A$38, PSA 8 A$75, PSA 9 A$151, PSA 10 A$1,210 — from “1997 Pokémon Japanese Jungle Clefable #36 Holo PSA 8 NM-MT” · https://www.pricecharting.com/game/pokemon-japanese-jungle/clefable-36
+- Japanese Southern Island Wartortle #8   Pokemon Japanese Southern Islands No.8 (promo) (JP): Raw A$68, PSA 4 A$27, PSA 5 A$32, PSA 6 A$39, PSA 7 A$113, PSA 8 A$105, PSA 9 A$204, PSA 10 A$1,161 — from “PSA 10 Wartortle #008 Southern Island Promo 1999 Pokemon Card Japanese” · https://www.pricecharting.com/game/pokemon-japanese-southern-islands/wartortle-8
+- Japanese Neo Discovery Wobbuffet #202   Pokemon Japanese Crossing the Ruins No.202 (JP): Raw A$41, PSA 4 A$11, PSA 5 A$13, PSA 6 A$32, PSA 7 A$40, PSA 8 A$71, PSA 9 A$141, PSA 10 A$1,036 — from “Wobbuffet Pokemon Japanese No.202 Neo Discovery Vintage Holo PSA 9” · https://www.pricecharting.com/game/pokemon-japanese-crossing-the-ruins/wobbuffet-202
+- Japanese Neo Discovery Smeargle #235   Pokemon Japanese Crossing the Ruins No.235 (JP): Raw A$36, PSA 4 A$23, PSA 5 A$27, PSA 6 A$33, PSA 7 A$41, PSA 8 A$60, PSA 9 A$121, PSA 10 A$1,280 — from “Pokemon - Neo Discovery - Smeargle - No. 235 - Holo - NM/M - Japanese” · https://www.pricecharting.com/game/pokemon-japanese-crossing-the-ruins/smeargle-235
+- Japanese Premium File Pichu [Reverse Holo] #172   Pokemon Japanese Neo Premium File No.172 (promo) (JP): Raw A$121, PSA 4 A$42, PSA 5 A$50, PSA 6 A$62, PSA 7 A$118, PSA 8 A$131, PSA 9 A$237, PSA 10 A$1,093 — from “2000 Pokémon Pichu No.172 Neo Premium File 2 Promo Reverse Holo Japane” · https://www.pricecharting.com/game/pokemon-japanese-neo-premium-file/pichu-reverse-holo-172
+- Japanese Neo Discovery Scizor #212   Pokemon Japanese Crossing the Ruins No.212 (JP): Raw A$60, PSA 4 A$21, PSA 5 A$24, PSA 6 A$30, PSA 7 A$37, PSA 8 A$76, PSA 9 A$154, PSA 10 A$979 — from “[NM] Scizor Pokemon Card Japanese  No.212 Neo Discovery Vintage Holo T” · https://www.pricecharting.com/game/pokemon-japanese-crossing-the-ruins/scizor-212
+- Japanese Southern Island Jigglypuff #39   Pokemon Japanese Southern Islands No.39 (promo) (JP): Raw A$59, PSA 4 A$17, PSA 5 A$20, PSA 6 A$24, PSA 7 A$31, PSA 8 A$46, PSA 9 A$75, PSA 10 A$734 — from “PSA 9 Jigglypuff Old Back Promo 039 Southern Island Japanese Pokemon C” · https://www.pricecharting.com/game/pokemon-japanese-southern-islands/jigglypuff-39
+- Japanese Southern Island Lickitung #108   Pokemon Japanese Southern Islands No.108 (promo) (JP): Raw A$31, PSA 4 A$9, PSA 5 A$10, PSA 6 A$17, PSA 7 A$35, PSA 8 A$44, PSA 9 A$55, PSA 10 A$219 — from “PSA 10 Lickitung #108 Japanese Promo Southern Islands T.I. Pokemon 199” · https://www.pricecharting.com/game/pokemon-japanese-southern-islands/lickitung-108
+- Japanese 25Th Anniversary Promo Mew ex #14   Pokemon Japanese 25th Anniversary Promo 14/25 (JP): Raw A$75, PSA 4 A$29, PSA 5 A$33, PSA 6 A$42, PSA 8 A$37, PSA 9 A$77, PSA 10 A$205 — from “NM- Mew ex PROMO 014/025 Pokemon Card Japanese” · https://www.pricecharting.com/game/pokemon-japanese-25th-anniversary-promo/mew-ex-14
+- Japanese Neo Discovery Eevee #133   Pokemon Japanese Crossing the Ruins No.133 (promo) (JP): Raw A$12, PSA 4 A$12, PSA 5 A$14, PSA 6 A$16, PSA 7 A$18, PSA 8 A$35, PSA 9 A$65, PSA 10 A$678 — from “Eevee #133 Neo 2 Promo PSA 10 Japanese Pokemon Card 2000 Rare Vintage ” · https://www.pricecharting.com/game/pokemon-japanese-crossing-the-ruins/eevee-133
+- Japanese Expedition Mew [Holo] #119   Pokemon Japanese Expedition Expansion Pack 119/128 (JP): Raw A$399, PSA 4 A$106, PSA 5 A$124, PSA 6 A$154, PSA 8 A$232, PSA 9 A$1,689, PSA 10 A$3,590 — from “PSA 10 Mew 119/128 Expedition e-Series Holo Japanese Pokemon Card 2001” · https://www.pricecharting.com/game/pokemon-japanese-expedition-expansion-pack/mew-holo-119
+- Japanese Bonds To The End Of Time Hippowdon LV.X #56   Pokemon Japanese Bonds to the End of Time 56/90 (JP): Raw A$39, PSA 8 A$97, PSA 9 A$241, PSA 10 A$829 — from “Hippowdon LV.X 056/090 PSA 10 Gem Mint Pokemon Card Japanese Bonds End” · https://www.pricecharting.com/game/pokemon-japanese-bonds-to-the-end-of-time/hippowdon-lvx-56
+- Japanese Classic Blastoise Blastoise #3   Pokemon Japanese Classic: Blastoise 3/32 (JP): Raw A$66, PSA 4 A$15, PSA 5 A$18, PSA 6 A$23, PSA 7 A$43, PSA 8 A$47, PSA 9 A$80, PSA 10 A$188 — from “Blastoise 003/032 (CLK) Classic Holo Pokemon Card TCG Japanese NM” · https://www.pricecharting.com/game/pokemon-japanese-classic-blastoise/blastoise-3
 
 ## Not matched (retried after 14 days)
-- CHARIZARD 006 REVERSE HOLO NEO 2 PROMO POKEMON JAPANESE PSA 10: no PriceCharting card fit (top result /game/pokemon-legendary-collection/charizard-reverse-holo-3)
-- PSA 10 Pokemon MEGA Dream ex Psyduck 032 Friend Pokeball Reverse Holo JP: no PriceCharting card fit (top result /game/pokemon-japanese-mega-dream-ex/mega-gengar-ex-240)
-- Armored Mewtwo 365/SM-P PROMO movie Sealed HOLO Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-promo/armored-mewtwo-sm228)
-- Pokemon Lugia VSTAR 325/S-P Promo Japanese Holo Lugia Get Challenge NM: no PriceCharting card fit (top result /game/pokemon-silver-tempest/lugia-v-186)
-- [PSA 10] Rayquaza Holo Play Promo 021 3rd Season Pokemon Card Japanese 2005: no PriceCharting card fit (top result /game/pokemon-pop-series-1/rayquaza-holo-3)
-- Mew 220/BW-P PSA 9 Mint Pokemon Card Japanese Battle Carnival 2013 Promo: no PriceCharting card fit (top result /game/pokemon-japanese-promo/rayquaza-144bw-p)
-- Pokemon 2014 Japanese Mega Tokyo's Pikachu XY Promo 098/XY-P PSA 9: no PriceCharting card fit (top result /game/pokemon-japanese-promo/poncho-wearing-pikachu-231xy-p)
-- Eevee #133 PSA 10 Gem Mint Pokemon Card Japanese Neo 2 Promo 2000: the value wouldn't match its own listing (name/set words differ from PriceCharting's)
-- PSA 10 Pichu 1ED 031/070 L1-S Japanese Pokemon Card: no PriceCharting card fit (top result /game/pokemon-japanese-gold-silver-new-world/pichu-172)
-- PSA 10 Piplup 002/009 2008 Japanese Pokemon 11th Movie Commemoration Holo: the value wouldn't match its own listing (name/set words differ from PriceCharting's)
-- PSA 10 2015 Japanese Pokémon Celebi XY 142 Bandit Ring Promo Holo: no PriceCharting card fit (top result /game/pokemon-japanese-bandit-ring/m-rayquaza-ex-95)
+- PSA 10 Pikachu 208/S-P Yu Nagaba X PCG Campaign Promo 2021 Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-227s-p)
+- CHARIZARD 006 REVERSE HOLO NEO 2 PROMO POKEMON JAPANESE PSA 10: no PriceCharting card fit (top result /game/pokemon-japanese-crossing-the-ruins/umbreon-197)
+- PSA 10 Pikachu Holo 003/009 11th Movie Commemoration Set Japanese Pokemon 2008: PriceCharting page /game/pokemon-japanese-11th-movie-commemoration-promo/pikachu-3 is already in values.json under another name
+- PSA 10 Mega Charizard Y ex 085/742 Japanese Pokemon Card: the value wouldn't match its own listing (name/set words differ from PriceCharting's)
+- PSA 10 - Mew 343/S-P Extra Battle Day Japanese Promo x467 - Pokemon: no PriceCharting card fit (top result /game/pokemon-japanese-25th-anniversary-promo/mew-ex-14)
+- PSA 10 Celebi 175/S-P Promo Alt Art Jet Black Spirit 2021 Japanese Pokemon Card: no PriceCharting card fit (top result /game/pokemon-japanese-promo/celebi-v-175s-p)
+- Luxray GL LV.X P S8a-P 017 Promo PSA 10 Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-25th-anniversary-promo/charizard-1)
+- PSA 9 - 1999 Pokemon TCG Japanese Mew Holo Promo Southern Islands #151: PriceCharting page /game/pokemon-japanese-southern-islands/mew-151 is already in values.json under another name
+- Team Aqua's Kyogre EX 006/034 1st Edition POKEMON Japanese PSA 10 Gem Mint: no PriceCharting card fit (top result /game/pokemon-double-crisis/team-aqua%27s-kyogre-ex-6)
+- PSA 10 Piplup 002/009 11th Movie Commemoration Set DP Japanese Pokemon Card 2008: the value wouldn't match its own listing (name/set words differ from PriceCharting's)
+- Pokemon Japanese Pikachu ex PSA 10 Gem Mint MC 227/742 #2738: the value wouldn't match its own listing (name/set words differ from PriceCharting's)
+- Celebi V 175/S-P PSA 10 | Japanese 2021 Promo Full Art Holo Pokémon TCG: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-nagaba-holo-208s-p)
+- Mew 343/S-P Extra Battle Day PROMO - Pokemon Card Japanese Sword & Shield: no PriceCharting card fit (top result /game/pokemon-japanese-player%27s-club/_____%27s-mew-13play)
+- PSA 10 Garchomp C LV.X P S8a-P 018 Pokemon Japanese Gem Mint: no PriceCharting card fit (top result /game/pokemon-supreme-victors/garchomp-c-lv-x-145)
+- PSA 10 Celebi V SA 175/S-P Jet Black Spirit - Pokemon Card Japanese 2021: no PriceCharting card fit (top result /game/pokemon-japanese-promo/celebi-v-175s-p)
+- Pokemon Rayquaza 144/BW-P BW-P Promo Sealed Japanese Nobunaga's Ambition Card: no PriceCharting card fit (top result /game/pokemon-japanese-promo/rayquaza-144bw-p)
+- PSA 10 Pokemon Card Team Magma's Groudon P 011/025 S8a-P Japanese 2021: no PriceCharting card fit (top result /game/pokemon-double-crisis/team-magma%27s-groudon-ex-15)
+- Meowth UR 1st Edition 072/066 BW2 Red Collection Japanese Pokemon Card PSA 10: PriceCharting page /game/pokemon-japanese-red-collection/meowth-72 is already in values.json under another name
+- Mew EX 024/020 SR SC Shiny Collection Japanese Pokemon Card Full Art Rare: PriceCharting page /game/pokemon-japanese-shiny-collection/mew-ex-1st-edition-24 is already in values.json under another name
+- Mew 085/PCG-P McDonalds 2005 Promo Pokemon Card Japanese Near Mint Vintage: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pokepark%27s-pikachu-43pcg-p)
+- PSA 10 Venusaur #003 CD promo Pokemon Japanese promo Gem Mint Card Vintage 1999: odd PriceCharting link /search-products
+- NM- Umbreon PROMO 115/BW-P Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/umbreon-nagaba-67sv-p)
+- Rayquaza EX 122/XY-P Japanese Promo Pokemon Card 2015: no PriceCharting card fit (top result /game/pokemon-japanese-promo/hoopa-155xy-p)
+- Dialga Holo 008/009 11th Movie Commemoration Set Pokemon Japanese PSA 10: PriceCharting page /game/pokemon-japanese-11th-movie-commemoration-promo/dialga-8 is already in values.json under another name
+- Pokemon PokePark's Mudkip 048/PCG-P 2005 Promo Sealed Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pokepark%27s-pikachu-43pcg-p)
+- Pikachu 124/S-P PikaPika! Campaign Promo Japanese Pokemon [NM] (1): no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-227s-p)
+- PSA 10 Pretend Boss Pikachu Team Magma 193/SM-P Promo 2018 Japanese Pokemon Card: no PriceCharting card fit (top result /game/pokemon-japanese-promo/red%27s-pikachu-270sm-p)
+- Pokemon SEALED Rayquaza 144/BW-P Nobunga's Ambition Promo Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/rayquaza-144bw-p)
+-  Arceus V 267/S-P Holo Promo SEALED Japanese Pokemon Legends Arceus: no PriceCharting card fit (top result /game/pokemon-brilliant-stars/arceus-v-166)
+- PSA 10 Snorlax Holo CD Promo #143 1999 Japanese Pokemon Card Old Back: Japanese No. card with no set named in the title (the same number is in several sets)
+- Dialga Lv.X P 107/DP-P Pokemon Japanese PSA 9: no PriceCharting card fit (top result /game/pokemon-promo/dialga-lvx-dp17)
+- PSA 10 Lt. Surge's Raichu R No.026 PMCG-G2 Japanese Pokemon Card GEM MINT: no PriceCharting card fit (top result /game/pokemon-gym-heroes/lt-surge%27s-pikachu-81)
+- PSA 10 Pokemon Card Sneasel Promo Neo 3 2000 215 Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-awakening-legends/houndoom-229)
+- PSA 10 - Celebi Holo 142/XY-P  Bandit Ring Japanese Promo x321 - Pokemon: no PriceCharting card fit (top result /game/pokemon-japanese-bandit-ring/m-rayquaza-ex-95)
 - Mew 342/SM-P PR Sealed SM Promo Pokemon Card Japanese Near Mint: no PriceCharting card fit (top result /game/pokemon-japanese-promo/psyduck-286sm-p)
-- Aura's Lucario Promo 093/PCG-P PCG-P Promotional cards - Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pokepark%27s-pikachu-43pcg-p)
-- Rayquaza Nobunaga 144/BW-P Promo Limited Sealed Japanese Pokemon Card: no PriceCharting card fit (top result /game/pokemon-japanese-promo/rayquaza-144bw-p)
-- Hoopa with Pikachu 155/XY-P MOVIE PROMO MINT HOLO Pokemon Card Japanese Seald: no PriceCharting card fit (top result /game/pokemon-japanese-promo/poncho-wearing-pikachu-231xy-p)
-- Eevee & Snorlax GX 297/SM-P Tag Bolt Japanese Promo Pokemon [NM] (2): no PriceCharting card fit (top result /game/pokemon-promo/eevee-&-snorlax-gx-sm169)
-- Mew 342/SM-P PROMO SM Promo Pokemon Card Japanese Near Mint: no PriceCharting card fit (top result /game/pokemon-japanese-promo/psyduck-286sm-p)
-- PSA 10 Psyduck Reverse Holo 032/193 M2a Mega Dream ex 2025 Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-mega-dream-ex/mega-gengar-ex-240)
-- PSA 10 Celebi & Venusaur GX 001/095 RR Tag Team SM9 Pokemon Card JP Gem Mint: no PriceCharting card fit (top result /game/pokemon-japanese-tag-bolt/gengar-&-mimikyu-gx-38)
-- Celebi V 175/S-P Promo Sword & Shield Promos Pokemon Japanese Holo NM/M: no PriceCharting card fit (top result /game/pokemon-sword-&-shield/gengar-holo-85)
-- Snorlax 127/DP-P Domino's Pizza Promo Japanese Pokemon Card 2008 Sealed: no PriceCharting card fit (top result /game/pokemon-japanese-promo/darkrai-46dp-p)
-- PSA 10 Darkrai 021/L-P Super Rank Prize Promo Pokemon Card Japanese 2009: no PriceCharting card fit (top result /game/pokemon-great-encounters/darkrai-lv-x-104)
-- PSA 10 Lt. Surge's Raichu Pokemon Card Japanese 053/141 1st Edition VS 2001 🎄🎁: no PriceCharting card fit (top result /game/pokemon-gym-challenge/lt-surge%27s-raichu-11)
-- PSA 10 Regigigas LV.X 080/092 1st Edition DP6 Stormfront Japanese Pokemon Card: no PriceCharting card fit (top result /game/pokemon-promo/regigigas-lvx-dp30)
-- PSA 8 Pikachu 113/DP-P Holo Quiz Rally Prize Promo Pokemon Card 2008 Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-nagaba-holo-208s-p)
-- PSA 9 MINT PICHU 112/DP-P DP CARD EXCHANGE  POKEMON CARD JAPANESE: no PriceCharting card fit (top result /game/pokemon-japanese-promo/darkrai-46dp-p)
-- PSA 7  Team Japan's Pikachu 050 Japanese Xy 2014 Promo Pokemon Card New Won Rare: no PriceCharting card fit (top result /game/pokemon-team-up/pikachu-&-zekrom-gx-33)
-- PSA 10 Armored Mewtwo PROMO 365/SM-P SM-P Movie Limited Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/psyduck-286sm-p)
-- Rayquaza EX 158/XY-P Pokemon Center Promo 2015 - Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/hoopa-155xy-p)
-- PSA 10 Arceus LV.X 005/017 1st Edition Pokemon Card Japanese 2009 Graded Slab: no PriceCharting card fit (top result /game/pokemon-promo/arceus-lvx-dp53)
-- PSA 9 Kyogre ex 001/ADV-P Corocoro Comic Promo Japanese Pokemon Card 2003 MINT: no PriceCharting card fit (top result /game/pokemon-promo/kyogre-ex-1)
-- PSA 8 Slowpoke 028/L-P Domino's Pizza 2009 Pokemon Japanese Promo Card NM MT: no PriceCharting card fit (top result /game/pokemon-japanese-2002-mcdonald%27s/slowpoke-holo-14)
-- Togepi 059/080 Reviving Legends 1st Edition Reverse Holo Pokemon Japanese PSA 10: the value wouldn't match its own listing (name/set words differ from PriceCharting's)
-- PSA 10 Celebi 002/036 CP5 1ED Holo Phantom Legend Dream Pokemon Card Japanese: PriceCharting page /game/pokemon-japanese-dream-shine-collection/celebi-2 is already in values.json under another name
-- PSA 10 Pikachu 206/XY-P Promo Mega Charizard X/Y-Pokemon Center Japanese POKEMON: no PriceCharting card fit (top result /game/pokemon-ascended-heroes/mega-charizard-y-ex-294)
-- PSA 9 Entei EX Full Art SR 070/069 Dark Rush 1st Edition 2011 Japanese Pokemon: no PriceCharting card fit (top result /game/pokemon-neo-revelation/entei-1st-edition-6)
-- FA/MEW 017/036 MYTH & LEG DRM SHN COLL 1ST ED PSA 8 2016 POKEMON JAPANESE CARD: no PriceCharting card fit (top result /game/pokemon-japanese-dream-shine-collection/mew-17)
-- PSA 10 Arceus Holo 008 Dk Grass & Fire 1st Ed 2009 Pokemon Japanese LV.X: no PriceCharting card fit (top result /game/pokemon-promo/arceus-lvx-dp53)
-- PSA 10 Pichu 1st Edition 031/070 SoulSilver Collection L1-S Japanese Pokemon: PriceCharting page /game/pokemon-japanese-soulsilver-collection/pichu-31 is already in values.json under another name
-- PSA 10 Mew Holo R 1st Edition 027/078 Fates Collide XY10 Japanese Pokemon Card: no PriceCharting card fit (top result /game/pokemon-fates-collide/mew-29)
-- Mew 1ED CP5 016/036 PSA 9 Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-mystery-of-the-fossils/mew-151)
-- Pokemon Plusle 3,000 EXP Points Japanese Holo Promo 004/PLAY Players Club New: no PriceCharting card fit (top result /game/pokemon-japanese-player%27s-club/_____%27s-mew-13play)
-- PIKACHU 207/SM-P ULTRA BEAST SM PROMO POKEMON JAPANESE PSA 10: no PriceCharting card fit (top result /game/pokemon-japanese-promo/shining-ultra-beast-campaign-pikachu-207sm-p)
-- PSA 10 Arceus Holo 003 1st Edition Rare 2009 Pokemon Card Japanese Lv.X From Jp: no PriceCharting card fit (top result /game/pokemon-promo/arceus-lvx-dp53)
-- PSA 10 Mew 1st Edition 027/078 Japanese Pokemon Card: PriceCharting page /game/pokemon-japanese-awakening-psychic-king/mew-1st-edition-27 is already in values.json under another name
+- PSA 10 Pokemon Regigigas 009/009 2008 11th Movie Commemoration Set Holo Japanese: PriceCharting page /game/pokemon-japanese-11th-movie-commemoration-promo/regigigas-9 is already in values.json under another name
+- Mew ex 014/025 PR S8A Pokemon Card Japanese Near Mint: no PriceCharting card fit (top result /game/pokemon-30th-celebration/mew-ex-152)
 - Japanese Mew-Glossy 151 Cd Promo Pokemon PSA 8: Japanese No. card with no set named in the title (the same number is in several sets)
-- Emolga Holo 023/020 BW Shiny Collection Japanese Pokemon [NM] (1): PriceCharting page /game/pokemon-japanese-shiny-collection/emolga-1st-edition-23 is already in values.json under another name
-- Umbreon 115/BW-P Dark Rush Promo Eeveelution Japanese Pokemon Card 2011 Sealed: no PriceCharting card fit (top result /game/pokemon-japanese-promo/umbreon-nagaba-67sv-p)
+- PSA 10 Pikachu M LV.X 043/DPt-P Movie Promo 2009 Holo Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-nagaba-holo-208s-p)
+- Gardevoir UR 074/069 BW4 Dark Rush 1st Edition Pokemon Card Japanese Near Mint: PriceCharting page /game/pokemon-japanese-dark-rush/gardevoir-74 is already in values.json under another name
+- PSA 10 Pikachu Holo L-P 019/L-P Gold Rank Gift Card Promo Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-20m-p)
+- PSA 10 Boss Pikachu Team Magma 193/SM-P SM-P Promo Pokemon Card Japanese 2018: no PriceCharting card fit (top result /game/pokemon-japanese-promo/red%27s-pikachu-270sm-p)
+- PSA 10 Charizard V HR 103/S-P Competition Limited Promo Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/poncho-wearing-pikachu-charizard-208xy-p)
+- Mew Holo Pokemon Japanese Southern Island Pokemon Promo #151 [PSA 9]: PriceCharting page /game/pokemon-japanese-southern-islands/mew-151 is already in values.json under another name
+- SEALED Pokemon Charizard 054/ADV-P Meiji Chocolate 2004 Japanese Promo Card: no PriceCharting card fit (top result /game/pokemon-japanese-promo/charizard-ex-276xy-p)
+- 2001 Pokemon Japanese Venusaur Expedition 1st Edition PSA 10 GEM MT #065: PriceCharting page /game/pokemon-japanese-expedition-expansion-pack/venusaur-1st-edition-65 is already in values.json under another name
+- Darkrai Holo 046 10th Pokemon Movie Promo Pokemon Japanese PSA 10: no PriceCharting card fit (top result /game/pokemon-japanese-tag-team-starter-set/umbreon-&-darkrai-gx-10)
+- Lugia 038/PCG-P Sealed Poke Park Promo Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pokepark%27s-pikachu-43pcg-p)
+- Pokemon Japanese Ditto Prism Star PR PSA 10 Gem Mint SM7a 043/060 #ac27: no PriceCharting card fit (top result /game/pokemon-japanese-30th-celebration/ditto-121)
+- PSA 10 Pikachu 126/S-P Pikapika Campaign Promo Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-227s-p)
+- Mega Meganium ex 018/742 MC Reverse Holo Japanese Pokemon Card 2025 PSA 10: no PriceCharting card fit (top result /game/pokemon-ascended-heroes/mega-meganium-ex-272)
+- Celebi V SA 175/S-P Jet Black Geist Promo - Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/celebi-v-175s-p)
+- PSA 10 Mew PROMO 343/S-P XY Promo Japanese Pokemon Card Gem Mint: no PriceCharting card fit (top result /game/pokemon-japanese-promo/mario-pikachu-294xy-p)
+- PSA 10 2017 Pokemon Japanese SM Promo Cosmog 081/SM-P Holo Lillie: no PriceCharting card fit (top result /game/pokemon-japanese-promo/psyduck-286sm-p)
+- PSA 10 Umbreon 092/187 Poke Ball Terastal Festival ex Pokemon Card JP: no PriceCharting card fit (top result /game/pokemon-japanese-terastal-festival/umbreon-ex-217)
+- Pikachu 272/S-P Promo Sword & Shield Promos Pokemon Japanese Holo Near Mint: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-227s-p)
+- PSA 10 Mudkip McDonald's Promo 005/ADV-P Japanese Pokemon Card ADV GEM MT: no PriceCharting card fit (top result /game/pokemon-japanese-promo/umbreon-mcdonald%27s-promo-25p)
+- PSA 10 Boss Pikachu Team Aqua PROMO SM-P 192 Pokemon Card  Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/red%27s-pikachu-270sm-p)
+- PSA 10 Zapdos Old Back Japanese ANA Promo Pokemon Card 1999 No.145: odd PriceCharting link /search-products
+- Blastoise Holo PSA 10 1999 Pokemon Japanese CD Promo 009 GEM MT Vintage: PriceCharting page /game/pokemon-japanese-rocket-gang/dark-blastoise-9 is already in values.json under another name
+- PSA 9 Mew Glossy CD Promo 151 Pokemon CD Promo Japanese 1998: Japanese No. card with no set named in the title (the same number is in several sets)
+- PokePark's Pikachu 043/PCG-P Promo Sealed 2005 Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-m-lvx-43dpt-p)
+- PSA 10 Darkrai Pokemon the Movie XY PROMO 037/XY-P Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/mario-pikachu-294xy-p)
+- PHANPY 009/L-P HEARTGOLD SOULSILVER JAPANESE POKEMON NEAR MINT: no PriceCharting card fit (top result /game/pokemon-heartgold-&-soulsilver/gyarados-123)
+- PSA 10 Mew Holo R 1st Edition 027/078 Fates Collide XY10 Japanese Pokemon Card: no PriceCharting card fit (top result /game/pokemon-fates-collide/mew-29)
 - Umbreon 115/BW-P Sealed Promo Japanese Pokemon Card: no PriceCharting card fit (top result /game/pokemon-japanese-promo/umbreon-115bw-p)
-- PSA 10 Pokemon Entei Crystal Tower 2007 10th Movie Promo #244 Japanese Card F/S: no PriceCharting card fit (top result /game/pokemon-japanese-vstar-universe/entei-v-213)
-- PSA 10 Dialga Holo Pokemon 2008 11th Movie Commemoration Promo 008/009 Japanese: PriceCharting page /game/pokemon-japanese-11th-movie-commemoration-promo/dialga-8 is already in values.json under another name
-- PSA 10 Phanpy 009/L-P HG & SS Release Campaign Promo Pokemon Card Japanese 2009: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-pokemon-center-20th-anniversary-campaign-224sm-p)
-- PSA 10 Manaphy Mythical Legendary Dream Shine Coll 012/036 CP5 Japanese Pokemon: no PriceCharting card fit (top result /game/pokemon-japanese-dream-shine-collection/mew-17)
-- PSA 10 2020 Pokemon Japanese S-P Promo Kanazawa’s Pikachu 144/S-P Holo: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-227s-p)
-- Celebi V PROMO S-P 175 PSA 9 Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/celebi-v-175s-p)
-- Eevee 235/BW-P Seven Eleven Limited PROMO Sealed Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/eevee-nagaba-62sv-p)
-- PSA 8 Time Space-Distortion 012/012 Holo Mewtwo LV.X 2009 Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-promo/mewtwo-lvx-dp28)
-- PSA 10 Gem Mint Team Aqua's Walrein 005/034 Pokemon Card Japanese 2015: no PriceCharting card fit (top result /game/pokemon-double-crisis/team-aqua%27s-kyogre-ex-6)
-- PSA 10 Mew Promo 342/SM-P Tag Team GX Starter Deluxe Set Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-tag-all-stars/mewtwo-&-mew-gx-52)
-- Groudon 042/PCG-P Poke Park Promo Pokemon Card Japanese [Sealed]: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pokepark%27s-pikachu-43pcg-p)
-- [NM] Larvitar Pokemon Card Japanese 018/018 McDonald's Promo 2002 Holo TC70: the value wouldn't match its own listing (name/set words differ from PriceCharting's)
-- Pokemon Tea Party Pikachu 325/SM-P Promo Kyoto Limited Japanese Card: no PriceCharting card fit (top result /game/pokemon-japanese-promo/red%27s-pikachu-270sm-p)
-- PSA 9 Caitlin 215/BW-P Gym Challenge Promo Japanese Pokemon Card 2013: no PriceCharting card fit (top result /game/pokemon-japanese-promo/rayquaza-144bw-p)
-- PSA 10 Rayquaza Reverse Holo 127/193 MEGA Dream ex 2025 Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-storm-emeralda/mega-rayquaza-ex-110)
-- [SEALED]  Umbreon   115/BW-P  Game BW Promo Dark Rush 2011 Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/rayquaza-144bw-p)
-- Sealed Pokemon Cards Darkrai Pikachu Stamp PROMO 037/XY-P XY-P Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/poncho-wearing-pikachu-231xy-p)
-- Mew C 016/036 CP5 Mythical & Legendary Dream Shine Collection Pokemon Japanese: PriceCharting page /game/pokemon-japanese-dream-shine-collection/mew-16 is already in values.json under another name
-- PokePark's Latios 045/PCG-P 2005 Promo Sealed Pokemon Card Japanese TCG: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pokepark%27s-pikachu-43pcg-p)
-- Mew ex P 014/025 S8a-P Pokemon Card Japanese NM: no PriceCharting card fit (top result /game/pokemon-chinese-promo/mew-ex-3sv-p)
-- Rayquaza Holo 003/S-P V Starter Sets S Promo Pokemon Japanese PSA 10 Gem Mint: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-nagaba-holo-208s-p)
-- Rayquaza Promo 144/BW-P BW-P Promotional cards - Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/rayquaza-144bw-p)
-- Piplup 232/S-P Project S Promo Pokemon Japanese PSA 10 Gem Mint: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-227s-p)
-- Arceus V [P] 267/S-P S-P Sword & Shield Promo Pokemon Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-227s-p)
-- Pikachu 200/SM-P Friendly Shop Promo Pokemon Card Mint Japanese Vintage: no PriceCharting card fit (top result /game/pokemon-japanese-promo/red%27s-pikachu-270sm-p)
-- NM- Pichu PROMO 112/DP-P Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/mischievous-pichu-214s-p)
-- Hama-chan's Slowking CoroCoro Promo No.199 Vintage Japanese Pokemon Card 1999: no PriceCharting card fit (top result /game/pokemon-japanese-promo/shining-mew-corocoro-151)
-- PSA 9 Pokemon Japanese Promo DPt 041/DPt-P Arceus Conquering Spacetime: no PriceCharting card fit (top result /game/pokemon-japanese-promo/arceus-v-267s-p)
 - NM- Palkia LV.X PROMO 105/DP-P Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-30th-celebration/palkia-lvx-106)
-- Mischievous Pichu 214/S-P Promo Sword & Shield Japanese Pokemon Gem Mint: no PriceCharting card fit (top result /game/pokemon-japanese-promo/mischievous-pichu-214s-p)
-- Pokemon Hoopa 155/XY-P Movie Promo XY Card Rare Holo 2015 NEW JAPAN 11181  NM: no PriceCharting card fit (top result /game/pokemon-japanese-promo/mario-pikachu-294xy-p)
+- NM- Mismagius GL LV.X PROMO 011/DPt-P Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-celebrations/luxray-gl-lvx-109)
+- Celebi V 175/S-P Promo Sword & Shield Promos Pokemon Japanese Holo NM/M: no PriceCharting card fit (top result /game/pokemon-sword-&-shield/gengar-holo-85)
+- Cosmog 081/SM-P PROMO SM Promo Pokemon Card Japanese Near Mint: no PriceCharting card fit (top result /game/pokemon-japanese-promo/psyduck-286sm-p)
+- Armored Mewtwo 365/SM-P (Promo) Movie Holo Pokemon Card TCG Japanese Sealed: no PriceCharting card fit (top result /game/pokemon-promo/armored-mewtwo-sm228)
+- Torchic - 047/PCG-P - 2005 PokePark Promo - Japanese - Sealed - Pokemon TCG: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pokepark%27s-pikachu-43pcg-p)
+- Pokemon Lugia VSTAR 325/S-P Promo Japanese Holo Lugia Get Challenge NM: no PriceCharting card fit (top result /game/pokemon-silver-tempest/lugia-v-186)
+- Pokemon Card Poke Park's Torchic 047/PCG-P Promo Sealed  Game Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pokepark%27s-pikachu-43pcg-p)
+- Blastoise EX 234/XY-P blastoise Mega Battle Promo Japanese Pokemon [NM] (1): no PriceCharting card fit (top result /game/pokemon-scarlet-&-violet-151/blastoise-ex-200)
+- PSA 10 Team Magma's Groudon 011/025 Japanese Pokemon Card: no PriceCharting card fit (top result /game/pokemon-japanese-25th-anniversary-promo/team-magma%27s-groudon-11)
+- Mew 342/SM-P PROMO SM Promo Pokemon Card Japanese Near Mint: no PriceCharting card fit (top result /game/pokemon-japanese-promo/psyduck-286sm-p)
+- PSA 10 Celebi & Venusaur GX 001/095 RR Tag Team SM9 Pokemon Card JP Gem Mint: no PriceCharting card fit (top result /game/pokemon-japanese-tag-bolt/gengar-&-mimikyu-gx-38)
+- Armored Mewtwo 365/SM-P Japanese SM-P: Sun & Moon Promos - Pokemon Card - NM: no PriceCharting card fit (top result /game/pokemon-japanese-promo/psyduck-286sm-p)
+- PSA 9 Rayquaza Energy Mirror 127/193 Mega Dream ex 2025 Pokemon Card Japanese: no PriceCharting card fit (top result /game/pokemon-japanese-mega-dream-ex/rayquaza-127)
