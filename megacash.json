@@ -1,9 +1,143 @@
 {
- "generated": "2026-11-25T03:38+00:00",
+ "generated": "2026-11-25T15:32+00:00",
  "usd_aud": 1.5073,
  "rate_source": "open.er-api.com",
- "lookups_this_run": 250,
+ "lookups_this_run": 184,
  "cards": [
+  {
+   "title": "Kingdra 015/080 1st Edition Prime Reviving Legends Pokemon Japanese",
+   "shop": "Mega Cash eBay",
+   "url": "https://www.ebay.com.au/itm/840163012810",
+   "listed": "2026-11-25",
+   "price": 70.0,
+   "post": 0.0,
+   "cost": 70.0,
+   "grader": null,
+   "grade": null,
+   "jp": true,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%28015%2F080%2C15%2F080%29+japanese+1st&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%28015%2F080%2C15%2F080%29+japanese+1st&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%28015%2F080%2C15%2F080%29+japanese+1st&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%28015%2F080%2C15%2F080%29+japanese+1st&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": true,
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-reviving-legends/kingdra-1st-edition-15",
+   "matched": "Kingdra [1st Edition] #15   Pokemon Japanese Reviving Legends",
+   "aud": {
+    "raw": 96,
+    "g8": 93,
+    "g9": 436,
+    "g95": 479,
+    "g10": 1634
+   },
+   "basis": {
+    "n90": 5,
+    "last": "2026-11-25",
+    "basis": "90-day NM median",
+    "pc_avg": 63.97,
+    "grade": "raw (NM)"
+   },
+   "value": 104,
+   "landed": 142,
+   "gap": -0.33,
+   "thin": false,
+   "signal": "UNDER",
+   "psa8_net": -31,
+   "psa9_net": 306
+  },
+  {
+   "title": "Pokemon TCG - Umbreon - 24 / 100 - EX Sandstorm - Non Holo",
+   "shop": "Mega Cash eBay",
+   "url": "https://www.ebay.com.au/itm/840163012029",
+   "listed": "2026-11-25",
+   "price": 50.0,
+   "post": 0.0,
+   "cost": 50.0,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=umbreon+%2824%2F100%2C024%2F100%29+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=umbreon+%2824%2F100%2C024%2F100%29+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=umbreon+%2824%2F100%2C024%2F100%29+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=umbreon+%2824%2F100%2C024%2F100%29+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": true,
+   "pc": "https://www.pricecharting.com/game/pokemon-sandstorm/umbreon-24",
+   "matched": "Umbreon #24   Pokemon Sandstorm",
+   "aud": {
+    "raw": 44,
+    "g7": 95,
+    "g8": 172,
+    "g9": 222,
+    "g95": 244,
+    "g10": 1501
+   },
+   "basis": {
+    "n90": 15,
+    "last": "2026-11-21",
+    "basis": "90-day NM median",
+    "pc_avg": 29.15,
+    "grade": "raw (NM)"
+   },
+   "value": 83,
+   "landed": 119,
+   "gap": -0.4,
+   "thin": false,
+   "signal": "UNDER",
+   "psa8_net": 50,
+   "psa9_net": 186
+  },
+  {
+   "title": "Pokemon TCG - Vaporeon - 134 - Holo - Jungle - Japanese",
+   "shop": "Mega Cash eBay",
+   "url": "https://www.ebay.com.au/itm/840163012568",
+   "listed": "2026-11-25",
+   "price": 35.0,
+   "post": 0.0,
+   "cost": 35.0,
+   "grader": null,
+   "grade": null,
+   "jp": true,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Vaporeon+134+Holo+Jungle+Japanese+japanese&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Vaporeon+134+Holo+Jungle+Japanese+japanese&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Vaporeon+134+Holo+Jungle+Japanese+japanese&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Vaporeon+134+Holo+Jungle+Japanese+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": true,
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-jungle/vaporeon-134",
+   "matched": "Vaporeon #134   Pokemon Japanese Jungle",
+   "aud": {
+    "raw": 44,
+    "g7": 102,
+    "g8": 176,
+    "g9": 415,
+    "g95": 457,
+    "g10": 6006
+   },
+   "basis": {
+    "n90": 23,
+    "last": "2026-11-24",
+    "basis": "90-day upper quarter (few NM-labelled sales)",
+    "pc_avg": 29.49,
+    "grade": "raw (NM)"
+   },
+   "value": 60,
+   "landed": 94,
+   "gap": -0.42,
+   "thin": false,
+   "signal": "UNDER",
+   "psa8_net": 78,
+   "psa9_net": 336
+  },
   {
    "title": "Pokemon - PSA 10 Greninja Ex 214/167 Twilight Masquerade",
    "shop": "Mega Cash",
@@ -954,49 +1088,6 @@
    "gap": 1.0,
    "thin": false,
    "signal": "OVER"
-  },
-  {
-   "title": "Pokemon - Vileplume 17/18 Southern Islands BGS 9",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-vileplume-17-18-southern-islands-bgs-9",
-   "listed": "2026-11-23",
-   "price": 379.0,
-   "post": 12.0,
-   "cost": 391.0,
-   "grader": "BGS",
-   "grade": "9",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=vileplume+%2817%2F18%2C017%2F18%29+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=vileplume+%2817%2F18%2C017%2F18%29+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=vileplume+%2817%2F18%2C017%2F18%29+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=vileplume+%2817%2F18%2C017%2F18%29+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-southern-islands/vileplume-17?q=vileplume+17+southern+islands",
-   "matched": "Vileplume #17   Pokemon Southern Islands",
-   "aud": {
-    "raw": 111,
-    "g7": 222,
-    "g8": 395,
-    "g9": 999,
-    "g95": 1099,
-    "g10": 17883
-   },
-   "basis": {
-    "n90": 30,
-    "last": "2026-11-15",
-    "basis": "90-day median",
-    "pc_avg": 662.9,
-    "grade": "BGS 9"
-   },
-   "value": 724,
-   "landed": 846,
-   "gap": -0.46,
-   "thin": false,
-   "signal": "UNDER"
   },
   {
    "title": "Pokemon - Arceus V 166/172 Brilliant Stars PSA 10",
@@ -7199,51 +7290,6 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-skyridge/gengar-reverse-holo-10)"
   },
   {
-   "title": "Pokemon- Granbull 61/144 Rev Holo Skyridge",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-granville-61-144-rev-holo-skyridge",
-   "listed": "2026-11-11",
-   "price": 299.0,
-   "post": 12.0,
-   "cost": 311.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=granbull+%2861%2F144%2C061%2F144%29+%28reverse%2Crev%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=granbull+%2861%2F144%2C061%2F144%29+%28reverse%2Crev%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=granbull+%2861%2F144%2C061%2F144%29+%28reverse%2Crev%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=granbull+%2861%2F144%2C061%2F144%29+%28reverse%2Crev%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-skyridge/granbull-reverse-holo-61?q=granbull+61+reverse+holo+skyridge",
-   "matched": "Granbull [Reverse Holo] #61   Pokemon Skyridge",
-   "aud": {
-    "raw": 232,
-    "g7": 15,
-    "g8": 114,
-    "g9": 345,
-    "g95": 378,
-    "g10": 1897
-   },
-   "basis": {
-    "n90": 4,
-    "last": "2026-11-01",
-    "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 154.04,
-    "grade": "raw (NM)"
-   },
-   "value": 301,
-   "landed": 359,
-   "gap": 0.03,
-   "thin": false,
-   "signal": "OVER-US",
-   "psa8_net": -257,
-   "psa9_net": -20
-  },
-  {
    "title": "Pokemon - Tyranitar 66/165 Expedition",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-tyranitar-66-165-expedition",
@@ -10720,51 +10766,6 @@
    "psa9_net": 200
   },
   {
-   "title": "Pokemon - Slowpoke 108/147 Rev Holo Aquapolis",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-slowpoke-108-147-rev-holo-aquapolis",
-   "listed": "2026-11-06",
-   "price": 499.0,
-   "post": 12.0,
-   "cost": 511.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=slowpoke+%28108%2F147%29+%28reverse%2Crev%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=slowpoke+%28108%2F147%29+%28reverse%2Crev%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=slowpoke+%28108%2F147%29+%28reverse%2Crev%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=slowpoke+%28108%2F147%29+%28reverse%2Crev%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/slowpoke-reverse-holo-108",
-   "matched": "Slowpoke [Reverse Holo] #108   Pokemon Aquapolis",
-   "aud": {
-    "raw": 233,
-    "g7": 676,
-    "g8": 706,
-    "g9": 1053,
-    "g95": 1158,
-    "g10": 1263
-   },
-   "basis": {
-    "n90": 13,
-    "last": "2026-11-11",
-    "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 154.84,
-    "grade": "raw (NM)"
-   },
-   "value": 337,
-   "landed": 398,
-   "gap": 0.52,
-   "thin": false,
-   "signal": "OVER",
-   "psa8_net": 103,
-   "psa9_net": 482
-  },
-  {
    "title": "Pokemon- Jolteon 13/144 Rev Holo Expedition",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-jolteon-13-144-rev-holo-expedition",
@@ -11327,51 +11328,6 @@
    "signal": "OVER",
    "psa8_net": 78,
    "psa9_net": 280
-  },
-  {
-   "title": "Pokemon - Alakazam 33/165 Rev Holo Expedition",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-alakazam-33-165-rev-holo-expedition",
-   "listed": "2026-11-06",
-   "price": 249.0,
-   "post": 12.0,
-   "cost": 261.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=alakazam+%2833%2F165%2C033%2F165%29+%28reverse%2Crev%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=alakazam+%2833%2F165%2C033%2F165%29+%28reverse%2Crev%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=alakazam+%2833%2F165%2C033%2F165%29+%28reverse%2Crev%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=alakazam+%2833%2F165%2C033%2F165%29+%28reverse%2Crev%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-expedition/alakazam-reverse-holo-33",
-   "matched": "Alakazam [Reverse Holo] #33   Pokemon Expedition",
-   "aud": {
-    "raw": 68,
-    "g7": 323,
-    "g8": 436,
-    "g9": 590,
-    "g95": 648,
-    "g10": 3889
-   },
-   "basis": {
-    "n90": 9,
-    "last": "2026-11-15",
-    "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 45.0,
-    "grade": "raw (NM)"
-   },
-   "value": 152,
-   "landed": 194,
-   "gap": 0.72,
-   "thin": false,
-   "signal": "OVER",
-   "psa8_net": 130,
-   "psa9_net": 355
   },
   {
    "title": "Pokemon- Marill 53/147 Rev Holo Aquapolis",
@@ -15054,25 +15010,25 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/shining-celebi-106",
    "matched": "Shining Celebi #106   Pokemon Neo Destiny",
    "aud": {
-    "raw": 711,
-    "g7": 1078,
+    "raw": 585,
+    "g7": 1040,
     "g8": 1281,
-    "g9": 2299,
+    "g9": 2048,
     "g95": 2713,
-    "g10": 9985
+    "g10": 10655
    },
    "basis": {
     "n90": 4,
-    "last": "2026-11-15",
+    "last": "2026-11-25",
     "basis": "90-day NM median",
-    "pc_avg": 472.0,
+    "pc_avg": 388.32,
     "grade": "raw (NM)"
    },
-   "value": 1006,
-   "landed": 1134,
-   "gap": -0.09,
+   "value": 870,
+   "landed": 984,
+   "gap": 0.05,
    "thin": false,
-   "signal": "FAIR",
+   "signal": "OVER-US",
    "psa8_net": 310,
    "psa9_net": 1429
   },
@@ -15096,30 +15052,30 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/espeon-reverse-holo-11?q=espeon+11+reverse+holo+aquapolis",
+   "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/espeon-reverse-holo-11",
    "matched": "Espeon [Reverse Holo] #11   Pokemon Aquapolis",
    "aud": {
-    "raw": 262,
-    "g7": 589,
-    "g8": 737,
-    "g9": 1885,
-    "g95": 3718,
+    "raw": 298,
+    "g7": 588,
+    "g8": 734,
+    "g9": 1922,
+    "g95": 3668,
     "g10": 5426
    },
    "basis": {
-    "n90": 8,
-    "last": "2026-11-12",
+    "n90": 9,
+    "last": "2026-11-22",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 173.75,
+    "pc_avg": 197.47,
     "grade": "raw (NM)"
    },
-   "value": 377,
-   "landed": 442,
-   "gap": 0.99,
+   "value": 384,
+   "landed": 450,
+   "gap": 0.96,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -20,
-   "psa9_net": 1074
+   "psa9_net": 1111
   },
   {
    "title": "Pokemon - Shining Noctowl 110/105 Neo Destiny",
@@ -15144,18 +15100,18 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/shining-noctowl-110",
    "matched": "Shining Noctowl #110   Pokemon Neo Destiny",
    "aud": {
-    "raw": 339,
-    "g7": 678,
-    "g8": 867,
-    "g9": 1279,
+    "raw": 377,
+    "g7": 725,
+    "g8": 833,
+    "g9": 1211,
     "g95": 1427,
     "g10": 5350
    },
    "basis": {
     "n90": 23,
-    "last": "2026-11-17",
+    "last": "2026-11-19",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 225.0,
+    "pc_avg": 250.0,
     "grade": "raw (NM)"
    },
    "value": 490,
@@ -15163,8 +15119,8 @@
    "gap": 0.45,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 40,
-   "psa9_net": 518
+   "psa8_net": 37,
+   "psa9_net": 510
   },
   {
    "title": "Pokemon - Shining Kabutops 108/105 Neo Destiny",
@@ -15189,27 +15145,27 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/shining-kabutops-108",
    "matched": "Shining Kabutops #108   Pokemon Neo Destiny",
    "aud": {
-    "raw": 559,
-    "g7": 950,
-    "g8": 1211,
-    "g9": 1623,
-    "g95": 1786,
-    "g10": 9044
+    "raw": 558,
+    "g7": 861,
+    "g8": 1157,
+    "g9": 1586,
+    "g95": 1745,
+    "g10": 7830
    },
    "basis": {
-    "n90": 22,
-    "last": "2026-11-13",
+    "n90": 23,
+    "last": "2026-11-20",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 371.0,
+    "pc_avg": 369.99,
     "grade": "raw (NM)"
    },
-   "value": 800,
-   "landed": 908,
-   "gap": -0.11,
+   "value": 791,
+   "landed": 898,
+   "gap": -0.1,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 454,
-   "psa9_net": 887
+   "psa8_net": 450,
+   "psa9_net": 853
   },
   {
    "title": "Pokemon - Espeon 11/147 Rev Holo Aquapolis",
@@ -15231,30 +15187,30 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/espeon-reverse-holo-11?q=espeon+11+reverse+holo+aquapolis",
+   "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/espeon-reverse-holo-11",
    "matched": "Espeon [Reverse Holo] #11   Pokemon Aquapolis",
    "aud": {
-    "raw": 262,
-    "g7": 589,
-    "g8": 737,
-    "g9": 1885,
-    "g95": 3718,
+    "raw": 298,
+    "g7": 588,
+    "g8": 734,
+    "g9": 1922,
+    "g95": 3668,
     "g10": 5426
    },
    "basis": {
-    "n90": 8,
-    "last": "2026-11-12",
+    "n90": 9,
+    "last": "2026-11-22",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 173.75,
+    "pc_avg": 197.47,
     "grade": "raw (NM)"
    },
-   "value": 377,
-   "landed": 442,
-   "gap": 0.89,
+   "value": 384,
+   "landed": 450,
+   "gap": 0.85,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 20,
-   "psa9_net": 1114
+   "psa9_net": 1151
   },
   {
    "title": "Pokemon - Golem Rev Holo 148/144 Skyridge",
@@ -15276,10 +15232,10 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-skyridge/golem-reverse-holo-148?q=golem+reverse+holo+148+skyridge",
+   "pc": "https://www.pricecharting.com/game/pokemon-skyridge/golem-reverse-holo-148",
    "matched": "Golem [Reverse Holo] #148   Pokemon Skyridge",
    "aud": {
-    "raw": 490,
+    "raw": 488,
     "g7": 703,
     "g8": 1097,
     "g9": 2027,
@@ -15290,7 +15246,7 @@
     "n90": 3,
     "last": "2026-11-13",
     "basis": "90-day NM median",
-    "pc_avg": 325.0,
+    "pc_avg": 324.07,
     "grade": "raw (NM)"
    },
    "value": 882,
@@ -15298,7 +15254,7 @@
    "gap": -0.19,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 303,
+   "psa8_net": 314,
    "psa9_net": 1256
   },
   {
@@ -15366,19 +15322,19 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-skyridge/crobat-reverse-holo-147?q=crobat+147+reverse+holo+skyridge",
+   "pc": "https://www.pricecharting.com/game/pokemon-skyridge/crobat-reverse-holo-147",
    "matched": "Crobat [Reverse Holo] #147   Pokemon Skyridge",
    "aud": {
     "raw": 511,
-    "g7": 684,
+    "g7": 687,
     "g8": 1101,
-    "g9": 1872,
-    "g95": 2059,
-    "g10": 14144
+    "g9": 1514,
+    "g95": 1666,
+    "g10": 13870
    },
    "basis": {
     "n90": 4,
-    "last": "2026-11-12",
+    "last": "2026-11-19",
     "basis": "90-day NM median",
     "pc_avg": 339.31,
     "grade": "raw (NM)"
@@ -15389,7 +15345,7 @@
    "thin": false,
    "signal": "FAIR",
    "psa8_net": 380,
-   "psa9_net": 978
+   "psa9_net": 864
   },
   {
    "title": "Pokemon - Charizard 4/102 Holo Base Set Unlimited",
@@ -15461,26 +15417,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/arcanine-reverse-holo-2?q=arcanine+2+reverse+holo+aquapolis",
+   "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/arcanine-reverse-holo-2",
    "matched": "Arcanine [Reverse Holo] #2   Pokemon Aquapolis",
    "aud": {
-    "raw": 273,
-    "g7": 373,
+    "raw": 288,
+    "g7": 306,
     "g8": 706,
-    "g9": 1071,
-    "g95": 1179,
+    "g9": 1251,
+    "g95": 1376,
     "g10": 2713
    },
    "basis": {
-    "n90": 8,
-    "last": "2026-11-07",
+    "n90": 9,
+    "last": "2026-11-19",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 180.8,
+    "pc_avg": 191.12,
     "grade": "raw (NM)"
    },
-   "value": 291,
-   "landed": 348,
-   "gap": 1.1,
+   "value": 317,
+   "landed": 376,
+   "gap": 0.93,
    "thin": false,
    "signal": "OVER",
    "psa8_net": 7,
@@ -15506,21 +15462,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-skyridge/kabutops-reverse-holo-150?q=kabutops+150+reverse+holo+skyridge",
+   "pc": "https://www.pricecharting.com/game/pokemon-skyridge/kabutops-reverse-holo-150",
    "matched": "Kabutops [Reverse Holo] #150   Pokemon Skyridge",
    "aud": {
-    "raw": 459,
+    "raw": 445,
     "g7": 492,
-    "g8": 1179,
-    "g9": 2241,
-    "g95": 2464,
+    "g8": 1083,
+    "g9": 1712,
+    "g95": 1884,
     "g10": 5576
    },
    "basis": {
     "n90": 3,
     "last": "2026-11-15",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 304.63,
+    "pc_avg": 295.0,
     "grade": "raw (NM)"
    },
    "value": 754,
@@ -15528,8 +15484,8 @@
    "gap": -0.19,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 508,
-   "psa9_net": 2187
+   "psa8_net": 467,
+   "psa9_net": 1614
   },
   {
    "title": "Pokemon - Light Arcanine 12/105 Holo Neo Destiny",
@@ -15554,18 +15510,18 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/light-arcanine-12",
    "matched": "Light Arcanine #12   Pokemon Neo Destiny",
    "aud": {
-    "raw": 389,
+    "raw": 390,
     "g7": 676,
-    "g8": 795,
-    "g9": 1785,
-    "g95": 1963,
-    "g10": 3919
+    "g8": 767,
+    "g9": 1799,
+    "g95": 1979,
+    "g10": 11241
    },
    "basis": {
     "n90": 9,
-    "last": "2026-11-16",
+    "last": "2026-11-24",
     "basis": "90-day NM median",
-    "pc_avg": 258.12,
+    "pc_avg": 258.94,
     "grade": "raw (NM)"
    },
    "value": 603,
@@ -15596,10 +15552,10 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-expedition/mewtwo-reverse-holo-56?q=mewtwo+56+reverse+holo+expedition",
+   "pc": "https://www.pricecharting.com/game/pokemon-expedition/mewtwo-reverse-holo-56",
    "matched": "Mewtwo [Reverse Holo] #56   Pokemon Expedition",
    "aud": {
-    "raw": 279,
+    "raw": 257,
     "g7": 456,
     "g8": 1456,
     "g9": 2525,
@@ -15608,9 +15564,9 @@
    },
    "basis": {
     "n90": 11,
-    "last": "2026-11-16",
+    "last": "2026-11-23",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 185.3,
+    "pc_avg": 170.29,
     "grade": "raw (NM)"
    },
    "value": 415,
@@ -15641,10 +15597,10 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-expedition/mewtwo-reverse-holo-56?q=mewtwo+56+reverse+holo+expedition",
+   "pc": "https://www.pricecharting.com/game/pokemon-expedition/mewtwo-reverse-holo-56",
    "matched": "Mewtwo [Reverse Holo] #56   Pokemon Expedition",
    "aud": {
-    "raw": 279,
+    "raw": 257,
     "g7": 456,
     "g8": 1456,
     "g9": 2525,
@@ -15653,9 +15609,9 @@
    },
    "basis": {
     "n90": 11,
-    "last": "2026-11-16",
+    "last": "2026-11-23",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 185.3,
+    "pc_avg": 170.29,
     "grade": "raw (NM)"
    },
    "value": 415,
@@ -15686,29 +15642,29 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-legendary-collection/pidgey-reverse-holo-85?q=pidgey+85+reverse+holo+legendary+collection",
+   "pc": "https://www.pricecharting.com/game/pokemon-legendary-collection/pidgey-reverse-holo-85",
    "matched": "Pidgey [Reverse Holo] #85   Pokemon Legendary Collection",
    "aud": {
-    "raw": 205,
-    "g7": 376,
-    "g8": 376,
-    "g9": 1110,
-    "g95": 1221,
-    "g10": 14094
+    "raw": 173,
+    "g7": 370,
+    "g8": 459,
+    "g9": 1430,
+    "g95": 1574,
+    "g10": 13996
    },
    "basis": {
-    "n90": 11,
-    "last": "2026-11-15",
-    "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 135.95,
+    "n90": 4,
+    "last": "2026-11-23",
+    "basis": "90-day NM median",
+    "pc_avg": 114.97,
     "grade": "raw (NM)"
    },
-   "value": 294,
-   "landed": 351,
-   "gap": 0.5,
+   "value": 261,
+   "landed": 315,
+   "gap": 0.69,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -86,
+   "psa8_net": 5,
    "psa9_net": 614
   },
   {
@@ -15799,21 +15755,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-skyridge/oracle-reverse-holo-138?q=oracle+138+reverse+holo+skyridge",
+   "pc": "https://www.pricecharting.com/game/pokemon-skyridge/oracle-reverse-holo-138",
    "matched": "Oracle [Reverse Holo] #138   Pokemon Skyridge",
    "aud": {
-    "raw": 151,
+    "raw": 128,
     "g7": 228,
     "g8": 301,
-    "g9": 573,
-    "g95": 630,
+    "g9": 481,
+    "g95": 529,
     "g10": 1507
    },
    "basis": {
     "n90": 5,
     "last": "2026-11-15",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 100.0,
+    "pc_avg": 85.14,
     "grade": "raw (NM)"
    },
    "value": 181,
@@ -15822,7 +15778,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": 6,
-   "psa9_net": 272
+   "psa9_net": 180
   },
   {
    "title": "Pokemon - Kangaskhan 88/147 Rev Holo Aquapolis",
@@ -15952,18 +15908,18 @@
    "pc": "https://www.pricecharting.com/game/pokemon-breakpoint/gyarados-ex-114",
    "matched": "Gyarados EX #114   Pokemon BREAKpoint",
    "aud": {
-    "raw": 116,
-    "g7": 147,
-    "g8": 230,
-    "g9": 471,
-    "g95": 519,
-    "g10": 3691
+    "raw": 96,
+    "g7": 143,
+    "g8": 243,
+    "g9": 459,
+    "g95": 505,
+    "g10": 3288
    },
    "basis": {
     "n90": 23,
-    "last": "2026-11-16",
+    "last": "2026-11-24",
     "basis": "90-day NM median",
-    "pc_avg": 76.77,
+    "pc_avg": 63.95,
     "grade": "raw (NM)"
    },
    "value": 118,
@@ -15971,7 +15927,7 @@
    "gap": 0.79,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -75,
+   "psa8_net": -58,
    "psa9_net": 200
   },
   {
@@ -16002,23 +15958,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-jungle/kangaskhan-5",
    "matched": "Kangaskhan #5   Pokemon Jungle",
    "aud": {
-    "raw": 11,
-    "g7": 51,
-    "g8": 99,
-    "g9": 163,
+    "raw": 12,
+    "g7": 59,
+    "g8": 98,
+    "g9": 187,
     "g95": 197,
     "g10": 7536
    },
    "basis": {
-    "n90": 25,
-    "last": "2026-11-16",
+    "n90": 26,
+    "last": "2026-11-22",
     "basis": "90-day median",
-    "pc_avg": 108.13,
+    "pc_avg": 124.07,
     "grade": "PSA 9"
    },
-   "value": 167,
-   "landed": 234,
-   "gap": 0.56,
+   "value": 173,
+   "landed": 240,
+   "gap": 0.51,
    "thin": false,
    "signal": "OVER"
   },
@@ -16068,18 +16024,18 @@
    "pc": "https://www.pricecharting.com/game/pokemon-jungle/kangaskhan-5",
    "matched": "Kangaskhan #5   Pokemon Jungle",
    "aud": {
-    "raw": 11,
-    "g7": 51,
-    "g8": 99,
-    "g9": 163,
+    "raw": 12,
+    "g7": 59,
+    "g8": 98,
+    "g9": 187,
     "g95": 197,
     "g10": 7536
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-25",
     "basis": "90-day median",
-    "pc_avg": 33.97,
+    "pc_avg": 39.0,
     "grade": "PSA 7"
    },
    "value": 58,
@@ -16111,10 +16067,10 @@
    "pc": "https://www.pricecharting.com/game/pokemon-jungle/kangaskhan-5",
    "matched": "Kangaskhan #5   Pokemon Jungle",
    "aud": {
-    "raw": 11,
-    "g7": 51,
-    "g8": 99,
-    "g9": 163,
+    "raw": 12,
+    "g7": 59,
+    "g8": 98,
+    "g9": 187,
     "g95": 197,
     "g10": 7536
    },
@@ -16124,11 +16080,8 @@
     "n90": null,
     "thin": true
    },
-   "value": 35,
-   "landed": 88,
-   "gap": 1.6,
-   "thin": true,
-   "signal": "OVER"
+   "signal": "UNPRICED",
+   "why": "no PriceCharting value at PSA 6"
   },
   {
    "title": "Pokemon - Kangaskhan Holo 5/64 Jungle PSA 5",
@@ -16153,10 +16106,10 @@
    "pc": "https://www.pricecharting.com/game/pokemon-jungle/kangaskhan-5",
    "matched": "Kangaskhan #5   Pokemon Jungle",
    "aud": {
-    "raw": 11,
-    "g7": 51,
-    "g8": 99,
-    "g9": 163,
+    "raw": 12,
+    "g7": 59,
+    "g8": 98,
+    "g9": 187,
     "g95": 197,
     "g10": 7536
    },
@@ -16166,11 +16119,8 @@
     "n90": null,
     "thin": true
    },
-   "value": 35,
-   "landed": 88,
-   "gap": 1.31,
-   "thin": true,
-   "signal": "OVER-US"
+   "signal": "UNPRICED",
+   "why": "no PriceCharting value at PSA 5"
   },
   {
    "title": "Pokemon - Wigglytuff 091/080 Inferno X PSA 10 (JPN)",
@@ -16195,23 +16145,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-inferno-x/wigglytuff-91",
    "matched": "Wigglytuff #91   Pokemon Japanese Inferno X",
    "aud": {
-    "raw": 4,
+    "raw": 5,
     "g7": 6,
     "g8": 8,
-    "g9": 24,
+    "g9": 21,
     "g95": 26,
-    "g10": 42
+    "g10": 36
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 28.02,
+    "pc_avg": 23.78,
     "grade": "PSA 10"
    },
-   "value": 42,
-   "landed": 96,
-   "gap": 0.69,
+   "value": 37,
+   "landed": 90,
+   "gap": 0.92,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -16238,10 +16188,10 @@
    "pc": "https://www.pricecharting.com/game/pokemon-jungle/kangaskhan-5",
    "matched": "Kangaskhan #5   Pokemon Jungle",
    "aud": {
-    "raw": 11,
-    "g7": 51,
-    "g8": 99,
-    "g9": 163,
+    "raw": 12,
+    "g7": 59,
+    "g8": 98,
+    "g9": 187,
     "g95": 197,
     "g10": 7536
    },
@@ -16251,11 +16201,8 @@
     "n90": null,
     "thin": true
    },
-   "value": 30,
-   "landed": 82,
-   "gap": 1.37,
-   "thin": true,
-   "signal": "OVER-US"
+   "signal": "UNPRICED",
+   "why": "no PriceCharting value at PSA 4"
   },
   {
    "title": "Pokemon - Kangaskhan Holo 5/64 Jungle PSA 3",
@@ -16280,10 +16227,10 @@
    "pc": "https://www.pricecharting.com/game/pokemon-jungle/kangaskhan-5",
    "matched": "Kangaskhan #5   Pokemon Jungle",
    "aud": {
-    "raw": 11,
-    "g7": 51,
-    "g8": 99,
-    "g9": 163,
+    "raw": 12,
+    "g7": 59,
+    "g8": 98,
+    "g9": 187,
     "g95": 197,
     "g10": 7536
    },
@@ -16322,10 +16269,10 @@
    "pc": "https://www.pricecharting.com/game/pokemon-jungle/kangaskhan-5",
    "matched": "Kangaskhan #5   Pokemon Jungle",
    "aud": {
-    "raw": 11,
-    "g7": 51,
-    "g8": 99,
-    "g9": 163,
+    "raw": 12,
+    "g7": 59,
+    "g8": 98,
+    "g9": 187,
     "g95": 197,
     "g10": 7536
    },
@@ -16361,26 +16308,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-lucario-ex-188?q=mega+lucario+ex+188+mega+evolutions+base",
+   "pc": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-lucario-ex-188",
    "matched": "Mega Lucario Ex #188   Pokemon Mega Evolution",
    "aud": {
-    "raw": 267,
-    "g7": 251,
-    "g8": 252,
-    "g9": 288,
-    "g95": 504,
-    "g10": 947
+    "raw": 260,
+    "g7": 185,
+    "g8": 231,
+    "g9": 259,
+    "g95": 510,
+    "g10": 870
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-25",
     "basis": "90-day median",
-    "pc_avg": 190.9,
+    "pc_avg": 171.55,
     "grade": "PSA 9"
    },
-   "value": 301,
-   "landed": 380,
-   "gap": 0.13,
+   "value": 293,
+   "landed": 372,
+   "gap": 0.16,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -16430,18 +16377,18 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-rocket-gang/dark-alakazam-65",
    "matched": "Dark Alakazam #65   Pokemon Japanese Rocket Gang",
    "aud": {
-    "raw": 36,
+    "raw": 38,
     "g7": 84,
-    "g8": 112,
-    "g9": 204,
+    "g8": 113,
+    "g9": 209,
     "g95": 219,
-    "g10": 1063
+    "g10": 1060
    },
    "basis": {
     "n90": 25,
     "last": "2026-11-17",
     "basis": "90-day median",
-    "pc_avg": 705.01,
+    "pc_avg": 702.94,
     "grade": "PSA 10"
    },
    "value": 1130,
@@ -16477,7 +16424,7 @@
     "g8": 19,
     "g9": 27,
     "g95": 30,
-    "g10": 125
+    "g10": 116
    },
    "basis": {
     "n90": 0,
@@ -16517,21 +16464,21 @@
    },
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-svg-special-set/charmander-51?q=charmander+051+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-svg-special-set/charmander-51",
    "matched": "Charmander #51   Pokemon Japanese SVG Special Set",
    "aud": {
-    "raw": 145,
+    "raw": 154,
     "g7": 68,
     "g8": 106,
-    "g9": 115,
-    "g95": 128,
-    "g10": 283
+    "g9": 117,
+    "g95": 127,
+    "g10": 292
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 187.58,
+    "pc_avg": 193.58,
     "grade": "PSA 10"
    },
    "value": 292,
@@ -16560,21 +16507,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-gardevoir-ex-187?q=mega+gardevoir+ex+187+mega+evolutions+base",
+   "pc": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-gardevoir-ex-187",
    "matched": "Mega Gardevoir Ex #187   Pokemon Mega Evolution",
    "aud": {
-    "raw": 228,
-    "g7": 151,
-    "g8": 188,
-    "g9": 228,
+    "raw": 212,
+    "g7": 146,
+    "g8": 183,
+    "g9": 218,
     "g95": 731,
-    "g10": 750
+    "g10": 731
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-25",
     "basis": "90-day median",
-    "pc_avg": 151.09,
+    "pc_avg": 144.9,
     "grade": "PSA 9"
    },
    "value": 234,
@@ -16603,26 +16550,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/alakazam-ex-203?q=alakazam+ex+203+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/alakazam-ex-203",
    "matched": "Alakazam EX #203   Pokemon Japanese Scarlet & Violet 151",
    "aud": {
-    "raw": 68,
-    "g7": 48,
-    "g8": 60,
-    "g9": 113,
-    "g95": 124,
-    "g10": 172
+    "raw": 67,
+    "g7": 47,
+    "g8": 59,
+    "g9": 107,
+    "g95": 118,
+    "g10": 179
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 114.3,
+    "pc_avg": 119.0,
     "grade": "PSA 10"
    },
-   "value": 173,
-   "landed": 240,
-   "gap": 0.22,
+   "value": 168,
+   "landed": 234,
+   "gap": 0.26,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -16677,27 +16624,27 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-mystery-of-the-fossils/haunter-93",
    "matched": "Haunter #93   Pokemon Japanese Mystery of the Fossils",
    "aud": {
-    "raw": 44,
-    "g7": 100,
-    "g8": 140,
-    "g9": 281,
-    "g95": 309,
-    "g10": 2217
+    "raw": 41,
+    "g7": 90,
+    "g8": 123,
+    "g9": 271,
+    "g95": 298,
+    "g10": 2328
    },
    "basis": {
-    "n90": 6,
-    "last": "2026-11-17",
+    "n90": 7,
+    "last": "2026-11-21",
     "basis": "90-day NM median",
-    "pc_avg": 29.0,
+    "pc_avg": 27.49,
     "grade": "raw (NM)"
    },
-   "value": 75,
-   "landed": 110,
-   "gap": 0.08,
+   "value": 66,
+   "landed": 100,
+   "gap": 0.23,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 0,
-   "psa9_net": 140
+   "psa8_net": -6,
+   "psa9_net": 132
   },
   {
    "title": "Pokemon - PSA 10 Oricorio ex 024 - Mega Charizard UPC Promo",
@@ -16788,26 +16735,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-dragon-frontiers/latias-ex-95?q=latias+ex+95+ex+dragon+frontiers",
+   "pc": "https://www.pricecharting.com/game/pokemon-dragon-frontiers/latias-ex-95",
    "matched": "Latias EX #95   Pokemon Dragon Frontiers",
    "aud": {
-    "raw": 267,
-    "g7": 377,
-    "g8": 990,
-    "g9": 5041,
-    "g95": 5545,
-    "g10": 6049
+    "raw": 255,
+    "g7": 421,
+    "g8": 851,
+    "g9": 4972,
+    "g95": 5468,
+    "g10": 5966
    },
    "basis": {
-    "n90": 19,
-    "last": "2026-11-12",
+    "n90": 20,
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 3344.4,
+    "pc_avg": 3298.5,
     "grade": "PSA 9"
    },
-   "value": 1809,
-   "landed": 2039,
-   "gap": 2.71,
+   "value": 2065,
+   "landed": 2321,
+   "gap": 2.25,
    "thin": false,
    "signal": "OVER"
   },
@@ -16834,11 +16781,11 @@
    "pc": "https://www.pricecharting.com/game/pokemon-emerald/manectric-7",
    "matched": "Manectric #7   Pokemon Emerald",
    "aud": {
-    "raw": 19,
+    "raw": 16,
     "g7": 38,
-    "g8": 99,
-    "g9": 180,
-    "g95": 197,
+    "g8": 90,
+    "g9": 162,
+    "g95": 178,
     "g10": 3316
    },
    "basis": {
@@ -16878,49 +16825,6 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-30th-celebration/pikachu-58)"
   },
   {
-   "title": "Pokemon - Raichu 29/62 1ST Edition Fossil PSA 10",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-raichu-29-62-1st-edition-fossil-psa-10",
-   "listed": "2026-10-14",
-   "price": 1399.0,
-   "post": 12.0,
-   "cost": 1411.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=raichu+%2829%2F62%2C029%2F62%29+1st+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=raichu+%2829%2F62%2C029%2F62%29+1st+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=raichu+%2829%2F62%2C029%2F62%29+1st+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=raichu+%2829%2F62%2C029%2F62%29+1st+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-fossil/raichu-1st-edition-29?q=raichu+29+1st+edition+fossil",
-   "matched": "Raichu [1st Edition] #29   Pokemon Fossil",
-   "aud": {
-    "raw": 27,
-    "g7": 66,
-    "g8": 106,
-    "g9": 181,
-    "g95": 199,
-    "g10": 1365
-   },
-   "basis": {
-    "n90": 6,
-    "last": "2026-10-17",
-    "basis": "90-day median",
-    "pc_avg": 905.78,
-    "grade": "PSA 10"
-   },
-   "value": 1409,
-   "landed": 1600,
-   "gap": 0.0,
-   "thin": false,
-   "signal": "OVER-US"
-  },
-  {
    "title": "Pokemon - Slowpoke 55/62 1ST Ed Fossil PSA 10",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-slowpoke-55-62-1st-ed-fossil-psa-10",
@@ -16940,26 +16844,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-fossil/slowpoke-1st-edition-55?q=slowpoke+55+1st+edition+fossil",
+   "pc": "https://www.pricecharting.com/game/pokemon-fossil/slowpoke-1st-edition-55",
    "matched": "Slowpoke [1st Edition] #55   Pokemon Fossil",
    "aud": {
-    "raw": 6,
+    "raw": 8,
     "g7": 35,
     "g8": 42,
     "g9": 69,
     "g95": 75,
-    "g10": 784
+    "g10": 701
    },
    "basis": {
-    "n90": 25,
-    "last": "2026-11-09",
+    "n90": 27,
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 520.0,
+    "pc_avg": 465.0,
     "grade": "PSA 10"
    },
-   "value": 754,
-   "landed": 879,
-   "gap": 0.47,
+   "value": 742,
+   "landed": 865,
+   "gap": 0.5,
    "thin": false,
    "signal": "OVER"
   },
@@ -16983,14 +16887,14 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-base-set/computer-search-1st-edition-71?q=computer+search+71+1st+edition",
+   "pc": "https://www.pricecharting.com/game/pokemon-base-set/computer-search-1st-edition-71",
    "matched": "Computer Search [1st Edition] #71   Pokemon Base Set",
    "aud": {
-    "raw": 194,
+    "raw": 195,
     "g7": 188,
-    "g8": 264,
-    "g9": 403,
-    "g95": 443,
+    "g8": 263,
+    "g9": 407,
+    "g95": 448,
     "g10": 1733
    },
    "basis": {
@@ -17000,9 +16904,9 @@
     "thin": true,
     "grade": "PSA 9"
    },
-   "value": 403,
-   "landed": 493,
-   "gap": 1.51,
+   "value": 407,
+   "landed": 497,
+   "gap": 1.48,
    "thin": true,
    "signal": "OVER"
   },
@@ -17030,17 +16934,17 @@
    "matched": "Kangaskhan #21   Pokemon Jungle",
    "aud": {
     "raw": 6,
-    "g7": 23,
-    "g8": 43,
-    "g9": 45,
-    "g95": 50,
-    "g10": 361
+    "g7": 26,
+    "g8": 42,
+    "g9": 47,
+    "g95": 51,
+    "g10": 355
    },
    "basis": {
     "n90": 5,
     "last": "2026-10-04",
     "basis": "90-day median",
-    "pc_avg": 239.56,
+    "pc_avg": 235.55,
     "grade": "PSA 10"
    },
    "value": 377,
@@ -17076,7 +16980,7 @@
     "g8": 37,
     "g9": 82,
     "g95": 147,
-    "g10": 194
+    "g10": 192
    },
    "basis": {
     "grade": "CGC 10",
@@ -17084,9 +16988,9 @@
     "n90": null,
     "thin": true
    },
-   "value": 255,
-   "landed": 330,
-   "gap": 0.42,
+   "value": 259,
+   "landed": 334,
+   "gap": 0.39,
    "thin": true,
    "signal": "OVER"
   },
@@ -17110,26 +17014,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-fossil/ekans-1st-edition-46?q=ekans+46+1st+edition",
+   "pc": "https://www.pricecharting.com/game/pokemon-fossil/ekans-1st-edition-46",
    "matched": "Ekans [1st Edition] #46   Pokemon Fossil",
    "aud": {
     "raw": 3,
     "g7": 21,
     "g8": 24,
-    "g9": 52,
-    "g95": 53,
-    "g10": 301
+    "g9": 51,
+    "g95": 52,
+    "g10": 295
    },
    "basis": {
-    "n90": 22,
-    "last": "2026-11-12",
+    "n90": 24,
+    "last": "2026-11-20",
     "basis": "90-day median",
-    "pc_avg": 200.0,
+    "pc_avg": 195.74,
     "grade": "PSA 10"
    },
-   "value": 301,
-   "landed": 381,
-   "gap": 0.03,
+   "value": 298,
+   "landed": 377,
+   "gap": 0.04,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -17156,25 +17060,25 @@
    "pc": "https://www.pricecharting.com/game/pokemon-base-set/venusaur-15",
    "matched": "Venusaur #15   Pokemon Base Set",
    "aud": {
-    "raw": 98,
-    "g7": 321,
-    "g8": 409,
-    "g9": 769,
-    "g95": 846,
-    "g10": 5930
+    "raw": 117,
+    "g7": 309,
+    "g8": 392,
+    "g9": 829,
+    "g95": 912,
+    "g10": 5803
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 271.17,
+    "pc_avg": 260.0,
     "grade": "PSA 8"
    },
-   "value": 422,
-   "landed": 514,
-   "gap": 0.21,
+   "value": 392,
+   "landed": 481,
+   "gap": 0.3,
    "thin": false,
-   "signal": "OVER-US"
+   "signal": "OVER"
   },
   {
    "title": "Pokemon- Pikachu Red Cheeks 58/102 PSA 8- 1st Edition",
@@ -17196,21 +17100,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-base-set/pikachu-1st-edition-red-cheeks-58?q=pikachu+red+cheeks+58+1st+edition",
+   "pc": "https://www.pricecharting.com/game/pokemon-base-set/pikachu-1st-edition-red-cheeks-58",
    "matched": "Pikachu [1st Edition Red Cheeks] #58   Pokemon Base Set",
    "aud": {
-    "raw": 633,
+    "raw": 583,
     "g7": 1296,
-    "g8": 1582,
-    "g9": 4522,
-    "g95": 4974,
-    "g10": 43315
+    "g8": 1589,
+    "g9": 4034,
+    "g95": 4145,
+    "g10": 43277
    },
    "basis": {
     "n90": 18,
     "last": "2026-11-10",
     "basis": "90-day median",
-    "pc_avg": 1049.75,
+    "pc_avg": 1054.09,
     "grade": "PSA 8"
    },
    "value": 1563,
@@ -17242,9 +17146,9 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/alakazam-33",
    "matched": "Alakazam #33   Pokemon Expedition",
    "aud": {
-    "raw": 25,
+    "raw": 28,
     "g7": 72,
-    "g8": 109,
+    "g8": 90,
     "g9": 226,
     "g95": 282,
     "g10": 1281
@@ -17401,16 +17305,16 @@
    "aud": {
     "raw": 2,
     "g7": 18,
-    "g8": 22,
-    "g9": 37,
-    "g95": 106,
-    "g10": 185
+    "g8": 42,
+    "g9": 45,
+    "g95": 92,
+    "g10": 233
    },
    "basis": {
     "n90": 8,
     "last": "2026-11-15",
     "basis": "90-day median",
-    "pc_avg": 122.99,
+    "pc_avg": 154.5,
     "grade": "PSA 10"
    },
    "value": 237,
@@ -17444,15 +17348,15 @@
    "aud": {
     "raw": 27,
     "g8": 25,
-    "g9": 43,
-    "g95": 47,
-    "g10": 207
+    "g9": 40,
+    "g95": 44,
+    "g10": 197
    },
    "basis": {
-    "n90": 15,
-    "last": "2026-11-06",
+    "n90": 17,
+    "last": "2026-11-20",
     "basis": "90-day median",
-    "pc_avg": 137.5,
+    "pc_avg": 130.52,
     "grade": "PSA 10"
    },
    "value": 194,
@@ -17481,21 +17385,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-gym-challenge/sabrina-1st-edition-20?q=1st+edition+sabrina+20+gym+challenge",
+   "pc": "https://www.pricecharting.com/game/pokemon-gym-challenge/sabrina-1st-edition-20",
    "matched": "Sabrina [1st Edition] #20   Pokemon Gym Challenge",
    "aud": {
-    "raw": 201,
-    "g7": 157,
-    "g8": 231,
-    "g9": 473,
-    "g95": 520,
-    "g10": 2552
+    "raw": 194,
+    "g7": 156,
+    "g8": 245,
+    "g9": 487,
+    "g95": 537,
+    "g10": 2709
    },
    "basis": {
-    "n90": 8,
-    "last": "2026-11-02",
+    "n90": 10,
+    "last": "2026-11-22",
     "basis": "90-day median",
-    "pc_avg": 1693.0,
+    "pc_avg": 1797.06,
     "grade": "PSA 10"
    },
    "value": 2552,
@@ -17641,14 +17545,14 @@
    },
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-perfect-order/gengar-eb-games-stamped-50?q=gengar+050+eb+games+stamp",
+   "pc": "https://www.pricecharting.com/game/pokemon-perfect-order/gengar-eb-games-stamped-50",
    "matched": "Gengar [EB Games Stamped] #50   Pokemon Perfect Order",
    "aud": {
-    "raw": 146,
+    "raw": 129,
     "g8": 90,
     "g9": 202,
     "g95": 222,
-    "g10": 1367
+    "g10": 1362
    },
    "basis": {
     "n90": 1,
@@ -17657,8 +17561,8 @@
     "thin": true,
     "grade": "PSA 10"
    },
-   "value": 1367,
-   "landed": 1553,
+   "value": 1362,
+   "landed": 1547,
    "gap": -0.04,
    "thin": true,
    "signal": "FAIR"
@@ -17732,18 +17636,18 @@
    "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/charmeleon-169",
    "matched": "Charmeleon #169   Pokemon Scarlet & Violet 151",
    "aud": {
-    "raw": 80,
-    "g7": 59,
+    "raw": 75,
+    "g7": 74,
     "g8": 74,
-    "g9": 113,
-    "g95": 125,
-    "g10": 634
+    "g9": 106,
+    "g95": 118,
+    "g10": 590
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-15",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 75.0,
+    "pc_avg": 70.54,
     "grade": "PSA 9"
    },
    "value": 113,
@@ -17772,10 +17676,10 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-unbroken-bonds/pokegear-30-233?q=pokegear+3.0+233+unbroken+bonds",
+   "pc": "https://www.pricecharting.com/game/pokemon-unbroken-bonds/pokegear-30-233",
    "matched": "Pokegear 3.0 #233   Pokemon Unbroken Bonds",
    "aud": {
-    "raw": 62,
+    "raw": 54,
     "g7": 31,
     "g8": 52,
     "g9": 64,
@@ -17815,21 +17719,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-white-flare/hydreigon-ex-169?q=hydreigon+ex+169+white+flare",
+   "pc": "https://www.pricecharting.com/game/pokemon-white-flare/hydreigon-ex-169",
    "matched": "Hydreigon ex #169   Pokemon White Flare",
    "aud": {
-    "raw": 102,
+    "raw": 97,
     "g7": 89,
     "g8": 100,
-    "g9": 108,
+    "g9": 106,
     "g95": 151,
-    "g10": 255
+    "g10": 240
    },
    "basis": {
     "n90": 4,
     "last": "2026-09-28",
     "basis": "90-day median",
-    "pc_avg": 66.52,
+    "pc_avg": 66.67,
     "grade": "PSA 8"
    },
    "value": 98,
@@ -17858,21 +17762,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-hidden-fates/moltres-&-zapdos-&-articuno-gx-69?q=moltres+%26+zapdos+%26+articuno+gx+69+hidden+fates",
+   "pc": "https://www.pricecharting.com/game/pokemon-hidden-fates/moltres-&-zapdos-&-articuno-gx-69",
    "matched": "Moltres & Zapdos & Articuno GX #69   Pokemon Hidden Fates",
    "aud": {
     "raw": 60,
-    "g7": 59,
+    "g7": 58,
     "g8": 60,
     "g9": 77,
     "g95": 113,
-    "g10": 203
+    "g10": 207
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 135.0,
+    "pc_avg": 137.16,
     "grade": "PSA 10"
    },
    "value": 203,
@@ -17947,18 +17851,18 @@
    "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/squirtle-170",
    "matched": "Squirtle #170   Pokemon Scarlet & Violet 151",
    "aud": {
-    "raw": 108,
+    "raw": 113,
     "g7": 99,
     "g8": 127,
-    "g9": 133,
-    "g95": 146,
-    "g10": 637
+    "g9": 139,
+    "g95": 152,
+    "g10": 633
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 87.93,
+    "pc_avg": 92.0,
     "grade": "PSA 9"
    },
    "value": 127,
@@ -17988,7 +17892,7 @@
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-neo-genesis/azumarill-1st-edition-2)"
+   "why": "no PriceCharting card fit (top result /game/pokemon-legendary-collection/hypno-reverse-holo-25)"
   },
   {
    "title": "Pokemon - Reds Challenge 213/214 PSA 9 - Unbroken Bonds",
@@ -18033,14 +17937,14 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-go/dragonite-vstar-81?q=dragonite+vstar+081+go",
+   "pc": "https://www.pricecharting.com/game/pokemon-go/dragonite-vstar-81",
    "matched": "Dragonite VSTAR #81   Pokemon Go",
    "aud": {
-    "raw": 54,
-    "g7": 33,
-    "g8": 42,
-    "g9": 79,
-    "g95": 87,
+    "raw": 56,
+    "g7": 42,
+    "g8": 43,
+    "g9": 77,
+    "g95": 84,
     "g10": 252
    },
    "basis": {
@@ -18119,26 +18023,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-cosmic-eclipse/arceus-&-dialga-&-palkia-gx-156?q=arceus+%26+dialga+gx+156+cosmic+eclipse",
+   "pc": "https://www.pricecharting.com/game/pokemon-cosmic-eclipse/arceus-&-dialga-&-palkia-gx-156",
    "matched": "Arceus & Dialga & Palkia GX #156   Pokemon Cosmic Eclipse",
    "aud": {
-    "raw": 41,
+    "raw": 36,
     "g7": 44,
     "g8": 54,
-    "g9": 77,
-    "g95": 80,
+    "g9": 78,
+    "g95": 79,
     "g10": 377
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-13",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 51.0,
+    "pc_avg": 51.5,
     "grade": "PSA 9"
    },
-   "value": 78,
-   "landed": 135,
-   "gap": 0.81,
+   "value": 81,
+   "landed": 139,
+   "gap": 0.74,
    "thin": false,
    "signal": "OVER"
   },
@@ -18198,23 +18102,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-rocket-gang/dark-magneton-82",
    "matched": "Dark Magneton #82   Pokemon Japanese Rocket Gang",
    "aud": {
-    "raw": 20,
+    "raw": 21,
     "g7": 45,
-    "g8": 72,
-    "g9": 113,
+    "g8": 74,
+    "g9": 109,
     "g95": 151,
     "g10": 733
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-15",
+    "last": "2026-11-18",
     "basis": "90-day median",
-    "pc_avg": 74.99,
+    "pc_avg": 72.46,
     "grade": "PSA 9"
    },
-   "value": 121,
-   "landed": 182,
-   "gap": 0.91,
+   "value": 120,
+   "landed": 181,
+   "gap": 0.93,
    "thin": false,
    "signal": "OVER"
   },
@@ -18269,23 +18173,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-base-set/magneton-9",
    "matched": "Magneton #9   Pokemon Base Set",
    "aud": {
-    "raw": 27,
-    "g7": 61,
-    "g8": 121,
-    "g9": 262,
-    "g95": 288,
+    "raw": 18,
+    "g7": 53,
+    "g8": 115,
+    "g9": 221,
+    "g95": 240,
     "g10": 3316
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 79.99,
+    "pc_avg": 76.01,
     "grade": "PSA 8"
    },
-   "value": 120,
+   "value": 121,
    "landed": 182,
-   "gap": 0.43,
+   "gap": 0.41,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -18309,21 +18213,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-white-flare/hilda-164?q=hilda+white+flare+164",
+   "pc": "https://www.pricecharting.com/game/pokemon-white-flare/hilda-164",
    "matched": "Hilda #164   Pokemon White Flare",
    "aud": {
-    "raw": 12,
+    "raw": 13,
     "g7": 12,
     "g8": 18,
     "g9": 30,
     "g95": 33,
-    "g10": 67
+    "g10": 71
    },
    "basis": {
-    "n90": 16,
-    "last": "2026-11-13",
+    "n90": 17,
+    "last": "2026-11-20",
     "basis": "90-day median",
-    "pc_avg": 44.27,
+    "pc_avg": 47.0,
     "grade": "PSA 10"
    },
    "value": 68,
@@ -18375,20 +18279,20 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-vstar-universe/pikachu-205?q=pikachu+205+vstar+universe+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-vstar-universe/pikachu-205",
    "matched": "Pikachu #205   Pokemon Japanese VSTAR Universe",
    "aud": {
     "raw": 217,
-    "g8": 247,
-    "g9": 265,
-    "g95": 314,
-    "g10": 510
+    "g8": 245,
+    "g9": 270,
+    "g95": 300,
+    "g10": 520
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 338.5,
+    "pc_avg": 345.0,
     "grade": "PSA 10"
    },
    "value": 520,
@@ -18417,21 +18321,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-brilliant-stars/charizard-v-153?q=charizard+v+153+brilliant+stars",
+   "pc": "https://www.pricecharting.com/game/pokemon-brilliant-stars/charizard-v-153",
    "matched": "Charizard V #153   Pokemon Brilliant Stars",
    "aud": {
-    "raw": 45,
+    "raw": 46,
     "g7": 28,
     "g8": 49,
-    "g9": 69,
+    "g9": 67,
     "g95": 100,
-    "g10": 314
+    "g10": 335
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 208.6,
+    "pc_avg": 222.0,
     "grade": "PSA 10"
    },
    "value": 345,
@@ -18483,21 +18387,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-crown-zenith/deoxys-vmax-gg45?q=deoxys+vmax+gg45+crown+zenith",
+   "pc": "https://www.pricecharting.com/game/pokemon-crown-zenith/deoxys-vmax-gg45",
    "matched": "Deoxys VMAX #GG45   Pokemon Crown Zenith",
    "aud": {
-    "raw": 79,
+    "raw": 70,
     "g7": 18,
     "g8": 77,
-    "g9": 108,
+    "g9": 100,
     "g95": 130,
-    "g10": 215
+    "g10": 216
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-15",
+    "last": "2026-11-22",
     "basis": "90-day median",
-    "pc_avg": 71.94,
+    "pc_avg": 66.05,
     "grade": "PSA 9"
    },
    "value": 115,
@@ -18526,26 +18430,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-crown-zenith/raikou-v-gg41?q=raikou+v+gg41+crown+zenith",
+   "pc": "https://www.pricecharting.com/game/pokemon-crown-zenith/raikou-v-gg41",
    "matched": "Raikou V #GG41   Pokemon Crown Zenith",
    "aud": {
-    "raw": 62,
+    "raw": 60,
     "g7": 57,
     "g8": 60,
-    "g9": 76,
+    "g9": 75,
     "g95": 84,
-    "g10": 277
+    "g10": 273
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 50.4,
+    "pc_avg": 50.0,
     "grade": "PSA 9"
    },
-   "value": 77,
-   "landed": 134,
-   "gap": 0.57,
+   "value": 75,
+   "landed": 132,
+   "gap": 0.61,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -18569,26 +18473,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-unbroken-bonds/lucario-&-melmetal-gx-120?q=lucario+%26+melmetal+gx+120+unbroken+bonds",
+   "pc": "https://www.pricecharting.com/game/pokemon-unbroken-bonds/lucario-&-melmetal-gx-120",
    "matched": "Lucario & Melmetal GX #120   Pokemon Unbroken Bonds",
    "aud": {
-    "raw": 47,
+    "raw": 45,
     "g7": 36,
     "g8": 48,
-    "g9": 70,
+    "g9": 69,
     "g95": 77,
-    "g10": 354
+    "g10": 372
    },
    "basis": {
-    "n90": 16,
-    "last": "2026-11-09",
+    "n90": 19,
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 46.18,
+    "pc_avg": 46.0,
     "grade": "PSA 9"
    },
-   "value": 78,
-   "landed": 135,
-   "gap": 0.29,
+   "value": 75,
+   "landed": 132,
+   "gap": 0.35,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -18612,15 +18516,15 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/slowpoke-204?q=slowpoke+204+scarlet+%26+violet+base",
+   "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/slowpoke-204",
    "matched": "Slowpoke #204   Pokemon Scarlet & Violet",
    "aud": {
-    "raw": 54,
-    "g7": 41,
-    "g8": 50,
-    "g9": 89,
-    "g95": 98,
-    "g10": 1504
+    "raw": 55,
+    "g7": 42,
+    "g8": 53,
+    "g9": 98,
+    "g95": 107,
+    "g10": 1507
    },
    "basis": {
     "grade": "CGC 10",
@@ -18654,19 +18558,19 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-paldea-evolved/tyranitar-222?q=tyranitar+222+paldea+evolved",
+   "pc": "https://www.pricecharting.com/game/pokemon-paldea-evolved/tyranitar-222",
    "matched": "Tyranitar #222   Pokemon Paldea Evolved",
    "aud": {
-    "raw": 81,
+    "raw": 87,
     "g7": 80,
     "g8": 89,
     "g9": 121,
     "g95": 136,
-    "g10": 1170
+    "g10": 1082
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-24",
     "basis": "90-day median",
     "pc_avg": 80.07,
     "grade": "PSA 9"
@@ -18771,28 +18675,28 @@
    },
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-inferno-x/mega-charizard-x-ex-110?q=mega+charizard+x+ex+110+inferno+x+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-inferno-x/mega-charizard-x-ex-110",
    "matched": "Mega Charizard X Ex #110   Pokemon Japanese Inferno X",
    "aud": {
-    "raw": 711,
+    "raw": 668,
     "g7": 531,
     "g8": 664,
-    "g9": 697,
-    "g95": 980,
-    "g10": 980
+    "g9": 665,
+    "g95": 932,
+    "g10": 950
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 650.0,
+    "pc_avg": 630.51,
     "grade": "PSA 10"
    },
-   "value": 1034,
-   "landed": 1187,
-   "gap": 0.07,
+   "value": 927,
+   "landed": 1069,
+   "gap": 0.2,
    "thin": false,
-   "signal": "OVER-US"
+   "signal": "OVER"
   },
   {
    "title": "Pokemon - PSA 10 JP Hop's Trevenant 204/193 Mega Dream",
@@ -18840,18 +18744,18 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/pikachu-173",
    "matched": "Pikachu #173   Pokemon Japanese Scarlet & Violet 151",
    "aud": {
-    "raw": 41,
-    "g7": 38,
+    "raw": 34,
+    "g7": 26,
     "g8": 51,
     "g9": 60,
-    "g95": 70,
-    "g10": 142
+    "g95": 71,
+    "g10": 144
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 94.0,
+    "pc_avg": 95.5,
     "grade": "PSA 10"
    },
    "value": 137,
@@ -18891,15 +18795,15 @@
     "raw": 14,
     "g7": 45,
     "g8": 66,
-    "g9": 104,
+    "g9": 98,
     "g95": 124,
-    "g10": 562
+    "g10": 603
    },
    "basis": {
-    "n90": 12,
-    "last": "2026-10-30",
+    "n90": 13,
+    "last": "2026-11-17",
     "basis": "90-day median",
-    "pc_avg": 373.18,
+    "pc_avg": 400.0,
     "grade": "PSA 10"
    },
    "value": 490,
@@ -18959,23 +18863,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-rocket-gang/dark-magneton-82",
    "matched": "Dark Magneton #82   Pokemon Japanese Rocket Gang",
    "aud": {
-    "raw": 20,
+    "raw": 21,
     "g7": 45,
-    "g8": 72,
-    "g9": 113,
+    "g8": 74,
+    "g9": 109,
     "g95": 151,
     "g10": 733
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-15",
+    "last": "2026-11-18",
     "basis": "90-day median",
-    "pc_avg": 74.99,
+    "pc_avg": 72.46,
     "grade": "PSA 9"
    },
-   "value": 121,
-   "landed": 182,
-   "gap": 0.91,
+   "value": 120,
+   "landed": 181,
+   "gap": 0.93,
    "thin": false,
    "signal": "OVER"
   },
@@ -18999,26 +18903,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/charmeleon-169?q=charmeleon+169+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/charmeleon-169",
    "matched": "Charmeleon #169   Pokemon Japanese Scarlet & Violet 151",
    "aud": {
-    "raw": 26,
-    "g7": 32,
-    "g8": 38,
-    "g9": 52,
-    "g95": 57,
-    "g10": 116
+    "raw": 23,
+    "g7": 18,
+    "g8": 23,
+    "g9": 51,
+    "g95": 56,
+    "g10": 113
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 77.25,
+    "pc_avg": 75.25,
     "grade": "PSA 10"
    },
-   "value": 121,
-   "landed": 182,
-   "gap": 0.33,
+   "value": 113,
+   "landed": 174,
+   "gap": 0.42,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -19045,23 +18949,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-unified-minds/mega-sableye-&-tyranitar-gx-225",
    "matched": "Mega Sableye & Tyranitar GX #225   Pokemon Unified Minds",
    "aud": {
-    "raw": 70,
+    "raw": 73,
     "g7": 36,
-    "g8": 80,
+    "g8": 85,
     "g9": 94,
-    "g95": 104,
-    "g10": 698
+    "g95": 102,
+    "g10": 634
    },
    "basis": {
-    "n90": 13,
-    "last": "2026-11-13",
+    "n90": 14,
+    "last": "2026-11-19",
     "basis": "90-day median",
-    "pc_avg": 62.5,
+    "pc_avg": 62.04,
     "grade": "PSA 9"
    },
-   "value": 101,
-   "landed": 161,
-   "gap": 0.5,
+   "value": 96,
+   "landed": 155,
+   "gap": 0.57,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -19108,26 +19012,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-mega-evolution/steelix-150?q=steelix+150+mega+evolutions+base",
+   "pc": "https://www.pricecharting.com/game/pokemon-mega-evolution/steelix-150",
    "matched": "Steelix #150   Pokemon Mega Evolution",
    "aud": {
-    "raw": 10,
+    "raw": 7,
     "g7": 18,
     "g8": 22,
-    "g9": 31,
-    "g95": 54,
-    "g10": 83
+    "g9": 32,
+    "g95": 53,
+    "g10": 80
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 55.0,
+    "pc_avg": 52.75,
     "grade": "PSA 10"
    },
-   "value": 83,
-   "landed": 141,
-   "gap": 0.34,
+   "value": 80,
+   "landed": 137,
+   "gap": 0.39,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -19201,8 +19105,8 @@
    "matched": "Vaporeon #134   Pokemon Japanese Jungle",
    "aud": {
     "raw": 44,
-    "g7": 96,
-    "g8": 173,
+    "g7": 102,
+    "g8": 176,
     "g9": 415,
     "g95": 457,
     "g10": 6006
@@ -19291,17 +19195,17 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-super-legend/yveltal-ex-6",
    "matched": "Yveltal EX #6   Pokemon Japanese Super Legend",
    "aud": {
-    "raw": 51,
+    "raw": 54,
     "g8": 136,
     "g9": 151,
     "g95": 331,
-    "g10": 696
+    "g10": 657
    },
    "basis": {
     "n90": 10,
     "last": "2026-11-14",
     "basis": "90-day median",
-    "pc_avg": 100.51,
+    "pc_avg": 99.99,
     "grade": "PSA 9"
    },
    "value": 151,
@@ -19361,23 +19265,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-mega-dream-ex/mega-dragonite-ex-250",
    "matched": "Mega Dragonite ex #250   Pokemon Japanese Mega Dream ex",
    "aud": {
-    "raw": 184,
+    "raw": 174,
     "g7": 149,
-    "g8": 157,
+    "g8": 158,
     "g9": 173,
-    "g95": 207,
-    "g10": 484
+    "g95": 191,
+    "g10": 480
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-15",
+    "last": "2026-11-21",
     "basis": "90-day median",
     "pc_avg": 115.0,
     "grade": "PSA 9"
    },
-   "value": 160,
-   "landed": 226,
-   "gap": 0.32,
+   "value": 149,
+   "landed": 214,
+   "gap": 0.42,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -19493,22 +19397,22 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-night-wanderer/persian-75",
    "matched": "Persian #75   Pokemon Japanese Night Wanderer",
    "aud": {
-    "raw": 18,
+    "raw": 16,
     "g7": 24,
     "g8": 31,
     "g9": 35,
-    "g95": 45,
-    "g10": 78
+    "g95": 44,
+    "g10": 79
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-12",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 51.49,
+    "pc_avg": 52.25,
     "grade": "PSA 10"
    },
    "value": 80,
-   "landed": 138,
+   "landed": 137,
    "gap": 0.26,
    "thin": false,
    "signal": "OVER-US"
@@ -19607,26 +19511,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-champion%27s-path/charizard-v-79?q=charizard+v+079+champions+path",
+   "pc": "https://www.pricecharting.com/game/pokemon-champion%27s-path/charizard-v-79",
    "matched": "Charizard V #79   Pokemon Champion's Path",
    "aud": {
     "raw": 280,
     "g7": 207,
-    "g8": 320,
-    "g9": 351,
-    "g95": 378,
-    "g10": 547
+    "g8": 300,
+    "g9": 330,
+    "g95": 363,
+    "g10": 542
    },
    "basis": {
-    "n90": 9,
-    "last": "2026-11-16",
+    "n90": 10,
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 251.02,
+    "pc_avg": 240.5,
     "grade": "BGS 9.5"
    },
-   "value": 359,
-   "landed": 445,
-   "gap": 0.26,
+   "value": 353,
+   "landed": 438,
+   "gap": 0.28,
    "thin": false,
    "signal": "OVER"
   },
@@ -19653,23 +19557,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-gym-heroes/misty-1st-edition-18",
    "matched": "Misty [1st Edition] #18   Pokemon Gym Heroes",
    "aud": {
-    "raw": 249,
-    "g7": 230,
+    "raw": 244,
+    "g7": 198,
     "g8": 278,
-    "g9": 669,
-    "g95": 736,
-    "g10": 5163
+    "g9": 674,
+    "g95": 742,
+    "g10": 5200
    },
    "basis": {
-    "n90": 3,
-    "last": "2026-11-13",
+    "n90": 4,
+    "last": "2026-11-22",
     "basis": "90-day median",
-    "pc_avg": 152.5,
+    "pc_avg": 131.25,
     "grade": "PSA 7"
    },
-   "value": 230,
-   "landed": 302,
-   "gap": 0.13,
+   "value": 198,
+   "landed": 267,
+   "gap": 0.32,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -19693,21 +19597,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-paldea-evolved/magikarp-203?q=magikarp+203+paldea+evolved",
+   "pc": "https://www.pricecharting.com/game/pokemon-paldea-evolved/magikarp-203",
    "matched": "Magikarp #203   Pokemon Paldea Evolved",
    "aud": {
-    "raw": 386,
-    "g7": 365,
-    "g8": 376,
-    "g9": 528,
-    "g95": 754,
-    "g10": 5165
+    "raw": 389,
+    "g7": 320,
+    "g8": 399,
+    "g9": 544,
+    "g95": 751,
+    "g10": 4993
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 350.0,
+    "pc_avg": 360.89,
     "grade": "PSA 9"
    },
    "value": 528,
@@ -19736,26 +19640,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/blastoise-ex-9?q=blastoise+ex+009+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/blastoise-ex-9",
    "matched": "Blastoise EX #9   Pokemon Japanese Scarlet & Violet 151",
    "aud": {
     "raw": 3,
-    "g7": 18,
-    "g8": 22,
-    "g9": 24,
+    "g7": 17,
+    "g8": 21,
+    "g9": 23,
     "g95": 30,
-    "g10": 89
+    "g10": 87
    },
    "basis": {
-    "n90": 14,
-    "last": "2026-11-16",
+    "n90": 16,
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 58.85,
+    "pc_avg": 57.5,
     "grade": "PSA 10"
    },
-   "value": 72,
-   "landed": 129,
-   "gap": 0.54,
+   "value": 73,
+   "landed": 130,
+   "gap": 0.52,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -19779,7 +19683,7 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-cosmic-eclipse/guzma-&-hala-229?q=guzma+%26+hala+229",
+   "pc": "https://www.pricecharting.com/game/pokemon-cosmic-eclipse/guzma-&-hala-229",
    "matched": "Guzma & Hala #229   Pokemon Cosmic Eclipse",
    "aud": {
     "raw": 67,
@@ -19845,21 +19749,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-white-flare/hilda-171?q=hilda+171+white+flare",
+   "pc": "https://www.pricecharting.com/game/pokemon-white-flare/hilda-171",
    "matched": "Hilda #171   Pokemon White Flare",
    "aud": {
-    "raw": 59,
+    "raw": 52,
     "g7": 64,
     "g8": 80,
     "g9": 87,
     "g95": 96,
-    "g10": 138
+    "g10": 151
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-22",
     "basis": "90-day median",
-    "pc_avg": 91.76,
+    "pc_avg": 100.0,
     "grade": "PSA 10"
    },
    "value": 140,
@@ -19888,26 +19792,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/rotom-ex-126?q=rotom+ex+126",
+   "pc": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/rotom-ex-126",
    "matched": "Rotom ex #126   Pokemon Phantasmal Flames",
    "aud": {
-    "raw": 19,
+    "raw": 18,
     "g7": 23,
     "g8": 37,
     "g9": 41,
     "g95": 45,
-    "g10": 87
+    "g10": 84
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 57.87,
+    "pc_avg": 56.0,
     "grade": "PSA 10"
    },
-   "value": 87,
-   "landed": 145,
-   "gap": 0.51,
+   "value": 84,
+   "landed": 142,
+   "gap": 0.56,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -19931,21 +19835,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-paldea-evolved/iono-269?q=iono+269+paldea+evolved",
+   "pc": "https://www.pricecharting.com/game/pokemon-paldea-evolved/iono-269",
    "matched": "Iono #269   Pokemon Paldea Evolved",
    "aud": {
-    "raw": 67,
+    "raw": 63,
     "g7": 63,
-    "g8": 75,
-    "g9": 83,
+    "g8": 82,
+    "g9": 90,
     "g95": 125,
-    "g10": 210
+    "g10": 185
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-18",
     "basis": "90-day median",
-    "pc_avg": 55.0,
+    "pc_avg": 60.0,
     "grade": "PSA 9"
    },
    "value": 75,
@@ -19977,23 +19881,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-chaos-rising/crobat-93",
    "matched": "Crobat #93   Pokemon Chaos Rising",
    "aud": {
-    "raw": 4,
+    "raw": 3,
     "g7": 18,
     "g8": 18,
-    "g9": 20,
-    "g95": 23,
-    "g10": 75
+    "g9": 18,
+    "g95": 22,
+    "g10": 64
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-25",
     "basis": "90-day median",
-    "pc_avg": 50.0,
+    "pc_avg": 42.75,
     "grade": "PSA 10"
    },
-   "value": 75,
-   "landed": 132,
-   "gap": 0.48,
+   "value": 68,
+   "landed": 124,
+   "gap": 0.63,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -20017,26 +19921,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-ascended-heroes/snorunt-227?q=snorunt+227",
+   "pc": "https://www.pricecharting.com/game/pokemon-ascended-heroes/snorunt-227",
    "matched": "Snorunt #227   Pokemon Ascended Heroes",
    "aud": {
-    "raw": 6,
+    "raw": 5,
     "g7": 6,
     "g8": 15,
-    "g9": 28,
-    "g95": 30,
-    "g10": 65
+    "g9": 25,
+    "g95": 27,
+    "g10": 61
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-15",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 43.18,
+    "pc_avg": 40.5,
     "grade": "PSA 10"
    },
-   "value": 68,
-   "landed": 124,
-   "gap": 0.63,
+   "value": 62,
+   "landed": 118,
+   "gap": 0.79,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -20065,16 +19969,16 @@
    "aud": {
     "raw": 6,
     "g7": 8,
-    "g8": 13,
+    "g8": 16,
     "g9": 23,
     "g95": 26,
-    "g10": 75
+    "g10": 73
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-15",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 49.5,
+    "pc_avg": 48.45,
     "grade": "PSA 10"
    },
    "value": 75,
@@ -20103,7 +20007,7 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/battle-compressor-114?q=battle+compressor+114+best+of+xy+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/battle-compressor-114",
    "matched": "Battle Compressor #114   Pokemon Japanese Best of XY",
    "aud": {
     "raw": 8,
@@ -20130,9 +20034,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-manectric-spirit-link-best-of-xy-134-171-japanese",
    "listed": "2026-08-15",
-   "price": 35.0,
+   "price": 19.0,
    "post": 12.0,
-   "cost": 47.0,
+   "cost": 31.0,
    "grader": null,
    "grade": null,
    "jp": true,
@@ -20145,13 +20049,13 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/manectric-spirit-link-134?q=manectric+spirit+link+best+of+xy+134+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/manectric-spirit-link-134",
    "matched": "Manectric Spirit Link #134   Pokemon Japanese Best of XY",
    "aud": {
     "raw": 10,
     "g9": 28,
     "g95": 30,
-    "g10": 151
+    "g10": 168
    },
    "basis": {
     "n90": 1,
@@ -20162,11 +20066,11 @@
    },
    "value": 10,
    "landed": 39,
-   "gap": 3.7,
+   "gap": 2.1,
    "thin": true,
-   "signal": "OVER",
+   "signal": "OVER-US",
    "psa8_net": null,
-   "psa9_net": -79
+   "psa9_net": -63
   },
   {
    "title": "Pokemon - PSA 10 Raging Bolt Ex 208/162 Temporal Forces",
@@ -20188,26 +20092,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-temporal-forces/raging-bolt-ex-208?q=raging+bolt+ex+208+temporal+forces",
+   "pc": "https://www.pricecharting.com/game/pokemon-temporal-forces/raging-bolt-ex-208",
    "matched": "Raging Bolt ex #208   Pokemon Temporal Forces",
    "aud": {
-    "raw": 86,
-    "g7": 60,
-    "g8": 76,
-    "g9": 89,
-    "g95": 152,
-    "g10": 283
+    "raw": 81,
+    "g7": 57,
+    "g8": 72,
+    "g9": 78,
+    "g95": 154,
+    "g10": 262
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 187.94,
+    "pc_avg": 173.73,
     "grade": "PSA 10"
    },
-   "value": 284,
-   "landed": 362,
-   "gap": 0.1,
+   "value": 279,
+   "landed": 356,
+   "gap": 0.11,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -20231,26 +20135,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-chaos-rising/tauros-96?q=tauros+096+chaos+rising",
+   "pc": "https://www.pricecharting.com/game/pokemon-chaos-rising/tauros-96",
    "matched": "Tauros #96   Pokemon Chaos Rising",
    "aud": {
-    "raw": 5,
+    "raw": 4,
     "g7": 14,
     "g8": 22,
     "g9": 24,
-    "g95": 29,
-    "g10": 90
+    "g95": 27,
+    "g10": 83
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-14",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 59.54,
+    "pc_avg": 55.0,
     "grade": "PSA 10"
    },
-   "value": 98,
-   "landed": 157,
-   "gap": 0.34,
+   "value": 91,
+   "landed": 150,
+   "gap": 0.44,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -20298,7 +20202,7 @@
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-promo/sealed-first-partner-illustration-collection-series-3)"
+   "why": "no PriceCharting card fit (top result /game/pokemon-chinese-promo/30th-anniversary-starter-first-partner)"
   },
   {
    "title": "Pokemon - PSA 10 Canari 257/217 Ascended Heroes",
@@ -20320,7 +20224,7 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-ascended-heroes/canari-257?q=canari+257+ascended+heroes",
+   "pc": "https://www.pricecharting.com/game/pokemon-ascended-heroes/canari-257",
    "matched": "Canari #257   Pokemon Ascended Heroes",
    "aud": {
     "raw": 4,
@@ -20328,13 +20232,13 @@
     "g8": 30,
     "g9": 33,
     "g95": 34,
-    "g10": 69
+    "g10": 66
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-14",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 46.0,
+    "pc_avg": 44.0,
     "grade": "PSA 10"
    },
    "value": 72,
@@ -20389,23 +20293,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-flashfire/m-charizard-ex-69",
    "matched": "M Charizard EX #69   Pokemon Flashfire",
    "aud": {
-    "raw": 131,
-    "g7": 332,
-    "g8": 377,
-    "g9": 625,
-    "g95": 1042,
-    "g10": 3384
+    "raw": 128,
+    "g7": 336,
+    "g8": 339,
+    "g9": 616,
+    "g95": 1043,
+    "g10": 3195
    },
    "basis": {
-    "n90": 4,
-    "last": "2026-11-17",
+    "n90": 5,
+    "last": "2026-11-24",
     "basis": "90-day NM median",
-    "pc_avg": 87.0,
+    "pc_avg": 85.0,
     "grade": "raw (NM)"
    },
-   "value": 387,
-   "landed": 453,
-   "gap": -0.2,
+   "value": 362,
+   "landed": 425,
+   "gap": -0.14,
    "thin": false,
    "signal": "FAIR",
    "psa8_net": 28,
@@ -20434,7 +20338,7 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/entei-11",
    "matched": "Entei #11   Pokemon Japanese Best of XY",
    "aud": {
-    "raw": 12,
+    "raw": 11,
     "g8": 38,
     "g9": 92,
     "g95": 101,
@@ -20442,9 +20346,9 @@
    },
    "basis": {
     "n90": 5,
-    "last": "2026-11-12",
+    "last": "2026-11-21",
     "basis": "90-day NM median",
-    "pc_avg": 7.95,
+    "pc_avg": 7.42,
     "grade": "raw (NM)"
    },
    "value": 13,
@@ -20475,8 +20379,28 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-crown-zenith/darkrai-vstar-gg50)"
+   "pc": "https://www.pricecharting.com/game/pokemon-crown-zenith/darkrai-vstar-gg50?q=darkrai+vstar+gg50",
+   "matched": "Darkrai VStar #GG50   Pokemon Crown Zenith",
+   "aud": {
+    "raw": 101,
+    "g7": 31,
+    "g8": 107,
+    "g9": 113,
+    "g95": 128,
+    "g10": 326
+   },
+   "basis": {
+    "n90": 30,
+    "last": "2026-11-23",
+    "basis": "90-day median",
+    "pc_avg": 216.28,
+    "grade": "PSA 10"
+   },
+   "value": 330,
+   "landed": 413,
+   "gap": 0.31,
+   "thin": false,
+   "signal": "OVER"
   },
   {
    "title": "Pokemon - PSA 9 Team Rockets Zapdos 070/182 Destined Rivals EB GAMES",
@@ -20544,26 +20468,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-fusion-strike/espeon-vmax-270?q=espeon+vmax+270+fusion+strike",
+   "pc": "https://www.pricecharting.com/game/pokemon-fusion-strike/espeon-vmax-270",
    "matched": "Espeon VMAX #270   Pokemon Fusion Strike",
    "aud": {
-    "raw": 386,
+    "raw": 414,
     "g7": 332,
-    "g8": 379,
-    "g9": 430,
-    "g95": 561,
-    "g10": 873
+    "g8": 361,
+    "g9": 423,
+    "g95": 559,
+    "g10": 887
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 579.5,
+    "pc_avg": 588.23,
     "grade": "PSA 10"
    },
-   "value": 897,
-   "landed": 1036,
-   "gap": 0.02,
+   "value": 903,
+   "landed": 1043,
+   "gap": 0.01,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -20613,23 +20537,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-obsidian-flames/umbreon-gamestop-130",
    "matched": "Umbreon [GameStop] #130   Pokemon Obsidian Flames",
    "aud": {
-    "raw": 47,
+    "raw": 40,
     "g7": 31,
     "g8": 56,
-    "g9": 71,
-    "g95": 78,
-    "g10": 655
+    "g9": 75,
+    "g95": 83,
+    "g10": 555
    },
    "basis": {
-    "n90": 8,
-    "last": "2026-11-16",
+    "n90": 9,
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 434.6,
+    "pc_avg": 368.27,
     "grade": "PSA 10"
    },
-   "value": 674,
-   "landed": 791,
-   "gap": 0.05,
+   "value": 669,
+   "landed": 786,
+   "gap": 0.06,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -20720,7 +20644,7 @@
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-promo/sealed-first-partner-illustration-collection-series-3)"
+   "why": "no PriceCharting card fit (top result /game/pokemon-base-set/charmander-1st-edition-46)"
   },
   {
    "title": "Pokemon - PSA 10 Oricorio Ex MEP024 UPC Promo",
@@ -20770,14 +20694,14 @@
    },
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-perfect-order/gengar-eb-games-stamped-50?q=gengar+050+eb+games+stamp",
+   "pc": "https://www.pricecharting.com/game/pokemon-perfect-order/gengar-eb-games-stamped-50",
    "matched": "Gengar [EB Games Stamped] #50   Pokemon Perfect Order",
    "aud": {
-    "raw": 146,
+    "raw": 129,
     "g8": 90,
     "g9": 202,
     "g95": 222,
-    "g10": 1367
+    "g10": 1362
    },
    "basis": {
     "n90": 1,
@@ -20786,8 +20710,8 @@
     "thin": true,
     "grade": "PSA 10"
    },
-   "value": 1367,
-   "landed": 1553,
+   "value": 1362,
+   "landed": 1547,
    "gap": -0.26,
    "thin": true,
    "signal": "UNDER"
@@ -20815,12 +20739,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-base-set/blastoise-2",
    "matched": "Blastoise #2   Pokemon Base Set",
    "aud": {
-    "raw": 122,
-    "g7": 381,
-    "g8": 521,
-    "g9": 1195,
-    "g95": 1314,
-    "g10": 12802
+    "raw": 116,
+    "g7": 358,
+    "g8": 539,
+    "g9": 1241,
+    "g95": 1366,
+    "g10": 13818
    },
    "basis": {
     "grade": "BGS 7.5",
@@ -20874,15 +20798,15 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-wild-force/gastly-80?q=gastly+080+wild+force+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-wild-force/gastly-80",
    "matched": "Gastly #80   Pokemon Japanese Wild Force",
    "aud": {
     "raw": 44,
     "g7": 33,
-    "g8": 52,
+    "g8": 45,
     "g9": 57,
     "g95": 60,
-    "g10": 144
+    "g10": 132
    },
    "basis": {
     "grade": "CGC 10",
@@ -20890,9 +20814,9 @@
     "n90": null,
     "thin": true
    },
-   "value": 75,
-   "landed": 132,
-   "gap": 0.75,
+   "value": 81,
+   "landed": 139,
+   "gap": 0.62,
    "thin": true,
    "signal": "OVER-US"
   },
@@ -20919,18 +20843,18 @@
    "pc": "https://www.pricecharting.com/game/pokemon-promo/reshiram-&-charizard-gx-sm247",
    "matched": "Reshiram & Charizard GX #SM247   Pokemon Promo",
    "aud": {
-    "raw": 51,
-    "g7": 58,
+    "raw": 54,
+    "g7": 56,
     "g8": 75,
-    "g9": 93,
+    "g9": 90,
     "g95": 100,
-    "g10": 793
+    "g10": 774
    },
    "basis": {
-    "n90": 28,
-    "last": "2026-11-17",
+    "n90": 29,
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 526.0,
+    "pc_avg": 513.71,
     "grade": "PSA 10"
    },
    "value": 829,
@@ -20959,10 +20883,10 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-paradox-rift/aegislash-210?q=aegislash+paradox+rift+210",
+   "pc": "https://www.pricecharting.com/game/pokemon-paradox-rift/aegislash-210",
    "matched": "Aegislash #210   Pokemon Paradox Rift",
    "aud": {
-    "raw": 15,
+    "raw": 11,
     "g7": 13,
     "g8": 15,
     "g9": 41,
@@ -21002,10 +20926,10 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-black-bolt/serperior-ex-167?q=serperior+japanese+bolt+167",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-black-bolt/serperior-ex-167",
    "matched": "Serperior ex #167   Pokemon Japanese Black Bolt",
    "aud": {
-    "raw": 47,
+    "raw": 45,
     "g9": 26,
     "g95": 29,
     "g10": 79
@@ -21014,7 +20938,7 @@
     "n90": 3,
     "last": "2026-09-25",
     "basis": "90-day median",
-    "pc_avg": 52.73,
+    "pc_avg": 52.49,
     "grade": "PSA 10"
    },
    "value": 63,
@@ -21043,26 +20967,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-cosmic-eclipse/pikachu-241?q=pikachu+241+cosmic+eclipse",
+   "pc": "https://www.pricecharting.com/game/pokemon-cosmic-eclipse/pikachu-241",
    "matched": "Pikachu #241   Pokemon Cosmic Eclipse",
    "aud": {
-    "raw": 271,
-    "g7": 279,
-    "g8": 283,
-    "g9": 332,
-    "g95": 532,
-    "g10": 2450
+    "raw": 254,
+    "g7": 256,
+    "g8": 275,
+    "g9": 323,
+    "g95": 541,
+    "g10": 2287
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-25",
     "basis": "90-day median",
-    "pc_avg": 219.96,
+    "pc_avg": 214.53,
     "grade": "PSA 9"
    },
-   "value": 342,
-   "landed": 425,
-   "gap": 0.26,
+   "value": 333,
+   "landed": 416,
+   "gap": 0.29,
    "thin": false,
    "signal": "OVER"
   },
@@ -21180,27 +21104,27 @@
    "pc": "https://www.pricecharting.com/game/pokemon-jungle/kangaskhan-5",
    "matched": "Kangaskhan #5   Pokemon Jungle",
    "aud": {
-    "raw": 11,
-    "g7": 51,
-    "g8": 99,
-    "g9": 163,
+    "raw": 12,
+    "g7": 59,
+    "g8": 98,
+    "g9": 187,
     "g95": 197,
     "g10": 7536
    },
    "basis": {
-    "n90": 17,
-    "last": "2026-11-17",
+    "n90": 18,
+    "last": "2026-11-25",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 7.28,
+    "pc_avg": 8.2,
     "grade": "raw (NM)"
    },
-   "value": 15,
-   "landed": 44,
-   "gap": 3.13,
+   "value": 13,
+   "landed": 41,
+   "gap": 3.77,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -24,
-   "psa9_net": 45
+   "psa9_net": 51
   },
   {
    "title": "Pokemon - M Glalie Ex 156/162 XY Breakthrough",
@@ -21230,18 +21154,18 @@
    "pc": "https://www.pricecharting.com/game/pokemon-breakthrough/m-glalie-ex-156",
    "matched": "M Glalie EX #156   Pokemon BREAKthrough",
    "aud": {
-    "raw": 20,
-    "g7": 37,
+    "raw": 24,
+    "g7": 38,
     "g8": 77,
-    "g9": 106,
+    "g9": 108,
     "g95": 301,
-    "g10": 1102
+    "g10": 1150
    },
    "basis": {
-    "n90": 23,
-    "last": "2026-11-15",
+    "n90": 22,
+    "last": "2026-11-21",
     "basis": "90-day NM median",
-    "pc_avg": 13.0,
+    "pc_avg": 16.06,
     "grade": "raw (NM)"
    },
    "value": 30,
@@ -21346,15 +21270,15 @@
     "raw": 151,
     "g7": 101,
     "g8": 129,
-    "g9": 177,
-    "g95": 210,
-    "g10": 271
+    "g9": 165,
+    "g95": 231,
+    "g10": 272
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 180.0,
+    "pc_avg": 180.61,
     "grade": "PSA 10"
    },
    "value": 271,
@@ -21425,20 +21349,20 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-dream-league/vileplume-gx-62?q=vileplume+gx+062+dream+league+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-dream-league/vileplume-gx-62",
    "matched": "Vileplume GX #62   Pokemon Japanese Dream League",
    "aud": {
-    "raw": 94,
+    "raw": 95,
     "g8": 69,
     "g9": 109,
     "g95": 119,
-    "g10": 162
+    "g10": 163
    },
    "basis": {
     "n90": 28,
     "last": "2026-10-28",
     "basis": "90-day median",
-    "pc_avg": 107.79,
+    "pc_avg": 108.35,
     "grade": "PSA 10"
    },
    "value": 167,
@@ -21467,7 +21391,7 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/articuno-master-ball-144?q=articuno+master+ball+144+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/articuno-master-ball-144",
    "matched": "Articuno [Master Ball] #144   Pokemon Japanese Scarlet & Violet 151",
    "aud": {
     "raw": 26,
@@ -21477,15 +21401,15 @@
     "g10": 99
    },
    "basis": {
-    "n90": 4,
-    "last": "2026-10-26",
+    "n90": 5,
+    "last": "2026-11-21",
     "basis": "90-day median",
     "pc_avg": 65.54,
     "grade": "PSA 10"
    },
-   "value": 95,
-   "landed": 154,
-   "gap": 0.17,
+   "value": 92,
+   "landed": 151,
+   "gap": 0.21,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -21514,26 +21438,26 @@
    },
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-promo/darkrai-xy114?q=darkrai+xy114",
+   "pc": "https://www.pricecharting.com/game/pokemon-promo/darkrai-xy114",
    "matched": "Darkrai #XY114   Pokemon Promo",
    "aud": {
-    "raw": 91,
-    "g7": 160,
+    "raw": 106,
+    "g7": 158,
     "g8": 350,
     "g9": 1477,
     "g95": 1625,
     "g10": 14772
    },
    "basis": {
-    "n90": 24,
-    "last": "2026-11-16",
+    "n90": 26,
+    "last": "2026-11-25",
     "basis": "90-day NM median",
-    "pc_avg": 60.34,
+    "pc_avg": 70.0,
     "grade": "raw (NM)"
    },
-   "value": 115,
-   "landed": 154,
-   "gap": 0.14,
+   "value": 114,
+   "landed": 153,
+   "gap": 0.15,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": 159,
@@ -21608,12 +21532,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/mega-charizard-x-ex-13",
    "matched": "Mega Charizard X ex #13   Pokemon Phantasmal Flames",
    "aud": {
-    "raw": 6,
-    "g7": 19,
-    "g8": 24,
-    "g9": 32,
-    "g95": 33,
-    "g10": 85
+    "raw": 7,
+    "g7": 20,
+    "g8": 20,
+    "g9": 37,
+    "g95": 41,
+    "g10": 88
    },
    "basis": {
     "grade": "TAG 10",
@@ -21621,9 +21545,9 @@
     "n90": null,
     "thin": true
    },
-   "value": 121,
+   "value": 120,
    "landed": 182,
-   "gap": 0.41,
+   "gap": 0.43,
    "thin": true,
    "signal": "OVER-US"
   },
@@ -21647,20 +21571,20 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/ditto-master-ball-132?q=ditto+132+masterball+151+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/ditto-master-ball-132",
    "matched": "Ditto [Master Ball] #132   Pokemon Japanese Scarlet & Violet 151",
    "aud": {
     "raw": 32,
     "g8": 40,
-    "g9": 57,
-    "g95": 62,
-    "g10": 174
+    "g9": 54,
+    "g95": 59,
+    "g10": 158
    },
    "basis": {
     "n90": 10,
     "last": "2026-11-16",
     "basis": "90-day median",
-    "pc_avg": 115.11,
+    "pc_avg": 105.0,
     "grade": "PSA 10"
    },
    "value": 168,
@@ -21689,21 +21613,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-evolving-skies/medicham-v-186?q=medicham+v+186+evolving+skies",
+   "pc": "https://www.pricecharting.com/game/pokemon-evolving-skies/medicham-v-186",
    "matched": "Medicham V #186   Pokemon Evolving Skies",
    "aud": {
-    "raw": 25,
+    "raw": 26,
     "g7": 23,
-    "g8": 27,
-    "g9": 37,
-    "g95": 41,
-    "g10": 121
+    "g8": 25,
+    "g9": 30,
+    "g95": 32,
+    "g10": 125
    },
    "basis": {
-    "n90": 25,
-    "last": "2026-11-11",
+    "n90": 27,
+    "last": "2026-11-22",
     "basis": "90-day median",
-    "pc_avg": 80.15,
+    "pc_avg": 82.96,
     "grade": "PSA 10"
    },
    "value": 124,
@@ -21732,7 +21656,7 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/abra-master-ball-63?q=abra+063+masterball+151+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/abra-master-ball-63",
    "matched": "Abra [Master Ball] #63   Pokemon Japanese Scarlet & Violet 151",
    "aud": {
     "raw": 14,
@@ -21774,21 +21698,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-temporal-forces/chatot-181?q=chatot+181+temporal+forces",
+   "pc": "https://www.pricecharting.com/game/pokemon-temporal-forces/chatot-181",
    "matched": "Chatot #181   Pokemon Temporal Forces",
    "aud": {
     "raw": 15,
     "g7": 16,
-    "g8": 26,
+    "g8": 27,
     "g9": 30,
     "g95": 42,
-    "g10": 162
+    "g10": 151
    },
    "basis": {
-    "n90": 20,
-    "last": "2026-11-16",
+    "n90": 22,
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 107.5,
+    "pc_avg": 100.0,
     "grade": "PSA 10"
    },
    "value": 165,
@@ -21817,19 +21741,19 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/muk-master-ball-89?q=muk+089+masterball+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/muk-master-ball-89",
    "matched": "Muk [Master Ball] #89   Pokemon Japanese Scarlet & Violet 151",
    "aud": {
     "raw": 25,
     "g9": 16,
     "g95": 20,
-    "g10": 84
+    "g10": 85
    },
    "basis": {
     "n90": 7,
     "last": "2026-11-09",
     "basis": "90-day median",
-    "pc_avg": 55.88,
+    "pc_avg": 56.22,
     "grade": "PSA 10"
    },
    "value": 78,
@@ -21858,12 +21782,12 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/koffing-master-ball-109?q=koffing+109+masterball+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-scarlet-&-violet-151/koffing-master-ball-109",
    "matched": "Koffing [Master Ball] #109   Pokemon Japanese Scarlet & Violet 151",
    "aud": {
     "raw": 26,
-    "g9": 36,
-    "g95": 39,
+    "g9": 35,
+    "g95": 38,
     "g10": 117
    },
    "basis": {
@@ -21902,8 +21826,8 @@
    "matched": "Reshiram #51   Pokemon Japanese Emerald Break",
    "aud": {
     "raw": 8,
-    "g9": 59,
-    "g95": 65,
+    "g9": 58,
+    "g95": 63,
     "g10": 181
    },
    "basis": {
@@ -21938,26 +21862,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/toxtricity-103?q=toxtricity+103+phantasmal+flames",
+   "pc": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/toxtricity-103",
    "matched": "Toxtricity #103   Pokemon Phantasmal Flames",
    "aud": {
     "raw": 3,
     "g7": 14,
     "g8": 18,
-    "g9": 27,
-    "g95": 30,
-    "g10": 60
+    "g9": 26,
+    "g95": 29,
+    "g10": 57
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-14",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 40.0,
+    "pc_avg": 37.63,
     "grade": "PSA 10"
    },
-   "value": 69,
-   "landed": 126,
-   "gap": 0.61,
+   "value": 65,
+   "landed": 122,
+   "gap": 0.71,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -21981,21 +21905,21 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-chilling-reign/galarian-articuno-v-170?q=galarian+articuno+v+170+chilling+reign",
+   "pc": "https://www.pricecharting.com/game/pokemon-chilling-reign/galarian-articuno-v-170",
    "matched": "Galarian Articuno V #170   Pokemon Chilling Reign",
    "aud": {
-    "raw": 90,
+    "raw": 80,
     "g7": 57,
     "g8": 91,
-    "g9": 98,
+    "g9": 99,
     "g95": 106,
     "g10": 301
    },
    "basis": {
     "n90": 29,
-    "last": "2026-11-16",
+    "last": "2026-11-23",
     "basis": "90-day median",
-    "pc_avg": 200.0,
+    "pc_avg": 199.98,
     "grade": "PSA 10"
    },
    "value": 301,
@@ -22050,7 +21974,7 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-m-master-deck-build-box/gengar-ex-10",
    "matched": "Gengar EX #10   Pokemon Japanese M Master Deck Build Box",
    "aud": {
-    "raw": 88,
+    "raw": 87,
     "g9": 305,
     "g95": 336,
     "g10": 698
@@ -22119,8 +22043,8 @@
    "pc": "https://www.pricecharting.com/game/pokemon-flashfire/pokemon-center-lady-105",
    "matched": "Pokemon Center Lady #105   Pokemon Flashfire",
    "aud": {
-    "raw": 63,
-    "g7": 113,
+    "raw": 53,
+    "g7": 116,
     "g8": 138,
     "g9": 241,
     "g95": 265,
@@ -22128,9 +22052,9 @@
    },
    "basis": {
     "n90": 12,
-    "last": "2026-11-13",
+    "last": "2026-11-22",
     "basis": "90-day NM median",
-    "pc_avg": 41.72,
+    "pc_avg": 34.99,
     "grade": "raw (NM)"
    },
    "value": 84,
@@ -22212,26 +22136,26 @@
    },
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/mega-lopunny-ex-128?q=mega+lopunny+ex+128+phantasmal+flames",
+   "pc": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/mega-lopunny-ex-128",
    "matched": "Mega Lopunny ex #128   Pokemon Phantasmal Flames",
    "aud": {
-    "raw": 20,
+    "raw": 18,
     "g7": 20,
     "g8": 31,
-    "g9": 32,
+    "g9": 33,
     "g95": 36,
-    "g10": 72
+    "g10": 76
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-24",
     "basis": "90-day median",
-    "pc_avg": 48.0,
+    "pc_avg": 50.72,
     "grade": "PSA 10"
    },
-   "value": 75,
-   "landed": 132,
-   "gap": 0.48,
+   "value": 72,
+   "landed": 129,
+   "gap": 0.54,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -22286,22 +22210,22 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-shiny-treasure-ex/iono-350",
    "matched": "Iono #350   Pokemon Japanese Shiny Treasure ex",
    "aud": {
-    "raw": 56,
+    "raw": 58,
     "g8": 69,
     "g9": 75,
     "g95": 106,
-    "g10": 154
+    "g10": 156
    },
    "basis": {
-    "n90": 16,
-    "last": "2026-11-09",
+    "n90": 17,
+    "last": "2026-11-16",
     "basis": "90-day median",
-    "pc_avg": 101.99,
+    "pc_avg": 103.77,
     "grade": "PSA 10"
    },
-   "value": 149,
-   "landed": 214,
-   "gap": 0.21,
+   "value": 151,
+   "landed": 215,
+   "gap": 0.2,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -22326,7 +22250,7 @@
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-japanese-30th-celebration/basic-fire-energy)"
+   "why": "no PriceCharting card fit (top result /game/pokemon-mega-evolution-energy/basic-fire-energy-30th-10)"
   },
   {
    "title": "Pokemon - Acerola - 142/147 - Burning Shadows - PSA 9",
@@ -22348,15 +22272,15 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-burning-shadows/acerola-142?q=acerola+142+burning+shadows",
+   "pc": "https://www.pricecharting.com/game/pokemon-burning-shadows/acerola-142",
    "matched": "Acerola #142   Pokemon Burning Shadows",
    "aud": {
-    "raw": 69,
+    "raw": 67,
     "g7": 51,
     "g8": 78,
     "g9": 157,
     "g95": 172,
-    "g10": 1561
+    "g10": 1507
    },
    "basis": {
     "n90": 2,
@@ -22414,15 +22338,15 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-battle-styles/rapid-strike-urshifu-vmax-170?q=urshifu+vmax+170+battle+styles",
+   "pc": "https://www.pricecharting.com/game/pokemon-battle-styles/rapid-strike-urshifu-vmax-170",
    "matched": "Rapid Strike Urshifu VMAX #170   Pokemon Battle Styles",
    "aud": {
-    "raw": 80,
+    "raw": 94,
     "g7": 77,
     "g8": 90,
     "g9": 98,
     "g95": 128,
-    "g10": 257
+    "g10": 250
    },
    "basis": {
     "grade": "BGS 10",
@@ -22456,7 +22380,7 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-gx-ultra-shiny/morgan-157?q=morgan+157+ultra+shiny+gx+japanese",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-gx-ultra-shiny/morgan-157",
    "matched": "Morgan #157   Pokemon Japanese GX Ultra Shiny",
    "aud": {
     "raw": 37,
@@ -22464,19 +22388,19 @@
     "g8": 54,
     "g9": 55,
     "g95": 60,
-    "g10": 135
+    "g10": 128
    },
    "basis": {
-    "n90": 2,
-    "last": "2026-09-21",
-    "basis": "PriceCharting average",
-    "thin": true,
+    "n90": 3,
+    "last": "2026-11-21",
+    "basis": "90-day median",
+    "pc_avg": 85.0,
     "grade": "PSA 10"
    },
-   "value": 135,
-   "landed": 198,
-   "gap": 0.19,
-   "thin": true,
+   "value": 128,
+   "landed": 190,
+   "gap": 0.26,
+   "thin": false,
    "signal": "OVER-US"
   },
   {
@@ -22525,23 +22449,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-mystery-of-the-fossils/lapras-131",
    "matched": "Lapras #131   Pokemon Japanese Mystery of the Fossils",
    "aud": {
-    "raw": 27,
-    "g7": 101,
-    "g8": 115,
-    "g9": 226,
-    "g95": 383,
-    "g10": 1995
+    "raw": 29,
+    "g7": 102,
+    "g8": 117,
+    "g9": 221,
+    "g95": 382,
+    "g10": 1968
    },
    "basis": {
-    "n90": 26,
-    "last": "2026-11-16",
+    "n90": 29,
+    "last": "2026-11-22",
     "basis": "90-day median",
-    "pc_avg": 149.76,
+    "pc_avg": 146.58,
     "grade": "PSA 9"
    },
-   "value": 224,
-   "landed": 296,
-   "gap": 0.39,
+   "value": 225,
+   "landed": 297,
+   "gap": 0.38,
    "thin": false,
    "signal": "OVER"
   },
@@ -22611,19 +22535,19 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-glory-of-team-rocket/blaziken-101?q=japanese+blaziken+101",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-glory-of-team-rocket/blaziken-101",
    "matched": "Blaziken #101   Pokemon Japanese Glory of Team Rocket",
    "aud": {
     "raw": 8,
-    "g7": 14,
-    "g8": 17,
-    "g9": 18,
+    "g7": 15,
+    "g8": 18,
+    "g9": 20,
     "g95": 21,
     "g10": 53
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-16",
+    "last": "2026-11-24",
     "basis": "90-day median",
     "pc_avg": 35.0,
     "grade": "PSA 10"
@@ -22680,11 +22604,11 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-genesis/ampharos-1",
    "matched": "Ampharos #1   Pokemon Neo Genesis",
    "aud": {
-    "raw": 35,
+    "raw": 38,
     "g7": 60,
-    "g8": 126,
-    "g9": 317,
-    "g95": 350,
+    "g8": 128,
+    "g9": 261,
+    "g95": 286,
     "g10": 2498
    },
    "basis": {
@@ -22762,26 +22686,26 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-paldean-fates/charizard-ex-234?q=charizard+ex+234",
+   "pc": "https://www.pricecharting.com/game/pokemon-paldean-fates/charizard-ex-234",
    "matched": "Charizard ex #234   Pokemon Paldean Fates",
    "aud": {
-    "raw": 331,
-    "g7": 277,
-    "g8": 347,
+    "raw": 340,
+    "g7": 344,
+    "g8": 346,
     "g9": 381,
-    "g95": 553,
-    "g10": 919
+    "g95": 543,
+    "g10": 916
    },
    "basis": {
     "n90": 30,
-    "last": "2026-11-17",
+    "last": "2026-11-24",
     "basis": "90-day median",
     "pc_avg": 253.0,
     "grade": "PSA 9"
    },
-   "value": 346,
-   "landed": 430,
-   "gap": 0.19,
+   "value": 336,
+   "landed": 419,
+   "gap": 0.22,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -22805,19 +22729,19 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/m-gardevoir-ex-92?q=japanese+m+gardevoir+ex+092+best+of+xy",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/m-gardevoir-ex-92",
    "matched": "M Gardevoir EX #92   Pokemon Japanese Best of XY",
    "aud": {
     "raw": 45,
     "g9": 62,
     "g95": 68,
-    "g10": 156
+    "g10": 181
    },
    "basis": {
     "n90": 5,
     "last": "2026-11-11",
     "basis": "90-day median",
-    "pc_avg": 103.5,
+    "pc_avg": 120.0,
     "grade": "PSA 10"
    },
    "value": 154,
@@ -22938,10 +22862,10 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-vmax-climax/corviknight-vmax-249?q=japanese+corviknight+vmax+249+vmax+climax",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-vmax-climax/corviknight-vmax-249",
    "matched": "Corviknight VMAX #249   Pokemon Japanese VMAX Climax",
    "aud": {
-    "raw": 14,
+    "raw": 15,
     "g8": 30,
     "g9": 33,
     "g95": 36,
@@ -22951,7 +22875,7 @@
     "n90": 7,
     "last": "2026-11-09",
     "basis": "90-day median",
-    "pc_avg": 47.14,
+    "pc_avg": 47.23,
     "grade": "PSA 10"
    },
    "value": 68,
@@ -23029,16 +22953,16 @@
    "aud": {
     "raw": 3,
     "g7": 27,
-    "g8": 31,
+    "g8": 30,
     "g9": 50,
     "g95": 90,
-    "g10": 350
+    "g10": 340
    },
    "basis": {
-    "n90": 19,
-    "last": "2026-11-16",
+    "n90": 21,
+    "last": "2026-11-21",
     "basis": "90-day NM median",
-    "pc_avg": 2.26,
+    "pc_avg": 2.07,
     "grade": "raw (NM)"
    },
    "value": 3,
@@ -23047,7 +22971,7 @@
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -57,
-   "psa9_net": -37
+   "psa9_net": -38
   },
   {
    "title": "Water Energy 102/102 1st Edition Shadowless Base Set 1999 NM",
@@ -23072,23 +22996,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-base-set/water-energy-1st-edition-102",
    "matched": "Water Energy [1st Edition] #102   Pokemon Base Set",
    "aud": {
-    "raw": 19,
+    "raw": 20,
     "g7": 39,
     "g8": 49,
     "g9": 114,
     "g95": 125,
-    "g10": 561
+    "g10": 559
    },
    "basis": {
     "n90": 0,
-    "last": "2026-11-15",
+    "last": "2026-11-23",
     "basis": "PriceCharting average (mixed condition)",
     "thin": true,
     "grade": "raw (NM)"
    },
-   "value": 19,
+   "value": 20,
    "landed": 49,
-   "gap": 0.68,
+   "gap": 0.6,
    "thin": true,
    "signal": "OVER-US",
    "psa8_net": -41,
@@ -23118,17 +23042,17 @@
    "matched": "Psychic Energy [1st Edition] #101   Pokemon Base Set",
    "aud": {
     "raw": 14,
-    "g7": 35,
+    "g7": 29,
     "g8": 36,
-    "g9": 76,
-    "g95": 84,
+    "g9": 68,
+    "g95": 75,
     "g10": 466
    },
    "basis": {
-    "n90": 22,
-    "last": "2026-11-15",
+    "n90": 23,
+    "last": "2026-11-23",
     "basis": "90-day NM median",
-    "pc_avg": 9.0,
+    "pc_avg": 9.39,
     "grade": "raw (NM)"
    },
    "value": 14,
@@ -23170,10 +23094,10 @@
     "g10": 452
    },
    "basis": {
-    "n90": 24,
-    "last": "2026-11-15",
+    "n90": 26,
+    "last": "2026-11-22",
     "basis": "90-day NM median",
-    "pc_avg": 6.6,
+    "pc_avg": 6.71,
     "grade": "raw (NM)"
    },
    "value": 9,
@@ -23207,23 +23131,23 @@
    "pc": "https://www.pricecharting.com/game/pokemon-base-set/fire-energy-1st-edition-98",
    "matched": "Fire Energy [1st Edition] #98   Pokemon Base Set",
    "aud": {
-    "raw": 13,
+    "raw": 14,
     "g7": 27,
-    "g8": 44,
-    "g9": 91,
-    "g95": 99,
-    "g10": 566
+    "g8": 34,
+    "g9": 92,
+    "g95": 101,
+    "g10": 571
    },
    "basis": {
-    "n90": 15,
-    "last": "2026-11-15",
+    "n90": 18,
+    "last": "2026-11-23",
     "basis": "90-day NM median",
-    "pc_avg": 8.57,
+    "pc_avg": 9.0,
     "grade": "raw (NM)"
    },
-   "value": 11,
-   "landed": 39,
-   "gap": 1.91,
+   "value": 14,
+   "landed": 43,
+   "gap": 1.29,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -54,
@@ -23321,27 +23245,27 @@
    "pc": "https://www.pricecharting.com/game/pokemon-base-set/porygon-1st-edition-39",
    "matched": "Porygon [1st Edition] #39   Pokemon Base Set",
    "aud": {
-    "raw": 44,
+    "raw": 42,
     "g7": 57,
     "g8": 71,
-    "g9": 242,
-    "g95": 265,
+    "g9": 239,
+    "g95": 262,
     "g10": 1929
    },
    "basis": {
-    "n90": 11,
-    "last": "2026-11-08",
+    "n90": 10,
+    "last": "2026-11-22",
     "basis": "90-day NM median",
-    "pc_avg": 28.98,
+    "pc_avg": 27.87,
     "grade": "raw (NM)"
    },
-   "value": 57,
-   "landed": 91,
-   "gap": 0.61,
+   "value": 54,
+   "landed": 87,
+   "gap": 0.7,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -78,
-   "psa9_net": 85
+   "psa9_net": 84
   },
   {
    "title": "PSA 8 Lusamine 153/156 Ultra Prism",
@@ -23363,15 +23287,15 @@
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-ultra-prism/lusamine-153?q=lusamine+153+ultra+prism",
+   "pc": "https://www.pricecharting.com/game/pokemon-ultra-prism/lusamine-153",
    "matched": "Lusamine #153   Pokemon Ultra Prism",
    "aud": {
-    "raw": 189,
-    "g7": 139,
-    "g8": 172,
-    "g9": 219,
-    "g95": 241,
-    "g10": 490
+    "raw": 214,
+    "g7": 140,
+    "g8": 175,
+    "g9": 211,
+    "g95": 232,
+    "g10": 456
    },
    "basis": {
     "n90": 1,
@@ -23380,9 +23304,9 @@
     "thin": true,
     "grade": "PSA 8"
    },
-   "value": 172,
-   "landed": 239,
-   "gap": 0.52,
+   "value": 175,
+   "landed": 242,
+   "gap": 0.49,
    "thin": true,
    "signal": "OVER"
   },
@@ -23588,6 +23512,29 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-shrouded-fable/persian-78)"
   },
   {
+   "title": "Pokemon - 30TH Celebrations ETB",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-30th-celebrations-etb",
+   "listed": "",
+   "price": 229.0,
+   "post": 0.0,
+   "cost": 229.0,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-30th-celebration/lugia-149)"
+  },
+  {
    "title": "Pokemon- Brilliant Stars ETB Sword & Shield",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-brilliant-stars-etb-sword-shield-copy",
@@ -23609,52 +23556,6 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-brilliant-stars/flareon-tg01)"
-  },
-  {
-   "title": "Pokemon- Temporal Forces ETB Scarlet & Violet",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-scarlet-violet-temporal-forces-elite-trainer-box",
-   "listed": "",
-   "price": 249.0,
-   "post": 0.0,
-   "cost": 249.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Temporal+Forces+ETB+Scarlet+%26+Violet+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Temporal+Forces+ETB+Scarlet+%26+Violet+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Temporal+Forces+ETB+Scarlet+%26+Violet+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Temporal+Forces+ETB+Scarlet+%26+Violet+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-temporal-forces/gastly-177)"
-  },
-  {
-   "title": "Pokemon- Perfect Order ETB",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-perfect-order-etb-1",
-   "listed": "",
-   "price": 149.0,
-   "post": 0.0,
-   "cost": 149.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Perfect+Order+ETB+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Perfect+Order+ETB+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Perfect+Order+ETB+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Perfect+Order+ETB+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-perfect-order/meowth-ex-121)"
   },
   {
    "title": "Pokemon- Evolving Skies Booster box- Sword & Shield",
@@ -23746,7 +23647,7 @@
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
-   "why": "not looked up yet"
+   "why": "no PriceCharting card fit (top result /game/pokemon-chilling-reign/snorlax-224)"
   },
   {
    "title": "Pokemon- Sword & Shield BATTLE STYLES booster box",
@@ -23999,75 +23900,6 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-paldea-evolved/raichu-211)"
-  },
-  {
-   "title": "Kingdra 015/080 1st Edition Prime Reviving Legends Pokemon Japanese",
-   "shop": "Mega Cash eBay",
-   "url": "https://www.ebay.com.au/itm/840163012810",
-   "listed": "",
-   "price": 70.0,
-   "post": 0.0,
-   "cost": 70.0,
-   "grader": null,
-   "grade": null,
-   "jp": true,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%28015%2F080%2C15%2F080%29+japanese+1st&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%28015%2F080%2C15%2F080%29+japanese+1st&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%28015%2F080%2C15%2F080%29+japanese+1st&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=kingdra+%28015%2F080%2C15%2F080%29+japanese+1st&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": true,
-   "signal": "UNPRICED",
-   "why": "not looked up yet"
-  },
-  {
-   "title": "Pokemon TCG - Umbreon - 24 / 100 - EX Sandstorm - Non Holo",
-   "shop": "Mega Cash eBay",
-   "url": "https://www.ebay.com.au/itm/840163012029",
-   "listed": "",
-   "price": 50.0,
-   "post": 0.0,
-   "cost": 50.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=umbreon+%2824%2F100%2C024%2F100%29+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=umbreon+%2824%2F100%2C024%2F100%29+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=umbreon+%2824%2F100%2C024%2F100%29+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=umbreon+%2824%2F100%2C024%2F100%29+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": true,
-   "signal": "UNPRICED",
-   "why": "not looked up yet"
-  },
-  {
-   "title": "Pokemon TCG - Vaporeon - 134 - Holo - Jungle - Japanese",
-   "shop": "Mega Cash eBay",
-   "url": "https://www.ebay.com.au/itm/840163012568",
-   "listed": "",
-   "price": 35.0,
-   "post": 0.0,
-   "cost": 35.0,
-   "grader": null,
-   "grade": null,
-   "jp": true,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Vaporeon+134+Holo+Jungle+Japanese+japanese&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Vaporeon+134+Holo+Jungle+Japanese+japanese&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Vaporeon+134+Holo+Jungle+Japanese+japanese&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Vaporeon+134+Holo+Jungle+Japanese+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": true,
-   "signal": "UNPRICED",
-   "why": "not looked up yet"
   }
  ]
 }
