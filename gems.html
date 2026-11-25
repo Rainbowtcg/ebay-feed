@@ -44,6 +44,19 @@
   .thin { color:var(--hunt); }
   button.load { display:block; margin:10px auto; }
   .err { color:var(--bad); padding:14px; }
+  .chip.buy.on { background:var(--safe); border-color:var(--safe); }
+  .live { margin-top:6px; font-size:14px; }
+  .live a { color:var(--acc); text-decoration:none; }
+  .live .tag { font-size:11px; font-weight:700; padding:1px 6px; border-radius:8px; background:rgba(63,185,80,.18); color:var(--safe); margin-left:4px; }
+  .live .tag.nw { background:rgba(88,166,255,.18); color:var(--acc); }
+  .copies { margin:8px 0; }
+  .copies div { display:flex; justify-content:space-between; gap:8px; padding:5px 0; border-bottom:1px dashed var(--line); }
+  .copies div.over { opacity:.55; }
+  .copies a { color:var(--text); text-decoration:none; flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .copies b { white-space:nowrap; }
+  .net { display:flex; gap:12px; flex-wrap:wrap; margin:4px 0 8px; }
+  .net .pos { color:var(--safe); } .net .neg { color:var(--bad); }
+  .help { color:var(--dim); font-size:12px; padding:2px 14px 0; }
 </style>
 </head>
 <body>
@@ -56,6 +69,7 @@
   <div class="row">
     <input type="search" id="q" placeholder="Search card or set">
     <select id="sort">
+      <option value="best">Best live buy</option>
       <option value="room">Most room under max</option>
       <option value="max">Highest max raw</option>
       <option value="gem">Hardest to 10</option>
@@ -64,6 +78,8 @@
     </select>
   </div>
   <div class="row" id="kinds">
+    <button class="chip buy" id="buy">🟢 Buy now <span id="buyn"></span></button>
+    <span style="width:8px"></span>
     <button class="chip on" data-k="">All</button>
     <button class="chip" data-k="SAFE">Safe</button>
     <button class="chip" data-k="HUNT">10 hunts</button>
@@ -80,6 +96,7 @@
   </div>
 </div>
 
+<div class="help" id="help">🟢 <b>Buy now</b> = a Near Mint raw copy is listed today at or under the card's max raw price (landed: postage, plus GST on overseas items). Net = what you'd keep at that grade after A$70 grading and eBay fees. SAFE: a PSA 8 still covers the max. 10 HUNT: you need a 9 or better. "NM" is the seller's word, so check the photos.</div>
 <div class="count" id="count"></div>
 <ul id="list"></ul>
 <button class="chip load" id="loadmore" hidden>Show more</button>
@@ -99,9 +116,14 @@ const $ = id => document.getElementById(id);
 const aud = n => n == null ? "–" : "A$" + Math.round(n).toLocaleString("en-AU");
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 let ALL = [], shown = 0, PAGE = 40;
-const st = { k: "", l: "", era: "", q: "", sort: "room", budget: "", room: false, solid: false };
+const st = { k: "", l: "", era: "", q: "", sort: "best", budget: "", room: false, solid: false, live: true };
+let LIVE = {}, LIVE_DAY = "";
 try { Object.assign(st, JSON.parse(localStorage.getItem("gemsFilters") || "{}")); } catch (e) {}
 const save = () => { try { localStorage.setItem("gemsFilters", JSON.stringify(st)); } catch (e) {} };
+if (location.hash === "#buy") { st.live = true; st.sort = "best"; }
+const SELL_KEEP = 0.87, GRADE_COST = 70;
+const netAt = (v, pl) => v == null ? null : Math.round(v * SELL_KEEP - GRADE_COST - pl);
+const sign = n => n == null ? "–" : (n >= 0 ? "+" : "−") + "A$" + Math.abs(n).toLocaleString("en-AU");
 
 const SETS = {"base-set": [102, "base"], "jungle": [64, "jungle"], "fossil": [62, "fossil"], "team-rocket": [82, "rocket"], "gym-heroes": [132, "heroes"], "gym-challenge": [132, "challenge"], "neo-genesis": [111, "genesis"], "neo-discovery": [75, "discovery"], "neo-revelation": [64, "revelation"], "neo-destiny": [105, "destiny"], "legendary-collection": [110, "legendary"], "expedition": [165, "expedition"], "aquapolis": [147, "aquapolis"], "skyridge": [144, "skyridge"], "ruby-&-sapphire": [109, "sapphire"], "sandstorm": [100, "sandstorm"], "dragon": [97, ""], "team-magma-&-team-aqua": [95, "magma"], "hidden-legends": [101, "hidden"], "fire-red-&-leaf-green": [112, "firered"], "team-rocket-returns": [109, "returns"], "deoxys": [107, ""], "emerald": [106, "emerald"], "unseen-forces": [115, "unseen"], "delta-species": [113, "delta"], "legend-maker": [92, "maker"], "holon-phantoms": [110, "holon"], "crystal-guardians": [100, "guardians"], "dragon-frontiers": [101, "frontiers"], "power-keepers": [108, "keepers"], "diamond-&-pearl": [130, ""], "mysterious-treasures": [123, "mysterious"], "secret-wonders": [132, "wonders"], "great-encounters": [106, "encounters"], "majestic-dawn": [100, "majestic"], "legends-awakened": [146, "awakened"], "stormfront": [100, "stormfront"], "platinum": [127, ""], "rising-rivals": [111, "rivals"], "supreme-victors": [147, "victors"], "arceus": [99, ""], "heartgold-&-soulsilver": [123, "heartgold"], "unleashed": [95, "unleashed"], "undaunted": [90, "undaunted"], "triumphant": [102, "triumphant"], "call-of-legends": [95, "call"], "black-&-white": [114, ""], "emerging-powers": [98, "emerging"], "noble-victories": [101, "noble"], "next-destinies": [99, "destinies"], "dark-explorers": [108, "explorers"], "dragons-exalted": [124, "exalted"], "dragon-vault": [20, "vault"], "boundaries-crossed": [149, "boundaries"], "plasma-storm": [135, ""], "plasma-freeze": [116, ""], "plasma-blast": [101, ""], "legendary-treasures": [113, ""], "xy": [146, ""], "flashfire": [106, "flashfire"], "furious-fists": [111, "furious"], "phantom-forces": [119, "phantom"], "primal-clash": [160, "primal"], "roaring-skies": [108, "roaring"], "ancient-origins": [98, "ancient"], "breakthrough": [162, "breakthrough"], "breakpoint": [122, "breakpoint"], "generations": [83, "generations"], "fates-collide": [124, "fates"], "steam-siege": [114, "steam"], "evolutions": [108, "evolutions"]};
 const VARIANT = {"Reverse Holo": "(reverse,rev)", "Shadowless": "shadowless", "1st Edition": "1st", "Cosmos Holo": "cosmos", "Prerelease": "prerelease", "Prerelease Staff": "staff", "Toys R Us": "(toys,tru)", "Gold Border": "gold", "City Championships": "championship"};
@@ -149,14 +171,22 @@ function build(d) {
     const plain = card.replace(/\[[^\]]*\]/g, "").trim();
     const setName = (x.set || "").replace("pokemon-", "").replace(/-/g, " ");
     const q = x.q || ebayQuery(x.name, x.num, x.set, x.lang);
-    return { ...x, path, card, setName, q, era: eraOf(x.set || ""), raw: x.raw_market,
+    const copies = (LIVE[path] || []).slice().sort((a, c) => a.pl - c.pl);
+    const ok = copies.filter(c => c.pl <= x.max_raw);
+    const best = ok[0] || null;
+    return { ...x, path, card, setName, q, era: eraOf(x.set || ""), raw: x.raw_market, copies, ok, best,
+             bestRoom: best ? x.max_raw - best.pl : null,
+             best8: best ? netAt((x.v || {})["PSA 8"], best.pl) : null,
              room: x.raw_market != null ? x.max_raw - x.raw_market : null,
              hay: (card + " " + setName).toLowerCase() };
   });
   const eras = ["", ...ERAS.map(e => e[0]), "Other"].filter(e => e === "" || ALL.some(x => x.era === e));
   $("eras").innerHTML = eras.map(e => `<button class="chip${st.era === e ? " on" : ""}" data-e="${e}">${e || "All eras"}</button>`).join("");
   const safe = ALL.filter(x => x.kind === "SAFE").length;
-  $("meta").innerHTML = `${ALL.length} targets (${safe} safe, ${ALL.length - safe} hunts) · updated ${esc(d.updated || "?")} · ` +
+  const buys = ALL.filter(x => x.ok.length).length;
+  $("buyn").textContent = buys;
+  $("meta").innerHTML = `${ALL.length} targets (${safe} safe, ${ALL.length - safe} hunts) · list updated ${esc(d.updated || "?")} · ` +
+    `<b>${buys}</b> with a copy at or under max (listings ${esc(LIVE_DAY || "not loaded")}) · ` +
     `US$1 = A$${d.rules && d.rules.usd_aud || "?"} · <a href="./">Slab Finder</a> · <a href="gemrates.md">full list</a>`;
   sync(); render();
 }
@@ -165,8 +195,11 @@ function filtered() {
   const q = st.q.trim().toLowerCase(), b = parseFloat(st.budget);
   let r = ALL.filter(x => (!st.k || x.kind === st.k) && (!st.l || x.lang === st.l) && (!st.era || x.era === st.era)
     && (!q || q.split(/\s+/).every(w => x.hay.includes(w))) && (!b || x.max_raw <= b)
-    && (!st.room || (x.room != null && x.room > 0)) && (!st.solid || !(x.thin || []).includes("PSA 10")));
-  const by = { room: (a, c) => (c.room ?? -1e9) - (a.room ?? -1e9), max: (a, c) => c.max_raw - a.max_raw,
+    && (!st.room || (x.room != null && x.room > 0)) && (!st.solid || !(x.thin || []).includes("PSA 10"))
+    && (!st.live || x.ok.length));
+  const by = { best: (a, c) => ((a.best8 ?? -1e9) < 0) - ((c.best8 ?? -1e9) < 0) || (c.bestRoom ?? -1e9) - (a.bestRoom ?? -1e9)
+                     || (c.room ?? -1e9) - (a.room ?? -1e9),
+               room: (a, c) => (c.room ?? -1e9) - (a.room ?? -1e9), max: (a, c) => c.max_raw - a.max_raw,
                gem: (a, c) => a.gem - c.gem || c.max_raw - a.max_raw, cheap: (a, c) => (a.raw ?? 1e9) - (c.raw ?? 1e9),
                name: (a, c) => a.card.localeCompare(c.card) }[st.sort];
   return r.sort(by);
@@ -183,7 +216,16 @@ function item(x) {
       <span class="badge ${x.kind}">${x.kind === "SAFE" ? "SAFE" : "10 HUNT"}</span></div>
     <div class="nums"><span>max <b>${aud(x.max_raw)}</b></span><span>raw ${aud(x.raw)}</span>${roomTxt}
       <span>gem ${(x.gem * 100).toFixed(x.gem < 0.1 ? 1 : 0)}%</span></div>
+    ${x.best ? `<div class="live">🟢 <a href="${esc(x.best.url)}" target="_blank" rel="noopener"><b>${aud(x.best.pl)}</b> ${esc(x.best.cc)} · ${esc(x.best.seller)}</a>
+      <span class="tag">${aud(x.bestRoom)} under max</span>${x.best.new ? '<span class="tag nw">new</span>' : ""}${x.best.drop ? '<span class="tag nw">drop</span>' : ""}
+      ${x.ok.length > 1 ? ` <span class="set">+${x.ok.length - 1} more under max</span>` : ""}</div>`
+      : x.copies.length ? `<div class="live set">Cheapest live NM copy ${aud(x.copies[0].pl)} (over max)</div>` : ""}
     <div class="more">
+      ${x.best ? `<div class="net">At ${aud(x.best.pl)}: ${["PSA 8", "PSA 9", "PSA 10"].map(k => {
+          const n = netAt(v[k], x.best.pl); return `<span>${k} <b class="${n == null ? "" : n >= 0 ? "pos" : "neg"}">${sign(n)}</b></span>`; }).join("")}</div>` : ""}
+      ${x.copies.length ? `<div class="copies">${x.copies.map(c => `<div class="${c.pl <= x.max_raw ? "" : "over"}">
+          <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.cc)} · ${esc(c.seller)} — ${esc(c.t)}</a>
+          <b>${aud(c.pl)}${c.pl <= x.max_raw ? "" : " over"}</b></div>`).join("")}</div>` : ""}
       <div class="grades">${g}</div>
       <div>Pop: ${x.n10.toLocaleString()} tens · ${x.n9.toLocaleString()} nines · ${x.n8.toLocaleString()} eights of ${x.total.toLocaleString()} graded${thin.length ? ` · <span class="thin">few sales: ${thin.join(", ")}</span>` : ""}</div>
       <div class="links">
@@ -206,6 +248,7 @@ function sync() {
   document.querySelectorAll("[data-k]").forEach(b => b.classList.toggle("on", b.dataset.k === st.k));
   document.querySelectorAll("[data-l]").forEach(b => b.classList.toggle("on", b.dataset.l === st.l));
   document.querySelectorAll("[data-e]").forEach(b => b.classList.toggle("on", b.dataset.e === st.era));
+  $("buy").classList.toggle("on", !!st.live);
   $("q").value = st.q; $("sort").value = st.sort; $("budget").value = st.budget; $("room").checked = st.room; $("solid").checked = st.solid;
 }
 
@@ -225,9 +268,13 @@ $("budget").addEventListener("input", e => { st.budget = e.target.value; save();
 $("room").addEventListener("change", e => { st.room = e.target.checked; save(); render(); });
 $("solid").addEventListener("change", e => { st.solid = e.target.checked; save(); render(); });
 $("loadmore").addEventListener("click", () => render(true));
+$("buy").addEventListener("click", () => { st.live = !st.live; if (st.live && st.sort === "room") st.sort = "best"; save(); sync(); render(); });
 
-fetch("gemrates.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(build)
+// live copies come from the daily feed summary (enrich.py → digest.json "gem_live"); the page still works without it
+const liveP = fetch("digest.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+  .then(dg => { LIVE = dg.gem_live || {}; LIVE_DAY = dg.generated ? new Date(dg.generated).toLocaleString("en-AU", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" }) : ""; });
+Promise.all([fetch("gemrates.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }), liveP])
+  .then(([d]) => { if (!Object.keys(LIVE).length) st.live = false; build(d); })
   .catch(e => { $("meta").innerHTML = `<span class="err">Couldn't load gemrates.json (${esc(e.message)}). Is this page in the same folder as gemrates.json?</span>`; });
 </script>
 </body>

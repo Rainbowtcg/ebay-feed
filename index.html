@@ -329,6 +329,8 @@ details.wcard:not([open]) .wlabel{display:none}
       <ol id="top-picks" class="picks"></ol>
     </div>
     <div class="notes" id="sl-box" style="padding:10px 14px"><b>Shortlist <span id="sl-count"></span></b><div id="shortlist"></div></div>
+    <p class="ev" style="margin:0 0 6px">💎 <a href="gems.html#buy"><b>Gem buys<span id="gem-n"></span></b></a>: Near Mint raw copies listed today at or under their gem-rate max price, with grade values, pop and links. Updated with every scan.</p>
+    <script>fetch("digest.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{}).then(d=>{const n=Object.values(d.gem_live||{}).filter(a=>a.some(c=>c.ok)).length;if(n)document.getElementById("gem-n").textContent=" ("+n+" today)";}).catch(()=>{});</script>
     <p class="ev" style="margin:0">Your want list and everything found for it now has its own tab: <a href="#wants" onclick="document.getElementById('tab-wants').click();return false">★ Wants</a>.</p>
     <details class="notes" id="add-box" style="padding:10px 14px">
       <summary><b>Send me listings you found</b></summary>

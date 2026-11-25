@@ -34,6 +34,7 @@ SEALED_CAT = "Sealed: ETBs & booster boxes"  # heading in queries.txt; also ever
 # Australian RRPs (same as the Slab Finder page's NR_RRP): standard Elite Trainer Box, English 36-pack booster box
 RRP = {"ETB": 100.0, "Box": 306.0}
 GRADE_COST = 70                  # A$ per card to grade (PSA via an AU submitter, value tiers)
+GEM_LIVE_KEEP = 8      # cheapest live NM raw copies kept per gem-rate target (one per seller)
 SELL_KEEP = 0.87                 # share of the sale price kept after eBay fees
 SKIP_CC = {"US", "GB", "UK", "CA"}
 AUCTION_HOURS = 24               # auctions ending within this many hours are shown when the bid is well under value
@@ -362,6 +363,67 @@ def corrections():
     return out
 
 
+# ---------------------------------------------------------------- gem-rate targets matched straight from titles
+# The weekly gem-rate list (gemrates.json) covers cards that aren't in values.json, so listings are also matched to it
+# by card number and set size ("30/165", "H24/H32", "RC21"), the card's name and its variant (reverse, shadowless, 1st...).
+# Set sizes and words: the same table gems.html uses for its eBay searches.
+GEM_SETS = {"base-set": [102, "base"], "jungle": [64, "jungle"], "fossil": [62, "fossil"], "team-rocket": [82, "rocket"], "gym-heroes": [132, "heroes"], "gym-challenge": [132, "challenge"], "neo-genesis": [111, "genesis"], "neo-discovery": [75, "discovery"], "neo-revelation": [64, "revelation"], "neo-destiny": [105, "destiny"], "legendary-collection": [110, "legendary"], "expedition": [165, "expedition"], "aquapolis": [147, "aquapolis"], "skyridge": [144, "skyridge"], "ruby-&-sapphire": [109, "sapphire"], "sandstorm": [100, "sandstorm"], "dragon": [97, ""], "team-magma-&-team-aqua": [95, "magma"], "hidden-legends": [101, "hidden"], "fire-red-&-leaf-green": [112, "firered"], "team-rocket-returns": [109, "returns"], "deoxys": [107, ""], "emerald": [106, "emerald"], "unseen-forces": [115, "unseen"], "delta-species": [113, "delta"], "legend-maker": [92, "maker"], "holon-phantoms": [110, "holon"], "crystal-guardians": [100, "guardians"], "dragon-frontiers": [101, "frontiers"], "power-keepers": [108, "keepers"], "diamond-&-pearl": [130, ""], "mysterious-treasures": [123, "mysterious"], "secret-wonders": [132, "wonders"], "great-encounters": [106, "encounters"], "majestic-dawn": [100, "majestic"], "legends-awakened": [146, "awakened"], "stormfront": [100, "stormfront"], "platinum": [127, ""], "rising-rivals": [111, "rivals"], "supreme-victors": [147, "victors"], "arceus": [99, ""], "heartgold-&-soulsilver": [123, "heartgold"], "unleashed": [95, "unleashed"], "undaunted": [90, "undaunted"], "triumphant": [102, "triumphant"], "call-of-legends": [95, "call"], "black-&-white": [114, ""], "emerging-powers": [98, "emerging"], "noble-victories": [101, "noble"], "next-destinies": [99, "destinies"], "dark-explorers": [108, "explorers"], "dragons-exalted": [124, "exalted"], "dragon-vault": [20, "vault"], "boundaries-crossed": [149, "boundaries"], "plasma-storm": [135, ""], "plasma-freeze": [116, ""], "plasma-blast": [101, ""], "legendary-treasures": [113, ""], "xy": [146, ""], "flashfire": [106, "flashfire"], "furious-fists": [111, "furious"], "phantom-forces": [119, "phantom"], "primal-clash": [160, "primal"], "roaring-skies": [108, "roaring"], "ancient-origins": [98, "ancient"], "breakthrough": [162, "breakthrough"], "breakpoint": [122, "breakpoint"], "generations": [83, "generations"], "fates-collide": [124, "fates"], "steam-siege": [114, "steam"], "evolutions": [108, "evolutions"]}
+GEM_VARIANT = {"Reverse Holo": r"reverse|rev holo|\brh\b", "Shadowless": r"shadowless", "1st Edition": r"1st|first edition",
+               "Toys R Us": r"toys|\btru\b", "Prerelease": r"prerelease|pre-release", "Prerelease Staff": r"staff",
+               "Gold Border": r"gold", "City Championships": r"championship", "Cosmos Holo": r"cosmos", "Destiny Deoxys": r"destiny"}
+GEM_WOTC = re.compile(r"^(base-set|jungle|fossil|team-rocket$|gym-|neo-|legendary-collection)")
+GEM_NOT_EN = re.compile(r"japanese|\bjpn?\b|korean|chinese|\bjapan\b|italian|german|french|spanish|portuguese", re.I)
+
+
+class GemMatcher:
+    def __init__(self, targets):
+        self.idx = {}
+        for path, t in targets.items():
+            slug = (t.get("set") or "").replace("pokemon-", "")
+            total = (GEM_SETS.get(slug) or [None])[0]
+            name = (t.get("name") or "").split("   ")[0]
+            variants = re.findall(r"\[([^\]]+)\]", name)
+            plain = re.sub(r"\[[^\]]*\]|#\S+", " ", name).strip()
+            num = str(t.get("num") or "").lower()
+            if re.fullmatch(r"\d+", num):
+                if not total:
+                    continue
+                key = f"{int(num)}/{total}"
+            elif re.fullmatch(r"[a-z]{1,3}\d+", num):
+                key = re.sub(r"([a-z]+)0*(\d+)", r"\1\2", num)
+            else:
+                continue
+            words = [w.lower() for w in re.findall(r"[A-Za-z']+", plain) if len(w) >= 2 and w != "M"]
+            mega = plain.startswith("M ")
+            self.idx.setdefault(key, []).append((path, words, mega, variants, bool(GEM_WOTC.match(slug))))
+
+    def find(self, title):
+        """PriceCharting path of the gem-rate target this English title is, or None (none or more than one fit)."""
+        tl = title.lower()
+        if GEM_NOT_EN.search(tl):
+            return None
+        keys = {f"{int(a)}/{int(b)}" for a, b in re.findall(r"(?<![\d/])0*(\d{1,3})\s*/\s*0*(\d{2,3})(?!\d)", tl)}
+        keys |= {f"{a}{int(n)}" for a, n in re.findall(r"\b(h|sh|rc|sl|sv)\s?0*(\d{1,2})(?:\s*/\s*(?:h|sh|rc|sl|sv)?\s?\d{1,3})?\b", tl)}
+        hits = []
+        for k in keys:
+            for path, words, mega, variants, wotc in self.idx.get(k, []):
+                if not all(re.search(r"\b" + re.escape(w) + r"\b", tl) for w in words):
+                    continue
+                if mega and not re.search(r"\bm\b|mega", tl):
+                    continue
+                if any(not re.search(GEM_VARIANT[v], tl) for v in variants if v in GEM_VARIANT):
+                    continue
+                if "Reverse Holo" not in variants and re.search(GEM_VARIANT["Reverse Holo"], tl):
+                    continue
+                if wotc and "1st Edition" not in variants and re.search(GEM_VARIANT["1st Edition"], tl):
+                    continue
+                if wotc and "Shadowless" not in variants and re.search("shadowless", tl):
+                    continue
+                hits.append(path)
+        hits = list(dict.fromkeys(hits))
+        return hits[0] if len(hits) == 1 else None
+
+
 # ---------------------------------------------------------------- main
 def main():
     L = load("listings.json", {"items": []})
@@ -369,6 +431,7 @@ def main():
     V = Values(load("values.json", {"cards": []}).get("cards", []))
     # gem-rate targets from gemrates.py (weekly): PriceCharting card path -> kind (SAFE / HUNT), max raw price, gem rate
     GEM = load("gemrates.json", {}).get("targets") or {}
+    GM = GemMatcher(GEM)
     H = load("history.json", {"ids": {}})
     today = day_of(L.get("generated"))
     cutoff = (datetime.fromisoformat(today) - timedelta(days=KEEP_DAYS)).date().isoformat()
@@ -501,6 +564,7 @@ def main():
 
     # 2. per-listing extras + categories
     X, digest = {}, {c: {"cat": c, "want": want_cat[c], "total": 0, "new": 0, "drops": 0, "relisted": 0, "under": 0, "hi": []} for c in cats}
+    GEM_LIVE = {}   # gem-rate target path -> its live Near Mint raw copies (for gems.html "Buy now" and the summary)
     digest["Other"] = {"cat": "Not in a category", "want": False, "total": 0, "new": 0, "drops": 0, "relisted": 0, "under": 0, "hi": []}
     for i, x in cur.items():
         t = x.get("title", "")
@@ -578,6 +642,24 @@ def main():
         nm_raw_ok = bool(val and val[1] == "Raw" and not auc and not flag and not x.get("var") and x.get("country") not in SKIP_CC | {"CN"}
                          and (x.get("nm") == 1 or NMWORD.search(t)) and not OTHER_SLAB.search(t) and not sus and ratio is not None and ratio >= 0.4)
         gem = GEM.get(val[0].get("pc")) if val and val[0].get("pc") else None
+        gem_pc = val[0]["pc"] if gem else None
+        gem_ok = nm_raw_ok
+        if not gem and not x.get("lot"):
+            gem_pc = GM.find(t)
+            if gem_pc:
+                gem_rm = GEM[gem_pc].get("raw_market") or 0
+                gem_ok = (not auc and not flag and not x.get("var") and x.get("country") not in SKIP_CC | {"CN"}
+                          and (x.get("nm") == 1 or bool(NMWORD.search(t))) and not OTHER_SLAB.search(t) and not SLAB.search(t)
+                          and pl >= 0.4 * gem_rm and not played_grade(t, flag)
+                          and not PLAYED_BAD.search(re.sub(r"\bHP\s?\d+|\d+\s?HP\b", "", t)))
+        if gem_pc and gem_ok:
+            g_ = GEM[gem_pc]
+            GEM_LIVE.setdefault(gem_pc, []).append({
+                "id": i, "t": t[:90], "pl": round(pl), "cc": x.get("country") or "", "seller": x.get("seller") or "",
+                "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "shop": 1 if x.get("shop") else 0,
+                "new": 1 if new else 0, "drop": 1 if drop else 0,
+                "post?": 1 if (x.get("post") in (None, "") and not x.get("shop")) else 0,
+                "ok": 1 if pl <= g_["max_raw"] else 0})
         if nm_raw_ok:
             gv = val[0]["g"]
             old = set_of(val[0]["label"]) in VINTAGE or str(val[0].get("num", "")).startswith("No.")
@@ -769,6 +851,25 @@ def main():
                 h["why"] += f" (+{h['more']} more cop{'ies' if h['more'] > 1 else 'y'} also flagged)"
         d["hi"] = kept[:15 if d["cat"] == LOTS_CAT else 12 if d["cat"] in (SLAB_CAT, GRADE_CAT) else 8]
     order = [c for c in cats if digest[c]["total"]] + (["Other"] if digest["Other"]["total"] else [])
+    # gem buys: each target's cheapest live NM raw copies (one per seller), and the ranked list of those at or under max raw
+    gem_live, gem_buys = {}, []
+    for pc, cps in GEM_LIVE.items():
+        by_seller = {}
+        for cp in sorted(cps, key=lambda c: c["pl"]):
+            by_seller.setdefault(cp["seller"].lower() or cp["id"], cp)
+        cps = sorted(by_seller.values(), key=lambda c: c["pl"])[:GEM_LIVE_KEEP]
+        gem_live[pc] = cps
+        g = GEM[pc]
+        for cp in cps:
+            if cp["ok"]:
+                v = g.get("v") or {}
+                net8 = round((v.get("PSA 8") or 0) * SELL_KEEP - GRADE_COST - cp["pl"])
+                net9 = round((v.get("PSA 9") or 0) * SELL_KEEP - GRADE_COST - cp["pl"])
+                gem_buys.append({**cp, "pc": pc, "name": g.get("name", ""), "set": g.get("set", ""), "kind": g["kind"],
+                                 "max_raw": g["max_raw"], "room": g["max_raw"] - cp["pl"], "gem": g.get("gem"),
+                                 "v": v, "net8": net8, "net9": net9})
+    # PSA 8 still pays first, then the most room under the max
+    gem_buys.sort(key=lambda b: (b["net8"] < 0, -b["room"]))
 
     H = {"updated": today, "ids": ids}
     json.dump(H, open(P("history.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
@@ -777,7 +878,8 @@ def main():
            "relisted": sum(1 for v in X.values() if "r" in v[7]), "valued": sum(1 for v in X.values() if v[5])}
     sus_list = sorted(suspect.values(), key=lambda v: -v["value"])
     json.dump({"day": today, "generated": L.get("generated"), "totals": tot, "first_day": not had_before, "warnings": ebay_warnings(L),
-               "categories": [digest[c] for c in order], "suspect_values": sus_list},
+               "categories": [digest[c] for c in order], "suspect_values": sus_list,
+               "gem_live": gem_live, "gem_buys": gem_buys},
               open(P("digest.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # values_refresh.py re-reads these cards' PriceCharting pages first on the next run
     json.dump({"day": today, "cards": sus_list}, open(P("values_suspect.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -787,6 +889,19 @@ def main():
           "Default view: no US/UK/CA sellers, damaged/reprint/wrong-grader tags hidden, slabs over A$1,000 hidden. "
           "Prices are landed (postage, plus GST on overseas items). Highlights need a sold value at or under the price, "
           "or, where there's no sold value yet, a price well under the other live copies.", ""]
+    if gem_buys:
+        md.append(f"## Gem buys — {len(gem_buys)} live NM raw copies at or under their max raw (weekly gem-rate list)")
+        md.append("Sorted: a PSA 8 still pays first, then most room under the max. Net = after A$"
+                  f"{GRADE_COST} grading and selling fees. Check the photos: 'NM' is the seller's word.")
+        for b in gem_buys[:20]:
+            v = b["v"]
+            md.append(f"- A${b['pl']:,} {b['name'].split('   ')[0]} ({b['set'].replace('pokemon-', '')}) · "
+                      f"{'SAFE' if b['kind'] == 'SAFE' else '10 hunt'} · max A${b['max_raw']:,} (room A${b['room']:,}) · "
+                      f"PSA 8 ~A${v.get('PSA 8', 0):,} ({'+' if b['net8'] >= 0 else '−'}A${abs(b['net8']):,}) · "
+                      f"PSA 9 ~A${v.get('PSA 9', 0):,} ({'+' if b['net9'] >= 0 else '−'}A${abs(b['net9']):,}) · "
+                      f"PSA 10 ~A${v.get('PSA 10', 0):,} · gem {b['gem'] * 100:.1f}% · {b['cc']}, {b['seller']}"
+                      f"{' · new' if b['new'] else ''}{' · price drop' if b['drop'] else ''} {b['url']}")
+        md.append("")
     for c in order:
         d = digest[c]
         md.append(f"## {c}{' (want list)' if d['want'] else ''} — {d['total']:,} listings, {d['new']} new, {d['drops']} drops, {d['under']} under value")
