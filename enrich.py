@@ -376,16 +376,33 @@ BULK_COUNT = [
 ]
 
 
+BULK_RARE_COUNT = re.compile(r"(?<![\d/#.])(\d{1,3})\s?(?:x\s?)?(?:pok[eé]mon\s|japanese\s|english\s|jp\s|en\s|mixed\s|different\s)*"
+                             r"(?:sirs?|sars?|s\.i\.r|special illustration|special art|irs?|ars?|illustration rares?|art rares?)\b", re.I)
+# a bundle padded with other cards: its card count isn't a count of SIR/SAR/IR/AR cards
+BULK_FILLER = re.compile(r"\bcommons?\b|uncommons?|\bbulk (cards|commons)|energ(y|ies)\b|reverse holos?|"
+                         r"\+\s?\d+\s?(other|more|random|bonus|cards)|\bbonus\b|random cards|\bnon[- ]?holos?\b", re.I)
+BULK_CHASE = re.compile(r"\b(charizard|pikachu|umbreon|espeon|eevee|sylveon|vaporeon|jolteon|flareon|leafeon|glaceon|gengar|mew|"
+                        r"mewtwo|lugia|rayquaza|gardevoir|greninja|lillie|iono|n's|marnie|erika|misty|cynthia|giratina|dragonite|"
+                        r"snorlax|blastoise|venusaur|gyarados|ho-oh|suicune|tyranitar|milotic|lucario|zoroark|celebi|jirachi)\b", re.I)
+
+
 def bulk_count(title):
-    """How many cards a SIR/SAR bundle title says it has, or None. 151 (the set) and card numbers don't count."""
-    for rx in BULK_COUNT:
-        for m in rx.finditer(title):
-            n = int(m.group(1))
-            if n == 151 and re.search(r"\b151\b", title) and not re.search(r"151\s?(cards|pcs)", title, re.I):
-                continue
-            if 2 <= n <= 500:
-                return n
-    return None
+    """(cards the title says the bundle has, True if that count is of SIR/SAR/IR/AR cards) or (None, False).
+    151 (the set) and card numbers don't count."""
+    for rare_only, rxs in ((True, [BULK_RARE_COUNT]), (False, BULK_COUNT)):
+        for rx in rxs:
+            for m in rx.finditer(title):
+                n = int(m.group(1))
+                if n == 151 and re.search(r"\b151\b", title) and not re.search(r"151\s?(cards|pcs)", title, re.I):
+                    continue
+                if 2 <= n <= 500:
+                    return n, rare_only
+    return None, False
+
+
+def bulk_chase(title):
+    """Chase Pokemon / trainers named in a bundle title (they sell first at a show)."""
+    return sorted({m.group(1).lower() for m in BULK_CHASE.finditer(title)})
 
 
 def bulk_tier(title):
@@ -396,6 +413,12 @@ def bulk_tier(title):
 
 
 def bulk_lang(title, country):
+    if re.search(r"chinese|s-chinese|t-chinese|simplified|traditional|中文|简体|繁體|\bcn\b|\bchn\b", title, re.I):
+        return "CN"
+    if re.search(r"korean|한국|\bkr\b|\bkor\b", title, re.I):
+        return "KR"
+    if re.search(r"\bthai\b|indonesian|\bindo\b", title, re.I):
+        return "other"
     if re.search(r"japan|\bjpn?\b|日本|まとめ|ＳＡＲ|ＡＲ|\bs?ars?\b|special art|(?<!special )art rare", title, re.I):
         return "JP"
     if re.search(r"english|\beng?\b|\bs?irs?\b|illustration rare|special illustration", title, re.I):
@@ -750,26 +773,26 @@ def main():
         if x.get("bulk"):
             if x.get("country") in SKIP_CC or BULK_CAT not in digest:
                 continue
+            if PLAYED_BAD.search(re.sub(r"\bHP\s?\d+|\d+\s?HP\b", "", t)) or flag:
+                continue                     # played / damaged bundles are no use as show stock
             d = digest[BULK_CAT]
             d["total"] += 1
             d["new"] += bool(new)
             d["drops"] += bool(drop)
-            n_cards = bulk_count(t)
-            ends_h = round(hours, 1) if (auc and hours is not None and hours > 0) else None
+            n_cards, n_rare = bulk_count(t)
+            filler = bool(BULK_FILLER.search(t)) and not n_rare     # "+ 50 bulk commons": the count isn't all rares
+            each_ok = n_cards and not filler
             BULK.append({"id": i, "t": t[:110], "pl": round(pl, 2), "n": n_cards,
-                         "each": round(pl / n_cards, 2) if n_cards else None,
-                         "lang": bulk_lang(t, x.get("country")), "tier": bulk_tier(t), "cc": x.get("country") or "", "seller": x.get("seller") or "",
+                         "each": round(pl / n_cards, 2) if each_ok else None, "filler": 1 if filler else 0,
+                         "lang": bulk_lang(t, x.get("country")), "tier": bulk_tier(t), "chase": bulk_chase(t),
+                         "lp": 1 if played_grade(t, flag) else 0,
+                         "cc": x.get("country") or "", "seller": x.get("seller") or "",
                          "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "auc": 1 if auc else 0,
-                         "bids": x.get("bids") or 0, "ends_h": ends_h, "new": 1 if new else 0, "drop": 1 if drop else 0,
-                         "first": r["f"], "graded": 1 if re.search(r"\b(psa|cgc|bgs|beckett|ace)\s?\d", t, re.I) else 0,
-                         "post?": 1 if x.get("post") in (None, "") else 0})
-            if new or drop or (auc and hours is not None and 0 < hours <= AUCTION_HOURS):
-                each = f"; {n_cards} cards ≈ A${pl / n_cards:,.2f} each" if n_cards else "; card count not in the title"
-                why = (f"auction ends in {hours:.0f}h: A${pl:,.0f} now, {x.get('bids') or 0} bids" if auc and hours is not None
-                       and 0 < hours <= AUCTION_HOURS else f"price dropped A${r['pp']:,.0f} → A${p:,.0f}" if drop
-                       else f"new: A${pl:,.0f}{gst_of(pl, p)}{' (auction)' if auc else ''}")
-                d["hi"].append((0 if new else 1, 0, (pl / n_cards) if n_cards else 1e6,
-                                hi_entry(i, x, t, p, pl, why + each + ". Check the photos: every card, condition, English or Japanese", auc)))
+                         "bids": x.get("bids") or 0, "ends_h": round(hours, 1) if (auc and hours is not None and hours > 0) else None,
+                         "new": 1 if new else 0, "drop": 1 if drop else 0, "first": r["f"],
+                         "graded": 1 if re.search(r"\b(psa|cgc|bgs|beckett|ace)\s?\d", t, re.I) else 0,
+                         "post?": 1 if x.get("post") in (None, "") else 0,
+                         "_h": (x, p, pl, auc, hours)})
             continue
 
         if x.get("lot"):
@@ -902,6 +925,38 @@ def main():
             d["under"] += bool(ratio is not None and ((0.6 <= ratio <= 1.0) if sealed else 0.4 <= ratio <= 0.85) and not auc and not sus)
             if reason:
                 d["hi"].append((pri, score, pl, hi_entry(i, x, t, p, pl, reason + (f" · shop listing, last checked {shop_seen}" if x["shop"] and shop_seen else ""), auc)))
+    # SIR/SAR & IR/AR bulk: judge each bundle's price per card against the other live bundles of the same rarity and
+    # language (median), then score for card-show stock: cheaper per card, Australian seller (arrives in time, no
+    # GST), buy now (auctions climb), chase Pokemon in it, Near Mint. Best value = the cheapest quarter of its group.
+    groups = {}
+    for b in BULK:
+        if b["each"] and b["n"] >= 3 and b["lang"] in ("EN", "JP"):
+            groups.setdefault((b["tier"], b["lang"]), []).append(b["each"])
+    med = {k: sorted(v)[len(v) // 2] for k, v in groups.items() if len(v) >= 4}
+    q1 = {k: sorted(v)[max(0, len(v) // 4 - 1)] for k, v in groups.items() if len(v) >= 8}
+    for b in BULK:
+        k = (b["tier"], b["lang"])
+        b["vs"] = round(b["each"] / med[k], 2) if b["each"] and k in med else None    # 0.6 = 40% under the typical bundle
+        sc = b["vs"] if b["vs"] is not None else 1.6 if b["each"] else 2.5
+        sc *= (1.15 if b["auc"] else 1) * (0.92 if b["cc"] in ("AU", "NZ") else 1) * (0.9 if b["chase"] else 1)
+        sc *= (2.0 if b["lp"] else 1) * (1.05 if b["post?"] else 1) * (1.2 if (b["n"] or 0) < 3 else 1)
+        sc *= (1.6 if b["lang"] in ("CN", "KR", "other") else 1)
+        b["score"] = round(sc, 3)
+        b["best"] = 1 if (k in q1 and b["each"] and b["each"] <= q1[k] and not b["auc"] and not b["lp"]
+                          and b["lang"] in ("EN", "JP") and (b["n"] or 0) >= 3) else 0
+        x_, p_, pl_, auc_, hours_ = b.pop("_h")
+        why = ""
+        if b["best"]:
+            why = (f"best-value bundle: A${b['each']:,.2f} each for {b['n']} {b['tier']} ({b['lang']}), "
+                   f"{round((1 - b['vs']) * 100)}% under the typical live bundle")
+        elif b["new"] or b["drop"] or (b["auc"] and hours_ is not None and 0 < hours_ <= AUCTION_HOURS):
+            why = (f"auction ends in {hours_:.0f}h: A${pl_:,.0f} now, {b['bids']} bids" if b["auc"] and hours_ is not None and 0 < hours_ <= AUCTION_HOURS
+                   else "price dropped" if b["drop"] else f"new: A${pl_:,.0f}")
+            why += f"; {b['n']} cards ≈ A${b['each']:,.2f} each" if b["each"] else "; card count not clear from the title"
+        if why and BULK_CAT in digest:
+            digest[BULK_CAT]["hi"].append((0 if b["best"] else 1, 0, b["score"], hi_entry(
+                b["id"], x_, x_.get("title", ""), p_, pl_, why + (f" · chase: {', '.join(b['chase'])}" if b["chase"] else "")
+                + ". Check the photos: every card, condition, language", auc_)))
     for d in digest.values():
         # one line per card: the best copy, with a count of the other highlighted copies of the same card
         kept, seen_k = [], {}
@@ -916,7 +971,7 @@ def main():
         for h in kept:
             if h.get("more"):
                 h["why"] += f" (+{h['more']} more cop{'ies' if h['more'] > 1 else 'y'} also flagged)"
-        d["hi"] = kept[:15 if d["cat"] == LOTS_CAT else 12 if d["cat"] in (SLAB_CAT, GRADE_CAT) else 8]
+        d["hi"] = kept[:15 if d["cat"] in (LOTS_CAT, BULK_CAT) else 12 if d["cat"] in (SLAB_CAT, GRADE_CAT) else 8]
     order = [c for c in cats if digest[c]["total"]] + (["Other"] if digest["Other"]["total"] else [])
     # gem buys: each target's cheapest live NM raw copies (one per seller), and the ranked list of those at or under max raw
     gem_live, gem_buys = {}, []
@@ -938,7 +993,7 @@ def main():
     # PSA 8 still pays first, then the most room under the max
     gem_buys.sort(key=lambda b: (b["net8"] < 0, -b["room"]))
     # SIR/SAR bundles: cheapest per card first (bundles of 3+ with a count), then the rest by price
-    bulk = sorted(BULK, key=lambda b: (not (b["n"] and b["n"] >= 3), b["each"] if b["n"] and b["n"] >= 3 else b["pl"]))
+    bulk = sorted(BULK, key=lambda b: b["score"])
 
     H = {"updated": today, "ids": ids}
     json.dump(H, open(P("history.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
@@ -959,10 +1014,13 @@ def main():
           "Prices are landed (postage, plus GST on overseas items). Highlights need a sold value at or under the price, "
           "or, where there's no sold value yet, a price well under the other live copies.", ""]
     if bulk:
-        md.append(f"## SIR/SAR & IR/AR bulk — {len(bulk)} bundles live, cheapest per card first (landed, with GST on overseas items)")
-        md.append("Card counts come from the titles. Check the photos for every card, condition and language before buying.")
+        md.append(f"## SIR/SAR & IR/AR bulk — {len(bulk)} bundles live, best value for show stock first")
+        md.append("Ranked by price per card against other live bundles of the same rarity and language, then Australian "
+                  "sellers, buy now, chase Pokemon and condition. Landed prices (GST on overseas items). Card counts come from "
+                  "the titles. Check the photos for every card, condition and language before buying.")
         for b in bulk[:15]:
-            md.append(f"- {'A$%.2f each · ' % b['each'] if b['each'] else ''}A${b['pl']:,.0f}"
+            md.append(f"- {'⭐ ' if b['best'] else ''}{'A$%.2f each · ' % b['each'] if b['each'] else ''}"
+                      f"{'%d%% under typical · ' % round((1 - b['vs']) * 100) if b.get('vs') and b['vs'] < 1 else ''}A${b['pl']:,.0f}"
                       f"{' for %d' % b['n'] if b['n'] else ' (count not stated)'} · {b['tier']} · {b['lang']} · {b['cc']}, {b['seller']}"
                       f"{' · auction, %d bids' % b['bids'] if b['auc'] else ''}{' · new' if b['new'] else ''}"
                       f"{' · price drop' if b['drop'] else ''} — {b['t'][:80]} {b['url']}")

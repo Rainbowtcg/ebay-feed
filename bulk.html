@@ -36,6 +36,10 @@
   .tag.nw { background:rgba(88,166,255,.18); color:var(--acc); }
   .tag.dr { background:rgba(63,185,80,.18); color:var(--good); }
   .tag.au { background:rgba(210,153,34,.18); color:var(--warn); }
+  .tag.best { background:rgba(63,185,80,.25); color:var(--good); }
+  .tag.ch { background:rgba(188,140,255,.18); color:#bc8cff; }
+  .tag.bad { background:rgba(248,81,73,.15); color:var(--bad); }
+  .under { color:var(--good); font-size:13px; }
   .links a { color:var(--acc); margin-right:12px; text-decoration:none; font-size:13px; }
   .empty, .err { color:var(--dim); padding:18px 14px; }
   .err { color:var(--bad); }
@@ -50,6 +54,7 @@
   <div class="row">
     <input type="search" id="q" placeholder="Filter, e.g. Charizard, 151, graded" aria-label="Filter bundles">
     <select id="sort" aria-label="Sort">
+      <option value="best">Best value for show stock</option>
       <option value="each">Cheapest per card</option>
       <option value="price">Lowest total price</option>
       <option value="count">Most cards</option>
@@ -66,12 +71,14 @@
     <button class="chip on" data-c="">All sellers</button><button class="chip" data-c="AU">AU/NZ</button><button class="chip" data-c="JP">Japan</button>
   </div>
   <div class="row">
+    <label class="tg"><input type="checkbox" id="bestonly"> ⭐ best value only</label>
+    <label class="tg"><input type="checkbox" id="foreign"> incl. Chinese/Korean</label>
     <label class="tg"><input type="checkbox" id="counted"> card count stated</label>
     <label class="tg"><input type="checkbox" id="noauc"> buy now only</label>
     <label class="tg">≤ A$<input type="number" id="maxeach" min="0" step="1" placeholder="any" aria-label="Max price per card"> each</label>
   </div>
 </div>
-<div class="help">Modern Special Illustration Rare / Illustration Rare (English) and Special Art Rare / Art Rare (Japanese) bundles for card-show stock, from the daily eBay scan. Prices are landed: postage included, plus GST on overseas items. "Each" divides by the card count in the title, which the seller states, so check the photos for every card, their condition and the language. Mystery packs, repacks and "pick your card" listings are left out.</div>
+<details class="help"><summary>How it's ranked</summary>Modern Special Illustration Rare / Illustration Rare (English) and Special Art Rare / Art Rare (Japanese) bundles for card-show stock, from the daily eBay scan. Prices are landed: postage included, plus GST on overseas items. "Each" divides by the card count in the title, which the seller states. <b>Best value</b> sorts by price per card against the other live bundles of the same rarity and language ("% under typical"), then favours Australian sellers (no GST, arrives in time), buy now, chase Pokémon and Near Mint. ⭐ = the cheapest quarter of its group, buy now, NM, 3+ cards (these also come as phone alerts). Chinese/Korean bundles are hidden unless ticked; played and damaged bundles are left out, as are mystery packs, repacks and "pick your card" listings. Check the photos for every card, condition and language.</details>
 <div class="count" id="count"></div>
 <ul id="list"></ul>
 
@@ -79,7 +86,7 @@
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const aud = n => "A$" + Number(n).toLocaleString("en-AU", { minimumFractionDigits: n < 100 && n % 1 ? 2 : 0, maximumFractionDigits: n < 100 ? 2 : 0 });
-const st = { r: "", l: "", c: "", q: "", sort: "each", counted: false, noauc: false, maxeach: "" };
+const st = { r: "", l: "", c: "", q: "", sort: "best", counted: false, noauc: false, maxeach: "", bestonly: false, foreign: false };
 try { Object.assign(st, JSON.parse(localStorage.getItem("bulkFilters") || "{}")); } catch (e) {}
 const save = () => { try { localStorage.setItem("bulkFilters", JSON.stringify(st)); } catch (e) {} };
 let ALL = [];
@@ -89,10 +96,12 @@ function render() {
   const me = parseFloat(st.maxeach);
   let L = ALL.filter(b => (!st.r || (b.tier || "SIR/SAR") === st.r) && (!st.l || b.lang === st.l)
     && (!st.c || (st.c === "AU" ? ["AU", "NZ"].includes(b.cc) : b.cc === st.c))
-    && (!st.counted || b.n) && (!st.noauc || !b.auc)
+    && (!st.counted || b.n) && (!st.noauc || !b.auc) && (!st.bestonly || b.best)
+    && (st.foreign || !["CN", "KR", "other"].includes(b.lang))
     && (isNaN(me) || (b.each != null && b.each <= me))
     && words.every(w => b.t.toLowerCase().includes(w)));
   const by = {
+    best: (a, c) => (a.score ?? 9) - (c.score ?? 9),
     each: (a, c) => ((a.each ?? 1e9) - (c.each ?? 1e9)) || a.pl - c.pl,
     price: (a, c) => a.pl - c.pl,
     count: (a, c) => (c.n || 0) - (a.n || 0) || (a.each ?? 1e9) - (c.each ?? 1e9),
@@ -104,12 +113,14 @@ function render() {
   $("count").textContent = `${L.length} shown`;
   $("list").innerHTML = L.length ? L.map(b => `<li>
     <a class="t" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.t)}</a>
-    <div class="nums">${b.each != null ? `<span class="each">${aud(b.each)} each</span>` : `<span class="noc">count not in title</span>`}
+    <div class="nums">${b.best ? '<span class="tag best">⭐ best value</span>' : ""}${b.each != null ? `<span class="each">${aud(b.each)} each</span>` : `<span class="noc">${b.filler ? "includes other cards: per-card price unclear" : "count not in title"}</span>`}
+      ${b.vs != null ? `<span class="under">${b.vs < 1 ? Math.round((1 - b.vs) * 100) + "% under" : Math.round((b.vs - 1) * 100) + "% over"} typical</span>` : ""}
       <span><b>${aud(b.pl)}</b>${b.n ? ` for ${b.n}` : ""}</span>
-      <span>${esc(b.tier || "SIR/SAR")} · ${esc(b.lang === "?" ? "EN/JP?" : b.lang)}</span>
+      <span>${esc(b.tier || "SIR/SAR")} · ${esc({ "?": "EN/JP?", CN: "Chinese", KR: "Korean", other: "other language" }[b.lang] || b.lang)}</span>
       ${b.new ? '<span class="tag nw">new</span>' : ""}${b.drop ? '<span class="tag dr">price drop</span>' : ""}
       ${b.auc ? `<span class="tag au">auction · ${b.bids} bids${b.ends_h != null ? ` · ends in ${b.ends_h < 48 ? Math.round(b.ends_h) + "h" : Math.round(b.ends_h / 24) + "d"}` : ""}</span>` : ""}
-      ${b.graded ? '<span class="tag nw">graded</span>' : ""}</div>
+      ${b.graded ? '<span class="tag nw">graded</span>' : ""}${b.lp ? '<span class="tag bad">not NM</span>' : ""}
+      ${(b.chase || []).length ? `<span class="tag ch">${esc(b.chase.join(", "))}</span>` : ""}</div>
     <div class="meta">${esc(b.cc)} · ${esc(b.seller)}${b["post?"] ? " · postage not shown" : ""}${b.auc ? " · auction: the price will rise" : ""} · first seen ${esc(b.first)}</div>
     </li>`).join("") : `<div class="empty">Nothing matches. ${ALL.length ? "Try fewer filters." : "No bundles found yet: the first scan with these searches runs tomorrow morning."}</div>`;
 }
@@ -117,6 +128,7 @@ function sync() {
   document.querySelectorAll("[data-r]").forEach(b => b.classList.toggle("on", b.dataset.r === st.r));
   document.querySelectorAll("[data-l]").forEach(b => b.classList.toggle("on", b.dataset.l === st.l));
   document.querySelectorAll("[data-c]").forEach(b => b.classList.toggle("on", b.dataset.c === st.c));
+  $("bestonly").checked = st.bestonly; $("foreign").checked = st.foreign;
   $("q").value = st.q; $("sort").value = st.sort; $("counted").checked = st.counted; $("noauc").checked = st.noauc; $("maxeach").value = st.maxeach;
 }
 document.querySelectorAll("[data-r]").forEach(b => b.addEventListener("click", () => { st.r = b.dataset.r; save(); sync(); render(); }));
@@ -125,6 +137,8 @@ document.querySelectorAll("[data-c]").forEach(b => b.addEventListener("click", (
 $("q").addEventListener("input", e => { st.q = e.target.value; save(); render(); });
 $("sort").addEventListener("change", e => { st.sort = e.target.value; save(); render(); });
 $("counted").addEventListener("change", e => { st.counted = e.target.checked; save(); render(); });
+$("bestonly").addEventListener("change", e => { st.bestonly = e.target.checked; save(); render(); });
+$("foreign").addEventListener("change", e => { st.foreign = e.target.checked; save(); render(); });
 $("noauc").addEventListener("change", e => { st.noauc = e.target.checked; save(); render(); });
 $("maxeach").addEventListener("input", e => { st.maxeach = e.target.value; save(); render(); });
 sync();
