@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>SIR/SAR bulk · Vintage Slab Finder</title>
+<title>SIR/SAR & IR/AR bulk · Vintage Slab Finder</title>
 <style>
   :root { --bg:#0d1117; --card:#161b22; --line:#30363d; --text:#e6edf3; --dim:#8b949e; --acc:#58a6ff;
           --good:#3fb950; --warn:#d29922; --bad:#f85149; }
@@ -43,7 +43,7 @@
 </head>
 <body>
 <header>
-  <h1>SIR/SAR bulk</h1>
+  <h1>SIR/SAR &amp; IR/AR bulk</h1>
   <div class="sub" id="meta">Loading…</div>
 </header>
 <div class="bar">
@@ -58,7 +58,10 @@
     </select>
   </div>
   <div class="row">
-    <button class="chip on" data-l="">EN+JP</button><button class="chip" data-l="EN">English (SIR)</button><button class="chip" data-l="JP">Japanese (SAR)</button>
+    <button class="chip on" data-r="">All rarities</button><button class="chip" data-r="SIR/SAR">SIR/SAR</button><button class="chip" data-r="IR/AR">IR/AR</button><button class="chip" data-r="mixed">Mixed</button>
+  </div>
+  <div class="row">
+    <button class="chip on" data-l="">EN+JP</button><button class="chip" data-l="EN">English</button><button class="chip" data-l="JP">Japanese</button>
     <span style="width:8px"></span>
     <button class="chip on" data-c="">All sellers</button><button class="chip" data-c="AU">AU/NZ</button><button class="chip" data-c="JP">Japan</button>
   </div>
@@ -68,7 +71,7 @@
     <label class="tg">≤ A$<input type="number" id="maxeach" min="0" step="1" placeholder="any" aria-label="Max price per card"> each</label>
   </div>
 </div>
-<div class="help">Modern Special Illustration Rare (English) and Special Art Rare (Japanese) bundles for card-show stock, from the daily eBay scan. Prices are landed: postage included, plus GST on overseas items. "Each" divides by the card count in the title, which the seller states, so check the photos for every card, their condition and the language. Mystery packs, repacks and "pick your card" listings are left out.</div>
+<div class="help">Modern Special Illustration Rare / Illustration Rare (English) and Special Art Rare / Art Rare (Japanese) bundles for card-show stock, from the daily eBay scan. Prices are landed: postage included, plus GST on overseas items. "Each" divides by the card count in the title, which the seller states, so check the photos for every card, their condition and the language. Mystery packs, repacks and "pick your card" listings are left out.</div>
 <div class="count" id="count"></div>
 <ul id="list"></ul>
 
@@ -76,7 +79,7 @@
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const aud = n => "A$" + Number(n).toLocaleString("en-AU", { minimumFractionDigits: n < 100 && n % 1 ? 2 : 0, maximumFractionDigits: n < 100 ? 2 : 0 });
-const st = { l: "", c: "", q: "", sort: "each", counted: false, noauc: false, maxeach: "" };
+const st = { r: "", l: "", c: "", q: "", sort: "each", counted: false, noauc: false, maxeach: "" };
 try { Object.assign(st, JSON.parse(localStorage.getItem("bulkFilters") || "{}")); } catch (e) {}
 const save = () => { try { localStorage.setItem("bulkFilters", JSON.stringify(st)); } catch (e) {} };
 let ALL = [];
@@ -84,7 +87,7 @@ let ALL = [];
 function render() {
   const words = st.q.toLowerCase().split(/\s+/).filter(Boolean);
   const me = parseFloat(st.maxeach);
-  let L = ALL.filter(b => (!st.l || b.lang === st.l)
+  let L = ALL.filter(b => (!st.r || (b.tier || "SIR/SAR") === st.r) && (!st.l || b.lang === st.l)
     && (!st.c || (st.c === "AU" ? ["AU", "NZ"].includes(b.cc) : b.cc === st.c))
     && (!st.counted || b.n) && (!st.noauc || !b.auc)
     && (isNaN(me) || (b.each != null && b.each <= me))
@@ -103,7 +106,7 @@ function render() {
     <a class="t" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.t)}</a>
     <div class="nums">${b.each != null ? `<span class="each">${aud(b.each)} each</span>` : `<span class="noc">count not in title</span>`}
       <span><b>${aud(b.pl)}</b>${b.n ? ` for ${b.n}` : ""}</span>
-      <span>${esc(b.lang === "?" ? "EN/JP?" : b.lang)}</span>
+      <span>${esc(b.tier || "SIR/SAR")} · ${esc(b.lang === "?" ? "EN/JP?" : b.lang)}</span>
       ${b.new ? '<span class="tag nw">new</span>' : ""}${b.drop ? '<span class="tag dr">price drop</span>' : ""}
       ${b.auc ? `<span class="tag au">auction · ${b.bids} bids${b.ends_h != null ? ` · ends in ${b.ends_h < 48 ? Math.round(b.ends_h) + "h" : Math.round(b.ends_h / 24) + "d"}` : ""}</span>` : ""}
       ${b.graded ? '<span class="tag nw">graded</span>' : ""}</div>
@@ -111,10 +114,12 @@ function render() {
     </li>`).join("") : `<div class="empty">Nothing matches. ${ALL.length ? "Try fewer filters." : "No bundles found yet: the first scan with these searches runs tomorrow morning."}</div>`;
 }
 function sync() {
+  document.querySelectorAll("[data-r]").forEach(b => b.classList.toggle("on", b.dataset.r === st.r));
   document.querySelectorAll("[data-l]").forEach(b => b.classList.toggle("on", b.dataset.l === st.l));
   document.querySelectorAll("[data-c]").forEach(b => b.classList.toggle("on", b.dataset.c === st.c));
   $("q").value = st.q; $("sort").value = st.sort; $("counted").checked = st.counted; $("noauc").checked = st.noauc; $("maxeach").value = st.maxeach;
 }
+document.querySelectorAll("[data-r]").forEach(b => b.addEventListener("click", () => { st.r = b.dataset.r; save(); sync(); render(); }));
 document.querySelectorAll("[data-l]").forEach(b => b.addEventListener("click", () => { st.l = b.dataset.l; save(); sync(); render(); }));
 document.querySelectorAll("[data-c]").forEach(b => b.addEventListener("click", () => { st.c = b.dataset.c; save(); sync(); render(); }));
 $("q").addEventListener("input", e => { st.q = e.target.value; save(); render(); });
@@ -131,6 +136,8 @@ fetch("digest.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Err
   $("meta").innerHTML = `${ALL.length} bundles live (${counted} with a card count) · listings ${esc(when)} · ` +
     `<a href="index.html">Slab Finder</a> · <a href="gems.html#buy">Gem buys</a><br>` +
     `eBay: <a href="${eb("pokemon sir (lot,bundle,bulk)")}&LH_PrefLoc=1" target="_blank" rel="noopener">AU SIR</a> · ` +
+    `<a href="${eb("pokemon (ir,\"illustration rare\") (lot,bundle,bulk)")}&LH_PrefLoc=1" target="_blank" rel="noopener">AU IR</a> · ` +
+    `<a href="${eb("pokemon (ar,\"art rare\") (lot,bundle,bulk,まとめ) japanese")}&LH_LocatedIn=1&_salic=104" target="_blank" rel="noopener">JP AR</a> · ` +
     `<a href="${eb("pokemon sar (lot,bundle,bulk,まとめ)")}&LH_LocatedIn=1&_salic=104" target="_blank" rel="noopener">JP SAR</a> · ` +
     `<a href="${eb("pokemon (sir,sar) (lot,bundle,bulk)")}&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2" target="_blank" rel="noopener">Sold</a>`;
   render();

@@ -189,12 +189,14 @@ def keep_lot(title):
     return bool(LOT_WORD.search(title)) and bool(LOT_OLD.search(title) or re.search(r"\bold\b|original|childhood|first gen|gen ?1|nostalg", title, re.I))
 
 
-# "@bulk" search lines: modern Special Illustration Rare / Special Art Rare bundles (SV era on, English and Japanese),
+# "@bulk" search lines: modern Special Illustration Rare / Special Art Rare bundles, and Illustration Rare / Art Rare
+# bundles (added 26 Nov 2026) (SV era on, English and Japanese),
 # bought as card-show stock. Kept without a grade word, never valued as single cards (enrich.py ranks them by price per
 # card). Mystery / repack / "guaranteed hit" packs, sealed product, proxies and accessories stay out.
-BULK_RARE = re.compile(r"\b(sirs?|sars?|s\.i\.r\.?|special illustration( rares?)?|special art( rares?)?)\b|スペシャルアート|ＳＡＲ", re.I)
+BULK_RARE = re.compile(r"\b(sirs?|sars?|s\.i\.r\.?|special illustration( rares?)?|special art( rares?)?|irs?|ars?|"
+                       r"illustration rares?|art rares?)\b|スペシャルアート|ＳＡＲ|ＡＲ", re.I)
 BULK_WORD = re.compile(r"\blots?\b|bundles?\b|\bbulk\b|job ?lot|\bx\s?\d{1,3}\b|\b\d{1,3}\s?x\b|\b\d{1,3}\s?(cards|pcs|pieces)\b|"
-                       r"\bset of \d|\bcollection\b|まとめ|\b\d{1,3}\s?(sirs?|sars?)\b", re.I)
+                       r"\bset of \d|\bcollection\b|まとめ|\b\d{1,3}\s?(sirs?|sars?|irs?|ars?)\b", re.I)
 BULK_BAD = re.compile(r"mystery|repack|re-pack|guarantee|chance|random|lucky|\bhits?\b|\bpulls?\b|\bpacks?\b|booster|\bbox\b|"
                       r"\betb\b|elite trainer|\bbreaks?\b|proxy|custom|orica|fake|replica|metal|gold foil|art print|poster|"
                       r"sleeves?|toploaders?|binder only|\bempty\b|digital|code card|yu-?gi-?oh|one piece|lorcana|\bmtg\b|"
@@ -202,7 +204,7 @@ BULK_BAD = re.compile(r"mystery|repack|re-pack|guarantee|chance|random|lucky|\bh
 
 
 def keep_bulk(title):
-    """A lot / bundle of modern SIR or SAR cards (not a single card, not a mystery pack, not pick-your-card)."""
+    """A lot / bundle of modern SIR, SAR, IR or AR cards (not a single card, not a mystery pack, not pick-your-card)."""
     if not re.search(r"pok[eé]mon|pocket monsters|ポケモン", title, re.I):
         return False
     if BULK_BAD.search(title) or reprint_hit(title):

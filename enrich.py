@@ -29,7 +29,7 @@ PAWN_CAT = "Pawn shops"          # heading in queries.txt; also every listing fr
 TRUSTED_CAT = "Trusted sellers"  # heading in queries.txt; also every listing from a trusted_sellers.txt seller
 SLAB_CAT = "Slab plays"          # played raw copies of cards whose low-grade slabs sell for more than raw + grading
 GRADE_CAT = "Grade plays"        # Near Mint raw copies where landed cost + grading is well under the PSA 9 price
-BULK_CAT = "Modern SIR/SAR bulk"   # heading in queries.txt; @bulk listings (card-show stock, ranked per card)
+BULK_CAT = "Modern SIR/SAR & IR/AR bulk"   # heading in queries.txt; @bulk listings (card-show stock, ranked per card)
 LOTS_CAT = "Binders & lots"       # heading in queries.txt; @lots listings (never valued as single cards)
 SEALED_CAT = "Sealed: ETBs & booster boxes"  # heading in queries.txt; also every shop ETB / booster box
 # Australian RRPs (same as the Slab Finder page's NR_RRP): standard Elite Trainer Box, English 36-pack booster box
@@ -368,7 +368,7 @@ def corrections():
 # ---------------------------------------------------------------- modern SIR/SAR bulk
 BULK_COUNT = [
     re.compile(r"(?<![\d/#.])(\d{1,3})\s?(?:x\s?)?(?:pok[eé]mon\s|japanese\s|english\s|jp\s|en\s|card\s|mixed\s|assorted\s|different\s)*"
-               r"(?:sirs?|sars?|s\.i\.r|special illustration|special art|cards|pcs|pieces)\b", re.I),
+               r"(?:sirs?|sars?|s\.i\.r|special illustration|special art|irs?|ars?|illustration rare|art rare|cards|pcs|pieces)\b", re.I),
     re.compile(r"(?:\bx|×)\s?(\d{1,3})\b", re.I),
     re.compile(r"(?<![\d/#.])\b(\d{1,3})\s?(?:x|×)(?:\s|$)", re.I),
     re.compile(r"\b(?:lot|set|bundle|collection) of (\d{1,3})\b", re.I),
@@ -388,10 +388,17 @@ def bulk_count(title):
     return None
 
 
+def bulk_tier(title):
+    """SIR/SAR (special), IR/AR, or both in one bundle."""
+    sp = bool(re.search(r"\b(sirs?|sars?|s\.i\.r)\b|special illustration|special art|ＳＡＲ|スペシャルアート", title, re.I))
+    ir = bool(re.search(r"\b(irs?|ars?)\b|(?<!special )illustration rare|(?<!special )art rare|ＡＲ", title, re.I))
+    return "mixed" if sp and ir else "SIR/SAR" if sp else "IR/AR"
+
+
 def bulk_lang(title, country):
-    if re.search(r"japan|\bjpn?\b|日本|まとめ|ＳＡＲ|\bsars?\b|special art", title, re.I):
+    if re.search(r"japan|\bjpn?\b|日本|まとめ|ＳＡＲ|ＡＲ|\bs?ars?\b|special art|(?<!special )art rare", title, re.I):
         return "JP"
-    if re.search(r"english|\beng?\b|\bsirs?\b|special illustration", title, re.I):
+    if re.search(r"english|\beng?\b|\bs?irs?\b|illustration rare|special illustration", title, re.I):
         return "EN"
     return "JP" if country == "JP" else "?"
 
@@ -751,7 +758,7 @@ def main():
             ends_h = round(hours, 1) if (auc and hours is not None and hours > 0) else None
             BULK.append({"id": i, "t": t[:110], "pl": round(pl, 2), "n": n_cards,
                          "each": round(pl / n_cards, 2) if n_cards else None,
-                         "lang": bulk_lang(t, x.get("country")), "cc": x.get("country") or "", "seller": x.get("seller") or "",
+                         "lang": bulk_lang(t, x.get("country")), "tier": bulk_tier(t), "cc": x.get("country") or "", "seller": x.get("seller") or "",
                          "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "auc": 1 if auc else 0,
                          "bids": x.get("bids") or 0, "ends_h": ends_h, "new": 1 if new else 0, "drop": 1 if drop else 0,
                          "first": r["f"], "graded": 1 if re.search(r"\b(psa|cgc|bgs|beckett|ace)\s?\d", t, re.I) else 0,
@@ -952,11 +959,11 @@ def main():
           "Prices are landed (postage, plus GST on overseas items). Highlights need a sold value at or under the price, "
           "or, where there's no sold value yet, a price well under the other live copies.", ""]
     if bulk:
-        md.append(f"## SIR/SAR bulk — {len(bulk)} bundles live, cheapest per card first (landed, with GST on overseas items)")
+        md.append(f"## SIR/SAR & IR/AR bulk — {len(bulk)} bundles live, cheapest per card first (landed, with GST on overseas items)")
         md.append("Card counts come from the titles. Check the photos for every card, condition and language before buying.")
         for b in bulk[:15]:
             md.append(f"- {'A$%.2f each · ' % b['each'] if b['each'] else ''}A${b['pl']:,.0f}"
-                      f"{' for %d' % b['n'] if b['n'] else ' (count not stated)'} · {b['lang']} · {b['cc']}, {b['seller']}"
+                      f"{' for %d' % b['n'] if b['n'] else ' (count not stated)'} · {b['tier']} · {b['lang']} · {b['cc']}, {b['seller']}"
                       f"{' · auction, %d bids' % b['bids'] if b['auc'] else ''}{' · new' if b['new'] else ''}"
                       f"{' · price drop' if b['drop'] else ''} — {b['t'][:80]} {b['url']}")
         md.append("")
