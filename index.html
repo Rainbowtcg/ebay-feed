@@ -4528,4 +4528,17 @@ document.querySelectorAll(".chip-1k").forEach(b=>b.addEventListener("click",()=>
 document.querySelectorAll(".chip-1k").forEach(b=>{ b.setAttribute("aria-pressed",G1K); b.textContent=G1K?"Graded over A$1,000 hidden":"Showing graded over A$1,000"; });
 </script>
 
+
+<!-- refresh: pull-down doesn't reload a saved/home-screen page, so this button does a full reload past the browser cache -->
+<button id="hardreload" aria-label="Refresh" title="Refresh: reload the page and today's data"
+  style="position:fixed;top:calc(env(safe-area-inset-top) + 10px);right:10px;z-index:50;width:44px;height:44px;border-radius:22px;
+         border:1px solid #30363d;background:#161b22;color:#e6edf3;font-size:22px;line-height:1;box-shadow:0 2px 8px rgba(0,0,0,.4)">↻</button>
+<script>
+document.getElementById("hardreload").addEventListener("click", function () {
+  this.textContent = "…";
+  var u = new URL(location.href);
+  u.searchParams.set("r", Date.now().toString(36));
+  location.replace(u.toString());
+});
+</script>
 </body></html>
