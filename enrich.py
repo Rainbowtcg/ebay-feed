@@ -29,6 +29,7 @@ PAWN_CAT = "Pawn shops"          # heading in queries.txt; also every listing fr
 TRUSTED_CAT = "Trusted sellers"  # heading in queries.txt; also every listing from a trusted_sellers.txt seller
 SLAB_CAT = "Slab plays"          # played raw copies of cards whose low-grade slabs sell for more than raw + grading
 GRADE_CAT = "Grade plays"        # Near Mint raw copies where landed cost + grading is well under the PSA 9 price
+BULK_CAT = "Modern SIR/SAR bulk"   # heading in queries.txt; @bulk listings (card-show stock, ranked per card)
 LOTS_CAT = "Binders & lots"       # heading in queries.txt; @lots listings (never valued as single cards)
 SEALED_CAT = "Sealed: ETBs & booster boxes"  # heading in queries.txt; also every shop ETB / booster box
 # Australian RRPs (same as the Slab Finder page's NR_RRP): standard Elite Trainer Box, English 36-pack booster box
@@ -363,6 +364,37 @@ def corrections():
     return out
 
 
+
+# ---------------------------------------------------------------- modern SIR/SAR bulk
+BULK_COUNT = [
+    re.compile(r"(?<![\d/#.])(\d{1,3})\s?(?:x\s?)?(?:pok[eé]mon\s|japanese\s|english\s|jp\s|en\s|card\s|mixed\s|assorted\s|different\s)*"
+               r"(?:sirs?|sars?|s\.i\.r|special illustration|special art|cards|pcs|pieces)\b", re.I),
+    re.compile(r"(?:\bx|×)\s?(\d{1,3})\b", re.I),
+    re.compile(r"(?<![\d/#.])\b(\d{1,3})\s?(?:x|×)(?:\s|$)", re.I),
+    re.compile(r"\b(?:lot|set|bundle|collection) of (\d{1,3})\b", re.I),
+    re.compile(r"(\d{1,3})\s?枚"),
+]
+
+
+def bulk_count(title):
+    """How many cards a SIR/SAR bundle title says it has, or None. 151 (the set) and card numbers don't count."""
+    for rx in BULK_COUNT:
+        for m in rx.finditer(title):
+            n = int(m.group(1))
+            if n == 151 and re.search(r"\b151\b", title) and not re.search(r"151\s?(cards|pcs)", title, re.I):
+                continue
+            if 2 <= n <= 500:
+                return n
+    return None
+
+
+def bulk_lang(title, country):
+    if re.search(r"japan|\bjpn?\b|日本|まとめ|ＳＡＲ|\bsars?\b|special art", title, re.I):
+        return "JP"
+    if re.search(r"english|\beng?\b|\bsirs?\b|special illustration", title, re.I):
+        return "EN"
+    return "JP" if country == "JP" else "?"
+
 # ---------------------------------------------------------------- gem-rate targets matched straight from titles
 # The weekly gem-rate list (gemrates.json) covers cards that aren't in values.json, so listings are also matched to it
 # by card number and set size ("30/165", "H24/H32", "RC21"), the card's name and its variant (reverse, shadowless, 1st...).
@@ -564,6 +596,7 @@ def main():
 
     # 2. per-listing extras + categories
     X, digest = {}, {c: {"cat": c, "want": want_cat[c], "total": 0, "new": 0, "drops": 0, "relisted": 0, "under": 0, "hi": []} for c in cats}
+    BULK = []       # modern SIR/SAR bundles, for bulk.html and the summary
     GEM_LIVE = {}   # gem-rate target path -> its live Near Mint raw copies (for gems.html "Buy now" and the summary)
     digest["Other"] = {"cat": "Not in a category", "want": False, "total": 0, "new": 0, "drops": 0, "relisted": 0, "under": 0, "hi": []}
     for i, x in cur.items():
@@ -576,7 +609,9 @@ def main():
             cs = list(dict.fromkeys(cs + [TRUSTED_CAT]))
         if SEALED_CAT in cats and sealed_kind(x):
             cs = list(dict.fromkeys([SEALED_CAT] + cs))
-        if x.get("lot") and LOTS_CAT in cats:
+        if x.get("bulk") and BULK_CAT in cats:
+            cs = [BULK_CAT]                  # SIR/SAR bundles have their own category
+        elif x.get("lot") and LOTS_CAT in cats:
             cs = [LOTS_CAT]                  # binders and lots stay in their own category ...
         elif LOTS_CAT in cs:
             cs = [c for c in cs if c != LOTS_CAT]   # ... and single cards never go in it
@@ -705,6 +740,31 @@ def main():
                 search_words(val[0]) if val else "", (val[0].get("checked") or "") if val else ""]
 
         # binders & lots: no values, so the summary shows what's fresh or about to end, cheapest per card first
+        if x.get("bulk"):
+            if x.get("country") in SKIP_CC or BULK_CAT not in digest:
+                continue
+            d = digest[BULK_CAT]
+            d["total"] += 1
+            d["new"] += bool(new)
+            d["drops"] += bool(drop)
+            n_cards = bulk_count(t)
+            ends_h = round(hours, 1) if (auc and hours is not None and hours > 0) else None
+            BULK.append({"id": i, "t": t[:110], "pl": round(pl, 2), "n": n_cards,
+                         "each": round(pl / n_cards, 2) if n_cards else None,
+                         "lang": bulk_lang(t, x.get("country")), "cc": x.get("country") or "", "seller": x.get("seller") or "",
+                         "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "auc": 1 if auc else 0,
+                         "bids": x.get("bids") or 0, "ends_h": ends_h, "new": 1 if new else 0, "drop": 1 if drop else 0,
+                         "first": r["f"], "graded": 1 if re.search(r"\b(psa|cgc|bgs|beckett|ace)\s?\d", t, re.I) else 0,
+                         "post?": 1 if x.get("post") in (None, "") else 0})
+            if new or drop or (auc and hours is not None and 0 < hours <= AUCTION_HOURS):
+                each = f"; {n_cards} cards ≈ A${pl / n_cards:,.2f} each" if n_cards else "; card count not in the title"
+                why = (f"auction ends in {hours:.0f}h: A${pl:,.0f} now, {x.get('bids') or 0} bids" if auc and hours is not None
+                       and 0 < hours <= AUCTION_HOURS else f"price dropped A${r['pp']:,.0f} → A${p:,.0f}" if drop
+                       else f"new: A${pl:,.0f}{gst_of(pl, p)}{' (auction)' if auc else ''}")
+                d["hi"].append((0 if new else 1, 0, (pl / n_cards) if n_cards else 1e6,
+                                hi_entry(i, x, t, p, pl, why + each + ". Check the photos: every card, condition, English or Japanese", auc)))
+            continue
+
         if x.get("lot"):
             if x.get("country") in SKIP_CC or LOTS_CAT not in digest:
                 continue
@@ -870,6 +930,8 @@ def main():
                                  "v": v, "net8": net8, "net9": net9})
     # PSA 8 still pays first, then the most room under the max
     gem_buys.sort(key=lambda b: (b["net8"] < 0, -b["room"]))
+    # SIR/SAR bundles: cheapest per card first (bundles of 3+ with a count), then the rest by price
+    bulk = sorted(BULK, key=lambda b: (not (b["n"] and b["n"] >= 3), b["each"] if b["n"] and b["n"] >= 3 else b["pl"]))
 
     H = {"updated": today, "ids": ids}
     json.dump(H, open(P("history.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
@@ -879,7 +941,7 @@ def main():
     sus_list = sorted(suspect.values(), key=lambda v: -v["value"])
     json.dump({"day": today, "generated": L.get("generated"), "totals": tot, "first_day": not had_before, "warnings": ebay_warnings(L),
                "categories": [digest[c] for c in order], "suspect_values": sus_list,
-               "gem_live": gem_live, "gem_buys": gem_buys},
+               "gem_live": gem_live, "gem_buys": gem_buys, "bulk": bulk},
               open(P("digest.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # values_refresh.py re-reads these cards' PriceCharting pages first on the next run
     json.dump({"day": today, "cards": sus_list}, open(P("values_suspect.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -889,6 +951,15 @@ def main():
           "Default view: no US/UK/CA sellers, damaged/reprint/wrong-grader tags hidden, slabs over A$1,000 hidden. "
           "Prices are landed (postage, plus GST on overseas items). Highlights need a sold value at or under the price, "
           "or, where there's no sold value yet, a price well under the other live copies.", ""]
+    if bulk:
+        md.append(f"## SIR/SAR bulk — {len(bulk)} bundles live, cheapest per card first (landed, with GST on overseas items)")
+        md.append("Card counts come from the titles. Check the photos for every card, condition and language before buying.")
+        for b in bulk[:15]:
+            md.append(f"- {'A$%.2f each · ' % b['each'] if b['each'] else ''}A${b['pl']:,.0f}"
+                      f"{' for %d' % b['n'] if b['n'] else ' (count not stated)'} · {b['lang']} · {b['cc']}, {b['seller']}"
+                      f"{' · auction, %d bids' % b['bids'] if b['auc'] else ''}{' · new' if b['new'] else ''}"
+                      f"{' · price drop' if b['drop'] else ''} — {b['t'][:80]} {b['url']}")
+        md.append("")
     if gem_buys:
         md.append(f"## Gem buys — {len(gem_buys)} live NM raw copies at or under their max raw (weekly gem-rate list)")
         md.append("Sorted: a PSA 8 still pays first, then most room under the max. Net = after A$"

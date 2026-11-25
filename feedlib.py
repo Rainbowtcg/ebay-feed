@@ -84,7 +84,8 @@ def line_options(line):
     @trusted  run against the sellers in trusted_sellers.txt only
     @c=AU,JP  run only in these countries instead of all of them
     @nonm     skip the extra "Near Mint or Better" pass (halves the calls)
-    @sport    sports cards (soccer autos): searched outside the Pokemon card category, no NM pass"""
+    @sport    sports cards (soccer autos): searched outside the Pokemon card category, no NM pass
+    @bulk     modern SIR/SAR bundles for card-show stock: kept like lots, ranked by price per card"""
     opts, words = {}, []
     for w in line.lstrip("+").split():
         if w.startswith("@"):

@@ -438,6 +438,15 @@ pokemon ("1st edition",shadowless,"gold star",shining,"lv.x",prime,"ex era",delt
 pokemon japanese (lot,bundle,collection,binder) ("old back",vintage,1997,1998,1999,neo,"e-card",holo) @lots @c=AU,NZ,JP
 pokemon (lot,bundle,collection,binder,cards) @lots @pawn
 
+# ---------- Modern SIR/SAR bulk ----------
+# "@bulk" lines: bundles and lots of Special Illustration Rares (English) and Special Art Rares (Japanese), any year,
+# as card-show stock (added 26 Nov 2026). Never valued as single cards: bulk.html and the daily summary rank them by
+# price per card, landed. Mystery packs, repacks, "pick your card" listings and sealed product are left out.
+pokemon (sir,"special illustration rare","special illustration") (lot,bundle,bulk,"job lot",collection,x3,x5,x10,x20) @bulk @c=AU,NZ,JP
+pokemon (sar,"special art rare","special art") (lot,bundle,bulk,collection,x3,x5,x10,x20,まとめ) @bulk @c=AU,JP,HK
+pokemon japanese sar (lot,bundle,set,まとめ売り) @bulk @c=JP
+pokemon (sir,sar) (cards,pcs) (lot,bundle,bulk) -mystery -repack @bulk @c=AU,JP
+
 # ---------- Under-labelled ----------
 # Single cards whose title never says "Pokemon", so most buyers' searches miss them (single-cards category only).
 (charizard,blastoise,venusaur,lugia,umbreon,espeon,rayquaza,gengar,dragonite,mewtwo) holo (1999,2000,wotc,"1st edition",shadowless,neo,"gold star",psa,"near mint") -pokemon -pokémon @c=AU,NZ,JP

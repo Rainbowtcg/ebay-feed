@@ -189,6 +189,27 @@ def keep_lot(title):
     return bool(LOT_WORD.search(title)) and bool(LOT_OLD.search(title) or re.search(r"\bold\b|original|childhood|first gen|gen ?1|nostalg", title, re.I))
 
 
+# "@bulk" search lines: modern Special Illustration Rare / Special Art Rare bundles (SV era on, English and Japanese),
+# bought as card-show stock. Kept without a grade word, never valued as single cards (enrich.py ranks them by price per
+# card). Mystery / repack / "guaranteed hit" packs, sealed product, proxies and accessories stay out.
+BULK_RARE = re.compile(r"\b(sirs?|sars?|s\.i\.r\.?|special illustration( rares?)?|special art( rares?)?)\b|スペシャルアート|ＳＡＲ", re.I)
+BULK_WORD = re.compile(r"\blots?\b|bundles?\b|\bbulk\b|job ?lot|\bx\s?\d{1,3}\b|\b\d{1,3}\s?x\b|\b\d{1,3}\s?(cards|pcs|pieces)\b|"
+                       r"\bset of \d|\bcollection\b|まとめ|\b\d{1,3}\s?(sirs?|sars?)\b", re.I)
+BULK_BAD = re.compile(r"mystery|repack|re-pack|guarantee|chance|random|lucky|\bhits?\b|\bpulls?\b|\bpacks?\b|booster|\bbox\b|"
+                      r"\betb\b|elite trainer|\bbreaks?\b|proxy|custom|orica|fake|replica|metal|gold foil|art print|poster|"
+                      r"sleeves?|toploaders?|binder only|\bempty\b|digital|code card|yu-?gi-?oh|one piece|lorcana|\bmtg\b|"
+                      r"\b(you|u) (choose|pick)\b|\bpick (your|ur|a|1)\b|choose (your|ur|a|1|from)|single cards? (of )?your choice", re.I)
+
+
+def keep_bulk(title):
+    """A lot / bundle of modern SIR or SAR cards (not a single card, not a mystery pack, not pick-your-card)."""
+    if not re.search(r"pok[eé]mon|pocket monsters|ポケモン", title, re.I):
+        return False
+    if BULK_BAD.search(title) or reprint_hit(title):
+        return False
+    return bool(BULK_RARE.search(title)) and bool(BULK_WORD.search(title))
+
+
 DEAD_RUNS = 5          # a line + country that kept nothing in each of the last 5 runs is rested ...
 PROBE_EVERY = 7        # ... and tried again every 7 days in case something turns up
 
@@ -207,7 +228,7 @@ def dead_pairs(queries):
         if not all(q in r.get("q", {}) for r in runs):
             continue                                   # new or changed line: always searched
         _, opts = line_options(q)
-        if opts.get("pawn") or opts.get("trusted") or opts.get("sealed") or opts.get("lots"):
+        if opts.get("pawn") or opts.get("trusted") or opts.get("sealed") or opts.get("lots") or opts.get("bulk"):
             continue
         cs = opts["c"] if isinstance(opts.get("c"), list) else COUNTRIES
         for c in cs:
@@ -459,7 +480,7 @@ def main():
     totals = {}       # (line, country) -> how many listings eBay has for the plain search (it returns 200 at most)
     dead = dead_pairs(queries)
     day_no = datetime.now(timezone.utc).toordinal()
-    def take(res, q, c, asp, want, is_sealed, is_trusted, is_pawn, is_lots):
+    def take(res, q, c, asp, want, is_sealed, is_trusted, is_pawn, is_lots, is_bulk=False):
         """Keep the wanted listings from one page of eBay results."""
         for it in res.get("itemSummaries", []) or []:
             iid = it.get("legacyItemId") or ((it.get("itemId") or "").split("|") + ["", ""])[1] or None
@@ -467,6 +488,8 @@ def main():
             kind = sealed_keep(title) if is_sealed else None
             if is_sealed:
                 ok = bool(kind)
+            elif is_bulk:
+                ok = keep_bulk(title)
             elif is_lots:
                 ok = keep_lot(title) and (not is_pawn or bool(PAWN_ERA.search(title)))
             elif is_trusted:  # trusted sellers' stock: no grade word needed, but hunted eras and not played
@@ -501,6 +524,7 @@ def main():
                 "nm": 1 if asp else 0,
                 "flag": "" if (is_sealed or is_lots) else flag_for(title, asp or is_trusted),
                 **({"lot": 1} if is_lots else {}),
+                **({"bulk": 1} if is_bulk else {}),
                 **({"sealed": kind} if kind else {}),
                 # multi-option listing (seller-defined variations): the summary's price is one option's,
                 # not necessarily the card in the title, so it is never treated as a deal
@@ -534,7 +558,8 @@ def main():
         sq, opts = line_options(q)
         is_pawn, is_trusted = bool(opts.get("pawn")), bool(opts.get("trusted"))
         is_sealed = bool(opts.get("sealed"))
-        is_lots = bool(opts.get("lots"))
+        is_bulk = bool(opts.get("bulk"))     # "@bulk": modern SIR/SAR bundles (handled like lots, ranked per card)
+        is_lots = bool(opts.get("lots")) or is_bulk
         is_sport = bool(opts.get("sport"))  # "@sport": sports cards (soccer autos), searched outside the Pokemon card category
         sellers = pawns if is_pawn else trusted if is_trusted else None
         if (is_pawn or is_trusted) and not sellers:
@@ -560,7 +585,7 @@ def main():
                 break
             try:
                 res = search(tok, sq, c, offset=off, aspect=asp, sellers=sellers, category=None if (is_sealed or is_lots or is_sport) else CATEGORY,
-                             sort="newlyListed" if is_lots else None)
+                             sort="newlyListed" if (is_lots and not is_bulk) else None)
                 calls += 1
                 fails_in_row = 0
                 if asp is None and off == 0 and not sellers and not is_lots and not is_sealed:
@@ -578,7 +603,7 @@ def main():
                 if asp:
                     nm_fail += 1  # stop the NM pass for the rest of the run if eBay keeps refusing it
                 continue
-            take(res, q, c, asp, want, is_sealed, is_trusted, is_pawn, is_lots)
+            take(res, q, c, asp, want, is_sealed, is_trusted, is_pawn, is_lots, is_bulk)
             time.sleep(0.2)
           if quota_hit or budget_hit:
               break
