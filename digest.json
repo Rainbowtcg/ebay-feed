@@ -2,11 +2,11 @@
  "day": "2026-11-26",
  "generated": "2026-11-26T02:19+00:00",
  "totals": {
-  "listings": 63208,
-  "new": 2522,
-  "drops": 802,
-  "relisted": 3348,
-  "valued": 3344
+  "listings": 63253,
+  "new": 2740,
+  "drops": 1392,
+  "relisted": 3347,
+  "valued": 3322
  },
  "first_day": false,
  "warnings": [],
@@ -264,7 +264,7 @@
    "want": true,
    "total": 1341,
    "new": 42,
-   "drops": 29,
+   "drops": 30,
    "relisted": 112,
    "under": 0,
    "hi": [
@@ -297,9 +297,9 @@
   {
    "cat": "DP & Platinum",
    "want": true,
-   "total": 1390,
-   "new": 51,
-   "drops": 20,
+   "total": 1405,
+   "new": 67,
+   "drops": 21,
    "relisted": 95,
    "under": 0,
    "hi": [
@@ -466,9 +466,9 @@
   {
    "cat": "WotC classics",
    "want": false,
-   "total": 2703,
-   "new": 106,
-   "drops": 59,
+   "total": 2715,
+   "new": 120,
+   "drops": 80,
    "relisted": 174,
    "under": 1,
    "hi": [
@@ -542,15 +542,29 @@
      "shop": 0,
      "post?": 0,
      "ck": "No.26|BS||PSA 9|JP|raichu"
+    },
+    {
+     "id": "s-megacash.com.au-9608677687523",
+     "t": "Pokemon PSA 9 Vaporeon 134 Holo Jungle Japanese",
+     "p": 371.1,
+     "pl": 371.1,
+     "cc": "AU",
+     "seller": "Mega Cash",
+     "url": "https://megacash.com.au/products/pokemon-psa-9-vaporeon-134-holo-jungle-japanese",
+     "why": "price dropped A$411 → A$371; A$371 landed is 86% of A$431 value (PSA 9, PriceCharting 2026-11-23) · shop listing, last checked 27 Nov 2:00am",
+     "auc": false,
+     "shop": 1,
+     "post?": 0,
+     "ck": ""
     }
    ]
   },
   {
    "cat": "Japanese vintage",
    "want": false,
-   "total": 1504,
-   "new": 53,
-   "drops": 56,
+   "total": 1505,
+   "new": 54,
+   "drops": 59,
    "relisted": 102,
    "under": 0,
    "hi": [
@@ -623,6 +637,20 @@
      "shop": 0,
      "post?": 1,
      "ck": "No.65|||PSA 9|JP|sabrina"
+    },
+    {
+     "id": "s-megacash.com.au-9609553248483",
+     "t": "Pokémon - PSA 8 Misty’s Seadra Holo #117 Japanese Gym",
+     "p": 101.1,
+     "pl": 101.1,
+     "cc": "AU",
+     "seller": "Mega Cash",
+     "url": "https://megacash.com.au/products/pokemon-psa-8-misty-s-seadra-holo-117-japanese-gym",
+     "why": "price dropped A$111 → A$101; no sold value yet — A$101 landed, the cheapest live copy (next-cheapest other seller A$110, typical asking A$268 across 3 sellers) · shop listing, last checked 27 Nov 2:00am",
+     "auc": false,
+     "shop": 1,
+     "post?": 0,
+     "ck": "No.117|||PSA 8|JP|misty"
     }
    ]
   },
@@ -704,7 +732,7 @@
    "want": true,
    "total": 297,
    "new": 8,
-   "drops": 4,
+   "drops": 9,
    "relisted": 20,
    "under": 0,
    "hi": [
@@ -716,7 +744,7 @@
      "cc": "AU",
      "seller": "Purplish TCG",
      "url": "https://purplishtcg.com/products/psa-10-2017-cosmog-081sm-p-sm-promo-157703549",
-     "why": "no sold value yet — A$362 landed, 26% under the next-cheapest other seller A$491, typical asking A$984 across 3 sellers · shop listing, last checked 26 Nov 1:56pm",
+     "why": "no sold value yet — A$362 landed, 26% under the next-cheapest other seller A$491, typical asking A$984 across 3 sellers · shop listing, last checked 27 Nov 2:00am",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -727,9 +755,9 @@
   {
    "cat": "XY Evolutions",
    "want": true,
-   "total": 217,
+   "total": 175,
    "new": 0,
-   "drops": 1,
+   "drops": 2,
    "relisted": 9,
    "under": 0,
    "hi": []
@@ -737,7 +765,7 @@
   {
    "cat": "Shining / Legend / POP",
    "want": false,
-   "total": 8,
+   "total": 7,
    "new": 0,
    "drops": 0,
    "relisted": 1,
@@ -789,7 +817,7 @@
    "want": true,
    "total": 249,
    "new": 8,
-   "drops": 5,
+   "drops": 8,
    "relisted": 8,
    "under": 0,
    "hi": []
@@ -799,7 +827,7 @@
    "want": true,
    "total": 932,
    "new": 24,
-   "drops": 25,
+   "drops": 26,
    "relisted": 63,
    "under": 0,
    "hi": [
@@ -816,6 +844,20 @@
      "shop": 0,
      "post?": 0,
      "ck": "No.212|N2||Raw|JP|scizor"
+    },
+    {
+     "id": "s-megacash.com.au-9608677687523",
+     "t": "Pokemon PSA 9 Vaporeon 134 Holo Jungle Japanese",
+     "p": 371.1,
+     "pl": 371.1,
+     "cc": "AU",
+     "seller": "Mega Cash",
+     "url": "https://megacash.com.au/products/pokemon-psa-9-vaporeon-134-holo-jungle-japanese",
+     "why": "price dropped A$411 → A$371; A$371 landed is 86% of A$431 value (PSA 9, PriceCharting 2026-11-23) · shop listing, last checked 27 Nov 2:00am",
+     "auc": false,
+     "shop": 1,
+     "post?": 0,
+     "ck": ""
     },
     {
      "id": "198812777253",
@@ -861,9 +903,9 @@
   {
    "cat": "Promos: EX / DP / HGSS",
    "want": true,
-   "total": 1094,
-   "new": 48,
-   "drops": 23,
+   "total": 1095,
+   "new": 49,
+   "drops": 24,
    "relisted": 78,
    "under": 0,
    "hi": [
@@ -987,7 +1029,7 @@
    "want": true,
    "total": 1265,
    "new": 31,
-   "drops": 15,
+   "drops": 18,
    "relisted": 89,
    "under": 0,
    "hi": [
@@ -1013,7 +1055,7 @@
      "cc": "JP",
      "seller": "Hareruya 2",
      "url": "https://www.hareruya2.com/en/products/9015685448000",
-     "why": "no sold value yet — A$112 landed incl. GST, 29% under the next-cheapest other seller A$158, typical asking A$198 across 3 sellers · shop listing, last checked 26 Nov 1:56pm",
+     "why": "no sold value yet — A$112 landed incl. GST, 29% under the next-cheapest other seller A$158, typical asking A$198 across 3 sellers · shop listing, last checked 27 Nov 2:00am",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1052,9 +1094,9 @@
   {
    "cat": "Promos: SM / SWSH / SV / Mega",
    "want": true,
-   "total": 3069,
-   "new": 145,
-   "drops": 36,
+   "total": 3070,
+   "new": 146,
+   "drops": 38,
    "relisted": 149,
    "under": 0,
    "hi": [
@@ -1066,7 +1108,7 @@
      "cc": "AU",
      "seller": "shuffle_daily",
      "url": "https://www.ebay.com.au/itm/257270979754",
-     "why": "no sold value yet — A$27 landed, 50% under the next-cheapest other seller A$54, typical asking A$73 across 4 sellers",
+     "why": "no sold value yet — A$27 landed, 50% under the next-cheapest other seller A$54, typical asking A$72 across 3 sellers",
      "auc": false,
      "shop": 0,
      "post?": 0,
@@ -1136,7 +1178,7 @@
      "cc": "AU",
      "seller": "Purplish TCG",
      "url": "https://purplishtcg.com/products/psa-10-2017-cosmog-081sm-p-sm-promo-157703549",
-     "why": "no sold value yet — A$362 landed, 26% under the next-cheapest other seller A$491, typical asking A$984 across 3 sellers · shop listing, last checked 26 Nov 1:56pm",
+     "why": "no sold value yet — A$362 landed, 26% under the next-cheapest other seller A$491, typical asking A$984 across 3 sellers · shop listing, last checked 27 Nov 2:00am",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1205,9 +1247,9 @@
   {
    "cat": "Mega Cash list",
    "want": true,
-   "total": 291,
-   "new": 10,
-   "drops": 4,
+   "total": 292,
+   "new": 11,
+   "drops": 10,
    "relisted": 10,
    "under": 0,
    "hi": []
@@ -1237,7 +1279,7 @@
    "want": true,
    "total": 364,
    "new": 12,
-   "drops": 2,
+   "drops": 4,
    "relisted": 16,
    "under": 3,
    "hi": [
@@ -1275,11 +1317,11 @@
   {
    "cat": "Sealed: ETBs & booster boxes",
    "want": false,
-   "total": 700,
-   "new": 57,
-   "drops": 7,
+   "total": 673,
+   "new": 61,
+   "drops": 27,
    "relisted": 16,
-   "under": 11,
+   "under": 12,
    "hi": [
     {
      "id": "s-thecardspot.com.au-sealed-9953682719018",
@@ -1289,21 +1331,7 @@
      "cc": "AU",
      "seller": "The Card Spot",
      "url": "https://thecardspot.com.au/products/mega-dream-ex-booster-box-pokemon-tcg",
-     "why": "at or under RRP: A$200 vs A$306 Booster box (36 packs) RRP (35% under) · shop listing, last checked 26 Nov 1:56pm",
-     "auc": false,
-     "shop": 1,
-     "post?": 0,
-     "ck": ""
-    },
-    {
-     "id": "s-gameology.com.au-sealed-8178342396019",
-     "t": "Pokemon TCG Mega Evolution Perfect Order Booster Box",
-     "p": 259.95,
-     "pl": 259.95,
-     "cc": "AU",
-     "seller": "Gameology",
-     "url": "https://gameology.com.au/products/pokemon-tcg-mega-evolution-perfect-order-booster-box",
-     "why": "at or under RRP: A$260 vs A$306 Booster box (36 packs) RRP (15% under) · shop listing, last checked 26 Nov 1:56pm",
+     "why": "at or under RRP: A$200 vs A$306 Booster box (36 packs) RRP (35% under) · shop listing, last checked 27 Nov 2:00am",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1320,6 +1348,20 @@
      "why": "at or under RRP: A$287 vs A$306 Booster box (36 packs) RRP (6% under)",
      "auc": false,
      "shop": 0,
+     "post?": 0,
+     "ck": ""
+    },
+    {
+     "id": "s-gameology.com.au-sealed-8178342396019",
+     "t": "Pokemon TCG Mega Evolution Perfect Order Booster Box",
+     "p": 289.95,
+     "pl": 289.95,
+     "cc": "AU",
+     "seller": "Gameology",
+     "url": "https://gameology.com.au/products/pokemon-tcg-mega-evolution-perfect-order-booster-box",
+     "why": "at or under RRP: A$290 vs A$306 Booster box (36 packs) RRP (5% under) · shop listing, last checked 27 Nov 2:00am",
+     "auc": false,
+     "shop": 1,
      "post?": 0,
      "ck": ""
     },
@@ -1345,7 +1387,7 @@
      "cc": "AU",
      "seller": "Frenly Bricks",
      "url": "https://frenlybricks.store/products/pokemon-tcg-mega-evolution-pitch-black-booster-box-me05",
-     "why": "at or under RRP: A$295 vs A$306 Booster box (36 packs) RRP (4% under) · shop listing, last checked 26 Nov 1:56pm",
+     "why": "at or under RRP: A$295 vs A$306 Booster box (36 packs) RRP (4% under) · shop listing, last checked 27 Nov 2:00am",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1359,7 +1401,21 @@
      "cc": "AU",
      "seller": "Frenly Bricks",
      "url": "https://frenlybricks.store/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box",
-     "why": "at or under RRP: A$295 vs A$306 Booster box (36 packs) RRP (4% under) · shop listing, last checked 26 Nov 1:56pm",
+     "why": "at or under RRP: A$295 vs A$306 Booster box (36 packs) RRP (4% under) · shop listing, last checked 27 Nov 2:00am",
+     "auc": false,
+     "shop": 1,
+     "post?": 0,
+     "ck": ""
+    },
+    {
+     "id": "s-megacash.com.au-sealed-9496756420835",
+     "t": "Pokemon Chaos Rising Booster Box",
+     "p": 296.1,
+     "pl": 296.1,
+     "cc": "AU",
+     "seller": "Mega Cash",
+     "url": "https://megacash.com.au/products/pokemon-chaos-rising-booster-box",
+     "why": "at or under RRP: A$296 vs A$306 Booster box (36 packs) RRP (3% under) · shop listing, last checked 27 Nov 2:00am",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1374,20 +1430,6 @@
      "seller": "batb49",
      "url": "https://www.ebay.com.au/itm/800936430089",
      "why": "at or under RRP: A$298 vs A$306 Booster box (36 packs) RRP (3% under)",
-     "auc": false,
-     "shop": 0,
-     "post?": 0,
-     "ck": ""
-    },
-    {
-     "id": "940069394375",
-     "t": "Pokemon PERFECT ORDER Booster Box BRAND NEW AND SEALED 36 packs",
-     "p": 299.95,
-     "pl": 299.95,
-     "cc": "AU",
-     "seller": "cardsbybrammers",
-     "url": "https://www.ebay.com.au/itm/940069394375",
-     "why": "at or under RRP: A$300 vs A$306 Booster box (36 packs) RRP (2% under)",
      "auc": false,
      "shop": 0,
      "post?": 0,
@@ -1840,7 +1882,7 @@
   {
    "cat": "Under-labelled",
    "want": false,
-   "total": 228,
+   "total": 224,
    "new": 7,
    "drops": 2,
    "relisted": 7,
@@ -1875,9 +1917,9 @@
   {
    "cat": "Not in a category",
    "want": false,
-   "total": 14220,
-   "new": 18,
-   "drops": 15,
+   "total": 14278,
+   "new": 142,
+   "drops": 506,
    "relisted": 74,
    "under": 0,
    "hi": []
@@ -2953,7 +2995,7 @@
    {
     "id": "s-mayhemcollectables.com.au-15427914694970",
     "t": "Victini EX 131/135 (Plasma Storm)  - Holofoil [NM]",
-    "pl": 336,
+    "pl": 341,
     "cc": "AU",
     "seller": "Mayhem Collectables",
     "url": "https://mayhemcollectables.com.au/products/victini-ex-131-135-plasma-storm-holofoil",
@@ -3028,7 +3070,7 @@
    {
     "id": "s-mayhemcollectables.com.au-15420621750586",
     "t": "M Rayquaza EX 61/108 (XY - Roaring Skies)  - Holofoil [NM]",
-    "pl": 246,
+    "pl": 252,
     "cc": "AU",
     "seller": "Mayhem Collectables",
     "url": "https://mayhemcollectables.com.au/products/m-rayquaza-ex-61-108-xy-roaring-skies-holofoil",
@@ -3043,12 +3085,27 @@
    {
     "id": "s-mayhemcollectables.com.au-15546159366458",
     "t": "M Kangaskhan EX 79/106 (XY - Flashfire)  - Holofoil [NM]",
-    "pl": 44,
+    "pl": 45,
     "cc": "AU",
     "seller": "Mayhem Collectables",
     "url": "https://mayhemcollectables.com.au/products/m-kangaskhan-ex-79-106-xy-flashfire-holofoil",
     "shop": 1,
     "new": 0,
+    "drop": 0,
+    "post?": 0,
+    "ok": 1
+   }
+  ],
+  "/game/pokemon-secret-wonders/honchkrow-lv-x-132": [
+   {
+    "id": "s-urbanempirecollectables.com-15619141828797",
+    "t": "2007 Pokémon Honchkrow LV.X 132/132 Diamond & Pearl Secret Wonders Holo Ultra Rare NM",
+    "pl": 111,
+    "cc": "AU",
+    "seller": "Urban Empire Collectables",
+    "url": "https://urbanempirecollectables.com/products/2007-pokemon-honchkrow-lvx-132132-diamond-pearl-secret-wonders-holo-ultra-rare-nm",
+    "shop": 1,
+    "new": 1,
     "drop": 0,
     "post?": 0,
     "ok": 1
@@ -3816,6 +3873,35 @@
    "net9": 249
   },
   {
+   "id": "s-urbanempirecollectables.com-15619141828797",
+   "t": "2007 Pokémon Honchkrow LV.X 132/132 Diamond & Pearl Secret Wonders Holo Ultra Rare NM",
+   "pl": 111,
+   "cc": "AU",
+   "seller": "Urban Empire Collectables",
+   "url": "https://urbanempirecollectables.com/products/2007-pokemon-honchkrow-lvx-132132-diamond-pearl-secret-wonders-holo-ultra-rare-nm",
+   "shop": 1,
+   "new": 1,
+   "drop": 0,
+   "post?": 0,
+   "ok": 1,
+   "pc": "/game/pokemon-secret-wonders/honchkrow-lv-x-132",
+   "name": "Honchkrow LV. X #132   Pokemon Secret Wonders",
+   "set": "pokemon-secret-wonders",
+   "kind": "HUNT",
+   "max_raw": 186,
+   "room": 75,
+   "gem": 0.016,
+   "v": {
+    "Raw": 80,
+    "PSA 7": 154,
+    "PSA 8": 246,
+    "PSA 9": 1003,
+    "PSA 10": 12357
+   },
+   "net8": 33,
+   "net9": 692
+  },
+  {
    "id": "198518173037",
    "t": "Victini EX (131 Full Art) 131/135 Plasma Storm - Pokemon Card - NM",
    "pl": 289,
@@ -3992,7 +4078,7 @@
   {
    "id": "s-mayhemcollectables.com.au-15427914694970",
    "t": "Victini EX 131/135 (Plasma Storm)  - Holofoil [NM]",
-   "pl": 336,
+   "pl": 341,
    "cc": "AU",
    "seller": "Mayhem Collectables",
    "url": "https://mayhemcollectables.com.au/products/victini-ex-131-135-plasma-storm-holofoil",
@@ -4006,7 +4092,7 @@
    "set": "pokemon-plasma-storm",
    "kind": "HUNT",
    "max_raw": 362,
-   "room": 26,
+   "room": 21,
    "gem": 0.009,
    "v": {
     "Raw": 185,
@@ -4015,8 +4101,8 @@
     "PSA 9": 2639,
     "PSA 10": 4007
    },
-   "net8": 6,
-   "net9": 1890
+   "net8": 1,
+   "net9": 1885
   },
   {
    "id": "237187252715",
@@ -4427,7 +4513,7 @@
   {
    "id": "s-mayhemcollectables.com.au-15420621750586",
    "t": "M Rayquaza EX 61/108 (XY - Roaring Skies)  - Holofoil [NM]",
-   "pl": 246,
+   "pl": 252,
    "cc": "AU",
    "seller": "Mayhem Collectables",
    "url": "https://mayhemcollectables.com.au/products/m-rayquaza-ex-61-108-xy-roaring-skies-holofoil",
@@ -4441,7 +4527,7 @@
    "set": "pokemon-roaring-skies",
    "kind": "HUNT",
    "max_raw": 275,
-   "room": 29,
+   "room": 23,
    "gem": 0.047,
    "v": {
     "Raw": 83,
@@ -4450,8 +4536,8 @@
     "PSA 9": 683,
     "PSA 10": 6706
    },
-   "net8": -52,
-   "net9": 278
+   "net8": -58,
+   "net9": 272
   },
   {
    "id": "318860943800",
@@ -4601,7 +4687,7 @@
   {
    "id": "s-mayhemcollectables.com.au-15546159366458",
    "t": "M Kangaskhan EX 79/106 (XY - Flashfire)  - Holofoil [NM]",
-   "pl": 44,
+   "pl": 45,
    "cc": "AU",
    "seller": "Mayhem Collectables",
    "url": "https://mayhemcollectables.com.au/products/m-kangaskhan-ex-79-106-xy-flashfire-holofoil",
@@ -4615,7 +4701,7 @@
    "set": "pokemon-flashfire",
    "kind": "HUNT",
    "max_raw": 45,
-   "room": 1,
+   "room": 0,
    "gem": 0.096,
    "v": {
     "Raw": 23,
@@ -4624,8 +4710,8 @@
     "PSA 9": 192,
     "PSA 10": 1356
    },
-   "net8": -59,
-   "net9": 53
+   "net8": -60,
+   "net9": 52
   }
  ],
  "bulk": [
