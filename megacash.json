@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-27T08:44+00:00",
+ "generated": "2026-11-27T14:56+00:00",
  "usd_aud": 1.5075,
  "rate_source": "open.er-api.com",
- "lookups_this_run": 2,
+ "lookups_this_run": 0,
  "cards": [
   {
    "title": "Pokemon - Gastly 57/144 Rev Holo Skyridge",
@@ -46,8 +46,8 @@
    "gap": 0.22,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 44,
-   "psa9_net": 231
+   "psa8_net": -108,
+   "psa9_net": 38
   },
   {
    "title": "Pokemon - Cool Porygon #15 Black Star Promo - Sealed",
@@ -382,8 +382,8 @@
    "gap": -0.33,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -31,
-   "psa9_net": 306
+   "psa8_net": -82,
+   "psa9_net": 182
   },
   {
    "title": "Pokemon TCG - Umbreon - 24 / 100 - EX Sandstorm - Non Holo",
@@ -427,8 +427,8 @@
    "gap": -0.4,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 50,
-   "psa9_net": 186
+   "psa8_net": -15,
+   "psa9_net": 92
   },
   {
    "title": "Pokemon - Hisuian Typholsion V 053/189 Astral Radiance PSA 10",
@@ -452,49 +452,6 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-astral-radiance/hisuian-typhlosion-v-53)"
-  },
-  {
-   "title": "Pokemon - Blastoise Ex 200/165 S&V 151 PSA 9",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-blastoise-ex-200-165-s-v-151-psa-9",
-   "listed": "2026-11-24",
-   "price": 170.1,
-   "post": 12.0,
-   "cost": 182.1,
-   "grader": "PSA",
-   "grade": "9",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=blastoise+ex+%28200%2F165%29+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=blastoise+ex+%28200%2F165%29+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=blastoise+ex+%28200%2F165%29+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=blastoise+ex+%28200%2F165%29+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/blastoise-ex-200",
-   "matched": "Blastoise ex #200   Pokemon Scarlet & Violet 151",
-   "aud": {
-    "raw": 160,
-    "g7": 148,
-    "g8": 149,
-    "g9": 170,
-    "g95": 181,
-    "g10": 685
-   },
-   "basis": {
-    "n90": 30,
-    "last": "2026-11-23",
-    "basis": "90-day median",
-    "pc_avg": 112.46,
-    "grade": "PSA 9"
-   },
-   "value": 173,
-   "landed": 240,
-   "gap": 0.05,
-   "thin": false,
-   "signal": "OVER-US"
   },
   {
    "title": "Pokemon - Eevee SVP173 PSA 10",
@@ -944,8 +901,8 @@
    "gap": -0.4,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 174,
-   "psa9_net": 939
+   "psa8_net": 40,
+   "psa9_net": 639
   },
   {
    "title": "Pokemon - Charizard (MP) - XY Evolution - 11/108",
@@ -989,8 +946,8 @@
    "gap": -0.38,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 28,
-   "psa9_net": 157
+   "psa8_net": -41,
+   "psa9_net": 60
   },
   {
    "title": "Pokemon - Metal Energy 018/L-P Gym Challenge Promo PSA 10",
@@ -1355,8 +1312,8 @@
    "gap": 0.29,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 398,
-   "psa9_net": 1601
+   "psa8_net": 139,
+   "psa9_net": 1082
   },
   {
    "title": "Pokemon - Typhlosion 64/165 Rev Holo Expedition",
@@ -1400,8 +1357,8 @@
    "gap": 0.66,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -170,
-   "psa9_net": 473
+   "psa8_net": -257,
+   "psa9_net": 247
   },
   {
    "title": "Pokemon - Golbat 60/144 Rev Holo Skyridge",
@@ -1445,8 +1402,8 @@
    "gap": -0.08,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 127,
-   "psa9_net": 666
+   "psa8_net": -19,
+   "psa9_net": 404
   },
   {
    "title": "Pokemon - Houndoom 14/147 Rev Holo Aquapolis",
@@ -1490,8 +1447,8 @@
    "gap": 0.36,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 84,
-   "psa9_net": 499
+   "psa8_net": -44,
+   "psa9_net": 281
   },
   {
    "title": "Pokemon - Marowak 54/147 Rev Holo Aquapolis",
@@ -1535,8 +1492,8 @@
    "gap": 0.86,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -121,
-   "psa9_net": 201
+   "psa8_net": -199,
+   "psa9_net": 53
   },
   {
    "title": "Pokemon - Typhlosion 64/165 Rev Holo Expedition",
@@ -1580,8 +1537,8 @@
    "gap": 0.25,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -80,
-   "psa9_net": 563
+   "psa8_net": -167,
+   "psa9_net": 337
   },
   {
    "title": "Pokemon - Typhlosion 65/165 Rev Holo Expedition",
@@ -1625,8 +1582,8 @@
    "gap": 2.12,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -153,
-   "psa9_net": 196
+   "psa8_net": -224,
+   "psa9_net": 49
   },
   {
    "title": "Pokemon - Ninetales 25/147 Rev Holo Aquapolis",
@@ -1670,8 +1627,8 @@
    "gap": 0.89,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -21,
-   "psa9_net": 12
+   "psa8_net": -120,
+   "psa9_net": -95
   },
   {
    "title": "Pokemon - Vulpix 116/147 Rev Holo Aquapolis",
@@ -1715,8 +1672,8 @@
    "gap": 0.64,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 1,
-   "psa9_net": 41
+   "psa8_net": -101,
+   "psa9_net": -70
   },
   {
    "title": "Pokemon- Venusaur 67/165 Rev Holo Expedition",
@@ -1760,8 +1717,8 @@
    "gap": 0.09,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 54,
-   "psa9_net": 711
+   "psa8_net": -58,
+   "psa9_net": 457
   },
   {
    "title": "Pokemon - Venusaur 68/165 Rev Holo Expedition",
@@ -1805,8 +1762,31 @@
    "gap": 0.88,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -13,
-   "psa9_net": 381
+   "psa8_net": -108,
+   "psa9_net": 200
+  },
+  {
+   "title": "Pokemon- Team Rocket's Mewtwo EX 281/217- Ascended Heroes",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-team-rockets-mewtwo-ex-281-217-ascended-heroes",
+   "listed": "2026-11-17",
+   "price": 229.0,
+   "post": 12.0,
+   "cost": 241.0,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=team+rocket%27s+mewtwo+%28281%2F217%29+-1st+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=team+rocket%27s+mewtwo+%28281%2F217%29+-1st+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=team+rocket%27s+mewtwo+%28281%2F217%29+-1st+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=team+rocket%27s+mewtwo+%28281%2F217%29+-1st+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-ascended-heroes/team-rocket%27s-mewtwo-ex-281)"
   },
   {
    "title": "Pokemon - Golbat 60/144 Rev Holo Skyridge",
@@ -1850,8 +1830,8 @@
    "gap": -0.37,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 235,
-   "psa9_net": 774
+   "psa8_net": 89,
+   "psa9_net": 512
   },
   {
    "title": "Pokemon - Arcanine 2/147 Aquapolis",
@@ -1895,8 +1875,8 @@
    "gap": 0.16,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -44,
-   "psa9_net": 47
+   "psa8_net": -128,
+   "psa9_net": -57
   },
   {
    "title": "Pokemon - Cyndaquil 104/165 Rev Holo Expedition",
@@ -1940,8 +1920,8 @@
    "gap": 0.95,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -229,
-   "psa9_net": 390
+   "psa8_net": -274,
+   "psa9_net": 211
   },
   {
    "title": "Pokemon- Venusaur 30/165 Rev Holo Expedition",
@@ -1985,8 +1965,8 @@
    "gap": 0.47,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 62,
-   "psa9_net": 391
+   "psa8_net": -44,
+   "psa9_net": 214
   },
   {
    "title": "Pokemon - Vulpix 116/147 Rev Holo Aquapolis",
@@ -2030,31 +2010,8 @@
    "gap": 0.37,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 46,
-   "psa9_net": 86
-  },
-  {
-   "title": "Pokemon- Team Rocket's Mewtwo EX 281/217- Ascended Heroes",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-team-rockets-mewtwo-ex-281-217-ascended-heroes",
-   "listed": "2026-11-17",
-   "price": 207.0,
-   "post": 12.0,
-   "cost": 219.0,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=team+rocket%27s+mewtwo+%28281%2F217%29+-1st+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=team+rocket%27s+mewtwo+%28281%2F217%29+-1st+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=team+rocket%27s+mewtwo+%28281%2F217%29+-1st+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=team+rocket%27s+mewtwo+%28281%2F217%29+-1st+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-ascended-heroes/team-rocket%27s-mewtwo-ex-281)"
+   "psa8_net": -56,
+   "psa9_net": -25
   },
   {
    "title": "Pokemon - Magneton 20/144 Rev Holo Skyridge",
@@ -2103,8 +2060,8 @@
    "gap": 1.23,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -205,
-   "psa9_net": 174
+   "psa8_net": -251,
+   "psa9_net": 46
   },
   {
    "title": "Pokemon - Onix 98/147 Rev Holo Aquapolis",
@@ -2148,8 +2105,8 @@
    "gap": -0.27,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 136,
-   "psa9_net": 173
+   "psa8_net": 17,
+   "psa9_net": 45
   },
   {
    "title": "Pokemon - Vulpix 136/165 Rev Holo Expedition",
@@ -2193,8 +2150,8 @@
    "gap": 0.7,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -179,
-   "psa9_net": 476
+   "psa8_net": -231,
+   "psa9_net": 282
   },
   {
    "title": "Pokemon - Cyndaquil 104/165 Rev Holo Expedition",
@@ -2238,8 +2195,8 @@
    "gap": 0.8,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -211,
-   "psa9_net": 408
+   "psa8_net": -256,
+   "psa9_net": 229
   },
   {
    "title": "Pokemon- Venusaur 67/165 Rev Holo Expedition",
@@ -2283,8 +2240,8 @@
    "gap": -0.13,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 108,
-   "psa9_net": 765
+   "psa8_net": -4,
+   "psa9_net": 511
   },
   {
    "title": "Pokemon- Venonat 112/144 Rev Holo Skyridge",
@@ -2328,8 +2285,8 @@
    "gap": 0.2,
    "thin": true,
    "signal": "OVER-US",
-   "psa8_net": 126,
-   "psa9_net": 209
+   "psa8_net": 14,
+   "psa9_net": 79
   },
   {
    "title": "Pokemon - Beedrill 5/144 Rev Holo Skyridge",
@@ -2378,8 +2335,8 @@
    "gap": 0.17,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -62,
-   "psa9_net": 88
+   "psa8_net": -133,
+   "psa9_net": -16
   },
   {
    "title": "Pokemon - Rapidash 31/147 Rev Holo Aquapolis",
@@ -2423,8 +2380,8 @@
    "gap": 0.43,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -82,
-   "psa9_net": -6
+   "psa8_net": -149,
+   "psa9_net": -89
   },
   {
    "title": "Pokemon - Cyndaquil 104/165 Rev Holo Expedition",
@@ -2468,8 +2425,8 @@
    "gap": 0.58,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -184,
-   "psa9_net": 435
+   "psa8_net": -229,
+   "psa9_net": 256
   },
   {
    "title": "Pokemon - Nidoran 81/144 Rev Holo Skyridge",
@@ -2513,8 +2470,8 @@
    "gap": 2.31,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": -16,
-   "psa9_net": 350
+   "psa8_net": -95,
+   "psa9_net": 192
   },
   {
    "title": "Pokemon - Poliwrath 26/144 Rev Holo Skyridge",
@@ -2558,8 +2515,8 @@
    "gap": -0.35,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 163,
-   "psa9_net": 396
+   "psa8_net": 45,
+   "psa9_net": 228
   },
   {
    "title": "Pokemon- Golem 14/165 Holo Expedition",
@@ -2626,8 +2583,8 @@
    "gap": 3.05,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -105,
-   "psa9_net": 78
+   "psa8_net": -165,
+   "psa9_net": -21
   },
   {
    "title": "Pokemon- Venusaur 30/165 Rev Holo Expedition",
@@ -2671,8 +2628,8 @@
    "gap": 0.12,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 116,
-   "psa9_net": 445
+   "psa8_net": 10,
+   "psa9_net": 268
   },
   {
    "title": "Pokemon- Tangela 112/147 Rev Holo Aquapolis",
@@ -2716,8 +2673,8 @@
    "gap": -0.18,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -100,
-   "psa9_net": 144
+   "psa8_net": -159,
+   "psa9_net": 32
   },
   {
    "title": "Pokemon - Nidoqueen 22/144 Rev Holo Skyridge",
@@ -2761,8 +2718,8 @@
    "gap": 0.67,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": 21,
-   "psa9_net": 266
+   "psa8_net": -62,
+   "psa9_net": 130
   },
   {
    "title": "Pokemon - Houndour 86/147 Rev Holo Skyridge",
@@ -2834,8 +2791,8 @@
    "gap": 0.37,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": -8,
-   "psa9_net": 137
+   "psa8_net": -83,
+   "psa9_net": 31
   },
   {
    "title": "Pokemon - Bellossom 5/147 Rev Holo Aquapolis",
@@ -2879,8 +2836,8 @@
    "gap": 1.07,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -146,
-   "psa9_net": 8
+   "psa8_net": -191,
+   "psa9_net": -70
   },
   {
    "title": "Pokemon - Victreebel 42/147 Rev Holo Aquapolis",
@@ -2924,8 +2881,8 @@
    "gap": 1.61,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -70,
-   "psa9_net": -33
+   "psa8_net": -130,
+   "psa9_net": -100
   },
   {
    "title": "Pokemon- Meganium 53/165 Rev Holo Expedition",
@@ -2974,8 +2931,8 @@
    "gap": 0.43,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -135,
-   "psa9_net": 157
+   "psa8_net": -181,
+   "psa9_net": 48
   },
   {
    "title": "Pokemon - Victreebel 42/147 Rev Holo Aquapolis",
@@ -3019,8 +2976,8 @@
    "gap": 1.61,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -70,
-   "psa9_net": -33
+   "psa8_net": -130,
+   "psa9_net": -100
   },
   {
    "title": "Pokemon - Venomoth 111/144 Rev Holo Skyridge",
@@ -3064,8 +3021,8 @@
    "gap": 0.08,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -54,
-   "psa9_net": 146
+   "psa8_net": -117,
+   "psa9_net": 40
   },
   {
    "title": "Pokemon - Zubat 117/144 Rev Holo Skyridge",
@@ -3109,8 +3066,8 @@
    "gap": 0.29,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 7,
-   "psa9_net": 246
+   "psa8_net": -69,
+   "psa9_net": 118
   },
   {
    "title": "Pokemon - Weedle 114/144 Rev Holo Skyridge",
@@ -3154,8 +3111,8 @@
    "gap": -0.03,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -71,
-   "psa9_net": 179
+   "psa8_net": -130,
+   "psa9_net": 65
   },
   {
    "title": "Pokemon - Ariados H3/H32 Holo Aquapolis",
@@ -3199,8 +3156,8 @@
    "gap": -0.08,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 171,
-   "psa9_net": 400
+   "psa8_net": 59,
+   "psa9_net": 238
   },
   {
    "title": "Pokemon - Scyther 106/147 Rev Holo Aquapolis",
@@ -3249,8 +3206,8 @@
    "gap": -0.54,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 110,
-   "psa9_net": 322
+   "psa8_net": 12,
+   "psa9_net": 177
   },
   {
    "title": "Pokemon - Cyndaquil 105/165 Rev Holo Expedition",
@@ -3294,8 +3251,8 @@
    "gap": -0.1,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 118,
-   "psa9_net": 578
+   "psa8_net": 18,
+   "psa9_net": 378
   },
   {
    "title": "Pokemon - Magby 17/165 Holo Expedition",
@@ -3362,8 +3319,8 @@
    "gap": 0.02,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 11,
-   "psa9_net": 258
+   "psa8_net": -51,
+   "psa9_net": 142
   },
   {
    "title": "Pokemon - Umbreon Ex SVP176 Black Star Promo",
@@ -3529,8 +3486,8 @@
    "gap": 2.4,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -313,
-   "psa9_net": -85
+   "psa8_net": -359,
+   "psa9_net": -180
   },
   {
    "title": "Pokemon - Slowking 34/147 Rev Holo Skyridge",
@@ -3597,8 +3554,8 @@
    "gap": 0.33,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 150,
-   "psa9_net": 768
+   "psa8_net": 16,
+   "psa9_net": 500
   },
   {
    "title": "Pokemon - Omastar 23/144 Rev Holo Skyridge",
@@ -3642,8 +3599,8 @@
    "gap": -0.0,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -43,
-   "psa9_net": 39
+   "psa8_net": -134,
+   "psa9_net": -69
   },
   {
    "title": "Pokemon - Wobbuffet 45/144 Rev Holo Skyridge",
@@ -3692,8 +3649,8 @@
    "gap": 1.48,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 81,
-   "psa9_net": 182
+   "psa8_net": -37,
+   "psa9_net": 42
   },
   {
    "title": "Pokemon - Wobbuffet 45/144 Rev Holo Skyridge",
@@ -3742,8 +3699,8 @@
    "gap": 1.48,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 81,
-   "psa9_net": 182
+   "psa8_net": -37,
+   "psa9_net": 42
   },
   {
    "title": "Pokemon - Misdreavus 39/144 Rev Holo Skyridge",
@@ -3787,8 +3744,8 @@
    "gap": 0.95,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": -29,
-   "psa9_net": 156
+   "psa8_net": -117,
+   "psa9_net": 28
   },
   {
    "title": "Pokemon - Haunter 80/165 Rev Holo Expedition",
@@ -3832,8 +3789,8 @@
    "gap": -0.55,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 382,
-   "psa9_net": 582
+   "psa8_net": 205,
+   "psa9_net": 362
   },
   {
    "title": "Pokemon - Tentacruel 38/147 Rev Holo Aquapolis",
@@ -3877,8 +3834,8 @@
    "gap": 1.19,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -51,
-   "psa9_net": 47
+   "psa8_net": -119,
+   "psa9_net": -42
   },
   {
    "title": "Pokemon - Light Togetic 15/105 Holo Neo Destiny",
@@ -3922,8 +3879,8 @@
    "gap": 0.06,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 153,
-   "psa9_net": 1034
+   "psa8_net": 41,
+   "psa9_net": 731
   },
   {
    "title": "Pokemon - Lanturn 20/147 Rev Holo Aquapolis",
@@ -3972,8 +3929,8 @@
    "gap": 0.74,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -153,
-   "psa9_net": 81
+   "psa8_net": -197,
+   "psa9_net": -13
   },
   {
    "title": "Pokemon - Kadabra 84/165 Rev Holo Expedition",
@@ -4022,8 +3979,8 @@
    "gap": 0.28,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 30,
-   "psa9_net": 953
+   "psa8_net": -53,
+   "psa9_net": 670
   },
   {
    "title": "Pokemon - Kadabra 84/165 Rev Holo Expedition",
@@ -4072,8 +4029,8 @@
    "gap": 0.28,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 30,
-   "psa9_net": 953
+   "psa8_net": -53,
+   "psa9_net": 670
   },
   {
    "title": "Pokemon - Aerodactyl 1/144 Skyridge",
@@ -4117,8 +4074,8 @@
    "gap": 0.11,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -44,
-   "psa9_net": 20
+   "psa8_net": -110,
+   "psa9_net": -59
   },
   {
    "title": "Pokemon - Cloyster 8/165 Rev Holo Expedition",
@@ -4162,8 +4119,8 @@
    "gap": 0.2,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -88,
-   "psa9_net": 134
+   "psa8_net": -142,
+   "psa9_net": 32
   },
   {
    "title": "Pokemon - Dark Crobat 2/105 Neo Destiny",
@@ -4207,8 +4164,8 @@
    "gap": -0.42,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 17,
-   "psa9_net": 274
+   "psa8_net": -59,
+   "psa9_net": 142
   },
   {
    "title": "Pokemon - Poliwhirl 89/165 Rev Holo Expedition",
@@ -4252,8 +4209,8 @@
    "gap": 0.31,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -146,
-   "psa9_net": 269
+   "psa8_net": -185,
+   "psa9_net": 140
   },
   {
    "title": "Pokemon - Misdreavus 39/144 Rev Holo Skyridge",
@@ -4297,8 +4254,8 @@
    "gap": 0.06,
    "thin": true,
    "signal": "OVER-US",
-   "psa8_net": 79,
-   "psa9_net": 264
+   "psa8_net": -9,
+   "psa9_net": 136
   },
   {
    "title": "Pokemon - Blissey 2/64 Holo Neo Revelations",
@@ -4342,8 +4299,8 @@
    "gap": -0.36,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 10,
-   "psa9_net": 209
+   "psa8_net": -61,
+   "psa9_net": 95
   },
   {
    "title": "Pokemon- Crobat 4/64 Holo Neo Revelation",
@@ -4386,8 +4343,8 @@
    "gap": -0.32,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 149,
-   "psa9_net": 474
+   "psa8_net": 54,
+   "psa9_net": 308
   },
   {
    "title": "Pokemon - Dark Donphan 3/105 Holo Neo Destiny",
@@ -4431,8 +4388,8 @@
    "gap": 0.11,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 47,
-   "psa9_net": 41
+   "psa8_net": -25,
+   "psa9_net": -30
   },
   {
    "title": "Pokemon - Scyther 10/64 Jungle No Symbol Error",
@@ -4476,8 +4433,8 @@
    "gap": 0.0,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 114,
-   "psa9_net": 333
+   "psa8_net": 28,
+   "psa9_net": 200
   },
   {
    "title": "Pokemon - Mew Holo 53/108 XY Evolution",
@@ -4521,8 +4478,8 @@
    "gap": 0.21,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -40,
-   "psa9_net": 70
+   "psa8_net": -88,
+   "psa9_net": -2
   },
   {
    "title": "Pokemon - Wooper 66/147 Rev Holo Aquapolis",
@@ -4566,8 +4523,8 @@
    "gap": -0.24,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 112,
-   "psa9_net": 544
+   "psa8_net": -36,
+   "psa9_net": 303
   },
   {
    "title": "Pokemon - Articuno 4/144 Skyridge",
@@ -4611,8 +4568,8 @@
    "gap": 0.02,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -133,
-   "psa9_net": 10
+   "psa8_net": -185,
+   "psa9_net": -72
   },
   {
    "title": "Pokemon - Blastoise 37/165 Expedition",
@@ -4656,8 +4613,8 @@
    "gap": -0.09,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 7,
-   "psa9_net": 298
+   "psa8_net": -74,
+   "psa9_net": 154
   },
   {
    "title": "Pokemon - Ampharos 34/165 Rev Holo Expedition",
@@ -4701,8 +4658,8 @@
    "gap": -0.02,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -114,
-   "psa9_net": 404
+   "psa8_net": -164,
+   "psa9_net": 242
   },
   {
    "title": "Pokemon - Feraligatr 47/165 Rev Holo Expedition",
@@ -4746,8 +4703,8 @@
    "gap": -0.49,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 186,
-   "psa9_net": 817
+   "psa8_net": 71,
+   "psa9_net": 565
   },
   {
    "title": "Pokemon - Poliwag 125/165 Rev Holo Expedition",
@@ -4791,8 +4748,8 @@
    "gap": 0.54,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -75,
-   "psa9_net": 398
+   "psa8_net": -130,
+   "psa9_net": 241
   },
   {
    "title": "Pokemon - Wartortle 171/165 S&V 151 PSA 10",
@@ -4927,8 +4884,8 @@
    "gap": -0.25,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 60,
-   "psa9_net": 253
+   "psa8_net": -37,
+   "psa9_net": 114
   },
   {
    "title": "Pokemon - Raikou 005/009 Pokepark 2005 (JPN)",
@@ -4972,8 +4929,8 @@
    "gap": 0.45,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 24,
-   "psa9_net": -11
+   "psa8_net": -56,
+   "psa9_net": -84
   },
   {
    "title": "Pokemon - Ho-Oh 002/009 Pokepark 2005 (JPN)",
@@ -5017,8 +4974,8 @@
    "gap": 3.17,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": -64,
-   "psa9_net": -6
+   "psa8_net": -125,
+   "psa9_net": -79
   },
   {
    "title": "Pokemon- Charizard 19/113 Legendary Treasures Rev Holo",
@@ -5062,8 +5019,8 @@
    "gap": -0.16,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 237,
-   "psa9_net": 1479
+   "psa8_net": 117,
+   "psa9_net": 1089
   },
   {
    "title": "Pokemon - Tauros 008/009 Pokepark 2005 (JPN)",
@@ -5106,8 +5063,8 @@
    "gap": 0.12,
    "thin": true,
    "signal": "OVER-US",
-   "psa8_net": -68,
-   "psa9_net": -60
+   "psa8_net": -116,
+   "psa9_net": -110
   },
   {
    "title": "Pokemon - Entei 001/009 Pokepark 2005 (JPN)",
@@ -5151,8 +5108,8 @@
    "gap": -0.13,
    "thin": true,
    "signal": "FAIR",
-   "psa8_net": -32,
-   "psa9_net": -26
+   "psa8_net": -86,
+   "psa9_net": -81
   },
   {
    "title": "2018 Pokemon TCG Sun And Moon Lost Thunder Kahili #210 PSA 10 Gem Mint",
@@ -5219,8 +5176,8 @@
    "gap": 1.01,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -180,
-   "psa9_net": -51
+   "psa8_net": -249,
+   "psa9_net": -148
   },
   {
    "title": "PSA 10 - 2001 WOTC - Pokemon TCG League Promo - Neo Discovery",
@@ -5666,8 +5623,8 @@
    "gap": 0.29,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -169,
-   "psa9_net": -190
+   "psa8_net": -270,
+   "psa9_net": -286
   },
   {
    "title": "Pokemon TCG - Jessie & James - 062 / 054 - Sky Legend",
@@ -5734,8 +5691,8 @@
    "gap": 3.87,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -203,
-   "psa9_net": -171
+   "psa8_net": -242,
+   "psa9_net": -217
   },
   {
    "title": "Pokemon TCG - Bloodmoon Ursaluna EX - 216 / 167 - Twilight Masquerade - BGS 9.5",
@@ -5976,8 +5933,8 @@
    "gap": -0.8,
    "thin": true,
    "signal": "UNDER",
-   "psa8_net": 216,
-   "psa9_net": 1304
+   "psa8_net": 61,
+   "psa9_net": 913
   },
   {
    "title": "Zapdos EX 202/165 Special Illustration Rare 151 Pokemon PSA 9",
@@ -6069,8 +6026,8 @@
    "gap": -0.18,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 191,
-   "psa9_net": 3039
+   "psa8_net": 70,
+   "psa9_net": 2300
   },
   {
    "title": "Pokemon - JP Oricorio 111/080 Inferno X PSA 10",
@@ -6755,8 +6712,8 @@
    "gap": -0.03,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 357,
-   "psa9_net": 493
+   "psa8_net": 111,
+   "psa9_net": 217
   },
   {
    "title": "Pokemon - Tyranitar 29/165 Rev Holo Expedition",
@@ -6800,8 +6757,8 @@
    "gap": 0.18,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 258,
-   "psa9_net": 717
+   "psa8_net": 65,
+   "psa9_net": 424
   },
   {
    "title": "Pokemon - Gengar 5/62 Holo Fossil 1ST Edition Portuguese",
@@ -6868,8 +6825,8 @@
    "gap": 0.4,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -296,
-   "psa9_net": 1189
+   "psa8_net": -355,
+   "psa9_net": 808
   },
   {
    "title": "Pokemon- Golduck 50A/147 Rev Holo Aquapolis",
@@ -6913,8 +6870,8 @@
    "gap": 3.35,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -169,
-   "psa9_net": 180
+   "psa8_net": -246,
+   "psa9_net": 27
   },
   {
    "title": "Pokemon- Golduck 50B/147 Rev Holo Aquapolis",
@@ -6958,8 +6915,8 @@
    "gap": 2.4,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -313,
-   "psa9_net": -85
+   "psa8_net": -359,
+   "psa9_net": -180
   },
   {
    "title": "Pokemon - Poilwhril 88/144 Rev Holo Skyridge",
@@ -7026,8 +6983,8 @@
    "gap": 0.55,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -84,
-   "psa9_net": -38
+   "psa8_net": -170,
+   "psa9_net": -134
   },
   {
    "title": "Pokemon - Furret 48/147 Rev Holo Aquapolis",
@@ -7071,8 +7028,8 @@
    "gap": 0.55,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 411,
-   "psa9_net": 487
+   "psa8_net": 218,
+   "psa9_net": 277
   },
   {
    "title": "Pokemon - Delibird 49/144 Rev Holo Skyridge",
@@ -7121,8 +7078,8 @@
    "gap": 0.71,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 36,
-   "psa9_net": 73
+   "psa8_net": -76,
+   "psa9_net": -46
   },
   {
    "title": "Pokemon - Raichu 61/165 Rev Holo Expedition",
@@ -7166,8 +7123,8 @@
    "gap": 0.5,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 158,
-   "psa9_net": 1160
+   "psa8_net": 22,
+   "psa9_net": 806
   },
   {
    "title": "Pokemon- Persian 42/144 Rev Holo Skyridge",
@@ -7216,8 +7173,8 @@
    "gap": 3.31,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": 10,
-   "psa9_net": 431
+   "psa8_net": -93,
+   "psa9_net": 237
   },
   {
    "title": "Pokemon- Umbreon 41/147 Aquapolis",
@@ -7261,8 +7218,8 @@
    "gap": -0.36,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 233,
-   "psa9_net": 657
+   "psa8_net": 82,
+   "psa9_net": 414
   },
   {
    "title": "Pokemon - Tyranitar 40/147 Aquapolis",
@@ -7306,8 +7263,8 @@
    "gap": 0.16,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -46,
-   "psa9_net": 208
+   "psa8_net": -136,
+   "psa9_net": 63
   },
   {
    "title": "Pokemon- Rayquaza Vmax TG29/TG30 Silver Tempest PSA 10",
@@ -7399,8 +7356,8 @@
    "gap": 0.12,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -9,
-   "psa9_net": 85
+   "psa8_net": -105,
+   "psa9_net": -31
   },
   {
    "title": "Pokemon - Totodile 135/165 Rev Holo Expedition",
@@ -7444,8 +7401,8 @@
    "gap": -0.23,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 213,
-   "psa9_net": 666
+   "psa8_net": 68,
+   "psa9_net": 423
   },
   {
    "title": "Pokemon - Pichu 22/165 Rev Holo Expedition",
@@ -7489,8 +7446,8 @@
    "gap": -0.25,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 385,
-   "psa9_net": 670
+   "psa8_net": 203,
+   "psa9_net": 427
   },
   {
    "title": "Pokemon- Cyndaquil 104/165 Rev Holo Expedition",
@@ -7534,8 +7491,8 @@
    "gap": 0.95,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -229,
-   "psa9_net": 390
+   "psa8_net": -274,
+   "psa9_net": 211
   },
   {
    "title": "Pokemon- Persian 42/144 Rev Holo Skyridge",
@@ -7584,8 +7541,8 @@
    "gap": 2.87,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": 37,
-   "psa9_net": 458
+   "psa8_net": -66,
+   "psa9_net": 264
   },
   {
    "title": "Pokemon- Ursaring 110/144 Rev Holo Skyridge",
@@ -7629,8 +7586,8 @@
    "gap": -0.37,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 120,
-   "psa9_net": 1082
+   "psa8_net": -1,
+   "psa9_net": 753
   },
   {
    "title": "Pokemon - Clefable 7/165 Holo Expedition",
@@ -7697,8 +7654,8 @@
    "gap": -0.45,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 81,
-   "psa9_net": 2003
+   "psa8_net": -31,
+   "psa9_net": 1474
   },
   {
    "title": "Pokemon - Seel 95/144 Rev Holo Skyridge",
@@ -7742,8 +7699,8 @@
    "gap": 1.23,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 25,
-   "psa9_net": 135
+   "psa8_net": -75,
+   "psa9_net": 11
   },
   {
    "title": "Pokemon - Dragonair 75/165 Rev Holo Expedition",
@@ -7787,8 +7744,8 @@
    "gap": -0.26,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -44,
-   "psa9_net": 506
+   "psa8_net": -125,
+   "psa9_net": 306
   },
   {
    "title": "Pokemon- Dragonair 75/165 Rev Holo Expedition",
@@ -7832,8 +7789,8 @@
    "gap": -0.29,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -35,
-   "psa9_net": 515
+   "psa8_net": -116,
+   "psa9_net": 315
   },
   {
    "title": "Pokemon - Dratini 107/165 Rev Holo Expedition",
@@ -7877,8 +7834,8 @@
    "gap": 1.52,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -132,
-   "psa9_net": 185
+   "psa8_net": -192,
+   "psa9_net": 56
   },
   {
    "title": "Pokemon- Meowth 121/165 Rev Holo Expedition",
@@ -7922,8 +7879,8 @@
    "gap": 1.58,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 130,
-   "psa9_net": 560
+   "psa8_net": 14,
+   "psa9_net": 350
   },
   {
    "title": "Pokemon - Tyranitar 40/147 Aquapolis",
@@ -7967,8 +7924,8 @@
    "gap": -0.07,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 8,
-   "psa9_net": 262
+   "psa8_net": -82,
+   "psa9_net": 117
   },
   {
    "title": "Pokemon- Flaaffy 77/165 Rev Holo Expedition",
@@ -8012,8 +7969,8 @@
    "gap": 0.54,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 114,
-   "psa9_net": 474
+   "psa8_net": 1,
+   "psa9_net": 283
   },
   {
    "title": "Pokemon - Politoed 25/144 Rev Holo Skyridge",
@@ -8057,8 +8014,8 @@
    "gap": 0.05,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 35,
-   "psa9_net": 757
+   "psa8_net": -59,
+   "psa9_net": 507
   },
   {
    "title": "Pokemon - Kangaskhan 88/147 Rev Holo Aquapolis",
@@ -8107,8 +8064,8 @@
    "gap": 0.03,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 126,
-   "psa9_net": 251
+   "psa8_net": 14,
+   "psa9_net": 112
   },
   {
    "title": "Pokemon - Seel 95/144 Rev Holo Skyridge",
@@ -8152,8 +8109,8 @@
    "gap": 0.8,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 70,
-   "psa9_net": 180
+   "psa8_net": -30,
+   "psa9_net": 56
   },
   {
    "title": "Pokemon- Staryu 104/144 Rev Holo Skyridge",
@@ -8197,8 +8154,8 @@
    "gap": 0.46,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": 126,
-   "psa9_net": 205
+   "psa8_net": 14,
+   "psa9_net": 76
   },
   {
    "title": "Pokemon - Electrode 36/144 Rev Holo Skyridge",
@@ -8242,8 +8199,8 @@
    "gap": 0.47,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 156,
-   "psa9_net": 433
+   "psa8_net": 38,
+   "psa9_net": 254
   },
   {
    "title": "Pokemon - Wigglytuff 34/144 Rev Holo Skyridge",
@@ -8287,8 +8244,8 @@
    "gap": 0.09,
    "thin": true,
    "signal": "OVER-US",
-   "psa8_net": -127,
-   "psa9_net": 359
+   "psa8_net": -182,
+   "psa9_net": 199
   },
   {
    "title": "Pokemon- Pidgey 123/165 Rev Holo Expedition",
@@ -8332,8 +8289,8 @@
    "gap": 0.57,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -91,
-   "psa9_net": 58
+   "psa8_net": -154,
+   "psa9_net": -37
   },
   {
    "title": "Pokemon- Mantine 77/144 Rev Holo Skyridge",
@@ -8376,8 +8333,8 @@
    "gap": 0.19,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 38,
-   "psa9_net": 224
+   "psa8_net": -53,
+   "psa9_net": 93
   },
   {
    "title": "Pokemon- Quagsire 30/147 Rev Holo Aquapolis",
@@ -8426,8 +8383,8 @@
    "gap": -0.07,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 240,
-   "psa9_net": 407
+   "psa8_net": 106,
+   "psa9_net": 236
   },
   {
    "title": "Pokemon- Kingdra 19/147 Rev Holo Aquapolis",
@@ -8471,8 +8428,8 @@
    "gap": 0.45,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -31,
-   "psa9_net": 257
+   "psa8_net": -105,
+   "psa9_net": 120
   },
   {
    "title": "Pokemon - Lanturn 20/147 Rev Holo Aquapolis",
@@ -8521,8 +8478,8 @@
    "gap": 0.74,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -153,
-   "psa9_net": 81
+   "psa8_net": -197,
+   "psa9_net": -13
   },
   {
    "title": "Pokemon - Horsea 84/147 Rev Holo Aquapolis",
@@ -8566,8 +8523,8 @@
    "gap": 0.27,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 126,
-   "psa9_net": 245
+   "psa8_net": 24,
+   "psa9_net": 117
   },
   {
    "title": "Pokemon - Swinub 107/144 Skyridge",
@@ -8611,8 +8568,8 @@
    "gap": 0.21,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -137,
-   "psa9_net": -50
+   "psa8_net": -182,
+   "psa9_net": -114
   },
   {
    "title": "Pokemon - Dodrio 2 Of Diamonds Gold Playing Cards PSA 10",
@@ -8679,8 +8636,8 @@
    "gap": 0.98,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -36,
-   "psa9_net": 87
+   "psa8_net": -97,
+   "psa9_net": -1
   },
   {
    "title": "Pokemon - Kingler 15/165 Holo Expedition",
@@ -8926,49 +8883,6 @@
    "signal": "FAIR"
   },
   {
-   "title": "Pokemon - Blastoise Ex 200/165 S&V 151 BGS 9",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-blastoise-ex-200-165-s-v-151-bgs-9",
-   "listed": "2026-11-10",
-   "price": 179.1,
-   "post": 12.0,
-   "cost": 191.1,
-   "grader": "BGS",
-   "grade": "9",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=blastoise+ex+%28200%2F165%29+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=blastoise+ex+%28200%2F165%29+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=blastoise+ex+%28200%2F165%29+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=blastoise+ex+%28200%2F165%29+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/blastoise-ex-200",
-   "matched": "Blastoise ex #200   Pokemon Scarlet & Violet 151",
-   "aud": {
-    "raw": 160,
-    "g7": 148,
-    "g8": 149,
-    "g9": 170,
-    "g95": 181,
-    "g10": 685
-   },
-   "basis": {
-    "n90": 30,
-    "last": "2026-11-23",
-    "basis": "90-day median",
-    "pc_avg": 112.46,
-    "grade": "BGS 9"
-   },
-   "value": 173,
-   "landed": 240,
-   "gap": 0.1,
-   "thin": false,
-   "signal": "OVER-US"
-  },
-  {
    "title": "Pokemon - Charmander 168/165 PSA 9 - 151",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-charmander-168-165-psa-9-152",
@@ -9144,8 +9058,8 @@
    "gap": -0.1,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 125,
-   "psa9_net": 740
+   "psa8_net": -35,
+   "psa9_net": 446
   },
   {
    "title": "Pokemon- Suicune 37/147 Rev Holo Aquapolis",
@@ -9189,8 +9103,8 @@
    "gap": 0.65,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 132,
-   "psa9_net": 616
+   "psa8_net": -26,
+   "psa9_net": 353
   },
   {
    "title": "Pokemon - Dugtrio 52/144 Rev Holo Skyridge",
@@ -9234,8 +9148,8 @@
    "gap": 0.05,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 40,
-   "psa9_net": 63
+   "psa8_net": -76,
+   "psa9_net": -59
   },
   {
    "title": "Pokemon - Grimer 79/147 Rev Holo Aquapolis",
@@ -9279,8 +9193,8 @@
    "gap": 1.34,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": 202,
-   "psa9_net": 563
+   "psa8_net": 54,
+   "psa9_net": 337
   },
   {
    "title": "Pokemon - Marowak 54/147 Rev Holo Aquapolis",
@@ -9324,8 +9238,8 @@
    "gap": 0.86,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -121,
-   "psa9_net": 201
+   "psa8_net": -199,
+   "psa9_net": 53
   },
   {
    "title": "Pokemon- Primeape 29/147 Rev Holo Aquapolis",
@@ -9369,8 +9283,8 @@
    "gap": 0.07,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -173,
-   "psa9_net": 146
+   "psa8_net": -232,
+   "psa9_net": 18
   },
   {
    "title": "Pokemon - Scyther 57/147 Rev Holo Aquapolis",
@@ -9414,8 +9328,8 @@
    "gap": -0.01,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 21,
-   "psa9_net": 332
+   "psa8_net": -72,
+   "psa9_net": 172
   },
   {
    "title": "Pokemon - Vulpix 136/165 Rev Holo Expedition",
@@ -9459,8 +9373,8 @@
    "gap": 0.63,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -170,
-   "psa9_net": 485
+   "psa8_net": -222,
+   "psa9_net": 291
   },
   {
    "title": "Pokemon- Scizor 32/147 Rev Holo Aquapolis",
@@ -9504,8 +9418,8 @@
    "gap": -0.06,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 49,
-   "psa9_net": 607
+   "psa8_net": -46,
+   "psa9_net": 391
   },
   {
    "title": "Pokemon - Machamp 16/165 Holo Expedition",
@@ -9572,8 +9486,8 @@
    "gap": -0.03,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -5,
-   "psa9_net": 286
+   "psa8_net": -87,
+   "psa9_net": 141
   },
   {
    "title": "Pokemon - Dark Charmeleon 32/82 W Stamped WOTC Promo",
@@ -10000,8 +9914,8 @@
    "gap": -0.25,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 385,
-   "psa9_net": 670
+   "psa8_net": 203,
+   "psa9_net": 427
   },
   {
    "title": "Pokemon- Lickitung 90/147 Rev Holo Aquapolis",
@@ -10045,8 +9959,8 @@
    "gap": -0.09,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 352,
-   "psa9_net": 412
+   "psa8_net": 191,
+   "psa9_net": 238
   },
   {
    "title": "Pokemon- Raichu 25/165 Holo Expedition",
@@ -10113,8 +10027,8 @@
    "gap": 0.1,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 176,
-   "psa9_net": 212
+   "psa8_net": -12,
+   "psa9_net": 17
   },
   {
    "title": "Pokemon- Zapdos 44/147 Rev Holo Aquapolis",
@@ -10158,8 +10072,8 @@
    "gap": 0.11,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 233,
-   "psa9_net": 250
+   "psa8_net": 39,
+   "psa9_net": 52
   },
   {
    "title": "Pokemon- Jolteon 13/144 Rev Holo Expedition",
@@ -10226,8 +10140,8 @@
    "gap": -0.64,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 1500,
-   "psa9_net": 1915
+   "psa8_net": 1053,
+   "psa9_net": 1377
   },
   {
    "title": "Pokemon - Slowking 34/147 Rev Holo Aquapolis",
@@ -10294,8 +10208,8 @@
    "gap": 0.02,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 179,
-   "psa9_net": 997
+   "psa8_net": 31,
+   "psa9_net": 671
   },
   {
    "title": "Pokemon - Dark Scizor 9/105 Holo Neo Destiny",
@@ -10339,8 +10253,8 @@
    "gap": 0.08,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 196,
-   "psa9_net": 430
+   "psa8_net": 44,
+   "psa9_net": 227
   },
   {
    "title": "Pokemon- Dark Feraligatr 5/105 Holo Neo Destiny",
@@ -10384,8 +10298,8 @@
    "gap": 0.29,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 83,
-   "psa9_net": 303
+   "psa8_net": -45,
+   "psa9_net": 127
   },
   {
    "title": "Pokemon- Feraligatr 12/165 Rev Holo Expedition",
@@ -10429,8 +10343,8 @@
    "gap": 0.32,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 98,
-   "psa9_net": 772
+   "psa8_net": -31,
+   "psa9_net": 496
   },
   {
    "title": "Pokemon- Totodile 135/165 Rev Holo Expedition",
@@ -10474,8 +10388,8 @@
    "gap": -0.15,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 186,
-   "psa9_net": 639
+   "psa8_net": 41,
+   "psa9_net": 396
   },
   {
    "title": "Pokemon - Dark Houndoom 7/105 Holo Neo Destiny",
@@ -10519,8 +10433,8 @@
    "gap": -0.35,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 162,
-   "psa9_net": 413
+   "psa8_net": 23,
+   "psa9_net": 219
   },
   {
    "title": "Pokemon- Venusaur 18/110 Holo Legendary Collection",
@@ -10587,8 +10501,8 @@
    "gap": 0.33,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 150,
-   "psa9_net": 768
+   "psa8_net": 16,
+   "psa9_net": 500
   },
   {
    "title": "Pokemon - Typhlosion 28/165 Rev Holo Expedition",
@@ -10632,8 +10546,8 @@
    "gap": 0.52,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -176,
-   "psa9_net": 222
+   "psa8_net": -236,
+   "psa9_net": 76
   },
   {
    "title": "Pokemon- Entei 10/147 Rev Holo Aquapolis",
@@ -10677,8 +10591,8 @@
    "gap": 0.56,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 103,
-   "psa9_net": 305
+   "psa8_net": -13,
+   "psa9_net": 145
   },
   {
    "title": "Pokemon- Marill 53/147 Rev Holo Aquapolis",
@@ -10722,8 +10636,8 @@
    "gap": 0.2,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -77,
-   "psa9_net": -58
+   "psa8_net": -151,
+   "psa9_net": -136
   },
   {
    "title": "Pokemon- Venusaur 67/165 Rev Holo Expedition",
@@ -10767,8 +10681,8 @@
    "gap": -0.13,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 108,
-   "psa9_net": 765
+   "psa8_net": -4,
+   "psa9_net": 511
   },
   {
    "title": "Pokemon- Octillery H20/H32 Holo Aquapolis",
@@ -10812,8 +10726,8 @@
    "gap": 0.06,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 64,
-   "psa9_net": 390
+   "psa8_net": -35,
+   "psa9_net": 220
   },
   {
    "title": "Pokemon- Kingler 15/165 Holo Expedition",
@@ -10880,8 +10794,8 @@
    "gap": 0.42,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 50,
-   "psa9_net": 444
+   "psa8_net": -45,
+   "psa9_net": 263
   },
   {
    "title": "Pokemon - Dark Vaporeon 9/110 Holo Legendary Collection",
@@ -10948,8 +10862,8 @@
    "gap": 0.43,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": -78,
-   "psa9_net": 256
+   "psa8_net": -142,
+   "psa9_net": 120
   },
   {
    "title": "Pokemon- Poliwrath 60/165 Rev Holo Expedition",
@@ -10993,8 +10907,8 @@
    "gap": 0.14,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 19,
-   "psa9_net": 457
+   "psa8_net": -62,
+   "psa9_net": 281
   },
   {
    "title": "Pokemon- Poliwag 125/165 Rev Holo Expedition",
@@ -11038,17 +10952,17 @@
    "gap": 0.87,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -102,
-   "psa9_net": 371
+   "psa8_net": -157,
+   "psa9_net": 214
   },
   {
    "title": "Pokemon - PSA 9 1ST Edition Gengar 5/62 Holo Fossil",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-9-1st-edition-gengar-5-62-holo-fossil",
    "listed": "2026-11-05",
-   "price": 3150.0,
+   "price": 3500.0,
    "post": 12.0,
-   "cost": 3162.0,
+   "cost": 3512.0,
    "grader": "PSA",
    "grade": "9",
    "jp": false,
@@ -11085,7 +10999,7 @@
    },
    "value": 4786,
    "landed": 5314,
-   "gap": -0.34,
+   "gap": -0.27,
    "thin": false,
    "signal": "UNDER"
   },
@@ -11131,8 +11045,8 @@
    "gap": -0.08,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 199,
-   "psa9_net": 836
+   "psa8_net": 13,
+   "psa9_net": 511
   },
   {
    "title": "Pokemon - Birthday Pikachu Worlds Collection Black Star Promo #24",
@@ -11227,8 +11141,8 @@
    "gap": 0.55,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 154,
-   "psa9_net": 1619
+   "psa8_net": 17,
+   "psa9_net": 1163
   },
   {
    "title": "Pokemon - Erikas Venusaur Holo 4/132 Gym Challenge",
@@ -11295,8 +11209,8 @@
    "gap": -0.37,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 270,
-   "psa9_net": 935
+   "psa8_net": 127,
+   "psa9_net": 648
   },
   {
    "title": "Pokemon- Kyogre Ex 148/160 Primal Clash",
@@ -11340,8 +11254,8 @@
    "gap": -0.33,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 209,
-   "psa9_net": 7211
+   "psa8_net": 79,
+   "psa9_net": 5562
   },
   {
    "title": "Pokemon - Crobat Prime 84/95 HGSS Unleashed",
@@ -11430,7 +11344,7 @@
    "thin": true,
    "signal": "OVER",
    "psa8_net": null,
-   "psa9_net": -32
+   "psa9_net": -99
   },
   {
    "title": "Pokemon - Gyarados Holo XY109 Black Star Promo",
@@ -11479,8 +11393,8 @@
    "gap": 0.27,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 113,
-   "psa9_net": 1319
+   "psa8_net": 18,
+   "psa9_net": 962
   },
   {
    "title": "Pokemon - Xerneas Ex 146/146 XY Base Set",
@@ -11575,8 +11489,8 @@
    "gap": -0.32,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 11,
-   "psa9_net": 260
+   "psa8_net": -58,
+   "psa9_net": 136
   },
   {
    "title": "Pokemon - Rockets Hitmonchan Holo 11/132 Gym Challenge",
@@ -11666,8 +11580,8 @@
    "gap": -0.44,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 15274,
-   "psa9_net": 17916
+   "psa8_net": 11133,
+   "psa9_net": 13202
   },
   {
    "title": "Pokemon - PSA 10 JP Raikou 039/088 Split Earth",
@@ -11945,34 +11859,6 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-japanese-awakening-legends/ho-oh-250)"
-  },
-  {
-   "title": "Pokemon - PSA 10 JP Pikachu 124/S-P PikaPika! Pikachu! Campaign Promo",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-psa-10-jp-pikachu-124-s-p-pikapika-pikachu-campaign-promo",
-   "listed": "2026-10-31",
-   "price": 269.1,
-   "post": 12.0,
-   "cost": 281.1,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": true,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%28124%2Fs-p%29+japanese&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%28124%2Fs-p%29+japanese&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%28124%2Fs-p%29+japanese&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%28124%2Fs-p%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": {
-    "aud": 292.8,
-    "country": "JP",
-    "url": "https://www.ebay.com.au/itm/227631053501",
-    "copies": 2
-   },
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-japanese-promo/pikachu-227s-p)"
   },
   {
    "title": "Pokemon - PSA 10 JP Seismitoad 109/086 Black Bolt",
@@ -12683,8 +12569,8 @@
    "gap": 0.17,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 841,
-   "psa9_net": 2354
+   "psa8_net": 476,
+   "psa9_net": 1661
   },
   {
    "title": "Pokemon - Alakazam 1/165 Holo Expedition",
@@ -12751,8 +12637,8 @@
    "gap": -0.32,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 391,
-   "psa9_net": 1198
+   "psa8_net": 144,
+   "psa9_net": 775
   },
   {
    "title": "Pokemon - Dewgong H6/H32 Holo Skyridge",
@@ -12796,8 +12682,8 @@
    "gap": -0.32,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 453,
-   "psa9_net": 579
+   "psa8_net": 211,
+   "psa9_net": 311
   },
   {
    "title": "Pokemon - Suicune H25/H32 Holo Aquapolis",
@@ -12841,8 +12727,8 @@
    "gap": -0.27,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 1004,
-   "psa9_net": 3368
+   "psa8_net": 643,
+   "psa9_net": 2494
   },
   {
    "title": "Pokemon - Light Dragonite 14/105 Holo Neo Destiny",
@@ -12886,8 +12772,8 @@
    "gap": -0.33,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 233,
-   "psa9_net": 1062
+   "psa8_net": 39,
+   "psa9_net": 688
   },
   {
    "title": "Pokemon - Raichu 27/144 Rev Holo Skyridge",
@@ -12931,8 +12817,8 @@
    "gap": 0.02,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 157,
-   "psa9_net": 477
+   "psa8_net": -20,
+   "psa9_net": 231
   },
   {
    "title": "Pokemon - Piloswine H22/H32 Holo Skyridge",
@@ -12976,8 +12862,8 @@
    "gap": -0.13,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 115,
-   "psa9_net": 458
+   "psa8_net": -49,
+   "psa9_net": 219
   },
   {
    "title": "Pokemon - Weakness Guard 141/147 Rev Holo Aquapolis",
@@ -13021,8 +12907,8 @@
    "gap": -0.08,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 1031,
-   "psa9_net": 1182
+   "psa8_net": 674,
+   "psa9_net": 792
   },
   {
    "title": "Pokemon - Typhlosion 64/165 Rev Holo Expedition",
@@ -13066,8 +12952,8 @@
    "gap": 0.66,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -170,
-   "psa9_net": 473
+   "psa8_net": -257,
+   "psa9_net": 247
   },
   {
    "title": "Pokemon - Tentacruel H26/H32 Holo Aquapolis",
@@ -13111,8 +12997,8 @@
    "gap": 0.01,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 262,
-   "psa9_net": 503
+   "psa8_net": 82,
+   "psa9_net": 270
   },
   {
    "title": "Pokemon - Magcargo Holo H17/H32 Skyridge",
@@ -13156,8 +13042,8 @@
    "gap": 0.31,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": 475,
-   "psa9_net": 724
+   "psa8_net": 248,
+   "psa9_net": 443
   },
   {
    "title": "Pokemon - Dark Tyranitar Holo 11/105 Neo Destiny",
@@ -13201,8 +13087,8 @@
    "gap": 0.01,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 210,
-   "psa9_net": 618
+   "psa8_net": 41,
+   "psa9_net": 360
   },
   {
    "title": "Pokemon - Pikachu 124/165 Rev Holo Expedition",
@@ -13246,8 +13132,8 @@
    "gap": 0.14,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 886,
-   "psa9_net": 944
+   "psa8_net": 578,
+   "psa9_net": 623
   },
   {
    "title": "Pokemon - Magby 17/165 Holo Expedition",
@@ -13314,8 +13200,8 @@
    "gap": 0.86,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -140,
-   "psa9_net": 790
+   "psa8_net": -214,
+   "psa9_net": 514
   },
   {
    "title": "Pokemon - Pokemon Park 131/147 Rev Holo Aquapolis",
@@ -13359,8 +13245,8 @@
    "gap": 1.7,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -243,
-   "psa9_net": 563
+   "psa8_net": -294,
+   "psa9_net": 337
   },
   {
    "title": "Pokemon - Machamp 16/165 Holo Expedition",
@@ -13427,8 +13313,8 @@
    "gap": 0.02,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 58,
-   "psa9_net": 359
+   "psa8_net": -30,
+   "psa9_net": 207
   },
   {
    "title": "Pokemon - PSA 7 Arcanine H2/H32 Aquapolis",
@@ -13777,8 +13663,8 @@
    "gap": -0.25,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 18265,
-   "psa9_net": 23390
+   "psa8_net": 13377,
+   "psa9_net": 17390
   },
   {
    "title": "Pokemon - Pikachu 84/144 Rev Holo Skyridge",
@@ -13822,8 +13708,8 @@
    "gap": -0.1,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 741,
-   "psa9_net": 5518
+   "psa8_net": 301,
+   "psa9_net": 4041
   },
   {
    "title": "Pokemon - Eevee 54/144 Rev Holo Skyridge",
@@ -13867,8 +13753,8 @@
    "gap": 2.51,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": 298,
-   "psa9_net": 1475
+   "psa8_net": -47,
+   "psa9_net": 875
   },
   {
    "title": "Pokemon - Espeon Holo H9/H32 Aquapolis",
@@ -13912,8 +13798,8 @@
    "gap": -0.23,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 1954,
-   "psa9_net": 3914
+   "psa8_net": 1270,
+   "psa9_net": 2804
   },
   {
    "title": "Pokemon - Ho-Oh Rev Holo 149/144 Skyridge",
@@ -13957,8 +13843,8 @@
    "gap": 0.48,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 1200,
-   "psa9_net": 2368
+   "psa8_net": 679,
+   "psa9_net": 1594
   },
   {
    "title": "Pokemon - Pikachu 84/144 Rev Holo Skyridge",
@@ -14002,8 +13888,8 @@
    "gap": -0.21,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 876,
-   "psa9_net": 5653
+   "psa8_net": 436,
+   "psa9_net": 4176
   },
   {
    "title": "Pokemon - Cubone 103/165 Rev Holo Expedition",
@@ -14047,8 +13933,8 @@
    "gap": 0.21,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 636,
-   "psa9_net": 1480
+   "psa8_net": 257,
+   "psa9_net": 918
   },
   {
    "title": "Pokemon- Umbreon 13/75 Holo Neo Discovery",
@@ -14092,8 +13978,8 @@
    "gap": 0.31,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 1098,
-   "psa9_net": 3001
+   "psa8_net": 639,
+   "psa9_net": 2128
   },
   {
    "title": "Pokemon - Shining Celebi 106/105 Neo Destiny",
@@ -14137,8 +14023,8 @@
    "gap": -0.06,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 400,
-   "psa9_net": 1519
+   "psa8_net": 92,
+   "psa9_net": 968
   },
   {
    "title": "Pokemon - Espeon 11/147 Rev Holo Aquapolis",
@@ -14182,8 +14068,8 @@
    "gap": 0.76,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 54,
-   "psa9_net": 1185
+   "psa8_net": -147,
+   "psa9_net": 738
   },
   {
    "title": "Pokemon - Shining Noctowl 110/105 Neo Destiny",
@@ -14227,8 +14113,8 @@
    "gap": 0.31,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 107,
-   "psa9_net": 580
+   "psa8_net": -98,
+   "psa9_net": 272
   },
   {
    "title": "Pokemon - Shining Kabutops 108/105 Neo Destiny",
@@ -14272,8 +14158,8 @@
    "gap": -0.19,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 520,
-   "psa9_net": 889
+   "psa8_net": 225,
+   "psa9_net": 514
   },
   {
    "title": "Pokemon - Espeon 11/147 Rev Holo Aquapolis",
@@ -14317,8 +14203,8 @@
    "gap": 0.67,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 90,
-   "psa9_net": 1221
+   "psa8_net": -111,
+   "psa9_net": 774
   },
   {
    "title": "Pokemon - Golem Rev Holo 148/144 Skyridge",
@@ -14362,8 +14248,8 @@
    "gap": -0.27,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 384,
-   "psa9_net": 1326
+   "psa8_net": 119,
+   "psa9_net": 857
   },
   {
    "title": "Pokemon - Tyranitar 40/147 Rev Holo Aquapolis",
@@ -14407,8 +14293,8 @@
    "gap": -0.26,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 346,
-   "psa9_net": 1153
+   "psa8_net": 99,
+   "psa9_net": 730
   },
   {
    "title": "Pokemon - Crobat 147/144 Rev Holo Skyridge",
@@ -14452,8 +14338,8 @@
    "gap": -0.15,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 446,
-   "psa9_net": 929
+   "psa8_net": 176,
+   "psa9_net": 555
   },
   {
    "title": "Pokemon - Charizard 4/102 Holo Base Set Unlimited",
@@ -14502,8 +14388,8 @@
    "gap": -0.54,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 1254,
-   "psa9_net": 3456
+   "psa8_net": 819,
+   "psa9_net": 2543
   },
   {
    "title": "Pokemon - Arcanine 2/147 Rev Holo Aquapolis",
@@ -14547,8 +14433,8 @@
    "gap": 0.74,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 67,
-   "psa9_net": 742
+   "psa8_net": -110,
+   "psa9_net": 418
   },
   {
    "title": "Pokemon - Kabutops 150/144 Rev Holo Skyridge",
@@ -14592,8 +14478,8 @@
    "gap": -0.27,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 527,
-   "psa9_net": 1674
+   "psa8_net": 250,
+   "psa9_net": 1148
   },
   {
    "title": "Pokemon - Light Arcanine 12/105 Holo Neo Destiny",
@@ -14637,8 +14523,8 @@
    "gap": -0.09,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 180,
-   "psa9_net": 1198
+   "psa8_net": -21,
+   "psa9_net": 775
   },
   {
    "title": "Pokemon - Mewtwo 56/165 Rev Holo Expedition",
@@ -14682,8 +14568,8 @@
    "gap": 0.33,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 565,
-   "psa9_net": 1802
+   "psa8_net": 280,
+   "psa9_net": 1248
   },
   {
    "title": "Pokemon - Mewtwo 56/165 Rev Holo Expedition",
@@ -14727,8 +14613,8 @@
    "gap": 0.11,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 655,
-   "psa9_net": 1892
+   "psa8_net": 370,
+   "psa9_net": 1338
   },
   {
    "title": "Pokemon - Pidgey 85/110 Rev Holo Legendary Collection",
@@ -14772,8 +14658,8 @@
    "gap": 0.53,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 48,
-   "psa9_net": 657
+   "psa8_net": -92,
+   "psa9_net": 385
   },
   {
    "title": "Pokemon - Raichu 61/165 Rev Holo Expedition",
@@ -14817,8 +14703,8 @@
    "gap": 0.8,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 104,
-   "psa9_net": 1106
+   "psa8_net": -32,
+   "psa9_net": 752
   },
   {
    "title": "Pokemon - Slowking 34/147 Rev Holo Aquapolis",
@@ -14885,8 +14771,8 @@
    "gap": 0.2,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 29,
-   "psa9_net": 203
+   "psa8_net": -67,
+   "psa9_net": 69
   },
   {
    "title": "Pokemon - Kangaskhan 88/147 Rev Holo Aquapolis",
@@ -14935,8 +14821,8 @@
    "gap": 0.13,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 108,
-   "psa9_net": 233
+   "psa8_net": -4,
+   "psa9_net": 94
   },
   {
    "title": "Pokemon - Kadabra 84/165 Rev Holo Expedition",
@@ -14985,8 +14871,8 @@
    "gap": 0.28,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 30,
-   "psa9_net": 953
+   "psa8_net": -53,
+   "psa9_net": 670
   },
   {
    "title": "Pokemon - Gyarados Ex 114/122 XY Breakpoint",
@@ -15035,8 +14921,8 @@
    "gap": 0.62,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -38,
-   "psa9_net": 220
+   "psa8_net": -114,
+   "psa9_net": 88
   },
   {
    "title": "Pokemon - Kangaskhan Holo 5/64 Jungle PSA 9",
@@ -15660,8 +15546,8 @@
    "gap": 0.12,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 1,
-   "psa9_net": 139
+   "psa8_net": -58,
+   "psa9_net": 50
   },
   {
    "title": "Pokemon - PSA 10 Oricorio ex 024 - Mega Charizard UPC Promo",
@@ -16511,8 +16397,8 @@
    "gap": 0.49,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -33,
-   "psa9_net": 302
+   "psa8_net": -91,
+   "psa9_net": 171
   },
   {
    "title": "Pokemon - Gengar 050/088 Eb Games Stamp Promo PSA 10",
@@ -16819,49 +16705,6 @@
    "value": 106,
    "landed": 166,
    "gap": 0.38,
-   "thin": false,
-   "signal": "OVER-US"
-  },
-  {
-   "title": "Pokemon - Squirtle 170/165 PSA 9 - English 151",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-squirtle-170-165-psa-9-english-151",
-   "listed": "2026-09-23",
-   "price": 134.1,
-   "post": 12.0,
-   "cost": 146.1,
-   "grader": "PSA",
-   "grade": "9",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+%28170%2F165%29+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+%28170%2F165%29+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+%28170%2F165%29+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=squirtle+%28170%2F165%29+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/squirtle-170",
-   "matched": "Squirtle #170   Pokemon Scarlet & Violet 151",
-   "aud": {
-    "raw": 113,
-    "g7": 99,
-    "g8": 127,
-    "g9": 139,
-    "g95": 152,
-    "g10": 633
-   },
-   "basis": {
-    "n90": 30,
-    "last": "2026-11-24",
-    "basis": "90-day median",
-    "pc_avg": 92.0,
-    "grade": "PSA 9"
-   },
-   "value": 127,
-   "landed": 189,
-   "gap": 0.15,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -17651,54 +17494,6 @@
    "signal": "OVER-US"
   },
   {
-   "title": "Pokemon - PSA 10 Electrode Holo #101 JPN",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-psa-10-electrode-holo-101-jpn",
-   "listed": "2026-08-20",
-   "price": 539.1,
-   "post": 12.0,
-   "cost": 551.1,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": true,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=electrode+101+japanese&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=electrode+101+japanese&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=electrode+101+japanese&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=electrode+101+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": {
-    "aud": 1035.76,
-    "country": "JP",
-    "url": "https://www.ebay.com.au/itm/377622878621",
-    "copies": 7
-   },
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-jungle/electrode-101",
-   "matched": "Electrode #101   Pokemon Japanese Jungle",
-   "aud": {
-    "raw": 14,
-    "g7": 45,
-    "g8": 66,
-    "g9": 98,
-    "g95": 124,
-    "g10": 603
-   },
-   "basis": {
-    "n90": 13,
-    "last": "2026-11-17",
-    "basis": "90-day median",
-    "pc_avg": 400.0,
-    "grade": "PSA 10"
-   },
-   "value": 490,
-   "landed": 588,
-   "gap": 0.12,
-   "thin": false,
-   "signal": "OVER-US"
-  },
-  {
    "title": "Pokemon - PSA 8 Pikachu Quick Construction Packs 001/015",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-8-pikachu-quick-construction-packs-001-015",
@@ -18060,9 +17855,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-psa-10-bulbasaur-166-165-art-rare-japanese",
    "listed": "2026-08-19",
-   "price": 90.0,
+   "price": 100.0,
    "post": 12.0,
-   "cost": 102.0,
+   "cost": 112.0,
    "grader": "PSA",
    "grade": "10",
    "jp": true,
@@ -18094,9 +17889,9 @@
    },
    "value": 109,
    "landed": 169,
-   "gap": -0.06,
+   "gap": 0.03,
    "thin": false,
-   "signal": "FAIR"
+   "signal": "OVER-US"
   },
   {
    "title": "Pokemon PSA 10 Persian 075/064 Art Rare Japanese",
@@ -18708,7 +18503,7 @@
    "thin": true,
    "signal": "OVER",
    "psa8_net": null,
-   "psa9_net": -45
+   "psa9_net": -94
   },
   {
    "title": "Pokemon - Manectric Spirit Link Best of XY 134/171 Japanese",
@@ -18751,7 +18546,7 @@
    "thin": true,
    "signal": "OVER-US",
    "psa8_net": null,
-   "psa9_net": -61
+   "psa9_net": -97
   },
   {
    "title": "Pokemon - PSA 10 Raging Bolt Ex 208/162 Temporal Forces",
@@ -18993,8 +18788,8 @@
    "gap": -0.22,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 58,
-   "psa9_net": 282
+   "psa8_net": -58,
+   "psa9_net": 117
   },
   {
    "title": "Pokemon - Entei 011/171 Best Of XY Japanese",
@@ -19037,8 +18832,8 @@
    "gap": 12.32,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -195,
-   "psa9_net": -141
+   "psa8_net": -234,
+   "psa9_net": -191
   },
   {
    "title": "Pokemon - PSA 10 Darkrai Vstar GG50/GG70",
@@ -19440,9 +19235,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-sm247-black-star-reshiram-charizard-gx-psa-10",
    "listed": "2026-08-03",
-   "price": 585.0,
+   "price": 649.0,
    "post": 12.0,
-   "cost": 597.0,
+   "cost": 661.0,
    "grader": "PSA",
    "grade": "10",
    "jp": false,
@@ -19474,7 +19269,7 @@
    },
    "value": 829,
    "landed": 962,
-   "gap": -0.28,
+   "gap": -0.2,
    "thin": false,
    "signal": "UNDER"
   },
@@ -19693,8 +19488,8 @@
    "gap": 0.09,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -6,
-   "psa9_net": 329
+   "psa8_net": -64,
+   "psa9_net": 198
   },
   {
    "title": "Pokemon - M Glalie Ex 156/162 XY Breakthrough",
@@ -19743,8 +19538,8 @@
    "gap": 0.87,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -39,
-   "psa9_net": -10
+   "psa8_net": -86,
+   "psa9_net": -63
   },
   {
    "title": "Pokemon - Kangaskhan Holo 5/64 Jungle",
@@ -19788,8 +19583,8 @@
    "gap": 2.62,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -9,
-   "psa9_net": 66
+   "psa8_net": -60,
+   "psa9_net": -1
   },
   {
    "title": "Pokemon - Nidoqueen 7/64 Jungle",
@@ -19833,8 +19628,8 @@
    "gap": 0.22,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -15,
-   "psa9_net": 320
+   "psa8_net": -73,
+   "psa9_net": 189
   },
   {
    "title": "Pokemon- Reshiram & Charizard GX PSA 10 - 220/173 Tag Team (JPN)",
@@ -20584,8 +20379,8 @@
    "gap": -0.01,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -5,
-   "psa9_net": 98
+   "psa8_net": -65,
+   "psa9_net": 16
   },
   {
    "title": "Pokemon - Mega Lucario EX - Black Star Promo MEP033",
@@ -21298,9 +21093,9 @@
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/psa-10-jpn-corviknight-vmax-249-184",
    "listed": "2026-01-05",
-   "price": 45.0,
+   "price": 50.0,
    "post": 12.0,
-   "cost": 57.0,
+   "cost": 62.0,
    "grader": "PSA",
    "grade": "10",
    "jp": true,
@@ -21331,7 +21126,7 @@
    },
    "value": 68,
    "landed": 124,
-   "gap": -0.16,
+   "gap": -0.09,
    "thin": false,
    "signal": "FAIR"
   },
@@ -21376,8 +21171,8 @@
    "gap": -0.16,
    "thin": true,
    "signal": "FAIR",
-   "psa8_net": -33,
-   "psa9_net": 5
+   "psa8_net": -87,
+   "psa9_net": -57
   },
   {
    "title": "Kabuto 50/62 Fossil - Unlimited - WOTC 1999",
@@ -21421,8 +21216,8 @@
    "gap": 7.5,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -55,
-   "psa9_net": -37
+   "psa8_net": -92,
+   "psa9_net": -77
   },
   {
    "title": "Water Energy 102/102 1st Edition Shadowless Base Set 1999 NM",
@@ -21466,8 +21261,8 @@
    "gap": 0.5,
    "thin": true,
    "signal": "OVER-US",
-   "psa8_net": -39,
-   "psa9_net": 24
+   "psa8_net": -80,
+   "psa9_net": -31
   },
   {
    "title": "Psychic Energy 101/102 1st Edition Shadowless Base Set 1999 NM",
@@ -21511,8 +21306,8 @@
    "gap": 1.14,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -60,
-   "psa9_net": -20
+   "psa8_net": -96,
+   "psa9_net": -65
   },
   {
    "title": "Fighting Energy 97/102 1st Edition Shadowless Base Set 1999 NM",
@@ -21556,8 +21351,8 @@
    "gap": 2.33,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -56,
-   "psa9_net": -12
+   "psa8_net": -93,
+   "psa9_net": -59
   },
   {
    "title": "Fire Energy 98/102 1st Edition Shadowless Base Set 1999 NM",
@@ -21601,8 +21396,8 @@
    "gap": 1.14,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -52,
-   "psa9_net": 6
+   "psa8_net": -90,
+   "psa9_net": -45
   },
   {
    "title": "Electric Energy 100/102 1st Edition Shadowless Base Set 1999 NM",
@@ -21715,8 +21510,8 @@
    "gap": 0.65,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -70,
-   "psa9_net": 92
+   "psa8_net": -116,
+   "psa9_net": 11
   },
   {
    "title": "Pokemon - Destined Rivals ETB",
