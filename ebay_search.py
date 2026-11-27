@@ -345,6 +345,35 @@ def aspects(item):
     return out
 
 
+GEM_DEEP = int(os.environ.get("GEM_DEEP", "100"))   # of the page checks, up to this many go to possible gem buys
+
+
+def gem_candidates(out, skip):
+    """Raw, Buy It Now listings matching a weekly gem-rate target at or under its max raw price, cheapest-to-max first."""
+    try:
+        from enrich import GemMatcher        # same matcher the summary uses
+        targets = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "gemrates.json"))).get("targets") or {}
+    except Exception as e:
+        print("gem page checks skipped:", e, file=sys.stderr)
+        return []
+    gm = GemMatcher(targets)
+    res = []
+    for x in out:
+        if id(x) in skip or x.get("lot") or x.get("bulk") or x.get("sealed") or x.get("checked") or SLAB.search(x["title"]):
+            continue
+        if "AUCTION" in (x.get("options") or []) or x.get("country") in ("US", "GB", "UK", "CA") or str(x.get("flag", "")).startswith("damage"):
+            continue
+        pc = gm.find(x["title"])
+        if not pc:
+            continue
+        p = num(x["price"]) + num(x["post"])
+        mx = targets[pc].get("max_raw") or 0
+        if 0 < p <= mx * 1.1:
+            res.append((p / mx, x))
+    res.sort(key=lambda r: r[0])
+    return [x for _, x in res]
+
+
 def deep_check(tok, out, limit=None):
     """Read the item page of listings far cheaper than the same card's other listings (raw and graded).
     Tags: damage (raw only), reprint (item specifics name a reprint set the title hides),
@@ -366,8 +395,14 @@ def deep_check(tok, out, limit=None):
                 auc = "AUCTION" in (x.get("options") or [])
                 cands.append((0 if str(x.get("query", "")).startswith("+") else 1, 1 if auc else 0, p / med, x))
     cands.sort(key=lambda c: c[:3])  # want-list first, Buy It Now before auctions, then cheapest against peers
+    # raw copies that could become gem buys or grade plays: read their page too, so eBay's Card Condition field
+    # (e.g. "Lightly played (Excellent)" on a card whose title says nothing) and hidden reprint sets are known
+    gem_c = gem_candidates(out, {id(c[-1]) for c in cands})
+    n = DEEP_MAX if limit is None else limit
+    take_gem = gem_c[:min(GEM_DEEP, n // 3)]
+    cands = [(0, 0, 0, x) for x in take_gem] + cands
     tagged, checked, calls = 0, 0, 0
-    for *_, x in cands[:DEEP_MAX if limit is None else limit]:
+    for *_, x in cands[:n]:
         try:
             item = get_item(tok, x["id"])
             calls += 1
@@ -377,6 +412,7 @@ def deep_check(tok, out, limit=None):
                 break
             continue
         checked += 1
+        x["imgs"] = (1 if item.get("image") else 0) + len(item.get("additionalImages") or [])
         asp = aspects(item)
         txt = page_text(item)
         x["checked"] = 1
@@ -524,7 +560,8 @@ def main():
                 "seller": (it.get("seller") or {}).get("username"), "feedback": (it.get("seller") or {}).get("feedbackPercentage"),
                 "url": f"https://www.ebay.com.au/itm/{iid}", "query": q,
                 "nm": 1 if asp else 0,
-                "flag": "" if (is_sealed or is_lots) else flag_for(title, asp or is_trusted),
+                "imgs": 1 + len(it.get("additionalImages") or []),   # 1 = a single photo: often a stock image
+                "flag":"" if (is_sealed or is_lots) else flag_for(title, asp or is_trusted),
                 **({"lot": 1} if is_lots else {}),
                 **({"bulk": 1} if is_bulk else {}),
                 **({"sealed": kind} if kind else {}),

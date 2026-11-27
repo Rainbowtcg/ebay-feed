@@ -50,6 +50,14 @@ ASK_MIN_PRICE = 20               # asking-price-only highlights start at A$20 (c
 GRADE_MIN_NET = 40               # grade play: at least A$40 profit at PSA 9 after grading and fees ...
 GRADE_MIN_SHARE = 0.30           # ... and at least 30% of the landed cost
 GRADE_MAX_LOSS = 0.25            # ... and one grade lower loses no more than 25% of the landed cost
+# Raw cards bought to grade (grade plays, gem buys) are judged on a realistic grade mix, not the best case.
+# A seller's "NM" with real photos usually comes back an 8, often a 7, sometimes a 9; PSA 10 at the card's gem rate.
+GRADE_MIX = {"modern": {"PSA 7": 0.30, "PSA 8": 0.50, "PSA 9": 0.20},
+             "vintage": {"PSA 7": 0.40, "PSA 8": 0.45, "PSA 9": 0.15}}
+# stock images, a single photo, or a shop known to use stock photos: nothing to check, so assume about a PSA 7
+STOCK_MIX = {"modern": {"PSA 7": 0.60, "PSA 8": 0.40},
+             "vintage": {"PSA 6": 0.40, "PSA 7": 0.45, "PSA 8": 0.15}}
+MIN_UPSIDE = 100                 # grade plays / gem buys: at least A$100 profit even at PSA 9, or it isn't worth the risk
 VINTAGE = {"BS", "B2", "JU", "FO", "TR", "G1", "G2", "N1", "N2", "N3", "N4", "SI", "LC", "EXP", "AQ", "SK", "e2", "e3", "e4", "e5", "VS", "WEB"}
 OTHER_SLAB = re.compile(r"\b(ICG|AGS|CCIC|CIC|PCA|MNT|GMA|HGA|KSA|BCCG|AP grading|slabbed|graded)\b", re.I)
 LOT_OLD_E = re.compile(r"wotc|wizards|199\d|base set|jungle|fossil|team rocket|gym (?:heroes|challenge)|\bneo\b|e-?card|expedition|"
@@ -166,16 +174,85 @@ PLAYED_BAD = re.compile(r"moderately|heavily|\bMP\b|\[MP\]|\bHP\b(?!\s?\d)|\[HP\
                         r"\btorn\b|water|stain|\bpoor\b|\bas[- ]is\b|heavy wear|\bink\b|marked|writing|peel|ripped|\bcut\b|miscut|scratch", re.I)
 
 
-def played_grade(title, flag):
-    """(grade to judge at, one grade lower, label) for an Excellent or Lightly Played raw listing, else None."""
+PLAYED_MP = re.compile(r"moderately played|\bMP\b|\[MP\]", re.I)
+
+
+def played_grade(title, flag, cc=""):
+    """(grade to judge at, one grade lower, label) for an Excellent, Lightly or Moderately Played raw listing, else None.
+    cc = eBay's Card Condition field when the item page was read (e.g. "Lightly played (Excellent)")."""
     t = re.sub(r"\bHP\s?\d+|\d+\s?HP\b", "", title)
-    if PLAYED_BAD.search(t) or (flag.startswith("damage:") and not re.search(r"\b(lp|lightly|played)$", flag)):
+    cc = str(cc or "").lower()
+    if PLAYED_BAD.search(PLAYED_MP.sub(" ", t)) or re.search(r"heavily|damaged|poor", cc) or (
+            flag.startswith("damage:") and not re.search(r"\b(lp|lightly|played|mp|moderately)$", flag)):
         return None
+    if PLAYED_MP.search(t) or re.search(r"\b(mp|moderately)$", flag) or "moderately" in cc:
+        return ("PSA 4", "PSA 3", "Moderately Played")
     if PLAYED_EX.search(t):
         return ("PSA 6", "PSA 5", "Excellent")
-    if PLAYED_LP.search(t) or re.search(r"\b(lp|lightly)$", flag):
+    if PLAYED_LP.search(t) or re.search(r"\b(lp|lightly)$", flag) or "lightly" in cc:
         return ("PSA 5", "PSA 4", "Lightly Played")
     return None
+
+
+def nm_card(x, t, flag):
+    """True when nothing says the raw card is below Near Mint: title, correction / page-check flag, or eBay's Card Condition."""
+    cc = str(x.get("cardCondition") or "")
+    if cc and not re.search(r"near mint|\bmint\b", cc, re.I):
+        return False
+    return not (played_grade(t, flag, cc) or PLAYED_BAD.search(re.sub(r"\bHP\s?\d+|\d+\s?HP\b", "", t))
+                or str(flag).startswith("damage"))
+
+
+def stock_photos(x, shop_photos):
+    """No real photos to judge: a shop known to use stock images, or an eBay listing with a single photo."""
+    if x.get("shop"):
+        return shop_photos.get(str(x.get("seller") or "")) == "stock"
+    return int(x.get("imgs") or 2) <= 1
+
+
+def grade_price(gv, g):
+    """Price at grade g, falling back to the next grade down (a missing PSA 6 is priced like a PSA 7 at most)."""
+    order = ["PSA 10", "PSA 9", "PSA 8", "PSA 7", "PSA 6", "PSA 5", "PSA 4", "PSA 3", "Raw"]
+    for h in order[order.index(g):]:
+        if gv.get(h):
+            return gv[h]
+    return 0
+
+
+def outcomes(gv, pl):
+    """Net profit after grading and fees at PSA 7, 8 and 9."""
+    return {g: round(grade_price(gv, g) * SELL_KEEP - GRADE_COST - pl) for g in ("PSA 7", "PSA 8", "PSA 9")}
+
+
+def exp_net(gv, pl, vintage, stock, p9=None):
+    """Expected net profit on the realistic grade mix (stock-photo listings judged near PSA 7). PSA 10s are left out
+    (a bonus, not a plan). p9 = the card's real share of PSA 9-or-better grades from the pop report: hard cards get fewer 9s,
+    the rest counted as 8s. A PSA 9 price over 4x the PSA 8 price (thin, spiky sales) is capped at 4x for this."""
+    mix = dict((STOCK_MIX if stock else GRADE_MIX)["vintage" if vintage else "modern"])
+    if p9 is not None and "PSA 9" in mix and p9 < mix["PSA 9"]:
+        mix["PSA 8"] = mix.get("PSA 8", 0) + mix["PSA 9"] - p9
+        mix["PSA 9"] = p9
+    p8 = grade_price(gv, "PSA 8")
+    def price(g):
+        v = grade_price(gv, g)
+        return min(v, 4 * p8) if g == "PSA 9" and p8 else v
+    return round(sum(w * (price(g) * SELL_KEEP - GRADE_COST - pl) for g, w in mix.items()))
+
+
+def p9_of(gem):
+    """Share of graded copies at PSA 9 or 10, from the weekly gem-rate pop data, else None."""
+    if gem and gem.get("total"):
+        return min(1.0, ((gem.get("n9") or 0) + (gem.get("n10") or 0)) / gem["total"])
+    return None
+
+
+GEM_VINTAGE = re.compile(r"^(base-set|jungle|fossil|team-rocket$|gym-|neo-|legendary-collection|expedition|aquapolis|skyridge)")
+
+
+def outcome_txt(o, ev, stock):
+    s = lambda n: ("+" if n >= 0 else "−") + f"A${abs(n):,}"
+    return (f"PSA 7 {s(o['PSA 7'])} · PSA 8 {s(o['PSA 8'])} · PSA 9 {s(o['PSA 9'])} · expected {s(ev)}"
+            + (" (stock / single photo: judged near PSA 7)" if stock else ""))
 
 
 def gst_of(pl, p):
@@ -494,6 +571,7 @@ def main():
     # gem-rate targets from gemrates.py (weekly): PriceCharting card path -> kind (SAFE / HUNT), max raw price, gem rate
     GEM = load("gemrates.json", {}).get("targets") or {}
     GM = GemMatcher(GEM)
+    SHOP_PHOTOS = {s.get("shop"): s.get("photos") for s in S.get("shops", []) if s.get("photos")}
     H = load("history.json", {"ids": {}})
     today = day_of(L.get("generated"))
     cutoff = (datetime.fromisoformat(today) - timedelta(days=KEEP_DAYS)).date().isoformat()
@@ -680,7 +758,7 @@ def main():
         # Moderately / heavily played and damaged copies stay out (only the slab-play want-list cards above take those).
         if (not slab and not auc and x.get("country") not in SKIP_CC | {"CN"} and not x.get("var") and not x.get("lot")
                 and not SLAB.search(t) and not OTHER_SLAB.search(t) and not flag.startswith(("reprint", "grader"))):
-            cond = played_grade(t, flag)
+            cond = played_grade(t, flag, x.get("cardCondition"))
             if cond:
                 pv = V.find(t, True)
                 if pv and pv[1] == "Raw" and pv[0].get("src", "").startswith("PriceCharting"):
@@ -704,8 +782,11 @@ def main():
         # grade play: Near Mint raw copy that pays after grading at the grade it's likely to get (PSA 8 for WotC/e-Card-era
         # and old Japanese cards, PSA 9 for later ones), without a big loss one grade lower
         gp, gp_why, gp_net = False, "", 0
+        stock = stock_photos(x, SHOP_PHOTOS)
+        nm_ok = nm_card(x, t, flag)
         nm_raw_ok = bool(val and val[1] == "Raw" and not auc and not flag and not x.get("var") and x.get("country") not in SKIP_CC | {"CN"}
-                         and (x.get("nm") == 1 or NMWORD.search(t)) and not OTHER_SLAB.search(t) and not sus and ratio is not None and ratio >= 0.4)
+                         and (x.get("nm") == 1 or NMWORD.search(t)) and nm_ok
+                         and not OTHER_SLAB.search(t) and not sus and ratio is not None and ratio >= 0.4)
         gem = GEM.get(val[0].get("pc")) if val and val[0].get("pc") else None
         gem_pc = val[0]["pc"] if gem else None
         gem_ok = nm_raw_ok
@@ -715,16 +796,21 @@ def main():
                 gem_rm = GEM[gem_pc].get("raw_market") or 0
                 gem_ok = (not auc and not flag and not x.get("var") and x.get("country") not in SKIP_CC | {"CN"}
                           and (x.get("nm") == 1 or bool(NMWORD.search(t))) and not OTHER_SLAB.search(t) and not SLAB.search(t)
-                          and pl >= 0.4 * gem_rm and not played_grade(t, flag)
-                          and not PLAYED_BAD.search(re.sub(r"\bHP\s?\d+|\d+\s?HP\b", "", t)))
+                          and pl >= 0.4 * gem_rm and nm_ok)
         if gem_pc and gem_ok:
             g_ = GEM[gem_pc]
+            gv_ = g_.get("v") or {}
+            vint_ = bool(GEM_VINTAGE.search(g_.get("set", "").replace("pokemon-", "")))
+            o_ = outcomes(gv_, pl)
+            ev_ = exp_net(gv_, pl, vint_, stock, p9_of(g_))
             GEM_LIVE.setdefault(gem_pc, []).append({
                 "id": i, "t": t[:90], "pl": round(pl), "cc": x.get("country") or "", "seller": x.get("seller") or "",
                 "url": x.get("url") or f"https://www.ebay.com.au/itm/{i}", "shop": 1 if x.get("shop") else 0,
                 "new": 1 if new else 0, "drop": 1 if drop else 0,
                 "post?": 1 if (x.get("post") in (None, "") and not x.get("shop")) else 0,
-                "ok": 1 if pl <= g_["max_raw"] else 0})
+                "stock": 1 if stock else 0, "net7": o_["PSA 7"], "ev": ev_,
+                # a buy: at or under the max raw, still worth it on the realistic grade mix, and real upside at a 9
+                "ok": 1 if (pl <= g_["max_raw"] and ev_ >= 0 and o_["PSA 9"] >= MIN_UPSIDE) else 0})
         if nm_raw_ok:
             gv = val[0]["g"]
             old = set_of(val[0]["label"]) in VINTAGE or str(val[0].get("num", "")).startswith("No.")
@@ -736,16 +822,18 @@ def main():
             if pw and pr and pw > 15 * pr:
                 pw = None   # graded price over 15x raw: usually a mismatched value, not a real spread
             if pw:
-                gp_net = pw * SELL_KEEP - GRADE_COST - pl
+                o = outcomes(gv, pl)
+                ev = exp_net(gv, pl, old, stock, p9_of(gem))
                 net_low = plow * SELL_KEEP - GRADE_COST - pl if plow else None
-                if gp_net >= max(GRADE_MIN_NET, GRADE_MIN_SHARE * pl) and (net_low is None or net_low >= -GRADE_MAX_LOSS * pl):
-                    gp = True
-                    up = [g for g in (("PSA 9", "PSA 10") if old else ("PSA 10",)) if gv.get(g)]
-                    thin = [g for g in (low_g, want_g) + tuple(up) if g in (val[0].get("thin") or [])]
-                    gp_why = (f"grade play{' (vintage: judged at PSA 8)' if old else ''}: A${pl:,.0f} landed raw{gst_of(pl, p)} → "
-                              f"{want_g} ~A${pw:,} = +A${gp_net:,.0f} after A${GRADE_COST} grading and fees"
-                              + (f"; {low_g} ~A${plow:,} = {'+' if net_low >= 0 else '−'}A${abs(net_low):,.0f}" if net_low is not None else "")
-                              + "".join(f"; {g} ~A${gv[g]:,}" for g in up)
+                want_net = pw * SELL_KEEP - GRADE_COST - pl
+                if (want_net >= max(GRADE_MIN_NET, GRADE_MIN_SHARE * pl) and (net_low is None or net_low >= -GRADE_MAX_LOSS * pl)
+                        and ev >= 0 and o["PSA 9"] >= MIN_UPSIDE):
+                    gp, gp_net = True, ev
+                    thin = [g for g in ("PSA 7", "PSA 8", "PSA 9", "PSA 10") if g in (val[0].get("thin") or []) and gv.get(g)]
+                    gp_why = (f"grade play: A${pl:,.0f} landed raw{gst_of(pl, p)} → PSA 7 ~A${grade_price(gv, 'PSA 7'):,} · "
+                              f"PSA 8 ~A${grade_price(gv, 'PSA 8'):,} · PSA 9 ~A${grade_price(gv, 'PSA 9'):,}"
+                              + (f" · PSA 10 ~A${gv['PSA 10']:,}" if gv.get("PSA 10") else "")
+                              + f"; net after A${GRADE_COST} grading and fees: {outcome_txt(o, ev, stock)}"
                               + (f" ({', '.join(thin)} rest on few sales)" if thin else "")
                               + f" — {val[0]['src'].split('(')[0].strip()}. Check the photos: raw 'NM' is the seller's word")
                     cs = [GRADE_CAT] + [c for c in cs if c != GRADE_CAT]
@@ -756,13 +844,16 @@ def main():
                 gp_why += f" · {gem_txt}"
             elif pl <= gem["max_raw"]:
                 gv = gem["v"]
-                gp = True
-                gp_net = (gv.get("PSA 10", 0) * SELL_KEEP - GRADE_COST - pl) * gem["gem"]   # ranked by the 10's expected share
-                gp_why = (f"{'10 hunt' if gem['kind'] == 'HUNT' else 'gem target'}: A${pl:,.0f} landed raw{gst_of(pl, p)}, at or under "
-                          f"the A${gem['max_raw']:,} max → PSA 8 ~A${gv.get('PSA 8', 0):,} · PSA 9 ~A${gv.get('PSA 9', 0):,} · "
-                          f"PSA 10 ~A${gv.get('PSA 10', 0):,}; {gem_txt.split(';')[0]} — weekly gem-rate list "
-                          f"({gem.get('checked', '')}). Only buy a copy that looks clean in the photos")
-                cs = [GRADE_CAT] + [c for c in cs if c != GRADE_CAT]
+                vint = bool(GEM_VINTAGE.search(gem.get("set", "").replace("pokemon-", "")))
+                o = outcomes(gv, pl)
+                ev = exp_net(gv, pl, vint, stock, p9_of(gem))
+                if ev >= 0 and o["PSA 9"] >= MIN_UPSIDE:
+                    gp, gp_net = True, ev
+                    gp_why = (f"{'10 hunt' if gem['kind'] == 'HUNT' else 'gem target'}: A${pl:,.0f} landed raw{gst_of(pl, p)}, at or under "
+                              f"the A${gem['max_raw']:,} max → PSA 8 ~A${gv.get('PSA 8', 0):,} · PSA 9 ~A${gv.get('PSA 9', 0):,} · "
+                              f"PSA 10 ~A${gv.get('PSA 10', 0):,}; net: {outcome_txt(o, ev, stock)}; {gem_txt.split(';')[0]} — weekly gem-rate list "
+                              f"({gem.get('checked', '')}). Only buy a copy that looks clean in the photos")
+                    cs = [GRADE_CAT] + [c for c in cs if c != GRADE_CAT]
         tags = "".join(c for c, on in (("n", new), ("d", drop), ("r", bool(r.get("re"))), ("l", lowest), ("s", bool(slab)), ("g", gp), ("m", bool(x.get("var")))) if on)
         X[i] = [[cats.index(c) for c in cs], r["f"], r.get("pp") if drop else None, round(low[k], 2) if k in low else None,
                 live_n.get(k, 0) if k else 0, val[2] if val else None, (val[0]["label"] + " · " + val[1]) if val else "", tags,
@@ -872,9 +963,9 @@ def main():
             pass  # far too cheap for the card: nearly always a reprint, fake, wrong version or played copy; not a highlight
         elif ratio is not None and ratio < CN_RAW_MIN and x.get("country") == "CN" and val[1] == "Raw":
             pass  # raw cards from China far under value: usually fakes
-        elif ratio is not None and ratio <= 0.85 and not auc and sus:
-            reason, pri, score = (f"{round((1 - ratio) * 100)}% under A${val[2]:,} value{gst} — but {sus['under']} of {sus['copies']} live copies are "
-                                  f"too, so the value may be wrong ({val[1]})"), 3, ratio
+        elif ratio is not None and ratio <= 0.85 and sus:
+            pass  # most live copies sit under this value too, so the value (or the card match) is what's wrong: listed under
+                  # "Values to recheck", never as a deal
         elif ratio is not None and ratio <= 0.85 and not auc:
             reason, pri, score = (f"A${pl:,.0f} landed{gst}, {round((1 - ratio) * 100)}% under A${val[2]:,} value ({val[1]}, {src}"
                                   + (", few sales" if thin_val else "") + ")"
@@ -985,13 +1076,13 @@ def main():
         for cp in cps:
             if cp["ok"]:
                 v = g.get("v") or {}
-                net8 = round((v.get("PSA 8") or 0) * SELL_KEEP - GRADE_COST - cp["pl"])
-                net9 = round((v.get("PSA 9") or 0) * SELL_KEEP - GRADE_COST - cp["pl"])
+                net8 = round(grade_price(v, "PSA 8") * SELL_KEEP - GRADE_COST - cp["pl"])
+                net9 = round(grade_price(v, "PSA 9") * SELL_KEEP - GRADE_COST - cp["pl"])
                 gem_buys.append({**cp, "pc": pc, "name": g.get("name", ""), "set": g.get("set", ""), "kind": g["kind"],
                                  "max_raw": g["max_raw"], "room": g["max_raw"] - cp["pl"], "gem": g.get("gem"),
                                  "v": v, "net8": net8, "net9": net9})
-    # PSA 8 still pays first, then the most room under the max
-    gem_buys.sort(key=lambda b: (b["net8"] < 0, -b["room"]))
+    # real photos before stock ones, then the most expected profit on the realistic grade mix
+    gem_buys.sort(key=lambda b: (b.get("stock", 0), -b.get("ev", 0)))
     # SIR/SAR bundles: cheapest per card first (bundles of 3+ with a count), then the rest by price
     bulk = sorted(BULK, key=lambda b: b["score"])
 
@@ -1027,15 +1118,18 @@ def main():
         md.append("")
     if gem_buys:
         md.append(f"## Gem buys — {len(gem_buys)} live NM raw copies at or under their max raw (weekly gem-rate list)")
-        md.append("Sorted: a PSA 8 still pays first, then most room under the max. Net = after A$"
-                  f"{GRADE_COST} grading and selling fees. Check the photos: 'NM' is the seller's word.")
+        md.append("Only NM copies that still pay on a realistic grade mix (30% PSA 7, 50% PSA 8, up to 20% PSA 9 — fewer for cards that rarely "
+                  f"get a 9; WotC and e-Card cards a grade lower; PSA 10s not counted) with at least A${MIN_UPSIDE} profit at a PSA 9. Stock-photo or single-photo listings are judged near a "
+                  f"PSA 7 and listed last. Sorted by expected profit. Net = after A${GRADE_COST} grading and selling fees.")
+        sg = lambda n: ("+" if n >= 0 else "−") + f"A${abs(n):,}"
         for b in gem_buys[:20]:
             v = b["v"]
             md.append(f"- A${b['pl']:,} {b['name'].split('   ')[0]} ({b['set'].replace('pokemon-', '')}) · "
-                      f"{'SAFE' if b['kind'] == 'SAFE' else '10 hunt'} · max A${b['max_raw']:,} (room A${b['room']:,}) · "
-                      f"PSA 8 ~A${v.get('PSA 8', 0):,} ({'+' if b['net8'] >= 0 else '−'}A${abs(b['net8']):,}) · "
-                      f"PSA 9 ~A${v.get('PSA 9', 0):,} ({'+' if b['net9'] >= 0 else '−'}A${abs(b['net9']):,}) · "
-                      f"PSA 10 ~A${v.get('PSA 10', 0):,} · gem {b['gem'] * 100:.1f}% · {b['cc']}, {b['seller']}"
+                      f"{'SAFE' if b['kind'] == 'SAFE' else '10 hunt'} · expected {sg(b.get('ev', 0))} · "
+                      f"PSA 7 {sg(b.get('net7', 0))} · PSA 8 ~A${grade_price(v, 'PSA 8'):,} ({sg(b['net8'])}) · "
+                      f"PSA 9 ~A${grade_price(v, 'PSA 9'):,} ({sg(b['net9'])}) · "
+                      f"PSA 10 ~A${v.get('PSA 10', 0):,} · gem {b['gem'] * 100:.1f}% · max A${b['max_raw']:,} · {b['cc']}, {b['seller']}"
+                      f"{' · stock/one photo' if b.get('stock') else ''}"
                       f"{' · new' if b['new'] else ''}{' · price drop' if b['drop'] else ''} {b['url']}")
         md.append("")
     for c in order:
