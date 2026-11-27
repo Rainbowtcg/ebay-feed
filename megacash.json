@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-27T18:53+00:00",
+ "generated": "2026-11-27T23:31+00:00",
  "usd_aud": 1.5075,
  "rate_source": "open.er-api.com",
- "lookups_this_run": 15,
+ "lookups_this_run": 1,
  "cards": [
   {
    "title": "Pokemon - Gastly 57/144 Rev Holo Skyridge",
@@ -71,72 +71,6 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-promo/cool-porygon-15)"
-  },
-  {
-   "title": "Pokemon - Dragonite FB LV.50 Supreme Victors Crosshatch Reverse Holo Pokemon League Promo",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-dragonite-fb-lv-50-supreme-victors-crosshatch-reverse-holo-pokemon-league-promo",
-   "listed": "2026-11-27",
-   "price": 116.1,
-   "post": 12.0,
-   "cost": 128.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Dragonite+FB+LV.50+Supreme+Victors+Crosshatch+Reverse+Holo+League+%28reverse%2Crev%29&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Dragonite+FB+LV.50+Supreme+Victors+Crosshatch+Reverse+Holo+League+%28reverse%2Crev%29&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Dragonite+FB+LV.50+Supreme+Victors+Crosshatch+Reverse+Holo+League+%28reverse%2Crev%29&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Dragonite+FB+LV.50+Supreme+Victors+Crosshatch+Reverse+Holo+League+%28reverse%2Crev%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-supreme-victors/blaziken-fb-lv-x-142)"
-  },
-  {
-   "title": "Pokemon - Giratina V 185/196 Lost Origin PSA 10",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-giratina-v-185-196-lost-origin-psa-10",
-   "listed": "2026-11-26",
-   "price": 404.1,
-   "post": 12.0,
-   "cost": 416.1,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=giratina+%28185%2F196%29+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=giratina+%28185%2F196%29+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=giratina+%28185%2F196%29+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=giratina+%28185%2F196%29+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-lost-origin/giratina-v-185?q=giratina+v+185+lost+origin",
-   "matched": "Giratina V #185   Pokemon Lost Origin",
-   "aud": {
-    "raw": 27,
-    "g7": 22,
-    "g8": 34,
-    "g9": 65,
-    "g95": 71,
-    "g10": 502
-   },
-   "basis": {
-    "n90": 30,
-    "last": "2026-11-19",
-    "basis": "90-day median",
-    "pc_avg": 333.27,
-    "grade": "PSA 10"
-   },
-   "value": 546,
-   "landed": 650,
-   "gap": -0.24,
-   "thin": false,
-   "signal": "UNDER"
   },
   {
    "title": "Pokemon - Venusaur Holo Black Star Promo #13 PSA 6",
@@ -10951,54 +10885,6 @@
    "psa9_net": 214
   },
   {
-   "title": "Pokemon - PSA 9 1ST Edition Gengar 5/62 Holo Fossil",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-psa-9-1st-edition-gengar-5-62-holo-fossil",
-   "listed": "2026-11-05",
-   "price": 3500.0,
-   "post": 12.0,
-   "cost": 3512.0,
-   "grader": "PSA",
-   "grade": "9",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=st+gengar+%285%2F62%2C005%2F62%29+1st+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=st+gengar+%285%2F62%2C005%2F62%29+1st+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=st+gengar+%285%2F62%2C005%2F62%29+1st+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=st+gengar+%285%2F62%2C005%2F62%29+1st+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": {
-    "aud": 7620.0,
-    "country": "AU",
-    "url": "https://www.ebay.com.au/itm/237160634635",
-    "copies": 1
-   },
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-fossil/gengar-1st-edition-5",
-   "matched": "Gengar [1st Edition] #5   Pokemon Fossil",
-   "aud": {
-    "raw": 621,
-    "g7": 1394,
-    "g8": 1832,
-    "g9": 3816,
-    "g95": 4198,
-    "g10": 69536
-   },
-   "basis": {
-    "n90": 30,
-    "last": "2026-11-23",
-    "basis": "90-day median",
-    "pc_avg": 2531.38,
-    "grade": "PSA 9"
-   },
-   "value": 4786,
-   "landed": 5314,
-   "gap": -0.27,
-   "thin": false,
-   "signal": "UNDER"
-  },
-  {
    "title": "Pokemon- Primal Groudon Ex 97/98 Ancient Origins",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-primal-groudon-ex-97-98-ancient-origins",
@@ -12306,49 +12192,6 @@
    "gap": -0.59,
    "thin": false,
    "signal": "UNDER"
-  },
-  {
-   "title": "Pokemon - Snorlax 27/64 1ST Edition Jungle PSA 9",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-snorlax-27-64-1st-edition-jungle-psa-9",
-   "listed": "2026-10-26",
-   "price": 494.1,
-   "post": 12.0,
-   "cost": 506.1,
-   "grader": "PSA",
-   "grade": "9",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=snorlax+%2827%2F64%2C027%2F64%29+1st+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=snorlax+%2827%2F64%2C027%2F64%29+1st+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=snorlax+%2827%2F64%2C027%2F64%29+1st+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=snorlax+%2827%2F64%2C027%2F64%29+1st+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-jungle/snorlax-1st-edition-27",
-   "matched": "Snorlax [1st Edition] #27   Pokemon Jungle",
-   "aud": {
-    "raw": 83,
-    "g7": 156,
-    "g8": 266,
-    "g9": 603,
-    "g95": 663,
-    "g10": 4071
-   },
-   "basis": {
-    "n90": 26,
-    "last": "2026-11-19",
-    "basis": "90-day median",
-    "pc_avg": 400.0,
-    "grade": "PSA 9"
-   },
-   "value": 586,
-   "landed": 694,
-   "gap": -0.14,
-   "thin": false,
-   "signal": "FAIR"
   },
   {
    "title": "Pokemon - Wartortle 171/165 S&V 151 PSA 10 (JPN)",
@@ -21094,48 +20937,6 @@
    "why": "portuguese card: not on PriceCharting's English/Japanese lists"
   },
   {
-   "title": "PSA 10 Jpn Corviknight Vmax 249/184 Vmax Climax",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/psa-10-jpn-corviknight-vmax-249-184",
-   "listed": "2026-01-05",
-   "price": 50.0,
-   "post": 12.0,
-   "cost": 62.0,
-   "grader": "PSA",
-   "grade": "10",
-   "jp": true,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=corviknight+vmax+%28249%2F184%29+japanese&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=corviknight+vmax+%28249%2F184%29+japanese&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=corviknight+vmax+%28249%2F184%29+japanese&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=corviknight+vmax+%28249%2F184%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-vmax-climax/corviknight-vmax-249",
-   "matched": "Corviknight VMAX #249   Pokemon Japanese VMAX Climax",
-   "aud": {
-    "raw": 15,
-    "g8": 30,
-    "g9": 33,
-    "g95": 36,
-    "g10": 71
-   },
-   "basis": {
-    "n90": 7,
-    "last": "2026-11-09",
-    "basis": "90-day median",
-    "pc_avg": 47.23,
-    "grade": "PSA 10"
-   },
-   "value": 68,
-   "landed": 124,
-   "gap": -0.09,
-   "thin": false,
-   "signal": "FAIR"
-  },
-  {
    "title": "Gigalith 53/98 Staff Promo Black & White Emerging Powers",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/gigalith-53-98-staff-promo-black-white-emerging-powers",
@@ -21611,6 +21412,29 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-chilling-reign/snorlax-224)"
   },
   {
+   "title": "Pokemon- Champions Path ETB",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-champions-path-etb",
+   "listed": "",
+   "price": 224.1,
+   "post": 0.0,
+   "cost": 224.1,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Champions+Path+ETB+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Champions+Path+ETB+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Champions+Path+ETB+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Champions+Path+ETB+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-champion%27s-path/charizard-v-79)"
+  },
+  {
    "title": "Pokemon - Shining Fates ETB",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-shining-fates-etb-with-acrylic",
@@ -21651,29 +21475,6 @@
    "psa9_net": null
   },
   {
-   "title": "Pokemon- Champions Path ETB",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-champions-path-etb",
-   "listed": "",
-   "price": 224.1,
-   "post": 0.0,
-   "cost": 224.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Champions+Path+ETB+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Champions+Path+ETB+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Champions+Path+ETB+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Champions+Path+ETB+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-champion%27s-path/charizard-v-79)"
-  },
-  {
    "title": "Pokemon - Shrouded Fable ETB",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-shrouded-fable-etb-with-acrylic",
@@ -21695,6 +21496,29 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-shrouded-fable/persian-78)"
+  },
+  {
+   "title": "Pokemon - 30TH Celebrations ETB",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-30th-celebrations-etb",
+   "listed": "",
+   "price": 206.1,
+   "post": 0.0,
+   "cost": 206.1,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-30th-celebration/lugia-149)"
   },
   {
    "title": "Pokemon- Lost Origin ETB Sword & Shield",
@@ -21743,67 +21567,27 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-brilliant-stars/flareon-tg01)"
   },
   {
-   "title": "Pokemon - Prismatic Evolutions Pokemon Center ETB",
+   "title": "Pokemon- Sword & Shield BATTLE STYLES booster box",
    "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-prismatic-evolutions-pokemon-center-etb",
+   "url": "https://megacash.com.au/products/pokemon-sword-shield-battle-styles-booster-box",
    "listed": "",
-   "price": 584.1,
+   "price": 449.1,
    "post": 0.0,
-   "cost": 584.1,
+   "cost": 449.1,
    "grader": null,
    "grade": null,
    "jp": false,
    "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Prismatic+Evolutions+Center+ETB+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Prismatic+Evolutions+Center+ETB+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Prismatic+Evolutions+Center+ETB+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Prismatic+Evolutions+Center+ETB+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-prismatic-evolutions/elite-trainer-box-pokemon-center",
-   "matched": "Elite Trainer Box [Pokemon Center]   Pokemon Prismatic Evolutions",
-   "aud": {
-    "raw": 496
-   },
-   "basis": {
-    "n90": 59,
-    "last": "2026-11-24",
-    "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 328.75,
-    "grade": "raw (NM)"
-   },
-   "value": 580,
-   "landed": 666,
-   "gap": 0.01,
-   "thin": false,
-   "signal": "OVER-US",
-   "psa8_net": null,
-   "psa9_net": null
-  },
-  {
-   "title": "Pokemon - 30TH Celebrations ETB",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-30th-celebrations-etb",
-   "listed": "",
-   "price": 206.1,
-   "post": 0.0,
-   "cost": 206.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Sword+%26+Shield+BATTLE+STYLES+booster+box+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Sword+%26+Shield+BATTLE+STYLES+booster+box+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Sword+%26+Shield+BATTLE+STYLES+booster+box+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Sword+%26+Shield+BATTLE+STYLES+booster+box+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": null,
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-30th-celebration/lugia-149)"
+   "why": "no PriceCharting card fit (top result /game/pokemon-sword-&-shield/snorlax-140)"
   },
   {
    "title": "Pokemon- Surging Sparks Booster Box- Scarlet & Violet",
@@ -21892,29 +21676,6 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-phantasmal-flames/mega-charizard-x-ex-125)"
   },
   {
-   "title": "Pokemon- Sword & Shield BATTLE STYLES booster box",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-sword-shield-battle-styles-booster-box",
-   "listed": "",
-   "price": 449.1,
-   "post": 0.0,
-   "cost": 449.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Sword+%26+Shield+BATTLE+STYLES+booster+box+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Sword+%26+Shield+BATTLE+STYLES+booster+box+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Sword+%26+Shield+BATTLE+STYLES+booster+box+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Sword+%26+Shield+BATTLE+STYLES+booster+box+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-sword-&-shield/snorlax-140)"
-  },
-  {
    "title": "Pokemon - Chilling Reign Booster Box",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-chilling-reign-booster-box",
@@ -21953,29 +21714,6 @@
    "signal": "FAIR",
    "psa8_net": null,
    "psa9_net": null
-  },
-  {
-   "title": "Pokemon- Chilling Reign Booster Box Sword & Shield",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/chilling-reign-booster-box",
-   "listed": "",
-   "price": 629.1,
-   "post": 0.0,
-   "cost": 629.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Chilling+Reign+Booster+Box+Sword+%26+Shield+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Chilling+Reign+Booster+Box+Sword+%26+Shield+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Chilling+Reign+Booster+Box+Sword+%26+Shield+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Chilling+Reign+Booster+Box+Sword+%26+Shield+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-chilling-reign/snorlax-224)"
   },
   {
    "title": "Pokemon- Paradox Rift booster box. Scarlett & Violet",
@@ -22087,6 +21825,46 @@
    "psa9_net": null
   },
   {
+   "title": "Pokemon- Scarlet & Violet Base booster box",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-scarlet-violet-base-booster-box",
+   "listed": "",
+   "price": 404.1,
+   "post": 0.0,
+   "cost": 404.1,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/base-set-booster-box",
+   "matched": "Base Set Booster Box   Pokemon Scarlet & Violet",
+   "aud": {
+    "raw": 385
+   },
+   "basis": {
+    "n90": 60,
+    "last": "2026-11-27",
+    "basis": "90-day upper quarter (few NM-labelled sales)",
+    "pc_avg": 255.6,
+    "grade": "raw (NM)"
+   },
+   "value": 448,
+   "landed": 520,
+   "gap": -0.1,
+   "thin": false,
+   "signal": "FAIR",
+   "psa8_net": null,
+   "psa9_net": null
+  },
+  {
    "title": "Pokemon - Ruler of the Black Flame Booster Box (JPN)",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-ruler-of-the-black-flame-booster-box-jpn",
@@ -22125,29 +21903,6 @@
    "signal": "UNDER",
    "psa8_net": null,
    "psa9_net": null
-  },
-  {
-   "title": "Pokemon-Brilliant Stars Booster Box Sword & Shield",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-tcg-sword-shield-brilliant-stars-booster-box",
-   "listed": "",
-   "price": 809.1,
-   "post": 0.0,
-   "cost": 809.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+Booster+Box+Sword+%26+Shield+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+Booster+Box+Sword+%26+Shield+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+Booster+Box+Sword+%26+Shield+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Brilliant+Stars+Booster+Box+Sword+%26+Shield+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-brilliant-stars/flareon-tg01)"
   }
  ]
 }

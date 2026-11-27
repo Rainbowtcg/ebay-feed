@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-27T18:03+00:00",
- "count": 51266,
+ "count": 51252,
  "calls": 2568,
  "damaged_flagged": 4660,
  "unverified": 11123,
@@ -12141,7 +12141,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "227566737571",
@@ -30861,7 +30862,8 @@
    "imgs": 2,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near mint or better"
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "880129823920",
@@ -34267,7 +34269,8 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "327480180885",
@@ -35419,7 +35422,8 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 4,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "860115707106",
@@ -36258,7 +36262,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "128103977977",
@@ -36418,7 +36423,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168872014229",
@@ -36441,7 +36447,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "960188542600",
@@ -36463,7 +36470,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "960236103997",
@@ -36486,7 +36494,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168858140758",
@@ -36509,7 +36518,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 5,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "237196621285",
@@ -36620,7 +36630,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "307284605385",
@@ -38665,7 +38676,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 9,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "960188542608",
@@ -38687,7 +38699,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "307298419098",
@@ -38732,7 +38745,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168858140755",
@@ -38754,7 +38768,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "960213731910",
@@ -38777,7 +38792,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "398014387291",
@@ -44782,7 +44798,9 @@
    "query": "+pokemon japanese 10th movie (promo,commemoration)",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168882925672",
@@ -44805,7 +44823,9 @@
    "query": "+pokemon japanese 10th movie (promo,commemoration)",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168874584880",
@@ -44828,7 +44848,9 @@
    "query": "+pokemon japanese 10th movie (promo,commemoration)",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "205771986368",
@@ -50945,7 +50967,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "318568851874",
@@ -52191,7 +52215,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 5,
-   "flag": "unverified"
+   "flag": "unverified",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "137948166447",
@@ -56372,7 +56397,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "137841469501",
@@ -56820,7 +56847,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "800865838247",
@@ -58119,7 +58148,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "227030895724",
@@ -60924,7 +60954,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 4,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "277482660553",
@@ -62059,7 +62090,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "327315998163",
@@ -70521,7 +70554,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 1,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "198053974957",
@@ -70747,7 +70782,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 6,
-   "flag": "unverified"
+   "flag": "unverified",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168849512221",
@@ -72309,7 +72345,9 @@
    "query": "+charizard ex 100/106 flashfire",
    "nm": 1,
    "imgs": 4,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near Mint or Better:",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168874810508",
@@ -86903,7 +86941,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "398160898347",
@@ -89631,7 +89671,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168879556406",
@@ -89676,7 +89717,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "800105504057",
@@ -93772,7 +93815,8 @@
    "imgs": 11,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near mint or better"
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "137827651543",
@@ -96883,7 +96927,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "900120461611",
@@ -97673,7 +97718,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168786245297",
@@ -97696,7 +97743,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168786228110",
@@ -97719,7 +97768,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "128172604819",
@@ -105684,7 +105735,8 @@
    "imgs": 2,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near Mint or Better:"
+   "cardCondition": "Near Mint or Better:",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "167622712196",
@@ -109397,7 +109449,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "336636629009",
@@ -111010,7 +111064,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "318863713407",
@@ -116930,7 +116986,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 1,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "197919536413",
@@ -121028,7 +121086,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": "unverified"
+   "flag": "unverified",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "237191939481",
@@ -124523,7 +124582,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168890033352",
@@ -131306,7 +131367,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "117277859290",
@@ -131483,7 +131546,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168032829602",
@@ -137529,7 +137593,9 @@
    "query": "+pokemon japanese (raichu,scizor,slowking,kingdra,absol,celebi,feraligatr,typhlosion) prime",
    "nm": 0,
    "imgs": 16,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Moderately played (Very good)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168493462470",
@@ -140236,7 +140302,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "318863380474",
@@ -140548,7 +140616,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "318863671848",
@@ -140882,7 +140951,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "407338276019",
@@ -150366,7 +150436,8 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "257863696372",
@@ -153593,7 +153664,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "800905216793",
@@ -153814,7 +153887,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "318863713397",
@@ -154264,7 +154339,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": "unverified"
+   "flag": "unverified",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "137957659565",
@@ -155154,7 +155230,8 @@
    "query": "+pokemon mew (\"black star\",wotc) promo (8,9)",
    "nm": 1,
    "imgs": 5,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "127781193518",
@@ -155246,7 +155323,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "820364942547",
@@ -157650,7 +157728,7 @@
    "title": "Magikarp 118/165 Expedition Pokémon Card Common Reverse Holo NM",
    "price": "530.70",
    "currency": "AUD",
-   "post": "0.00",
+   "post": "8.26",
    "postCurrency": "AUD",
    "options": [
     "FIXED_PRICE",
@@ -157668,7 +157746,8 @@
    "imgs": 2,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near mint or better"
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "206029416395",
@@ -169610,7 +169689,7 @@
    "title": "Mew 10/92 EX Legend Maker 2006 Vintage Pokemon, TCG holo NM",
    "price": "451.20",
    "currency": "AUD",
-   "post": "0.00",
+   "post": "8.26",
    "postCurrency": "AUD",
    "options": [
     "FIXED_PRICE",
@@ -169628,7 +169707,8 @@
    "imgs": 3,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near mint or better"
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "198661336962",
@@ -169653,7 +169733,8 @@
    "imgs": 2,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near mint or better"
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "358899908169",
@@ -179724,29 +179805,6 @@
    "flag": ""
   },
   {
-   "id": "377663136032",
-   "title": "Nintendo Palkia LV.X DP18 DP Promos Promo Holo Pokémon TCG English 2026",
-   "price": "21.90",
-   "currency": "AUD",
-   "post": "5.00",
-   "postCurrency": "AUD",
-   "options": [
-    "FIXED_PRICE",
-    "AUCTION"
-   ],
-   "bids": 0,
-   "ends": "2026-11-27T22:55:22.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "piercsheat",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/377663136032",
-   "query": "+pokemon lv.x holo near mint",
-   "nm": 1,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "287498613972",
    "title": "Nintendo Pokemon Expedition Tyranitar #29/165 Holo Rare ",
    "price": "1570.70",
@@ -186133,7 +186191,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168858140749",
@@ -186155,7 +186214,8 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "366523396308",
@@ -192071,7 +192131,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 10,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "227573195941",
@@ -192910,7 +192971,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 6,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "128197091000",
@@ -193247,7 +193309,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168463846528",
@@ -204898,7 +204961,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "840045910973",
@@ -204921,7 +204985,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "800828112451",
@@ -207477,28 +207542,6 @@
    "flag": ""
   },
   {
-   "id": "137940213107",
-   "title": "PSA 8 NM - M Rayquaza EX 105/108 Roaring Skies Full Art Mega Pokemon TCG Card",
-   "price": "1499.99",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 0,
-   "ends": "2026-11-27T21:43:07.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "skygummi",
-   "feedback": "99.5",
-   "url": "https://www.ebay.com.au/itm/137940213107",
-   "query": "pokemon ex dragon holo psa",
-   "nm": 1,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "257502632845",
    "title": "PSA 8 NM-MINT 2001 Shining Mew HOLO PROMO COROCORO COMICS Japanese Pokemon",
    "price": "6000.00",
@@ -208601,7 +208644,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168800448996",
@@ -209055,7 +209099,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "178563920369",
@@ -209214,7 +209259,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "840045905913",
@@ -209237,7 +209283,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "267844979022",
@@ -209351,7 +209398,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "227573969679",
@@ -211259,7 +211307,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "117197365692",
@@ -227149,28 +227198,6 @@
    "flag": "unverified"
   },
   {
-   "id": "900107656088",
-   "title": "Pikachu V SWSH061 Error - Miscut - Black Star Promo - NM Pokemon Card",
-   "price": "10.51",
-   "currency": "AUD",
-   "post": "6.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 4,
-   "ends": "2026-11-27T17:51:50.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "oz_tcg",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/900107656088",
-   "query": "+pokemon swsh black star promo",
-   "nm": 1,
-   "imgs": 5,
-   "flag": "damage: miscut"
-  },
-  {
    "id": "840164810033",
    "title": "Pikachu V SWSH061 Pokemon SWSH Black Star Promo NM",
    "price": "10.60",
@@ -232645,28 +232672,6 @@
    "flag": ""
   },
   {
-   "id": "820393248039",
-   "title": "Pokemon 2003 EX Ruby & Sapphire Hitmonchan EX #98 Holo PSA 6 EX-MINT",
-   "price": "152.50",
-   "currency": "AUD",
-   "post": "12.50",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 9,
-   "ends": "2026-11-27T17:28:01.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "jujusvault",
-   "feedback": "98.7",
-   "url": "https://www.ebay.com.au/itm/820393248039",
-   "query": "pokemon ex ruby sapphire holo psa",
-   "nm": 1,
-   "imgs": 4,
-   "flag": ""
-  },
-  {
    "id": "137827201354",
    "title": "Pokemon 2003 Ex Dragon - Geodude #25 Reverse Holo PSA 9",
    "price": "750.00",
@@ -234339,7 +234344,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "366625540440",
@@ -273637,7 +273643,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 11,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "920166183937",
@@ -273913,7 +273921,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 6,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "167602323481",
@@ -274426,7 +274436,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 5,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "358273352329",
@@ -282130,7 +282142,7 @@
    "title": "Pokemon TCG Dark Celebi 4/101 Hidden Legends NM",
    "price": "218.00",
    "currency": "AUD",
-   "post": "0.00",
+   "post": "6.63",
    "postCurrency": "AUD",
    "options": [
     "FIXED_PRICE",
@@ -282148,7 +282160,8 @@
    "imgs": 22,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near mint or better"
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168818664144",
@@ -283861,30 +283874,6 @@
    "flag": "damage: lp"
   },
   {
-   "id": "900107799322",
-   "title": "Pokemon TCG Illustration Rare Bulk Lot Chinese 5 Pcs Cards M/NM",
-   "price": "14.88",
-   "currency": "AUD",
-   "post": "4.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 0,
-   "ends": "2026-11-27T19:20:45.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "rena_pokeshop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/900107799322",
-   "query": "pokemon (ir,\"illustration rare\") (lot,bundle,bulk,collection,x5,x10,x20,x50) -mystery -repack @bulk @c=AU,NZ,JP",
-   "nm": 0,
-   "imgs": 1,
-   "flag": "",
-   "lot": 1,
-   "bulk": 1
-  },
-  {
    "id": "900112410303",
    "title": "Pokemon TCG Illustration Rare Bulk Lot Chinese 5 Pcs Cards M/NM (2)",
    "price": "14.88",
@@ -283901,78 +283890,6 @@
    "seller": "rena_pokeshop",
    "feedback": "100.0",
    "url": "https://www.ebay.com.au/itm/900112410303",
-   "query": "pokemon (ir,\"illustration rare\") (lot,bundle,bulk,collection,x5,x10,x20,x50) -mystery -repack @bulk @c=AU,NZ,JP",
-   "nm": 0,
-   "imgs": 1,
-   "flag": "",
-   "lot": 1,
-   "bulk": 1
-  },
-  {
-   "id": "900107801367",
-   "title": "Pokemon TCG Illustration Rare Bulk Lot Chinese 5 Pcs Cards M/NM (5)",
-   "price": "14.88",
-   "currency": "AUD",
-   "post": "4.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 0,
-   "ends": "2026-11-27T19:23:38.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "rena_pokeshop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/900107801367",
-   "query": "pokemon (ir,\"illustration rare\") (lot,bundle,bulk,collection,x5,x10,x20,x50) -mystery -repack @bulk @c=AU,NZ,JP",
-   "nm": 0,
-   "imgs": 1,
-   "flag": "",
-   "lot": 1,
-   "bulk": 1
-  },
-  {
-   "id": "900107800119",
-   "title": "Pokemon TCG Illustration Rare Bulk Lot Chinese 5 Pcs Cards M/NM (6)",
-   "price": "14.88",
-   "currency": "AUD",
-   "post": "4.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 0,
-   "ends": "2026-11-27T19:21:25.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "rena_pokeshop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/900107800119",
-   "query": "pokemon (ir,\"illustration rare\") (lot,bundle,bulk,collection,x5,x10,x20,x50) -mystery -repack @bulk @c=AU,NZ,JP",
-   "nm": 0,
-   "imgs": 1,
-   "flag": "",
-   "lot": 1,
-   "bulk": 1
-  },
-  {
-   "id": "900107800965",
-   "title": "Pokemon TCG Illustration Rare Bulk Lot Chinese 5 Pcs Cards M/NM (6)",
-   "price": "14.88",
-   "currency": "AUD",
-   "post": "4.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 0,
-   "ends": "2026-11-27T19:22:55.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "rena_pokeshop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/900107800965",
    "query": "pokemon (ir,\"illustration rare\") (lot,bundle,bulk,collection,x5,x10,x20,x50) -mystery -repack @bulk @c=AU,NZ,JP",
    "nm": 0,
    "imgs": 1,
@@ -286445,7 +286362,8 @@
    "imgs": 2,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near mint or better"
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "366772791397",
@@ -289078,28 +288996,6 @@
    "query": "+pokemon svp black star promo @c=AU,JP",
    "nm": 0,
    "imgs": 1,
-   "flag": ""
-  },
-  {
-   "id": "820393268792",
-   "title": "Pokemon TCG Scyther EX Holo 102/109 Ruby Sapphire PSA 6 EX-NM",
-   "price": "277.72",
-   "currency": "AUD",
-   "post": "12.50",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 12,
-   "ends": "2026-11-27T17:34:03.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "jujusvault",
-   "feedback": "98.7",
-   "url": "https://www.ebay.com.au/itm/820393268792",
-   "query": "pokemon ex ruby sapphire holo psa",
-   "nm": 1,
-   "imgs": 3,
    "flag": ""
   },
   {
@@ -299801,7 +299697,7 @@
    "title": "Pokémon Latios EX  101/108 Ultra Rare Holo Full Art Roaring Skies 228💎",
    "price": "119.42",
    "currency": "AUD",
-   "post": "0.00",
+   "post": "8.26",
    "postCurrency": "AUD",
    "options": [
     "FIXED_PRICE"
@@ -299818,7 +299714,8 @@
    "imgs": 2,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near mint or better"
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "257617292257",
@@ -301060,7 +300957,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 6,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "820144164901",
@@ -301309,7 +301207,8 @@
    "imgs": 14,
    "flag": "damage: creas",
    "checked": 1,
-   "cardCondition": "Lightly played (Excellent)"
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "188857192341",
@@ -301833,7 +301732,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "318457142432",
@@ -301948,7 +301848,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "389062127362",
@@ -301994,7 +301895,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 11,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Moderately played (Very good)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "257586520953",
@@ -303892,7 +303795,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "304859673251",
@@ -305440,28 +305344,6 @@
    "feedback": "100.0",
    "url": "https://www.ebay.com.au/itm/366666303290",
    "query": "pokemon generations radiant collection near mint",
-   "nm": 1,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "128214892670",
-   "title": "Pokémon TCG Charmander Svp Black Star ProMos Technologies Svp044 Holo Promo",
-   "price": "86.52",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 15,
-   "ends": "2026-11-27T22:49:47.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "boogoraddy",
-   "feedback": "98.6",
-   "url": "https://www.ebay.com.au/itm/128214892670",
-   "query": "+pokemon svp black star promo @c=AU,JP",
    "nm": 1,
    "imgs": 2,
    "flag": ""
@@ -308335,7 +308217,8 @@
    "imgs": 2,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near mint or better"
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "126266526349",
@@ -309265,28 +309148,6 @@
    "flag": ""
   },
   {
-   "id": "900107853371",
-   "title": "Pokémon TCG Japanese Xatu Mysterious Mountains 046/088 1st Ed Holo PSA 9",
-   "price": "42.00",
-   "currency": "AUD",
-   "post": null,
-   "postCurrency": null,
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 3,
-   "ends": "2026-11-27T19:51:31.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "lacwas-97",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/900107853371",
-   "query": "pokemon 1st edition holo psa",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "128165974939",
    "title": "Pokémon TCG Jigglypuff BW65 Black Star Promo English 2012 - VLP!",
    "price": "100.00",
@@ -310134,7 +309995,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 7,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "376995120752",
@@ -311643,28 +311505,6 @@
    "flag": ""
   },
   {
-   "id": "128214890232",
-   "title": "Pokémon TCG Mewtwo Svp Black Star ProMos Technologies Svp052 Regular Promo",
-   "price": "22.53",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 6,
-   "ends": "2026-11-27T22:48:56.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "boogoraddy",
-   "feedback": "98.6",
-   "url": "https://www.ebay.com.au/itm/128214890232",
-   "query": "+pokemon svp black star promo @c=AU,JP",
-   "nm": 1,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "900114123002",
    "title": "Pokémon TCG Mimikyu 075 SVP Black Star Promos Promo Holo English 2024",
    "price": "33.99",
@@ -312851,7 +312691,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 8,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168865760978",
@@ -313262,7 +313104,8 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 11,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "860053450419",
@@ -322059,7 +321902,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 8,
-   "flag": "unverified"
+   "flag": "unverified",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "840069677754",
@@ -323518,7 +323362,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "168786264067",
@@ -323541,7 +323386,8 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "227625807505",
@@ -324249,7 +324095,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "306787609393",
@@ -344118,7 +343966,9 @@
    "query": "+pokemon @pawn",
    "nm": 0,
    "imgs": 3,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Lightly played (Excellent)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "307297231874",
@@ -360326,7 +360176,9 @@
    "query": "+pokemon @pawn",
    "nm": 1,
    "imgs": 3,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "820362867677",
@@ -378839,7 +378691,8 @@
    "imgs": 2,
    "flag": "",
    "checked": 1,
-   "cardCondition": "Near mint or better"
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "800736802104",
@@ -389680,7 +389533,7 @@
    "title": "Zekrom - 115/113 - Secret Rare - Legendary Treasures - Pokemon NM",
    "price": "400.00",
    "currency": "AUD",
-   "post": "0.00",
+   "post": "8.26",
    "postCurrency": "AUD",
    "options": [
     "FIXED_PRICE"
@@ -389695,7 +389548,9 @@
    "query": "pokemon (\"plasma storm\",\"plasma freeze\",\"plasma blast\",\"legendary treasures\") secret rare",
    "nm": 1,
    "imgs": 2,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "800713003527",
@@ -445190,7 +445045,9 @@
    "query": "+pokemon (charizard,リザードン) (012/052,\"12/52\") japanese",
    "nm": 0,
    "imgs": 3,
-   "flag": "unverified"
+   "flag": "unverified",
+   "cardCondition": "Moderately played (Very good)",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "820301916014",
@@ -461568,7 +461425,9 @@
    "query": "+pokemon japanese (052/051,053/051,054/051,055/051,056/051,057/051,058/051) (bw8,\"spiral force\",\"thunder knuckle\")",
    "nm": 1,
    "imgs": 4,
-   "flag": ""
+   "flag": "",
+   "cardCondition": "Near mint or better",
+   "rechecked": "2026-11-27T23:30Z"
   },
   {
    "id": "800780642068",
@@ -1001208,28 +1001067,6 @@
    "flag": "unverified"
   },
   {
-   "id": "820367006970",
-   "title": "Torchic 004/ADV-P McDonald's Promo 2003 Atsuko Nishida Japanese Pokemon Card",
-   "price": "8.29",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 8,
-   "ends": "2026-11-27T23:04:16.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "nakaha71",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/820367006970",
-   "query": "+pokemon (adv-p,\"adv/p\")",
-   "nm": 0,
-   "imgs": 14,
-   "flag": "unverified"
-  },
-  {
    "id": "389461665812",
    "title": "Torchic 004/ADV-P Pokemon Card Japanese Nintendo Rare Promo McDonald's",
    "price": "31.47",
@@ -1122863,28 +1122700,6 @@
    "flag": ""
   },
   {
-   "id": "307287992820",
-   "title": "1999 Pokemon BLAINE'S MOLTRES #146 Gym 2 Cosmos Holo Rare Japanese PSA 9",
-   "price": "259.98",
-   "currency": "AUD",
-   "post": "18.09",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 36,
-   "ends": "2026-11-27T23:25:00.000Z",
-   "condition": "Graded",
-   "country": "SG",
-   "seller": "scc_consignments",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/307287992820",
-   "query": "pokemon japanese gym holo psa",
-   "nm": 0,
-   "imgs": 3,
-   "flag": ""
-  },
-  {
    "id": "307288498315",
    "title": "1999 Pokemon BLASTOISE #2/102 Base Set Unlimited Holo Rare Water English (A)",
    "price": "61.79",
@@ -1158345,5 +1158160,12 @@
    "imgs": 1,
    "flag": ""
   }
- ]
+ ],
+ "rechecked": {
+  "at": "2026-11-27T23:30Z",
+  "checked": 98,
+  "gone": 0,
+  "changed": 5,
+  "ended_auctions": 14
+ }
 }
