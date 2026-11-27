@@ -1,7 +1,14 @@
 name: Shop scan
 on:
   schedule:
-    - cron: "43 4 * * *"    # fallback only (GitHub starts it hours late): the shop scans are started on time by a Claude scheduled task at about 11:43 am and 5:43 pm Sydney
+    # GitHub starts scheduled runs about 8-10 h late. Several start times are listed so the first one GitHub actually
+    # runs lands around late morning and late afternoon (Sydney); the "gate" job skips any that come within 4 h of
+    # the last shop scan.
+    - cron: "43 14 * * *"   # 1:43 am Sydney (AEDT) -> usually starts late morning
+    - cron: "43 16 * * *"   # 3:43 am
+    - cron: "43 20 * * *"   # 7:43 am -> usually starts late afternoon
+    - cron: "43 22 * * *"   # 9:43 am
+    - cron: "43 4 * * *"    # 3:43 pm: last fallback
   workflow_dispatch: {}
 permissions:
   contents: write

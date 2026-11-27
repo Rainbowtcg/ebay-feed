@@ -1,7 +1,13 @@
 name: eBay feed
 on:
   schedule:
-    - cron: "17 17 * * *"   # fallback only: GitHub starts scheduled runs ~8 h late, so the run is started at 4:17 am Sydney by a Claude scheduled task (workflow_dispatch) and done by about 6:45 am
+    # GitHub starts scheduled runs about 8 h late. Several start times are listed so the first one GitHub actually
+    # runs lands in the early morning (Sydney); the "gate" job below makes every later one skip itself
+    # (listings.json under 16 h old), so there's still only one eBay search a day.
+    - cron: "17 9 * * *"    # 8:17 pm Sydney (AEDT) -> usually starts ~4 am
+    - cron: "17 10 * * *"   # 9:17 pm
+    - cron: "17 11 * * *"   # 10:17 pm
+    - cron: "17 17 * * *"   # 4:17 am: last fallback
   workflow_dispatch: {}
 permissions:
   contents: write
