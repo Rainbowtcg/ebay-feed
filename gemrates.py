@@ -9,7 +9,7 @@ pages for their sold prices by grade and sorts them into:
   HUNT   a PSA 9 about breaks even, a PSA 10 is worth 5x+ a 9.            Max raw price = what a PSA 9 nets.
   (cards that lose money even at a 9 are left out)
 
-"Nets" = sale price x 0.87 (eBay fees) minus A$70 grading, the same sums enrich.py uses for grade plays.
+"Nets" = sale price x 0.90 (Australian resale) x 0.87 (eBay fees) minus A$90 all-in grading, the same sums enrich.py uses for grade plays.
 Writes gemrates.json (enrich.py reads it: a raw NM copy at or under the max price becomes a grade play / 10 hunt,
 which alerts.py can send to the phone) and gemrates.md (the ranked list, with eBay and PriceCharting links).
 Population counts include re-submissions and only cards people bothered to grade, so they're a rough guide:
@@ -29,10 +29,10 @@ MIN_TOTAL = 100        # graded copies in all, or the counts are noise
 MIN_N9 = 25            # PSA 9s: the card can reach a 9 and 9s exist to sell
 MAX_GEM = 0.35         # gem rate above this: 10s are common, so no special upside (cards are still ranked by gem rate)
 # money rules
-SELL_KEEP, GRADE_COST = 0.87, 70   # eBay fees kept; base grading cost (same as enrich.py)
+SELL_KEEP, GRADE_COST = 0.87 * 0.90, 90   # Australian resale (90% of US-converted value) less eBay fees; all-in grading (same as enrich.py)
 # PSA charges by declared value, so a card that comes back worth thousands costs more to grade.
 # Rough A$ cost per card by the value it comes back at (submitter + PSA upcharge). Check against current PSA prices.
-FEE_TIERS = [(750, 70), (2250, 150), (3750, 260), (7500, 480), (15000, 800)]
+FEE_TIERS = [(750, 90), (2250, 170), (3750, 280), (7500, 500), (15000, 820)]   # incl. ~A$20 postage both ways + insurance
 FEE_OVER = 0.10        # over the last tier: about 10% of the card's value
 HALF_GRADE_WORSE = 0.5 # pop reports are mostly the good copies people chose to grade: assume half of each grade's share
                        # comes back one grade lower for an ordinary raw NM copy

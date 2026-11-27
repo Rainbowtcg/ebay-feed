@@ -34,9 +34,12 @@ LOTS_CAT = "Binders & lots"       # heading in queries.txt; @lots listings (neve
 SEALED_CAT = "Sealed: ETBs & booster boxes"  # heading in queries.txt; also every shop ETB / booster box
 # Australian RRPs (same as the Slab Finder page's NR_RRP): standard Elite Trainer Box, English 36-pack booster box
 RRP = {"ETB": 100.0, "Box": 306.0}
-GRADE_COST = 70                  # A$ per card to grade (PSA via an AU submitter, value tiers)
+GRADE_COST = 90                  # A$ per card to grade, all-in: PSA via an AU submitter + postage both ways + insurance
 GEM_LIVE_KEEP = 8      # cheapest live NM raw copies kept per gem-rate target (one per seller)
-SELL_KEEP = 0.87                 # share of the sale price kept after eBay fees
+AU_RESALE = 0.90                 # values are mostly US sales converted to A$; selling in Australia (thinner market, quick sale)
+                                 # is counted at 90% of that. A patient Buy It Now sale here often does better: a bonus, not the plan
+SELL_KEEP = 0.87 * AU_RESALE     # share of the US-converted value kept: Australian resale, then ~13% eBay fees
+THIN_KEEP = 0.80                 # a grade whose value rests on under 3 recent sales (guide average) counts at 80%
 SKIP_CC = {"US", "GB", "UK", "CA"}
 AUCTION_HOURS = 24               # auctions ending within this many hours are shown when the bid is well under value
 AUCTION_RATIO = 0.7              # ... at or under 70% of the card's value (landed, with GST)
@@ -244,6 +247,12 @@ def sort_risk(who, gv, pl, stock):
     if stock:
         return 3, True, SELLER_LABEL[who] + ", stock / single photo"
     return {"pawn": 0, "private": 1, "ranked": 1, "shop": 2}[who], False, SELLER_LABEL[who]
+
+
+def safe_gv(gv, thin):
+    """Grade values with thin-sales grades counted at THIN_KEEP (used for every profit sum on raw cards to grade)."""
+    thin = set(thin or [])
+    return {g: (round(v * THIN_KEEP) if g in thin and v else v) for g, v in (gv or {}).items()}
 
 
 def grade_price(gv, g):
@@ -836,7 +845,7 @@ def main():
                           and pl >= 0.4 * gem_rm and nm_ok)
         if gem_pc and gem_ok:
             g_ = GEM[gem_pc]
-            gv_ = g_.get("v") or {}
+            gv_ = safe_gv(g_.get("v"), g_.get("thin"))
             vint_ = bool(GEM_VINTAGE.search(g_.get("set", "").replace("pokemon-", "")))
             o_ = outcomes(gv_, pl)
             rank_, judged7_, who_txt_ = sort_risk(who, gv_, pl, stock)
@@ -851,7 +860,7 @@ def main():
                 # a buy: at or under the max raw, still worth it on the realistic grade mix, and real upside at a 9
                 "ok": 1 if (pl <= g_["max_raw"] and ev_ >= 0 and o_["PSA 9"] >= MIN_UPSIDE) else 0})
         if nm_raw_ok:
-            gv = val[0]["g"]
+            gv = safe_gv(val[0]["g"], val[0].get("thin"))
             old = set_of(val[0]["label"]) in VINTAGE or str(val[0].get("num", "")).startswith("No.")
             want_g, low_g = ("PSA 8", "PSA 7") if old else ("PSA 9", "PSA 8")
             pw, plow = gv.get(want_g), gv.get(low_g)
@@ -883,7 +892,7 @@ def main():
             if gp:
                 gp_why += f" · {gem_txt}"
             elif pl <= gem["max_raw"]:
-                gv = gem["v"]
+                gv = safe_gv(gem["v"], gem.get("thin"))
                 vint = bool(GEM_VINTAGE.search(gem.get("set", "").replace("pokemon-", "")))
                 o = outcomes(gv, pl)
                 rank, judged7, who_txt = sort_risk(who, gv, pl, stock)
@@ -1116,7 +1125,7 @@ def main():
         g = GEM[pc]
         for cp in cps:
             if cp["ok"]:
-                v = g.get("v") or {}
+                v = safe_gv(g.get("v"), g.get("thin"))
                 net8 = round(grade_price(v, "PSA 8") * SELL_KEEP - GRADE_COST - cp["pl"])
                 net9 = round(grade_price(v, "PSA 9") * SELL_KEEP - GRADE_COST - cp["pl"])
                 gem_buys.append({**cp, "pc": pc, "name": g.get("name", ""), "set": g.get("set", ""), "kind": g["kind"],
@@ -1164,7 +1173,8 @@ def main():
                   "Sorted by who's selling, then expected profit: pawn shops and general sellers first (they don't sort "
                   "for grading), then private sellers and condition-ranked JP shops, then card shops. Last, judged near a PSA 7: "
                   f"stock or single-photo listings, and card shops selling raw at under 1/{SORTED_PREMIUM} of the PSA 9 price "
-                  f"(they'd have graded a copy that looked like a 9). Net = after A${GRADE_COST} grading and selling fees.")
+                  f"(they'd have graded a copy that looked like a 9). Net = after A${GRADE_COST} all-in grading, with graded values counted at "
+                  f"{round(AU_RESALE * 100)}% (Australian resale) less eBay fees, and thin-sales grades at {round(THIN_KEEP * 100)}%.")
         sg = lambda n: ("+" if n >= 0 else "−") + f"A${abs(n):,}"
         for b in gem_buys[:20]:
             v = b["v"]

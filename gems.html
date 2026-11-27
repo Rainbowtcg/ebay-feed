@@ -97,7 +97,7 @@
   </div>
 </div>
 
-<div class="help" id="help">🟢 <b>Buy now</b> = a Near Mint raw copy is listed today at or under the card's max raw price (landed: postage, plus GST on overseas items). Net = what you'd keep at that grade after A$70 grading and eBay fees. SAFE: a PSA 8 still covers the max. 10 HUNT: you need a 9 or better. "NM" is the seller's word, so check the photos. Copies are ranked by who's selling: pawn shops and general sellers rarely sort cards for grading, so their copies come first; a card shop selling raw at under a fifth of the PSA 9 price has probably already passed it over, so that copy (and any stock-photo listing) is judged near a PSA 7.</div>
+<div class="help" id="help">🟢 <b>Buy now</b> = a Near Mint raw copy is listed today at or under the card's max raw price (landed: postage, plus GST on overseas items). Net = what you'd keep at that grade selling in Australia (values are mostly US sales, counted at 90%) after eBay fees and A$90 all-in grading. SAFE: a PSA 8 still covers the max. 10 HUNT: you need a 9 or better. "NM" is the seller's word, so check the photos. Copies are ranked by who's selling: pawn shops and general sellers rarely sort cards for grading, so their copies come first; a card shop selling raw at under a fifth of the PSA 9 price has probably already passed it over, so that copy (and any stock-photo listing) is judged near a PSA 7.</div>
 <div class="count" id="count"></div>
 <ul id="list"></ul>
 <button class="chip load" id="loadmore" hidden>Show more</button>
@@ -122,7 +122,7 @@ let LIVE = {}, LIVE_DAY = "";
 try { Object.assign(st, JSON.parse(localStorage.getItem("gemsFilters") || "{}")); } catch (e) {}
 const save = () => { try { localStorage.setItem("gemsFilters", JSON.stringify(st)); } catch (e) {} };
 if (location.hash === "#buy") { st.live = true; st.sort = "best"; }
-const SELL_KEEP = 0.87, GRADE_COST = 70;
+const SELL_KEEP = 0.87 * 0.90, GRADE_COST = 90;   // Australian resale (90% of US-converted value) less eBay fees; all-in grading (same as enrich.py)
 const netAt = (v, pl) => v == null ? null : Math.round(v * SELL_KEEP - GRADE_COST - pl);
 const sign = n => n == null ? "–" : (n >= 0 ? "+" : "−") + "A$" + Math.abs(n).toLocaleString("en-AU");
 

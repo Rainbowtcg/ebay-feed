@@ -31,7 +31,8 @@ SHOPS = ["Mega Cash"]          # shop names as they appear in stores.json "selle
 EBAY_SHOPS = {"mega-cash": "Mega Cash eBay", "megacashselect": "Mega Cash eBay", "megacashsouthwindsor": "Mega Cash Penrith eBay"}
 MAX_LOOKUPS = int(os.environ.get("MC_MAX_LOOKUPS", "250"))
 CACHE_DAYS = 7
-GRADING = 60                   # A$ per card to grade
+GRADING = 90                   # A$ per card to grade, all-in (submitter, postage both ways, insurance)
+SELL_KEEP = 0.87 * 0.90        # graded resale: Australian market (90% of US-converted value) less ~13% eBay fees
 SHIP_RAW, SHIP_SLAB = 25, 45   # A$ shipping from the US, used for the landed import cost
 GST = 1.10
 UNDER, FAIR = 0.80, 1.00       # cost <= 80% of value = UNDER, <= 100% = FAIR
@@ -286,7 +287,7 @@ def main():
         if not c["grade"]:
             for gk, lab in (("g8", "psa8_net"), ("g9", "psa9_net")):
                 gv, _ = value(info, gk)
-                row[lab] = round(gv * rate - cost - GRADING) if gv else None
+                row[lab] = round(gv * rate * SELL_KEEP - cost - GRADING) if gv else None
         out.append(row)
 
     json.dump({"generated": now.isoformat(timespec="minutes"), "usd_aud": rate, "rate_source": rate_src,
@@ -330,7 +331,7 @@ def write_md(out, rate, now):
     new_cut = (now - timedelta(days=2)).date().isoformat()
     L = [f"# Shop pricer {now.date().isoformat()}",
          f"US$1 = A${rate}. Value = median of the last 90 days' sales at the card's grade (raw = NM), or PriceCharting's "
-         f"average marked ⚠️THIN when there were under 3 sales. Cost = shop price + post. Graded net assumes A${GRADING} grading.", ""]
+         f"average marked ⚠️THIN when there were under 3 sales. Cost = shop price + post. Graded net = value x 0.90 (Australian resale) less eBay fees, minus A${GRADING} all-in grading.", ""]
     groups = [("UNDER", "Under value (cost 20%+ below value)", True),
               ("FAIR", "Fair (within value)", True),
               ("OVER-US", "Above US value, below import cost", False),
