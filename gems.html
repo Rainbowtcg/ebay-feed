@@ -29,6 +29,7 @@
   .top { display:flex; justify-content:space-between; gap:8px; }
   .nm { font-weight:600; }
   .set { color:var(--dim); font-size:13px; }
+  .set.warn { color:#d29922; }
   .badge { font-size:11px; font-weight:700; padding:2px 7px; border-radius:10px; white-space:nowrap; align-self:flex-start; }
   .SAFE { background:rgba(63,185,80,.18); color:var(--safe); }
   .HUNT { background:rgba(210,153,34,.18); color:var(--hunt); }
@@ -96,7 +97,7 @@
   </div>
 </div>
 
-<div class="help" id="help">🟢 <b>Buy now</b> = a Near Mint raw copy is listed today at or under the card's max raw price (landed: postage, plus GST on overseas items). Net = what you'd keep at that grade after A$70 grading and eBay fees. SAFE: a PSA 8 still covers the max. 10 HUNT: you need a 9 or better. "NM" is the seller's word, so check the photos.</div>
+<div class="help" id="help">🟢 <b>Buy now</b> = a Near Mint raw copy is listed today at or under the card's max raw price (landed: postage, plus GST on overseas items). Net = what you'd keep at that grade after A$70 grading and eBay fees. SAFE: a PSA 8 still covers the max. 10 HUNT: you need a 9 or better. "NM" is the seller's word, so check the photos. Copies are ranked by who's selling: pawn shops and general sellers rarely sort cards for grading, so their copies come first; a card shop selling raw at under a fifth of the PSA 9 price has probably already passed it over, so that copy (and any stock-photo listing) is judged near a PSA 7.</div>
 <div class="count" id="count"></div>
 <ul id="list"></ul>
 <button class="chip load" id="loadmore" hidden>Show more</button>
@@ -172,7 +173,11 @@ function build(d) {
     const setName = (x.set || "").replace("pokemon-", "").replace(/-/g, " ");
     const q = x.q || ebayQuery(x.name, x.num, x.set, x.lang);
     const copies = (LIVE[path] || []).slice().sort((a, c) => a.pl - c.pl);
-    const ok = copies.filter(c => c.pl <= x.max_raw);
+    // a buy = at or under max and, when the summary has scored it, still worth it on the realistic grade mix;
+    // best first: pawn / general sellers, then private sellers and ranked JP shops, then card shops, then
+    // copies judged near PSA 7 (stock photos, or a card shop selling far under the PSA 9 price) — then most expected profit
+    const ok = copies.filter(c => c.pl <= x.max_raw && (c.ok == null || c.ok))
+      .sort((a, c) => (a.rank ?? 2) - (c.rank ?? 2) || (c.ev ?? 0) - (a.ev ?? 0) || a.pl - c.pl);
     const best = ok[0] || null;
     return { ...x, path, card, setName, q, era: eraOf(x.set || ""), raw: x.raw_market, copies, ok, best,
              bestRoom: best ? x.max_raw - best.pl : null,
@@ -217,14 +222,15 @@ function item(x) {
     <div class="nums"><span>max <b>${aud(x.max_raw)}</b></span><span>raw ${aud(x.raw)}</span>${roomTxt}
       <span>gem ${(x.gem * 100).toFixed(x.gem < 0.1 ? 1 : 0)}%</span></div>
     ${x.best ? `<div class="live">🟢 <a href="${esc(x.best.url)}" target="_blank" rel="noopener"><b>${aud(x.best.pl)}</b> ${esc(x.best.cc)} · ${esc(x.best.seller)}</a>
-      <span class="tag">${aud(x.bestRoom)} under max</span>${x.best.new ? '<span class="tag nw">new</span>' : ""}${x.best.drop ? '<span class="tag nw">drop</span>' : ""}
-      ${x.ok.length > 1 ? ` <span class="set">+${x.ok.length - 1} more under max</span>` : ""}</div>`
+      <span class="tag">${aud(x.bestRoom)} under max</span>${x.best.ev != null ? `<span class="tag">expected ${sign(x.best.ev)}</span>` : ""}${x.best.new ? '<span class="tag nw">new</span>' : ""}${x.best.drop ? '<span class="tag nw">drop</span>' : ""}
+      ${x.ok.length > 1 ? ` <span class="set">+${x.ok.length - 1} more under max</span>` : ""}
+      ${x.best.who_txt ? `<div class="set${x.best.stock ? " warn" : ""}">${esc(x.best.who_txt)}${x.best.stock ? " — judged near PSA 7" : ""}</div>` : ""}</div>`
       : x.copies.length ? `<div class="live set">Cheapest live NM copy ${aud(x.copies[0].pl)} (over max)</div>` : ""}
     <div class="more">
       ${x.best ? `<div class="net">At ${aud(x.best.pl)}: ${["PSA 8", "PSA 9", "PSA 10"].map(k => {
           const n = netAt(v[k], x.best.pl); return `<span>${k} <b class="${n == null ? "" : n >= 0 ? "pos" : "neg"}">${sign(n)}</b></span>`; }).join("")}</div>` : ""}
       ${x.copies.length ? `<div class="copies">${x.copies.map(c => `<div class="${c.pl <= x.max_raw ? "" : "over"}">
-          <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.cc)} · ${esc(c.seller)} — ${esc(c.t)}</a>
+          <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.cc)} · ${esc(c.seller)} — ${esc(c.t)}</a>${c.who_txt ? ` <span class="set">${esc(c.who_txt)}</span>` : ""}
           <b>${aud(c.pl)}${c.pl <= x.max_raw ? "" : " over"}</b></div>`).join("")}</div>` : ""}
       <div class="grades">${g}</div>
       <div>Pop: ${x.n10.toLocaleString()} tens · ${x.n9.toLocaleString()} nines · ${x.n8.toLocaleString()} eights of ${x.total.toLocaleString()} graded${thin.length ? ` · <span class="thin">few sales: ${thin.join(", ")}</span>` : ""}</div>
