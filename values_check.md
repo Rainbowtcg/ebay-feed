@@ -1,32 +1,12 @@
-# Card value refresh 2026-11-26
-98 cards refreshed at US$1 = A$1.5073; 230 still due.
+# Card value refresh 2026-11-27
+118 cards refreshed at US$1 = A$1.5075; 146 still due.
 
 ## Big jumps not written (check the match)
-- Japanese Mysterious Mountains 1st Edition Crystal Charizard 089/088 Raw: was A$3567, PriceCharting now A$18 — kept the old value; check the match [Charizard [1st Edition] #89   Pokemon Japanese Mysterious Mountains](https://www.pricecharting.com/game/pokemon-japanese-mysterious-mountains/charizard-1st-edition-89)
-- Boundaries Crossed Altaria 152/149 PSA 9: was A$1303, PriceCharting now A$6029 — kept the old value; check the match [Altaria #152   Pokemon Boundaries Crossed](https://www.pricecharting.com/game/pokemon-boundaries-crossed/altaria-152)
-- Japanese Hail Blizzard Kyurem-EX 053/052 PSA 9: was A$123, PriceCharting now A$378 — kept the old value; check the match [Kyurem EX #53   Pokemon Japanese Hail Blizzard](https://www.pricecharting.com/game/pokemon-japanese-hail-blizzard/kyurem-ex-53)
-- Japanese Hail Blizzard Emboar 056/052 PSA 9: was A$231, PriceCharting now A$980 — kept the old value; check the match [Emboar #56   Pokemon Japanese Hail Blizzard](https://www.pricecharting.com/game/pokemon-japanese-hail-blizzard/emboar-56)
+- Japanese Megalo Cannon Exeggcute 083/076 1st Ed PSA 9: was A$2593, PriceCharting now A$450 — kept the old value; check the match [Exeggcute [1st Edition] #83   Pokemon Japanese Megalo Cannon](https://www.pricecharting.com/game/pokemon-japanese-megalo-cannon/exeggcute-1st-edition-83)
+- Japanese Megalo Cannon Virizion 084/076 1st Ed Raw: was A$44, PriceCharting now A$138 — kept the old value; check the match [Virizion [1st Edition] #84   Pokemon Japanese Megalo Cannon](https://www.pricecharting.com/game/pokemon-japanese-megalo-cannon/virizion-1st-edition-84)
+- Japanese Best of XY Mew 044/171 PSA 10: was A$107, PriceCharting now A$492 — kept the old value; check the match [Mew #44   Pokemon Japanese Best of XY](https://www.pricecharting.com/game/pokemon-japanese-best-of-xy/mew-44)
+- Jungle Kangaskhan 5/64 (no symbol) Raw: was A$41, PriceCharting now A$173 — kept the old value; check the match [Kangaskhan [No Symbol] #5   Pokemon Jungle](https://www.pricecharting.com/game/pokemon-jungle/kangaskhan-no-symbol-5)
 
 ## Not found on PriceCharting
-- Japanese PCG Offense and Defense of the Furthest Ends Mew Gold Star 015/068: no PriceCharting card fit (top result /game/pokemon-japanese-offense-and-defense-of-the-furthest-ends/charizard-gold-star-52)
-- Japanese PCG Holon Research Tower Rayquaza δ 043/086 1st Edition: no PriceCharting card fit (top result /game/pokemon-japanese-promo/rayquaza-41pcg-p)
-- Japanese PCG Holon Research Tower Metagross δ 040/086 1st Edition: no PriceCharting card fit (top result /game/pokemon-japanese-holon-research/metagross-gold-star-1st-edition-75)
-- Japanese PCG Holon Research Tower Mewtwo δ 019/086 1st Edition: no PriceCharting card fit (top result /game/pokemon-japanese-promo/mewtwo-meiji-chocolate-107pcg-p)
-- Japanese PCG-era PokéPark Forest Pokepark's Munchlax 008/009: no PriceCharting card fit (top result /game/pokemon-japanese-promo/pokepark%27s-pikachu-43pcg-p)
-- Japanese Game Boy Promo Dragonite No.149 (old back): no PriceCharting card fit (top result /game/pokemon-promo/dragonite-5)
-- Triumphant Gengar Prime 94/102: no PriceCharting card fit (top result /game/pokemon-30th-celebration/gengar-94)
-- Undaunted Umbreon Prime 86/90: no PriceCharting card fit (top result /game/pokemon-evolving-skies/umbreon-v-189)
-- Triumphant Mew Prime 97/102: no PriceCharting card fit (top result /game/pokemon-triumphant/gengar-94)
-- Undaunted Espeon Prime 81/90: no PriceCharting card fit (top result /game/pokemon-undaunted/umbreon-86)
-- Unleashed Tyranitar Prime 88/95: no PriceCharting card fit (top result /game/pokemon-battle-styles/tyranitar-v-155)
-- Undaunted Houndoom Prime 82/90: no PriceCharting card fit (top result /game/pokemon-destined-rivals/team-rocket%27s-houndoom-191)
-- Undaunted Raichu Prime 83/90: no PriceCharting card fit (top result /game/pokemon-undaunted/umbreon-86)
-- Triumphant Absol Prime 91/102: no PriceCharting card fit (top result /game/pokemon-triumphant/gengar-94)
-- Triumphant Celebi Prime 92/102: no PriceCharting card fit (top result /game/pokemon-triumphant/gengar-94)
-- Undaunted Slowking Prime 85/90: no PriceCharting card fit (top result /game/pokemon-undaunted/umbreon-86)
-- HeartGold SoulSilver Feraligatr Prime 108/123: no PriceCharting card fit (top result /game/pokemon-heartgold-&-soulsilver/gyarados-123)
-- Unleashed Steelix Prime 87/95: no PriceCharting card fit (top result /game/pokemon-mega-evolution/steelix-150)
-- Undaunted Scizor Prime 84/90: no PriceCharting card fit (top result /game/pokemon-undaunted/umbreon-86)
-- Unleashed Kingdra Prime 85/95: no PriceCharting card fit (top result /game/pokemon-promo/kingdra-ex-131)
-- HeartGold SoulSilver Meganium Prime 109/123: no PriceCharting card fit (top result /game/pokemon-heartgold-&-soulsilver/gyarados-123)
-- Japanese L1 SoulSilver Collection Typhlosion Prime 017/070 1st Edition: no PriceCharting card fit (top result /game/pokemon-neo-genesis/typhlosion-1st-edition-17)
+- Japanese Dragon Blade Ho-Oh-EX 051/050: no PriceCharting card fit (top result /game/pokemon-japanese-dragon-blade/ho-oh-ex-51)
+- Japanese Dragon Blade Ho-Oh-EX 051/050 1st Ed: no PriceCharting card fit (top result /game/pokemon-japanese-dragon-blade/ho-oh-ex-1st-edition-51)
