@@ -1,7 +1,7 @@
 name: Shop scan
 on:
   schedule:
-    - cron: "43 4 * * *"    # about 3:43 pm AEDT (2:43 pm AEST in winter): a second daily look at the shops, which sell out fast
+    - cron: "43 4 * * *"    # fallback only (GitHub starts it hours late): the shop scans are started on time by a Claude scheduled task at about 11:43 am and 5:43 pm Sydney
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -10,7 +10,38 @@ concurrency:
   group: feed-data          # shared with the morning eBay feed, so the two never write the feed at the same time
   cancel-in-progress: false
 jobs:
+  gate:
+    # GitHub starts scheduled runs many hours late (often 8+). The run is normally started on time by a Claude
+    # scheduled task through workflow_dispatch; the cron below is only a fallback, so a late scheduled run is
+    # skipped when an on-time run already did the job.
+    runs-on: ubuntu-latest
+    outputs:
+      go: ${{ steps.g.outputs.go }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            stores.json
+          sparse-checkout-cone-mode: false
+      - id: g
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json, os
+          from datetime import datetime, timezone
+          if os.environ.get("EV") != "schedule":
+              print("go=true"); raise SystemExit
+          try:
+              g = json.load(open("stores.json", encoding="utf-8")).get("generated", "")
+              age = (datetime.now(timezone.utc) - datetime.fromisoformat(str(g).replace("Z", "+00:00"))).total_seconds() / 3600
+          except Exception:
+              age = 999
+          print("go=" + ("false" if age < 4 else "true"))
+          EOF
+        env:
+          EV: ${{ github.event_name }}
   shops:
+    needs: gate
+    if: needs.gate.outputs.go == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -20,6 +51,12 @@ jobs:
           python-version: "3.12"
       - name: Read shop catalogues
         run: python store_scan.py
+      - name: Recheck the best eBay listings (sold / ended / price changes)
+        continue-on-error: true
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+        run: python recheck.py
       - name: Price shop cards (Mega Cash)
         continue-on-error: true
         run: python megacash_prices.py
@@ -39,7 +76,7 @@ jobs:
         run: |
           git config user.name "ebay-feed-bot"
           git config user.email "ebay-feed-bot@users.noreply.github.com"
-          for f in stores.json feed.js feed-lite.js history.json digest.json digest.md megacash.json megacash.md mc_cache.json alerts_seen.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          for f in listings.json stores.json feed.js feed-lite.js history.json digest.json digest.md megacash.json megacash.md mc_cache.json alerts_seen.json; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --cached --quiet || git commit -m "Shop scan $(date -u +%F)"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 10; done
       - name: Refresh the finder's copy
