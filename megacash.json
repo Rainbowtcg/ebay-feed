@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-27T14:56+00:00",
+ "generated": "2026-11-27T18:53+00:00",
  "usd_aud": 1.5075,
  "rate_source": "open.er-api.com",
- "lookups_this_run": 0,
+ "lookups_this_run": 15,
  "cards": [
   {
    "title": "Pokemon - Gastly 57/144 Rev Holo Skyridge",
@@ -471,10 +471,10 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=eevee+svp173+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 186.2,
+    "aud": 221.98,
     "country": "AU",
-    "url": "https://www.ebay.com.au/itm/940113422967",
-    "copies": 2
+    "url": "https://www.ebay.com.au/itm/117472573168",
+    "copies": 1
    },
    "auction": false,
    "offers": false,
@@ -849,7 +849,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=rayquaza+%28144%2Fbw-p%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 471.39,
+    "aud": 470.82,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/860132830559",
     "copies": 11
@@ -2902,7 +2902,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=meganium+%2853%2F165%2C053%2F165%29+%28reverse%2Crev%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 149.98,
+    "aud": 144.98,
     "country": "AU",
     "url": "https://www.ebay.com.au/itm/377605516799",
     "copies": 2
@@ -3177,7 +3177,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=scyther+%28106%2F147%29+%28reverse%2Crev%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 431.57,
+    "aud": 431.05,
     "country": "SG",
     "url": "https://www.ebay.com.au/itm/377576483047",
     "copies": 1
@@ -7049,7 +7049,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=delibird+%2849%2F144%2C049%2F144%29+%28reverse%2Crev%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 240.68,
+    "aud": 240.39,
     "country": "SG",
     "url": "https://www.ebay.com.au/itm/377471602085",
     "copies": 2
@@ -7144,7 +7144,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=persian+%2842%2F144%2C042%2F144%29+%28reverse%2Crev%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 231.04,
+    "aud": 208.0,
     "country": "AU",
     "url": "https://www.ebay.com.au/itm/128154926857",
     "copies": 2
@@ -7512,7 +7512,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=persian+%2842%2F144%2C042%2F144%29+%28reverse%2Crev%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 231.04,
+    "aud": 208.0,
     "country": "AU",
     "url": "https://www.ebay.com.au/itm/128154926857",
     "copies": 2
@@ -8765,12 +8765,7 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=magikarp+%28080%2F073%2C80%2F073%29+japanese&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=magikarp+%28080%2F073%2C80%2F073%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": {
-    "aud": 594.67,
-    "country": "JP",
-    "url": "https://www.ebay.com.au/itm/137954627556",
-    "copies": 1
-   },
+   "live": null,
    "auction": false,
    "offers": false,
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-triplet-beat/magikarp-80",
@@ -9665,7 +9660,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pikachu+%28016%2F128%2C16%2F128%29+japanese+1st&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 446.25,
+    "aud": 443.27,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/820342694933",
     "copies": 2
@@ -11667,7 +11662,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=pidgeot+%28123%2F128%29+japanese+1st&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 1965.15,
+    "aud": 1957.63,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/820342693492",
     "copies": 2
@@ -11807,10 +11802,10 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mega+dragonite+ex+%28246%2F193%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 378.29,
+    "aud": 377.66,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/227137658682",
-    "copies": 3
+    "copies": 4
    },
    "auction": false,
    "offers": false,
@@ -13615,7 +13610,12 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=ditto+charmander+%28012%2F086%2C12%2F086%29+japanese&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=ditto+charmander+%28012%2F086%2C12%2F086%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": null,
+   "live": {
+    "aud": 2221.55,
+    "country": "JP",
+    "url": "https://www.ebay.com.au/itm/820222452248",
+    "copies": 1
+   },
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
@@ -14942,10 +14942,10 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=kangaskhan+%285%2F64%2C005%2F64%29+-1st+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 287.98,
+    "aud": 296.44,
     "country": "AU",
-    "url": "https://www.ebay.com.au/itm/860130093782",
-    "copies": 2
+    "url": "https://www.ebay.com.au/itm/257871182126",
+    "copies": 1
    },
    "auction": false,
    "offers": false,
@@ -16901,10 +16901,10 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=hoopa+%28155%2Fxy-p%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 169.31,
+    "aud": 165.79,
     "country": "JP",
-    "url": "https://www.ebay.com.au/itm/840138015955",
-    "copies": 16
+    "url": "https://www.ebay.com.au/itm/198820774839",
+    "copies": 18
    },
    "auction": false,
    "offers": false,
@@ -16929,7 +16929,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=magneton+82+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 257.06,
+    "aud": 256.75,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/860173954028",
     "copies": 6
@@ -17397,10 +17397,10 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mega+charizard+ex+%28110%2F080%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 1282.63,
+    "aud": 1281.09,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/389416558808",
-    "copies": 6
+    "copies": 7
    },
    "auction": false,
    "offers": false,
@@ -17534,7 +17534,7 @@
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=magneton+82+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": {
-    "aud": 257.06,
+    "aud": 256.75,
     "country": "JP",
     "url": "https://www.ebay.com.au/itm/860173954028",
     "copies": 6
@@ -20285,7 +20285,12 @@
     "cn": "https://www.ebay.com.au/sch/i.html?_nkw=gengar+ex+%28010%2F049%2C10%2F049%29+japanese&LH_LocatedIn=1&_salic=45",
     "sold": "https://www.ebay.com.au/sch/i.html?_nkw=gengar+ex+%28010%2F049%2C10%2F049%29+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
-   "live": null,
+   "live": {
+    "aud": 749.1,
+    "country": "AU",
+    "url": "https://www.ebay.com.au/itm/407175394710",
+    "copies": 1
+   },
    "auction": false,
    "offers": false,
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-m-master-deck-build-box/gengar-ex-10",
@@ -21514,6 +21519,29 @@
    "psa9_net": 11
   },
   {
+   "title": "Pokemon- Hidden Fates ETB Sun & Moon",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-tcg-hidden-fates-elite-trainer-box-sealed",
+   "listed": "",
+   "price": 719.1,
+   "post": 0.0,
+   "cost": 719.1,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-hidden-fates/pikachu-19)"
+  },
+  {
    "title": "Pokemon - Destined Rivals ETB",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/destined-rivals-etb",
@@ -21605,20 +21633,20 @@
    "pc": "https://www.pricecharting.com/game/pokemon-shining-fates/shining-fates-mini-tin",
    "matched": "Shining Fates Mini Tin   Pokemon Shining Fates",
    "aud": {
-    "raw": 194
+    "raw": 48
    },
    "basis": {
-    "n90": 20,
+    "n90": 15,
     "last": "2026-10-30",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 129.01,
+    "pc_avg": 32.0,
     "grade": "raw (NM)"
    },
-   "value": 272,
-   "landed": 326,
-   "gap": -0.31,
+   "value": 45,
+   "landed": 77,
+   "gap": 3.18,
    "thin": false,
-   "signal": "UNDER",
+   "signal": "OVER",
    "psa8_net": null,
    "psa9_net": null
   },
@@ -21644,29 +21672,6 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-champion%27s-path/charizard-v-79)"
-  },
-  {
-   "title": "Pokemon- Hidden Fates ETB Sun & Moon",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-tcg-hidden-fates-elite-trainer-box-sealed",
-   "listed": "",
-   "price": 719.1,
-   "post": 0.0,
-   "cost": 719.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-hidden-fates/pikachu-19)"
   },
   {
    "title": "Pokemon - Shrouded Fable ETB",
@@ -21778,27 +21783,27 @@
    "psa9_net": null
   },
   {
-   "title": "Pokemon - Obsidian Flames ETB",
+   "title": "Pokemon - 30TH Celebrations ETB",
    "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-obsidian-flames-etb-with-acrylic",
+   "url": "https://megacash.com.au/products/pokemon-30th-celebrations-etb",
    "listed": "",
-   "price": 449.1,
+   "price": 206.1,
    "post": 0.0,
-   "cost": 449.1,
+   "cost": 206.1,
    "grader": null,
    "grade": null,
    "jp": false,
    "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Obsidian+Flames+ETB+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Obsidian+Flames+ETB+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Obsidian+Flames+ETB+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Obsidian+Flames+ETB+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=30TH+Celebrations+ETB+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": null,
    "auction": false,
    "offers": false,
    "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-obsidian-flames/cleffa-202)"
+   "why": "no PriceCharting card fit (top result /game/pokemon-30th-celebration/lugia-149)"
   },
   {
    "title": "Pokemon- Surging Sparks Booster Box- Scarlet & Violet",
@@ -22019,6 +22024,29 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-paradox-rift/groudon-199)"
   },
   {
+   "title": "Pokemon-Stellar Crown Booster Box Scarlet & Violet",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-tcg-scarlet-violet-stellar-crown-booster-box",
+   "listed": "",
+   "price": 449.1,
+   "post": 0.0,
+   "cost": 449.1,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Stellar+Crown+Booster+Box+Scarlet+%26+Violet+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Stellar+Crown+Booster+Box+Scarlet+%26+Violet+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Stellar+Crown+Booster+Box+Scarlet+%26+Violet+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Stellar+Crown+Booster+Box+Scarlet+%26+Violet+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-japanese-scarlet-&-violet-151/booster-box)"
+  },
+  {
    "title": "Pokemon- Sword & Shield BASE booster box",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/sword-shield-base-booster-box-inc-acrylic-case",
@@ -22041,13 +22069,13 @@
    "pc": "https://www.pricecharting.com/game/pokemon-sword-&-shield/booster-box-base-set",
    "matched": "Booster Box [Base Set]   Pokemon Sword & Shield",
    "aud": {
-    "raw": 846
+    "raw": 845
    },
    "basis": {
     "n90": 21,
     "last": "2026-11-15",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 561.2,
+    "pc_avg": 560.49,
     "grade": "raw (NM)"
    },
    "value": 904,
@@ -22059,42 +22087,42 @@
    "psa9_net": null
   },
   {
-   "title": "Pokemon- Scarlet & Violet Base booster box",
+   "title": "Pokemon - Ruler of the Black Flame Booster Box (JPN)",
    "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-scarlet-violet-base-booster-box",
+   "url": "https://megacash.com.au/products/pokemon-ruler-of-the-black-flame-booster-box-jpn",
    "listed": "",
-   "price": 404.1,
+   "price": 170.1,
    "post": 0.0,
-   "cost": 404.1,
+   "cost": 170.1,
    "grader": null,
    "grade": null,
-   "jp": false,
+   "jp": true,
    "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Scarlet+%26+Violet+Base+booster+box+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Ruler+of+Flame+Booster+Box+japanese+japanese&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Ruler+of+Flame+Booster+Box+japanese+japanese&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Ruler+of+Flame+Booster+Box+japanese+japanese&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Ruler+of+Flame+Booster+Box+japanese+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
    },
    "live": null,
    "auction": false,
    "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/base-set-booster-box",
-   "matched": "Base Set Booster Box   Pokemon Scarlet & Violet",
+   "pc": "https://www.pricecharting.com/game/pokemon-japanese-ruler-of-the-black-flame/booster-box",
+   "matched": "Booster Box   Pokemon Japanese Ruler of the Black Flame",
    "aud": {
-    "raw": 406
+    "raw": 200
    },
    "basis": {
-    "n90": 60,
-    "last": "2026-11-18",
+    "n90": 29,
+    "last": "2026-11-25",
     "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 269.26,
+    "pc_avg": 132.46,
     "grade": "raw (NM)"
    },
-   "value": 448,
-   "landed": 520,
-   "gap": -0.1,
+   "value": 219,
+   "landed": 268,
+   "gap": -0.22,
    "thin": false,
-   "signal": "FAIR",
+   "signal": "UNDER",
    "psa8_net": null,
    "psa9_net": null
   },
@@ -22120,46 +22148,6 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-brilliant-stars/flareon-tg01)"
-  },
-  {
-   "title": "Pokemon - Ruler of the Black Flame Booster Box (JPN)",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-ruler-of-the-black-flame-booster-box-jpn",
-   "listed": "",
-   "price": 170.1,
-   "post": 0.0,
-   "cost": 170.1,
-   "grader": null,
-   "grade": null,
-   "jp": true,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Ruler+of+Flame+Booster+Box+japanese+japanese&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Ruler+of+Flame+Booster+Box+japanese+japanese&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Ruler+of+Flame+Booster+Box+japanese+japanese&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Ruler+of+Flame+Booster+Box+japanese+japanese&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-japanese-ruler-of-the-black-flame/booster-box?q=ruler+of+flame+booster+box+japanese",
-   "matched": "Booster Box   Pokemon Japanese Ruler of the Black Flame",
-   "aud": {
-    "raw": 203
-   },
-   "basis": {
-    "n90": 30,
-    "last": "2026-11-16",
-    "basis": "90-day upper quarter (few NM-labelled sales)",
-    "pc_avg": 134.73,
-    "grade": "raw (NM)"
-   },
-   "value": 219,
-   "landed": 268,
-   "gap": -0.22,
-   "thin": false,
-   "signal": "UNDER",
-   "psa8_net": null,
-   "psa9_net": null
   }
  ]
 }
