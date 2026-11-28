@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-28T07:19+00:00",
+ "generated": "2026-11-28T14:06+00:00",
  "usd_aud": 1.5038,
  "rate_source": "open.er-api.com",
- "lookups_this_run": 0,
+ "lookups_this_run": 1,
  "cards": [
   {
    "title": "Pokemon - Gastly 57/144 Rev Holo Skyridge",
@@ -11306,29 +11306,6 @@
    "psa9_net": 135
   },
   {
-   "title": "Pokemon - Rockets Hitmonchan Holo 11/132 Gym Challenge",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-rocket-s-hitmonchan-holo-11-132-gym-challenge",
-   "listed": "2026-11-05",
-   "price": 71.1,
-   "post": 12.0,
-   "cost": 83.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=rockets+hitmonchan+%2811%2F132%2C011%2F132%29+-1st+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=rockets+hitmonchan+%2811%2F132%2C011%2F132%29+-1st+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=rockets+hitmonchan+%2811%2F132%2C011%2F132%29+-1st+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=rockets+hitmonchan+%2811%2F132%2C011%2F132%29+-1st+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-gym-challenge/rocket%27s-mewtwo-14)"
-  },
-  {
    "title": "Pokemon- Shaymin EX RC21/RC25 Radiant Collection",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-shaymin-ex-rc21-rc25-radiant-collection",
@@ -21184,6 +21161,29 @@
    "psa9_net": 11
   },
   {
+   "title": "Pokemon- Hidden Fates ETB Sun & Moon",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-tcg-hidden-fates-elite-trainer-box-sealed",
+   "listed": "",
+   "price": 719.1,
+   "post": 0.0,
+   "cost": 719.1,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-hidden-fates/pikachu-19)"
+  },
+  {
    "title": "Pokemon - Destined Rivals ETB",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/destined-rivals-etb",
@@ -21339,29 +21339,6 @@
    "why": "no PriceCharting card fit (top result /game/pokemon-shrouded-fable/persian-78)"
   },
   {
-   "title": "Pokemon- Hidden Fates ETB Sun & Moon",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-tcg-hidden-fates-elite-trainer-box-sealed",
-   "listed": "",
-   "price": 719.1,
-   "post": 0.0,
-   "cost": 719.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-hidden-fates/pikachu-19)"
-  },
-  {
    "title": "Pokemon - 30TH Celebrations ETB",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-30th-celebrations-etb",
@@ -21515,29 +21492,6 @@
    "signal": "OVER-US",
    "psa8_net": null,
    "psa9_net": null
-  },
-  {
-   "title": "Pokemon- Phantasmal Flames Booster Box- Mega Evolutions",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/phantasmal-flames-booster-box",
-   "listed": "",
-   "price": 521.1,
-   "post": 0.0,
-   "cost": 521.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Phantasmal+Flames+Booster+Box+Mega+Evolutions+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Phantasmal+Flames+Booster+Box+Mega+Evolutions+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Phantasmal+Flames+Booster+Box+Mega+Evolutions+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Phantasmal+Flames+Booster+Box+Mega+Evolutions+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-phantasmal-flames/mega-charizard-x-ex-125)"
   },
   {
    "title": "Pokemon - Chilling Reign Booster Box",
@@ -21767,6 +21721,29 @@
    "signal": "UNDER",
    "psa8_net": null,
    "psa9_net": null
+  },
+  {
+   "title": "Pokemon- Paldea Evolved Booster Box - Scarlet & Violet",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-paldea-evolved-booster-box-scarlet-violet",
+   "listed": "",
+   "price": 611.1,
+   "post": 0.0,
+   "cost": 611.1,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Paldea+Evolved+Booster+Box+Scarlet+%26+Violet+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-paldea-evolved/raichu-211)"
   }
  ]
 }
