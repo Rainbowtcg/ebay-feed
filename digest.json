@@ -2,11 +2,11 @@
  "day": "2026-11-28",
  "generated": "2026-11-27T18:03+00:00",
  "totals": {
-  "listings": 65532,
-  "new": 1811,
-  "drops": 944,
-  "relisted": 3949,
-  "valued": 3644
+  "listings": 65483,
+  "new": 1868,
+  "drops": 947,
+  "relisted": 3929,
+  "valued": 3657
  },
  "first_day": false,
  "warnings": [],
@@ -53,12 +53,12 @@
     {
      "id": "920158917667",
      "t": "Deoxys EX SR 053/051 BW8 Plasma Gale Full Art Japanese Pokemon Card",
-     "p": 303.39,
-     "pl": 333.73,
+     "p": 302.8,
+     "pl": 333.08,
      "cc": "JP",
      "seller": "qesora08",
      "url": "https://www.ebay.com.au/itm/920158917667",
-     "why": "grade play: A$334 landed raw incl. GST → PSA 7 ~A$478 · PSA 8 ~A$670 · PSA 9 ~A$828 · PSA 10 ~A$6,784; net after A$90 grading and fees: PSA 7 −A$49 · PSA 8 +A$101 · PSA 9 +A$225 · expected +A$81 — private seller (PSA 8 rest on few sales) — PriceCharting 2026-11-27. Check the photos: raw 'NM' is the seller's word",
+     "why": "grade play: A$333 landed raw incl. GST → PSA 7 ~A$478 · PSA 8 ~A$670 · PSA 9 ~A$828 · PSA 10 ~A$6,784; net after A$90 grading and fees: PSA 7 −A$49 · PSA 8 +A$102 · PSA 9 +A$225 · expected +A$81 — private seller (PSA 8 rest on few sales) — PriceCharting 2026-11-27. Check the photos: raw 'NM' is the seller's word",
      "auc": false,
      "shop": 0,
      "post?": 0,
@@ -92,8 +92,8 @@
     {
      "id": "820404551529",
      "t": "Charizard ex 012/052 Holo Charizard Starter Deck 2004 Pokemon Card Japanese",
-     "p": 112.74,
-     "pl": 124.01,
+     "p": 112.52,
+     "pl": 123.77,
      "cc": "JP",
      "seller": "hanacardsjp",
      "url": "https://www.ebay.com.au/itm/820404551529",
@@ -110,7 +110,7 @@
   {
    "cat": "e-Card era",
    "want": false,
-   "total": 1084,
+   "total": 1082,
    "new": 18,
    "drops": 33,
    "relisted": 66,
@@ -149,7 +149,7 @@
   {
    "cat": "EX era",
    "want": true,
-   "total": 1401,
+   "total": 1392,
    "new": 36,
    "drops": 27,
    "relisted": 124,
@@ -198,10 +198,10 @@
   {
    "cat": "DP & Platinum",
    "want": true,
-   "total": 1392,
+   "total": 1385,
    "new": 38,
    "drops": 38,
-   "relisted": 130,
+   "relisted": 129,
    "under": 0,
    "hi": [
     {
@@ -237,7 +237,7 @@
   {
    "cat": "HGSS & Prime",
    "want": true,
-   "total": 115,
+   "total": 114,
    "new": 3,
    "drops": 2,
    "relisted": 8,
@@ -247,7 +247,7 @@
   {
    "cat": "XY Generations",
    "want": false,
-   "total": 366,
+   "total": 365,
    "new": 9,
    "drops": 1,
    "relisted": 10,
@@ -257,10 +257,10 @@
   {
    "cat": "Celebi / Prism Star / promos",
    "want": true,
-   "total": 1997,
+   "total": 1994,
    "new": 30,
    "drops": 36,
-   "relisted": 134,
+   "relisted": 133,
    "under": 2,
    "hi": [
     {
@@ -352,10 +352,10 @@
   {
    "cat": "WotC classics",
    "want": false,
-   "total": 3103,
+   "total": 3097,
    "new": 110,
    "drops": 36,
-   "relisted": 201,
+   "relisted": 198,
    "under": 1,
    "hi": [
     {
@@ -476,10 +476,10 @@
   {
    "cat": "Japanese vintage",
    "want": false,
-   "total": 1762,
+   "total": 1757,
    "new": 59,
    "drops": 31,
-   "relisted": 129,
+   "relisted": 128,
    "under": 0,
    "hi": [
     {
@@ -609,7 +609,7 @@
   {
    "cat": "Trusted sellers",
    "want": false,
-   "total": 3311,
+   "total": 3305,
    "new": 197,
    "drops": 194,
    "relisted": 421,
@@ -686,7 +686,7 @@
   {
    "cat": "Want list: other",
    "want": true,
-   "total": 302,
+   "total": 301,
    "new": 7,
    "drops": 3,
    "relisted": 22,
@@ -700,7 +700,7 @@
      "cc": "AU",
      "seller": "Purplish TCG",
      "url": "https://purplishtcg.com/products/psa-10-2017-cosmog-081sm-p-sm-promo-157703549",
-     "why": "no sold value yet — A$362 landed, 26% under the next-cheapest other seller A$488, typical asking A$985 across 3 sellers · shop listing, last checked 28 Nov 12:18pm",
+     "why": "no sold value yet — A$362 landed, 26% under the next-cheapest other seller A$488, typical asking A$985 across 3 sellers · shop listing, last checked 28 Nov 6:18pm",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -711,7 +711,7 @@
   {
    "cat": "XY Evolutions",
    "want": true,
-   "total": 175,
+   "total": 224,
    "new": 0,
    "drops": 0,
    "relisted": 9,
@@ -731,7 +731,7 @@
   {
    "cat": "BW & XY era",
    "want": false,
-   "total": 583,
+   "total": 582,
    "new": 11,
    "drops": 10,
    "relisted": 27,
@@ -771,7 +771,7 @@
   {
    "cat": "Primes & chase cards",
    "want": true,
-   "total": 299,
+   "total": 298,
    "new": 39,
    "drops": 10,
    "relisted": 12,
@@ -796,8 +796,8 @@
   {
    "cat": "Under-watched",
    "want": true,
-   "total": 970,
-   "new": 38,
+   "total": 971,
+   "new": 39,
    "drops": 13,
    "relisted": 90,
    "under": 1,
@@ -835,7 +835,7 @@
   {
    "cat": "Promos: WotC & Japanese vintage",
    "want": true,
-   "total": 1177,
+   "total": 1176,
    "new": 7,
    "drops": 21,
    "relisted": 78,
@@ -860,7 +860,7 @@
   {
    "cat": "Promos: EX / DP / HGSS",
    "want": true,
-   "total": 1114,
+   "total": 1113,
    "new": 18,
    "drops": 34,
    "relisted": 89,
@@ -984,7 +984,7 @@
   {
    "cat": "Promos: BW & XY",
    "want": true,
-   "total": 1387,
+   "total": 1386,
    "new": 41,
    "drops": 36,
    "relisted": 91,
@@ -1026,7 +1026,7 @@
      "cc": "AU",
      "seller": "pullstorm.tcg",
      "url": "https://www.ebay.com.au/itm/940085721337",
-     "why": "no sold value yet — A$359 landed, 30% under the next-cheapest other seller A$511, typical asking A$573 across 4 sellers",
+     "why": "no sold value yet — A$359 landed, 30% under the next-cheapest other seller A$511, typical asking A$563 across 4 sellers",
      "auc": false,
      "shop": 0,
      "post?": 0,
@@ -1040,7 +1040,7 @@
      "cc": "JP",
      "seller": "Hareruya 2",
      "url": "https://www.hareruya2.com/en/products/9015685448000",
-     "why": "no sold value yet — A$112 landed incl. GST, 29% under the next-cheapest other seller A$158, typical asking A$198 across 3 sellers · shop listing, last checked 28 Nov 12:18pm",
+     "why": "no sold value yet — A$112 landed incl. GST, 29% under the next-cheapest other seller A$158, typical asking A$198 across 3 sellers · shop listing, last checked 28 Nov 6:18pm",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1079,7 +1079,7 @@
   {
    "cat": "Promos: SM / SWSH / SV / Mega",
    "want": true,
-   "total": 3359,
+   "total": 3354,
    "new": 70,
    "drops": 49,
    "relisted": 167,
@@ -1164,7 +1164,7 @@
      "cc": "AU",
      "seller": "Purplish TCG",
      "url": "https://purplishtcg.com/products/psa-10-2017-cosmog-081sm-p-sm-promo-157703549",
-     "why": "no sold value yet — A$362 landed, 26% under the next-cheapest other seller A$488, typical asking A$985 across 3 sellers · shop listing, last checked 28 Nov 12:18pm",
+     "why": "no sold value yet — A$362 landed, 26% under the next-cheapest other seller A$488, typical asking A$985 across 3 sellers · shop listing, last checked 28 Nov 6:18pm",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1239,17 +1239,17 @@
   {
    "cat": "Southern Islands",
    "want": true,
-   "total": 254,
+   "total": 250,
    "new": 3,
    "drops": 30,
-   "relisted": 11,
+   "relisted": 10,
    "under": 0,
    "hi": []
   },
   {
    "cat": "Mega Cash list",
    "want": true,
-   "total": 288,
+   "total": 287,
    "new": 17,
    "drops": 6,
    "relisted": 10,
@@ -1319,10 +1319,10 @@
   {
    "cat": "Sealed: ETBs & booster boxes",
    "want": false,
-   "total": 662,
-   "new": 28,
-   "drops": 4,
-   "relisted": 25,
+   "total": 678,
+   "new": 30,
+   "drops": 5,
+   "relisted": 24,
    "under": 11,
    "hi": [
     {
@@ -1333,7 +1333,7 @@
      "cc": "AU",
      "seller": "The Card Spot",
      "url": "https://thecardspot.com.au/products/mega-dream-ex-booster-box-pokemon-tcg",
-     "why": "at or under RRP: A$200 vs A$306 Booster box (36 packs) RRP (35% under) · shop listing, last checked 28 Nov 12:18pm",
+     "why": "at or under RRP: A$200 vs A$306 Booster box (36 packs) RRP (35% under) · shop listing, last checked 28 Nov 6:18pm",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1361,7 +1361,7 @@
      "cc": "AU",
      "seller": "Good Games",
      "url": "https://goodgames.com.au/products/pokemon-tcg-perfect-order-booster-box",
-     "why": "at or under RRP: A$285 vs A$306 Booster box (36 packs) RRP (7% under) · shop listing, last checked 28 Nov 12:18pm",
+     "why": "at or under RRP: A$285 vs A$306 Booster box (36 packs) RRP (7% under) · shop listing, last checked 28 Nov 6:18pm",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1389,7 +1389,7 @@
      "cc": "AU",
      "seller": "Gameology",
      "url": "https://gameology.com.au/products/pokemon-tcg-mega-evolution-perfect-order-booster-box",
-     "why": "at or under RRP: A$290 vs A$306 Booster box (36 packs) RRP (5% under) · shop listing, last checked 28 Nov 12:18pm",
+     "why": "at or under RRP: A$290 vs A$306 Booster box (36 packs) RRP (5% under) · shop listing, last checked 28 Nov 6:18pm",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1431,7 +1431,7 @@
      "cc": "AU",
      "seller": "Frenly Bricks",
      "url": "https://frenlybricks.store/products/pokemon-tcg-mega-evolution-pitch-black-booster-box-me05",
-     "why": "at or under RRP: A$295 vs A$306 Booster box (36 packs) RRP (4% under) · shop listing, last checked 28 Nov 12:18pm",
+     "why": "at or under RRP: A$295 vs A$306 Booster box (36 packs) RRP (4% under) · shop listing, last checked 28 Nov 6:18pm",
      "auc": false,
      "shop": 1,
      "post?": 0,
@@ -1884,7 +1884,7 @@
   {
    "cat": "Under-labelled",
    "want": false,
-   "total": 236,
+   "total": 240,
    "new": 18,
    "drops": 8,
    "relisted": 9,
@@ -1919,10 +1919,10 @@
   {
    "cat": "Not in a category",
    "want": false,
-   "total": 12705,
-   "new": 6,
-   "drops": 3,
-   "relisted": 75,
+   "total": 12680,
+   "new": 59,
+   "drops": 5,
+   "relisted": 72,
    "under": 0,
    "hi": []
   }
@@ -3301,6 +3301,27 @@
     "who": "shop",
     "rank": 3,
     "who_txt": "card shop selling raw at under 1/5 of the PSA 9 price: likely already passed over for grading",
+    "ok": 0
+   }
+  ],
+  "/game/pokemon-jungle/pidgeot-8": [
+   {
+    "id": "s-cardsensei.co.nz-15315471925323",
+    "t": "Pidgeot - Jungle (8/64) [Near Mint / Holofoil / Unlimited]",
+    "pl": 114,
+    "cc": "NZ",
+    "seller": "Card Sensei",
+    "url": "https://cardsensei.co.nz/products/pidgeot-jungle-8-64",
+    "shop": 1,
+    "new": 1,
+    "drop": 0,
+    "post?": 0,
+    "stock": 0,
+    "net7": -128,
+    "ev": -98,
+    "who": "shop",
+    "rank": 2,
+    "who_txt": "card shop",
     "ok": 0
    }
   ],

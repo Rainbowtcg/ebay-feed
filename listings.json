@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-27T18:03+00:00",
- "count": 51245,
+ "count": 51177,
  "calls": 2568,
  "damaged_flagged": 4660,
  "unverified": 11123,
@@ -12142,7 +12142,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "227566737571",
@@ -15750,51 +15750,6 @@
    "flag": ""
   },
   {
-   "id": "307291129400",
-   "title": "2001 POKEMON SOUTHERN ISLANDS PROMO #1 MEW HOLO PSA 7",
-   "price": "1525.00",
-   "currency": "AUD",
-   "post": "15.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 51,
-   "ends": "2026-11-28T02:05:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307291129400",
-   "query": "+pokemon southern islands (holo,promo,psa,cgc)",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "336915383176",
-   "title": "2001 POKEMON SOUTHERN ISLANDS PROMO #14 SLOWKING-HOLO PSA 7",
-   "price": "998.70",
-   "currency": "AUD",
-   "post": null,
-   "postCurrency": null,
-   "options": [
-    "FIXED_PRICE",
-    "AUCTION"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T01:32:01.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "thoed1909_ozm6nvq",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/336915383176",
-   "query": "+pokemon southern islands (holo,promo,psa,cgc)",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "800541703584",
    "title": "2001 Pikachu Snap WOTC Promo Pokemon League #26 English - PSA 10 Low Pop",
    "price": "8999.00",
@@ -17055,28 +17010,6 @@
    "query": "+pokemon mew (southern island,southern islands,\"r.i.\",\"no.151\") -mewtwo",
    "nm": 1,
    "imgs": 8,
-   "flag": ""
-  },
-  {
-   "id": "307288020471",
-   "title": "2001 Pokemon Southern Islands Mew #1/18 Promo Holo",
-   "price": "205.50",
-   "currency": "AUD",
-   "post": "8.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 10,
-   "ends": "2026-11-28T03:12:00.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307288020471",
-   "query": "+pokemon southern islands (holo,promo,psa,cgc)",
-   "nm": 1,
-   "imgs": 2,
    "flag": ""
   },
   {
@@ -19638,28 +19571,6 @@
    "seller": "manamarketau",
    "feedback": "99.9",
    "url": "https://www.ebay.com.au/itm/307299918608",
-   "query": "pokemon ex dragon holo psa",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "307288213446",
-   "title": "2003 POKEMON EX DRAGON #98 CHARMANDER-HOLO DRAGON-CITY CHAMP. PSA 9",
-   "price": "665.00",
-   "currency": "AUD",
-   "post": "15.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 35,
-   "ends": "2026-11-28T02:55:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307288213446",
    "query": "pokemon ex dragon holo psa",
    "nm": 0,
    "imgs": 2,
@@ -25427,28 +25338,6 @@
    "flag": ""
   },
   {
-   "id": "307284644921",
-   "title": "2006 POKEMON JAPANESE MIRACLE CRYSTAL #052 WIGGLYTUFF HOLO PSA 10",
-   "price": "256.01",
-   "currency": "AUD",
-   "post": "15.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 23,
-   "ends": "2026-11-28T02:21:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307284644921",
-   "query": "pokemon japanese (\"holon research tower\",\"holon phantom\",\"miracle crystal\",\"offense and defense\",\"golden sky\",\"clash of the blue sky\",\"rocket gang strikes back\") psa",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "800923594670",
    "title": "2006 POKEMON JAPANESE MIRACLE CRYSTAL UNLIMITED #011 CHARMANDER PSA 9",
    "price": "159.70",
@@ -26850,28 +26739,6 @@
    "flag": ""
   },
   {
-   "id": "307284644890",
-   "title": "2007 POKEMON EX POWER KEEPERS #9 GARDEVOIR-HOLO POWER KEEPERS PSA 9",
-   "price": "255.00",
-   "currency": "AUD",
-   "post": "15.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 11,
-   "ends": "2026-11-28T02:18:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307284644890",
-   "query": "pokemon ex power keepers holo psa",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "800962308422",
    "title": "2007 POKEMON EX POWER KEEPERS DELCATTY REVERSE FOIL STAMP #8 PSA 10 - POP 13 💎",
    "price": "12999.00",
@@ -27933,28 +27800,6 @@
    "flag": ""
   },
   {
-   "id": "307291166190",
-   "title": "2009 POKEMON DIAMOND & PEARL BLACK STAR PROMO #DP47 RAYQUAZA C LV.X HOLO PSA 8",
-   "price": "1996.01",
-   "currency": "AUD",
-   "post": "15.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 35,
-   "ends": "2026-11-28T02:00:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307291166190",
-   "query": "+pokemon lv.x holo psa",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "800812815822",
    "title": "2009 POKEMON DIAMOND & PEARL BLACK STAR PROMO HOLO #DP45 CHARIZARD G LV.X PSA 5",
    "price": "649.95",
@@ -28945,28 +28790,6 @@
    "flag": ""
   },
   {
-   "id": "307284575710",
-   "title": "2010 POKEMON HEARTGOLD & SOULSILVER TRIUMPHANT #94 GENGAR-HOLO TRIUMPHANT PSA 8",
-   "price": "2092.00",
-   "currency": "AUD",
-   "post": "15.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 33,
-   "ends": "2026-11-28T02:10:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307284575710",
-   "query": "+pokemon heartgold soulsilver holo psa",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "307262833166",
    "title": "2010 POKEMON HEARTGOLD & SOULSILVER TRIUMPHANT #97 MEW PRIME HOLO PSA 8",
    "price": "3000.00",
@@ -29028,28 +28851,6 @@
    "seller": "pleasedontsendmecrap",
    "feedback": "99.6",
    "url": "https://www.ebay.com.au/itm/287665291313",
-   "query": "+pokemon heartgold soulsilver holo psa",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "307284645011",
-   "title": "2010 POKEMON HEARTGOLD & SOULSILVER UNLEASHED #84 CROBAT-HOLO UNLEASHED PSA 8",
-   "price": "355.00",
-   "currency": "AUD",
-   "post": "15.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 22,
-   "ends": "2026-11-28T02:30:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307284645011",
    "query": "+pokemon heartgold soulsilver holo psa",
    "nm": 0,
    "imgs": 2,
@@ -30841,7 +30642,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "880129823920",
@@ -31359,28 +31160,6 @@
    "nm": 0,
    "imgs": 2,
    "flag": ""
-  },
-  {
-   "id": "128207803946",
-   "title": "2015 Rayquaza EX [CoroCoro Promo] 123/XY-P Pokemon Japanese LP",
-   "price": "26.00",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 17,
-   "ends": "2026-11-28T03:45:37.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "sanba_8825",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/128207803946",
-   "query": "+pokemon (xy-p,\"xy/p\")",
-   "nm": 0,
-   "imgs": 2,
-   "flag": "damage: lp"
   },
   {
    "id": "366558473663",
@@ -33666,28 +33445,6 @@
    "flag": ""
   },
   {
-   "id": "307291128021",
-   "title": "2017 POKEMON XY BLACK STAR PROMO #XY150A FULL ART YVELTAL EX PSA 10",
-   "price": "15100.00",
-   "currency": "AUD",
-   "post": "15.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 18,
-   "ends": "2026-11-28T02:00:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307291128021",
-   "query": "+pokemon black star promo psa 10",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "318765913637",
    "title": "2017 POKEMON XY BLACK STAR PROMO #XY177A FULL ART/KAREN PSA 7",
    "price": "229.99",
@@ -34203,7 +33960,7 @@
    "nm": 1,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "327480180885",
@@ -35356,7 +35113,7 @@
    "nm": 1,
    "imgs": 4,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "860115707106",
@@ -36196,7 +35953,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "128103977977",
@@ -36357,7 +36114,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168872014229",
@@ -36381,7 +36138,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "960188542600",
@@ -36404,7 +36161,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "960236103997",
@@ -36428,7 +36185,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168858140758",
@@ -36452,7 +36209,7 @@
    "nm": 0,
    "imgs": 5,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "237196621285",
@@ -36564,7 +36321,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "307284605385",
@@ -38610,7 +38367,7 @@
    "nm": 0,
    "imgs": 9,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "960188542608",
@@ -38633,7 +38390,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "307298419098",
@@ -38679,7 +38436,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168858140755",
@@ -38702,7 +38459,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "960213731910",
@@ -38726,7 +38483,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "398014387291",
@@ -44733,7 +44490,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168882925672",
@@ -44758,7 +44515,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168874584880",
@@ -44783,7 +44540,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "205771986368",
@@ -50902,7 +50659,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "318568851874",
@@ -52149,7 +51906,7 @@
    "nm": 0,
    "imgs": 5,
    "flag": "unverified",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "137948166447",
@@ -56332,7 +56089,7 @@
    "imgs": 3,
    "flag": "unverified",
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "137841469501",
@@ -56782,7 +56539,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "800865838247",
@@ -58082,7 +57839,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "227030895724",
@@ -60776,28 +60533,6 @@
    "flag": ""
   },
   {
-   "id": "407377983102",
-   "title": "CGC 9.5 Jirachi EX 041/075 Miracle Crystal 1st Edition Holo Japanese POKEMON",
-   "price": "207.50",
-   "currency": "AUD",
-   "post": "9.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 45,
-   "ends": "2026-11-28T06:35:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "2stackt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/407377983102",
-   "query": "pokemon japanese crystal holo (psa,cgc) 1st edition",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "366791486362",
    "title": "CGC 9.5 Lickitung 108 Pokemon TCG Promo Southern Islands Japanese",
    "price": "100.00",
@@ -60888,7 +60623,7 @@
    "nm": 0,
    "imgs": 4,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "277482660553",
@@ -62025,7 +61760,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "327315998163",
@@ -70467,7 +70202,7 @@
    "imgs": 1,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "198053974957",
@@ -70694,7 +70429,7 @@
    "nm": 0,
    "imgs": 6,
    "flag": "unverified",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168849512221",
@@ -72258,7 +71993,7 @@
    "imgs": 4,
    "flag": "",
    "cardCondition": "Near Mint or Better:",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168874810508",
@@ -73046,28 +72781,6 @@
    "query": "+pokemon charizard rc5",
    "nm": 1,
    "imgs": 2,
-   "flag": "damage: lp"
-  },
-  {
-   "id": "128207895733",
-   "title": "Charizard RC5/RC32 2016 Generations Radiant Collection Holo Pokemon TCG LP",
-   "price": "32.50",
-   "currency": "AUD",
-   "post": "18.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 1,
-   "ends": "2026-11-28T04:51:25.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "pokemocollecto8",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/128207895733",
-   "query": "+pokemon charizard rc5",
-   "nm": 0,
-   "imgs": 16,
    "flag": "damage: lp"
   },
   {
@@ -86854,7 +86567,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "398160898347",
@@ -89583,7 +89296,7 @@
    "nm": 0,
    "imgs": 3,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168879556406",
@@ -89630,7 +89343,7 @@
    "imgs": 3,
    "flag": "unverified",
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "800105504057",
@@ -93727,7 +93440,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "137827651543",
@@ -96839,7 +96552,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "900120461611",
@@ -97631,7 +97344,7 @@
    "imgs": 3,
    "flag": "unverified",
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168786245297",
@@ -97656,7 +97369,7 @@
    "imgs": 3,
    "flag": "unverified",
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168786228110",
@@ -97681,7 +97394,7 @@
    "imgs": 3,
    "flag": "unverified",
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "128172604819",
@@ -105647,7 +105360,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near Mint or Better:",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "167622712196",
@@ -109362,7 +109075,7 @@
    "imgs": 3,
    "flag": "unverified",
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "336636629009",
@@ -110977,7 +110690,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "318863713407",
@@ -116899,7 +116612,7 @@
    "imgs": 1,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "197919536413",
@@ -120998,7 +120711,7 @@
    "nm": 0,
    "imgs": 3,
    "flag": "unverified",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "237191939481",
@@ -124495,7 +124208,7 @@
    "imgs": 3,
    "flag": "unverified",
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168890033352",
@@ -131280,7 +130993,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "117277859290",
@@ -131458,7 +131171,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168032829602",
@@ -137506,7 +137219,7 @@
    "imgs": 16,
    "flag": "unverified",
    "cardCondition": "Moderately played (Very good)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168493462470",
@@ -140215,7 +139928,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "318863380474",
@@ -140528,7 +140241,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "318863671848",
@@ -140863,7 +140576,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "407338276019",
@@ -150348,7 +150061,7 @@
    "nm": 1,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "257863696372",
@@ -153577,7 +153290,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "800905216793",
@@ -153800,7 +153513,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "318863713397",
@@ -154251,7 +153964,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "unverified",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "137957659565",
@@ -155142,7 +154855,7 @@
    "nm": 1,
    "imgs": 5,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "127781193518",
@@ -155235,7 +154948,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "820364942547",
@@ -157658,7 +157371,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "206029416395",
@@ -169619,7 +169332,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "198661336962",
@@ -169645,7 +169358,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "358899908169",
@@ -173645,29 +173358,6 @@
    "query": "+pokemon (sv-p,\"sv/p\") @c=AU,JP",
    "nm": 0,
    "imgs": 1,
-   "flag": ""
-  },
-  {
-   "id": "147690460898",
-   "title": "Miraidon SVP013 - Scarlet and Violet Black Star Promo NM Pokémon TCG",
-   "price": "21.90",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION",
-    "BEST_OFFER"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T02:37:34.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "lecraw_78",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/147690460898",
-   "query": "+pokemon svp black star promo @c=AU,JP",
-   "nm": 1,
-   "imgs": 2,
    "flag": ""
   },
   {
@@ -186103,7 +185793,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168858140749",
@@ -186126,7 +185816,7 @@
    "nm": 1,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "366523396308",
@@ -192043,7 +191733,7 @@
    "nm": 0,
    "imgs": 10,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "227573195941",
@@ -192883,7 +192573,7 @@
    "nm": 0,
    "imgs": 6,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "128197091000",
@@ -193221,7 +192911,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168463846528",
@@ -199421,28 +199111,6 @@
    "flag": ""
   },
   {
-   "id": "407378719661",
-   "title": "PSA 10 Mega Charizard X EX 023 Black Star Promo Ultra Premium Collection POKEMON",
-   "price": "172.50",
-   "currency": "AUD",
-   "post": "9.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 13,
-   "ends": "2026-11-28T06:29:20.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "2stackt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/407378719661",
-   "query": "+pokemon black star promo psa 10",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "960237794364",
    "title": "PSA 10 Mega Charizard X EX 023 Black Star Promo Ultra Premium Collection POKEMON",
    "price": "212.70",
@@ -199462,28 +199130,6 @@
    "query": "+pokemon black star promo psa 10",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "920152388335",
-   "title": "PSA 10 Mega Charizard X EX 023 UPC Premium Collection Black Star Promo - Pokemon",
-   "price": "106.70",
-   "currency": "AUD",
-   "post": "14.99",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 1,
-   "ends": "2026-11-28T02:10:01.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "mega-tcg",
-   "feedback": "97.7",
-   "url": "https://www.ebay.com.au/itm/920152388335",
-   "query": "+pokemon black star promo psa 10",
-   "nm": 1,
-   "imgs": 1,
    "flag": ""
   },
   {
@@ -201100,116 +200746,6 @@
    "seller": "2stackt",
    "feedback": "100.0",
    "url": "https://www.ebay.com.au/itm/407325824389",
-   "query": "+pokemon m-p promo @c=AU,JP",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "407377986457",
-   "title": "PSA 10 Pikachu 020/M-P M-P Promo Mcdonald's Japanese POKEMON",
-   "price": "79.00",
-   "currency": "AUD",
-   "post": "9.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 29,
-   "ends": "2026-11-28T06:00:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "2stackt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/407377986457",
-   "query": "+pokemon m-p promo @c=AU,JP",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "407377986462",
-   "title": "PSA 10 Pikachu 020/M-P M-P Promo Mcdonald's Japanese POKEMON",
-   "price": "86.00",
-   "currency": "AUD",
-   "post": "9.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 6,
-   "ends": "2026-11-28T06:10:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "2stackt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/407377986462",
-   "query": "+pokemon m-p promo @c=AU,JP",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "407377986465",
-   "title": "PSA 10 Pikachu 020/M-P M-P Promo Mcdonald's Japanese POKEMON",
-   "price": "64.00",
-   "currency": "AUD",
-   "post": "9.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 9,
-   "ends": "2026-11-28T06:15:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "2stackt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/407377986465",
-   "query": "+pokemon m-p promo @c=AU,JP",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "407377986461",
-   "title": "PSA 10 Pikachu 020/M-P M-P Promo Mcdonald's Japanese POKEMON",
-   "price": "89.00",
-   "currency": "AUD",
-   "post": "9.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 10,
-   "ends": "2026-11-28T06:05:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "2stackt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/407377986461",
-   "query": "+pokemon m-p promo @c=AU,JP",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "407377986458",
-   "title": "PSA 10 Pikachu 020/M-P M-P Promo Mcdonald's Japanese POKEMON",
-   "price": "53.00",
-   "currency": "AUD",
-   "post": "9.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 10,
-   "ends": "2026-11-28T06:20:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "2stackt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/407377986458",
    "query": "+pokemon m-p promo @c=AU,JP",
    "nm": 0,
    "imgs": 2,
@@ -202876,28 +202412,6 @@
    "feedback": "100.0",
    "url": "https://www.ebay.com.au/itm/407332630515",
    "query": "pokemon 1st edition holo psa",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "407377989817",
-   "title": "PSA 10 Salamence LV.X Holo 072/090 Advent Of Arceus 1st Edition Japanese POKEMON",
-   "price": "815.00",
-   "currency": "AUD",
-   "post": "9.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 23,
-   "ends": "2026-11-28T06:05:01.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "2stackt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/407377989817",
-   "query": "+pokemon lv.x holo psa",
    "nm": 0,
    "imgs": 2,
    "flag": ""
@@ -204829,7 +204343,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "840045910973",
@@ -204853,7 +204367,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "800828112451",
@@ -206688,28 +206202,6 @@
    "flag": ""
   },
   {
-   "id": "407377967540",
-   "title": "PSA 8 Charizard EX 12/108 XY Evolutions Holo Rare POKEMON",
-   "price": "35.00",
-   "currency": "AUD",
-   "post": "9.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 9,
-   "ends": "2026-11-28T06:40:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "2stackt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/407377967540",
-   "query": "+pokemon xy evolutions holo psa -prismatic",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "307274989983",
    "title": "PSA 8 Charizard EX XY121 Red & Blue Collection Black Star Promos Pokemon Nm-Mt",
    "price": "555.55",
@@ -208512,7 +208004,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168800448996",
@@ -208967,7 +208459,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "178563920369",
@@ -209127,7 +208619,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "840045905913",
@@ -209151,7 +208643,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "267844979022",
@@ -209266,7 +208758,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "227573969679",
@@ -211175,7 +210667,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "117197365692",
@@ -215206,28 +214698,6 @@
    "url": "https://www.ebay.com.au/itm/377627499606",
    "query": "pokemon neo genesis holo psa",
    "nm": 1,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "407377967544",
-   "title": "PSA 9 Machamp 053/088 Mysterious Mountains Holo 1st Edition Japanese POKEMON",
-   "price": "202.50",
-   "currency": "AUD",
-   "post": "9.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 5,
-   "ends": "2026-11-28T06:55:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "2stackt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/407377967544",
-   "query": "pokemon japanese (\"split earth\",\"mysterious mountains\",\"wind from the sea\",\"town on no map\",\"base expansion pack\") holo",
-   "nm": 0,
    "imgs": 2,
    "flag": ""
   },
@@ -231655,28 +231125,6 @@
    "flag": ""
   },
   {
-   "id": "128208048556",
-   "title": "Pokemon 1998 Japanese CoroCoro Promo Brock's Onix No.095 Glossy Card - MP",
-   "price": "11.10",
-   "currency": "AUD",
-   "post": null,
-   "postCurrency": null,
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T07:01:12.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "missrodeoqueen",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/128208048556",
-   "query": "+pokemon japanese promo (1997,1998,1999,2000,2001,2002)",
-   "nm": 0,
-   "imgs": 11,
-   "flag": "damage: mp"
-  },
-  {
    "id": "407052107937",
    "title": "Pokemon 1998 Japanese Gym Lt Surge Fearow Holo PSA 8 NM-MT Vintage ",
    "price": "140.00",
@@ -234212,7 +233660,7 @@
    "nm": 0,
    "imgs": 3,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "366625540440",
@@ -241290,28 +240738,6 @@
    "feedback": "100.0",
    "url": "https://www.ebay.com.au/itm/235232053895",
    "query": "+pokemon (bw-p,\"bw/p\")",
-   "nm": 0,
-   "imgs": 2,
-   "flag": "unverified"
-  },
-  {
-   "id": "128207799914",
-   "title": "Pokemon Card GYARADOS GX SM212 Black Star Promo HIDDEN FATES CGA 89/10",
-   "price": "15.00",
-   "currency": "AUD",
-   "post": "12.99",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 1,
-   "ends": "2026-11-28T03:41:28.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "sanba_8825",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/128207799914",
-   "query": "+pokemon sm black star promo",
    "nm": 0,
    "imgs": 2,
    "flag": "unverified"
@@ -249143,52 +248569,6 @@
    "bulk": 1
   },
   {
-   "id": "940109958830",
-   "title": "Pokemon Cards promo sr ar yveltal gx vmax secret 343 sm p ex graded art card b34",
-   "price": "24.99",
-   "currency": "AUD",
-   "post": "8.90",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION",
-    "BEST_OFFER"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T02:49:07.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "thegoods2u",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/940109958830",
-   "query": "+pokemon (sm-p,\"sm/p\")",
-   "nm": 0,
-   "imgs": 5,
-   "flag": "unverified"
-  },
-  {
-   "id": "287745099243",
-   "title": "Pokemon Cards promo sr samson oak gx vmax secret 244sm p ex graded art card b22",
-   "price": "24.99",
-   "currency": "AUD",
-   "post": "8.90",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION",
-    "BEST_OFFER"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T02:08:06.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "thegoods2u",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/287745099243",
-   "query": "+pokemon (sm-p,\"sm/p\")",
-   "nm": 0,
-   "imgs": 5,
-   "flag": "unverified"
-  },
-  {
    "id": "940112498491",
    "title": "Pokemon Cards promo sr v shaymin gx vmax secret 225 sm p ex graded art card b22",
    "price": "79.99",
@@ -252555,29 +251935,6 @@
    "query": "+pokemon nintendo black star promo",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "840139993690",
-   "title": "Pokemon Dark Dragonite EX Team Rocket Returns 15/109 CGC 10 Gem Mint",
-   "price": "1570.70",
-   "currency": "AUD",
-   "post": "30.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION",
-    "BEST_OFFER"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T02:13:03.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "jasil7801",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/840139993690",
-   "query": "pokemon team rocket returns dark (psa,cgc)",
-   "nm": 1,
-   "imgs": 6,
    "flag": ""
   },
   {
@@ -261849,28 +261206,6 @@
    "flag": ""
   },
   {
-   "id": "307291312760",
-   "title": "Pokemon Mudkip 083/PCG-P McDonald's Promo 2005 Japanese",
-   "price": "12.50",
-   "currency": "AUD",
-   "post": "8.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 2,
-   "ends": "2026-11-28T02:00:00.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307291312760",
-   "query": "+pokemon (pcg-p,\"pcg/p\")",
-   "nm": 1,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "167473377213",
    "title": "Pokemon Muk - Undaunted (Reverse Holo 31/90) - NM",
    "price": "20.00",
@@ -267977,28 +267312,6 @@
    "flag": "damage: lp"
   },
   {
-   "id": "128207993220",
-   "title": "Pokemon Rayquaza EX Emerald Reverse Holo Rare #9 PSA 8",
-   "price": "12310.70",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 11,
-   "ends": "2026-11-28T06:03:20.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "ex0dia_collectables",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/128207993220",
-   "query": "+pokemon ex reverse holo psa 9",
-   "nm": 0,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "147657086642",
    "title": "Pokemon Rayquaza Ex Deoxys Gym Challenge Promo PSA 9 Mint - Low pop",
    "price": "4170.70",
@@ -273512,7 +272825,7 @@
    "imgs": 11,
    "flag": "unverified",
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "920166183937",
@@ -273790,7 +273103,7 @@
    "imgs": 6,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "167602323481",
@@ -274305,7 +273618,7 @@
    "imgs": 5,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "358273352329",
@@ -282028,7 +281341,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168818664144",
@@ -285369,29 +284682,6 @@
    "sealed": "ETB"
   },
   {
-   "id": "307291251830",
-   "title": "Pokemon TCG Mega Evolution Elite Trainer Box ETB Mega Gardevoir English Sealed",
-   "price": "192.50",
-   "currency": "AUD",
-   "post": "25.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 17,
-   "ends": "2026-11-28T01:55:00.000Z",
-   "condition": "New/Factory Sealed",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307291251830",
-   "query": "pokemon (elite trainer box,etb) sealed @sealed @c=AU",
-   "nm": 0,
-   "imgs": 5,
-   "flag": "",
-   "sealed": "ETB"
-  },
-  {
    "id": "407370580979",
    "title": "Pokemon TCG Mega Evolution Enhanced Booster Box Factory Sealed English",
    "price": "435.00",
@@ -286230,7 +285520,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "366772791397",
@@ -286754,29 +286044,6 @@
    "query": "pokemon (elite trainer box,etb) sealed @sealed @c=AU",
    "nm": 0,
    "imgs": 4,
-   "flag": "",
-   "sealed": "ETB"
-  },
-  {
-   "id": "307291251872",
-   "title": "Pokemon TCG Paldea Evolved Elite Trainer Box ETB English Sealed + Pikachu Promo",
-   "price": "233.50",
-   "currency": "AUD",
-   "post": "25.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 10,
-   "ends": "2026-11-28T01:57:00.000Z",
-   "condition": "New/Factory Sealed",
-   "country": "AU",
-   "seller": "manamarketau",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/307291251872",
-   "query": "pokemon (elite trainer box,etb) sealed @sealed @c=AU",
-   "nm": 0,
-   "imgs": 5,
    "flag": "",
    "sealed": "ETB"
   },
@@ -289897,28 +289164,6 @@
    "query": "pokemon ex team rocket returns holo psa",
    "nm": 0,
    "imgs": 2,
-   "flag": ""
-  },
-  {
-   "id": "128211545419",
-   "title": "Pokemon TCG Team Rocket's Mimikyu 205 JP Art Rare Holo PSA 10",
-   "price": "45.44",
-   "currency": "AUD",
-   "post": null,
-   "postCurrency": null,
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 3,
-   "ends": "2026-11-28T03:21:32.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "mimikyumatt",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/128211545419",
-   "query": "pokemon team rocket holo psa",
-   "nm": 0,
-   "imgs": 1,
    "flag": ""
   },
   {
@@ -293633,29 +292878,6 @@
    "nm": 0,
    "imgs": 3,
    "flag": "damage: mp"
-  },
-  {
-   "id": "147690543284",
-   "title": "Pokemon Unified Minds Celebi Holo 4/236 NM",
-   "price": "11.09",
-   "currency": "AUD",
-   "post": "5.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION",
-    "BEST_OFFER"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T04:03:36.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "redwombat22",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/147690543284",
-   "query": "+pokemon celebi holo near mint",
-   "nm": 1,
-   "imgs": 2,
-   "flag": ""
   },
   {
    "id": "168364367324",
@@ -299582,7 +298804,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "257617292257",
@@ -300825,7 +300047,7 @@
    "nm": 0,
    "imgs": 6,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "820144164901",
@@ -301075,7 +300297,7 @@
    "flag": "damage: creas",
    "checked": 1,
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "188857192341",
@@ -301600,7 +300822,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "318457142432",
@@ -301716,7 +300938,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "389062127362",
@@ -301764,7 +300986,7 @@
    "imgs": 11,
    "flag": "unverified",
    "cardCondition": "Moderately played (Very good)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "257586520953",
@@ -303663,7 +302885,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "304859673251",
@@ -308085,7 +307307,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "126266526349",
@@ -309863,7 +309085,7 @@
    "nm": 0,
    "imgs": 7,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "376995120752",
@@ -312560,7 +311782,7 @@
    "imgs": 8,
    "flag": "unverified",
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168865760978",
@@ -312972,7 +312194,7 @@
    "nm": 1,
    "imgs": 11,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "860053450419",
@@ -321770,7 +320992,7 @@
    "nm": 0,
    "imgs": 8,
    "flag": "unverified",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "840069677754",
@@ -323230,7 +322452,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "168786264067",
@@ -323254,7 +322476,7 @@
    "nm": 0,
    "imgs": 2,
    "flag": "",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "227625807505",
@@ -323964,7 +323186,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "306787609393",
@@ -332513,28 +331735,6 @@
    "nm": 1,
    "imgs": 5,
    "flag": "damage: hp"
-  },
-  {
-   "id": "820404177007",
-   "title": "Rhyperior Lv.X - DP29 - Diamond & Pearl 2009  Holo Promo - LP/MP - Pokemon TCG",
-   "price": "6.72",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T06:43:54.000Z",
-   "condition": "Ungraded",
-   "country": "AU",
-   "seller": "rarefindscollectables",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/820404177007",
-   "query": "+pokemon diamond pearl black star promo",
-   "nm": 0,
-   "imgs": 9,
-   "flag": "damage: lp"
   },
   {
    "id": "318103358403",
@@ -343835,7 +343035,7 @@
    "imgs": 3,
    "flag": "unverified",
    "cardCondition": "Lightly played (Excellent)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "307297231874",
@@ -360045,7 +359245,7 @@
    "imgs": 3,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "820362867677",
@@ -378559,7 +377759,7 @@
    "flag": "",
    "checked": 1,
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "800736802104",
@@ -388408,29 +387608,6 @@
    "flag": "unverified"
   },
   {
-   "id": "227623945232",
-   "title": "Zapdos 16/102 1999 Pokémon TCG Base Set Holo Rare MINT PSA 9 English CGA 90",
-   "price": "318.70",
-   "currency": "AUD",
-   "post": null,
-   "postCurrency": null,
-   "options": [
-    "AUCTION",
-    "BEST_OFFER"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T02:15:00.000Z",
-   "condition": "Graded",
-   "country": "AU",
-   "seller": "marcmellere",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/227623945232",
-   "query": "pokemon base set holo psa",
-   "nm": 1,
-   "imgs": 2,
-   "flag": ""
-  },
-  {
    "id": "336898501359",
    "title": "Zapdos 16/102 Holo Base Set Pokemon CGC 7 Near Mint",
    "price": "100.00",
@@ -389417,7 +388594,7 @@
    "imgs": 2,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "800713003527",
@@ -444895,7 +444072,7 @@
   {
    "id": "820404551529",
    "title": "Charizard ex 012/052 Holo Charizard Starter Deck 2004 Pokemon Card Japanese",
-   "price": "112.74",
+   "price": "112.52",
    "currency": "AUD",
    "post": "0.00",
    "postCurrency": "AUD",
@@ -444914,7 +444091,7 @@
    "imgs": 3,
    "flag": "unverified",
    "cardCondition": "Moderately played (Very good)",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "820301916014",
@@ -461274,9 +460451,9 @@
   {
    "id": "920158917667",
    "title": "Deoxys EX SR 053/051 BW8 Plasma Gale Full Art Japanese Pokemon Card",
-   "price": "278.52",
+   "price": "277.98",
    "currency": "AUD",
-   "post": "24.87",
+   "post": "24.82",
    "postCurrency": "AUD",
    "options": [
     "FIXED_PRICE",
@@ -461294,7 +460471,7 @@
    "imgs": 4,
    "flag": "",
    "cardCondition": "Near mint or better",
-   "rechecked": "2026-11-28T01:18Z"
+   "rechecked": "2026-11-28T07:18Z"
   },
   {
    "id": "800780642068",
@@ -564450,28 +563627,6 @@
    "query": "+pokemon (dp-p,\"dp/p\")",
    "nm": 1,
    "imgs": 17,
-   "flag": ""
-  },
-  {
-   "id": "137937900899",
-   "title": "NM Pikachu 272/S-P PROMO - Pokemon 2580",
-   "price": "17.15",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 8,
-   "ends": "2026-11-28T05:20:01.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "popo-20-84",
-   "feedback": "97.6",
-   "url": "https://www.ebay.com.au/itm/137937900899",
-   "query": "+pokemon s-p promo",
-   "nm": 1,
-   "imgs": 10,
    "flag": ""
   },
   {
@@ -827874,28 +827029,6 @@
    "flag": "unverified"
   },
   {
-   "id": "820372806852",
-   "title": "Pikachu 291/SV-P PROMO 2025 Gym Event Scarlet & Violet  Japanese Pokemon Card",
-   "price": "3.39",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 4,
-   "ends": "2026-11-28T05:20:01.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "rockyjapanshop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/820372806852",
-   "query": "+pokemon (sv-p,\"sv/p\") @c=AU,JP",
-   "nm": 0,
-   "imgs": 24,
-   "flag": "unverified"
-  },
-  {
    "id": "820189971222",
    "title": "Pikachu 291/SV-P PROMO2025 Gym Event Scarlet & Violet  Pokemon Card  Japanese NM",
    "price": "5.59",
@@ -849049,28 +848182,6 @@
    "flag": ""
   },
   {
-   "id": "880119025246",
-   "title": "Pokemon Card Dragonite No.149 Japanese Old-Back Era ANA Promo Nintendo 1998",
-   "price": "17.33",
-   "currency": "AUD",
-   "post": "22.61",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 4,
-   "ends": "2026-11-28T03:12:01.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "samurai_420",
-   "feedback": "99.3",
-   "url": "https://www.ebay.com.au/itm/880119025246",
-   "query": "+pokemon japanese promo (1997,1998,1999,2000,2001,2002)",
-   "nm": 0,
-   "imgs": 12,
-   "flag": "unverified"
-  },
-  {
    "id": "267846709134",
    "title": "Pokemon Card Dragonite V Promo 292/S-P Pokemon GO Japanese",
    "price": "4.90",
@@ -868366,28 +867477,6 @@
    "flag": "unverified"
   },
   {
-   "id": "880122388956",
-   "title": "Pokemon Card Mew No.151 Japanese Old-Back Era Holo-Rare Nintendo Vintage 1998",
-   "price": "49.74",
-   "currency": "AUD",
-   "post": "22.61",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 13,
-   "ends": "2026-11-28T05:20:01.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "samurai_420",
-   "feedback": "99.3",
-   "url": "https://www.ebay.com.au/itm/880122388956",
-   "query": "+pokemon mew (southern island,southern islands,\"r.i.\",\"no.151\") -mewtwo",
-   "nm": 0,
-   "imgs": 12,
-   "flag": "unverified"
-  },
-  {
    "id": "960234785966",
    "title": "Pokemon Card Mew No.151 Japanese Vintage Non Glossy Old Back Promo",
    "price": "4.90",
@@ -877350,28 +876439,6 @@
    "flag": "unverified"
   },
   {
-   "id": "880122625621",
-   "title": "Pokemon Card Shining Mew No.151 Japanese Old-Back Era Corocoro Promo Holo 1999",
-   "price": "768.65",
-   "currency": "AUD",
-   "post": "22.61",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 20,
-   "ends": "2026-11-28T05:40:01.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "samurai_420",
-   "feedback": "99.3",
-   "url": "https://www.ebay.com.au/itm/880122625621",
-   "query": "+pokemon mew (corocoro,\"coro coro\",\"coro-coro\",korokoro,\"koro koro\",corocorro,corrocorro,korocoro) -mewtwo",
-   "nm": 0,
-   "imgs": 12,
-   "flag": "unverified"
-  },
-  {
    "id": "307247491586",
    "title": "Pokemon Card Shining Mew Promo Bonus Card Japanese",
    "price": "1730.82",
@@ -880350,28 +879417,6 @@
    "query": "+pokemon japanese venusaur (e-series,\"e series\",expedition)",
    "nm": 0,
    "imgs": 2,
-   "flag": "unverified"
-  },
-  {
-   "id": "880122423134",
-   "title": "Pokemon Card Venusaur No.003 Japanese Old-Back Era CD Promo Holo Nintendo 1999",
-   "price": "31.65",
-   "currency": "AUD",
-   "post": "22.61",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 7,
-   "ends": "2026-11-28T05:30:01.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "samurai_420",
-   "feedback": "99.3",
-   "url": "https://www.ebay.com.au/itm/880122423134",
-   "query": "+pokemon japanese promo (1997,1998,1999,2000,2001,2002)",
-   "nm": 0,
-   "imgs": 12,
    "flag": "unverified"
   },
   {
@@ -1037387,28 +1036432,6 @@
    "flag": ""
   },
   {
-   "id": "800912417520",
-   "title": "[NM] Blaine's Charizard Pokemon Card  Japanese No 006 Vintage Holo 20No1",
-   "price": "237.38",
-   "currency": "AUD",
-   "post": "7.54",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 27,
-   "ends": "2026-11-28T03:30:00.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "mayumi_card_shop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/800912417520",
-   "query": "pokemon japanese holo near mint 1996",
-   "nm": 1,
-   "imgs": 17,
-   "flag": ""
-  },
-  {
    "id": "800920870297",
    "title": "[NM] Blaine's Charizard Pokemon Card  Japanese No 006 Vintage Holo 21No4",
    "price": "177.47",
@@ -1037472,28 +1036495,6 @@
    "query": "pokemon japanese holo near mint 1996",
    "nm": 1,
    "imgs": 23,
-   "flag": ""
-  },
-  {
-   "id": "800912417509",
-   "title": "[NM] Blastoise No.009 Japanese Pokemon Card TCG base set Vintage Holo 20No3",
-   "price": "195.18",
-   "currency": "AUD",
-   "post": "7.54",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 16,
-   "ends": "2026-11-28T03:30:00.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "mayumi_card_shop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/800912417509",
-   "query": "pokemon base set holo near mint",
-   "nm": 1,
-   "imgs": 17,
    "flag": ""
   },
   {
@@ -1039020,28 +1038021,6 @@
    "flag": ""
   },
   {
-   "id": "840138746934",
-   "title": "[NM] Fuecoco Promo 126/M-P M-P Promotional cards - Pokemon Card Japanese 330D",
-   "price": "4.90",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 6,
-   "ends": "2026-11-28T03:00:01.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "k_shop_japan",
-   "feedback": "99.5",
-   "url": "https://www.ebay.com.au/itm/840138746934",
-   "query": "+pokemon m-p promo @c=AU,JP",
-   "nm": 0,
-   "imgs": 12,
-   "flag": ""
-  },
-  {
    "id": "198820142751",
    "title": "[NM] Garchomp C LV.X 007/016 F/S Pokemon Card Japan 1st Edition Holo",
    "price": "20.35",
@@ -1039814,28 +1038793,6 @@
    "query": "+pokemon s-p promo",
    "nm": 1,
    "imgs": 16,
-   "flag": ""
-  },
-  {
-   "id": "800912412662",
-   "title": "[NM] Kingdra Pokemon Card Japanese DPBP#134 DP5 Holo Temple Of Anger 20No16",
-   "price": "19.58",
-   "currency": "AUD",
-   "post": "7.54",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 5,
-   "ends": "2026-11-28T03:33:00.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "mayumi_card_shop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/800912412662",
-   "query": "pokemon dpbp near mint",
-   "nm": 1,
-   "imgs": 17,
    "flag": ""
   },
   {
@@ -1040901,28 +1039858,6 @@
    "flag": ""
   },
   {
-   "id": "800912412657",
-   "title": "[NM] Mewtwo Pokemon Card Japanese DPBP#181 DP4 Holo Moonlit Pursuit 2007 20No18",
-   "price": "57.27",
-   "currency": "AUD",
-   "post": "7.54",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 21,
-   "ends": "2026-11-28T03:33:00.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "mayumi_card_shop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/800912412657",
-   "query": "pokemon dpbp near mint",
-   "nm": 1,
-   "imgs": 17,
-   "flag": ""
-  },
-  {
    "id": "384982783595",
    "title": "[NM] Mewtwo Pokemon Card Japanese DPBP#181 DP4 Holo Moonlit Pursuit 2007 EW41",
    "price": "248.67",
@@ -1041673,28 +1040608,6 @@
    "flag": ""
   },
   {
-   "id": "820379060133",
-   "title": "[NM] Pichu DPBP#025 Pokemon Card Japanese DP2 Secret of the Lakes 2 Set 2007",
-   "price": "12.81",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 11,
-   "ends": "2026-11-28T03:50:01.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "cranes_card",
-   "feedback": "99.9",
-   "url": "https://www.ebay.com.au/itm/820379060133",
-   "query": "pokemon dpbp near mint",
-   "nm": 1,
-   "imgs": 12,
-   "flag": ""
-  },
-  {
    "id": "389888608447",
    "title": "[NM] Pichu Pokemon Card Japanese 114/128 E-Series Expedition 1st Ed AP84",
    "price": "661.48",
@@ -1041758,28 +1040671,6 @@
    "query": "pokemon (psa,cgc,bgs,1st,promo) @trusted",
    "nm": 0,
    "imgs": 18,
-   "flag": ""
-  },
-  {
-   "id": "800912417513",
-   "title": "[NM] Pichu Pokemon Card Japanese No.172 Neo Genesis 1996 Vintage Holo 20No4",
-   "price": "91.94",
-   "currency": "AUD",
-   "post": "7.54",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 31,
-   "ends": "2026-11-28T03:30:00.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "mayumi_card_shop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/800912417513",
-   "query": "pokemon japanese holo near mint 1996",
-   "nm": 1,
-   "imgs": 17,
    "flag": ""
   },
   {
@@ -1042464,28 +1041355,6 @@
    "query": "pokemon (psa,cgc,bgs,1st,promo) @trusted",
    "nm": 0,
    "imgs": 17,
-   "flag": ""
-  },
-  {
-   "id": "840138752513",
-   "title": "[NM] Quaxly Promo 127/M-P M-P Promotional cards - Pokemon Card Japanese 286D",
-   "price": "3.39",
-   "currency": "AUD",
-   "post": "0.00",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 4,
-   "ends": "2026-11-28T03:00:01.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "k_shop_japan",
-   "feedback": "99.5",
-   "url": "https://www.ebay.com.au/itm/840138752513",
-   "query": "+pokemon m-p promo @c=AU,JP",
-   "nm": 0,
-   "imgs": 12,
    "flag": ""
   },
   {
@@ -1044014,28 +1042883,6 @@
    "query": "pokemon base set holo near mint",
    "nm": 1,
    "imgs": 22,
-   "flag": ""
-  },
-  {
-   "id": "800912412663",
-   "title": "[NM] Venusaur Pokemon Card Japanese DPBP#003 DP3 Shining Darkness 20No20",
-   "price": "54.26",
-   "currency": "AUD",
-   "post": "7.54",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 15,
-   "ends": "2026-11-28T03:33:00.000Z",
-   "condition": "Ungraded",
-   "country": "JP",
-   "seller": "mayumi_card_shop",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/800912412663",
-   "query": "pokemon dpbp near mint",
-   "nm": 1,
-   "imgs": 17,
    "flag": ""
   },
   {
@@ -1068310,28 +1067157,6 @@
    "flag": ""
   },
   {
-   "id": "407382366338",
-   "title": "1997 POKEMON JAPANESE ROCKET #147 DRATINI PSA 9 IO35",
-   "price": "46.72",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 2,
-   "ends": "2026-11-28T03:11:05.000Z",
-   "condition": "Graded",
-   "country": "CN",
-   "seller": "gecards_shop",
-   "feedback": "99.6",
-   "url": "https://www.ebay.com.au/itm/407382366338",
-   "query": "pokemon japanese rocket gang psa",
-   "nm": 0,
-   "imgs": 5,
-   "flag": ""
-  },
-  {
    "id": "366522178086",
    "title": "1997 Pokemon Japanese Haunter Fossil #93 Holo Psa 10",
    "price": "2863.60",
@@ -1068876,28 +1067701,6 @@
    "flag": ""
   },
   {
-   "id": "407382234237",
-   "title": "1999 Pokemon TCG Japanese Exeggutor Southern Islands #103 CGC 9 ER08",
-   "price": "8.29",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 4,
-   "ends": "2026-11-28T01:34:06.000Z",
-   "condition": "Graded",
-   "country": "CN",
-   "seller": "gecards_shop",
-   "feedback": "99.6",
-   "url": "https://www.ebay.com.au/itm/407382234237",
-   "query": "+pokemon southern islands (holo,promo,psa,cgc)",
-   "nm": 0,
-   "imgs": 5,
-   "flag": ""
-  },
-  {
    "id": "407384554820",
    "title": "1999 Pokemon TCG Japanese Marill Corocoro Comics Promo KVU 7 QZ76",
    "price": "37.68",
@@ -1068964,28 +1067767,6 @@
    "nm": 0,
    "imgs": 5,
    "flag": "unverified"
-  },
-  {
-   "id": "407382233334",
-   "title": "1999 Pokemon TCG Japanese Wartortle Southern Islands #008 CGC 9 ER08",
-   "price": "67.82",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 10,
-   "ends": "2026-11-28T01:33:05.000Z",
-   "condition": "Graded",
-   "country": "CN",
-   "seller": "gecards_shop",
-   "feedback": "99.6",
-   "url": "https://www.ebay.com.au/itm/407382233334",
-   "query": "+pokemon southern islands (holo,promo,psa,cgc)",
-   "nm": 0,
-   "imgs": 5,
-   "flag": ""
   },
   {
    "id": "398087638984",
@@ -1069122,28 +1067903,6 @@
    "nm": 0,
    "imgs": 5,
    "flag": ""
-  },
-  {
-   "id": "407382262929",
-   "title": "2000 Pokemon TCG Japanese Old Back Cleffa Corocoro Comic Promo #173 UC34",
-   "price": "21.85",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 9,
-   "ends": "2026-11-28T01:56:20.000Z",
-   "condition": "Ungraded",
-   "country": "CN",
-   "seller": "gecards_shop",
-   "feedback": "99.6",
-   "url": "https://www.ebay.com.au/itm/407382262929",
-   "query": "+pokemon japanese promo (1997,1998,1999,2000,2001,2002)",
-   "nm": 0,
-   "imgs": 6,
-   "flag": "unverified"
   },
   {
    "id": "407389332298",
@@ -1080759,28 +1079518,6 @@
    "flag": "unverified"
   },
   {
-   "id": "407382324461",
-   "title": "2022 Pokemon TCG Japanese Bulbasaur Illustration PROMO #337/S-P PCG 10 XI60",
-   "price": "4.90",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 2,
-   "ends": "2026-11-28T02:42:01.000Z",
-   "condition": "Graded",
-   "country": "CN",
-   "seller": "gecards_shop",
-   "feedback": "99.6",
-   "url": "https://www.ebay.com.au/itm/407382324461",
-   "query": "+pokemon s-p promo",
-   "nm": 0,
-   "imgs": 5,
-   "flag": "unverified"
-  },
-  {
    "id": "407384563483",
    "title": "2022 Pokemon TCG Japanese Greninja PROMO #339/S-P PCG 10 XI60",
    "price": "1.49",
@@ -1081205,28 +1079942,6 @@
    "flag": "unverified"
   },
   {
-   "id": "407370860952",
-   "title": "2023 Pokemon TCG S-Chinese GYM PROMO 093/S-P Leafeon JD90",
-   "price": "3.39",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 2,
-   "ends": "2026-11-28T01:50:16.000Z",
-   "condition": "Ungraded",
-   "country": "CN",
-   "seller": "gecards_shop",
-   "feedback": "99.6",
-   "url": "https://www.ebay.com.au/itm/407370860952",
-   "query": "+pokemon s-p promo",
-   "nm": 0,
-   "imgs": 5,
-   "flag": "unverified"
-  },
-  {
    "id": "407380324135",
    "title": "2023 Pokemon TCG S-Chinese PROMO GYM 097/S-P Blitzle JD90",
    "price": "1.49",
@@ -1081606,29 +1080321,6 @@
    "seller": "gecards_shop",
    "feedback": "99.6",
    "url": "https://www.ebay.com.au/itm/407382407246",
-   "query": "+pokemon s-p promo",
-   "nm": 0,
-   "imgs": 5,
-   "flag": "unverified"
-  },
-  {
-   "id": "407370855972",
-   "title": "2024 Pokemon TCG S-Chinese GYM PROMO 186/S-P Aerodactyl Sword & Shield JD90",
-   "price": "1.49",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION",
-    "BEST_OFFER"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T01:47:16.000Z",
-   "condition": "Ungraded",
-   "country": "CN",
-   "seller": "gecards_shop",
-   "feedback": "99.6",
-   "url": "https://www.ebay.com.au/itm/407370855972",
    "query": "+pokemon s-p promo",
    "nm": 0,
    "imgs": 5,
@@ -1082264,72 +1080956,6 @@
    "query": "+ngumoha (auto,autograph,autographed,signed,autos) @sport",
    "nm": 0,
    "imgs": 2,
-   "flag": "unverified"
-  },
-  {
-   "id": "366836319280",
-   "title": "2025-26 Topps Chrome UEFA Rio Ngumoha RC Rookie Logofractor Refractor Auto /99",
-   "price": "282.59",
-   "currency": "AUD",
-   "post": "12.04",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 17,
-   "ends": "2026-11-28T02:35:25.000Z",
-   "condition": "Ungraded",
-   "country": "CN",
-   "seller": "murozond",
-   "feedback": "99.8",
-   "url": "https://www.ebay.com.au/itm/366836319280",
-   "query": "+ngumoha (auto,autograph,autographed,signed,autos) @sport",
-   "nm": 0,
-   "imgs": 2,
-   "flag": "unverified"
-  },
-  {
-   "id": "366831287626",
-   "title": "2025-26 Topps Museum UEFA Rio Ngumoha #AA-RN RC Rookie Archival Auto Purple /99",
-   "price": "61.79",
-   "currency": "AUD",
-   "post": "12.04",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 14,
-   "ends": "2026-11-28T02:20:22.000Z",
-   "condition": "Ungraded",
-   "country": "CN",
-   "seller": "murozond",
-   "feedback": "99.8",
-   "url": "https://www.ebay.com.au/itm/366831287626",
-   "query": "+ngumoha (auto,autograph,autographed,signed,autos) @sport",
-   "nm": 0,
-   "imgs": 3,
-   "flag": "unverified"
-  },
-  {
-   "id": "407382489964",
-   "title": "2025-26 Topps Museum UEFA Rio Ngumoha RC Archival Auto 247/299 #AA-RN TT07",
-   "price": "70.84",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 7,
-   "ends": "2026-11-28T03:51:18.000Z",
-   "condition": "Ungraded",
-   "country": "CN",
-   "seller": "gecards_shop",
-   "feedback": "99.6",
-   "url": "https://www.ebay.com.au/itm/407382489964",
-   "query": "+ngumoha (auto,autograph,autographed,signed,autos) @sport",
-   "nm": 0,
-   "imgs": 6,
    "flag": "unverified"
   },
   {
@@ -1094966,28 +1093592,6 @@
    "flag": "unverified"
   },
   {
-   "id": "198811942414",
-   "title": "Pokemon BCTC10 PIKACHU V PROMO 121/S-P 2020 JAPANESE",
-   "price": "6.41",
-   "currency": "AUD",
-   "post": "10.54",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 2,
-   "ends": "2026-11-28T01:59:01.000Z",
-   "condition": "Graded",
-   "country": "CN",
-   "seller": "momentum-collection",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/198811942414",
-   "query": "+pokemon s-p promo",
-   "nm": 0,
-   "imgs": 2,
-   "flag": "unverified"
-  },
-  {
    "id": "800958885121",
    "title": "Pokemon BGS 10 BLACKLABEL Charizard V Promo 2020 SWSH050 Champion's Path ETB ENG",
    "price": "1742.28",
@@ -1098340,28 +1096944,6 @@
    "nm": 1,
    "imgs": 2,
    "flag": ""
-  },
-  {
-   "id": "960229274191",
-   "title": "Pokemon Mew 1/18 Promo Southern Islands 2001 Reverse Holo LCC 10",
-   "price": "5802.56",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 26,
-   "ends": "2026-11-28T04:37:01.000Z",
-   "condition": "Ungraded",
-   "country": "CN",
-   "seller": "metaverse_cards",
-   "feedback": "99.7",
-   "url": "https://www.ebay.com.au/itm/960229274191",
-   "query": "+pokemon southern islands (holo,promo,psa,cgc)",
-   "nm": 0,
-   "imgs": 4,
-   "flag": "unverified"
   },
   {
    "id": "398399625875",
@@ -1122136,51 +1120718,6 @@
    "flag": ""
   },
   {
-   "id": "198817020403",
-   "title": "[806▲]Pokemon TCG Articuno EX 072/070 SR BW7 1st ED Plasma Gale Japanese MSG 10",
-   "price": "58.78",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 1,
-   "ends": "2026-11-28T03:47:50.000Z",
-   "condition": "Graded",
-   "country": "CN",
-   "seller": "lambtcgvault",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/198817020403",
-   "query": "+pokemon japanese (071/070,072/070,073/070,074/070,075/070,076/070,077/070,078/070,079/070) (bw7,\"plasma gale\")",
-   "nm": 0,
-   "imgs": 2,
-   "flag": "unverified"
-  },
-  {
-   "id": "198817005429",
-   "title": "【66】Pikachu Outbreak! 070/XY-P Promo Japanese POKEMON MSG 10",
-   "price": "601.36",
-   "currency": "AUD",
-   "post": "15.06",
-   "postCurrency": "AUD",
-   "options": [
-    "FIXED_PRICE",
-    "AUCTION"
-   ],
-   "bids": 0,
-   "ends": "2026-11-28T03:32:11.000Z",
-   "condition": "Graded",
-   "country": "CN",
-   "seller": "lambtcgvault",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/198817005429",
-   "query": "+pokemon (xy-p,\"xy/p\")",
-   "nm": 0,
-   "imgs": 2,
-   "flag": "unverified"
-  },
-  {
    "id": "358680710007",
    "title": "【Sale!!】Pokemon TCG Chinese丨Cubone丨CBB3C-0407/07丨CCIC 10 GEM MINT丨Random Number",
    "price": "576.93",
@@ -1124435,28 +1122972,6 @@
    "flag": ""
   },
   {
-   "id": "307286703941",
-   "title": "2007 Pokemon HONCHKROW LV.X #132/132 Secret Wonders Holo Ultra Rare English",
-   "price": "17.33",
-   "currency": "AUD",
-   "post": "18.09",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 5,
-   "ends": "2026-11-28T04:02:00.000Z",
-   "condition": "Ungraded",
-   "country": "SG",
-   "seller": "scc_consignments",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/307286703941",
-   "query": "+pokemon lv.x holo near mint",
-   "nm": 1,
-   "imgs": 3,
-   "flag": ""
-  },
-  {
    "id": "407348452766",
    "title": "2007 Pokemon Japanese Entei 10th Movie Promo Holo DP-P Card",
    "price": "72.95",
@@ -1125703,28 +1124218,6 @@
    "nm": 0,
    "imgs": 2,
    "flag": "damage: lp"
-  },
-  {
-   "id": "307288150966",
-   "title": "2016 Pokemon M GARDEVOIR EX #RC31/RC32 Generations Radiant Collection Holo EN",
-   "price": "27.88",
-   "currency": "AUD",
-   "post": "18.09",
-   "postCurrency": "AUD",
-   "options": [
-    "AUCTION"
-   ],
-   "bids": 6,
-   "ends": "2026-11-28T04:15:01.000Z",
-   "condition": "Ungraded",
-   "country": "SG",
-   "seller": "scc_consignments",
-   "feedback": "100.0",
-   "url": "https://www.ebay.com.au/itm/307288150966",
-   "query": "pokemon generations radiant collection near mint",
-   "nm": 1,
-   "imgs": 3,
-   "flag": ""
   },
   {
    "id": "287554393593",
@@ -1158007,10 +1156500,10 @@
   }
  ],
  "rechecked": {
-  "at": "2026-11-28T01:18Z",
+  "at": "2026-11-28T07:18Z",
   "checked": 98,
   "gone": 0,
-  "changed": 0,
-  "ended_auctions": 7
+  "changed": 2,
+  "ended_auctions": 68
  }
 }

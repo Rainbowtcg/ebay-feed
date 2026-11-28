@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T01:19+00:00",
+ "generated": "2026-11-28T07:19+00:00",
  "usd_aud": 1.5038,
  "rate_source": "open.er-api.com",
  "lookups_this_run": 0,
@@ -4369,51 +4369,6 @@
    "signal": "OVER-US",
    "psa8_net": 28,
    "psa9_net": 199
-  },
-  {
-   "title": "Pokemon - Mew Holo 53/108 XY Evolution",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-mew-holo-53-108-xy-evolution",
-   "listed": "2026-11-16",
-   "price": 49.5,
-   "post": 12.0,
-   "cost": 61.5,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=mew+%2853%2F108%2C053%2F108%29+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=mew+%2853%2F108%2C053%2F108%29+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=mew+%2853%2F108%2C053%2F108%29+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=mew+%2853%2F108%2C053%2F108%29+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-evolutions/mew-holo-53",
-   "matched": "Mew [Holo] #53   Pokemon Evolutions",
-   "aud": {
-    "raw": 40,
-    "g7": 64,
-    "g8": 84,
-    "g9": 186,
-    "g95": 205,
-    "g10": 5796
-   },
-   "basis": {
-    "n90": 26,
-    "last": "2026-11-24",
-    "basis": "90-day NM median",
-    "pc_avg": 26.5,
-    "grade": "raw (NM)"
-   },
-   "value": 51,
-   "landed": 83,
-   "gap": 0.21,
-   "thin": false,
-   "signal": "OVER-US",
-   "psa8_net": -88,
-   "psa9_net": -2
   },
   {
    "title": "Pokemon - Wooper 66/147 Rev Holo Aquapolis",
@@ -12546,51 +12501,6 @@
    "psa9_net": 2487
   },
   {
-   "title": "Pokemon - Light Dragonite 14/105 Holo Neo Destiny",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-light-dragonite-14-105-holo-neo-destiny",
-   "listed": "2026-10-26",
-   "price": 449.1,
-   "post": 12.0,
-   "cost": 461.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=light+dragonite+%2814%2F105%2C014%2F105%29+-1st+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=light+dragonite+%2814%2F105%2C014%2F105%29+-1st+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=light+dragonite+%2814%2F105%2C014%2F105%29+-1st+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=light+dragonite+%2814%2F105%2C014%2F105%29+-1st+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/light-dragonite-14",
-   "matched": "Light Dragonite #14   Pokemon Neo Destiny",
-   "aud": {
-    "raw": 398,
-    "g7": 582,
-    "g8": 846,
-    "g9": 1545,
-    "g95": 1699,
-    "g10": 7519
-   },
-   "basis": {
-    "n90": 4,
-    "last": "2026-11-24",
-    "basis": "90-day NM median",
-    "pc_avg": 264.34,
-    "grade": "raw (NM)"
-   },
-   "value": 691,
-   "landed": 787,
-   "gap": -0.33,
-   "thin": false,
-   "signal": "UNDER",
-   "psa8_net": 49,
-   "psa9_net": 685
-  },
-  {
    "title": "Pokemon - Raichu 27/144 Rev Holo Skyridge",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/pokemon-raichu-27-144-rev-holo-skyridge-1",
@@ -15523,29 +15433,6 @@
    "gap": 0.28,
    "thin": true,
    "signal": "OVER"
-  },
-  {
-   "title": "Pokemon - Yellow Cheeks Pikachu 58/102 1ST Edition Base Set PSA 9",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-yellow-cheeks-pikachu-58-102-1st-edition-base-set",
-   "listed": "2026-10-14",
-   "price": 1709.1,
-   "post": 12.0,
-   "cost": 1721.1,
-   "grader": "PSA",
-   "grade": "9",
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=yellow+cheeks+pikachu+%2858%2F102%2C058%2F102%29+1st+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=yellow+cheeks+pikachu+%2858%2F102%2C058%2F102%29+1st+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=yellow+cheeks+pikachu+%2858%2F102%2C058%2F102%29+1st+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=yellow+cheeks+pikachu+%2858%2F102%2C058%2F102%29+1st+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-30th-celebration/pikachu-58)"
   },
   {
    "title": "Pokemon - Slowpoke 55/62 1ST Ed Fossil PSA 10",
@@ -21297,29 +21184,6 @@
    "psa9_net": 11
   },
   {
-   "title": "Pokemon- Hidden Fates ETB Sun & Moon",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-tcg-hidden-fates-elite-trainer-box-sealed",
-   "listed": "",
-   "price": 719.1,
-   "post": 0.0,
-   "cost": 719.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-hidden-fates/pikachu-19)"
-  },
-  {
    "title": "Pokemon - Destined Rivals ETB",
    "shop": "Mega Cash",
    "url": "https://megacash.com.au/products/destined-rivals-etb",
@@ -21473,6 +21337,29 @@
    "offers": false,
    "signal": "UNPRICED",
    "why": "no PriceCharting card fit (top result /game/pokemon-shrouded-fable/persian-78)"
+  },
+  {
+   "title": "Pokemon- Hidden Fates ETB Sun & Moon",
+   "shop": "Mega Cash",
+   "url": "https://megacash.com.au/products/pokemon-tcg-hidden-fates-elite-trainer-box-sealed",
+   "listed": "",
+   "price": 719.1,
+   "post": 0.0,
+   "cost": 719.1,
+   "grader": null,
+   "grade": null,
+   "jp": false,
+   "links": {
+    "au": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_PrefLoc=1",
+    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=104",
+    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_LocatedIn=1&_salic=45",
+    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=Hidden+Fates+ETB+Sun+%26+Moon+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
+   },
+   "live": null,
+   "auction": false,
+   "offers": false,
+   "signal": "UNPRICED",
+   "why": "no PriceCharting card fit (top result /game/pokemon-hidden-fates/pikachu-19)"
   },
   {
    "title": "Pokemon - 30TH Celebrations ETB",
