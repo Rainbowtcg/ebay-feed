@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-27T23:31+00:00",
- "usd_aud": 1.5075,
+ "generated": "2026-11-28T01:19+00:00",
+ "usd_aud": 1.5038,
  "rate_source": "open.er-api.com",
- "lookups_this_run": 1,
+ "lookups_this_run": 0,
  "cards": [
   {
    "title": "Pokemon - Gastly 57/144 Rev Holo Skyridge",
@@ -27,12 +27,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/gastly-reverse-holo-57?q=gastly+57+reverse+holo+skyridge",
    "matched": "Gastly [Reverse Holo] #57   Pokemon Skyridge",
    "aud": {
-    "raw": 337,
-    "g7": 472,
-    "g8": 535,
-    "g9": 658,
-    "g95": 724,
-    "g10": 15226
+    "raw": 336,
+    "g7": 470,
+    "g8": 534,
+    "g9": 657,
+    "g95": 722,
+    "g10": 15188
    },
    "basis": {
     "n90": 5,
@@ -41,13 +41,13 @@
     "pc_avg": 223.56,
     "grade": "raw (NM)"
    },
-   "value": 377,
-   "landed": 442,
-   "gap": 0.22,
+   "value": 376,
+   "landed": 441,
+   "gap": 0.23,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -108,
-   "psa9_net": 38
+   "psa8_net": -110,
+   "psa9_net": 36
   },
   {
    "title": "Pokemon - Cool Porygon #15 Black Star Promo - Sealed",
@@ -146,7 +146,7 @@
     "g8": 26,
     "g9": 48,
     "g95": 49,
-    "g10": 181
+    "g10": 180
    },
    "basis": {
     "n90": 21,
@@ -155,9 +155,9 @@
     "pc_avg": 120.0,
     "grade": "PSA 10"
    },
-   "value": 182,
+   "value": 181,
    "landed": 249,
-   "gap": 0.05,
+   "gap": 0.06,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -186,7 +186,7 @@
    "aud": {
     "raw": 19,
     "g8": 24,
-    "g9": 32,
+    "g9": 31,
     "g95": 35,
     "g10": 113
    },
@@ -255,11 +255,11 @@
    "matched": "M Blastoise EX #102   Pokemon Evolutions",
    "aud": {
     "raw": 71,
-    "g7": 75,
+    "g7": 74,
     "g8": 84,
-    "g9": 140,
+    "g9": 139,
     "g95": 189,
-    "g10": 639
+    "g10": 637
    },
    "basis": {
     "n90": 30,
@@ -269,9 +269,9 @@
     "grade": "CGC 9",
     "estimate": "CGC valued at 80% of the PSA/BGS price (no CGC 9 column)"
    },
-   "value": 115,
-   "landed": 176,
-   "gap": 0.61,
+   "value": 114,
+   "landed": 175,
+   "gap": 0.62,
    "thin": false,
    "signal": "OVER"
   },
@@ -300,9 +300,9 @@
    "aud": {
     "raw": 96,
     "g8": 93,
-    "g9": 436,
-    "g95": 479,
-    "g10": 1634
+    "g9": 435,
+    "g95": 478,
+    "g10": 1630
    },
    "basis": {
     "n90": 5,
@@ -317,7 +317,7 @@
    "thin": false,
    "signal": "UNDER",
    "psa8_net": -82,
-   "psa9_net": 182
+   "psa9_net": 181
   },
   {
    "title": "Pokemon TCG - Umbreon - 24 / 100 - EX Sandstorm - Non Holo",
@@ -344,10 +344,10 @@
    "aud": {
     "raw": 44,
     "g7": 95,
-    "g8": 172,
-    "g9": 222,
+    "g8": 171,
+    "g9": 221,
     "g95": 244,
-    "g10": 1501
+    "g10": 1498
    },
    "basis": {
     "n90": 15,
@@ -357,12 +357,12 @@
     "grade": "raw (NM)"
    },
    "value": 83,
-   "landed": 119,
+   "landed": 118,
    "gap": -0.4,
    "thin": false,
    "signal": "UNDER",
    "psa8_net": -15,
-   "psa9_net": 92
+   "psa9_net": 91
   },
   {
    "title": "Pokemon - Hisuian Typholsion V 053/189 Astral Radiance PSA 10",
@@ -448,7 +448,7 @@
     "g8": 33,
     "g9": 43,
     "g95": 68,
-    "g10": 136
+    "g10": 135
    },
    "basis": {
     "n90": 30,
@@ -457,9 +457,9 @@
     "pc_avg": 90.0,
     "grade": "PSA 10"
    },
-   "value": 137,
+   "value": 136,
    "landed": 200,
-   "gap": 0.26,
+   "gap": 0.27,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -509,11 +509,11 @@
    "pc": "https://www.pricecharting.com/game/pokemon-perfect-order/gengar-eb-games-stamped-50?q=eb+games+gengar+050",
    "matched": "Gengar [EB Games Stamped] #50   Pokemon Perfect Order",
    "aud": {
-    "raw": 129,
-    "g8": 90,
-    "g9": 202,
-    "g95": 222,
-    "g10": 1362
+    "raw": 128,
+    "g8": 89,
+    "g9": 201,
+    "g95": 221,
+    "g10": 1359
    },
    "basis": {
     "n90": 2,
@@ -522,9 +522,9 @@
     "thin": true,
     "grade": "PSA 9"
    },
-   "value": 202,
-   "landed": 272,
-   "gap": -0.37,
+   "value": 201,
+   "landed": 271,
+   "gap": -0.36,
    "thin": true,
    "signal": "UNDER"
   },
@@ -564,8 +564,8 @@
     "pc_avg": 67.5,
     "grade": "PSA 10"
    },
-   "value": 115,
-   "landed": 176,
+   "value": 114,
+   "landed": 175,
    "gap": 0.04,
    "thin": false,
    "signal": "OVER-US"
@@ -639,9 +639,9 @@
     "raw": 54,
     "g7": 54,
     "g8": 59,
-    "g9": 73,
+    "g9": 72,
     "g95": 107,
-    "g10": 265
+    "g10": 264
    },
    "basis": {
     "n90": 30,
@@ -737,7 +737,7 @@
     "grade": "PSA 10"
    },
    "value": 83,
-   "landed": 141,
+   "landed": 140,
    "gap": 0.11,
    "thin": false,
    "signal": "OVER-US"
@@ -816,12 +816,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-revelation/entei-6",
    "matched": "Entei #6   Pokemon Neo Revelation",
    "aud": {
-    "raw": 171,
-    "g7": 366,
-    "g8": 497,
-    "g9": 1206,
-    "g95": 1327,
-    "g10": 52762
+    "raw": 170,
+    "g7": 365,
+    "g8": 496,
+    "g9": 1203,
+    "g95": 1323,
+    "g10": 52632
    },
    "basis": {
     "n90": 4,
@@ -830,13 +830,13 @@
     "pc_avg": 113.13,
     "grade": "raw (NM)"
    },
-   "value": 409,
-   "landed": 477,
+   "value": 408,
+   "landed": 476,
    "gap": -0.4,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 40,
-   "psa9_net": 639
+   "psa8_net": 39,
+   "psa9_net": 636
   },
   {
    "title": "Pokemon - Charizard (MP) - XY Evolution - 11/108",
@@ -861,12 +861,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-evolutions/charizard-11",
    "matched": "Charizard #11   Pokemon Evolutions",
    "aud": {
-    "raw": 110,
-    "g7": 153,
-    "g8": 181,
-    "g9": 315,
-    "g95": 794,
-    "g10": 16024
+    "raw": 109,
+    "g7": 152,
+    "g8": 180,
+    "g9": 314,
+    "g95": 792,
+    "g10": 15985
    },
    "basis": {
     "n90": 14,
@@ -880,7 +880,7 @@
    "gap": -0.38,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -41,
+   "psa8_net": -42,
    "psa9_net": 60
   },
   {
@@ -932,9 +932,9 @@
     "raw": 8,
     "g7": 21,
     "g8": 26,
-    "g9": 211,
+    "g9": 210,
     "g95": 232,
-    "g10": 702
+    "g10": 700
    },
    "basis": {
     "n90": 4,
@@ -943,11 +943,11 @@
     "pc_avg": 465.42,
     "grade": "PSA 10"
    },
-   "value": 904,
-   "landed": 1044,
-   "gap": -0.0,
+   "value": 902,
+   "landed": 1042,
+   "gap": 0.0,
    "thin": false,
-   "signal": "FAIR"
+   "signal": "OVER-US"
   },
   {
    "title": "Pokemon - Pikachu SM86 General Mills Promo PSA 8",
@@ -974,9 +974,9 @@
    "aud": {
     "raw": 63,
     "g8": 305,
-    "g9": 1545,
-    "g95": 1700,
-    "g10": 2714
+    "g9": 1541,
+    "g95": 1696,
+    "g10": 2707
    },
    "basis": {
     "n90": 3,
@@ -986,7 +986,7 @@
     "grade": "PSA 8"
    },
    "value": 305,
-   "landed": 385,
+   "landed": 384,
    "gap": 0.81,
    "thin": false,
    "signal": "OVER"
@@ -1015,11 +1015,11 @@
    "matched": "Metagross EX #95   Pokemon Power Keepers",
    "aud": {
     "raw": 117,
-    "g7": 265,
-    "g8": 396,
-    "g9": 1168,
-    "g95": 1284,
-    "g10": 8315
+    "g7": 264,
+    "g8": 395,
+    "g9": 1165,
+    "g95": 1281,
+    "g10": 8294
    },
    "basis": {
     "grade": "PSA 1",
@@ -1028,7 +1028,7 @@
     "thin": true
    },
    "value": 222,
-   "landed": 294,
+   "landed": 293,
    "gap": 0.06,
    "thin": true,
    "signal": "OVER-US"
@@ -1059,20 +1059,20 @@
     "raw": 27,
     "g7": 75,
     "g8": 107,
-    "g9": 162,
-    "g95": 170,
-    "g10": 1555
+    "g9": 161,
+    "g95": 169,
+    "g10": 1551
    },
    "basis": {
-    "n90": 8,
+    "n90": 7,
     "last": "2026-11-11",
     "basis": "90-day median",
     "pc_avg": 71.0,
     "grade": "PSA 8"
    },
-   "value": 114,
-   "landed": 175,
-   "gap": 0.36,
+   "value": 120,
+   "landed": 182,
+   "gap": 0.29,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -1104,7 +1104,7 @@
     "g8": 50,
     "g9": 84,
     "g95": 92,
-    "g10": 475
+    "g10": 474
    },
    "basis": {
     "grade": "CGC 10",
@@ -1141,12 +1141,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-base-set/squirtle-shadowless-63?q=squirtle+63+shadowless+base+set",
    "matched": "Squirtle [Shadowless] #63   Pokemon Base Set",
    "aud": {
-    "raw": 17,
+    "raw": 16,
     "g7": 79,
-    "g8": 103,
+    "g8": 102,
     "g9": 222,
     "g95": 244,
-    "g10": 1321
+    "g10": 1318
    },
    "basis": {
     "n90": 30,
@@ -1155,9 +1155,9 @@
     "pc_avg": 68.0,
     "grade": "PSA 8"
    },
-   "value": 106,
-   "landed": 166,
-   "gap": 0.21,
+   "value": 105,
+   "landed": 165,
+   "gap": 0.22,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -1186,10 +1186,10 @@
    "aud": {
     "raw": 44,
     "g7": 46,
-    "g8": 53,
-    "g9": 76,
+    "g8": 52,
+    "g9": 75,
     "g95": 88,
-    "g10": 362
+    "g10": 361
    },
    "basis": {
     "n90": 30,
@@ -1228,11 +1228,11 @@
    "matched": "Bulbasaur [Reverse Holo] #95   Pokemon Expedition",
    "aud": {
     "raw": 310,
-    "g7": 688,
-    "g8": 993,
-    "g9": 2257,
-    "g95": 2483,
-    "g10": 2709
+    "g7": 687,
+    "g8": 991,
+    "g9": 2252,
+    "g95": 2477,
+    "g10": 2702
    },
    "basis": {
     "n90": 19,
@@ -1241,13 +1241,13 @@
     "pc_avg": 205.91,
     "grade": "raw (NM)"
    },
-   "value": 463,
-   "landed": 537,
+   "value": 462,
+   "landed": 536,
    "gap": 0.29,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 139,
-   "psa9_net": 1082
+   "psa8_net": 137,
+   "psa9_net": 1077
   },
   {
    "title": "Pokemon - Typhlosion 64/165 Rev Holo Expedition",
@@ -1272,12 +1272,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/typhlosion-reverse-holo-64",
    "matched": "Typhlosion [Reverse Holo] #64   Pokemon Expedition",
    "aud": {
-    "raw": 151,
+    "raw": 150,
     "g7": 102,
-    "g8": 261,
-    "g9": 980,
-    "g95": 1078,
-    "g10": 5236
+    "g8": 260,
+    "g9": 977,
+    "g95": 1075,
+    "g10": 5223
    },
    "basis": {
     "n90": 13,
@@ -1291,8 +1291,8 @@
    "gap": 0.66,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -257,
-   "psa9_net": 247
+   "psa8_net": -258,
+   "psa9_net": 245
   },
   {
    "title": "Pokemon - Golbat 60/144 Rev Holo Skyridge",
@@ -1317,12 +1317,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/golbat-reverse-holo-60",
    "matched": "Golbat [Reverse Holo] #60   Pokemon Skyridge",
    "aud": {
-    "raw": 310,
+    "raw": 309,
     "g7": 305,
-    "g8": 531,
-    "g9": 808,
-    "g95": 889,
-    "g10": 1117
+    "g8": 529,
+    "g9": 806,
+    "g95": 887,
+    "g10": 1114
    },
    "basis": {
     "n90": 8,
@@ -1331,13 +1331,13 @@
     "pc_avg": 205.42,
     "grade": "raw (NM)"
    },
-   "value": 376,
-   "landed": 441,
+   "value": 375,
+   "landed": 440,
    "gap": -0.08,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -19,
-   "psa9_net": 404
+   "psa8_net": -20,
+   "psa9_net": 402
   },
   {
    "title": "Pokemon - Houndoom 14/147 Rev Holo Aquapolis",
@@ -1362,12 +1362,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/houndoom-reverse-holo-14",
    "matched": "Houndoom [Reverse Holo] #14   Pokemon Aquapolis",
    "aud": {
-    "raw": 191,
+    "raw": 190,
     "g7": 194,
-    "g8": 452,
-    "g9": 867,
-    "g95": 954,
-    "g10": 3693
+    "g8": 451,
+    "g9": 865,
+    "g95": 952,
+    "g10": 3684
    },
    "basis": {
     "n90": 3,
@@ -1381,8 +1381,8 @@
    "gap": 0.36,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -44,
-   "psa9_net": 281
+   "psa8_net": -45,
+   "psa9_net": 279
   },
   {
    "title": "Pokemon - Marowak 54/147 Rev Holo Aquapolis",
@@ -1409,10 +1409,10 @@
    "aud": {
     "raw": 110,
     "g7": 176,
-    "g8": 220,
-    "g9": 542,
-    "g95": 595,
-    "g10": 22612
+    "g8": 219,
+    "g9": 540,
+    "g95": 594,
+    "g10": 22557
    },
    "basis": {
     "n90": 3,
@@ -1421,13 +1421,13 @@
     "pc_avg": 73.09,
     "grade": "raw (NM)"
    },
-   "value": 151,
+   "value": 150,
    "landed": 193,
-   "gap": 0.86,
+   "gap": 0.87,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -199,
-   "psa9_net": 53
+   "psa9_net": 52
   },
   {
    "title": "Pokemon - Typhlosion 64/165 Rev Holo Expedition",
@@ -1452,12 +1452,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/typhlosion-reverse-holo-64",
    "matched": "Typhlosion [Reverse Holo] #64   Pokemon Expedition",
    "aud": {
-    "raw": 151,
+    "raw": 150,
     "g7": 102,
-    "g8": 261,
-    "g9": 980,
-    "g95": 1078,
-    "g10": 5236
+    "g8": 260,
+    "g9": 977,
+    "g95": 1075,
+    "g10": 5223
    },
    "basis": {
     "n90": 13,
@@ -1471,8 +1471,8 @@
    "gap": 0.25,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -167,
-   "psa9_net": 337
+   "psa8_net": -168,
+   "psa9_net": 335
   },
   {
    "title": "Pokemon - Typhlosion 65/165 Rev Holo Expedition",
@@ -1497,12 +1497,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/typhlosion-reverse-holo-65",
    "matched": "Typhlosion [Reverse Holo] #65   Pokemon Expedition",
    "aud": {
-    "raw": 67,
+    "raw": 66,
     "g7": 113,
     "g8": 188,
-    "g9": 535,
-    "g95": 588,
-    "g10": 4673
+    "g9": 533,
+    "g95": 586,
+    "g10": 4662
    },
    "basis": {
     "n90": 7,
@@ -1517,7 +1517,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -224,
-   "psa9_net": 49
+   "psa9_net": 48
   },
   {
    "title": "Pokemon - Ninetales 25/147 Rev Holo Aquapolis",
@@ -1543,14 +1543,14 @@
    "matched": "Ninetales [Reverse Holo] #25   Pokemon Aquapolis",
    "aud": {
     "raw": 126,
-    "g7": 230,
-    "g8": 320,
-    "g9": 353,
-    "g95": 369,
-    "g10": 378
+    "g7": 229,
+    "g8": 319,
+    "g9": 352,
+    "g95": 368,
+    "g10": 377
    },
    "basis": {
-    "n90": 7,
+    "n90": 6,
     "last": "2026-11-17",
     "basis": "90-day upper quarter (few NM-labelled sales)",
     "pc_avg": 83.51,
@@ -1561,8 +1561,8 @@
    "gap": 0.89,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -120,
-   "psa9_net": -95
+   "psa8_net": -121,
+   "psa9_net": -96
   },
   {
    "title": "Pokemon - Vulpix 116/147 Rev Holo Aquapolis",
@@ -1587,12 +1587,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/vulpix-reverse-holo-116",
    "matched": "Vulpix [Reverse Holo] #116   Pokemon Aquapolis",
    "aud": {
-    "raw": 136,
+    "raw": 135,
     "g7": 242,
-    "g8": 334,
-    "g9": 373,
-    "g95": 410,
-    "g10": 623
+    "g8": 333,
+    "g9": 372,
+    "g95": 409,
+    "g10": 622
    },
    "basis": {
     "n90": 7,
@@ -1601,13 +1601,13 @@
     "pc_avg": 90.0,
     "grade": "raw (NM)"
    },
-   "value": 166,
-   "landed": 210,
-   "gap": 0.64,
+   "value": 165,
+   "landed": 209,
+   "gap": 0.65,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -101,
-   "psa9_net": -70
+   "psa8_net": -102,
+   "psa9_net": -71
   },
   {
    "title": "Pokemon- Venusaur 67/165 Rev Holo Expedition",
@@ -1634,10 +1634,10 @@
    "aud": {
     "raw": 162,
     "g7": 196,
-    "g8": 340,
-    "g9": 902,
-    "g95": 992,
-    "g10": 7863
+    "g8": 339,
+    "g9": 900,
+    "g95": 990,
+    "g10": 7844
    },
    "basis": {
     "n90": 8,
@@ -1647,12 +1647,12 @@
     "grade": "raw (NM)"
    },
    "value": 241,
-   "landed": 293,
+   "landed": 292,
    "gap": 0.09,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -58,
-   "psa9_net": 457
+   "psa8_net": -59,
+   "psa9_net": 455
   },
   {
    "title": "Pokemon - Venusaur 68/165 Rev Holo Expedition",
@@ -1678,11 +1678,11 @@
    "matched": "Venusaur [Reverse Holo] #68   Pokemon Expedition",
    "aud": {
     "raw": 98,
-    "g7": 176,
-    "g8": 266,
-    "g9": 754,
-    "g95": 829,
-    "g10": 7315
+    "g7": 175,
+    "g8": 265,
+    "g9": 752,
+    "g95": 827,
+    "g10": 7297
    },
    "basis": {
     "n90": 12,
@@ -1692,12 +1692,12 @@
     "grade": "raw (NM)"
    },
    "value": 135,
-   "landed": 177,
+   "landed": 176,
    "gap": 0.88,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -108,
-   "psa9_net": 200
+   "psa8_net": -109,
+   "psa9_net": 199
   },
   {
    "title": "Pokemon- Team Rocket's Mewtwo EX 281/217- Ascended Heroes",
@@ -1745,12 +1745,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/golbat-reverse-holo-60",
    "matched": "Golbat [Reverse Holo] #60   Pokemon Skyridge",
    "aud": {
-    "raw": 310,
+    "raw": 309,
     "g7": 305,
-    "g8": 531,
-    "g9": 808,
-    "g95": 889,
-    "g10": 1117
+    "g8": 529,
+    "g9": 806,
+    "g95": 887,
+    "g10": 1114
    },
    "basis": {
     "n90": 8,
@@ -1759,13 +1759,13 @@
     "pc_avg": 205.42,
     "grade": "raw (NM)"
    },
-   "value": 376,
-   "landed": 441,
+   "value": 375,
+   "landed": 440,
    "gap": -0.37,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 89,
-   "psa9_net": 512
+   "psa8_net": 88,
+   "psa9_net": 510
   },
   {
    "title": "Pokemon - Arcanine 2/147 Aquapolis",
@@ -1790,12 +1790,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/arcanine-2",
    "matched": "Arcanine #2   Pokemon Aquapolis",
    "aud": {
-    "raw": 180,
-    "g7": 132,
-    "g8": 253,
+    "raw": 179,
+    "g7": 131,
+    "g8": 252,
     "g9": 340,
-    "g95": 374,
-    "g10": 465
+    "g95": 373,
+    "g10": 464
    },
    "basis": {
     "n90": 8,
@@ -1809,8 +1809,8 @@
    "gap": 0.16,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -128,
-   "psa9_net": -57
+   "psa8_net": -129,
+   "psa9_net": -58
   },
   {
    "title": "Pokemon - Cyndaquil 104/165 Rev Holo Expedition",
@@ -1835,12 +1835,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/cyndaquil-reverse-holo-104",
    "matched": "Cyndaquil [Reverse Holo] #104   Pokemon Expedition",
    "aud": {
-    "raw": 110,
+    "raw": 109,
     "g7": 53,
     "g8": 67,
-    "g9": 558,
-    "g95": 614,
-    "g10": 6881
+    "g9": 556,
+    "g95": 612,
+    "g10": 6864
    },
    "basis": {
     "n90": 12,
@@ -1849,13 +1849,13 @@
     "pc_avg": 72.77,
     "grade": "raw (NM)"
    },
-   "value": 121,
+   "value": 120,
    "landed": 160,
-   "gap": 0.95,
+   "gap": 0.97,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -274,
-   "psa9_net": 211
+   "psa9_net": 210
   },
   {
    "title": "Pokemon- Venusaur 30/165 Rev Holo Expedition",
@@ -1881,11 +1881,11 @@
    "matched": "Venusaur [Reverse Holo] #30   Pokemon Expedition",
    "aud": {
     "raw": 129,
-    "g7": 145,
-    "g8": 315,
-    "g9": 796,
-    "g95": 876,
-    "g10": 9599
+    "g7": 144,
+    "g8": 314,
+    "g9": 794,
+    "g95": 874,
+    "g10": 9575
    },
    "basis": {
     "n90": 4,
@@ -1894,13 +1894,13 @@
     "pc_avg": 85.55,
     "grade": "raw (NM)"
    },
-   "value": 154,
-   "landed": 197,
-   "gap": 0.47,
+   "value": 153,
+   "landed": 196,
+   "gap": 0.48,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -44,
-   "psa9_net": 214
+   "psa8_net": -45,
+   "psa9_net": 213
   },
   {
    "title": "Pokemon - Vulpix 116/147 Rev Holo Aquapolis",
@@ -1925,12 +1925,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/vulpix-reverse-holo-116",
    "matched": "Vulpix [Reverse Holo] #116   Pokemon Aquapolis",
    "aud": {
-    "raw": 136,
+    "raw": 135,
     "g7": 242,
-    "g8": 334,
-    "g9": 373,
-    "g95": 410,
-    "g10": 623
+    "g8": 333,
+    "g9": 372,
+    "g95": 409,
+    "g10": 622
    },
    "basis": {
     "n90": 7,
@@ -1939,13 +1939,13 @@
     "pc_avg": 90.0,
     "grade": "raw (NM)"
    },
-   "value": 166,
-   "landed": 210,
-   "gap": 0.37,
+   "value": 165,
+   "landed": 209,
+   "gap": 0.38,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -56,
-   "psa9_net": -25
+   "psa8_net": -57,
+   "psa9_net": -26
   },
   {
    "title": "Pokemon - Magneton 20/144 Rev Holo Skyridge",
@@ -1975,12 +1975,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/magneton-reverse-holo-20",
    "matched": "Magneton [Reverse Holo] #20   Pokemon Skyridge",
    "aud": {
-    "raw": 79,
+    "raw": 78,
     "g7": 59,
     "g8": 73,
-    "g9": 523,
-    "g95": 576,
-    "g10": 2864
+    "g9": 522,
+    "g95": 574,
+    "g10": 2857
    },
    "basis": {
     "n90": 4,
@@ -1995,7 +1995,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -251,
-   "psa9_net": 46
+   "psa9_net": 45
   },
   {
    "title": "Pokemon - Onix 98/147 Rev Holo Aquapolis",
@@ -2020,12 +2020,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/onix-reverse-holo-98",
    "matched": "Onix [Reverse Holo] #98   Pokemon Aquapolis",
    "aud": {
-    "raw": 193,
+    "raw": 192,
     "g7": 76,
-    "g8": 415,
-    "g9": 451,
-    "g95": 595,
-    "g10": 7311
+    "g8": 414,
+    "g9": 450,
+    "g95": 594,
+    "g10": 7293
    },
    "basis": {
     "n90": 5,
@@ -2034,13 +2034,13 @@
     "pc_avg": 128.0,
     "grade": "raw (NM)"
    },
-   "value": 300,
+   "value": 299,
    "landed": 357,
    "gap": -0.27,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 17,
-   "psa9_net": 45
+   "psa8_net": 16,
+   "psa9_net": 44
   },
   {
    "title": "Pokemon - Vulpix 136/165 Rev Holo Expedition",
@@ -2067,10 +2067,10 @@
    "aud": {
     "raw": 92,
     "g7": 78,
-    "g8": 99,
-    "g9": 602,
-    "g95": 662,
-    "g10": 5443
+    "g8": 98,
+    "g9": 601,
+    "g95": 660,
+    "g10": 5429
    },
    "basis": {
     "n90": 13,
@@ -2085,7 +2085,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -231,
-   "psa9_net": 282
+   "psa9_net": 281
   },
   {
    "title": "Pokemon - Cyndaquil 104/165 Rev Holo Expedition",
@@ -2110,12 +2110,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/cyndaquil-reverse-holo-104",
    "matched": "Cyndaquil [Reverse Holo] #104   Pokemon Expedition",
    "aud": {
-    "raw": 110,
+    "raw": 109,
     "g7": 53,
     "g8": 67,
-    "g9": 558,
-    "g95": 614,
-    "g10": 6881
+    "g9": 556,
+    "g95": 612,
+    "g10": 6864
    },
    "basis": {
     "n90": 12,
@@ -2124,13 +2124,13 @@
     "pc_avg": 72.77,
     "grade": "raw (NM)"
    },
-   "value": 121,
+   "value": 120,
    "landed": 160,
-   "gap": 0.8,
+   "gap": 0.82,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -256,
-   "psa9_net": 229
+   "psa9_net": 228
   },
   {
    "title": "Pokemon- Venusaur 67/165 Rev Holo Expedition",
@@ -2157,10 +2157,10 @@
    "aud": {
     "raw": 162,
     "g7": 196,
-    "g8": 340,
-    "g9": 902,
-    "g95": 992,
-    "g10": 7863
+    "g8": 339,
+    "g9": 900,
+    "g95": 990,
+    "g10": 7844
    },
    "basis": {
     "n90": 8,
@@ -2170,12 +2170,12 @@
     "grade": "raw (NM)"
    },
    "value": 241,
-   "landed": 293,
+   "landed": 292,
    "gap": -0.13,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -4,
-   "psa9_net": 511
+   "psa8_net": -5,
+   "psa9_net": 509
   },
   {
    "title": "Pokemon- Venonat 112/144 Rev Holo Skyridge",
@@ -2200,12 +2200,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/venonat-reverse-holo-112",
    "matched": "Venonat [Reverse Holo] #112   Pokemon Skyridge",
    "aud": {
-    "raw": 159,
-    "g7": 212,
-    "g8": 377,
-    "g9": 433,
-    "g95": 476,
-    "g10": 1221
+    "raw": 158,
+    "g7": 211,
+    "g8": 376,
+    "g9": 432,
+    "g95": 475,
+    "g10": 1218
    },
    "basis": {
     "n90": 2,
@@ -2214,13 +2214,13 @@
     "thin": true,
     "grade": "raw (NM)"
    },
-   "value": 159,
+   "value": 158,
    "landed": 202,
-   "gap": 0.2,
+   "gap": 0.21,
    "thin": true,
    "signal": "OVER-US",
-   "psa8_net": 14,
-   "psa9_net": 79
+   "psa8_net": 13,
+   "psa9_net": 78
   },
   {
    "title": "Pokemon - Beedrill 5/144 Rev Holo Skyridge",
@@ -2251,11 +2251,11 @@
    "matched": "Beedrill [Reverse Holo] #5   Pokemon Skyridge",
    "aud": {
     "raw": 72,
-    "g7": 86,
-    "g8": 168,
+    "g7": 85,
+    "g8": 167,
     "g9": 332,
-    "g95": 366,
-    "g10": 2327
+    "g95": 365,
+    "g10": 2322
    },
    "basis": {
     "n90": 3,
@@ -2264,9 +2264,9 @@
     "pc_avg": 47.68,
     "grade": "raw (NM)"
    },
-   "value": 163,
-   "landed": 207,
-   "gap": 0.17,
+   "value": 162,
+   "landed": 206,
+   "gap": 0.18,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -133,
@@ -2295,12 +2295,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/rapidash-reverse-holo-31",
    "matched": "Rapidash [Reverse Holo] #31   Pokemon Aquapolis",
    "aud": {
-    "raw": 91,
+    "raw": 90,
     "g7": 101,
     "g8": 169,
-    "g9": 245,
-    "g95": 270,
-    "g10": 4141
+    "g9": 244,
+    "g95": 269,
+    "g10": 4131
    },
    "basis": {
     "n90": 3,
@@ -2315,7 +2315,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -149,
-   "psa9_net": -89
+   "psa9_net": -90
   },
   {
    "title": "Pokemon - Cyndaquil 104/165 Rev Holo Expedition",
@@ -2340,12 +2340,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/cyndaquil-reverse-holo-104",
    "matched": "Cyndaquil [Reverse Holo] #104   Pokemon Expedition",
    "aud": {
-    "raw": 110,
+    "raw": 109,
     "g7": 53,
     "g8": 67,
-    "g9": 558,
-    "g95": 614,
-    "g10": 6881
+    "g9": 556,
+    "g95": 612,
+    "g10": 6864
    },
    "basis": {
     "n90": 12,
@@ -2354,13 +2354,13 @@
     "pc_avg": 72.77,
     "grade": "raw (NM)"
    },
-   "value": 121,
+   "value": 120,
    "landed": 160,
-   "gap": 0.58,
+   "gap": 0.59,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -229,
-   "psa9_net": 256
+   "psa9_net": 255
   },
   {
    "title": "Pokemon - Nidoran 81/144 Rev Holo Skyridge",
@@ -2388,9 +2388,9 @@
     "raw": 55,
     "g7": 133,
     "g8": 226,
-    "g9": 552,
-    "g95": 608,
-    "g10": 2338
+    "g9": 551,
+    "g95": 606,
+    "g10": 2332
    },
    "basis": {
     "n90": 2,
@@ -2405,7 +2405,7 @@
    "thin": true,
    "signal": "OVER",
    "psa8_net": -95,
-   "psa9_net": 192
+   "psa9_net": 191
   },
   {
    "title": "Pokemon - Poliwrath 26/144 Rev Holo Skyridge",
@@ -2433,9 +2433,9 @@
     "raw": 226,
     "g7": 280,
     "g8": 350,
-    "g9": 570,
-    "g95": 627,
-    "g10": 6675
+    "g9": 569,
+    "g95": 626,
+    "g10": 6659
    },
    "basis": {
     "n90": 8,
@@ -2444,13 +2444,13 @@
     "pc_avg": 150.12,
     "grade": "raw (NM)"
    },
-   "value": 279,
+   "value": 278,
    "landed": 334,
-   "gap": -0.35,
+   "gap": -0.34,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 45,
-   "psa9_net": 228
+   "psa8_net": 44,
+   "psa9_net": 226
   },
   {
    "title": "Pokemon- Golem 14/165 Holo Expedition",
@@ -2501,9 +2501,9 @@
     "raw": 55,
     "g7": 54,
     "g8": 137,
-    "g9": 386,
-    "g95": 424,
-    "g10": 618
+    "g9": 385,
+    "g95": 423,
+    "g10": 616
    },
    "basis": {
     "n90": 4,
@@ -2518,7 +2518,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -165,
-   "psa9_net": -21
+   "psa9_net": -22
   },
   {
    "title": "Pokemon- Venusaur 30/165 Rev Holo Expedition",
@@ -2544,11 +2544,11 @@
    "matched": "Venusaur [Reverse Holo] #30   Pokemon Expedition",
    "aud": {
     "raw": 129,
-    "g7": 145,
-    "g8": 315,
-    "g9": 796,
-    "g95": 876,
-    "g10": 9599
+    "g7": 144,
+    "g8": 314,
+    "g9": 794,
+    "g95": 874,
+    "g10": 9575
    },
    "basis": {
     "n90": 4,
@@ -2557,13 +2557,13 @@
     "pc_avg": 85.55,
     "grade": "raw (NM)"
    },
-   "value": 154,
-   "landed": 197,
-   "gap": 0.12,
+   "value": 153,
+   "landed": 196,
+   "gap": 0.13,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 10,
-   "psa9_net": 268
+   "psa8_net": 9,
+   "psa9_net": 267
   },
   {
    "title": "Pokemon- Tangela 112/147 Rev Holo Aquapolis",
@@ -2591,9 +2591,9 @@
     "raw": 142,
     "g7": 107,
     "g8": 133,
-    "g9": 377,
-    "g95": 415,
-    "g10": 3174
+    "g9": 376,
+    "g95": 414,
+    "g10": 3166
    },
    "basis": {
     "n90": 6,
@@ -2602,13 +2602,13 @@
     "pc_avg": 94.14,
     "grade": "raw (NM)"
    },
-   "value": 211,
-   "landed": 260,
+   "value": 210,
+   "landed": 259,
    "gap": -0.18,
    "thin": false,
    "signal": "FAIR",
    "psa8_net": -159,
-   "psa9_net": 32
+   "psa9_net": 31
   },
   {
    "title": "Pokemon - Nidoqueen 22/144 Rev Holo Skyridge",
@@ -2634,11 +2634,11 @@
    "matched": "Nidoqueen [Reverse Holo] #22   Pokemon Skyridge",
    "aud": {
     "raw": 98,
-    "g7": 240,
-    "g8": 245,
-    "g9": 488,
-    "g95": 537,
-    "g10": 2186
+    "g7": 239,
+    "g8": 244,
+    "g9": 487,
+    "g95": 535,
+    "g10": 2181
    },
    "basis": {
     "n90": 2,
@@ -2652,8 +2652,8 @@
    "gap": 0.67,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": -62,
-   "psa9_net": 130
+   "psa8_net": -63,
+   "psa9_net": 129
   },
   {
    "title": "Pokemon - Houndour 86/147 Rev Holo Skyridge",
@@ -2709,9 +2709,9 @@
     "raw": 113,
     "g7": 53,
     "g8": 207,
-    "g9": 365,
-    "g95": 401,
-    "g10": 874
+    "g9": 364,
+    "g95": 400,
+    "g10": 872
    },
    "basis": {
     "n90": 1,
@@ -2721,12 +2721,12 @@
     "grade": "raw (NM)"
    },
    "value": 113,
-   "landed": 152,
+   "landed": 151,
    "gap": 0.37,
    "thin": true,
    "signal": "OVER",
    "psa8_net": -83,
-   "psa9_net": 31
+   "psa9_net": 30
   },
   {
    "title": "Pokemon - Bellossom 5/147 Rev Holo Aquapolis",
@@ -2753,10 +2753,10 @@
    "aud": {
     "raw": 68,
     "g7": 42,
-    "g8": 69,
+    "g8": 68,
     "g9": 223,
-    "g95": 246,
-    "g10": 3015
+    "g95": 245,
+    "g10": 3008
    },
    "basis": {
     "n90": 5,
@@ -2771,7 +2771,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -191,
-   "psa9_net": -70
+   "psa9_net": -71
   },
   {
    "title": "Pokemon - Victreebel 42/147 Rev Holo Aquapolis",
@@ -2798,10 +2798,10 @@
    "aud": {
     "raw": 42,
     "g7": 30,
-    "g8": 136,
+    "g8": 135,
     "g9": 173,
     "g95": 191,
-    "g10": 2569
+    "g10": 2563
    },
    "basis": {
     "n90": 4,
@@ -2816,7 +2816,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -130,
-   "psa9_net": -100
+   "psa9_net": -101
   },
   {
    "title": "Pokemon- Meganium 53/165 Rev Holo Expedition",
@@ -2848,10 +2848,10 @@
    "aud": {
     "raw": 56,
     "g7": 56,
-    "g8": 71,
-    "g9": 342,
-    "g95": 377,
-    "g10": 2299
+    "g8": 70,
+    "g9": 341,
+    "g95": 376,
+    "g10": 2293
    },
    "basis": {
     "n90": 3,
@@ -2866,7 +2866,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -181,
-   "psa9_net": 48
+   "psa9_net": 47
   },
   {
    "title": "Pokemon - Victreebel 42/147 Rev Holo Aquapolis",
@@ -2893,10 +2893,10 @@
    "aud": {
     "raw": 42,
     "g7": 30,
-    "g8": 136,
+    "g8": 135,
     "g9": 173,
     "g95": 191,
-    "g10": 2569
+    "g10": 2563
    },
    "basis": {
     "n90": 4,
@@ -2911,7 +2911,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -130,
-   "psa9_net": -100
+   "psa9_net": -101
   },
   {
    "title": "Pokemon - Venomoth 111/144 Rev Holo Skyridge",
@@ -2937,11 +2937,11 @@
    "matched": "Venomoth [Reverse Holo] #111   Pokemon Skyridge",
    "aud": {
     "raw": 81,
-    "g7": 99,
+    "g7": 98,
     "g8": 152,
-    "g9": 372,
-    "g95": 410,
-    "g10": 1224
+    "g9": 371,
+    "g95": 409,
+    "g10": 1221
    },
    "basis": {
     "n90": 4,
@@ -2956,7 +2956,7 @@
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -117,
-   "psa9_net": 40
+   "psa9_net": 39
   },
   {
    "title": "Pokemon - Zubat 117/144 Rev Holo Skyridge",
@@ -2981,12 +2981,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/zubat-reverse-holo-117",
    "matched": "Zubat [Reverse Holo] #117   Pokemon Skyridge",
    "aud": {
-    "raw": 88,
-    "g7": 130,
-    "g8": 213,
-    "g9": 452,
-    "g95": 497,
-    "g10": 1509
+    "raw": 87,
+    "g7": 129,
+    "g8": 212,
+    "g9": 451,
+    "g95": 496,
+    "g10": 1505
    },
    "basis": {
     "n90": 5,
@@ -3000,8 +3000,8 @@
    "gap": 0.29,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -69,
-   "psa9_net": 118
+   "psa8_net": -70,
+   "psa9_net": 117
   },
   {
    "title": "Pokemon - Weedle 114/144 Rev Holo Skyridge",
@@ -3029,9 +3029,9 @@
     "raw": 128,
     "g7": 23,
     "g8": 135,
-    "g9": 475,
-    "g95": 523,
-    "g10": 4522
+    "g9": 474,
+    "g95": 522,
+    "g10": 4511
    },
    "basis": {
     "n90": 3,
@@ -3040,12 +3040,12 @@
     "pc_avg": 85.0,
     "grade": "raw (NM)"
    },
-   "value": 151,
+   "value": 150,
    "landed": 193,
    "gap": -0.03,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -130,
+   "psa8_net": -131,
    "psa9_net": 65
   },
   {
@@ -3073,10 +3073,10 @@
    "aud": {
     "raw": 75,
     "g7": 189,
-    "g8": 371,
-    "g9": 527,
-    "g95": 580,
-    "g10": 3222
+    "g8": 370,
+    "g9": 526,
+    "g95": 579,
+    "g10": 3214
    },
    "basis": {
     "n90": 4,
@@ -3086,12 +3086,12 @@
     "grade": "raw (NM)"
    },
    "value": 158,
-   "landed": 202,
+   "landed": 201,
    "gap": -0.08,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 59,
-   "psa9_net": 238
+   "psa8_net": 58,
+   "psa9_net": 237
   },
   {
    "title": "Pokemon - Scyther 106/147 Rev Holo Aquapolis",
@@ -3123,10 +3123,10 @@
    "aud": {
     "raw": 196,
     "g7": 53,
-    "g8": 317,
-    "g9": 528,
-    "g95": 580,
-    "g10": 2261
+    "g8": 316,
+    "g9": 526,
+    "g95": 579,
+    "g10": 2256
    },
    "basis": {
     "n90": 4,
@@ -3135,13 +3135,13 @@
     "pc_avg": 130.18,
     "grade": "raw (NM)"
    },
-   "value": 317,
-   "landed": 376,
+   "value": 316,
+   "landed": 375,
    "gap": -0.54,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 12,
-   "psa9_net": 177
+   "psa8_net": 11,
+   "psa9_net": 176
   },
   {
    "title": "Pokemon - Cyndaquil 105/165 Rev Holo Expedition",
@@ -3167,11 +3167,11 @@
    "matched": "Cyndaquil [Reverse Holo] #105   Pokemon Expedition",
    "aud": {
     "raw": 100,
-    "g7": 152,
-    "g8": 324,
-    "g9": 842,
-    "g95": 926,
-    "g10": 1847
+    "g7": 151,
+    "g8": 323,
+    "g9": 840,
+    "g95": 923,
+    "g10": 1842
    },
    "basis": {
     "n90": 4,
@@ -3185,8 +3185,8 @@
    "gap": -0.1,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 18,
-   "psa9_net": 378
+   "psa8_net": 17,
+   "psa9_net": 376
   },
   {
    "title": "Pokemon - Magby 17/165 Holo Expedition",
@@ -3236,10 +3236,10 @@
    "aud": {
     "raw": 65,
     "g7": 79,
-    "g8": 151,
-    "g9": 398,
-    "g95": 437,
-    "g10": 825
+    "g8": 150,
+    "g9": 397,
+    "g95": 436,
+    "g10": 823
    },
    "basis": {
     "n90": 9,
@@ -3253,8 +3253,8 @@
    "gap": 0.02,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -51,
-   "psa9_net": 142
+   "psa8_net": -52,
+   "psa9_net": 141
   },
   {
    "title": "Pokemon - Umbreon Ex SVP176 Black Star Promo",
@@ -3363,7 +3363,7 @@
     "g8": 20,
     "g9": 23,
     "g95": 25,
-    "g10": 121
+    "g10": 120
    },
    "basis": {
     "n90": 30,
@@ -3372,9 +3372,9 @@
     "pc_avg": 80.13,
     "grade": "PSA 10"
    },
-   "value": 121,
+   "value": 120,
    "landed": 182,
-   "gap": -0.09,
+   "gap": -0.08,
    "thin": false,
    "signal": "FAIR"
   },
@@ -3405,8 +3405,8 @@
     "g7": 59,
     "g8": 73,
     "g9": 301,
-    "g95": 332,
-    "g10": 1978
+    "g95": 331,
+    "g10": 1973
    },
    "basis": {
     "n90": 6,
@@ -3421,7 +3421,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -359,
-   "psa9_net": -180
+   "psa9_net": -181
   },
   {
    "title": "Pokemon - Slowking 34/147 Rev Holo Skyridge",
@@ -3471,10 +3471,10 @@
    "aud": {
     "raw": 114,
     "g7": 122,
-    "g8": 394,
-    "g9": 1024,
-    "g95": 1126,
-    "g10": 3844
+    "g8": 393,
+    "g9": 1021,
+    "g95": 1123,
+    "g10": 3835
    },
    "basis": {
     "n90": 13,
@@ -3483,13 +3483,13 @@
     "pc_avg": 75.91,
     "grade": "raw (NM)"
    },
-   "value": 204,
+   "value": 203,
    "landed": 251,
-   "gap": 0.33,
+   "gap": 0.34,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 16,
-   "psa9_net": 500
+   "psa8_net": 15,
+   "psa9_net": 497
   },
   {
    "title": "Pokemon - Omastar 23/144 Rev Holo Skyridge",
@@ -3514,12 +3514,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/omastar-reverse-holo-23?q=omastar+23+reverse+holo+skyridge",
    "matched": "Omastar [Reverse Holo] #23   Pokemon Skyridge",
    "aud": {
-    "raw": 153,
+    "raw": 152,
     "g7": 83,
-    "g8": 270,
-    "g9": 299,
-    "g95": 329,
-    "g10": 1410
+    "g8": 269,
+    "g9": 298,
+    "g95": 328,
+    "g10": 1406
    },
    "basis": {
     "n90": 3,
@@ -3528,13 +3528,13 @@
     "pc_avg": 101.33,
     "grade": "raw (NM)"
    },
-   "value": 264,
-   "landed": 318,
-   "gap": -0.0,
+   "value": 263,
+   "landed": 317,
+   "gap": 0.0,
    "thin": false,
-   "signal": "FAIR",
-   "psa8_net": -134,
-   "psa9_net": -69
+   "signal": "OVER-US",
+   "psa8_net": -135,
+   "psa9_net": -70
   },
   {
    "title": "Pokemon - Wobbuffet 45/144 Rev Holo Skyridge",
@@ -3566,10 +3566,10 @@
    "aud": {
     "raw": 103,
     "g7": 192,
-    "g8": 404,
-    "g9": 435,
-    "g95": 479,
-    "g10": 505
+    "g8": 403,
+    "g9": 434,
+    "g95": 478,
+    "g10": 504
    },
    "basis": {
     "n90": 4,
@@ -3578,13 +3578,13 @@
     "pc_avg": 68.34,
     "grade": "raw (NM)"
    },
-   "value": 106,
-   "landed": 144,
-   "gap": 1.48,
+   "value": 105,
+   "landed": 143,
+   "gap": 1.51,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -37,
-   "psa9_net": 42
+   "psa8_net": -38,
+   "psa9_net": 41
   },
   {
    "title": "Pokemon - Wobbuffet 45/144 Rev Holo Skyridge",
@@ -3616,10 +3616,10 @@
    "aud": {
     "raw": 103,
     "g7": 192,
-    "g8": 404,
-    "g9": 435,
-    "g95": 479,
-    "g10": 505
+    "g8": 403,
+    "g9": 434,
+    "g95": 478,
+    "g10": 504
    },
    "basis": {
     "n90": 4,
@@ -3628,13 +3628,13 @@
     "pc_avg": 68.34,
     "grade": "raw (NM)"
    },
-   "value": 106,
-   "landed": 144,
-   "gap": 1.48,
+   "value": 105,
+   "landed": 143,
+   "gap": 1.51,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -37,
-   "psa9_net": 42
+   "psa8_net": -38,
+   "psa9_net": 41
   },
   {
    "title": "Pokemon - Misdreavus 39/144 Rev Holo Skyridge",
@@ -3659,12 +3659,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/misdreavus-reverse-holo-39",
    "matched": "Misdreavus [Reverse Holo] #39   Pokemon Skyridge",
    "aud": {
-    "raw": 121,
+    "raw": 120,
     "g7": 149,
-    "g8": 268,
-    "g9": 452,
-    "g95": 465,
-    "g10": 543
+    "g8": 267,
+    "g9": 451,
+    "g95": 464,
+    "g10": 541
    },
    "basis": {
     "n90": 1,
@@ -3673,13 +3673,13 @@
     "thin": true,
     "grade": "raw (NM)"
    },
-   "value": 121,
+   "value": 120,
    "landed": 160,
-   "gap": 0.95,
+   "gap": 0.97,
    "thin": true,
    "signal": "OVER",
    "psa8_net": -117,
-   "psa9_net": 28
+   "psa9_net": 27
   },
   {
    "title": "Pokemon - Haunter 80/165 Rev Holo Expedition",
@@ -3706,10 +3706,10 @@
    "aud": {
     "raw": 256,
     "g7": 162,
-    "g8": 498,
-    "g9": 878,
-    "g95": 966,
-    "g10": 2384
+    "g8": 497,
+    "g9": 876,
+    "g95": 964,
+    "g10": 2378
    },
    "basis": {
     "n90": 4,
@@ -3718,13 +3718,13 @@
     "pc_avg": 170.0,
     "grade": "raw (NM)"
    },
-   "value": 519,
-   "landed": 599,
-   "gap": -0.55,
+   "value": 518,
+   "landed": 597,
+   "gap": -0.54,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 205,
-   "psa9_net": 362
+   "psa8_net": 204,
+   "psa9_net": 360
   },
   {
    "title": "Pokemon - Tentacruel 38/147 Rev Holo Aquapolis",
@@ -3751,10 +3751,10 @@
    "aud": {
     "raw": 58,
     "g7": 66,
-    "g8": 173,
-    "g9": 280,
-    "g95": 308,
-    "g10": 916
+    "g8": 172,
+    "g9": 279,
+    "g95": 307,
+    "g10": 913
    },
    "basis": {
     "n90": 5,
@@ -3794,12 +3794,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/light-togetic-15",
    "matched": "Light Togetic #15   Pokemon Neo Destiny",
    "aud": {
-    "raw": 95,
+    "raw": 94,
     "g7": 170,
-    "g8": 362,
-    "g9": 1033,
-    "g95": 1137,
-    "g10": 26191
+    "g8": 361,
+    "g9": 1031,
+    "g95": 1134,
+    "g10": 26127
    },
    "basis": {
     "n90": 20,
@@ -3808,13 +3808,13 @@
     "pc_avg": 62.83,
     "grade": "raw (NM)"
    },
-   "value": 155,
+   "value": 154,
    "landed": 197,
-   "gap": 0.06,
+   "gap": 0.07,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 41,
-   "psa9_net": 731
+   "psa8_net": 40,
+   "psa9_net": 729
   },
   {
    "title": "Pokemon - Lanturn 20/147 Rev Holo Aquapolis",
@@ -3847,9 +3847,9 @@
     "raw": 53,
     "g7": 50,
     "g8": 62,
-    "g9": 274,
-    "g95": 302,
-    "g10": 1300
+    "g9": 273,
+    "g95": 301,
+    "g10": 1297
    },
    "basis": {
     "n90": 4,
@@ -3864,7 +3864,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -197,
-   "psa9_net": -13
+   "psa9_net": -14
   },
   {
    "title": "Pokemon - Kadabra 84/165 Rev Holo Expedition",
@@ -3895,11 +3895,11 @@
    "matched": "Kadabra [Reverse Holo] #84   Pokemon Expedition",
    "aud": {
     "raw": 111,
-    "g7": 181,
-    "g8": 245,
-    "g9": 761,
-    "g95": 837,
-    "g10": 914
+    "g7": 180,
+    "g8": 244,
+    "g9": 759,
+    "g95": 835,
+    "g10": 911
    },
    "basis": {
     "n90": 10,
@@ -3908,13 +3908,13 @@
     "pc_avg": 73.55,
     "grade": "raw (NM)"
    },
-   "value": 121,
+   "value": 120,
    "landed": 160,
-   "gap": 0.28,
+   "gap": 0.29,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -53,
-   "psa9_net": 670
+   "psa8_net": -54,
+   "psa9_net": 667
   },
   {
    "title": "Pokemon - Kadabra 84/165 Rev Holo Expedition",
@@ -3945,11 +3945,11 @@
    "matched": "Kadabra [Reverse Holo] #84   Pokemon Expedition",
    "aud": {
     "raw": 111,
-    "g7": 181,
-    "g8": 245,
-    "g9": 761,
-    "g95": 837,
-    "g10": 914
+    "g7": 180,
+    "g8": 244,
+    "g9": 759,
+    "g95": 835,
+    "g10": 911
    },
    "basis": {
     "n90": 10,
@@ -3958,13 +3958,13 @@
     "pc_avg": 73.55,
     "grade": "raw (NM)"
    },
-   "value": 121,
+   "value": 120,
    "landed": 160,
-   "gap": 0.28,
+   "gap": 0.29,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -53,
-   "psa9_net": 670
+   "psa8_net": -54,
+   "psa9_net": 667
   },
   {
    "title": "Pokemon - Aerodactyl 1/144 Skyridge",
@@ -3989,12 +3989,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/aerodactyl-1",
    "matched": "Aerodactyl #1   Pokemon Skyridge",
    "aud": {
-    "raw": 87,
+    "raw": 86,
     "g7": 44,
     "g8": 158,
-    "g9": 227,
-    "g95": 249,
-    "g10": 799
+    "g9": 226,
+    "g95": 248,
+    "g10": 797
    },
    "basis": {
     "n90": 8,
@@ -4003,9 +4003,9 @@
     "pc_avg": 57.5,
     "grade": "raw (NM)"
    },
-   "value": 132,
+   "value": 131,
    "landed": 172,
-   "gap": 0.11,
+   "gap": 0.12,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -110,
@@ -4037,9 +4037,9 @@
     "raw": 97,
     "g7": 87,
     "g8": 109,
-    "g9": 341,
-    "g95": 375,
-    "g10": 815
+    "g9": 340,
+    "g95": 374,
+    "g10": 813
    },
    "basis": {
     "n90": 7,
@@ -4054,7 +4054,7 @@
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -142,
-   "psa9_net": 32
+   "psa9_net": 40
   },
   {
    "title": "Pokemon - Dark Crobat 2/105 Neo Destiny",
@@ -4082,9 +4082,9 @@
     "raw": 78,
     "g7": 139,
     "g8": 264,
-    "g9": 377,
-    "g95": 415,
-    "g10": 3062
+    "g9": 376,
+    "g95": 414,
+    "g10": 3055
    },
    "basis": {
     "n90": 4,
@@ -4098,8 +4098,8 @@
    "gap": -0.42,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -59,
-   "psa9_net": 142
+   "psa8_net": -60,
+   "psa9_net": 141
   },
   {
    "title": "Pokemon - Poliwhirl 89/165 Rev Holo Expedition",
@@ -4124,12 +4124,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/poliwhirl-reverse-holo-89",
    "matched": "Poliwhirl [Reverse Holo] #89   Pokemon Expedition",
    "aud": {
-    "raw": 87,
+    "raw": 86,
     "g7": 33,
     "g8": 42,
-    "g9": 457,
-    "g95": 504,
-    "g10": 10657
+    "g9": 456,
+    "g95": 502,
+    "g10": 10630
    },
    "basis": {
     "n90": 14,
@@ -4144,7 +4144,7 @@
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -185,
-   "psa9_net": 140
+   "psa9_net": 139
   },
   {
    "title": "Pokemon - Misdreavus 39/144 Rev Holo Skyridge",
@@ -4169,12 +4169,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/misdreavus-reverse-holo-39",
    "matched": "Misdreavus [Reverse Holo] #39   Pokemon Skyridge",
    "aud": {
-    "raw": 121,
+    "raw": 120,
     "g7": 149,
-    "g8": 268,
-    "g9": 452,
-    "g95": 465,
-    "g10": 543
+    "g8": 267,
+    "g9": 451,
+    "g95": 464,
+    "g10": 541
    },
    "basis": {
     "n90": 1,
@@ -4183,13 +4183,13 @@
     "thin": true,
     "grade": "raw (NM)"
    },
-   "value": 121,
+   "value": 120,
    "landed": 160,
-   "gap": 0.06,
+   "gap": 0.07,
    "thin": true,
    "signal": "OVER-US",
    "psa8_net": -9,
-   "psa9_net": 136
+   "psa9_net": 135
   },
   {
    "title": "Pokemon - Blissey 2/64 Holo Neo Revelations",
@@ -4217,9 +4217,9 @@
     "raw": 81,
     "g7": 128,
     "g8": 174,
-    "g9": 400,
-    "g95": 440,
-    "g10": 3505
+    "g9": 399,
+    "g95": 439,
+    "g10": 3497
    },
    "basis": {
     "n90": 7,
@@ -4228,13 +4228,13 @@
     "pc_avg": 53.58,
     "grade": "raw (NM)"
    },
-   "value": 187,
+   "value": 186,
    "landed": 233,
    "gap": -0.36,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -61,
-   "psa9_net": 95
+   "psa8_net": -62,
+   "psa9_net": 94
   },
   {
    "title": "Pokemon- Crobat 4/64 Holo Neo Revelation",
@@ -4261,9 +4261,9 @@
    "aud": {
     "raw": 101,
     "g7": 198,
-    "g8": 302,
-    "g9": 626,
-    "g95": 689
+    "g8": 301,
+    "g9": 624,
+    "g95": 687
    },
    "basis": {
     "n90": 7,
@@ -4272,13 +4272,13 @@
     "pc_avg": 67.13,
     "grade": "raw (NM)"
    },
-   "value": 136,
-   "landed": 177,
+   "value": 135,
+   "landed": 176,
    "gap": -0.32,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 54,
-   "psa9_net": 308
+   "psa8_net": 53,
+   "psa9_net": 307
   },
   {
    "title": "Pokemon - Dark Donphan 3/105 Holo Neo Destiny",
@@ -4304,11 +4304,11 @@
    "matched": "Dark Donphan #3   Pokemon Neo Destiny",
    "aud": {
     "raw": 56,
-    "g7": 136,
-    "g8": 206,
+    "g7": 135,
+    "g8": 205,
     "g9": 226,
-    "g95": 249,
-    "g10": 4522
+    "g95": 248,
+    "g10": 4511
    },
    "basis": {
     "n90": 4,
@@ -4323,7 +4323,7 @@
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -25,
-   "psa9_net": -30
+   "psa9_net": -31
   },
   {
    "title": "Pokemon - Scyther 10/64 Jungle No Symbol Error",
@@ -4349,11 +4349,11 @@
    "matched": "Scyther [No Symbol] #10   Pokemon Jungle",
    "aud": {
     "raw": 60,
-    "g7": 145,
+    "g7": 144,
     "g8": 188,
-    "g9": 439,
-    "g95": 482,
-    "g10": 3053
+    "g9": 438,
+    "g95": 481,
+    "g10": 3045
    },
    "basis": {
     "n90": 5,
@@ -4363,12 +4363,12 @@
     "grade": "raw (NM)"
    },
    "value": 83,
-   "landed": 119,
+   "landed": 118,
    "gap": 0.0,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": 28,
-   "psa9_net": 200
+   "psa9_net": 199
   },
   {
    "title": "Pokemon - Mew Holo 53/108 XY Evolution",
@@ -4398,7 +4398,7 @@
     "g8": 84,
     "g9": 186,
     "g95": 205,
-    "g10": 5811
+    "g10": 5796
    },
    "basis": {
     "n90": 26,
@@ -4438,12 +4438,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/wooper-reverse-holo-66",
    "matched": "Wooper [Reverse Holo] #66   Pokemon Aquapolis",
    "aud": {
-    "raw": 420,
+    "raw": 419,
     "g7": 111,
-    "g8": 543,
-    "g9": 882,
-    "g95": 971,
-    "g10": 32633
+    "g8": 541,
+    "g9": 880,
+    "g95": 968,
+    "g10": 32553
    },
    "basis": {
     "n90": 10,
@@ -4452,13 +4452,13 @@
     "pc_avg": 278.44,
     "grade": "raw (NM)"
    },
-   "value": 490,
-   "landed": 566,
+   "value": 489,
+   "landed": 565,
    "gap": -0.24,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -36,
-   "psa9_net": 303
+   "psa8_net": -37,
+   "psa9_net": 301
   },
   {
    "title": "Pokemon - Articuno 4/144 Skyridge",
@@ -4485,10 +4485,10 @@
    "aud": {
     "raw": 90,
     "g7": 80,
-    "g8": 100,
+    "g8": 99,
     "g9": 243,
     "g95": 268,
-    "g10": 2824
+    "g10": 2817
    },
    "basis": {
     "n90": 3,
@@ -4497,13 +4497,13 @@
     "pc_avg": 59.83,
     "grade": "raw (NM)"
    },
-   "value": 169,
+   "value": 168,
    "landed": 213,
-   "gap": 0.02,
+   "gap": 0.03,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -185,
-   "psa9_net": -72
+   "psa9_net": -73
   },
   {
    "title": "Pokemon - Blastoise 37/165 Expedition",
@@ -4528,12 +4528,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/blastoise-37",
    "matched": "Blastoise #37   Pokemon Expedition",
    "aud": {
-    "raw": 136,
+    "raw": 135,
     "g7": 133,
     "g8": 192,
-    "g9": 528,
-    "g95": 580,
-    "g10": 1327
+    "g9": 526,
+    "g95": 579,
+    "g10": 1323
    },
    "basis": {
     "n90": 5,
@@ -4542,13 +4542,13 @@
     "pc_avg": 90.1,
     "grade": "raw (NM)"
    },
-   "value": 187,
+   "value": 186,
    "landed": 233,
    "gap": -0.09,
    "thin": false,
    "signal": "FAIR",
    "psa8_net": -74,
-   "psa9_net": 154
+   "psa9_net": 153
   },
   {
    "title": "Pokemon - Ampharos 34/165 Rev Holo Expedition",
@@ -4573,12 +4573,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/ampharos-reverse-holo-34",
    "matched": "Ampharos [Reverse Holo] #34   Pokemon Expedition",
    "aud": {
-    "raw": 117,
+    "raw": 116,
     "g7": 74,
     "g8": 92,
-    "g9": 357,
-    "g95": 377,
-    "g10": 4189
+    "g9": 356,
+    "g95": 376,
+    "g10": 4179
    },
    "basis": {
     "n90": 3,
@@ -4593,7 +4593,7 @@
    "thin": false,
    "signal": "FAIR",
    "psa8_net": -164,
-   "psa9_net": 242
+   "psa9_net": 241
   },
   {
    "title": "Pokemon - Feraligatr 47/165 Rev Holo Expedition",
@@ -4618,12 +4618,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/feraligatr-reverse-holo-47",
    "matched": "Feraligatr [Reverse Holo] #47   Pokemon Expedition",
    "aud": {
-    "raw": 136,
+    "raw": 135,
     "g7": 75,
-    "g8": 392,
-    "g9": 1023,
-    "g95": 1125,
-    "g10": 4521
+    "g8": 391,
+    "g9": 1020,
+    "g95": 1122,
+    "g10": 4510
    },
    "basis": {
     "n90": 9,
@@ -4637,8 +4637,8 @@
    "gap": -0.49,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 71,
-   "psa9_net": 565
+   "psa8_net": 70,
+   "psa9_net": 584
   },
   {
    "title": "Pokemon - Poliwag 125/165 Rev Holo Expedition",
@@ -4663,12 +4663,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/poliwag-reverse-holo-125",
    "matched": "Poliwag [Reverse Holo] #125   Pokemon Expedition",
    "aud": {
-    "raw": 84,
+    "raw": 83,
     "g7": 36,
     "g8": 113,
-    "g9": 586,
-    "g95": 645,
-    "g10": 1677
+    "g9": 585,
+    "g95": 644,
+    "g10": 1673
    },
    "basis": {
     "n90": 3,
@@ -4678,12 +4678,12 @@
     "grade": "raw (NM)"
    },
    "value": 83,
-   "landed": 119,
+   "landed": 118,
    "gap": 0.54,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -130,
-   "psa9_net": 241
+   "psa9_net": 240
   },
   {
    "title": "Pokemon - Wartortle 171/165 S&V 151 PSA 10",
@@ -4711,9 +4711,9 @@
     "raw": 66,
     "g7": 81,
     "g8": 81,
-    "g9": 97,
+    "g9": 96,
     "g95": 107,
-    "g10": 468
+    "g10": 467
    },
    "basis": {
     "n90": 30,
@@ -4722,8 +4722,8 @@
     "pc_avg": 310.42,
     "grade": "PSA 10"
    },
-   "value": 497,
-   "landed": 597,
+   "value": 496,
+   "landed": 595,
    "gap": -0.02,
    "thin": false,
    "signal": "FAIR"
@@ -4758,10 +4758,10 @@
    "aud": {
     "raw": 148,
     "g7": 72,
-    "g8": 91,
+    "g8": 90,
     "g9": 158,
     "g95": 178,
-    "g10": 279
+    "g10": 278
    },
    "basis": {
     "n90": 30,
@@ -4770,7 +4770,7 @@
     "pc_avg": 185.0,
     "grade": "PSA 10"
    },
-   "value": 279,
+   "value": 278,
    "landed": 356,
    "gap": 0.04,
    "thin": false,
@@ -4799,12 +4799,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/espeon-11",
    "matched": "Espeon #11   Pokemon Aquapolis",
    "aud": {
-    "raw": 169,
+    "raw": 168,
     "g7": 87,
     "g8": 311,
-    "g9": 404,
-    "g95": 445,
-    "g10": 1625
+    "g9": 403,
+    "g95": 444,
+    "g10": 1621
    },
    "basis": {
     "n90": 6,
@@ -4813,13 +4813,13 @@
     "pc_avg": 111.95,
     "grade": "raw (NM)"
    },
-   "value": 255,
-   "landed": 308,
+   "value": 254,
+   "landed": 307,
    "gap": -0.25,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -37,
-   "psa9_net": 114
+   "psa8_net": -38,
+   "psa9_net": 113
   },
   {
    "title": "Pokemon - Raikou 005/009 Pokepark 2005 (JPN)",
@@ -4846,10 +4846,10 @@
    "aud": {
     "raw": 60,
     "g7": 113,
-    "g8": 230,
-    "g9": 253,
+    "g8": 229,
+    "g9": 252,
     "g95": 277,
-    "g10": 942
+    "g10": 940
    },
    "basis": {
     "n90": 4,
@@ -4859,11 +4859,11 @@
     "grade": "raw (NM)"
    },
    "value": 101,
-   "landed": 139,
+   "landed": 138,
    "gap": 0.45,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -56,
+   "psa8_net": -57,
    "psa9_net": -84
   },
   {
@@ -4891,10 +4891,10 @@
    "aud": {
     "raw": 35,
     "g7": 50,
-    "g8": 142,
+    "g8": 141,
     "g9": 200,
     "g95": 220,
-    "g10": 1055
+    "g10": 1053
    },
    "basis": {
     "n90": 1,
@@ -4936,25 +4936,25 @@
    "aud": {
     "raw": 83,
     "g7": 188,
-    "g8": 416,
-    "g9": 1658,
-    "g95": 1824,
-    "g10": 3554
+    "g8": 415,
+    "g9": 1654,
+    "g95": 1820,
+    "g10": 3545
    },
    "basis": {
-    "n90": 6,
+    "n90": 5,
     "last": "2026-11-19",
     "basis": "90-day NM median",
     "pc_avg": 54.95,
     "grade": "raw (NM)"
    },
-   "value": 142,
-   "landed": 184,
-   "gap": -0.16,
+   "value": 150,
+   "landed": 193,
+   "gap": -0.21,
    "thin": false,
-   "signal": "FAIR",
-   "psa8_net": 117,
-   "psa9_net": 1089
+   "signal": "UNDER",
+   "psa8_net": 116,
+   "psa9_net": 1086
   },
   {
    "title": "Pokemon - Tauros 008/009 Pokepark 2005 (JPN)",
@@ -4983,7 +4983,7 @@
     "g8": 84,
     "g9": 92,
     "g95": 101,
-    "g10": 315
+    "g10": 314
    },
    "basis": {
     "n90": 1,
@@ -4993,7 +4993,7 @@
     "grade": "raw (NM)"
    },
    "value": 82,
-   "landed": 118,
+   "landed": 117,
    "gap": 0.12,
    "thin": true,
    "signal": "OVER-US",
@@ -5025,10 +5025,10 @@
    "aud": {
     "raw": 95,
     "g7": 89,
-    "g8": 112,
-    "g9": 118,
-    "g95": 130,
-    "g10": 1064
+    "g8": 111,
+    "g9": 117,
+    "g95": 129,
+    "g10": 1062
    },
    "basis": {
     "n90": 2,
@@ -5091,12 +5091,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-evolutions/charizard-11",
    "matched": "Charizard #11   Pokemon Evolutions",
    "aud": {
-    "raw": 110,
-    "g7": 153,
-    "g8": 181,
-    "g9": 315,
-    "g95": 794,
-    "g10": 16024
+    "raw": 109,
+    "g7": 152,
+    "g8": 180,
+    "g9": 314,
+    "g95": 792,
+    "g10": 15985
    },
    "basis": {
     "n90": 14,
@@ -5110,7 +5110,7 @@
    "gap": 1.01,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -249,
+   "psa8_net": -250,
    "psa9_net": -148
   },
   {
@@ -5206,9 +5206,9 @@
     "pc_avg": 134.74,
     "grade": "PSA 10"
    },
-   "value": 196,
+   "value": 195,
    "landed": 265,
-   "gap": 0.53,
+   "gap": 0.54,
    "thin": false,
    "signal": "OVER"
   },
@@ -5296,7 +5296,7 @@
     "g8": 35,
     "g9": 58,
     "g95": 65,
-    "g10": 568
+    "g10": 566
    },
    "basis": {
     "n90": 20,
@@ -5354,7 +5354,7 @@
     "grade": "PSA 9"
    },
    "value": 33,
-   "landed": 86,
+   "landed": 85,
    "gap": 1.88,
    "thin": true,
    "signal": "OVER"
@@ -5383,7 +5383,7 @@
    "matched": "Parasect #55   Pokemon Base Set 2",
    "aud": {
     "raw": 2,
-    "g8": 28,
+    "g8": 27,
     "g9": 30,
     "g95": 33,
     "g10": 61
@@ -5496,11 +5496,11 @@
    "matched": "Origin Forme Palkia V #167   Pokemon Astral Radiance",
    "aud": {
     "raw": 124,
-    "g7": 90,
+    "g7": 89,
     "g8": 96,
     "g9": 128,
     "g95": 166,
-    "g10": 436
+    "g10": 435
    },
    "basis": {
     "n90": 30,
@@ -5510,7 +5510,7 @@
     "grade": "PSA 9"
    },
    "value": 129,
-   "landed": 192,
+   "landed": 191,
    "gap": 0.55,
    "thin": false,
    "signal": "OVER"
@@ -5538,12 +5538,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-prismatic-evolutions/espeon-ex-155",
    "matched": "Espeon ex #155   Pokemon Prismatic Evolutions",
    "aud": {
-    "raw": 309,
-    "g7": 276,
-    "g8": 285,
-    "g9": 295,
-    "g95": 722,
-    "g10": 1131
+    "raw": 308,
+    "g7": 275,
+    "g8": 284,
+    "g9": 294,
+    "g95": 720,
+    "g10": 1128
    },
    "basis": {
     "n90": 38,
@@ -5552,13 +5552,13 @@
     "pc_avg": 204.86,
     "grade": "raw (NM)"
    },
-   "value": 337,
-   "landed": 398,
+   "value": 336,
+   "landed": 397,
    "gap": 0.29,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -270,
-   "psa9_net": -286
+   "psa9_net": -287
   },
   {
    "title": "Pokemon TCG - Jessie & James - 062 / 054 - Sky Legend",
@@ -5606,7 +5606,7 @@
    "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/mew-ex-205",
    "matched": "Mew ex #205   Pokemon Scarlet & Violet 151",
    "aud": {
-    "raw": 35,
+    "raw": 34,
     "g7": 36,
     "g8": 41,
     "g9": 75,
@@ -5707,8 +5707,8 @@
     "raw": 76,
     "g7": 60,
     "g8": 73,
-    "g9": 80,
-    "g95": 106,
+    "g9": 79,
+    "g95": 105,
     "g10": 163
    },
    "basis": {
@@ -5849,11 +5849,11 @@
    "pc": "https://www.pricecharting.com/game/pokemon-arceus/raichu-prerelease-staff-27",
    "matched": "Raichu [Prerelease Staff] #27   Pokemon Arceus",
    "aud": {
-    "raw": 1508,
-    "g8": 576,
-    "g9": 1664,
-    "g95": 1830,
-    "g10": 14279
+    "raw": 1504,
+    "g8": 574,
+    "g9": 1660,
+    "g95": 1826,
+    "g10": 14244
    },
    "basis": {
     "n90": 1,
@@ -5862,13 +5862,13 @@
     "thin": true,
     "grade": "raw (NM)"
    },
-   "value": 1508,
-   "landed": 1686,
+   "value": 1504,
+   "landed": 1682,
    "gap": -0.8,
    "thin": true,
    "signal": "UNDER",
-   "psa8_net": 61,
-   "psa9_net": 913
+   "psa8_net": 60,
+   "psa9_net": 910
   },
   {
    "title": "Zapdos EX 202/165 Special Illustration Rare 151 Pokemon PSA 9",
@@ -5903,7 +5903,7 @@
     "g8": 100,
     "g9": 119,
     "g95": 138,
-    "g10": 475
+    "g10": 474
    },
    "basis": {
     "n90": 30,
@@ -5913,7 +5913,7 @@
     "grade": "PSA 9"
    },
    "value": 119,
-   "landed": 181,
+   "landed": 180,
    "gap": 1.02,
    "thin": false,
    "signal": "OVER"
@@ -5943,10 +5943,10 @@
    "aud": {
     "raw": 149,
     "g7": 230,
-    "g8": 451,
-    "g9": 3630,
-    "g95": 3993,
-    "g10": 4593
+    "g8": 450,
+    "g9": 3621,
+    "g95": 3984,
+    "g10": 4582
    },
    "basis": {
     "n90": 21,
@@ -5960,8 +5960,8 @@
    "gap": -0.18,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 70,
-   "psa9_net": 2300
+   "psa8_net": 69,
+   "psa9_net": 2294
   },
   {
    "title": "Pokemon - JP Oricorio 111/080 Inferno X PSA 10",
@@ -5989,7 +5989,7 @@
     "raw": 41,
     "g7": 23,
     "g8": 29,
-    "g9": 34,
+    "g9": 33,
     "g95": 64,
     "g10": 86
    },
@@ -6000,9 +6000,9 @@
     "pc_avg": 57.33,
     "grade": "PSA 10"
    },
-   "value": 93,
+   "value": 92,
    "landed": 151,
-   "gap": 0.47,
+   "gap": 0.49,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -6627,12 +6627,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/meowth-reverse-holo-78",
    "matched": "Meowth [Reverse Holo] #78   Pokemon Skyridge",
    "aud": {
-    "raw": 503,
-    "g7": 642,
-    "g8": 1041,
-    "g9": 1131,
-    "g95": 1244,
-    "g10": 14936
+    "raw": 501,
+    "g7": 640,
+    "g8": 1039,
+    "g9": 1128,
+    "g95": 1241,
+    "g10": 14899
    },
    "basis": {
     "n90": 5,
@@ -6641,13 +6641,13 @@
     "pc_avg": 333.46,
     "grade": "raw (NM)"
    },
-   "value": 595,
-   "landed": 683,
+   "value": 594,
+   "landed": 681,
    "gap": -0.03,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 111,
-   "psa9_net": 217
+   "psa8_net": 109,
+   "psa9_net": 215
   },
   {
    "title": "Pokemon - Tyranitar 29/165 Rev Holo Expedition",
@@ -6673,11 +6673,11 @@
    "matched": "Tyranitar [Reverse Holo] #29   Pokemon Expedition",
    "aud": {
     "raw": 226,
-    "g7": 170,
-    "g8": 569,
-    "g9": 1136,
-    "g95": 1195,
-    "g10": 9612
+    "g7": 169,
+    "g8": 568,
+    "g9": 1133,
+    "g95": 1193,
+    "g10": 9588
    },
    "basis": {
     "n90": 4,
@@ -6686,13 +6686,13 @@
     "pc_avg": 150.0,
     "grade": "raw (NM)"
    },
-   "value": 367,
-   "landed": 431,
-   "gap": 0.18,
+   "value": 366,
+   "landed": 430,
+   "gap": 0.19,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 65,
-   "psa9_net": 424
+   "psa8_net": 63,
+   "psa9_net": 422
   },
   {
    "title": "Pokemon - Gengar 5/62 Holo Fossil 1ST Edition Portuguese",
@@ -6741,11 +6741,11 @@
    "matched": "Raikou [Reverse Holo] #28   Pokemon Skyridge",
    "aud": {
     "raw": 259,
-    "g7": 109,
+    "g7": 108,
     "g8": 135,
-    "g9": 948,
-    "g95": 1043,
-    "g10": 5012
+    "g9": 946,
+    "g95": 1041,
+    "g10": 4999
    },
    "basis": {
     "n90": 6,
@@ -6754,13 +6754,13 @@
     "pc_avg": 172.03,
     "grade": "raw (NM)"
    },
-   "value": 265,
-   "landed": 319,
-   "gap": 0.4,
+   "value": 264,
+   "landed": 318,
+   "gap": 0.41,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -355,
-   "psa9_net": 808
+   "psa8_net": -356,
+   "psa9_net": 805
   },
   {
    "title": "Pokemon- Golduck 50A/147 Rev Holo Aquapolis",
@@ -6785,12 +6785,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/golduck-reverse-holo-50a",
    "matched": "Golduck [Reverse Holo] #50a   Pokemon Aquapolis",
    "aud": {
-    "raw": 72,
+    "raw": 71,
     "g7": 71,
-    "g8": 218,
-    "g9": 566,
-    "g95": 623,
-    "g10": 904
+    "g8": 217,
+    "g9": 564,
+    "g95": 621,
+    "g10": 902
    },
    "basis": {
     "n90": 5,
@@ -6805,7 +6805,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -246,
-   "psa9_net": 27
+   "psa9_net": 26
   },
   {
    "title": "Pokemon- Golduck 50B/147 Rev Holo Aquapolis",
@@ -6834,8 +6834,8 @@
     "g7": 59,
     "g8": 73,
     "g9": 301,
-    "g95": 332,
-    "g10": 1978
+    "g95": 331,
+    "g10": 1973
    },
    "basis": {
     "n90": 6,
@@ -6850,7 +6850,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -359,
-   "psa9_net": -180
+   "psa9_net": -181
   },
   {
    "title": "Pokemon - Poilwhril 88/144 Rev Holo Skyridge",
@@ -6899,11 +6899,11 @@
    "matched": "Tyranitar #66   Pokemon Expedition",
    "aud": {
     "raw": 79,
-    "g7": 136,
-    "g8": 233,
+    "g7": 135,
+    "g8": 232,
     "g9": 278,
-    "g95": 306,
-    "g10": 1462
+    "g95": 305,
+    "g10": 1458
    },
    "basis": {
     "n90": 5,
@@ -6912,13 +6912,13 @@
     "pc_avg": 52.5,
     "grade": "raw (NM)"
    },
-   "value": 181,
+   "value": 180,
    "landed": 226,
-   "gap": 0.55,
+   "gap": 0.56,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -170,
-   "psa9_net": -134
+   "psa9_net": -135
   },
   {
    "title": "Pokemon - Furret 48/147 Rev Holo Aquapolis",
@@ -6943,12 +6943,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/furret-reverse-holo-48",
    "matched": "Furret [Reverse Holo] #48   Pokemon Aquapolis",
    "aud": {
-    "raw": 178,
-    "g7": 487,
-    "g8": 752,
-    "g9": 828,
-    "g95": 911,
-    "g10": 993
+    "raw": 177,
+    "g7": 485,
+    "g8": 750,
+    "g9": 826,
+    "g95": 908,
+    "g10": 991
    },
    "basis": {
     "n90": 7,
@@ -6957,13 +6957,13 @@
     "pc_avg": 117.99,
     "grade": "raw (NM)"
    },
-   "value": 181,
+   "value": 180,
    "landed": 226,
-   "gap": 0.55,
+   "gap": 0.56,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 218,
-   "psa9_net": 277
+   "psa8_net": 216,
+   "psa9_net": 275
   },
   {
    "title": "Pokemon - Delibird 49/144 Rev Holo Skyridge",
@@ -6993,12 +6993,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/delibird-reverse-holo-49",
    "matched": "Delibird [Reverse Holo] #49   Pokemon Skyridge",
    "aud": {
-    "raw": 160,
+    "raw": 159,
     "g7": 75,
-    "g8": 377,
-    "g9": 415,
-    "g95": 457,
-    "g10": 4598
+    "g8": 376,
+    "g9": 414,
+    "g95": 456,
+    "g10": 4587
    },
    "basis": {
     "n90": 5,
@@ -7012,8 +7012,8 @@
    "gap": 0.71,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -76,
-   "psa9_net": -46
+   "psa8_net": -77,
+   "psa9_net": -47
   },
   {
    "title": "Pokemon - Raichu 61/165 Rev Holo Expedition",
@@ -7039,11 +7039,11 @@
    "matched": "Raichu [Reverse Holo] #61   Pokemon Expedition",
    "aud": {
     "raw": 129,
-    "g7": 294,
-    "g8": 338,
-    "g9": 1399,
-    "g95": 1539,
-    "g10": 6407
+    "g7": 293,
+    "g8": 337,
+    "g9": 1396,
+    "g95": 1535,
+    "g10": 6391
    },
    "basis": {
     "n90": 3,
@@ -7052,13 +7052,13 @@
     "pc_avg": 85.6,
     "grade": "raw (NM)"
    },
-   "value": 181,
+   "value": 180,
    "landed": 226,
-   "gap": 0.5,
+   "gap": 0.51,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 22,
-   "psa9_net": 806
+   "psa8_net": 21,
+   "psa9_net": 804
   },
   {
    "title": "Pokemon- Persian 42/144 Rev Holo Skyridge",
@@ -7089,11 +7089,11 @@
    "matched": "Persian [Reverse Holo] #42   Pokemon Skyridge",
    "aud": {
     "raw": 61,
-    "g7": 200,
-    "g8": 299,
-    "g9": 428,
-    "g95": 497,
-    "g10": 646
+    "g7": 199,
+    "g8": 298,
+    "g9": 427,
+    "g95": 496,
+    "g10": 644
    },
    "basis": {
     "n90": 2,
@@ -7107,8 +7107,8 @@
    "gap": 3.31,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": -93,
-   "psa9_net": 237
+   "psa8_net": -59,
+   "psa9_net": 236
   },
   {
    "title": "Pokemon- Umbreon 41/147 Aquapolis",
@@ -7134,11 +7134,11 @@
    "matched": "Umbreon #41   Pokemon Aquapolis",
    "aud": {
     "raw": 166,
-    "g7": 352,
-    "g8": 565,
-    "g9": 980,
-    "g95": 1078,
-    "g10": 3400
+    "g7": 351,
+    "g8": 564,
+    "g9": 977,
+    "g95": 1075,
+    "g10": 3391
    },
    "basis": {
     "n90": 10,
@@ -7147,13 +7147,13 @@
     "pc_avg": 110.29,
     "grade": "raw (NM)"
    },
-   "value": 411,
-   "landed": 479,
+   "value": 410,
+   "landed": 478,
    "gap": -0.36,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 82,
-   "psa9_net": 414
+   "psa8_net": 85,
+   "psa9_net": 412
   },
   {
    "title": "Pokemon - Tyranitar 40/147 Aquapolis",
@@ -7179,11 +7179,11 @@
    "matched": "Tyranitar #40   Pokemon Aquapolis",
    "aud": {
     "raw": 117,
-    "g7": 222,
+    "g7": 221,
     "g8": 277,
-    "g9": 580,
-    "g95": 639,
-    "g10": 1149
+    "g9": 579,
+    "g95": 638,
+    "g10": 1147
    },
    "basis": {
     "n90": 7,
@@ -7197,8 +7197,8 @@
    "gap": 0.16,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -136,
-   "psa9_net": 63
+   "psa8_net": -137,
+   "psa9_net": 62
   },
   {
    "title": "Pokemon- Rayquaza Vmax TG29/TG30 Silver Tempest PSA 10",
@@ -7227,8 +7227,8 @@
     "g7": 60,
     "g8": 64,
     "g9": 71,
-    "g95": 115,
-    "g10": 207
+    "g95": 114,
+    "g10": 206
    },
    "basis": {
     "n90": 30,
@@ -7238,7 +7238,7 @@
     "grade": "PSA 10"
    },
    "value": 211,
-   "landed": 282,
+   "landed": 281,
    "gap": 0.25,
    "thin": false,
    "signal": "OVER-US"
@@ -7271,12 +7271,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/murkrow-reverse-holo-79",
    "matched": "Murkrow [Reverse Holo] #79   Pokemon Skyridge",
    "aud": {
-    "raw": 154,
+    "raw": 153,
     "g7": 103,
-    "g8": 358,
+    "g8": 357,
     "g9": 399,
-    "g95": 440,
-    "g10": 1927
+    "g95": 439,
+    "g10": 1922
    },
    "basis": {
     "n90": 8,
@@ -7290,8 +7290,8 @@
    "gap": 0.12,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -105,
-   "psa9_net": -31
+   "psa8_net": -106,
+   "psa9_net": -32
   },
   {
    "title": "Pokemon - Totodile 135/165 Rev Holo Expedition",
@@ -7318,10 +7318,10 @@
    "aud": {
     "raw": 167,
     "g7": 325,
-    "g8": 530,
-    "g9": 1456,
-    "g95": 1602,
-    "g10": 5380
+    "g8": 529,
+    "g9": 1453,
+    "g95": 1599,
+    "g10": 5366
    },
    "basis": {
     "n90": 5,
@@ -7330,13 +7330,13 @@
     "pc_avg": 110.91,
     "grade": "raw (NM)"
    },
-   "value": 332,
-   "landed": 392,
+   "value": 331,
+   "landed": 391,
    "gap": -0.23,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 68,
-   "psa9_net": 423
+   "psa8_net": 67,
+   "psa9_net": 421
   },
   {
    "title": "Pokemon - Pichu 22/165 Rev Holo Expedition",
@@ -7361,12 +7361,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/pichu-reverse-holo-22",
    "matched": "Pichu [Reverse Holo] #22   Pokemon Expedition",
    "aud": {
-    "raw": 106,
-    "g7": 55,
-    "g8": 692,
-    "g9": 984,
-    "g95": 1082,
-    "g10": 1597
+    "raw": 105,
+    "g7": 54,
+    "g8": 690,
+    "g9": 982,
+    "g95": 1080,
+    "g10": 1593
    },
    "basis": {
     "n90": 3,
@@ -7375,13 +7375,13 @@
     "pc_avg": 70.0,
     "grade": "raw (NM)"
    },
-   "value": 338,
-   "landed": 399,
+   "value": 337,
+   "landed": 398,
    "gap": -0.25,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 203,
-   "psa9_net": 427
+   "psa8_net": 202,
+   "psa9_net": 425
   },
   {
    "title": "Pokemon- Cyndaquil 104/165 Rev Holo Expedition",
@@ -7406,12 +7406,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/cyndaquil-reverse-holo-104",
    "matched": "Cyndaquil [Reverse Holo] #104   Pokemon Expedition",
    "aud": {
-    "raw": 110,
+    "raw": 109,
     "g7": 53,
     "g8": 67,
-    "g9": 558,
-    "g95": 614,
-    "g10": 6881
+    "g9": 556,
+    "g95": 612,
+    "g10": 6864
    },
    "basis": {
     "n90": 12,
@@ -7420,13 +7420,13 @@
     "pc_avg": 72.77,
     "grade": "raw (NM)"
    },
-   "value": 121,
+   "value": 120,
    "landed": 160,
-   "gap": 0.95,
+   "gap": 0.97,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -274,
-   "psa9_net": 211
+   "psa9_net": 210
   },
   {
    "title": "Pokemon- Persian 42/144 Rev Holo Skyridge",
@@ -7457,11 +7457,11 @@
    "matched": "Persian [Reverse Holo] #42   Pokemon Skyridge",
    "aud": {
     "raw": 61,
-    "g7": 200,
-    "g8": 299,
-    "g9": 428,
-    "g95": 497,
-    "g10": 646
+    "g7": 199,
+    "g8": 298,
+    "g9": 427,
+    "g95": 496,
+    "g10": 644
    },
    "basis": {
     "n90": 2,
@@ -7475,8 +7475,8 @@
    "gap": 2.87,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": -66,
-   "psa9_net": 264
+   "psa8_net": -32,
+   "psa9_net": 263
   },
   {
    "title": "Pokemon- Ursaring 110/144 Rev Holo Skyridge",
@@ -7501,12 +7501,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/ursaring-reverse-holo-110",
    "matched": "Ursaring [Reverse Holo] #110   Pokemon Skyridge",
    "aud": {
-    "raw": 139,
+    "raw": 138,
     "g7": 205,
-    "g8": 428,
-    "g9": 962,
-    "g95": 1058,
-    "g10": 6615
+    "g8": 427,
+    "g9": 959,
+    "g95": 1056,
+    "g10": 6599
    },
    "basis": {
     "n90": 7,
@@ -7515,13 +7515,13 @@
     "pc_avg": 91.89,
     "grade": "raw (NM)"
    },
-   "value": 377,
-   "landed": 442,
+   "value": 376,
+   "landed": 441,
    "gap": -0.37,
    "thin": false,
    "signal": "UNDER",
    "psa8_net": -1,
-   "psa9_net": 753
+   "psa9_net": 751
   },
   {
    "title": "Pokemon - Clefable 7/165 Holo Expedition",
@@ -7569,12 +7569,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-next-destinies/chandelure-101",
    "matched": "Chandelure #101   Pokemon Next Destinies",
    "aud": {
-    "raw": 278,
-    "g7": 285,
+    "raw": 277,
+    "g7": 284,
     "g8": 355,
-    "g9": 1577,
-    "g95": 1735,
-    "g10": 2113
+    "g9": 1573,
+    "g95": 1731,
+    "g10": 2107
    },
    "basis": {
     "n90": 3,
@@ -7583,13 +7583,13 @@
     "pc_avg": 184.22,
     "grade": "raw (NM)"
    },
-   "value": 429,
-   "landed": 500,
+   "value": 428,
+   "landed": 498,
    "gap": -0.45,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -31,
-   "psa9_net": 1474
+   "psa8_net": -32,
+   "psa9_net": 1470
   },
   {
    "title": "Pokemon - Seel 95/144 Rev Holo Skyridge",
@@ -7614,12 +7614,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/seel-reverse-holo-95",
    "matched": "Seel [Reverse Holo] #95   Pokemon Skyridge",
    "aud": {
-    "raw": 106,
-    "g7": 243,
-    "g8": 321,
-    "g9": 402,
-    "g95": 546,
-    "g10": 3446
+    "raw": 105,
+    "g7": 242,
+    "g8": 320,
+    "g9": 401,
+    "g95": 544,
+    "g10": 3438
    },
    "basis": {
     "n90": 5,
@@ -7628,9 +7628,9 @@
     "pc_avg": 69.99,
     "grade": "raw (NM)"
    },
-   "value": 106,
-   "landed": 144,
-   "gap": 1.23,
+   "value": 105,
+   "landed": 143,
+   "gap": 1.25,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -75,
@@ -7659,12 +7659,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/dragonair-reverse-holo-75",
    "matched": "Dragonair [Reverse Holo] #75   Pokemon Expedition",
    "aud": {
-    "raw": 138,
+    "raw": 137,
     "g7": 105,
     "g8": 234,
-    "g9": 811,
-    "g95": 892,
-    "g10": 974
+    "g9": 809,
+    "g95": 890,
+    "g10": 971
    },
    "basis": {
     "n90": 4,
@@ -7674,12 +7674,12 @@
     "grade": "raw (NM)"
    },
    "value": 296,
-   "landed": 354,
+   "landed": 353,
    "gap": -0.26,
    "thin": false,
    "signal": "UNDER",
    "psa8_net": -125,
-   "psa9_net": 306
+   "psa9_net": 304
   },
   {
    "title": "Pokemon- Dragonair 75/165 Rev Holo Expedition",
@@ -7704,12 +7704,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/dragonair-reverse-holo-75",
    "matched": "Dragonair [Reverse Holo] #75   Pokemon Expedition",
    "aud": {
-    "raw": 138,
+    "raw": 137,
     "g7": 105,
     "g8": 234,
-    "g9": 811,
-    "g95": 892,
-    "g10": 974
+    "g9": 809,
+    "g95": 890,
+    "g10": 971
    },
    "basis": {
     "n90": 4,
@@ -7719,12 +7719,12 @@
     "grade": "raw (NM)"
    },
    "value": 296,
-   "landed": 354,
+   "landed": 353,
    "gap": -0.29,
    "thin": false,
    "signal": "UNDER",
    "psa8_net": -116,
-   "psa9_net": 315
+   "psa9_net": 313
   },
   {
    "title": "Pokemon - Dratini 107/165 Rev Holo Expedition",
@@ -7752,9 +7752,9 @@
     "raw": 98,
     "g7": 81,
     "g8": 137,
-    "g9": 454,
-    "g95": 499,
-    "g10": 3416
+    "g9": 453,
+    "g95": 498,
+    "g10": 3408
    },
    "basis": {
     "n90": 12,
@@ -7764,12 +7764,12 @@
     "grade": "raw (NM)"
    },
    "value": 83,
-   "landed": 119,
+   "landed": 118,
    "gap": 1.52,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -192,
-   "psa9_net": 56
+   "psa9_net": 55
   },
   {
    "title": "Pokemon- Meowth 121/165 Rev Holo Expedition",
@@ -7796,10 +7796,10 @@
    "aud": {
     "raw": 64,
     "g7": 111,
-    "g8": 355,
-    "g9": 829,
-    "g95": 912,
-    "g10": 4899
+    "g8": 354,
+    "g9": 827,
+    "g95": 910,
+    "g10": 4887
    },
    "basis": {
     "n90": 20,
@@ -7813,8 +7813,8 @@
    "gap": 1.58,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 14,
-   "psa9_net": 350
+   "psa8_net": 13,
+   "psa9_net": 349
   },
   {
    "title": "Pokemon - Tyranitar 40/147 Aquapolis",
@@ -7840,11 +7840,11 @@
    "matched": "Tyranitar #40   Pokemon Aquapolis",
    "aud": {
     "raw": 117,
-    "g7": 222,
+    "g7": 221,
     "g8": 277,
-    "g9": 580,
-    "g95": 639,
-    "g10": 1149
+    "g9": 579,
+    "g95": 638,
+    "g10": 1147
    },
    "basis": {
     "n90": 7,
@@ -7858,8 +7858,8 @@
    "gap": -0.07,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -82,
-   "psa9_net": 117
+   "psa8_net": -83,
+   "psa9_net": 116
   },
   {
    "title": "Pokemon- Flaaffy 77/165 Rev Holo Expedition",
@@ -7886,25 +7886,25 @@
    "aud": {
     "raw": 75,
     "g7": 31,
-    "g8": 384,
-    "g9": 781,
-    "g95": 859,
-    "g10": 5866
+    "g8": 383,
+    "g9": 779,
+    "g95": 857,
+    "g10": 5852
    },
    "basis": {
-    "n90": 4,
+    "n90": 3,
     "last": "2026-11-12",
     "basis": "90-day NM median",
     "pc_avg": 50.0,
     "grade": "raw (NM)"
    },
-   "value": 136,
-   "landed": 177,
-   "gap": 0.54,
+   "value": 120,
+   "landed": 160,
+   "gap": 0.74,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 1,
-   "psa9_net": 283
+   "psa8_net": 0,
+   "psa9_net": 360
   },
   {
    "title": "Pokemon - Politoed 25/144 Rev Holo Skyridge",
@@ -7931,10 +7931,10 @@
    "aud": {
     "raw": 158,
     "g7": 49,
-    "g8": 295,
-    "g9": 872,
-    "g95": 959,
-    "g10": 2813
+    "g8": 294,
+    "g9": 870,
+    "g95": 956,
+    "g10": 2807
    },
    "basis": {
     "n90": 3,
@@ -7943,13 +7943,13 @@
     "pc_avg": 104.76,
     "grade": "raw (NM)"
    },
-   "value": 190,
-   "landed": 236,
-   "gap": 0.05,
+   "value": 189,
+   "landed": 235,
+   "gap": 0.06,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -59,
-   "psa9_net": 507
+   "psa8_net": -60,
+   "psa9_net": 505
   },
   {
    "title": "Pokemon - Kangaskhan 88/147 Rev Holo Aquapolis",
@@ -7980,11 +7980,11 @@
    "matched": "Kangaskhan [Reverse Holo] #88   Pokemon Aquapolis",
    "aud": {
     "raw": 61,
-    "g7": 230,
-    "g8": 377,
-    "g9": 502,
-    "g95": 552,
-    "g10": 2083
+    "g7": 229,
+    "g8": 376,
+    "g9": 500,
+    "g95": 550,
+    "g10": 2078
    },
    "basis": {
     "n90": 9,
@@ -7993,13 +7993,13 @@
     "pc_avg": 40.5,
     "grade": "raw (NM)"
    },
-   "value": 185,
-   "landed": 231,
-   "gap": 0.03,
+   "value": 184,
+   "landed": 230,
+   "gap": 0.04,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 14,
-   "psa9_net": 112
+   "psa8_net": 13,
+   "psa9_net": 111
   },
   {
    "title": "Pokemon - Seel 95/144 Rev Holo Skyridge",
@@ -8024,12 +8024,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/seel-reverse-holo-95",
    "matched": "Seel [Reverse Holo] #95   Pokemon Skyridge",
    "aud": {
-    "raw": 106,
-    "g7": 243,
-    "g8": 321,
-    "g9": 402,
-    "g95": 546,
-    "g10": 3446
+    "raw": 105,
+    "g7": 242,
+    "g8": 320,
+    "g9": 401,
+    "g95": 544,
+    "g10": 3438
    },
    "basis": {
     "n90": 5,
@@ -8038,9 +8038,9 @@
     "pc_avg": 69.99,
     "grade": "raw (NM)"
    },
-   "value": 106,
-   "landed": 144,
-   "gap": 0.8,
+   "value": 105,
+   "landed": 143,
+   "gap": 0.82,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -30,
@@ -8070,11 +8070,11 @@
    "matched": "Staryu [Reverse Holo] #104   Pokemon Skyridge",
    "aud": {
     "raw": 131,
-    "g7": 156,
-    "g8": 377,
-    "g9": 452,
-    "g95": 497,
-    "g10": 603
+    "g7": 155,
+    "g8": 376,
+    "g9": 451,
+    "g95": 496,
+    "g10": 602
    },
    "basis": {
     "n90": 2,
@@ -8088,8 +8088,8 @@
    "gap": 0.46,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": 14,
-   "psa9_net": 76
+   "psa8_net": 13,
+   "psa9_net": 75
   },
   {
    "title": "Pokemon - Electrode 36/144 Rev Holo Skyridge",
@@ -8115,11 +8115,11 @@
    "matched": "Electrode [Reverse Holo] #36   Pokemon Skyridge",
    "aud": {
     "raw": 83,
-    "g7": 264,
-    "g8": 402,
-    "g9": 721,
-    "g95": 793,
-    "g10": 1147
+    "g7": 263,
+    "g8": 401,
+    "g9": 720,
+    "g95": 791,
+    "g10": 1145
    },
    "basis": {
     "n90": 6,
@@ -8133,8 +8133,8 @@
    "gap": 0.47,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 38,
-   "psa9_net": 254
+   "psa8_net": 37,
+   "psa9_net": 253
   },
   {
    "title": "Pokemon - Wigglytuff 34/144 Rev Holo Skyridge",
@@ -8159,12 +8159,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/wigglytuff-reverse-holo-34",
    "matched": "Wigglytuff [Reverse Holo] #34   Pokemon Skyridge",
    "aud": {
-    "raw": 167,
+    "raw": 166,
     "g7": 92,
     "g8": 115,
-    "g9": 517,
-    "g95": 568,
-    "g10": 2100
+    "g9": 515,
+    "g95": 567,
+    "g10": 2095
    },
    "basis": {
     "n90": 1,
@@ -8173,13 +8173,13 @@
     "thin": true,
     "grade": "raw (NM)"
    },
-   "value": 167,
-   "landed": 211,
-   "gap": 0.09,
+   "value": 166,
+   "landed": 210,
+   "gap": 0.1,
    "thin": true,
    "signal": "OVER-US",
    "psa8_net": -182,
-   "psa9_net": 199
+   "psa9_net": 198
   },
   {
    "title": "Pokemon- Pidgey 123/165 Rev Holo Expedition",
@@ -8206,10 +8206,10 @@
    "aud": {
     "raw": 68,
     "g7": 61,
-    "g8": 151,
-    "g9": 300,
-    "g95": 330,
-    "g10": 360
+    "g8": 150,
+    "g9": 299,
+    "g95": 329,
+    "g10": 359
    },
    "basis": {
     "n90": 4,
@@ -8224,7 +8224,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -154,
-   "psa9_net": -37
+   "psa9_net": -38
   },
   {
    "title": "Pokemon- Mantine 77/144 Rev Holo Skyridge",
@@ -8249,11 +8249,11 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/mantine-reverse-holo-77",
    "matched": "Mantine [Reverse Holo] #77   Pokemon Skyridge",
    "aud": {
-    "raw": 133,
-    "g8": 280,
-    "g9": 419,
-    "g95": 461,
-    "g10": 1730
+    "raw": 132,
+    "g8": 279,
+    "g9": 418,
+    "g95": 460,
+    "g10": 1726
    },
    "basis": {
     "n90": 4,
@@ -8262,13 +8262,13 @@
     "pc_avg": 88.04,
     "grade": "raw (NM)"
    },
-   "value": 153,
+   "value": 152,
    "landed": 195,
-   "gap": 0.19,
+   "gap": 0.2,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -53,
-   "psa9_net": 93
+   "psa8_net": -54,
+   "psa9_net": 92
   },
   {
    "title": "Pokemon- Quagsire 30/147 Rev Holo Aquapolis",
@@ -8298,12 +8298,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/quagsire-reverse-holo-30",
    "matched": "Quagsire [Reverse Holo] #30   Pokemon Aquapolis",
    "aud": {
-    "raw": 181,
-    "g7": 332,
-    "g8": 415,
-    "g9": 649,
-    "g95": 1296,
-    "g10": 4447
+    "raw": 180,
+    "g7": 331,
+    "g8": 414,
+    "g9": 648,
+    "g95": 1293,
+    "g10": 4436
    },
    "basis": {
     "n90": 4,
@@ -8312,13 +8312,13 @@
     "pc_avg": 119.99,
     "grade": "raw (NM)"
    },
-   "value": 196,
+   "value": 195,
    "landed": 243,
    "gap": -0.07,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 106,
-   "psa9_net": 236
+   "psa8_net": 105,
+   "psa9_net": 235
   },
   {
    "title": "Pokemon- Kingdra 19/147 Rev Holo Aquapolis",
@@ -8343,12 +8343,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/kingdra-reverse-holo-19",
    "matched": "Kingdra [Reverse Holo] #19   Pokemon Aquapolis",
    "aud": {
-    "raw": 86,
+    "raw": 85,
     "g7": 161,
-    "g8": 202,
-    "g9": 462,
-    "g95": 536,
-    "g10": 1357
+    "g8": 201,
+    "g9": 461,
+    "g95": 535,
+    "g10": 1353
    },
    "basis": {
     "n90": 5,
@@ -8358,11 +8358,11 @@
     "grade": "raw (NM)"
    },
    "value": 119,
-   "landed": 159,
+   "landed": 158,
    "gap": 0.45,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -105,
+   "psa8_net": -106,
    "psa9_net": 120
   },
   {
@@ -8396,9 +8396,9 @@
     "raw": 53,
     "g7": 50,
     "g8": 62,
-    "g9": 274,
-    "g95": 302,
-    "g10": 1300
+    "g9": 273,
+    "g95": 301,
+    "g10": 1297
    },
    "basis": {
     "n90": 4,
@@ -8413,7 +8413,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -197,
-   "psa9_net": -13
+   "psa9_net": -14
   },
   {
    "title": "Pokemon - Horsea 84/147 Rev Holo Aquapolis",
@@ -8438,12 +8438,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/horsea-reverse-holo-84",
    "matched": "Horsea [Reverse Holo] #84   Pokemon Aquapolis",
    "aud": {
-    "raw": 93,
+    "raw": 92,
     "g7": 101,
     "g8": 332,
-    "g9": 451,
-    "g95": 496,
-    "g10": 650
+    "g9": 450,
+    "g95": 495,
+    "g10": 648
    },
    "basis": {
     "n90": 3,
@@ -8452,13 +8452,13 @@
     "pc_avg": 61.39,
     "grade": "raw (NM)"
    },
-   "value": 115,
-   "landed": 154,
-   "gap": 0.27,
+   "value": 114,
+   "landed": 153,
+   "gap": 0.28,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": 24,
-   "psa9_net": 117
+   "psa9_net": 116
   },
   {
    "title": "Pokemon - Swinub 107/144 Skyridge",
@@ -8487,8 +8487,8 @@
     "g7": 23,
     "g8": 69,
     "g9": 156,
-    "g95": 172,
-    "g10": 678
+    "g95": 171,
+    "g10": 677
    },
    "basis": {
     "n90": 9,
@@ -8497,9 +8497,9 @@
     "pc_avg": 70.3,
     "grade": "raw (NM)"
    },
-   "value": 121,
+   "value": 120,
    "landed": 160,
-   "gap": 0.21,
+   "gap": 0.22,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -182,
@@ -8552,11 +8552,11 @@
    "matched": "Magikarp #118   Pokemon Expedition",
    "aud": {
     "raw": 52,
-    "g7": 60,
-    "g8": 141,
+    "g7": 59,
+    "g8": 140,
     "g9": 280,
-    "g95": 309,
-    "g10": 1679
+    "g95": 308,
+    "g10": 1674
    },
    "basis": {
     "n90": 20,
@@ -8565,9 +8565,9 @@
     "pc_avg": 34.28,
     "grade": "raw (NM)"
    },
-   "value": 60,
+   "value": 59,
    "landed": 93,
-   "gap": 0.98,
+   "gap": 1.02,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -97,
@@ -8619,7 +8619,7 @@
    "pc": "https://www.pricecharting.com/game/pokemon-mega-evolution/bulbasaur-133",
    "matched": "Bulbasaur #133   Pokemon Mega Evolution",
    "aud": {
-    "raw": 26,
+    "raw": 25,
     "g7": 23,
     "g8": 26,
     "g9": 38,
@@ -8633,9 +8633,9 @@
     "pc_avg": 88.5,
     "grade": "PSA 10"
    },
-   "value": 136,
-   "landed": 199,
-   "gap": 4.71,
+   "value": 135,
+   "landed": 198,
+   "gap": 4.75,
    "thin": false,
    "signal": "OVER"
   },
@@ -8663,11 +8663,11 @@
    "matched": "Pikachu VMAX #188   Pokemon Vivid Voltage",
    "aud": {
     "raw": 224,
-    "g7": 133,
+    "g7": 132,
     "g8": 165,
     "g9": 181,
-    "g95": 314,
-    "g10": 437
+    "g95": 313,
+    "g10": 436
    },
    "basis": {
     "n90": 30,
@@ -8676,8 +8676,8 @@
     "pc_avg": 289.99,
     "grade": "PSA 10"
    },
-   "value": 437,
-   "landed": 530,
+   "value": 436,
+   "landed": 529,
    "gap": -0.09,
    "thin": false,
    "signal": "FAIR"
@@ -8706,11 +8706,11 @@
    "matched": "Magikarp #80   Pokemon Japanese Triplet Beat",
    "aud": {
     "raw": 143,
-    "g7": 123,
-    "g8": 187,
+    "g7": 122,
+    "g8": 186,
     "g9": 205,
     "g95": 207,
-    "g10": 253
+    "g10": 252
    },
    "basis": {
     "n90": 30,
@@ -8719,7 +8719,7 @@
     "pc_avg": 167.5,
     "grade": "PSA 10"
    },
-   "value": 253,
+   "value": 252,
    "landed": 327,
    "gap": 0.29,
    "thin": false,
@@ -8750,10 +8750,10 @@
    "aud": {
     "raw": 47,
     "g7": 85,
-    "g8": 121,
-    "g9": 243,
-    "g95": 267,
-    "g10": 2434
+    "g8": 120,
+    "g9": 242,
+    "g95": 266,
+    "g10": 2428
    },
    "basis": {
     "n90": 30,
@@ -8793,10 +8793,10 @@
    "aud": {
     "raw": 47,
     "g7": 85,
-    "g8": 121,
-    "g9": 243,
-    "g95": 267,
-    "g10": 2434
+    "g8": 120,
+    "g9": 242,
+    "g95": 266,
+    "g10": 2428
    },
    "basis": {
     "n90": 30,
@@ -8834,12 +8834,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/charmander-168",
    "matched": "Charmander #168   Pokemon Scarlet & Violet 151",
    "aud": {
-    "raw": 118,
+    "raw": 117,
     "g7": 96,
     "g8": 100,
     "g9": 134,
-    "g95": 136,
-    "g10": 799
+    "g95": 135,
+    "g10": 797
    },
    "basis": {
     "n90": 30,
@@ -8887,7 +8887,7 @@
     "g8": 100,
     "g9": 119,
     "g95": 138,
-    "g10": 475
+    "g10": 474
    },
    "basis": {
     "n90": 30,
@@ -8897,7 +8897,7 @@
     "grade": "PSA 9"
    },
    "value": 119,
-   "landed": 181,
+   "landed": 180,
    "gap": 0.38,
    "thin": false,
    "signal": "OVER-US"
@@ -8929,7 +8929,7 @@
     "g7": 19,
     "g8": 48,
     "g9": 74,
-    "g95": 75,
+    "g95": 74,
     "g10": 197
    },
    "basis": {
@@ -8939,7 +8939,7 @@
     "pc_avg": 131.0,
     "grade": "PSA 10"
    },
-   "value": 211,
+   "value": 210,
    "landed": 281,
    "gap": -0.09,
    "thin": false,
@@ -8968,12 +8968,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/shuckle-reverse-holo-96",
    "matched": "Shuckle [Reverse Holo] #96   Pokemon Skyridge",
    "aud": {
-    "raw": 377,
+    "raw": 376,
     "g7": 140,
-    "g8": 601,
-    "g9": 1210,
-    "g95": 1331,
-    "g10": 1452
+    "g8": 600,
+    "g9": 1207,
+    "g95": 1328,
+    "g10": 1448
    },
    "basis": {
     "n90": 4,
@@ -8982,13 +8982,13 @@
     "pc_avg": 250.0,
     "grade": "raw (NM)"
    },
-   "value": 461,
-   "landed": 534,
+   "value": 460,
+   "landed": 533,
    "gap": -0.1,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -35,
-   "psa9_net": 446
+   "psa8_net": -36,
+   "psa9_net": 444
   },
   {
    "title": "Pokemon- Suicune 37/147 Rev Holo Aquapolis",
@@ -9014,11 +9014,11 @@
    "matched": "Suicune [Reverse Holo] #37   Pokemon Aquapolis",
    "aud": {
     "raw": 130,
-    "g7": 194,
-    "g8": 594,
-    "g9": 1206,
-    "g95": 1327,
-    "g10": 4026
+    "g7": 193,
+    "g8": 592,
+    "g9": 1203,
+    "g95": 1323,
+    "g10": 4016
    },
    "basis": {
     "n90": 8,
@@ -9028,12 +9028,12 @@
     "grade": "raw (NM)"
    },
    "value": 241,
-   "landed": 293,
+   "landed": 292,
    "gap": 0.65,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -26,
-   "psa9_net": 353
+   "psa8_net": -27,
+   "psa9_net": 351
   },
   {
    "title": "Pokemon - Dugtrio 52/144 Rev Holo Skyridge",
@@ -9061,9 +9061,9 @@
     "raw": 191,
     "g7": 42,
     "g8": 399,
-    "g9": 440,
-    "g95": 484,
-    "g10": 2099
+    "g9": 439,
+    "g95": 483,
+    "g10": 2094
    },
    "basis": {
     "n90": 4,
@@ -9073,11 +9073,11 @@
     "grade": "raw (NM)"
    },
    "value": 286,
-   "landed": 343,
+   "landed": 342,
    "gap": 0.05,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -76,
+   "psa8_net": -77,
    "psa9_net": -59
   },
   {
@@ -9105,10 +9105,10 @@
    "aud": {
     "raw": 120,
     "g7": 60,
-    "g8": 543,
-    "g9": 904,
-    "g95": 995,
-    "g10": 1085
+    "g8": 541,
+    "g9": 902,
+    "g95": 993,
+    "g10": 1083
    },
    "basis": {
     "n90": 2,
@@ -9122,8 +9122,8 @@
    "gap": 1.34,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": 54,
-   "psa9_net": 337
+   "psa8_net": 53,
+   "psa9_net": 335
   },
   {
    "title": "Pokemon - Marowak 54/147 Rev Holo Aquapolis",
@@ -9150,10 +9150,10 @@
    "aud": {
     "raw": 110,
     "g7": 176,
-    "g8": 220,
-    "g9": 542,
-    "g95": 595,
-    "g10": 22612
+    "g8": 219,
+    "g9": 540,
+    "g95": 594,
+    "g10": 22557
    },
    "basis": {
     "n90": 3,
@@ -9162,13 +9162,13 @@
     "pc_avg": 73.09,
     "grade": "raw (NM)"
    },
-   "value": 151,
+   "value": 150,
    "landed": 193,
-   "gap": 0.86,
+   "gap": 0.87,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -199,
-   "psa9_net": 53
+   "psa9_net": 52
   },
   {
    "title": "Pokemon- Primeape 29/147 Rev Holo Aquapolis",
@@ -9193,12 +9193,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/primeape-reverse-holo-29",
    "matched": "Primeape [Reverse Holo] #29   Pokemon Aquapolis",
    "aud": {
-    "raw": 151,
+    "raw": 150,
     "g7": 121,
     "g8": 132,
-    "g9": 443,
-    "g95": 487,
-    "g10": 574
+    "g9": 442,
+    "g95": 486,
+    "g10": 573
    },
    "basis": {
     "n90": 4,
@@ -9207,13 +9207,13 @@
     "pc_avg": 99.99,
     "grade": "raw (NM)"
    },
-   "value": 230,
+   "value": 229,
    "landed": 280,
    "gap": 0.07,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -232,
-   "psa9_net": 18
+   "psa9_net": 17
   },
   {
    "title": "Pokemon - Scyther 57/147 Rev Holo Aquapolis",
@@ -9240,10 +9240,10 @@
    "aud": {
     "raw": 121,
     "g7": 78,
-    "g8": 290,
-    "g9": 601,
-    "g95": 662,
-    "g10": 7731
+    "g8": 289,
+    "g9": 600,
+    "g95": 660,
+    "g10": 7712
    },
    "basis": {
     "n90": 5,
@@ -9252,13 +9252,13 @@
     "pc_avg": 80.5,
     "grade": "raw (NM)"
    },
-   "value": 211,
-   "landed": 260,
-   "gap": -0.01,
+   "value": 210,
+   "landed": 259,
+   "gap": -0.0,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -72,
-   "psa9_net": 172
+   "psa8_net": -73,
+   "psa9_net": 171
   },
   {
    "title": "Pokemon - Vulpix 136/165 Rev Holo Expedition",
@@ -9285,10 +9285,10 @@
    "aud": {
     "raw": 92,
     "g7": 78,
-    "g8": 99,
-    "g9": 602,
-    "g95": 662,
-    "g10": 5443
+    "g8": 98,
+    "g9": 601,
+    "g95": 660,
+    "g10": 5429
    },
    "basis": {
     "n90": 13,
@@ -9303,7 +9303,7 @@
    "thin": false,
    "signal": "OVER",
    "psa8_net": -222,
-   "psa9_net": 291
+   "psa9_net": 290
   },
   {
    "title": "Pokemon- Scizor 32/147 Rev Holo Aquapolis",
@@ -9329,11 +9329,11 @@
    "matched": "Scizor [Reverse Holo] #32   Pokemon Aquapolis",
    "aud": {
     "raw": 135,
-    "g7": 226,
-    "g8": 300,
-    "g9": 730,
-    "g95": 802,
-    "g10": 19597
+    "g7": 225,
+    "g8": 299,
+    "g9": 728,
+    "g95": 800,
+    "g10": 19549
    },
    "basis": {
     "n90": 5,
@@ -9343,12 +9343,12 @@
     "grade": "raw (NM)"
    },
    "value": 203,
-   "landed": 251,
+   "landed": 250,
    "gap": -0.06,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -46,
-   "psa9_net": 391
+   "psa8_net": -47,
+   "psa9_net": 389
   },
   {
    "title": "Pokemon - Machamp 16/165 Holo Expedition",
@@ -9396,12 +9396,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/blastoise-37",
    "matched": "Blastoise #37   Pokemon Expedition",
    "aud": {
-    "raw": 136,
+    "raw": 135,
     "g7": 133,
     "g8": 192,
-    "g9": 528,
-    "g95": 580,
-    "g10": 1327
+    "g9": 526,
+    "g95": 579,
+    "g10": 1323
    },
    "basis": {
     "n90": 5,
@@ -9410,13 +9410,13 @@
     "pc_avg": 90.1,
     "grade": "raw (NM)"
    },
-   "value": 187,
+   "value": 186,
    "landed": 233,
-   "gap": -0.03,
+   "gap": -0.02,
    "thin": false,
    "signal": "FAIR",
    "psa8_net": -87,
-   "psa9_net": 141
+   "psa9_net": 140
   },
   {
    "title": "Pokemon - Dark Charmeleon 32/82 W Stamped WOTC Promo",
@@ -9556,12 +9556,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-genesis/bellossom-1st-edition-3",
    "matched": "Bellossom [1st Edition] #3   Pokemon Neo Genesis",
    "aud": {
-    "raw": 95,
+    "raw": 94,
     "g7": 119,
     "g8": 241,
-    "g9": 397,
-    "g95": 636,
-    "g10": 6784
+    "g9": 396,
+    "g95": 635,
+    "g10": 6767
    },
    "basis": {
     "n90": 23,
@@ -9606,21 +9606,21 @@
    "aud": {
     "raw": 83,
     "g7": 99,
-    "g8": 124,
-    "g9": 274,
-    "g95": 302,
-    "g10": 1140
+    "g8": 123,
+    "g9": 273,
+    "g95": 301,
+    "g10": 1137
    },
    "basis": {
-    "n90": 9,
+    "n90": 8,
     "last": "2026-11-01",
     "basis": "90-day median",
     "pc_avg": 181.8,
     "grade": "PSA 9"
    },
-   "value": 231,
-   "landed": 304,
-   "gap": 0.1,
+   "value": 238,
+   "landed": 311,
+   "gap": 0.07,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -9652,7 +9652,7 @@
     "g8": 100,
     "g9": 119,
     "g95": 138,
-    "g10": 475
+    "g10": 474
    },
    "basis": {
     "n90": 30,
@@ -9662,7 +9662,7 @@
     "grade": "PSA 9"
    },
    "value": 119,
-   "landed": 181,
+   "landed": 180,
    "gap": 0.38,
    "thin": false,
    "signal": "OVER-US"
@@ -9716,7 +9716,7 @@
     "raw": 57,
     "g7": 45,
     "g8": 52,
-    "g9": 68,
+    "g9": 67,
     "g95": 117,
     "g10": 238
    },
@@ -9824,12 +9824,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/pichu-reverse-holo-22",
    "matched": "Pichu [Reverse Holo] #22   Pokemon Expedition",
    "aud": {
-    "raw": 106,
-    "g7": 55,
-    "g8": 692,
-    "g9": 984,
-    "g95": 1082,
-    "g10": 1597
+    "raw": 105,
+    "g7": 54,
+    "g8": 690,
+    "g9": 982,
+    "g95": 1080,
+    "g10": 1593
    },
    "basis": {
     "n90": 3,
@@ -9838,13 +9838,13 @@
     "pc_avg": 70.0,
     "grade": "raw (NM)"
    },
-   "value": 338,
-   "landed": 399,
+   "value": 337,
+   "landed": 398,
    "gap": -0.25,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 203,
-   "psa9_net": 427
+   "psa8_net": 202,
+   "psa9_net": 425
   },
   {
    "title": "Pokemon- Lickitung 90/147 Rev Holo Aquapolis",
@@ -9871,10 +9871,10 @@
    "aud": {
     "raw": 126,
     "g7": 237,
-    "g8": 603,
-    "g9": 663,
-    "g95": 730,
-    "g10": 4250
+    "g8": 602,
+    "g9": 662,
+    "g95": 728,
+    "g10": 4239
    },
    "basis": {
     "n90": 6,
@@ -9884,12 +9884,12 @@
     "grade": "raw (NM)"
    },
    "value": 211,
-   "landed": 260,
+   "landed": 259,
    "gap": -0.09,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 191,
-   "psa9_net": 238
+   "psa8_net": 190,
+   "psa9_net": 237
   },
   {
    "title": "Pokemon- Raichu 25/165 Holo Expedition",
@@ -9938,11 +9938,11 @@
    "matched": "Nidoqueen #H21   Pokemon Skyridge",
    "aud": {
     "raw": 243,
-    "g7": 660,
-    "g8": 675,
-    "g9": 817,
-    "g95": 1067,
-    "g10": 7690
+    "g7": 658,
+    "g8": 673,
+    "g9": 815,
+    "g95": 1064,
+    "g10": 7671
    },
    "basis": {
     "n90": 6,
@@ -9951,13 +9951,13 @@
     "pc_avg": 161.39,
     "grade": "raw (NM)"
    },
-   "value": 444,
-   "landed": 515,
+   "value": 443,
+   "landed": 514,
    "gap": 0.1,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -12,
-   "psa9_net": 17
+   "psa8_net": -13,
+   "psa9_net": 15
   },
   {
    "title": "Pokemon- Zapdos 44/147 Rev Holo Aquapolis",
@@ -9982,12 +9982,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/zapdos-reverse-holo-44",
    "matched": "Zapdos [Reverse Holo] #44   Pokemon Aquapolis",
    "aud": {
-    "raw": 246,
+    "raw": 245,
     "g7": 399,
-    "g8": 586,
-    "g9": 771,
-    "g95": 847,
-    "g10": 25662
+    "g8": 585,
+    "g9": 769,
+    "g95": 845,
+    "g10": 25599
    },
    "basis": {
     "n90": 7,
@@ -9996,13 +9996,13 @@
     "pc_avg": 163.1,
     "grade": "raw (NM)"
    },
-   "value": 415,
-   "landed": 484,
+   "value": 414,
+   "landed": 482,
    "gap": 0.11,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 39,
-   "psa9_net": 52
+   "psa8_net": 38,
+   "psa9_net": 51
   },
   {
    "title": "Pokemon- Jolteon 13/144 Rev Holo Expedition",
@@ -10050,12 +10050,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/poliwrath-h24",
    "matched": "Poliwrath #H24   Pokemon Skyridge",
    "aud": {
-    "raw": 631,
-    "g7": 1185,
-    "g8": 1657,
-    "g9": 2149,
-    "g95": 2364,
-    "g10": 12645
+    "raw": 629,
+    "g7": 1182,
+    "g8": 1653,
+    "g9": 2143,
+    "g95": 2358,
+    "g10": 12614
    },
    "basis": {
     "n90": 5,
@@ -10064,13 +10064,13 @@
     "pc_avg": 418.59,
     "grade": "raw (NM)"
    },
-   "value": 1018,
-   "landed": 1147,
+   "value": 1015,
+   "landed": 1144,
    "gap": -0.64,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 1053,
-   "psa9_net": 1377
+   "psa8_net": 1049,
+   "psa9_net": 1373
   },
   {
    "title": "Pokemon - Slowking 34/147 Rev Holo Aquapolis",
@@ -10118,27 +10118,27 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/azumarill-h4",
    "matched": "Azumarill #H4   Pokemon Aquapolis",
    "aud": {
-    "raw": 189,
-    "g7": 385,
-    "g8": 548,
-    "g9": 1223,
-    "g95": 1345,
-    "g10": 16206
+    "raw": 188,
+    "g7": 384,
+    "g8": 546,
+    "g9": 1220,
+    "g95": 1341,
+    "g10": 16166
    },
    "basis": {
-    "n90": 4,
+    "n90": 3,
     "last": "2026-11-22",
     "basis": "90-day NM median",
     "pc_avg": 125.25,
     "grade": "raw (NM)"
    },
-   "value": 303,
-   "landed": 361,
-   "gap": 0.02,
+   "value": 341,
+   "landed": 402,
+   "gap": -0.1,
    "thin": false,
-   "signal": "OVER-US",
-   "psa8_net": 31,
-   "psa9_net": 671
+   "signal": "FAIR",
+   "psa8_net": 30,
+   "psa9_net": 668
   },
   {
    "title": "Pokemon - Dark Scizor 9/105 Holo Neo Destiny",
@@ -10163,12 +10163,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/dark-scizor-9",
    "matched": "Dark Scizor #9   Pokemon Neo Destiny",
    "aud": {
-    "raw": 128,
-    "g7": 345,
-    "g8": 432,
-    "g9": 901,
-    "g95": 990,
-    "g10": 9385
+    "raw": 127,
+    "g7": 344,
+    "g8": 431,
+    "g9": 899,
+    "g95": 988,
+    "g10": 9362
    },
    "basis": {
     "n90": 7,
@@ -10178,12 +10178,12 @@
     "grade": "raw (NM)"
    },
    "value": 286,
-   "landed": 343,
+   "landed": 342,
    "gap": 0.08,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 44,
-   "psa9_net": 227
+   "psa8_net": 43,
+   "psa9_net": 225
   },
   {
    "title": "Pokemon- Dark Feraligatr 5/105 Holo Neo Destiny",
@@ -10208,12 +10208,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/dark-feraligatr-5",
    "matched": "Dark Feraligatr #5   Pokemon Neo Destiny",
    "aud": {
-    "raw": 138,
-    "g7": 245,
-    "g8": 333,
-    "g9": 614,
-    "g95": 675,
-    "g10": 6028
+    "raw": 137,
+    "g7": 244,
+    "g8": 332,
+    "g9": 612,
+    "g95": 674,
+    "g10": 6014
    },
    "basis": {
     "n90": 6,
@@ -10227,8 +10227,8 @@
    "gap": 0.29,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -45,
-   "psa9_net": 127
+   "psa8_net": -46,
+   "psa9_net": 126
   },
   {
    "title": "Pokemon- Feraligatr 12/165 Rev Holo Expedition",
@@ -10254,11 +10254,11 @@
    "matched": "Feraligatr [Reverse Holo] #12   Pokemon Expedition",
    "aud": {
     "raw": 152,
-    "g7": 250,
-    "g8": 457,
-    "g9": 1071,
-    "g95": 1179,
-    "g10": 1286
+    "g7": 249,
+    "g8": 456,
+    "g9": 1069,
+    "g95": 1176,
+    "g10": 1283
    },
    "basis": {
     "n90": 14,
@@ -10272,8 +10272,8 @@
    "gap": 0.32,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -31,
-   "psa9_net": 496
+   "psa8_net": -32,
+   "psa9_net": 494
   },
   {
    "title": "Pokemon- Totodile 135/165 Rev Holo Expedition",
@@ -10300,10 +10300,10 @@
    "aud": {
     "raw": 167,
     "g7": 325,
-    "g8": 530,
-    "g9": 1456,
-    "g95": 1602,
-    "g10": 5380
+    "g8": 529,
+    "g9": 1453,
+    "g95": 1599,
+    "g10": 5366
    },
    "basis": {
     "n90": 5,
@@ -10312,13 +10312,13 @@
     "pc_avg": 110.91,
     "grade": "raw (NM)"
    },
-   "value": 332,
-   "landed": 392,
+   "value": 331,
+   "landed": 391,
    "gap": -0.15,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 41,
-   "psa9_net": 396
+   "psa8_net": 40,
+   "psa9_net": 394
   },
   {
    "title": "Pokemon - Dark Houndoom 7/105 Holo Neo Destiny",
@@ -10344,11 +10344,11 @@
    "matched": "Dark Houndoom #7   Pokemon Neo Destiny",
    "aud": {
     "raw": 141,
-    "g7": 358,
-    "g8": 434,
-    "g9": 825,
-    "g95": 908,
-    "g10": 6030
+    "g7": 357,
+    "g8": 433,
+    "g9": 823,
+    "g95": 905,
+    "g10": 6015
    },
    "basis": {
     "n90": 4,
@@ -10357,13 +10357,13 @@
     "pc_avg": 93.51,
     "grade": "raw (NM)"
    },
-   "value": 430,
-   "landed": 500,
-   "gap": -0.35,
+   "value": 429,
+   "landed": 499,
+   "gap": -0.34,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 23,
-   "psa9_net": 219
+   "psa8_net": 22,
+   "psa9_net": 218
   },
   {
    "title": "Pokemon- Venusaur 18/110 Holo Legendary Collection",
@@ -10413,10 +10413,10 @@
    "aud": {
     "raw": 114,
     "g7": 122,
-    "g8": 394,
-    "g9": 1024,
-    "g95": 1126,
-    "g10": 3844
+    "g8": 393,
+    "g9": 1021,
+    "g95": 1123,
+    "g10": 3835
    },
    "basis": {
     "n90": 13,
@@ -10425,13 +10425,13 @@
     "pc_avg": 75.91,
     "grade": "raw (NM)"
    },
-   "value": 204,
+   "value": 203,
    "landed": 251,
-   "gap": 0.33,
+   "gap": 0.34,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 16,
-   "psa9_net": 500
+   "psa8_net": 15,
+   "psa9_net": 497
   },
   {
    "title": "Pokemon - Typhlosion 28/165 Rev Holo Expedition",
@@ -10459,9 +10459,9 @@
     "raw": 93,
     "g7": 110,
     "g8": 138,
-    "g9": 536,
-    "g95": 589,
-    "g10": 8581
+    "g9": 535,
+    "g95": 588,
+    "g10": 8560
    },
    "basis": {
     "n90": 12,
@@ -10470,13 +10470,13 @@
     "pc_avg": 62.0,
     "grade": "raw (NM)"
    },
-   "value": 167,
-   "landed": 211,
-   "gap": 0.52,
+   "value": 166,
+   "landed": 210,
+   "gap": 0.53,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -236,
-   "psa9_net": 76
+   "psa9_net": 75
   },
   {
    "title": "Pokemon- Entei 10/147 Rev Holo Aquapolis",
@@ -10503,10 +10503,10 @@
    "aud": {
     "raw": 108,
     "g7": 90,
-    "g8": 413,
-    "g9": 601,
-    "g95": 662,
-    "g10": 11156
+    "g8": 412,
+    "g9": 600,
+    "g95": 660,
+    "g10": 11128
    },
    "basis": {
     "n90": 8,
@@ -10515,13 +10515,13 @@
     "pc_avg": 71.94,
     "grade": "raw (NM)"
    },
-   "value": 151,
+   "value": 150,
    "landed": 193,
-   "gap": 0.56,
+   "gap": 0.57,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -13,
-   "psa9_net": 145
+   "psa8_net": -14,
+   "psa9_net": 144
   },
   {
    "title": "Pokemon- Marill 53/147 Rev Holo Aquapolis",
@@ -10546,12 +10546,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/marill-reverse-holo-53",
    "matched": "Marill [Reverse Holo] #53   Pokemon Aquapolis",
    "aud": {
-    "raw": 121,
+    "raw": 120,
     "g7": 110,
-    "g8": 201,
+    "g8": 200,
     "g9": 220,
-    "g95": 243,
-    "g10": 4070
+    "g95": 242,
+    "g10": 4060
    },
    "basis": {
     "n90": 9,
@@ -10560,9 +10560,9 @@
     "pc_avg": 80.0,
     "grade": "raw (NM)"
    },
-   "value": 181,
+   "value": 180,
    "landed": 226,
-   "gap": 0.2,
+   "gap": 0.21,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -151,
@@ -10593,10 +10593,10 @@
    "aud": {
     "raw": 162,
     "g7": 196,
-    "g8": 340,
-    "g9": 902,
-    "g95": 992,
-    "g10": 7863
+    "g8": 339,
+    "g9": 900,
+    "g95": 990,
+    "g10": 7844
    },
    "basis": {
     "n90": 8,
@@ -10606,12 +10606,12 @@
     "grade": "raw (NM)"
    },
    "value": 241,
-   "landed": 293,
+   "landed": 292,
    "gap": -0.13,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -4,
-   "psa9_net": 511
+   "psa8_net": -5,
+   "psa9_net": 509
   },
   {
    "title": "Pokemon- Octillery H20/H32 Holo Aquapolis",
@@ -10637,11 +10637,11 @@
    "matched": "Octillery #H20   Pokemon Aquapolis",
    "aud": {
     "raw": 115,
-    "g7": 222,
-    "g8": 315,
-    "g9": 739,
-    "g95": 1157,
-    "g10": 5956
+    "g7": 221,
+    "g8": 314,
+    "g9": 737,
+    "g95": 1154,
+    "g10": 5942
    },
    "basis": {
     "n90": 3,
@@ -10650,13 +10650,13 @@
     "pc_avg": 76.25,
     "grade": "raw (NM)"
    },
-   "value": 181,
+   "value": 180,
    "landed": 226,
    "gap": 0.06,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -35,
-   "psa9_net": 220
+   "psa9_net": 219
   },
   {
    "title": "Pokemon- Kingler 15/165 Holo Expedition",
@@ -10705,11 +10705,11 @@
    "matched": "Venusaur [Reverse Holo] #68   Pokemon Expedition",
    "aud": {
     "raw": 98,
-    "g7": 176,
-    "g8": 266,
-    "g9": 754,
-    "g95": 829,
-    "g10": 7315
+    "g7": 175,
+    "g8": 265,
+    "g9": 752,
+    "g95": 827,
+    "g10": 7297
    },
    "basis": {
     "n90": 12,
@@ -10719,12 +10719,12 @@
     "grade": "raw (NM)"
    },
    "value": 135,
-   "landed": 177,
+   "landed": 176,
    "gap": 0.42,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -45,
-   "psa9_net": 263
+   "psa8_net": -46,
+   "psa9_net": 262
   },
   {
    "title": "Pokemon - Dark Vaporeon 9/110 Holo Legendary Collection",
@@ -10775,9 +10775,9 @@
     "raw": 121,
     "g7": 45,
     "g8": 155,
-    "g9": 489,
-    "g95": 538,
-    "g10": 595
+    "g9": 488,
+    "g95": 537,
+    "g10": 594
    },
    "basis": {
     "n90": 2,
@@ -10792,7 +10792,7 @@
    "thin": true,
    "signal": "OVER",
    "psa8_net": -142,
-   "psa9_net": 120
+   "psa9_net": 119
   },
   {
    "title": "Pokemon- Poliwrath 60/165 Rev Holo Expedition",
@@ -10818,11 +10818,11 @@
    "matched": "Poliwrath [Reverse Holo] #60   Pokemon Expedition",
    "aud": {
     "raw": 87,
-    "g7": 151,
-    "g8": 199,
-    "g9": 512,
-    "g95": 528,
-    "g10": 5125
+    "g7": 150,
+    "g8": 198,
+    "g9": 511,
+    "g95": 526,
+    "g10": 5112
    },
    "basis": {
     "n90": 7,
@@ -10831,13 +10831,13 @@
     "pc_avg": 57.56,
     "grade": "raw (NM)"
    },
-   "value": 136,
-   "landed": 177,
-   "gap": 0.14,
+   "value": 135,
+   "landed": 176,
+   "gap": 0.15,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -62,
-   "psa9_net": 281
+   "psa8_net": -63,
+   "psa9_net": 280
   },
   {
    "title": "Pokemon- Poliwag 125/165 Rev Holo Expedition",
@@ -10862,12 +10862,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/poliwag-reverse-holo-125",
    "matched": "Poliwag [Reverse Holo] #125   Pokemon Expedition",
    "aud": {
-    "raw": 84,
+    "raw": 83,
     "g7": 36,
     "g8": 113,
-    "g9": 586,
-    "g95": 645,
-    "g10": 1677
+    "g9": 585,
+    "g95": 644,
+    "g10": 1673
    },
    "basis": {
     "n90": 3,
@@ -10877,12 +10877,12 @@
     "grade": "raw (NM)"
    },
    "value": 83,
-   "landed": 119,
+   "landed": 118,
    "gap": 0.87,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -157,
-   "psa9_net": 214
+   "psa9_net": 213
   },
   {
    "title": "Pokemon- Primal Groudon Ex 97/98 Ancient Origins",
@@ -10907,12 +10907,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-ancient-origins/primal-groudon-ex-97",
    "matched": "Primal Groudon ex #97   Pokemon Ancient Origins",
    "aud": {
-    "raw": 360,
-    "g7": 516,
-    "g8": 678,
-    "g9": 1263,
-    "g95": 1922,
-    "g10": 7688
+    "raw": 359,
+    "g7": 514,
+    "g8": 676,
+    "g9": 1260,
+    "g95": 1917,
+    "g10": 7669
    },
    "basis": {
     "n90": 13,
@@ -10921,13 +10921,13 @@
     "pc_avg": 238.88,
     "grade": "raw (NM)"
    },
-   "value": 502,
-   "landed": 580,
+   "value": 501,
+   "landed": 578,
    "gap": -0.08,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 13,
-   "psa9_net": 511
+   "psa8_net": 11,
+   "psa9_net": 509
   },
   {
    "title": "Pokemon - Birthday Pikachu Worlds Collection Black Star Promo #24",
@@ -11004,11 +11004,11 @@
    "matched": "Virizion #103   Pokemon Plasma Blast",
    "aud": {
     "raw": 131,
-    "g7": 377,
-    "g8": 417,
-    "g9": 1809,
-    "g95": 1990,
-    "g10": 6758
+    "g7": 376,
+    "g8": 416,
+    "g9": 1805,
+    "g95": 1985,
+    "g10": 6741
    },
    "basis": {
     "n90": 15,
@@ -11017,36 +11017,13 @@
     "pc_avg": 86.94,
     "grade": "raw (NM)"
    },
-   "value": 181,
+   "value": 180,
    "landed": 226,
-   "gap": 0.55,
+   "gap": 0.56,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 17,
-   "psa9_net": 1163
-  },
-  {
-   "title": "Pokemon - Erikas Venusaur Holo 4/132 Gym Challenge",
-   "shop": "Mega Cash",
-   "url": "https://megacash.com.au/products/pokemon-erika-s-venusaur-holo-4-132-gym-challenge",
-   "listed": "2026-11-05",
-   "price": 224.1,
-   "post": 12.0,
-   "cost": 236.1,
-   "grader": null,
-   "grade": null,
-   "jp": false,
-   "links": {
-    "au": "https://www.ebay.com.au/sch/i.html?_nkw=erikas+venusaur+%284%2F132%2C004%2F132%29+-1st+-reverse&LH_PrefLoc=1",
-    "jp": "https://www.ebay.com.au/sch/i.html?_nkw=erikas+venusaur+%284%2F132%2C004%2F132%29+-1st+-reverse&LH_LocatedIn=1&_salic=104",
-    "cn": "https://www.ebay.com.au/sch/i.html?_nkw=erikas+venusaur+%284%2F132%2C004%2F132%29+-1st+-reverse&LH_LocatedIn=1&_salic=45",
-    "sold": "https://www.ebay.com.au/sch/i.html?_nkw=erikas+venusaur+%284%2F132%2C004%2F132%29+-1st+-reverse&LH_Sold=1&LH_Complete=1&LH_PrefLoc=2"
-   },
-   "live": null,
-   "auction": false,
-   "offers": false,
-   "signal": "UNPRICED",
-   "why": "no PriceCharting card fit (top result /game/pokemon-gym-challenge/erika%27s-venusaur-4)"
+   "psa8_net": 16,
+   "psa9_net": 1160
   },
   {
    "title": "Pokemon- Raikou Holo 13/64 Neo Revelation",
@@ -11073,10 +11050,10 @@
    "aud": {
     "raw": 205,
     "g7": 384,
-    "g8": 535,
-    "g9": 1073,
-    "g95": 1593,
-    "g10": 4679
+    "g8": 534,
+    "g9": 1070,
+    "g95": 1590,
+    "g10": 4667
    },
    "basis": {
     "n90": 10,
@@ -11086,12 +11063,12 @@
     "grade": "raw (NM)"
    },
    "value": 301,
-   "landed": 359,
+   "landed": 358,
    "gap": -0.37,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 127,
-   "psa9_net": 648
+   "psa8_net": 126,
+   "psa9_net": 646
   },
   {
    "title": "Pokemon- Kyogre Ex 148/160 Primal Clash",
@@ -11117,26 +11094,26 @@
    "matched": "Kyogre EX #148   Pokemon Primal Clash",
    "aud": {
     "raw": 120,
-    "g7": 383,
-    "g8": 422,
-    "g9": 7161,
-    "g95": 7877,
-    "g10": 9807
+    "g7": 382,
+    "g8": 421,
+    "g9": 7143,
+    "g95": 7857,
+    "g10": 9783
    },
    "basis": {
-    "n90": 9,
+    "n90": 8,
     "last": "2026-11-23",
     "basis": "90-day NM median",
     "pc_avg": 79.88,
     "grade": "raw (NM)"
    },
-   "value": 286,
-   "landed": 343,
-   "gap": -0.33,
+   "value": 256,
+   "landed": 309,
+   "gap": -0.25,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 79,
-   "psa9_net": 5562
+   "psa8_net": 78,
+   "psa9_net": 5547
   },
   {
    "title": "Pokemon - Crobat Prime 84/95 HGSS Unleashed",
@@ -11208,9 +11185,9 @@
    "matched": "Terrakion #64   Pokemon Japanese Cold Flare",
    "aud": {
     "raw": 49,
-    "g9": 175,
+    "g9": 174,
     "g95": 191,
-    "g10": 1085
+    "g10": 1083
    },
    "basis": {
     "n90": 0,
@@ -11225,7 +11202,7 @@
    "thin": true,
    "signal": "OVER",
    "psa8_net": null,
-   "psa9_net": -99
+   "psa9_net": -100
   },
   {
    "title": "Pokemon - Gyarados Holo XY109 Black Star Promo",
@@ -11257,10 +11234,10 @@
    "aud": {
     "raw": 84,
     "g7": 195,
-    "g8": 351,
-    "g9": 1629,
-    "g95": 1792,
-    "g10": 7844
+    "g8": 350,
+    "g9": 1625,
+    "g95": 1788,
+    "g10": 7824
    },
    "basis": {
     "n90": 9,
@@ -11269,13 +11246,13 @@
     "pc_avg": 55.6,
     "grade": "raw (NM)"
    },
-   "value": 101,
+   "value": 100,
    "landed": 138,
-   "gap": 0.27,
+   "gap": 0.28,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 18,
-   "psa9_net": 962
+   "psa8_net": 17,
+   "psa9_net": 959
   },
   {
    "title": "Pokemon - Xerneas Ex 146/146 XY Base Set",
@@ -11351,12 +11328,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-steam-siege/gardevoir-ex-116",
    "matched": "Gardevoir EX #116   Pokemon Steam Siege",
    "aud": {
-    "raw": 126,
+    "raw": 125,
     "g7": 140,
     "g8": 228,
-    "g9": 400,
-    "g95": 1012,
-    "g10": 2827
+    "g9": 399,
+    "g95": 1009,
+    "g10": 2820
    },
    "basis": {
     "n90": 18,
@@ -11370,8 +11347,8 @@
    "gap": -0.32,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -58,
-   "psa9_net": 136
+   "psa8_net": -59,
+   "psa9_net": 135
   },
   {
    "title": "Pokemon - Rockets Hitmonchan Holo 11/132 Gym Challenge",
@@ -11442,12 +11419,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-holon-phantoms/mewtwo-gold-star-103",
    "matched": "Mewtwo [Gold Star] #103   Pokemon Holon Phantoms",
    "aud": {
-    "raw": 4430,
-    "g7": 10854,
-    "g8": 16582,
-    "g9": 22070,
-    "g95": 24698,
-    "g10": 237733
+    "raw": 4419,
+    "g7": 10827,
+    "g8": 16542,
+    "g9": 22016,
+    "g95": 24638,
+    "g10": 237149
    },
    "basis": {
     "n90": 17,
@@ -11456,13 +11433,13 @@
     "pc_avg": 2938.82,
     "grade": "raw (NM)"
    },
-   "value": 6395,
-   "landed": 7062,
-   "gap": -0.44,
+   "value": 6379,
+   "landed": 7045,
+   "gap": -0.43,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 11133,
-   "psa9_net": 13202
+   "psa8_net": 11096,
+   "psa9_net": 13160
   },
   {
    "title": "Pokemon - PSA 10 JP Raikou 039/088 Split Earth",
@@ -11487,12 +11464,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-split-earth/raikou-39",
    "matched": "Raikou #39   Pokemon Japanese Split Earth",
    "aud": {
-    "raw": 244,
-    "g7": 300,
-    "g8": 546,
-    "g9": 678,
-    "g95": 746,
-    "g10": 4435
+    "raw": 243,
+    "g7": 299,
+    "g8": 544,
+    "g9": 677,
+    "g95": 744,
+    "g10": 4424
    },
    "basis": {
     "n90": 3,
@@ -11501,8 +11478,8 @@
     "pc_avg": 2942.15,
     "grade": "PSA 10"
    },
-   "value": 4522,
-   "landed": 5024,
+   "value": 4511,
+   "landed": 5012,
    "gap": -0.15,
    "thin": false,
    "signal": "FAIR"
@@ -11558,12 +11535,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-expedition-expansion-pack/pidgeot-1st-edition-123",
    "matched": "Pidgeot [1st Edition] #123   Pokemon Japanese Expedition Expansion Pack",
    "aud": {
-    "raw": 136,
+    "raw": 135,
     "g7": 135,
-    "g8": 339,
-    "g9": 410,
-    "g95": 451,
-    "g10": 1319
+    "g8": 338,
+    "g9": 409,
+    "g95": 450,
+    "g10": 1316
    },
    "basis": {
     "n90": 5,
@@ -11572,8 +11549,8 @@
     "pc_avg": 874.99,
     "grade": "PSA 10"
    },
-   "value": 1357,
-   "landed": 1542,
+   "value": 1353,
+   "landed": 1538,
    "gap": -0.03,
    "thin": false,
    "signal": "FAIR"
@@ -11698,12 +11675,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-mega-dream-ex/mega-dragonite-ex-246",
    "matched": "Mega Dragonite ex #246   Pokemon Japanese Mega Dream ex",
    "aud": {
-    "raw": 194,
+    "raw": 193,
     "g7": 163,
     "g8": 188,
     "g9": 208,
-    "g95": 242,
-    "g10": 307
+    "g95": 241,
+    "g10": 306
    },
    "basis": {
     "n90": 30,
@@ -11712,9 +11689,9 @@
     "pc_avg": 203.77,
     "grade": "PSA 10"
    },
-   "value": 278,
+   "value": 277,
    "landed": 355,
-   "gap": 0.33,
+   "gap": 0.34,
    "thin": false,
    "signal": "OVER"
   },
@@ -11767,9 +11744,9 @@
     "raw": 108,
     "g7": 79,
     "g8": 207,
-    "g9": 228,
+    "g9": 227,
     "g95": 250,
-    "g10": 273
+    "g10": 272
    },
    "basis": {
     "n90": 30,
@@ -11778,7 +11755,7 @@
     "pc_avg": 181.0,
     "grade": "PSA 10"
    },
-   "value": 198,
+   "value": 197,
    "landed": 267,
    "gap": 0.06,
    "thin": false,
@@ -11812,7 +11789,7 @@
     "g8": 100,
     "g9": 119,
     "g95": 138,
-    "g10": 475
+    "g10": 474
    },
    "basis": {
     "n90": 30,
@@ -11822,7 +11799,7 @@
     "grade": "PSA 9"
    },
    "value": 119,
-   "landed": 181,
+   "landed": 180,
    "gap": 0.38,
    "thin": false,
    "signal": "OVER-US"
@@ -11850,12 +11827,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-discovery/umbreon-13",
    "matched": "Umbreon #13   Pokemon Neo Discovery",
    "aud": {
-    "raw": 483,
-    "g7": 1108,
-    "g8": 2035,
-    "g9": 3608,
-    "g95": 9196,
-    "g10": 36179
+    "raw": 481,
+    "g7": 1105,
+    "g8": 2030,
+    "g9": 3599,
+    "g95": 9173,
+    "g10": 36090
    },
    "basis": {
     "n90": 30,
@@ -11864,8 +11841,8 @@
     "pc_avg": 1350.0,
     "grade": "PSA 8"
    },
-   "value": 1979,
-   "landed": 2227,
+   "value": 1974,
+   "landed": 2221,
    "gap": -0.04,
    "thin": false,
    "signal": "FAIR"
@@ -11893,12 +11870,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-stormfront/charizard-103",
    "matched": "Charizard #103   Pokemon Stormfront",
    "aud": {
-    "raw": 591,
-    "g7": 2033,
-    "g8": 2487,
-    "g9": 6603,
-    "g95": 7263,
-    "g10": 18843
+    "raw": 590,
+    "g7": 2028,
+    "g8": 2481,
+    "g9": 6586,
+    "g95": 7245,
+    "g10": 18797
    },
    "basis": {
     "n90": 21,
@@ -11907,8 +11884,8 @@
     "pc_avg": 1348.55,
     "grade": "PSA 7"
    },
-   "value": 1999,
-   "landed": 2248,
+   "value": 1994,
+   "landed": 2243,
    "gap": -0.14,
    "thin": false,
    "signal": "FAIR"
@@ -11936,12 +11913,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-evolving-skies/rayquaza-vmax-218",
    "matched": "Rayquaza VMAX #218   Pokemon Evolving Skies",
    "aud": {
-    "raw": 1244,
-    "g7": 1217,
-    "g8": 1270,
-    "g9": 1417,
-    "g95": 1960,
-    "g10": 2676
+    "raw": 1241,
+    "g7": 1214,
+    "g8": 1267,
+    "g9": 1414,
+    "g95": 1955,
+    "g10": 2670
    },
    "basis": {
     "n90": 30,
@@ -11950,8 +11927,8 @@
     "pc_avg": 940.12,
     "grade": "PSA 9"
    },
-   "value": 1440,
-   "landed": 1633,
+   "value": 1436,
+   "landed": 1629,
    "gap": -0.05,
    "thin": false,
    "signal": "FAIR"
@@ -12002,12 +11979,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-surging-sparks/pikachu-ex-238",
    "matched": "Pikachu ex #238   Pokemon Surging Sparks",
    "aud": {
-    "raw": 314,
-    "g7": 237,
-    "g8": 296,
-    "g9": 300,
-    "g95": 580,
-    "g10": 1013
+    "raw": 313,
+    "g7": 236,
+    "g8": 295,
+    "g9": 299,
+    "g95": 579,
+    "g10": 1010
    },
    "basis": {
     "n90": 30,
@@ -12016,8 +11993,8 @@
     "pc_avg": 671.95,
     "grade": "PSA 10"
    },
-   "value": 1018,
-   "landed": 1169,
+   "value": 1015,
+   "landed": 1166,
    "gap": 0.03,
    "thin": false,
    "signal": "OVER-US"
@@ -12094,9 +12071,9 @@
     "raw": 141,
     "g7": 63,
     "g8": 305,
-    "g9": 372,
-    "g95": 409,
-    "g10": 1357
+    "g9": 371,
+    "g95": 408,
+    "g10": 1353
    },
    "basis": {
     "grade": "PSA 6",
@@ -12130,12 +12107,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-expedition-expansion-pack/pidgeot-1st-edition-123",
    "matched": "Pidgeot [1st Edition] #123   Pokemon Japanese Expedition Expansion Pack",
    "aud": {
-    "raw": 136,
+    "raw": 135,
     "g7": 135,
-    "g8": 339,
-    "g9": 410,
-    "g95": 451,
-    "g10": 1319
+    "g8": 338,
+    "g9": 409,
+    "g95": 450,
+    "g10": 1316
    },
    "basis": {
     "n90": 0,
@@ -12173,12 +12150,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-revelation/ho-oh-double-holo-error-7",
    "matched": "Ho-Oh [Double Holo Error] #7   Pokemon Neo Revelation",
    "aud": {
-    "raw": 377,
-    "g7": 1184,
-    "g8": 1531,
-    "g9": 7538,
-    "g95": 7978,
-    "g10": 8140
+    "raw": 376,
+    "g7": 1181,
+    "g8": 1527,
+    "g9": 7519,
+    "g95": 7958,
+    "g10": 8121
    },
    "basis": {
     "n90": 3,
@@ -12187,8 +12164,8 @@
     "pc_avg": 1015.39,
     "grade": "PSA 8"
    },
-   "value": 1801,
-   "landed": 2031,
+   "value": 1797,
+   "landed": 2026,
    "gap": -0.59,
    "thin": false,
    "signal": "UNDER"
@@ -12262,9 +12239,9 @@
     "raw": 25,
     "g7": 27,
     "g8": 30,
-    "g9": 51,
+    "g9": 50,
     "g95": 56,
-    "g10": 110
+    "g10": 109
    },
    "basis": {
     "n90": 30,
@@ -12273,9 +12250,9 @@
     "pc_avg": 72.77,
     "grade": "PSA 10"
    },
-   "value": 109,
+   "value": 108,
    "landed": 169,
-   "gap": 0.22,
+   "gap": 0.24,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -12303,11 +12280,11 @@
    "matched": "Ivysaur #167   Pokemon Japanese Scarlet & Violet 151",
    "aud": {
     "raw": 19,
-    "g7": 25,
+    "g7": 24,
     "g8": 44,
-    "g9": 52,
+    "g9": 51,
     "g95": 57,
-    "g10": 99
+    "g10": 98
    },
    "basis": {
     "n90": 30,
@@ -12317,7 +12294,7 @@
     "grade": "PSA 10"
    },
    "value": 87,
-   "landed": 146,
+   "landed": 145,
    "gap": 0.47,
    "thin": false,
    "signal": "OVER-US"
@@ -12347,10 +12324,10 @@
    "aud": {
     "raw": 28,
     "g7": 59,
-    "g8": 95,
+    "g8": 94,
     "g9": 157,
-    "g95": 203,
-    "g10": 1357
+    "g95": 202,
+    "g10": 1353
    },
    "basis": {
     "n90": 7,
@@ -12388,12 +12365,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-legendary-collection/moltres-reverse-holo-30",
    "matched": "Moltres [Reverse Holo] #30   Pokemon Legendary Collection",
    "aud": {
-    "raw": 459,
-    "g7": 1634,
-    "g8": 1643,
-    "g9": 4342,
-    "g95": 4776,
-    "g10": 50652
+    "raw": 458,
+    "g7": 1630,
+    "g8": 1639,
+    "g9": 4331,
+    "g95": 4764,
+    "g10": 50528
    },
    "basis": {
     "n90": 21,
@@ -12402,13 +12379,13 @@
     "pc_avg": 304.75,
     "grade": "raw (NM)"
    },
-   "value": 550,
-   "landed": 633,
+   "value": 549,
+   "landed": 631,
    "gap": 0.17,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 476,
-   "psa9_net": 1661
+   "psa8_net": 474,
+   "psa9_net": 1655
   },
   {
    "title": "Pokemon - Alakazam 1/165 Holo Expedition",
@@ -12456,12 +12433,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/tyranitar-reverse-holo-40",
    "matched": "Tyranitar [Reverse Holo] #40   Pokemon Aquapolis",
    "aud": {
-    "raw": 173,
-    "g7": 744,
-    "g8": 912,
-    "g9": 1056,
-    "g95": 1161,
-    "g10": 12211
+    "raw": 172,
+    "g7": 742,
+    "g8": 910,
+    "g9": 1053,
+    "g95": 1158,
+    "g10": 12181
    },
    "basis": {
     "n90": 6,
@@ -12470,13 +12447,13 @@
     "pc_avg": 114.5,
     "grade": "raw (NM)"
    },
-   "value": 810,
-   "landed": 919,
+   "value": 808,
+   "landed": 917,
    "gap": -0.32,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 144,
-   "psa9_net": 775
+   "psa8_net": 142,
+   "psa9_net": 772
   },
   {
    "title": "Pokemon - Dewgong H6/H32 Holo Skyridge",
@@ -12501,12 +12478,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/dewgong-h6",
    "matched": "Dewgong #H6   Pokemon Skyridge",
    "aud": {
-    "raw": 482,
-    "g7": 528,
-    "g8": 822,
-    "g9": 912,
-    "g95": 1004,
-    "g10": 6407
+    "raw": 481,
+    "g7": 526,
+    "g8": 820,
+    "g9": 910,
+    "g95": 1002,
+    "g10": 6391
    },
    "basis": {
     "n90": 5,
@@ -12515,13 +12492,13 @@
     "pc_avg": 319.64,
     "grade": "raw (NM)"
    },
-   "value": 678,
-   "landed": 774,
+   "value": 677,
+   "landed": 772,
    "gap": -0.32,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 211,
-   "psa9_net": 311
+   "psa8_net": 210,
+   "psa9_net": 308
   },
   {
    "title": "Pokemon - Suicune H25/H32 Holo Aquapolis",
@@ -12546,12 +12523,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/suicune-h25",
    "matched": "Suicune #H25   Pokemon Aquapolis",
    "aud": {
-    "raw": 406,
-    "g7": 885,
-    "g8": 1932,
-    "g9": 3844,
-    "g95": 4070,
-    "g10": 21256
+    "raw": 405,
+    "g7": 882,
+    "g8": 1927,
+    "g9": 3835,
+    "g95": 4060,
+    "g10": 21203
    },
    "basis": {
     "n90": 14,
@@ -12560,13 +12537,13 @@
     "pc_avg": 269.08,
     "grade": "raw (NM)"
    },
-   "value": 632,
-   "landed": 722,
+   "value": 630,
+   "landed": 721,
    "gap": -0.27,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 643,
-   "psa9_net": 2494
+   "psa8_net": 641,
+   "psa9_net": 2487
   },
   {
    "title": "Pokemon - Light Dragonite 14/105 Holo Neo Destiny",
@@ -12592,11 +12569,11 @@
    "matched": "Light Dragonite #14   Pokemon Neo Destiny",
    "aud": {
     "raw": 398,
-    "g7": 583,
-    "g8": 848,
-    "g9": 1549,
-    "g95": 1703,
-    "g10": 7538
+    "g7": 582,
+    "g8": 846,
+    "g9": 1545,
+    "g95": 1699,
+    "g10": 7519
    },
    "basis": {
     "n90": 4,
@@ -12605,13 +12582,13 @@
     "pc_avg": 264.34,
     "grade": "raw (NM)"
    },
-   "value": 692,
-   "landed": 789,
+   "value": 691,
+   "landed": 787,
    "gap": -0.33,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 39,
-   "psa9_net": 688
+   "psa8_net": 49,
+   "psa9_net": 685
   },
   {
    "title": "Pokemon - Raichu 27/144 Rev Holo Skyridge",
@@ -12636,12 +12613,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/raichu-reverse-holo-27",
    "matched": "Raichu [Reverse Holo] #27   Pokemon Skyridge",
    "aud": {
-    "raw": 313,
-    "g7": 404,
-    "g8": 448,
-    "g9": 1168,
-    "g95": 1286,
-    "g10": 4700
+    "raw": 312,
+    "g7": 403,
+    "g8": 447,
+    "g9": 1165,
+    "g95": 1283,
+    "g10": 4688
    },
    "basis": {
     "n90": 4,
@@ -12650,13 +12627,13 @@
     "pc_avg": 207.5,
     "grade": "raw (NM)"
    },
-   "value": 452,
-   "landed": 525,
+   "value": 451,
+   "landed": 524,
    "gap": 0.02,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -20,
-   "psa9_net": 231
+   "psa8_net": -21,
+   "psa9_net": 229
   },
   {
    "title": "Pokemon - Piloswine H22/H32 Holo Skyridge",
@@ -12682,11 +12659,11 @@
    "matched": "Piloswine #H22   Pokemon Skyridge",
    "aud": {
     "raw": 346,
-    "g7": 317,
-    "g8": 618,
-    "g9": 995,
-    "g95": 1094,
-    "g10": 4704
+    "g7": 316,
+    "g8": 617,
+    "g9": 993,
+    "g95": 1092,
+    "g10": 4692
    },
    "basis": {
     "n90": 6,
@@ -12695,13 +12672,13 @@
     "pc_avg": 229.82,
     "grade": "raw (NM)"
    },
-   "value": 508,
-   "landed": 586,
+   "value": 507,
+   "landed": 585,
    "gap": -0.13,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -49,
-   "psa9_net": 219
+   "psa8_net": -50,
+   "psa9_net": 217
   },
   {
    "title": "Pokemon - Weakness Guard 141/147 Rev Holo Aquapolis",
@@ -12726,12 +12703,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/weakness-guard-reverse-holo-141",
    "matched": "Weakness Guard [Reverse Holo] #141   Pokemon Aquapolis",
    "aud": {
-    "raw": 279,
-    "g7": 285,
-    "g8": 1508,
-    "g9": 1658,
-    "g95": 1824,
-    "g10": 2751
+    "raw": 278,
+    "g7": 284,
+    "g8": 1504,
+    "g9": 1654,
+    "g95": 1820,
+    "g10": 2744
    },
    "basis": {
     "n90": 9,
@@ -12740,13 +12717,13 @@
     "pc_avg": 184.98,
     "grade": "raw (NM)"
    },
-   "value": 452,
-   "landed": 525,
+   "value": 451,
+   "landed": 524,
    "gap": -0.08,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 674,
-   "psa9_net": 792
+   "psa8_net": 671,
+   "psa9_net": 789
   },
   {
    "title": "Pokemon - Typhlosion 64/165 Rev Holo Expedition",
@@ -12771,12 +12748,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/typhlosion-reverse-holo-64",
    "matched": "Typhlosion [Reverse Holo] #64   Pokemon Expedition",
    "aud": {
-    "raw": 151,
+    "raw": 150,
     "g7": 102,
-    "g8": 261,
-    "g9": 980,
-    "g95": 1078,
-    "g10": 5236
+    "g8": 260,
+    "g9": 977,
+    "g95": 1075,
+    "g10": 5223
    },
    "basis": {
     "n90": 13,
@@ -12790,8 +12767,8 @@
    "gap": 0.66,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -257,
-   "psa9_net": 247
+   "psa8_net": -258,
+   "psa9_net": 245
   },
   {
    "title": "Pokemon - Tentacruel H26/H32 Holo Aquapolis",
@@ -12817,11 +12794,11 @@
    "matched": "Tentacruel #H26   Pokemon Aquapolis",
    "aud": {
     "raw": 145,
-    "g7": 377,
-    "g8": 516,
-    "g9": 933,
-    "g95": 1027,
-    "g10": 9068
+    "g7": 376,
+    "g8": 515,
+    "g9": 931,
+    "g95": 1024,
+    "g10": 9046
    },
    "basis": {
     "n90": 5,
@@ -12830,13 +12807,13 @@
     "pc_avg": 96.23,
     "grade": "raw (NM)"
    },
-   "value": 369,
-   "landed": 434,
+   "value": 368,
+   "landed": 433,
    "gap": 0.01,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 82,
-   "psa9_net": 270
+   "psa8_net": 81,
+   "psa9_net": 268
   },
   {
    "title": "Pokemon - Magcargo Holo H17/H32 Skyridge",
@@ -12861,12 +12838,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/magcargo-h17",
    "matched": "Magcargo #H17   Pokemon Skyridge",
    "aud": {
-    "raw": 283,
-    "g7": 242,
-    "g8": 917,
-    "g9": 1010,
-    "g95": 1111,
-    "g10": 4904
+    "raw": 282,
+    "g7": 241,
+    "g8": 915,
+    "g9": 1008,
+    "g95": 1108,
+    "g10": 4892
    },
    "basis": {
     "n90": 2,
@@ -12875,13 +12852,13 @@
     "thin": true,
     "grade": "raw (NM)"
    },
-   "value": 283,
+   "value": 282,
    "landed": 338,
-   "gap": 0.31,
+   "gap": 0.32,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": 248,
-   "psa9_net": 443
+   "psa8_net": 246,
+   "psa9_net": 441
   },
   {
    "title": "Pokemon - Dark Tyranitar Holo 11/105 Neo Destiny",
@@ -12907,11 +12884,11 @@
    "matched": "Dark Tyranitar #11   Pokemon Neo Destiny",
    "aud": {
     "raw": 259,
-    "g7": 510,
-    "g8": 641,
-    "g9": 1628,
-    "g95": 1791,
-    "g10": 12135
+    "g7": 509,
+    "g8": 639,
+    "g9": 1624,
+    "g95": 1787,
+    "g10": 12106
    },
    "basis": {
     "n90": 3,
@@ -12920,13 +12897,13 @@
     "pc_avg": 172.02,
     "grade": "raw (NM)"
    },
-   "value": 369,
-   "landed": 434,
+   "value": 368,
+   "landed": 433,
    "gap": 0.01,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 41,
-   "psa9_net": 360
+   "psa8_net": 39,
+   "psa9_net": 596
   },
   {
    "title": "Pokemon - Pikachu 124/165 Rev Holo Expedition",
@@ -12951,12 +12928,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/pikachu-reverse-holo-124",
    "matched": "Pikachu [Reverse Holo] #124   Pokemon Expedition",
    "aud": {
-    "raw": 211,
-    "g7": 566,
-    "g8": 709,
-    "g9": 1509,
-    "g95": 1660,
-    "g10": 12814
+    "raw": 210,
+    "g7": 564,
+    "g8": 707,
+    "g9": 1505,
+    "g95": 1656,
+    "g10": 12782
    },
    "basis": {
     "n90": 17,
@@ -12965,13 +12942,13 @@
     "pc_avg": 139.78,
     "grade": "raw (NM)"
    },
-   "value": 294,
-   "landed": 351,
+   "value": 293,
+   "landed": 350,
    "gap": 0.14,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 578,
-   "psa9_net": 623
+   "psa8_net": 576,
+   "psa9_net": 620
   },
   {
    "title": "Pokemon - Magby 17/165 Holo Expedition",
@@ -13020,11 +12997,11 @@
    "matched": "Pichu [Reverse Holo] #58   Pokemon Expedition",
    "aud": {
     "raw": 139,
-    "g7": 191,
-    "g8": 201,
-    "g9": 1146,
-    "g95": 1752,
-    "g10": 6789
+    "g7": 190,
+    "g8": 200,
+    "g9": 1143,
+    "g95": 1748,
+    "g10": 6772
    },
    "basis": {
     "n90": 11,
@@ -13033,13 +13010,13 @@
     "pc_avg": 92.5,
     "grade": "raw (NM)"
    },
-   "value": 151,
+   "value": 150,
    "landed": 193,
-   "gap": 0.86,
+   "gap": 0.87,
    "thin": false,
    "signal": "OVER",
    "psa8_net": -214,
-   "psa9_net": 514
+   "psa9_net": 512
   },
   {
    "title": "Pokemon - Pokemon Park 131/147 Rev Holo Aquapolis",
@@ -13067,9 +13044,9 @@
     "raw": 95,
     "g7": 78,
     "g8": 98,
-    "g9": 904,
-    "g95": 995,
-    "g10": 3216
+    "g9": 902,
+    "g95": 993,
+    "g10": 3208
    },
    "basis": {
     "n90": 4,
@@ -13083,8 +13060,8 @@
    "gap": 1.7,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -294,
-   "psa9_net": 337
+   "psa8_net": -295,
+   "psa9_net": 335
   },
   {
    "title": "Pokemon - Machamp 16/165 Holo Expedition",
@@ -13132,12 +13109,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/gastly-reverse-holo-109",
    "matched": "Gastly [Reverse Holo] #109   Pokemon Expedition",
    "aud": {
-    "raw": 84,
+    "raw": 83,
     "g7": 211,
-    "g8": 264,
-    "g9": 503,
-    "g95": 553,
-    "g10": 3048
+    "g8": 263,
+    "g9": 501,
+    "g95": 552,
+    "g10": 3040
    },
    "basis": {
     "n90": 8,
@@ -13147,12 +13124,12 @@
     "grade": "raw (NM)"
    },
    "value": 143,
-   "landed": 185,
+   "landed": 184,
    "gap": 0.02,
    "thin": false,
    "signal": "OVER-US",
    "psa8_net": -30,
-   "psa9_net": 207
+   "psa9_net": 205
   },
   {
    "title": "Pokemon - PSA 7 Arcanine H2/H32 Aquapolis",
@@ -13177,12 +13154,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/arcanine-h2",
    "matched": "Arcanine #H2   Pokemon Aquapolis",
    "aud": {
-    "raw": 482,
-    "g7": 1470,
-    "g8": 3179,
-    "g9": 3705,
-    "g95": 4076,
-    "g10": 32939
+    "raw": 481,
+    "g7": 1466,
+    "g8": 3171,
+    "g9": 3696,
+    "g95": 4066,
+    "g10": 32858
    },
    "basis": {
     "n90": 6,
@@ -13191,8 +13168,8 @@
     "pc_avg": 975.0,
     "grade": "PSA 7"
    },
-   "value": 1628,
-   "landed": 1840,
+   "value": 1624,
+   "landed": 1836,
    "gap": 0.39,
    "thin": false,
    "signal": "OVER"
@@ -13222,10 +13199,10 @@
    "aud": {
     "raw": 44,
     "g7": 46,
-    "g8": 53,
-    "g9": 76,
+    "g8": 52,
+    "g9": 75,
     "g95": 88,
-    "g10": 362
+    "g10": 361
    },
    "basis": {
     "n90": 30,
@@ -13235,7 +13212,7 @@
     "grade": "PSA 10"
    },
    "value": 399,
-   "landed": 489,
+   "landed": 488,
    "gap": -0.0,
    "thin": false,
    "signal": "FAIR"
@@ -13263,12 +13240,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-eevee-heroes/umbreon-v-85",
    "matched": "Umbreon V #85   Pokemon Japanese Eevee Heroes",
    "aud": {
-    "raw": 383,
+    "raw": 382,
     "g7": 222,
-    "g8": 239,
-    "g9": 322,
-    "g95": 499,
-    "g10": 724
+    "g8": 238,
+    "g9": 321,
+    "g95": 498,
+    "g10": 722
    },
    "basis": {
     "n90": 2,
@@ -13278,8 +13255,8 @@
     "grade": "CGC 9.5",
     "estimate": "CGC valued at 80% of the PSA/BGS price (no CGC 9.5 column)"
    },
-   "value": 399,
-   "landed": 489,
+   "value": 398,
+   "landed": 488,
    "gap": -0.07,
    "thin": true,
    "signal": "FAIR"
@@ -13330,12 +13307,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-team-rocket/dark-charizard-1st-edition-4",
    "matched": "Dark Charizard [1st Edition] #4   Pokemon Team Rocket",
    "aud": {
-    "raw": 953,
-    "g7": 1334,
-    "g8": 1539,
-    "g9": 3430,
-    "g95": 3705,
-    "g10": 35238
+    "raw": 951,
+    "g7": 1331,
+    "g8": 1535,
+    "g9": 3421,
+    "g95": 3696,
+    "g10": 35151
    },
    "basis": {
     "n90": 30,
@@ -13344,8 +13321,8 @@
     "pc_avg": 1020.89,
     "grade": "PSA 8"
    },
-   "value": 1734,
-   "landed": 1956,
+   "value": 1729,
+   "landed": 1952,
    "gap": 0.15,
    "thin": false,
    "signal": "OVER"
@@ -13377,8 +13354,8 @@
     "g7": 10,
     "g8": 39,
     "g9": 226,
-    "g95": 249,
-    "g10": 1314
+    "g95": 248,
+    "g10": 1311
    },
    "basis": {
     "n90": 1,
@@ -13387,8 +13364,8 @@
     "thin": true,
     "grade": "PSA 10"
    },
-   "value": 1314,
-   "landed": 1495,
+   "value": 1311,
+   "landed": 1492,
    "gap": 0.38,
    "thin": true,
    "signal": "OVER"
@@ -13416,12 +13393,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-genesis/slowking-1st-edition-14",
    "matched": "Slowking [1st Edition] #14   Pokemon Neo Genesis",
    "aud": {
-    "raw": 427,
-    "g7": 619,
-    "g8": 1382,
-    "g9": 3418,
-    "g95": 6055,
-    "g10": 79521
+    "raw": 426,
+    "g7": 617,
+    "g8": 1379,
+    "g9": 3410,
+    "g95": 6040,
+    "g10": 79325
    },
    "basis": {
     "n90": 30,
@@ -13430,8 +13407,8 @@
     "pc_avg": 916.86,
     "grade": "PSA 8"
    },
-   "value": 1380,
-   "landed": 1568,
+   "value": 1377,
+   "landed": 1564,
    "gap": -0.06,
    "thin": false,
    "signal": "FAIR"
@@ -13487,12 +13464,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-legendary-collection/charizard-reverse-holo-3",
    "matched": "Charizard [Reverse Holo] #3   Pokemon Legendary Collection",
    "aud": {
-    "raw": 3878,
-    "g7": 10972,
-    "g8": 16582,
-    "g9": 28152,
-    "g95": 76048,
-    "g10": 579050
+    "raw": 3869,
+    "g7": 10945,
+    "g8": 16542,
+    "g9": 28083,
+    "g95": 75862,
+    "g10": 577629
    },
    "basis": {
     "n90": 27,
@@ -13501,13 +13478,13 @@
     "pc_avg": 2572.76,
     "grade": "raw (NM)"
    },
-   "value": 5427,
-   "landed": 5997,
+   "value": 5414,
+   "landed": 5983,
    "gap": -0.25,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 13377,
-   "psa9_net": 17390
+   "psa8_net": 13334,
+   "psa9_net": 17337
   },
   {
    "title": "Pokemon - Pikachu 84/144 Rev Holo Skyridge",
@@ -13532,12 +13509,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/pikachu-reverse-holo-84",
    "matched": "Pikachu [Reverse Holo] #84   Pokemon Skyridge",
    "aud": {
-    "raw": 950,
-    "g7": 1328,
-    "g8": 1892,
-    "g9": 5201,
-    "g95": 5721,
-    "g10": 17050
+    "raw": 947,
+    "g7": 1325,
+    "g8": 1888,
+    "g9": 5188,
+    "g95": 5707,
+    "g10": 17008
    },
    "basis": {
     "n90": 8,
@@ -13546,13 +13523,13 @@
     "pc_avg": 629.87,
     "grade": "raw (NM)"
    },
-   "value": 1206,
-   "landed": 1354,
-   "gap": -0.1,
+   "value": 1203,
+   "landed": 1351,
+   "gap": -0.09,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 301,
-   "psa9_net": 4041
+   "psa8_net": 297,
+   "psa9_net": 4028
   },
   {
    "title": "Pokemon - Eevee 54/144 Rev Holo Skyridge",
@@ -13578,11 +13555,11 @@
    "matched": "Eevee [Reverse Holo] #54   Pokemon Skyridge",
    "aud": {
     "raw": 311,
-    "g7": 800,
-    "g8": 1138,
-    "g9": 2422,
-    "g95": 2664,
-    "g10": 8683
+    "g7": 799,
+    "g8": 1135,
+    "g9": 2416,
+    "g95": 2657,
+    "g10": 8661
    },
    "basis": {
     "n90": 1,
@@ -13592,12 +13569,12 @@
     "grade": "raw (NM)"
    },
    "value": 311,
-   "landed": 370,
+   "landed": 369,
    "gap": 2.51,
    "thin": true,
    "signal": "OVER",
-   "psa8_net": -47,
-   "psa9_net": 875
+   "psa8_net": -50,
+   "psa9_net": 870
   },
   {
    "title": "Pokemon - Espeon Holo H9/H32 Aquapolis",
@@ -13622,12 +13599,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/espeon-h9",
    "matched": "Espeon #H9   Pokemon Aquapolis",
    "aud": {
-    "raw": 490,
-    "g7": 2068,
-    "g8": 4485,
-    "g9": 5318,
-    "g95": 5851,
-    "g10": 63593
+    "raw": 489,
+    "g7": 2063,
+    "g8": 4474,
+    "g9": 5305,
+    "g95": 5836,
+    "g10": 63437
    },
    "basis": {
     "n90": 3,
@@ -13636,13 +13613,13 @@
     "pc_avg": 324.96,
     "grade": "raw (NM)"
    },
-   "value": 1302,
-   "landed": 1459,
+   "value": 1299,
+   "landed": 1456,
    "gap": -0.23,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 1270,
-   "psa9_net": 2804
+   "psa8_net": 1264,
+   "psa9_net": 2795
   },
   {
    "title": "Pokemon - Ho-Oh Rev Holo 149/144 Skyridge",
@@ -13667,12 +13644,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/ho-oh-reverse-holo-149",
    "matched": "Ho-Oh [Reverse Holo] #149   Pokemon Skyridge",
    "aud": {
-    "raw": 815,
-    "g7": 1686,
-    "g8": 2129,
-    "g9": 3060,
-    "g95": 3366,
-    "g10": 22611
+    "raw": 813,
+    "g7": 1682,
+    "g8": 2124,
+    "g9": 3053,
+    "g95": 3358,
+    "g10": 22555
    },
    "basis": {
     "n90": 7,
@@ -13681,13 +13658,13 @@
     "pc_avg": 540.88,
     "grade": "raw (NM)"
    },
-   "value": 675,
-   "landed": 770,
-   "gap": 0.48,
+   "value": 674,
+   "landed": 769,
+   "gap": 0.49,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 679,
-   "psa9_net": 1594
+   "psa8_net": 675,
+   "psa9_net": 1588
   },
   {
    "title": "Pokemon - Pikachu 84/144 Rev Holo Skyridge",
@@ -13712,12 +13689,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/pikachu-reverse-holo-84",
    "matched": "Pikachu [Reverse Holo] #84   Pokemon Skyridge",
    "aud": {
-    "raw": 950,
-    "g7": 1328,
-    "g8": 1892,
-    "g9": 5201,
-    "g95": 5721,
-    "g10": 17050
+    "raw": 947,
+    "g7": 1325,
+    "g8": 1888,
+    "g9": 5188,
+    "g95": 5707,
+    "g10": 17008
    },
    "basis": {
     "n90": 8,
@@ -13726,13 +13703,13 @@
     "pc_avg": 629.87,
     "grade": "raw (NM)"
    },
-   "value": 1206,
-   "landed": 1354,
+   "value": 1203,
+   "landed": 1351,
    "gap": -0.21,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 436,
-   "psa9_net": 4176
+   "psa8_net": 432,
+   "psa9_net": 4163
   },
   {
    "title": "Pokemon - Cubone 103/165 Rev Holo Expedition",
@@ -13757,12 +13734,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/cubone-reverse-holo-103",
    "matched": "Cubone [Reverse Holo] #103   Pokemon Expedition",
    "aud": {
-    "raw": 299,
-    "g7": 678,
-    "g8": 1463,
-    "g9": 2137,
-    "g95": 2350,
-    "g10": 8140
+    "raw": 298,
+    "g7": 677,
+    "g8": 1460,
+    "g9": 2131,
+    "g95": 2344,
+    "g10": 8120
    },
    "basis": {
     "n90": 5,
@@ -13771,13 +13748,13 @@
     "pc_avg": 198.46,
     "grade": "raw (NM)"
    },
-   "value": 754,
-   "landed": 857,
+   "value": 752,
+   "landed": 855,
    "gap": 0.21,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 257,
-   "psa9_net": 918
+   "psa8_net": 254,
+   "psa9_net": 913
   },
   {
    "title": "Pokemon- Umbreon 13/75 Holo Neo Discovery",
@@ -13802,12 +13779,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-discovery/umbreon-13",
    "matched": "Umbreon #13   Pokemon Neo Discovery",
    "aud": {
-    "raw": 483,
-    "g7": 1108,
-    "g8": 2035,
-    "g9": 3608,
-    "g95": 9196,
-    "g10": 36179
+    "raw": 481,
+    "g7": 1105,
+    "g8": 2030,
+    "g9": 3599,
+    "g95": 9173,
+    "g10": 36090
    },
    "basis": {
     "n90": 19,
@@ -13816,13 +13793,13 @@
     "pc_avg": 320.18,
     "grade": "raw (NM)"
    },
-   "value": 626,
-   "landed": 716,
-   "gap": 0.31,
+   "value": 624,
+   "landed": 714,
+   "gap": 0.32,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 639,
-   "psa9_net": 2128
+   "psa8_net": 635,
+   "psa9_net": 2121
   },
   {
    "title": "Pokemon - Shining Celebi 106/105 Neo Destiny",
@@ -13847,12 +13824,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/shining-celebi-106",
    "matched": "Shining Celebi #106   Pokemon Neo Destiny",
    "aud": {
-    "raw": 585,
-    "g7": 1040,
-    "g8": 1281,
-    "g9": 2048,
-    "g95": 2713,
-    "g10": 10657
+    "raw": 584,
+    "g7": 1038,
+    "g8": 1278,
+    "g9": 2043,
+    "g95": 2707,
+    "g10": 10630
    },
    "basis": {
     "n90": 4,
@@ -13861,13 +13838,13 @@
     "pc_avg": 388.32,
     "grade": "raw (NM)"
    },
-   "value": 870,
-   "landed": 984,
-   "gap": -0.06,
+   "value": 868,
+   "landed": 982,
+   "gap": -0.05,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 92,
-   "psa9_net": 968
+   "psa8_net": 90,
+   "psa9_net": 963
   },
   {
    "title": "Pokemon - Espeon 11/147 Rev Holo Aquapolis",
@@ -13892,12 +13869,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/espeon-reverse-holo-11",
    "matched": "Espeon [Reverse Holo] #11   Pokemon Aquapolis",
    "aud": {
-    "raw": 298,
-    "g7": 588,
-    "g8": 734,
-    "g9": 1922,
-    "g95": 3668,
-    "g10": 5427
+    "raw": 297,
+    "g7": 586,
+    "g8": 732,
+    "g9": 1918,
+    "g95": 3659,
+    "g10": 5414
    },
    "basis": {
     "n90": 9,
@@ -13906,13 +13883,13 @@
     "pc_avg": 197.47,
     "grade": "raw (NM)"
    },
-   "value": 384,
-   "landed": 450,
-   "gap": 0.76,
+   "value": 383,
+   "landed": 449,
+   "gap": 0.77,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -147,
-   "psa9_net": 738
+   "psa8_net": -149,
+   "psa9_net": 734
   },
   {
    "title": "Pokemon - Shining Noctowl 110/105 Neo Destiny",
@@ -13937,12 +13914,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/shining-noctowl-110",
    "matched": "Shining Noctowl #110   Pokemon Neo Destiny",
    "aud": {
-    "raw": 377,
-    "g7": 725,
-    "g8": 833,
-    "g9": 1211,
-    "g95": 1428,
-    "g10": 5351
+    "raw": 376,
+    "g7": 723,
+    "g8": 831,
+    "g9": 1208,
+    "g95": 1424,
+    "g10": 5338
    },
    "basis": {
     "n90": 23,
@@ -13951,13 +13928,13 @@
     "pc_avg": 250.0,
     "grade": "raw (NM)"
    },
-   "value": 490,
-   "landed": 566,
+   "value": 489,
+   "landed": 565,
    "gap": 0.31,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -98,
-   "psa9_net": 272
+   "psa8_net": -100,
+   "psa9_net": 270
   },
   {
    "title": "Pokemon - Shining Kabutops 108/105 Neo Destiny",
@@ -13982,12 +13959,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/shining-kabutops-108",
    "matched": "Shining Kabutops #108   Pokemon Neo Destiny",
    "aud": {
-    "raw": 558,
-    "g7": 862,
-    "g8": 1157,
-    "g9": 1587,
-    "g95": 1746,
-    "g10": 7831
+    "raw": 556,
+    "g7": 859,
+    "g8": 1154,
+    "g9": 1583,
+    "g95": 1741,
+    "g10": 7812
    },
    "basis": {
     "n90": 23,
@@ -13996,13 +13973,13 @@
     "pc_avg": 369.99,
     "grade": "raw (NM)"
    },
-   "value": 791,
-   "landed": 898,
+   "value": 789,
+   "landed": 896,
    "gap": -0.19,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 225,
-   "psa9_net": 514
+   "psa8_net": 223,
+   "psa9_net": 511
   },
   {
    "title": "Pokemon - Espeon 11/147 Rev Holo Aquapolis",
@@ -14027,12 +14004,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/espeon-reverse-holo-11",
    "matched": "Espeon [Reverse Holo] #11   Pokemon Aquapolis",
    "aud": {
-    "raw": 298,
-    "g7": 588,
-    "g8": 734,
-    "g9": 1922,
-    "g95": 3668,
-    "g10": 5427
+    "raw": 297,
+    "g7": 586,
+    "g8": 732,
+    "g9": 1918,
+    "g95": 3659,
+    "g10": 5414
    },
    "basis": {
     "n90": 9,
@@ -14041,13 +14018,13 @@
     "pc_avg": 197.47,
     "grade": "raw (NM)"
    },
-   "value": 384,
-   "landed": 450,
+   "value": 383,
+   "landed": 449,
    "gap": 0.67,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -111,
-   "psa9_net": 774
+   "psa8_net": -113,
+   "psa9_net": 770
   },
   {
    "title": "Pokemon - Golem Rev Holo 148/144 Skyridge",
@@ -14072,12 +14049,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/golem-reverse-holo-148",
    "matched": "Golem [Reverse Holo] #148   Pokemon Skyridge",
    "aud": {
-    "raw": 489,
-    "g7": 703,
-    "g8": 1098,
-    "g9": 2028,
-    "g95": 2231,
-    "g10": 6030
+    "raw": 487,
+    "g7": 701,
+    "g8": 1095,
+    "g9": 2023,
+    "g95": 2226,
+    "g10": 6015
    },
    "basis": {
     "n90": 3,
@@ -14086,13 +14063,13 @@
     "pc_avg": 324.07,
     "grade": "raw (NM)"
    },
-   "value": 882,
-   "landed": 998,
+   "value": 880,
+   "landed": 995,
    "gap": -0.27,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 119,
-   "psa9_net": 857
+   "psa8_net": 117,
+   "psa9_net": 853
   },
   {
    "title": "Pokemon - Tyranitar 40/147 Rev Holo Aquapolis",
@@ -14117,12 +14094,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/tyranitar-reverse-holo-40",
    "matched": "Tyranitar [Reverse Holo] #40   Pokemon Aquapolis",
    "aud": {
-    "raw": 173,
-    "g7": 744,
-    "g8": 912,
-    "g9": 1056,
-    "g95": 1161,
-    "g10": 12211
+    "raw": 172,
+    "g7": 742,
+    "g8": 910,
+    "g9": 1053,
+    "g95": 1158,
+    "g10": 12181
    },
    "basis": {
     "n90": 6,
@@ -14131,13 +14108,13 @@
     "pc_avg": 114.5,
     "grade": "raw (NM)"
    },
-   "value": 810,
-   "landed": 919,
+   "value": 808,
+   "landed": 917,
    "gap": -0.26,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 99,
-   "psa9_net": 730
+   "psa8_net": 97,
+   "psa9_net": 727
   },
   {
    "title": "Pokemon - Crobat 147/144 Rev Holo Skyridge",
@@ -14162,12 +14139,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/crobat-reverse-holo-147",
    "matched": "Crobat [Reverse Holo] #147   Pokemon Skyridge",
    "aud": {
-    "raw": 512,
-    "g7": 687,
-    "g8": 1102,
-    "g9": 1514,
-    "g95": 1666,
-    "g10": 13872
+    "raw": 510,
+    "g7": 685,
+    "g8": 1099,
+    "g9": 1511,
+    "g95": 1662,
+    "g10": 13838
    },
    "basis": {
     "n90": 4,
@@ -14176,13 +14153,13 @@
     "pc_avg": 339.31,
     "grade": "raw (NM)"
    },
-   "value": 700,
-   "landed": 798,
+   "value": 699,
+   "landed": 796,
    "gap": -0.15,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": 176,
-   "psa9_net": 555
+   "psa8_net": 174,
+   "psa9_net": 552
   },
   {
    "title": "Pokemon - Charizard 4/102 Holo Base Set Unlimited",
@@ -14212,12 +14189,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-base-set/charizard-4",
    "matched": "Charizard #4   Pokemon Base Set",
    "aud": {
-    "raw": 519,
-    "g7": 1103,
-    "g8": 1902,
-    "g9": 3198,
-    "g95": 10431,
-    "g10": 13439
+    "raw": 518,
+    "g7": 1101,
+    "g8": 1897,
+    "g9": 3190,
+    "g95": 10406,
+    "g10": 13406
    },
    "basis": {
     "n90": 3,
@@ -14226,13 +14203,13 @@
     "pc_avg": 344.58,
     "grade": "raw (NM)"
    },
-   "value": 1206,
-   "landed": 1354,
+   "value": 1203,
+   "landed": 1351,
    "gap": -0.54,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 819,
-   "psa9_net": 2543
+   "psa8_net": 815,
+   "psa9_net": 2536
   },
   {
    "title": "Pokemon - Arcanine 2/147 Rev Holo Aquapolis",
@@ -14257,12 +14234,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-aquapolis/arcanine-reverse-holo-2",
    "matched": "Arcanine [Reverse Holo] #2   Pokemon Aquapolis",
    "aud": {
-    "raw": 288,
+    "raw": 287,
     "g7": 306,
-    "g8": 706,
-    "g9": 1252,
-    "g95": 1376,
-    "g10": 2714
+    "g8": 704,
+    "g9": 1249,
+    "g95": 1373,
+    "g10": 2707
    },
    "basis": {
     "n90": 9,
@@ -14271,13 +14248,13 @@
     "pc_avg": 191.12,
     "grade": "raw (NM)"
    },
-   "value": 317,
-   "landed": 376,
+   "value": 316,
+   "landed": 375,
    "gap": 0.74,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -110,
-   "psa9_net": 418
+   "psa8_net": -111,
+   "psa9_net": 416
   },
   {
    "title": "Pokemon - Kabutops 150/144 Rev Holo Skyridge",
@@ -14302,12 +14279,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-skyridge/kabutops-reverse-holo-150",
    "matched": "Kabutops [Reverse Holo] #150   Pokemon Skyridge",
    "aud": {
-    "raw": 445,
-    "g7": 492,
-    "g8": 1083,
-    "g9": 1713,
-    "g95": 1884,
-    "g10": 5576
+    "raw": 444,
+    "g7": 491,
+    "g8": 1080,
+    "g9": 1708,
+    "g95": 1880,
+    "g10": 5563
    },
    "basis": {
     "n90": 3,
@@ -14316,13 +14293,13 @@
     "pc_avg": 295.0,
     "grade": "raw (NM)"
    },
-   "value": 754,
-   "landed": 857,
+   "value": 752,
+   "landed": 855,
    "gap": -0.27,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": 250,
-   "psa9_net": 1148
+   "psa8_net": 248,
+   "psa9_net": 1144
   },
   {
    "title": "Pokemon - Light Arcanine 12/105 Holo Neo Destiny",
@@ -14347,12 +14324,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-neo-destiny/light-arcanine-12",
    "matched": "Light Arcanine #12   Pokemon Neo Destiny",
    "aud": {
-    "raw": 390,
-    "g7": 676,
-    "g8": 767,
-    "g9": 1800,
-    "g95": 1979,
-    "g10": 11242
+    "raw": 389,
+    "g7": 674,
+    "g8": 765,
+    "g9": 1795,
+    "g95": 1974,
+    "g10": 11215
    },
    "basis": {
     "n90": 9,
@@ -14361,13 +14338,13 @@
     "pc_avg": 258.94,
     "grade": "raw (NM)"
    },
-   "value": 603,
-   "landed": 691,
-   "gap": -0.09,
+   "value": 602,
+   "landed": 689,
+   "gap": -0.08,
    "thin": false,
    "signal": "FAIR",
-   "psa8_net": -21,
-   "psa9_net": 775
+   "psa8_net": -23,
+   "psa9_net": 772
   },
   {
    "title": "Pokemon - Mewtwo 56/165 Rev Holo Expedition",
@@ -14392,12 +14369,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/mewtwo-reverse-holo-56",
    "matched": "Mewtwo [Reverse Holo] #56   Pokemon Expedition",
    "aud": {
-    "raw": 257,
-    "g7": 456,
-    "g8": 1456,
-    "g9": 2525,
-    "g95": 2778,
-    "g10": 15517
+    "raw": 256,
+    "g7": 455,
+    "g8": 1453,
+    "g9": 2519,
+    "g95": 2772,
+    "g10": 15479
    },
    "basis": {
     "n90": 10,
@@ -14406,13 +14383,13 @@
     "pc_avg": 170.29,
     "grade": "raw (NM)"
    },
-   "value": 415,
-   "landed": 484,
+   "value": 414,
+   "landed": 482,
    "gap": 0.33,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": 280,
-   "psa9_net": 1248
+   "psa8_net": 277,
+   "psa9_net": 1243
   },
   {
    "title": "Pokemon - Mewtwo 56/165 Rev Holo Expedition",
@@ -14437,12 +14414,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-expedition/mewtwo-reverse-holo-56",
    "matched": "Mewtwo [Reverse Holo] #56   Pokemon Expedition",
    "aud": {
-    "raw": 257,
-    "g7": 456,
-    "g8": 1456,
-    "g9": 2525,
-    "g95": 2778,
-    "g10": 15517
+    "raw": 256,
+    "g7": 455,
+    "g8": 1453,
+    "g9": 2519,
+    "g95": 2772,
+    "g10": 15479
    },
    "basis": {
     "n90": 10,
@@ -14451,13 +14428,13 @@
     "pc_avg": 170.29,
     "grade": "raw (NM)"
    },
-   "value": 415,
-   "landed": 484,
+   "value": 414,
+   "landed": 482,
    "gap": 0.11,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": 370,
-   "psa9_net": 1338
+   "psa8_net": 367,
+   "psa9_net": 1333
   },
   {
    "title": "Pokemon - Pidgey 85/110 Rev Holo Legendary Collection",
@@ -14483,11 +14460,11 @@
    "matched": "Pidgey [Reverse Holo] #85   Pokemon Legendary Collection",
    "aud": {
     "raw": 173,
-    "g7": 370,
-    "g8": 459,
-    "g9": 1430,
-    "g95": 1574,
-    "g10": 13998
+    "g7": 369,
+    "g8": 458,
+    "g9": 1427,
+    "g95": 1570,
+    "g10": 13964
    },
    "basis": {
     "n90": 4,
@@ -14496,13 +14473,13 @@
     "pc_avg": 114.97,
     "grade": "raw (NM)"
    },
-   "value": 261,
-   "landed": 315,
+   "value": 260,
+   "landed": 314,
    "gap": 0.53,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -92,
-   "psa9_net": 385
+   "psa8_net": -93,
+   "psa9_net": 383
   },
   {
    "title": "Pokemon - Raichu 61/165 Rev Holo Expedition",
@@ -14528,11 +14505,11 @@
    "matched": "Raichu [Reverse Holo] #61   Pokemon Expedition",
    "aud": {
     "raw": 129,
-    "g7": 294,
-    "g8": 338,
-    "g9": 1399,
-    "g95": 1539,
-    "g10": 6407
+    "g7": 293,
+    "g8": 337,
+    "g9": 1396,
+    "g95": 1535,
+    "g10": 6391
    },
    "basis": {
     "n90": 3,
@@ -14541,13 +14518,13 @@
     "pc_avg": 85.6,
     "grade": "raw (NM)"
    },
-   "value": 181,
+   "value": 180,
    "landed": 226,
-   "gap": 0.8,
+   "gap": 0.81,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -32,
-   "psa9_net": 752
+   "psa8_net": -33,
+   "psa9_net": 750
   },
   {
    "title": "Pokemon - Slowking 34/147 Rev Holo Aquapolis",
@@ -14597,10 +14574,10 @@
    "aud": {
     "raw": 128,
     "g7": 228,
-    "g8": 302,
-    "g9": 481,
-    "g95": 529,
-    "g10": 1508
+    "g8": 301,
+    "g9": 480,
+    "g95": 528,
+    "g10": 1504
    },
    "basis": {
     "n90": 5,
@@ -14609,13 +14586,13 @@
     "pc_avg": 85.14,
     "grade": "raw (NM)"
    },
-   "value": 181,
+   "value": 180,
    "landed": 226,
-   "gap": 0.2,
+   "gap": 0.21,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -67,
-   "psa9_net": 69
+   "psa8_net": -68,
+   "psa9_net": 68
   },
   {
    "title": "Pokemon - Kangaskhan 88/147 Rev Holo Aquapolis",
@@ -14646,11 +14623,11 @@
    "matched": "Kangaskhan [Reverse Holo] #88   Pokemon Aquapolis",
    "aud": {
     "raw": 61,
-    "g7": 230,
-    "g8": 377,
-    "g9": 502,
-    "g95": 552,
-    "g10": 2083
+    "g7": 229,
+    "g8": 376,
+    "g9": 500,
+    "g95": 550,
+    "g10": 2078
    },
    "basis": {
     "n90": 9,
@@ -14659,13 +14636,13 @@
     "pc_avg": 40.5,
     "grade": "raw (NM)"
    },
-   "value": 185,
-   "landed": 231,
-   "gap": 0.13,
+   "value": 184,
+   "landed": 230,
+   "gap": 0.14,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -4,
-   "psa9_net": 94
+   "psa8_net": -5,
+   "psa9_net": 93
   },
   {
    "title": "Pokemon - Kadabra 84/165 Rev Holo Expedition",
@@ -14696,11 +14673,11 @@
    "matched": "Kadabra [Reverse Holo] #84   Pokemon Expedition",
    "aud": {
     "raw": 111,
-    "g7": 181,
-    "g8": 245,
-    "g9": 761,
-    "g95": 837,
-    "g10": 914
+    "g7": 180,
+    "g8": 244,
+    "g9": 759,
+    "g95": 835,
+    "g10": 911
    },
    "basis": {
     "n90": 10,
@@ -14709,13 +14686,13 @@
     "pc_avg": 73.55,
     "grade": "raw (NM)"
    },
-   "value": 121,
+   "value": 120,
    "landed": 160,
-   "gap": 0.28,
+   "gap": 0.29,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -53,
-   "psa9_net": 670
+   "psa8_net": -54,
+   "psa9_net": 667
   },
   {
    "title": "Pokemon - Gyarados Ex 114/122 XY Breakpoint",
@@ -14747,10 +14724,10 @@
    "aud": {
     "raw": 96,
     "g7": 143,
-    "g8": 243,
-    "g9": 460,
-    "g95": 505,
-    "g10": 3288
+    "g8": 242,
+    "g9": 458,
+    "g95": 504,
+    "g10": 3280
    },
    "basis": {
     "n90": 23,
@@ -14760,12 +14737,12 @@
     "grade": "raw (NM)"
    },
    "value": 118,
-   "landed": 158,
+   "landed": 157,
    "gap": 0.62,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -114,
-   "psa9_net": 88
+   "psa8_net": -115,
+   "psa9_net": 87
   },
   {
    "title": "Pokemon - Kangaskhan Holo 5/64 Jungle PSA 9",
@@ -14799,8 +14776,8 @@
     "g7": 59,
     "g8": 98,
     "g9": 187,
-    "g95": 197,
-    "g10": 7538
+    "g95": 196,
+    "g10": 7519
    },
    "basis": {
     "n90": 26,
@@ -14865,8 +14842,8 @@
     "g7": 59,
     "g8": 98,
     "g9": 187,
-    "g95": 197,
-    "g10": 7538
+    "g95": 196,
+    "g10": 7519
    },
    "basis": {
     "n90": 30,
@@ -14908,8 +14885,8 @@
     "g7": 59,
     "g8": 98,
     "g9": 187,
-    "g95": 197,
-    "g10": 7538
+    "g95": 196,
+    "g10": 7519
    },
    "basis": {
     "grade": "PSA 6",
@@ -14947,8 +14924,8 @@
     "g7": 59,
     "g8": 98,
     "g9": 187,
-    "g95": 197,
-    "g10": 7538
+    "g95": 196,
+    "g10": 7519
    },
    "basis": {
     "grade": "PSA 5",
@@ -15029,8 +15006,8 @@
     "g7": 59,
     "g8": 98,
     "g9": 187,
-    "g95": 197,
-    "g10": 7538
+    "g95": 196,
+    "g10": 7519
    },
    "basis": {
     "grade": "PSA 4",
@@ -15068,8 +15045,8 @@
     "g7": 59,
     "g8": 98,
     "g9": 187,
-    "g95": 197,
-    "g10": 7538
+    "g95": 196,
+    "g10": 7519
    },
    "basis": {
     "grade": "PSA 3",
@@ -15110,8 +15087,8 @@
     "g7": 59,
     "g8": 98,
     "g9": 187,
-    "g95": 197,
-    "g10": 7538
+    "g95": 196,
+    "g10": 7519
    },
    "basis": {
     "grade": "PSA 2",
@@ -15174,9 +15151,9 @@
     "raw": 38,
     "g7": 84,
     "g8": 113,
-    "g9": 209,
+    "g9": 208,
     "g95": 219,
-    "g10": 1060
+    "g10": 1057
    },
    "basis": {
     "n90": 25,
@@ -15185,8 +15162,8 @@
     "pc_avg": 702.94,
     "grade": "PSA 10"
    },
-   "value": 1131,
-   "landed": 1293,
+   "value": 1128,
+   "landed": 1290,
    "gap": -0.19,
    "thin": false,
    "signal": "FAIR"
@@ -15215,7 +15192,7 @@
    "matched": "Ho-Oh GX #13   Pokemon Japanese GX Battle Boost",
    "aud": {
     "raw": 7,
-    "g8": 19,
+    "g8": 18,
     "g9": 27,
     "g95": 30,
     "g10": 116
@@ -15227,9 +15204,9 @@
     "thin": true,
     "grade": "PSA 8"
    },
-   "value": 19,
+   "value": 18,
    "landed": 70,
-   "gap": 20.9,
+   "gap": 22.12,
    "thin": true,
    "signal": "OVER"
   },
@@ -15256,12 +15233,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-svg-special-set/charmander-51",
    "matched": "Charmander #51   Pokemon Japanese SVG Special Set",
    "aud": {
-    "raw": 155,
+    "raw": 154,
     "g7": 68,
     "g8": 106,
     "g9": 117,
     "g95": 127,
-    "g10": 292
+    "g10": 291
    },
    "basis": {
     "n90": 30,
@@ -15270,8 +15247,8 @@
     "pc_avg": 193.58,
     "grade": "PSA 10"
    },
-   "value": 292,
-   "landed": 371,
+   "value": 291,
+   "landed": 370,
    "gap": 0.12,
    "thin": false,
    "signal": "OVER-US"
@@ -15303,7 +15280,7 @@
     "g7": 47,
     "g8": 59,
     "g9": 107,
-    "g95": 118,
+    "g95": 117,
     "g10": 179
    },
    "basis": {
@@ -15373,9 +15350,9 @@
     "raw": 41,
     "g7": 90,
     "g8": 123,
-    "g9": 271,
+    "g9": 270,
     "g95": 298,
-    "g10": 2329
+    "g10": 2323
    },
    "basis": {
     "n90": 7,
@@ -15389,8 +15366,8 @@
    "gap": 0.12,
    "thin": false,
    "signal": "OVER-US",
-   "psa8_net": -58,
-   "psa9_net": 50
+   "psa8_net": -59,
+   "psa9_net": 49
   },
   {
    "title": "Pokemon - PSA 10 Oricorio ex 024 - Mega Charizard UPC Promo",
@@ -15484,12 +15461,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-dragon-frontiers/latias-ex-95",
    "matched": "Latias EX #95   Pokemon Dragon Frontiers",
    "aud": {
-    "raw": 255,
-    "g7": 421,
-    "g8": 852,
-    "g9": 4972,
-    "g95": 5469,
-    "g10": 5967
+    "raw": 254,
+    "g7": 420,
+    "g8": 849,
+    "g9": 4960,
+    "g95": 5456,
+    "g10": 5952
    },
    "basis": {
     "n90": 20,
@@ -15498,8 +15475,8 @@
     "pc_avg": 3298.5,
     "grade": "PSA 9"
    },
-   "value": 2065,
-   "landed": 2321,
+   "value": 2060,
+   "landed": 2316,
    "gap": 1.93,
    "thin": false,
    "signal": "OVER"
@@ -15531,8 +15508,8 @@
     "g7": 38,
     "g8": 90,
     "g9": 162,
-    "g95": 178,
-    "g10": 3316
+    "g95": 177,
+    "g10": 3308
    },
    "basis": {
     "n90": 2,
@@ -15541,8 +15518,8 @@
     "thin": true,
     "grade": "PSA 10"
    },
-   "value": 3316,
-   "landed": 3698,
+   "value": 3308,
+   "landed": 3689,
    "gap": 0.28,
    "thin": true,
    "signal": "OVER"
@@ -15593,12 +15570,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-fossil/slowpoke-1st-edition-55",
    "matched": "Slowpoke [1st Edition] #55   Pokemon Fossil",
    "aud": {
-    "raw": 8,
+    "raw": 7,
     "g7": 35,
     "g8": 42,
     "g9": 69,
     "g95": 75,
-    "g10": 701
+    "g10": 699
    },
    "basis": {
     "n90": 26,
@@ -15607,8 +15584,8 @@
     "pc_avg": 465.0,
     "grade": "PSA 10"
    },
-   "value": 748,
-   "landed": 872,
+   "value": 746,
+   "landed": 870,
    "gap": 0.34,
    "thin": false,
    "signal": "OVER"
@@ -15638,10 +15615,10 @@
    "aud": {
     "raw": 195,
     "g7": 188,
-    "g8": 263,
-    "g9": 407,
-    "g95": 448,
-    "g10": 1734
+    "g8": 262,
+    "g9": 406,
+    "g95": 447,
+    "g10": 1729
    },
    "basis": {
     "n90": 1,
@@ -15650,8 +15627,8 @@
     "thin": true,
     "grade": "PSA 9"
    },
-   "value": 407,
-   "landed": 497,
+   "value": 406,
+   "landed": 496,
    "gap": 1.24,
    "thin": true,
    "signal": "OVER"
@@ -15684,7 +15661,7 @@
     "g8": 42,
     "g9": 47,
     "g95": 51,
-    "g10": 355
+    "g10": 354
    },
    "basis": {
     "n90": 5,
@@ -15693,8 +15670,8 @@
     "pc_avg": 235.55,
     "grade": "PSA 10"
    },
-   "value": 377,
-   "landed": 464,
+   "value": 376,
+   "landed": 463,
    "gap": 1.18,
    "thin": false,
    "signal": "OVER"
@@ -15724,9 +15701,9 @@
    "aud": {
     "raw": 75,
     "g8": 37,
-    "g9": 83,
-    "g95": 147,
-    "g10": 192
+    "g9": 82,
+    "g95": 146,
+    "g10": 191
    },
    "basis": {
     "grade": "CGC 10",
@@ -15734,8 +15711,8 @@
     "n90": null,
     "thin": true
    },
-   "value": 259,
-   "landed": 334,
+   "value": 258,
+   "landed": 333,
    "gap": 0.26,
    "thin": true,
    "signal": "OVER-US"
@@ -15768,7 +15745,7 @@
     "g8": 24,
     "g9": 51,
     "g95": 52,
-    "g10": 295
+    "g10": 294
    },
    "basis": {
     "n90": 24,
@@ -15777,9 +15754,9 @@
     "pc_avg": 195.74,
     "grade": "PSA 10"
    },
-   "value": 298,
-   "landed": 377,
-   "gap": -0.06,
+   "value": 297,
+   "landed": 376,
+   "gap": -0.05,
    "thin": false,
    "signal": "FAIR"
   },
@@ -15807,11 +15784,11 @@
    "matched": "Venusaur #15   Pokemon Base Set",
    "aud": {
     "raw": 117,
-    "g7": 309,
-    "g8": 392,
-    "g9": 829,
-    "g95": 912,
-    "g10": 5804
+    "g7": 308,
+    "g8": 391,
+    "g9": 827,
+    "g95": 910,
+    "g10": 5790
    },
    "basis": {
     "n90": 30,
@@ -15820,8 +15797,8 @@
     "pc_avg": 260.0,
     "grade": "PSA 8"
    },
-   "value": 392,
-   "landed": 481,
+   "value": 391,
+   "landed": 480,
    "gap": 0.18,
    "thin": false,
    "signal": "OVER-US"
@@ -15849,12 +15826,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-base-set/pikachu-1st-edition-red-cheeks-58",
    "matched": "Pikachu [1st Edition Red Cheeks] #58   Pokemon Base Set",
    "aud": {
-    "raw": 583,
-    "g7": 1296,
-    "g8": 1589,
-    "g9": 4035,
-    "g95": 4146,
-    "g10": 43282
+    "raw": 582,
+    "g7": 1293,
+    "g8": 1585,
+    "g9": 4025,
+    "g95": 4135,
+    "g10": 43176
    },
    "basis": {
     "n90": 17,
@@ -15863,8 +15840,8 @@
     "pc_avg": 1054.09,
     "grade": "PSA 8"
    },
-   "value": 1587,
-   "landed": 1796,
+   "value": 1584,
+   "landed": 1791,
    "gap": 0.31,
    "thin": false,
    "signal": "OVER"
@@ -15897,7 +15874,7 @@
     "g8": 90,
     "g9": 226,
     "g95": 282,
-    "g10": 1281
+    "g10": 1278
    },
    "basis": {
     "n90": 5,
@@ -15906,8 +15883,8 @@
     "pc_avg": 850.0,
     "grade": "PSA 10"
    },
-   "value": 1281,
-   "landed": 1459,
+   "value": 1278,
+   "landed": 1456,
    "gap": -0.08,
    "thin": false,
    "signal": "FAIR"
@@ -15963,7 +15940,7 @@
     "g8": 50,
     "g9": 84,
     "g95": 92,
-    "g10": 475
+    "g10": 474
    },
    "basis": {
     "n90": 30,
@@ -15972,8 +15949,8 @@
     "pc_avg": 315.0,
     "grade": "PSA 10"
    },
-   "value": 528,
-   "landed": 630,
+   "value": 526,
+   "landed": 628,
    "gap": -0.16,
    "thin": false,
    "signal": "FAIR"
@@ -16006,12 +15983,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-evolutions/charizard-11",
    "matched": "Charizard #11   Pokemon Evolutions",
    "aud": {
-    "raw": 110,
-    "g7": 153,
-    "g8": 181,
-    "g9": 315,
-    "g95": 794,
-    "g10": 16024
+    "raw": 109,
+    "g7": 152,
+    "g8": 180,
+    "g9": 314,
+    "g95": 792,
+    "g10": 15985
    },
    "basis": {
     "n90": 30,
@@ -16021,7 +15998,7 @@
     "grade": "PSA 9"
    },
    "value": 309,
-   "landed": 390,
+   "landed": 389,
    "gap": 0.2,
    "thin": false,
    "signal": "OVER-US"
@@ -16051,10 +16028,10 @@
    "aud": {
     "raw": 2,
     "g7": 18,
-    "g8": 42,
+    "g8": 41,
     "g9": 45,
     "g95": 92,
-    "g10": 233
+    "g10": 232
    },
    "basis": {
     "n90": 8,
@@ -16063,7 +16040,7 @@
     "pc_avg": 154.5,
     "grade": "PSA 10"
    },
-   "value": 237,
+   "value": 236,
    "landed": 310,
    "gap": -0.19,
    "thin": false,
@@ -16096,17 +16073,17 @@
     "g8": 25,
     "g9": 40,
     "g95": 44,
-    "g10": 197
+    "g10": 196
    },
    "basis": {
-    "n90": 17,
+    "n90": 16,
     "last": "2026-11-20",
     "basis": "90-day median",
     "pc_avg": 130.52,
     "grade": "PSA 10"
    },
-   "value": 194,
-   "landed": 263,
+   "value": 193,
+   "landed": 262,
    "gap": -0.15,
    "thin": false,
    "signal": "FAIR"
@@ -16136,10 +16113,10 @@
    "aud": {
     "raw": 194,
     "g7": 156,
-    "g8": 245,
-    "g9": 488,
-    "g95": 537,
-    "g10": 2709
+    "g8": 244,
+    "g9": 486,
+    "g95": 535,
+    "g10": 2702
    },
    "basis": {
     "n90": 10,
@@ -16148,8 +16125,8 @@
     "pc_avg": 1797.06,
     "grade": "PSA 10"
    },
-   "value": 2552,
-   "landed": 2857,
+   "value": 2546,
+   "landed": 2850,
    "gap": -0.15,
    "thin": false,
    "signal": "FAIR"
@@ -16177,12 +16154,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-base-set/charizard-4",
    "matched": "Charizard #4   Pokemon Base Set",
    "aud": {
-    "raw": 519,
-    "g7": 1103,
-    "g8": 1902,
-    "g9": 3198,
-    "g95": 10431,
-    "g10": 13439
+    "raw": 518,
+    "g7": 1101,
+    "g8": 1897,
+    "g9": 3190,
+    "g95": 10406,
+    "g10": 13406
    },
    "basis": {
     "n90": 30,
@@ -16192,9 +16169,9 @@
     "grade": "CGC 7",
     "estimate": "CGC valued at 80% of the PSA/BGS price (no CGC 7 column)"
    },
-   "value": 883,
-   "landed": 1021,
-   "gap": 0.13,
+   "value": 881,
+   "landed": 1019,
+   "gap": 0.14,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -16224,9 +16201,9 @@
     "raw": 54,
     "g7": 74,
     "g8": 128,
-    "g9": 398,
-    "g95": 439,
-    "g10": 12363
+    "g9": 397,
+    "g95": 438,
+    "g10": 12333
    },
    "basis": {
     "n90": 3,
@@ -16271,11 +16248,11 @@
    "pc": "https://www.pricecharting.com/game/pokemon-perfect-order/gengar-eb-games-stamped-50",
    "matched": "Gengar [EB Games Stamped] #50   Pokemon Perfect Order",
    "aud": {
-    "raw": 129,
-    "g8": 90,
-    "g9": 202,
-    "g95": 222,
-    "g10": 1362
+    "raw": 128,
+    "g8": 89,
+    "g9": 201,
+    "g95": 221,
+    "g10": 1359
    },
    "basis": {
     "n90": 1,
@@ -16284,8 +16261,8 @@
     "thin": true,
     "grade": "PSA 10"
    },
-   "value": 1362,
-   "landed": 1548,
+   "value": 1359,
+   "landed": 1544,
    "gap": -0.13,
    "thin": true,
    "signal": "FAIR"
@@ -16363,8 +16340,8 @@
     "g7": 74,
     "g8": 74,
     "g9": 106,
-    "g95": 118,
-    "g10": 590
+    "g95": 117,
+    "g10": 588
    },
    "basis": {
     "n90": 30,
@@ -16447,9 +16424,9 @@
    "aud": {
     "raw": 97,
     "g7": 89,
-    "g8": 101,
-    "g9": 106,
-    "g95": 151,
+    "g8": 100,
+    "g9": 105,
+    "g95": 150,
     "g10": 240
    },
    "basis": {
@@ -16488,12 +16465,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-hidden-fates/moltres-&-zapdos-&-articuno-gx-69",
    "matched": "Moltres & Zapdos & Articuno GX #69   Pokemon Hidden Fates",
    "aud": {
-    "raw": 60,
+    "raw": 59,
     "g7": 58,
     "g8": 60,
     "g9": 77,
     "g95": 113,
-    "g10": 207
+    "g10": 206
    },
    "basis": {
     "n90": 30,
@@ -16502,7 +16479,7 @@
     "pc_avg": 137.16,
     "grade": "PSA 10"
    },
-   "value": 204,
+   "value": 203,
    "landed": 273,
    "gap": 0.16,
    "thin": false,
@@ -16536,7 +16513,7 @@
     "g8": 100,
     "g9": 119,
     "g95": 138,
-    "g10": 475
+    "g10": 474
    },
    "basis": {
     "n90": 30,
@@ -16545,9 +16522,9 @@
     "pc_avg": 66.56,
     "grade": "PSA 8"
    },
-   "value": 106,
-   "landed": 166,
-   "gap": 0.38,
+   "value": 105,
+   "landed": 165,
+   "gap": 0.39,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -16625,7 +16602,7 @@
     "g8": 43,
     "g9": 77,
     "g95": 84,
-    "g10": 252
+    "g10": 251
    },
    "basis": {
     "n90": 29,
@@ -16634,7 +16611,7 @@
     "pc_avg": 167.03,
     "grade": "PSA 10"
    },
-   "value": 261,
+   "value": 260,
    "landed": 336,
    "gap": -0.16,
    "thin": false,
@@ -16663,12 +16640,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/charmander-168",
    "matched": "Charmander #168   Pokemon Scarlet & Violet 151",
    "aud": {
-    "raw": 118,
+    "raw": 117,
     "g7": 96,
     "g8": 100,
     "g9": 134,
-    "g95": 136,
-    "g10": 799
+    "g95": 135,
+    "g10": 797
    },
    "basis": {
     "n90": 30,
@@ -16708,10 +16685,10 @@
    "aud": {
     "raw": 36,
     "g7": 44,
-    "g8": 54,
-    "g9": 78,
+    "g8": 53,
+    "g9": 77,
     "g95": 79,
-    "g10": 377
+    "g10": 376
    },
    "basis": {
     "n90": 30,
@@ -16782,12 +16759,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-rocket-gang/dark-magneton-82",
    "matched": "Dark Magneton #82   Pokemon Japanese Rocket Gang",
    "aud": {
-    "raw": 21,
+    "raw": 20,
     "g7": 45,
     "g8": 74,
     "g9": 109,
-    "g95": 151,
-    "g10": 733
+    "g95": 150,
+    "g10": 731
    },
    "basis": {
     "n90": 30,
@@ -16855,10 +16832,10 @@
    "aud": {
     "raw": 18,
     "g7": 53,
-    "g8": 115,
+    "g8": 114,
     "g9": 221,
-    "g95": 240,
-    "g10": 3316
+    "g95": 239,
+    "g10": 3308
    },
    "basis": {
     "n90": 30,
@@ -16867,9 +16844,9 @@
     "pc_avg": 76.01,
     "grade": "PSA 8"
    },
-   "value": 121,
+   "value": 120,
    "landed": 182,
-   "gap": 0.28,
+   "gap": 0.29,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -16988,9 +16965,9 @@
     "raw": 70,
     "g7": 18,
     "g8": 77,
-    "g9": 100,
-    "g95": 130,
-    "g10": 216
+    "g9": 99,
+    "g95": 129,
+    "g10": 215
    },
    "basis": {
     "n90": 30,
@@ -17029,7 +17006,7 @@
    "matched": "Raikou V #GG41   Pokemon Crown Zenith",
    "aud": {
     "raw": 60,
-    "g7": 57,
+    "g7": 56,
     "g8": 60,
     "g9": 75,
     "g95": 84,
@@ -17076,7 +17053,7 @@
     "g8": 48,
     "g9": 69,
     "g95": 77,
-    "g10": 372
+    "g10": 371
    },
    "basis": {
     "n90": 19,
@@ -17117,9 +17094,9 @@
     "raw": 55,
     "g7": 42,
     "g8": 53,
-    "g9": 98,
+    "g9": 97,
     "g95": 107,
-    "g10": 1507
+    "g10": 1504
    },
    "basis": {
     "grade": "CGC 10",
@@ -17127,9 +17104,9 @@
     "n90": null,
     "thin": true
    },
-   "value": 257,
-   "landed": 332,
-   "gap": 0.02,
+   "value": 256,
+   "landed": 331,
+   "gap": 0.03,
    "thin": true,
    "signal": "OVER-US"
   },
@@ -17159,9 +17136,9 @@
     "raw": 87,
     "g7": 80,
     "g8": 89,
-    "g9": 121,
-    "g95": 136,
-    "g10": 1082
+    "g9": 120,
+    "g95": 135,
+    "g10": 1079
    },
    "basis": {
     "n90": 30,
@@ -17170,9 +17147,9 @@
     "pc_avg": 80.07,
     "grade": "PSA 9"
    },
-   "value": 124,
+   "value": 123,
    "landed": 185,
-   "gap": 0.18,
+   "gap": 0.19,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -17250,12 +17227,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-inferno-x/mega-charizard-x-ex-110",
    "matched": "Mega Charizard X Ex #110   Pokemon Japanese Inferno X",
    "aud": {
-    "raw": 668,
-    "g7": 531,
-    "g8": 664,
-    "g9": 665,
-    "g95": 932,
-    "g10": 950
+    "raw": 666,
+    "g7": 529,
+    "g8": 662,
+    "g9": 663,
+    "g95": 929,
+    "g10": 948
    },
    "basis": {
     "n90": 30,
@@ -17264,8 +17241,8 @@
     "pc_avg": 630.51,
     "grade": "PSA 10"
    },
-   "value": 927,
-   "landed": 1069,
+   "value": 925,
+   "landed": 1067,
    "gap": 0.08,
    "thin": false,
    "signal": "OVER-US"
@@ -17318,7 +17295,7 @@
    "aud": {
     "raw": 34,
     "g7": 26,
-    "g8": 51,
+    "g8": 50,
     "g9": 60,
     "g95": 71,
     "g10": 144
@@ -17387,12 +17364,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-rocket-gang/dark-magneton-82",
    "matched": "Dark Magneton #82   Pokemon Japanese Rocket Gang",
    "aud": {
-    "raw": 21,
+    "raw": 20,
     "g7": 45,
     "g8": 74,
     "g9": 109,
-    "g95": 151,
-    "g10": 733
+    "g95": 150,
+    "g10": 731
    },
    "basis": {
     "n90": 30,
@@ -17474,22 +17451,22 @@
    "matched": "Mega Sableye & Tyranitar GX #225   Pokemon Unified Minds",
    "aud": {
     "raw": 73,
-    "g7": 36,
+    "g7": 35,
     "g8": 85,
-    "g9": 94,
-    "g95": 103,
-    "g10": 634
+    "g9": 93,
+    "g95": 102,
+    "g10": 633
    },
    "basis": {
-    "n90": 13,
+    "n90": 12,
     "last": "2026-11-19",
     "basis": "90-day median",
     "pc_avg": 62.04,
     "grade": "PSA 9"
    },
-   "value": 101,
-   "landed": 161,
-   "gap": 0.36,
+   "value": 98,
+   "landed": 157,
+   "gap": 0.4,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -17563,11 +17540,11 @@
    "matched": "Vaporeon #134   Pokemon Japanese Jungle",
    "aud": {
     "raw": 44,
-    "g7": 103,
+    "g7": 102,
     "g8": 176,
-    "g9": 415,
-    "g95": 457,
-    "g10": 6007
+    "g9": 414,
+    "g95": 456,
+    "g10": 5992
    },
    "basis": {
     "n90": 30,
@@ -17576,8 +17553,8 @@
     "pc_avg": 275.0,
     "grade": "PSA 9"
    },
-   "value": 431,
-   "landed": 524,
+   "value": 430,
+   "landed": 523,
    "gap": -0.14,
    "thin": false,
    "signal": "FAIR"
@@ -17606,10 +17583,10 @@
    "matched": "Yveltal EX #6   Pokemon Japanese Super Legend",
    "aud": {
     "raw": 54,
-    "g8": 136,
-    "g9": 151,
+    "g8": 135,
+    "g9": 150,
     "g95": 331,
-    "g10": 657
+    "g10": 655
    },
    "basis": {
     "n90": 10,
@@ -17618,9 +17595,9 @@
     "pc_avg": 99.99,
     "grade": "PSA 9"
    },
-   "value": 151,
+   "value": 150,
    "landed": 215,
-   "gap": 0.44,
+   "gap": 0.45,
    "thin": false,
    "signal": "OVER"
   },
@@ -17719,9 +17696,9 @@
     "raw": 25,
     "g7": 27,
     "g8": 30,
-    "g9": 51,
+    "g9": 50,
     "g95": 56,
-    "g10": 110
+    "g10": 109
    },
    "basis": {
     "n90": 30,
@@ -17730,9 +17707,9 @@
     "pc_avg": 72.77,
     "grade": "PSA 10"
    },
-   "value": 109,
+   "value": 108,
    "landed": 169,
-   "gap": 0.03,
+   "gap": 0.04,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -17773,9 +17750,9 @@
     "pc_avg": 52.25,
     "grade": "PSA 10"
    },
-   "value": 80,
+   "value": 79,
    "landed": 137,
-   "gap": 0.15,
+   "gap": 0.17,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -17878,21 +17855,21 @@
    "aud": {
     "raw": 280,
     "g7": 207,
-    "g8": 300,
-    "g9": 330,
-    "g95": 363,
-    "g10": 542
+    "g8": 299,
+    "g9": 329,
+    "g95": 362,
+    "g10": 541
    },
    "basis": {
-    "n90": 10,
+    "n90": 9,
     "last": "2026-11-23",
     "basis": "90-day median",
     "pc_avg": 240.5,
     "grade": "BGS 9.5"
    },
-   "value": 353,
-   "landed": 438,
-   "gap": 0.15,
+   "value": 346,
+   "landed": 430,
+   "gap": 0.18,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -17920,11 +17897,11 @@
    "matched": "Misty [1st Edition] #18   Pokemon Gym Heroes",
    "aud": {
     "raw": 244,
-    "g7": 198,
-    "g8": 278,
-    "g9": 674,
-    "g95": 742,
-    "g10": 5201
+    "g7": 197,
+    "g8": 277,
+    "g9": 672,
+    "g95": 740,
+    "g10": 5188
    },
    "basis": {
     "n90": 4,
@@ -17933,9 +17910,9 @@
     "pc_avg": 131.25,
     "grade": "PSA 7"
    },
-   "value": 198,
+   "value": 197,
    "landed": 267,
-   "gap": 0.19,
+   "gap": 0.2,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -17962,12 +17939,12 @@
    "pc": "https://www.pricecharting.com/game/pokemon-paldea-evolved/magikarp-203",
    "matched": "Magikarp #203   Pokemon Paldea Evolved",
    "aud": {
-    "raw": 389,
-    "g7": 320,
-    "g8": 399,
-    "g9": 544,
-    "g95": 751,
-    "g10": 4994
+    "raw": 388,
+    "g7": 319,
+    "g8": 398,
+    "g9": 543,
+    "g95": 749,
+    "g10": 4981
    },
    "basis": {
     "n90": 30,
@@ -17976,8 +17953,8 @@
     "pc_avg": 360.89,
     "grade": "PSA 9"
    },
-   "value": 528,
-   "landed": 630,
+   "value": 526,
+   "landed": 628,
    "gap": 0.03,
    "thin": false,
    "signal": "OVER-US"
@@ -18005,7 +17982,7 @@
    "pc": "https://www.pricecharting.com/game/pokemon-cosmic-eclipse/guzma-&-hala-229",
    "matched": "Guzma & Hala #229   Pokemon Cosmic Eclipse",
    "aud": {
-    "raw": 67,
+    "raw": 66,
     "g7": 39,
     "g8": 53,
     "g9": 61,
@@ -18020,7 +17997,7 @@
     "grade": "PSA 10"
    },
    "value": 271,
-   "landed": 348,
+   "landed": 347,
    "gap": -0.11,
    "thin": true,
    "signal": "FAIR"
@@ -18076,7 +18053,7 @@
     "g8": 80,
     "g9": 87,
     "g95": 96,
-    "g10": 151
+    "g10": 150
    },
    "basis": {
     "n90": 30,
@@ -18086,7 +18063,7 @@
     "grade": "PSA 10"
    },
    "value": 140,
-   "landed": 204,
+   "landed": 203,
    "gap": 0.11,
    "thin": false,
    "signal": "OVER-US"
@@ -18162,7 +18139,7 @@
     "g8": 82,
     "g9": 90,
     "g95": 125,
-    "g10": 185
+    "g10": 184
    },
    "basis": {
     "n90": 30,
@@ -18258,7 +18235,7 @@
     "grade": "PSA 10"
    },
    "value": 62,
-   "landed": 118,
+   "landed": 117,
    "gap": 0.63,
    "thin": false,
    "signal": "OVER-US"
@@ -18419,7 +18396,7 @@
     "g8": 72,
     "g9": 78,
     "g95": 154,
-    "g10": 262
+    "g10": 261
    },
    "basis": {
     "n90": 30,
@@ -18428,7 +18405,7 @@
     "pc_avg": 173.73,
     "grade": "PSA 10"
    },
-   "value": 279,
+   "value": 278,
    "landed": 356,
    "gap": 0.01,
    "thin": false,
@@ -18560,9 +18537,9 @@
     "pc_avg": 44.0,
     "grade": "PSA 10"
    },
-   "value": 72,
+   "value": 71,
    "landed": 128,
-   "gap": 0.28,
+   "gap": 0.3,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -18613,11 +18590,11 @@
    "matched": "M Charizard EX #69   Pokemon Flashfire",
    "aud": {
     "raw": 128,
-    "g7": 336,
-    "g8": 339,
-    "g9": 616,
-    "g95": 1043,
-    "g10": 3195
+    "g7": 335,
+    "g8": 338,
+    "g9": 615,
+    "g95": 1040,
+    "g10": 3187
    },
    "basis": {
     "n90": 5,
@@ -18626,13 +18603,13 @@
     "pc_avg": 85.0,
     "grade": "raw (NM)"
    },
-   "value": 362,
+   "value": 361,
    "landed": 425,
    "gap": -0.22,
    "thin": false,
    "signal": "UNDER",
-   "psa8_net": -58,
-   "psa9_net": 117
+   "psa8_net": -59,
+   "psa9_net": 116
   },
   {
    "title": "Pokemon - Entei 011/171 Best Of XY Japanese",
@@ -18706,7 +18683,7 @@
     "g8": 107,
     "g9": 113,
     "g95": 128,
-    "g10": 326
+    "g10": 325
    },
    "basis": {
     "n90": 30,
@@ -18715,8 +18692,8 @@
     "pc_avg": 216.28,
     "grade": "PSA 10"
    },
-   "value": 331,
-   "landed": 413,
+   "value": 330,
+   "landed": 412,
    "gap": 0.18,
    "thin": false,
    "signal": "OVER-US"
@@ -18795,7 +18772,7 @@
     "g8": 56,
     "g9": 75,
     "g95": 83,
-    "g10": 555
+    "g10": 554
    },
    "basis": {
     "n90": 9,
@@ -18804,8 +18781,8 @@
     "pc_avg": 368.27,
     "grade": "PSA 10"
    },
-   "value": 669,
-   "landed": 786,
+   "value": 668,
+   "landed": 784,
    "gap": -0.04,
    "thin": false,
    "signal": "FAIR"
@@ -18836,9 +18813,9 @@
     "raw": 206,
     "g7": 174,
     "g8": 207,
-    "g9": 228,
-    "g95": 333,
-    "g10": 417
+    "g9": 227,
+    "g95": 332,
+    "g10": 416
    },
    "basis": {
     "n90": 30,
@@ -18847,8 +18824,8 @@
     "pc_avg": 276.56,
     "grade": "PSA 10"
    },
-   "value": 422,
-   "landed": 514,
+   "value": 421,
+   "landed": 513,
    "gap": 0.16,
    "thin": false,
    "signal": "OVER-US"
@@ -18950,11 +18927,11 @@
    "pc": "https://www.pricecharting.com/game/pokemon-perfect-order/gengar-eb-games-stamped-50",
    "matched": "Gengar [EB Games Stamped] #50   Pokemon Perfect Order",
    "aud": {
-    "raw": 129,
-    "g8": 90,
-    "g9": 202,
-    "g95": 222,
-    "g10": 1362
+    "raw": 128,
+    "g8": 89,
+    "g9": 201,
+    "g95": 221,
+    "g10": 1359
    },
    "basis": {
     "n90": 1,
@@ -18963,8 +18940,8 @@
     "thin": true,
     "grade": "PSA 10"
    },
-   "value": 1362,
-   "landed": 1548,
+   "value": 1359,
+   "landed": 1544,
    "gap": -0.33,
    "thin": true,
    "signal": "UNDER"
@@ -18993,11 +18970,11 @@
    "matched": "Blastoise #2   Pokemon Base Set",
    "aud": {
     "raw": 116,
-    "g7": 358,
-    "g8": 539,
-    "g9": 1241,
-    "g95": 1366,
-    "g10": 13820
+    "g7": 357,
+    "g8": 538,
+    "g9": 1238,
+    "g95": 1362,
+    "g10": 13786
    },
    "basis": {
     "grade": "BGS 7.5",
@@ -19101,7 +19078,7 @@
     "g8": 75,
     "g9": 90,
     "g95": 100,
-    "g10": 774
+    "g10": 773
    },
    "basis": {
     "n90": 28,
@@ -19110,8 +19087,8 @@
     "pc_avg": 513.71,
     "grade": "PSA 10"
    },
-   "value": 829,
-   "landed": 962,
+   "value": 827,
+   "landed": 959,
    "gap": -0.2,
    "thin": false,
    "signal": "UNDER"
@@ -19144,18 +19121,18 @@
     "g8": 15,
     "g9": 41,
     "g95": 45,
-    "g10": 176
+    "g10": 175
    },
    "basis": {
-    "n90": 6,
+    "n90": 5,
     "last": "2026-10-12",
     "basis": "90-day median",
     "pc_avg": 116.57,
     "grade": "PSA 10"
    },
-   "value": 187,
-   "landed": 255,
-   "gap": 0.02,
+   "value": 180,
+   "landed": 248,
+   "gap": 0.06,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -19224,11 +19201,11 @@
    "matched": "Pikachu #241   Pokemon Cosmic Eclipse",
    "aud": {
     "raw": 254,
-    "g7": 256,
-    "g8": 276,
+    "g7": 255,
+    "g8": 275,
     "g9": 323,
-    "g95": 541,
-    "g10": 2288
+    "g95": 540,
+    "g10": 2282
    },
    "basis": {
     "n90": 30,
@@ -19237,9 +19214,9 @@
     "pc_avg": 214.53,
     "grade": "PSA 9"
    },
-   "value": 334,
-   "landed": 416,
-   "gap": 0.16,
+   "value": 333,
+   "landed": 415,
+   "gap": 0.17,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -19315,9 +19292,9 @@
     "raw": 54,
     "g7": 74,
     "g8": 128,
-    "g9": 398,
-    "g95": 439,
-    "g10": 12363
+    "g9": 397,
+    "g95": 438,
+    "g10": 12333
    },
    "basis": {
     "n90": 3,
@@ -19367,7 +19344,7 @@
     "g8": 77,
     "g9": 108,
     "g95": 301,
-    "g10": 1150
+    "g10": 1148
    },
    "basis": {
     "n90": 22,
@@ -19411,8 +19388,8 @@
     "g7": 59,
     "g8": 98,
     "g9": 187,
-    "g95": 197,
-    "g10": 7538
+    "g95": 196,
+    "g10": 7519
    },
    "basis": {
     "n90": 18,
@@ -19426,8 +19403,8 @@
    "gap": 2.62,
    "thin": false,
    "signal": "OVER",
-   "psa8_net": -60,
-   "psa9_net": -1
+   "psa8_net": -61,
+   "psa9_net": -2
   },
   {
    "title": "Pokemon - Nidoqueen 7/64 Jungle",
@@ -19455,9 +19432,9 @@
     "raw": 54,
     "g7": 74,
     "g8": 128,
-    "g9": 398,
-    "g95": 439,
-    "g10": 12363
+    "g9": 397,
+    "g95": 438,
+    "g10": 12333
    },
    "basis": {
     "n90": 3,
@@ -19520,10 +19497,10 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-shiny-star-v/charizard-vmax-308",
    "matched": "Charizard VMAX #308   Pokemon Japanese Shiny Star V",
    "aud": {
-    "raw": 151,
+    "raw": 150,
     "g7": 101,
     "g8": 129,
-    "g9": 165,
+    "g9": 164,
     "g95": 231,
     "g10": 272
    },
@@ -19535,7 +19512,7 @@
     "grade": "PSA 10"
    },
    "value": 271,
-   "landed": 348,
+   "landed": 347,
    "gap": 0.17,
    "thin": false,
    "signal": "OVER-US"
@@ -19567,7 +19544,7 @@
     "g7": 36,
     "g9": 41,
     "g95": 76,
-    "g10": 155
+    "g10": 154
    },
    "basis": {
     "n90": 6,
@@ -19577,7 +19554,7 @@
     "grade": "PSA 10"
    },
    "value": 153,
-   "landed": 218,
+   "landed": 217,
    "gap": 0.25,
    "thin": false,
    "signal": "OVER-US"
@@ -19607,7 +19584,7 @@
    "aud": {
     "raw": 95,
     "g8": 69,
-    "g9": 109,
+    "g9": 108,
     "g95": 119,
     "g10": 163
    },
@@ -19736,7 +19713,7 @@
    "matched": "Mega Charizard X ex #13   Pokemon Phantasmal Flames",
    "aud": {
     "raw": 7,
-    "g7": 20,
+    "g7": 19,
     "g8": 20,
     "g9": 37,
     "g95": 41,
@@ -19790,7 +19767,7 @@
     "pc_avg": 105.0,
     "grade": "PSA 10"
    },
-   "value": 168,
+   "value": 167,
    "landed": 234,
    "gap": -0.18,
    "thin": false,
@@ -19819,9 +19796,9 @@
    "pc": "https://www.pricecharting.com/game/pokemon-evolving-skies/medicham-v-186",
    "matched": "Medicham V #186   Pokemon Evolving Skies",
    "aud": {
-    "raw": 26,
+    "raw": 25,
     "g7": 23,
-    "g8": 25,
+    "g8": 24,
     "g9": 30,
     "g95": 32,
     "g10": 125
@@ -19833,9 +19810,9 @@
     "pc_avg": 82.96,
     "grade": "PSA 10"
    },
-   "value": 124,
+   "value": 123,
    "landed": 185,
-   "gap": 0.03,
+   "gap": 0.04,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -19866,7 +19843,7 @@
     "g8": 19,
     "g9": 22,
     "g95": 24,
-    "g10": 86
+    "g10": 85
    },
    "basis": {
     "n90": 5,
@@ -19909,7 +19886,7 @@
     "g8": 27,
     "g9": 30,
     "g95": 42,
-    "g10": 151
+    "g10": 150
    },
    "basis": {
     "n90": 19,
@@ -19991,7 +19968,7 @@
     "raw": 26,
     "g9": 35,
     "g95": 38,
-    "g10": 117
+    "g10": 116
    },
    "basis": {
     "grade": "CGC 10",
@@ -20000,7 +19977,7 @@
     "thin": true
    },
    "value": 83,
-   "landed": 141,
+   "landed": 140,
    "gap": 0.54,
    "thin": true,
    "signal": "OVER-US"
@@ -20031,7 +20008,7 @@
     "raw": 8,
     "g9": 58,
     "g95": 63,
-    "g10": 181
+    "g10": 180
    },
    "basis": {
     "grade": "CGC 10",
@@ -20082,9 +20059,9 @@
     "pc_avg": 37.63,
     "grade": "PSA 10"
    },
-   "value": 66,
-   "landed": 122,
-   "gap": 0.53,
+   "value": 65,
+   "landed": 121,
+   "gap": 0.56,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -20140,9 +20117,9 @@
    "matched": "Gengar EX #10   Pokemon Japanese M Master Deck Build Box",
    "aud": {
     "raw": 87,
-    "g9": 305,
-    "g95": 336,
-    "g10": 698
+    "g9": 304,
+    "g95": 335,
+    "g10": 697
    },
    "basis": {
     "n90": 5,
@@ -20151,8 +20128,8 @@
     "pc_avg": 463.28,
     "grade": "PSA 10"
    },
-   "value": 754,
-   "landed": 879,
+   "value": 752,
+   "landed": 877,
    "gap": -0.39,
    "thin": false,
    "signal": "UNDER"
@@ -20209,11 +20186,11 @@
    "matched": "Pokemon Center Lady #105   Pokemon Flashfire",
    "aud": {
     "raw": 53,
-    "g7": 116,
+    "g7": 115,
     "g8": 138,
     "g9": 241,
     "g95": 265,
-    "g10": 3035
+    "g10": 3027
    },
    "basis": {
     "n90": 12,
@@ -20228,7 +20205,7 @@
    "thin": false,
    "signal": "FAIR",
    "psa8_net": -65,
-   "psa9_net": 16
+   "psa9_net": 15
   },
   {
    "title": "Pokemon - Mega Lucario EX - Black Star Promo MEP033",
@@ -20383,7 +20360,7 @@
     "pc_avg": 103.77,
     "grade": "PSA 10"
    },
-   "value": 151,
+   "value": 150,
    "landed": 215,
    "gap": 0.09,
    "thin": false,
@@ -20438,9 +20415,9 @@
     "raw": 67,
     "g7": 51,
     "g8": 78,
-    "g9": 157,
-    "g95": 172,
-    "g10": 1508
+    "g9": 156,
+    "g95": 171,
+    "g10": 1504
    },
    "basis": {
     "n90": 2,
@@ -20449,9 +20426,9 @@
     "thin": true,
     "grade": "PSA 9"
    },
-   "value": 157,
+   "value": 156,
    "landed": 222,
-   "gap": -0.07,
+   "gap": -0.06,
    "thin": true,
    "signal": "FAIR"
   },
@@ -20506,7 +20483,7 @@
     "g8": 90,
     "g9": 98,
     "g95": 128,
-    "g10": 250
+    "g10": 249
    },
    "basis": {
     "grade": "BGS 10",
@@ -20514,9 +20491,9 @@
     "n90": null,
     "thin": true
    },
-   "value": 215,
-   "landed": 286,
-   "gap": 1.56,
+   "value": 214,
+   "landed": 285,
+   "gap": 1.58,
    "thin": true,
    "signal": "OVER"
   },
@@ -20610,11 +20587,11 @@
    "matched": "Lapras #131   Pokemon Japanese Mystery of the Fossils",
    "aud": {
     "raw": 29,
-    "g7": 102,
-    "g8": 117,
-    "g9": 221,
-    "g95": 383,
-    "g10": 1968
+    "g7": 101,
+    "g8": 116,
+    "g9": 220,
+    "g95": 382,
+    "g10": 1963
    },
    "basis": {
     "n90": 29,
@@ -20623,8 +20600,8 @@
     "pc_avg": 146.58,
     "grade": "PSA 9"
    },
-   "value": 225,
-   "landed": 297,
+   "value": 224,
+   "landed": 296,
    "gap": 0.25,
    "thin": false,
    "signal": "OVER-US"
@@ -20712,9 +20689,9 @@
     "pc_avg": 35.0,
     "grade": "PSA 10"
    },
-   "value": 54,
+   "value": 53,
    "landed": 108,
-   "gap": 0.37,
+   "gap": 0.4,
    "thin": false,
    "signal": "OVER-US"
   },
@@ -20766,10 +20743,10 @@
    "aud": {
     "raw": 38,
     "g7": 60,
-    "g8": 128,
-    "g9": 261,
+    "g8": 127,
+    "g9": 260,
     "g95": 286,
-    "g10": 2499
+    "g10": 2492
    },
    "basis": {
     "grade": "CGC 8.5",
@@ -20829,7 +20806,7 @@
     "raw": 45,
     "g9": 62,
     "g95": 68,
-    "g10": 181
+    "g10": 180
    },
    "basis": {
     "n90": 5,
@@ -20838,7 +20815,7 @@
     "pc_avg": 120.0,
     "grade": "PSA 10"
    },
-   "value": 155,
+   "value": 154,
    "landed": 219,
    "gap": 0.47,
    "thin": false,
@@ -20963,7 +20940,7 @@
     "g7": 87,
     "g8": 110,
     "g9": 148,
-    "g95": 163
+    "g95": 162
    },
    "basis": {
     "n90": 1,
@@ -21008,7 +20985,7 @@
     "g8": 30,
     "g9": 50,
     "g95": 90,
-    "g10": 340
+    "g10": 339
    },
    "basis": {
     "n90": 20,
@@ -21053,7 +21030,7 @@
     "g8": 49,
     "g9": 114,
     "g95": 125,
-    "g10": 559
+    "g10": 558
    },
    "basis": {
     "n90": 0,
@@ -21098,7 +21075,7 @@
     "g8": 36,
     "g9": 68,
     "g95": 75,
-    "g10": 466
+    "g10": 465
    },
    "basis": {
     "n90": 23,
@@ -21143,7 +21120,7 @@
     "g8": 34,
     "g9": 68,
     "g95": 75,
-    "g10": 452
+    "g10": 451
    },
    "basis": {
     "n90": 26,
@@ -21188,7 +21165,7 @@
     "g8": 34,
     "g9": 92,
     "g95": 101,
-    "g10": 571
+    "g10": 570
    },
    "basis": {
     "n90": 17,
@@ -21300,9 +21277,9 @@
     "raw": 42,
     "g7": 57,
     "g8": 71,
-    "g9": 239,
+    "g9": 238,
     "g95": 262,
-    "g10": 1929
+    "g10": 1924
    },
    "basis": {
     "n90": 9,
@@ -21312,10 +21289,10 @@
     "grade": "raw (NM)"
    },
    "value": 51,
-   "landed": 84,
+   "landed": 83,
    "gap": 0.65,
    "thin": false,
-   "signal": "OVER-US",
+   "signal": "OVER",
    "psa8_net": -116,
    "psa9_net": 11
   },
@@ -21635,7 +21612,7 @@
    "pc": "https://www.pricecharting.com/game/pokemon-chaos-rising/booster-box",
    "matched": "Booster Box   Pokemon Chaos Rising",
    "aud": {
-    "raw": 243
+    "raw": 242
    },
    "basis": {
     "n90": 59,
@@ -21645,7 +21622,7 @@
     "grade": "raw (NM)"
    },
    "value": 283,
-   "landed": 339,
+   "landed": 338,
    "gap": 0.05,
    "thin": false,
    "signal": "OVER-US",
@@ -21698,7 +21675,7 @@
    "pc": "https://www.pricecharting.com/game/pokemon-chilling-reign/booster-box?q=chilling+reign+booster+box",
    "matched": "Booster Box   Pokemon Chilling Reign",
    "aud": {
-    "raw": 644
+    "raw": 642
    },
    "basis": {
     "n90": 60,
@@ -21707,8 +21684,8 @@
     "pc_avg": 426.89,
     "grade": "raw (NM)"
    },
-   "value": 701,
-   "landed": 799,
+   "value": 699,
+   "landed": 797,
    "gap": -0.06,
    "thin": false,
    "signal": "FAIR",
@@ -21807,7 +21784,7 @@
    "pc": "https://www.pricecharting.com/game/pokemon-sword-&-shield/booster-box-base-set",
    "matched": "Booster Box [Base Set]   Pokemon Sword & Shield",
    "aud": {
-    "raw": 845
+    "raw": 843
    },
    "basis": {
     "n90": 21,
@@ -21816,9 +21793,9 @@
     "pc_avg": 560.49,
     "grade": "raw (NM)"
    },
-   "value": 904,
-   "landed": 1022,
-   "gap": -0.06,
+   "value": 902,
+   "landed": 1020,
+   "gap": -0.05,
    "thin": false,
    "signal": "FAIR",
    "psa8_net": null,
@@ -21847,7 +21824,7 @@
    "pc": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/base-set-booster-box",
    "matched": "Base Set Booster Box   Pokemon Scarlet & Violet",
    "aud": {
-    "raw": 385
+    "raw": 384
    },
    "basis": {
     "n90": 60,
@@ -21856,8 +21833,8 @@
     "pc_avg": 255.6,
     "grade": "raw (NM)"
    },
-   "value": 448,
-   "landed": 520,
+   "value": 447,
+   "landed": 519,
    "gap": -0.1,
    "thin": false,
    "signal": "FAIR",
@@ -21887,7 +21864,7 @@
    "pc": "https://www.pricecharting.com/game/pokemon-japanese-ruler-of-the-black-flame/booster-box",
    "matched": "Booster Box   Pokemon Japanese Ruler of the Black Flame",
    "aud": {
-    "raw": 200
+    "raw": 199
    },
    "basis": {
     "n90": 29,
@@ -21896,8 +21873,8 @@
     "pc_avg": 132.46,
     "grade": "raw (NM)"
    },
-   "value": 219,
-   "landed": 268,
+   "value": 218,
+   "landed": 267,
    "gap": -0.22,
    "thin": false,
    "signal": "UNDER",

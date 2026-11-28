@@ -1,5 +1,5 @@
 # Slab Finder summary 2026-11-28
-65,560 live listings · 1,806 new · 941 price drops · 3,949 relisted · 3,654 with a card value
+65,532 live listings · 1,811 new · 944 price drops · 3,949 relisted · 3,644 with a card value
 Default view: no US/UK/CA sellers, damaged/reprint/wrong-grader tags hidden, slabs over A$1,000 hidden. Prices are landed (postage, plus GST on overseas items). Highlights need a sold value at or under the price, or, where there's no sold value yet, a price well under the other live copies.
 
 ## SIR/SAR & IR/AR bulk — 587 bundles live, best value for show stock first
@@ -49,7 +49,7 @@ Only NM copies that still pay on a realistic grade mix (30% PSA 7, 50% PSA 8, up
 - A$528 PSA 9 Latios R 019/027 CP2 Legendary Shine Collection 1st Ed Pokemon Japanese (JP, japanseller777): no sold value yet — A$528 landed incl. GST, 20% under the next-cheapest other seller A$663, typical asking A$948 across 4 sellers https://www.ebay.com.au/itm/147654765769
 - A$811 Gastly 019/128 PSA 10 Gem Mint 1st Edition Pokemon Card Japanese e-Series (JP, osakasu): new, cheapest of 4 copies seen in 30 days; no sold value yet — A$811 landed incl. GST, the cheapest live copy (next-cheapest other seller A$812, typical asking A$898 across 3 sellers) https://www.ebay.com.au/itm/237210636803
 
-## EX era (want list) — 1,403 listings, 36 new, 27 drops, 0 under value
+## EX era (want list) — 1,401 listings, 36 new, 27 drops, 0 under value
 - A$236 Team Magma Groudon Holo 019/033 Japanese Pokemon PSA 1 Creased (JP, kominatosupply): no sold value yet — A$236 landed incl. GST, 24% under the next-cheapest other seller A$309, typical asking A$485 across 3 sellers https://www.ebay.com.au/itm/800917902249
 - A$841 Pokemon PSA 10 Rayquaza EX Emerald Break Campaign Promo 122/XY-P Japanese (JP, chikuwastorejapan): relisted cheaper (A$815 → A$764); no sold value yet — A$841 landed incl. GST, the cheapest live copy (next-cheapest other seller A$879, typical asking A$1,052 across 6 sellers) https://www.ebay.com.au/itm/960240014853
 
@@ -63,7 +63,7 @@ Only NM copies that still pay on a realistic grade mix (30% PSA 7, 50% PSA 8, up
 
 ## XY Generations — 366 listings, 9 new, 1 drops, 0 under value
 
-## Celebi / Prism Star / promos (want list) — 1,999 listings, 30 new, 36 drops, 2 under value
+## Celebi / Prism Star / promos (want list) — 1,997 listings, 30 new, 36 drops, 2 under value
 - A$45 (R) Pokemon TCG Celebi & Venusaur GX SR 096/095 SM9 Tag Bolt Japanese NM (AU, hudniccollectibles): A$45 landed, 50% under A$90 value (Raw, PriceCharting 2026-11-27) https://www.ebay.com.au/itm/117524203691
 - A$70 Celebi & Venusaur GX SR 096/095 SM9 Tag Bolt - Pokemon Card Japanese (JP, katanacards): A$70 landed incl. GST, 23% under A$90 value (Raw, PriceCharting 2026-11-27) https://www.ebay.com.au/itm/187951275332
 - A$511 Solgaleo 082/150 PR Ultra Shiny GX 2018 Pokemon Japanese PSA 10 (JP, miyaga-72): no sold value yet — A$511 landed incl. GST, 28% under the next-cheapest other seller A$705, typical asking A$819 across 3 sellers https://www.ebay.com.au/itm/820248655510
@@ -95,13 +95,13 @@ Only NM copies that still pay on a realistic grade mix (30% PSA 7, 50% PSA 8, up
 ## Undaunted reverse & Scyther (want list) — 40 listings, 3 new, 0 drops, 0 under value
 
 ## Want list: other (want list) — 302 listings, 7 new, 3 drops, 0 under value
-- A$362 PSA 10 2017 COSMOG 081/SM-P SM PROMO (AU, Purplish TCG): no sold value yet — A$362 landed, 26% under the next-cheapest other seller A$488, typical asking A$985 across 3 sellers · shop listing, last checked 28 Nov 10:30am https://purplishtcg.com/products/psa-10-2017-cosmog-081sm-p-sm-promo-157703549
+- A$362 PSA 10 2017 COSMOG 081/SM-P SM PROMO (AU, Purplish TCG): no sold value yet — A$362 landed, 26% under the next-cheapest other seller A$488, typical asking A$985 across 3 sellers · shop listing, last checked 28 Nov 12:18pm https://purplishtcg.com/products/psa-10-2017-cosmog-081sm-p-sm-promo-157703549
 
-## XY Evolutions (want list) — 171 listings, 0 new, 0 drops, 0 under value
+## XY Evolutions (want list) — 175 listings, 0 new, 0 drops, 0 under value
 
 ## Shining / Legend / POP — 7 listings, 0 new, 0 drops, 0 under value
 
-## BW & XY era — 584 listings, 11 new, 10 drops, 3 under value
+## BW & XY era — 583 listings, 11 new, 10 drops, 3 under value
 - A$408 Zekrom - 115/113 - Secret Rare - Legendary Treasures - Pokemon NM (AU, ctcollectable): A$408 landed, 32% under A$603 value (Raw, PriceCharting 2026-11-26) (+1 more copy also flagged) https://www.ebay.com.au/itm/307280351487
 - A$45 Pokemon Card Max Potion 121/116 Secret Rare Near Mint Plasma Freeze Pokemon TCG (AU, jersh-31): A$45 landed, 24% under A$59 value (Raw, PriceCharting 2026-11-26) https://www.ebay.com.au/itm/227377668957
 
@@ -126,10 +126,10 @@ Only NM copies that still pay on a realistic grade mix (30% PSA 7, 50% PSA 8, up
 - A$38 Arceus XY116 NM Full Art XY Series: Black Star Promo 2016 Pokémon Card (AU, jessiejaimaui, + postage): no sold value yet — A$38 landed, 46% under the next-cheapest other seller A$70, typical asking A$80 across 3 sellers https://www.ebay.com.au/itm/187509963084
 - A$99 PSA 10 VENUSAUR EX 233/XY-P JAPANESE PROMO CARD GYM STAMPED POKEMON #233 XY 2016 (AU, platformpokemon): no sold value yet — A$99 landed, 34% under the next-cheapest other seller A$149, typical asking A$201 across 3 sellers https://www.ebay.com.au/itm/198447386877
 - A$359 Rayquaza EX 122/XY-P Japanese Promo Pokemon Card 2015 (AU, pullstorm.tcg): no sold value yet — A$359 landed, 30% under the next-cheapest other seller A$511, typical asking A$573 across 4 sellers https://www.ebay.com.au/itm/940085721337
-- A$112 Japanese Pokemon Greninja (PROMO){W}〈209/XY-P〉[XY-P] (JP, Hareruya 2): no sold value yet — A$112 landed incl. GST, 29% under the next-cheapest other seller A$158, typical asking A$198 across 3 sellers · shop listing, last checked 28 Nov 10:30am https://www.hareruya2.com/en/products/9015685448000
+- A$112 Japanese Pokemon Greninja (PROMO){W}〈209/XY-P〉[XY-P] (JP, Hareruya 2): no sold value yet — A$112 landed incl. GST, 29% under the next-cheapest other seller A$158, typical asking A$198 across 3 sellers · shop listing, last checked 28 Nov 12:18pm https://www.hareruya2.com/en/products/9015685448000
 - A$252 Darkrai 037/XY-P Promo the Movie Black Star Sealed Pokemon Card Japanese (JP, animefindsjapan): price dropped A$249 → A$229; no sold value yet — A$252 landed incl. GST, the cheapest live copy (next-cheapest other seller A$288, typical asking A$422 across 4 sellers) https://www.ebay.com.au/itm/840088772357
 
-## Promos: SM / SWSH / SV / Mega (want list) — 3,360 listings, 70 new, 49 drops, 0 under value
+## Promos: SM / SWSH / SV / Mega (want list) — 3,359 listings, 70 new, 49 drops, 0 under value
 - A$99 Armored Mewtwo Promo 365/SM-P Sun & Moon Promos - Pokemon Card Japanese (JP, katanacards): no sold value yet — A$99 landed incl. GST, 48% under the next-cheapest other seller A$189, typical asking A$201 across 5 sellers (+1 more copy also flagged) https://www.ebay.com.au/itm/186795718977
 - A$24 Pokemon S-Chinese Card Sun&Moon GYM Promo 024/SM-P Mewtwo-GX Holo Mint (CN, tcgcollectorden): no sold value yet — A$24 landed incl. GST, 33% under the next-cheapest other seller A$35, typical asking A$45 across 3 sellers https://www.ebay.com.au/itm/388298780105
 - A$489 PSA 10 Pikachu Holo 108/Sm-P Promo Gym Summer Festa 2017 Japanese POKEMON (AU, 2stackt): no sold value yet — A$489 landed, 30% under the next-cheapest other seller A$699, typical asking A$736 across 4 sellers https://www.ebay.com.au/itm/407354360520
@@ -153,12 +153,12 @@ Only NM copies that still pay on a realistic grade mix (30% PSA 7, 50% PSA 8, up
 - A$408 Zekrom - 115/113 - Secret Rare - Legendary Treasures - Pokemon NM (AU, ctcollectable): A$408 landed, 32% under A$603 value (Raw, PriceCharting 2026-11-26) (+1 more copy also flagged) https://www.ebay.com.au/itm/307280351487
 - A$45 Pokemon Card Max Potion 121/116 Secret Rare Near Mint Plasma Freeze Pokemon TCG (AU, jersh-31): A$45 landed, 24% under A$59 value (Raw, PriceCharting 2026-11-26) https://www.ebay.com.au/itm/227377668957
 
-## Sealed: ETBs & booster boxes — 683 listings, 29 new, 5 drops, 11 under value
-- A$200 Mega Dream EX Booster Box - Pokemon TCG (AU, The Card Spot): at or under RRP: A$200 vs A$306 Booster box (36 packs) RRP (35% under) · shop listing, last checked 28 Nov 10:30am https://thecardspot.com.au/products/mega-dream-ex-booster-box-pokemon-tcg
+## Sealed: ETBs & booster boxes — 662 listings, 28 new, 4 drops, 11 under value
+- A$200 Mega Dream EX Booster Box - Pokemon TCG (AU, The Card Spot): at or under RRP: A$200 vs A$306 Booster box (36 packs) RRP (35% under) · shop listing, last checked 28 Nov 12:18pm https://thecardspot.com.au/products/mega-dream-ex-booster-box-pokemon-tcg
 - A$276 Pokemon TCG Pitch Black Booster Box Brand New Factory Sealed 2026 36 Packs (AU, alexxu1357_8): at or under RRP: A$276 vs A$306 Booster box (36 packs) RRP (10% under) https://www.ebay.com.au/itm/920189232137
-- A$285 Pokemon TCG - Perfect Order Booster Box (AU, Good Games): at or under RRP: A$285 vs A$306 Booster box (36 packs) RRP (7% under) · shop listing, last checked 28 Nov 10:30am https://goodgames.com.au/products/pokemon-tcg-perfect-order-booster-box
+- A$285 Pokemon TCG - Perfect Order Booster Box (AU, Good Games): at or under RRP: A$285 vs A$306 Booster box (36 packs) RRP (7% under) · shop listing, last checked 28 Nov 12:18pm https://goodgames.com.au/products/pokemon-tcg-perfect-order-booster-box
 - A$287 Pokemon Pitch Black Booster Box - NEW - SEALED (AU, eteknica): at or under RRP: A$287 vs A$306 Booster box (36 packs) RRP (6% under) https://www.ebay.com.au/itm/168815194654
-- A$290 Pokemon TCG Mega Evolution Perfect Order Booster Box (AU, Gameology): at or under RRP: A$290 vs A$306 Booster box (36 packs) RRP (5% under) · shop listing, last checked 28 Nov 10:30am https://gameology.com.au/products/pokemon-tcg-mega-evolution-perfect-order-booster-box
+- A$290 Pokemon TCG Mega Evolution Perfect Order Booster Box (AU, Gameology): at or under RRP: A$290 vs A$306 Booster box (36 packs) RRP (5% under) · shop listing, last checked 28 Nov 12:18pm https://gameology.com.au/products/pokemon-tcg-mega-evolution-perfect-order-booster-box
 
 ## Binders & lots — 251 listings, 137 new, 1 drops, 0 under value
 - A$317 Pokemon Japanese 1st Edition Card Lot 16 Cards Neo Genesis Team Rocket Fossil M (JP, triangle-japan-0204): new: A$317 incl. GST; 16 cards ≈ A$19.83 each. Check the photos for holos and condition https://www.ebay.com.au/itm/377681726902
@@ -179,7 +179,7 @@ Only NM copies that still pay on a realistic grade mix (30% PSA 7, 50% PSA 8, up
 
 ## Soccer: Nyoni (want list) — 2 listings, 0 new, 0 drops, 0 under value
 
-## Other — 12,707 listings, 0 new, 0 drops, 0 under value
+## Other — 12,705 listings, 6 new, 3 drops, 0 under value
 
 ## Values to recheck — 1
 Most live copies sit well under these values, so the value or the card match is probably off. Not counted as under value.
